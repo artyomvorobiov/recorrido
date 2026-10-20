@@ -1,0 +1,101 @@
+{
+  "city": {
+    "id": "myshkin",
+    "name": {"ru": "Мышкин", "en": "Myshkin"},
+    "region": {"ru": "Ярославская область", "en": "Yaroslavl Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Один из самых маленьких городов России на высоком берегу Волги, который придумал себе бренд из собственного названия: здесь есть Музей Мыши, мышиные сувениры и даже мышиные праздники. А ещё — купеческие дома, старинные музеи и спокойная Волга.",
+      "en": "One of Russia's smallest towns, on the high bank of the Volga, which built a whole brand on its own name: there is a Mouse Museum, mouse souvenirs and even mouse festivals. Add merchant houses, quirky museums and the calm Volga."
+    },
+    "gettingThere": {
+      "ru": "Около 280 км от Москвы — 4 часа на машине через Калязин или Углич. От Углича — 40 км. Летом в Мышкин заходят речные теплоходы.",
+      "en": "About 280 km from Moscow — 4 hours by car via Kalyazin or Uglich. Uglich is 40 km away. In summer river cruise ships stop here."
+    },
+    "coordinate": [57.7880, 38.4547],
+    "emoji": "🐭",
+    "size": "small",
+    "tags": ["volga"],
+    "wiki": {"ru": "Мышкин", "en": "Myshkin"}
+  },
+  "routes": [
+    {
+      "id": "myshkin-walk",
+      "title": {"ru": "Мышкин: город одной мыши", "en": "Myshkin: the town of one mouse"},
+      "summary": {
+        "ru": "Прогулка на полдня по самому уютному городку Верхней Волги: Музей Мыши, Успенский собор над рекой, народный музей с деревянными постройками и музей валенок.",
+        "en": "A half-day walk around the cosiest little town on the Upper Volga: the Mouse Museum, the Dormition Cathedral above the river, the people's museum with old wooden buildings and the museum of felt boots."
+      },
+      "emoji": "🐭",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "myshkin-mouse-museum",
+              "title": {"ru": "Музей Мыши", "en": "Mouse Museum"},
+              "coordinate": [57.78590, 38.45330],
+              "category": "museum",
+              "visit": 40,
+              "details": {
+                "ru": "Единственный в мире музей мыши: игрушечные, фарфоровые, вязаные мыши со всего света, сказки и легенды о том, как маленькая мышь спасла князя и дала имя городу. Весёлое место, особенно с детьми.",
+                "en": "The world's only museum devoted to mice: toy, porcelain and knitted mice from all over the world, plus tales and the legend of how a little mouse saved a prince and gave the town its name. A cheerful place, especially with children."
+              },
+              "wiki": {"ru": "Музей Мыши"}
+            },
+            {
+              "id": "myshkin-cathedral",
+              "title": {"ru": "Успенский собор и Волга", "en": "Dormition Cathedral and the Volga"},
+              "coordinate": [57.78690, 38.45560],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Белый собор с высокой колокольней стоит на главной площади над Волгой. От него к реке спускаются улицы, а с откоса открывается вид на широкое водохранилище и противоположный берег.",
+                "en": "The white cathedral with its tall bell tower stands on the main square above the Volga. Streets run down from it to the river, and the slope offers a view over the wide reservoir to the far bank."
+              },
+              "wiki": {"ru": "Успенский собор (Мышкин)"}
+            },
+            {
+              "id": "myshkin-people-museum",
+              "title": {"ru": "Мышкинский народный музей", "en": "Myshkin People's Museum"},
+              "coordinate": [57.78840, 38.45490],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Музей, созданный энтузиастами в 1960-х годах и выросший в целый комплекс: этнографический двор с деревянными постройками, старинная техника, коллекции крестьянского и купеческого быта.",
+                "en": "A museum started by local enthusiasts in the 1960s that grew into a whole complex: an ethnographic yard with wooden buildings, old machinery and collections of peasant and merchant life."
+              },
+              "wiki": {"ru": "Мышкинский народный музей"}
+            },
+            {
+              "id": "myshkin-valenki",
+              "title": {"ru": "Музей валенок", "en": "Felt Boots Museum"},
+              "coordinate": [57.78750, 38.45220],
+              "category": "museum",
+              "visit": 30,
+              "details": {
+                "ru": "Небольшой музей о том, как валяли валенки, от простых рабочих до расписных праздничных. Здесь же можно купить настоящие валенки ручной работы.",
+                "en": "A small museum about how felt boots were made, from plain working pairs to painted festive ones. You can buy real handmade valenki here too."
+              }
+            },
+            {
+              "id": "myshkin-embankment",
+              "title": {"ru": "Волжская набережная", "en": "Volga embankment"},
+              "coordinate": [57.78560, 38.45720],
+              "category": "street",
+              "visit": 20,
+              "details": {
+                "ru": "Тихая набережная у пристани, куда швартуются теплоходы. Отсюда хорошо видно, как высоко над водой стоит старый город, — лучшее место, чтобы проводить закат.",
+                "en": "A quiet embankment by the pier where cruise ships moor. From here you see how high above the water the old town stands — the best place to watch the sunset."
+              },
+              "tip": {
+                "ru": "Сувенирных мышей продают на каждом шагу — выбирайте те, что делают местные мастера.",
+                "en": "Souvenir mice are sold everywhere — look for the ones made by local craftspeople."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

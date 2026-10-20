@@ -1,0 +1,108 @@
+{
+  "city": {
+    "id": "borovsk",
+    "name": {"ru": "Боровск", "en": "Borovsk"},
+    "region": {"ru": "Калужская область", "en": "Kaluga Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Старинный город на холмах над рекой Протвой, ставший открыткой под открытым небом: местный художник Владимир Овчинников расписал десятки стен сценами из истории и портретами знаменитых горожан. Здесь учительствовал Циолковский, а неподалёку — древний Пафнутьев монастырь.",
+      "en": "An old town on hills above the Protva river that became an open-air picture book: local artist Vladimir Ovchinnikov painted dozens of walls with scenes from history and portraits of famous townspeople. Tsiolkovsky taught here, and the ancient Pafnutiev Monastery is close by."
+    },
+    "gettingThere": {
+      "ru": "Около 100 км от Москвы по Киевскому шоссе — 1,5 часа на машине. Электрички с Киевского вокзала до станции Балабаново (около 1,5–2 часов), оттуда 10 км на автобусе или такси.",
+      "en": "About 100 km from Moscow on the Kiev highway — 1.5 hours by car. Suburban trains from Kievsky station go to Balabanovo (about 1.5–2 hours), then it is 10 km by bus or taxi."
+    },
+    "coordinate": [55.2069, 36.4876],
+    "emoji": "🚀",
+    "size": "small",
+    "tags": ["near-moscow"],
+    "wiki": {"ru": "Боровск", "en": "Borovsk"}
+  },
+  "routes": [
+    {
+      "id": "borovsk-day",
+      "title": {"ru": "Боровск: расписные стены и монастырь", "en": "Borovsk: painted walls and a monastery"},
+      "summary": {
+        "ru": "Прогулка по центру среди росписей Овчинникова, Благовещенский собор, дом-музей Циолковского и вид на Протву с высокого берега, а затем — на машине к Пафнутьеву Боровскому монастырю.",
+        "en": "A walk through the centre among Ovchinnikov's murals, the Annunciation Cathedral, the Tsiolkovsky house museum and a view over the Protva from the high bank, then a drive to the Pafnutiev Borovsky Monastery."
+      },
+      "emoji": "🚀",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "borovsk-murals",
+              "title": {"ru": "Росписи Овчинникова на площади", "en": "Ovchinnikov's murals"},
+              "coordinate": [55.20680, 36.48720],
+              "category": "landmark",
+              "visit": 40,
+              "details": {
+                "ru": "Владимир Овчинников, бывший инженер, с конца 1990-х годов превращает стены домов, заборы и гаражи Боровска в картины: князья и старообрядцы, учёные и солдаты, сценки из жизни горожан. Их больше сотни — посчитать все не удаётся даже местным.",
+                "en": "Since the late 1990s Vladimir Ovchinnikov, a former engineer, has been turning Borovsk house walls, fences and garages into paintings: princes and Old Believers, scientists and soldiers, scenes from townspeople's lives. There are more than a hundred — even locals can't count them all."
+              },
+              "tip": {
+                "ru": "Не торопитесь: многие росписи спрятаны во дворах и на боковых улочках.",
+                "en": "Take your time: many of the murals hide in courtyards and side streets."
+              }
+            },
+            {
+              "id": "borovsk-annunciation",
+              "title": {"ru": "Благовещенский собор", "en": "Annunciation Cathedral"},
+              "coordinate": [55.20590, 36.48610],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Главный храм центра Боровска с высокой колокольней, построенный в XVIII–XIX веках. Вокруг — Соборная площадь и улицы с купеческими домами.",
+                "en": "The main church of central Borovsk with a tall bell tower, built in the 18th–19th centuries. Around it lie Cathedral Square and streets of merchant houses."
+              },
+              "wiki": {"ru": "Благовещенский собор (Боровск)"}
+            },
+            {
+              "id": "borovsk-tsiolkovsky",
+              "title": {"ru": "Дом-музей Циолковского", "en": "Tsiolkovsky House Museum"},
+              "coordinate": [55.20420, 36.49210],
+              "category": "museum",
+              "visit": 40,
+              "details": {
+                "ru": "Константин Циолковский прожил в Боровске двенадцать лет, с 1880 по 1892 год: преподавал в училище и здесь же начал свои первые научные работы. Музей рассказывает о молодых годах будущего основоположника космонавтики.",
+                "en": "Konstantin Tsiolkovsky lived in Borovsk for twelve years, from 1880 to 1892: he taught at the local school and began his first scientific work here. The museum tells the story of the young years of the father of cosmonautics."
+              }
+            },
+            {
+              "id": "borovsk-protva",
+              "title": {"ru": "Высокий берег Протвы", "en": "High bank of the Protva"},
+              "coordinate": [55.20890, 36.48200],
+              "category": "viewpoint",
+              "visit": 20,
+              "details": {
+                "ru": "С откоса над Протвой видно, как город карабкается по холмам: деревянные дома, колокольни и зелёные склоны. Внизу — мостики через реку и тропинки вдоль воды.",
+                "en": "From the slope above the Protva you can see the town climbing its hills: wooden houses, bell towers and green slopes. Below are footbridges and paths along the water."
+              }
+            },
+            {
+              "id": "borovsk-pafnutiev",
+              "title": {"ru": "Пафнутьев Боровский монастырь", "en": "Pafnutiev Borovsky Monastery"},
+              "coordinate": [55.22620, 36.46260],
+              "category": "church",
+              "visit": 75,
+              "details": {
+                "ru": "Монастырь основан в 1444 году преподобным Пафнутием Боровским. Крепостные стены с башнями, Рождественский собор XVI века и тишина вокруг. В Смутное время монастырь выдержал осаду, а его защитники погибли, но не сдались.",
+                "en": "The monastery was founded in 1444 by St Paphnutius of Borovsk. Fortress walls with towers, the 16th-century Nativity Cathedral and deep quiet all around. In the Time of Troubles it withstood a siege; its defenders died rather than surrender."
+              },
+              "tip": {
+                "ru": "У монастыря есть святой источник и пруд — летом там приятно передохнуть.",
+                "en": "There is a holy spring and a pond by the monastery — a pleasant place to rest in summer."
+              },
+              "wiki": {"ru": "Пафнутьев Боровский монастырь", "en": "Pafnutiev Monastery of Borovsk"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 3 км — 7 минут на машине или такси", "en": "About 3 km — 7 minutes by car or taxi"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "city": {
+    "id": "kazan",
+    "name": {"ru": "Казань", "en": "Kazan"},
+    "region": {"ru": "Республика Татарстан", "en": "Republic of Tatarstan"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город, где встречаются Европа и Азия: белый кремль с мечетью и православным собором, пешеходная улица Баумана, деревянная Старо-Татарская слобода и чак-чак к чаю. А в часе езды — остров-град Свияжск и Раифский монастырь посреди леса.",
+      "en": "Where Europe meets Asia: a white kremlin with a mosque and an Orthodox cathedral side by side, pedestrian Bauman Street, the wooden Old Tatar Quarter and chak-chak with your tea. An hour away are the island town of Sviyazhsk and the Raifa Monastery deep in the forest."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы — полтора часа самолётом, ночь на поезде (около 12 часов) или 9–10 часов на машине по трассе М-12. В центре всё рядом и удобно ходить пешком; есть метро.",
+      "en": "From Moscow it is an hour and a half by plane, an overnight train (about 12 hours) or 9–10 hours by car on the M-12 motorway. The centre is compact and walkable, and there is a metro."
+    },
+    "coordinate": [55.7963, 49.1088],
+    "emoji": "🕌",
+    "size": "large",
+    "tags": ["big"],
+    "wiki": {"ru": "Казань", "en": "Kazan"}
+  },
+  "routes": [
+    {
+      "id": "kazan-two-days",
+      "title": {"ru": "Казань за два дня", "en": "Kazan in two days"},
+      "summary": {
+        "ru": "День первый — пешком: Старо-Татарская слобода и озеро Кабан, улица Баумана, Петропавловский собор, кремль с мечетью Кул-Шариф и закат над Казанкой у «Чаши». День второй — на машине: Храм всех религий, остров-град Свияжск и Раифский монастырь.",
+        "en": "Day one on foot: the Old Tatar Quarter and Lake Kaban, Bauman Street, the Peter and Paul Cathedral, the kremlin with the Kul Sharif Mosque and sunset over the Kazanka by the giant 'Bowl'. Day two by car: the Temple of All Religions, the island town of Sviyazhsk and the Raifa Monastery."
+      },
+      "emoji": "🕌",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "title": {"ru": "Слобода, Баумана и кремль", "en": "The Tatar Quarter, Bauman Street and the kremlin"},
+          "stops": [
+            {
+              "id": "kazan-tatar-sloboda",
+              "title": {"ru": "Старо-Татарская слобода", "en": "Old Tatar Quarter"},
+              "coordinate": [55.78380, 49.11400],
+              "category": "district",
+              "visit": 45,
+              "details": {
+                "ru": "Исторический район, где после взятия Казани в 1552 году селились татары. Деревянные дома с резными наличниками, купеческие особняки и мечеть Марджани 1770 года — первая каменная мечеть, построенная в городе после завоевания, с разрешения Екатерины II.",
+                "en": "The historic quarter where Tatars settled after Kazan was taken in 1552. Wooden houses with carved window frames, merchant mansions and the Marjani Mosque of 1770 — the first stone mosque built in the city after the conquest, with Catherine II's permission."
+              },
+              "tip": {
+                "ru": "Здесь же музей чак-чака и кафе с татарской кухней — попробуйте эчпочмак и губадию.",
+                "en": "The quarter has a chak-chak museum and cafés with Tatar food — try echpochmak and gubadia."
+              },
+              "wiki": {"ru": "Старо-Татарская слобода", "en": "Old Tatar Quarter"}
+            },
+            {
+              "id": "kazan-kaban",
+              "title": {"ru": "Озеро Кабан", "en": "Lake Kaban"},
+              "coordinate": [55.78180, 49.11800],
+              "category": "nature",
+              "visit": 20,
+              "details": {
+                "ru": "Озеро в самом центре города, на берегу которого стоит Татарский театр имени Галиасгара Камала. По легенде, на дне Кабана спрятаны сокровища казанских ханов, которые так и не нашли.",
+                "en": "A lake right in the city centre, with the Kamal Tatar Theatre on its shore. Legend says the treasure of the Kazan khans lies hidden at the bottom of the lake and has never been found."
+              },
+              "wiki": {"ru": "Кабан (озеро)", "en": "Lake Kaban"}
+            },
+            {
+              "id": "kazan-bauman",
+              "title": {"ru": "Улица Баумана", "en": "Bauman Street"},
+              "coordinate": [55.79020, 49.11380],
+              "category": "street",
+              "visit": 40,
+              "details": {
+                "ru": "Главная пешеходная улица Казани — от площади Тукая до кремля. Колокольня Богоявленского собора, памятник Шаляпину, который родился в Казани, и под стеклом — карета, в которой по городу ездила Екатерина II.",
+                "en": "Kazan's main pedestrian street, running from Tukay Square to the kremlin. The bell tower of the Epiphany Cathedral, a statue of Chaliapin, who was born in Kazan, and a glass pavilion with the carriage Catherine II rode in around the city."
+              },
+              "wiki": {"ru": "Улица Баумана (Казань)", "en": "Bauman Street"}
+            },
+            {
+              "id": "kazan-peter-paul",
+              "title": {"ru": "Петропавловский собор", "en": "Peter and Paul Cathedral"},
+              "coordinate": [55.79230, 49.11570],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Нарядный барочный собор 1720-х годов, построенный купцом Иваном Михляевым в память о приезде в Казань Петра I. Фасады покрыты пышной лепниной с виноградными лозами и цветами — такого декора больше нет нигде в городе.",
+                "en": "An ornate Baroque cathedral of the 1720s, built by the merchant Ivan Mikhlyaev to mark Peter the Great's visit to Kazan. Its walls are covered in lush moulded vines and flowers — decoration you won't find anywhere else in the city."
+              },
+              "wiki": {"ru": "Петропавловский собор (Казань)", "en": "Peter and Paul Cathedral, Kazan"}
+            },
+            {
+              "id": "kazan-kremlin",
+              "title": {"ru": "Казанский кремль", "en": "Kazan Kremlin"},
+              "coordinate": [55.79880, 49.10600],
+              "category": "castle",
+              "visit": 75,
+              "details": {
+                "ru": "Белокаменная крепость на холме над Казанкой, объект Всемирного наследия ЮНЕСКО. Внутри — Благовещенский собор XVI века, президентский дворец и «падающая» башня Сююмбике: по легенде, с неё бросилась царица, не желавшая выходить замуж за Ивана Грозного.",
+                "en": "A white stone fortress on a hill above the Kazanka river, a UNESCO World Heritage site. Inside are the 16th-century Annunciation Cathedral, the presidential palace and the leaning Söyembikä Tower — legend says the queen threw herself from it rather than marry Ivan the Terrible."
+              },
+              "wiki": {"ru": "Казанский кремль", "en": "Kazan Kremlin"}
+            },
+            {
+              "id": "kazan-kul-sharif",
+              "title": {"ru": "Мечеть Кул-Шариф", "en": "Kul Sharif Mosque"},
+              "coordinate": [55.79830, 49.10500],
+              "category": "landmark",
+              "visit": 30,
+              "details": {
+                "ru": "Мечеть с бирюзовыми куполами и четырьмя минаретами высотой около 58 метров, открытая в 2005 году к тысячелетию Казани. Названа в честь имама Кул-Шарифа, погибшего при защите города от войск Ивана Грозного в 1552 году.",
+                "en": "A mosque with turquoise domes and four minarets about 58 metres high, opened in 2005 for Kazan's millennium. It is named after Imam Kul Sharif, who died defending the city against Ivan the Terrible's army in 1552."
+              },
+              "tip": {
+                "ru": "Одевайтесь скромно: плечи и колени закрыты, женщинам — платок. С гостевой галереи наверху видно молельный зал.",
+                "en": "Dress modestly, with shoulders and knees covered and a headscarf for women. A visitors' gallery upstairs looks down on the prayer hall."
+              },
+              "wiki": {"ru": "Кул-Шариф (мечеть)", "en": "Kul Sharif Mosque"}
+            },
+            {
+              "id": "kazan-family-center",
+              "title": {"ru": "Центр семьи «Казан»", "en": "Kazan Family Centre"},
+              "coordinate": [55.81300, 49.10860],
+              "category": "viewpoint",
+              "visit": 30,
+              "details": {
+                "ru": "Здание в форме огромного котла — «казана» — на другом берегу Казанки, где регистрируют браки. С площадки на крыше открывается лучший вид на кремль и набережные, особенно на закате.",
+                "en": "A building shaped like a giant cauldron — a 'kazan' — on the far bank of the Kazanka, used as a wedding palace. Its rooftop platform gives the best view of the kremlin and the embankments, especially at sunset."
+              },
+              "wiki": {"ru": "Центр семьи «Казан»", "en": "Kazan Family Center"},
+              "arrival": {
+                "mode": "walk",
+                "note": {"ru": "Около 2 км по Кремлёвской дамбе через Казанку — 30 минут пешком", "en": "About 2 km over the Kremlin dam across the Kazanka — 30 minutes on foot"}
+              }
+            }
+          ]
+        },
+        {
+          "title": {"ru": "Свияжск и Раифа", "en": "Sviyazhsk and Raifa"},
+          "stops": [
+            {
+              "id": "kazan-all-religions",
+              "title": {"ru": "Храм всех религий", "en": "Temple of All Religions"},
+              "coordinate": [55.80270, 48.97390],
+              "category": "landmark",
+              "visit": 30,
+              "details": {
+                "ru": "Причудливое здание в посёлке Старое Аракчино, которое с 1990-х строил художник Ильдар Ханов: купола церкви, мечети, синагоги, пагоды и других храмов слиты в одно целое. Это не действующий храм, а символ единства культур.",
+                "en": "A fantastical building in Staroye Arakchino that the artist Ildar Khanov built from the 1990s on: the domes of a church, a mosque, a synagogue, a pagoda and other temples merged into one. It is not a working temple but a symbol of the unity of cultures."
+              },
+              "wiki": {"ru": "Храм всех религий", "en": "Temple of All Religions"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 12 км от центра — 20 минут на машине или такси", "en": "About 12 km from the centre — 20 minutes by car or taxi"}
+              }
+            },
+            {
+              "id": "kazan-sviyazhsk",
+              "title": {"ru": "Остров-град Свияжск", "en": "Sviyazhsk island town"},
+              "coordinate": [55.77260, 48.65970],
+              "category": "castle",
+              "visit": 90,
+              "details": {
+                "ru": "Крепость, которую Иван Грозный в 1551 году поставил за четыре недели для похода на Казань: её срубили под Угличем, разобрали и сплавили по Волге. После создания водохранилища холм стал островом — с храмами, деревянными улочками и видом на слияние Свияги и Волги.",
+                "en": "A fortress Ivan the Terrible put up in four weeks in 1551 for his campaign against Kazan: it was cut near Uglich, taken apart and floated down the Volga. When the reservoir was filled, the hill became an island of churches, wooden lanes and views over the meeting of the Sviyaga and the Volga."
+              },
+              "tip": {
+                "ru": "Летом в Свияжск можно приплыть из Речного порта Казани на теплоходе — путь по Волге занимает пару часов.",
+                "en": "In summer you can also come by boat from Kazan's river port — the trip along the Volga takes a couple of hours."
+              },
+              "wiki": {"ru": "Свияжск", "en": "Sviyazhsk"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 50 км по трассе М-7 и дамбе — 50 минут на машине", "en": "About 50 km via the M-7 and the causeway — 50 minutes by car"}
+              }
+            },
+            {
+              "id": "kazan-sviyazhsk-assumption",
+              "title": {"ru": "Успенский монастырь Свияжска", "en": "Assumption Monastery of Sviyazhsk"},
+              "coordinate": [55.77060, 48.66080],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Монастырь XVI века, внесённый в список Всемирного наследия ЮНЕСКО. В Успенском соборе сохранились фрески 1560-х годов, среди них редкое изображение святого Христофора с головой коня.",
+                "en": "A 16th-century monastery on the UNESCO World Heritage list. The Assumption Cathedral keeps frescoes from the 1560s, including a rare image of St Christopher with a horse's head."
+              },
+              "wiki": {"ru": "Успенский монастырь (Свияжск)", "en": "Assumption Monastery, Sviyazhsk"}
+            },
+            {
+              "id": "kazan-raifa",
+              "title": {"ru": "Раифский монастырь", "en": "Raifa Monastery"},
+              "coordinate": [55.90390, 48.72710],
+              "category": "church",
+              "visit": 60,
+              "details": {
+                "ru": "Богородицкий монастырь XVII века на берегу лесного озера в Волжско-Камском заповеднике. Здесь хранится чтимая Грузинская икона Божией Матери, а по преданию, лягушки в озере у стен монастыря молчат.",
+                "en": "A 17th-century monastery on a forest lake in the Volga-Kama Nature Reserve. It keeps the revered Georgian icon of the Mother of God, and legend has it that the frogs in the lake by its walls are silent."
+              },
+              "tip": {
+                "ru": "Рядом начинаются экотропы заповедника — если останется время, пройдите по лесу к озеру.",
+                "en": "The reserve's nature trails start nearby — if you have time, take a walk through the forest to the lake."
+              },
+              "wiki": {"ru": "Раифский Богородицкий монастырь", "en": "Raifa Monastery"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 50 км через мост у Зеленодольска — около часа на машине", "en": "About 50 km via the bridge at Zelenodolsk — about an hour by car"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

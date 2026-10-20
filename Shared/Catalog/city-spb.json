@@ -1,0 +1,365 @@
+{
+  "city": {
+    "id": "spb",
+    "name": {"ru": "Санкт-Петербург", "en": "Saint Petersburg"},
+    "region": {"ru": "Санкт-Петербург", "en": "Saint Petersburg"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Имперская столица на Неве: Эрмитаж и Дворцовая площадь, золотые шпили, каналы и мосты, которые разводят белыми ночами. За два дня можно обойти главное, а на третий — уплыть на «Метеоре» к фонтанам Петергофа.",
+      "en": "The imperial capital on the Neva: the Hermitage and Palace Square, golden spires, canals and bridges raised during the White Nights. Two days cover the essentials, and on a third you can take a hydrofoil to the fountains of Peterhof."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы — около 4 часов на «Сапсане» или полтора часа самолётом до Пулково. По центру удобнее всего ходить пешком, дальние точки — на метро. С весны до осени мосты через Неву разводят по ночам: проверяйте расписание, чтобы не застрять на другом берегу.",
+      "en": "From Moscow it is about 4 hours on the Sapsan train or an hour and a half by plane to Pulkovo. The centre is best explored on foot, with the metro for longer hops. From spring to autumn the Neva bridges are raised at night — check the schedule so you don't get stuck on the wrong bank."
+    },
+    "coordinate": [59.9386, 30.3141],
+    "emoji": "🌉",
+    "size": "large",
+    "tags": ["big"],
+    "wiki": {"ru": "Санкт-Петербург", "en": "Saint Petersburg"}
+  },
+  "routes": [
+    {
+      "id": "spb-two-days",
+      "title": {"ru": "Петербург за два дня", "en": "Saint Petersburg in two days"},
+      "summary": {
+        "ru": "День первый — парадный центр: Дворцовая площадь, Эрмитаж, Медный всадник, Исаакий, Казанский собор, Спас на Крови, Летний сад и Невский проспект. День второй — Петропавловская крепость с полуденным выстрелом, Стрелка Васильевского острова, Кунсткамера, Новая Голландия и Коломна с Мариинским театром.",
+        "en": "Day one is the grand centre: Palace Square, the Hermitage, the Bronze Horseman, St Isaac's, Kazan Cathedral, the Saviour on Spilled Blood, the Summer Garden and Nevsky Prospect. Day two brings the Peter and Paul Fortress with its noon cannon, the Spit of Vasilyevsky Island, the Kunstkamera, New Holland and the Mariinsky Theatre."
+      },
+      "emoji": "🌉",
+      "tags": ["walk"],
+      "days": [
+        {
+          "title": {"ru": "Дворцовая площадь и Невский", "en": "Palace Square and Nevsky"},
+          "stops": [
+            {
+              "id": "spb-palace-square",
+              "title": {"ru": "Дворцовая площадь", "en": "Palace Square"},
+              "coordinate": [59.93900, 30.31580],
+              "category": "square",
+              "visit": 20,
+              "details": {
+                "ru": "Главная площадь Петербурга между Зимним дворцом и дугой Главного штаба с триумфальной аркой. Александровская колонна в центре вытесана из цельного гранитного монолита весом около 600 тонн и ничем не закреплена — она держится собственным весом.",
+                "en": "The city's main square between the Winter Palace and the curved General Staff Building with its triumphal arch. The Alexander Column in the middle is a single granite monolith of about 600 tonnes that isn't fixed to its pedestal — it stands by its own weight."
+              },
+              "tip": {
+                "ru": "Зайдите на площадь с Невского через арку Главного штаба — так её задумал архитектор Росси.",
+                "en": "Enter the square from Nevsky through the General Staff arch — the way the architect Rossi intended."
+              },
+              "wiki": {"ru": "Дворцовая площадь", "en": "Palace Square"}
+            },
+            {
+              "id": "spb-hermitage",
+              "title": {"ru": "Эрмитаж", "en": "The Hermitage"},
+              "coordinate": [59.93980, 30.31460],
+              "category": "museum",
+              "visit": 150,
+              "details": {
+                "ru": "Один из крупнейших художественных музеев мира, начавшийся с коллекции Екатерины II в 1764 году. Главный вход — через Зимний дворец, бывшую резиденцию императоров: Иорданская лестница, Павильонный зал с часами «Павлин», Леонардо, Рембрандт. Импрессионисты — в здании Главного штаба напротив.",
+                "en": "One of the world's largest art museums, which began with Catherine II's collection in 1764. You enter through the Winter Palace, the former imperial residence: the Jordan Staircase, the Pavilion Hall with the Peacock Clock, Leonardo and Rembrandt. The Impressionists are across the square in the General Staff Building."
+              },
+              "tip": {
+                "ru": "Купите билет на официальном сайте заранее и выберите 2–3 раздела — за один раз весь музей не обойти.",
+                "en": "Buy your ticket on the official website in advance and pick two or three sections — you can't see the whole museum in one visit."
+              },
+              "wiki": {"ru": "Государственный Эрмитаж", "en": "Hermitage Museum"}
+            },
+            {
+              "id": "spb-bronze-horseman",
+              "title": {"ru": "Медный всадник", "en": "The Bronze Horseman"},
+              "coordinate": [59.93640, 30.30220],
+              "category": "monument",
+              "visit": 15,
+              "details": {
+                "ru": "Памятник Петру I работы Этьена Фальконе, открытый в 1782 году по заказу Екатерины II. Постамент — Гром-камень, гранитная глыба весом около 1600 тонн, которую доставили из-под Лахты. Имя памятнику дала поэма Пушкина.",
+                "en": "Étienne Falconet's monument to Peter the Great, unveiled in 1782 on the orders of Catherine II. The pedestal is the Thunder Stone, a granite block of about 1,600 tonnes brought from near Lakhta. Pushkin's poem gave the monument its name."
+              },
+              "wiki": {"ru": "Медный всадник", "en": "Bronze Horseman"}
+            },
+            {
+              "id": "spb-isaac",
+              "title": {"ru": "Исаакиевский собор", "en": "St Isaac's Cathedral"},
+              "coordinate": [59.93410, 30.30610],
+              "category": "church",
+              "visit": 45,
+              "details": {
+                "ru": "Самый большой собор Петербурга, который строили сорок лет — с 1818 по 1858 год — по проекту Огюста Монферрана. Гранитные колонны портиков весят больше 100 тонн каждая, а внутри — малахит, лазурит и мозаичные иконы.",
+                "en": "The city's largest cathedral, which took forty years to build — from 1818 to 1858 — to Auguste de Montferrand's design. Each granite column of the porticoes weighs over 100 tonnes, and inside are malachite, lapis lazuli and mosaic icons."
+              },
+              "tip": {
+                "ru": "Поднимитесь на колоннаду под куполом — больше 200 ступеней, зато один из лучших видов на город.",
+                "en": "Climb to the colonnade under the dome — more than 200 steps, but one of the best views of the city."
+              },
+              "wiki": {"ru": "Исаакиевский собор", "en": "Saint Isaac's Cathedral"}
+            },
+            {
+              "id": "spb-kazan-cathedral",
+              "title": {"ru": "Казанский собор", "en": "Kazan Cathedral"},
+              "coordinate": [59.93420, 30.32450],
+              "category": "church",
+              "visit": 25,
+              "details": {
+                "ru": "Собор на Невском с полукруглой колоннадой, навеянной площадью Святого Петра в Риме, построенный Андреем Воронихиным в 1801–1811 годах. Здесь похоронен фельдмаршал Кутузов, а перед входом стоят памятники ему и Барклаю-де-Толли.",
+                "en": "A cathedral on Nevsky Prospect with a curved colonnade inspired by St Peter's Square in Rome, built by Andrey Voronikhin in 1801–1811. Field Marshal Kutuzov is buried inside, and statues of him and Barclay de Tolly stand in front."
+              },
+              "wiki": {"ru": "Казанский собор (Санкт-Петербург)", "en": "Kazan Cathedral, Saint Petersburg"}
+            },
+            {
+              "id": "spb-spilled-blood",
+              "title": {"ru": "Спас на Крови", "en": "Church of the Saviour on Spilled Blood"},
+              "coordinate": [59.94000, 30.32890],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Храм стоит на месте, где в 1881 году был смертельно ранен император Александр II. Его стены и своды покрывают больше 7000 квадратных метров мозаик — внутри он похож на драгоценную шкатулку.",
+                "en": "The church stands where Emperor Alexander II was fatally wounded in 1881. Over 7,000 square metres of mosaics cover its walls and vaults — inside it feels like a jewel box."
+              },
+              "wiki": {"ru": "Спас на Крови", "en": "Church of the Savior on Blood"}
+            },
+            {
+              "id": "spb-summer-garden",
+              "title": {"ru": "Летний сад", "en": "Summer Garden"},
+              "coordinate": [59.94470, 30.33590],
+              "category": "park",
+              "visit": 40,
+              "details": {
+                "ru": "Первый парадный сад города, заложенный Петром I в 1704 году. Мраморные статуи, фонтаны, знаменитая решётка со стороны Невы и скромный Летний дворец Петра — один из первых каменных домов Петербурга.",
+                "en": "The city's first formal garden, laid out by Peter the Great in 1704. Marble statues, fountains, the famous railings on the Neva side and Peter's modest Summer Palace — one of the first stone houses in the city."
+              },
+              "wiki": {"ru": "Летний сад", "en": "Summer Garden"}
+            },
+            {
+              "id": "spb-anichkov",
+              "title": {"ru": "Аничков мост", "en": "Anichkov Bridge"},
+              "coordinate": [59.93330, 30.34360],
+              "category": "bridge",
+              "visit": 15,
+              "details": {
+                "ru": "Мост через Фонтанку на Невском проспекте с четырьмя «Укротителями коней» скульптора Петра Клодта — одним из символов Петербурга. Отсюда начинается вечерняя часть Невского с огнями и толпой.",
+                "en": "The bridge carrying Nevsky Prospect over the Fontanka, with Peter Clodt's four Horse Tamers — one of the symbols of the city. From here the evening Nevsky begins, all lights and crowds."
+              },
+              "tip": {
+                "ru": "У моста — причалы прогулочных катеров: час по рекам и каналам покажет город с воды. А летней ночью стоит дойти до Невы и посмотреть, как разводят мосты.",
+                "en": "Sightseeing boats leave from piers by the bridge: an hour on the rivers and canals shows the city from the water. On a summer night, walk to the Neva to watch the bridges open."
+              },
+              "wiki": {"ru": "Аничков мост", "en": "Anichkov Bridge"}
+            }
+          ]
+        },
+        {
+          "title": {"ru": "Петропавловка и Васильевский остров", "en": "The fortress and Vasilyevsky Island"},
+          "stops": [
+            {
+              "id": "spb-peter-paul",
+              "title": {"ru": "Петропавловская крепость", "en": "Peter and Paul Fortress"},
+              "coordinate": [59.95000, 30.31660],
+              "category": "castle",
+              "visit": 90,
+              "details": {
+                "ru": "С закладки крепости на Заячьем острове 27 мая 1703 года начался Петербург. Над стенами — золотой шпиль Петропавловского собора, усыпальницы российских императоров, а с Нарышкина бастиона каждый день ровно в полдень стреляет пушка.",
+                "en": "Saint Petersburg began when this fortress was founded on Hare Island on 27 May 1703. Above the walls rises the golden spire of the Peter and Paul Cathedral, the burial place of Russia's emperors, and every day at noon sharp a cannon fires from the Naryshkin Bastion."
+              },
+              "tip": {
+                "ru": "Приходите к 12:00 к Нарышкину бастиону на полуденный выстрел, а потом пройдитесь по пляжу у стен с видом на Неву.",
+                "en": "Be at the Naryshkin Bastion for the noon gun, then stroll along the beach under the walls with a view of the Neva."
+              },
+              "wiki": {"ru": "Петропавловская крепость", "en": "Peter and Paul Fortress"}
+            },
+            {
+              "id": "spb-strelka",
+              "title": {"ru": "Стрелка Васильевского острова", "en": "Spit of Vasilyevsky Island"},
+              "coordinate": [59.94420, 30.30650],
+              "category": "viewpoint",
+              "visit": 20,
+              "details": {
+                "ru": "Мыс, где Нева делится на Большую и Малую, с Ростральными колоннами — бывшими маяками старого порта — и зданием Биржи. Отсюда открывается панорама на Зимний дворец, крепость и Неву.",
+                "en": "The headland where the Neva divides into the Big and Little Neva, with the Rostral Columns — once lighthouses of the old port — and the Stock Exchange building. The panorama takes in the Winter Palace, the fortress and the river."
+              },
+              "tip": {
+                "ru": "В праздники на Ростральных колоннах зажигают огненные факелы.",
+                "en": "On holidays the torches on top of the Rostral Columns are lit."
+              },
+              "wiki": {"ru": "Стрелка Васильевского острова", "en": "Spit of Vasilyevsky Island"},
+              "arrival": {
+                "mode": "walk",
+                "note": {"ru": "Через Биржевой мост — около 15 минут пешком", "en": "Across the Birzhevoy Bridge — about 15 minutes on foot"}
+              }
+            },
+            {
+              "id": "spb-kunstkamera",
+              "title": {"ru": "Кунсткамера", "en": "Kunstkamera"},
+              "coordinate": [59.94150, 30.30460],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Первый музей России, основанный Петром I в 1714 году для «раритетов и монстров». Сегодня это музей антропологии и этнографии: от анатомической коллекции Петра до японских доспехов, а в башне — огромный Готторпский глобус со звёздным небом внутри.",
+                "en": "Russia's first museum, founded by Peter the Great in 1714 for 'rarities and monsters'. Today it is a museum of anthropology and ethnography — from Peter's anatomical collection to Japanese armour — and its tower holds the huge Gottorf Globe with a starry sky inside."
+              },
+              "wiki": {"ru": "Кунсткамера", "en": "Kunstkamera"}
+            },
+            {
+              "id": "spb-new-holland",
+              "title": {"ru": "Новая Голландия", "en": "New Holland"},
+              "coordinate": [59.92940, 30.28950],
+              "category": "park",
+              "visit": 40,
+              "details": {
+                "ru": "Рукотворный остров XVIII века, где хранили корабельный лес для флота. Над каналом нависает знаменитая арка Валлен-Деламота, а внутри теперь газоны, кафе, выставки и зимой — каток.",
+                "en": "An 18th-century man-made island where timber for the navy was stored. Vallin de la Mothe's famous arch hangs over the canal, and inside are now lawns, cafés, exhibitions and a skating rink in winter."
+              },
+              "wiki": {"ru": "Новая Голландия", "en": "New Holland Island"},
+              "arrival": {
+                "mode": "walk",
+                "note": {"ru": "Через Благовещенский мост — около 30 минут пешком", "en": "Across the Blagoveshchensky Bridge — about 30 minutes on foot"}
+              }
+            },
+            {
+              "id": "spb-yusupov",
+              "title": {"ru": "Юсуповский дворец", "en": "Yusupov Palace"},
+              "coordinate": [59.92950, 30.29940],
+              "category": "palace",
+              "visit": 60,
+              "details": {
+                "ru": "Дворец князей Юсуповых на Мойке с роскошными залами и крошечным домашним театром. В декабре 1916 года здесь убили Григория Распутина — этой истории посвящена отдельная экспозиция в подвале.",
+                "en": "The Yusupov princes' palace on the Moika, with lavish halls and a tiny private theatre. Grigory Rasputin was murdered here in December 1916 — a separate exhibition in the basement tells the story."
+              },
+              "wiki": {"ru": "Юсуповский дворец на Мойке", "en": "Moika Palace"}
+            },
+            {
+              "id": "spb-mariinsky",
+              "title": {"ru": "Мариинский театр", "en": "Mariinsky Theatre"},
+              "coordinate": [59.92570, 30.29610],
+              "category": "theater",
+              "visit": 15,
+              "details": {
+                "ru": "Театр оперы и балета, открытый в 1860 году, — на его сцене впервые показали «Спящую красавицу» и «Щелкунчика» Чайковского. Через Крюков канал стоит современная Вторая сцена.",
+                "en": "The opera and ballet theatre, opened in 1860, where Tchaikovsky's 'Sleeping Beauty' and 'The Nutcracker' premiered. Across the Kryukov Canal stands its modern Second Stage."
+              },
+              "tip": {
+                "ru": "Билеты на балет лучше покупать на официальном сайте театра за несколько недель.",
+                "en": "Buy ballet tickets on the theatre's official website a few weeks ahead."
+              },
+              "wiki": {"ru": "Мариинский театр", "en": "Mariinsky Theatre"}
+            },
+            {
+              "id": "spb-nikolsky",
+              "title": {"ru": "Никольский морской собор", "en": "St Nicholas Naval Cathedral"},
+              "coordinate": [59.92300, 30.30130],
+              "category": "church",
+              "visit": 25,
+              "details": {
+                "ru": "Бело-голубой барочный собор XVIII века, храм моряков, с отдельно стоящей четырёхъярусной колокольней над Крюковым каналом. Рядом — Семимостье: с одной точки на пересечении каналов видно сразу семь мостов.",
+                "en": "An 18th-century white-and-blue Baroque cathedral, the sailors' church, with a separate four-tier bell tower above the Kryukov Canal. Nearby is the Seven Bridges spot, where you can see seven bridges at once from the canal crossing."
+              },
+              "wiki": {"ru": "Никольский морской собор", "en": "St. Nicholas Naval Cathedral"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spb-peterhof",
+      "title": {"ru": "Петергоф на «Метеоре»", "en": "Peterhof by hydrofoil"},
+      "summary": {
+        "ru": "От Эрмитажа на скоростном «Метеоре» по Финскому заливу — прямо к Морскому каналу Петергофа. Большой каскад с «Самсоном», Большой дворец, домик Петра Монплезир с фонтанами-шутихами и тихий Марли у прудов.",
+        "en": "A fast Meteor hydrofoil from the Hermitage across the Gulf of Finland straight to Peterhof's Sea Canal. The Grand Cascade with Samson, the Grand Palace, Peter's little Monplaisir with its trick fountains and quiet Marly by the ponds."
+      },
+      "emoji": "⛲",
+      "tags": ["ferry", "walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "spb-palace-embankment",
+              "title": {"ru": "Дворцовая набережная", "en": "Palace Embankment"},
+              "coordinate": [59.94150, 30.31200],
+              "category": "street",
+              "visit": 15,
+              "details": {
+                "ru": "Гранитная набережная вдоль Зимнего дворца с видом на Петропавловскую крепость и Стрелку. От причала у Эрмитажа в сезон уходят «Метеоры» в Петергоф — скоростные суда на подводных крыльях.",
+                "en": "The granite embankment along the Winter Palace, facing the Peter and Paul Fortress and the Spit. In season, Meteor hydrofoils leave for Peterhof from the pier by the Hermitage."
+              },
+              "tip": {
+                "ru": "«Метеоры» ходят примерно с мая по октябрь и не в шторм; билеты удобнее купить онлайн, обратный рейс — тоже заранее.",
+                "en": "Hydrofoils run roughly from May to October and not in stormy weather; buy tickets online, including the return trip."
+              },
+              "wiki": {"ru": "Дворцовая набережная", "en": "Palace Embankment"}
+            },
+            {
+              "id": "spb-lower-park",
+              "title": {"ru": "Морской канал и Нижний парк", "en": "Sea Canal and Lower Park"},
+              "coordinate": [59.88850, 29.90870],
+              "category": "park",
+              "visit": 45,
+              "details": {
+                "ru": "«Метеор» причаливает в начале Морского канала, по которому при Петре корабли подходили прямо к дворцу. Вдоль канала — аллея фонтанов, а по сторонам раскинулся Нижний парк на берегу Финского залива.",
+                "en": "The hydrofoil docks at the start of the Sea Canal, along which ships once sailed right up to the palace. An avenue of fountains lines the canal, with the Lower Park spreading along the Gulf of Finland on both sides."
+              },
+              "tip": {
+                "ru": "Фонтаны работают с конца апреля — начала мая до октября; вход в Нижний парк платный.",
+                "en": "The fountains run from late April or early May until October; the Lower Park requires a ticket."
+              },
+              "wiki": {"ru": "Нижний парк (Петергоф)"},
+              "arrival": {
+                "mode": "ferry",
+                "note": {"ru": "«Метеор» от причала у Эрмитажа — около 40 минут по Финскому заливу", "en": "Meteor hydrofoil from the Hermitage pier — about 40 minutes across the Gulf of Finland"}
+              }
+            },
+            {
+              "id": "spb-grand-cascade",
+              "title": {"ru": "Большой каскад и «Самсон»", "en": "Grand Cascade and Samson"},
+              "coordinate": [59.88560, 29.90870],
+              "category": "landmark",
+              "visit": 30,
+              "details": {
+                "ru": "Главный каскад Петергофа: 64 фонтана, сотни золочёных статуй и в центре — «Самсон, раздирающий пасть льва», символ победы над шведами под Полтавой. Струя Самсона бьёт на высоту около 20 метров.",
+                "en": "Peterhof's main cascade: 64 fountains, hundreds of gilded statues and, in the centre, Samson tearing open the jaws of a lion — a symbol of the victory over the Swedes at Poltava. Samson's jet rises about 20 metres."
+              },
+              "tip": {
+                "ru": "Каждое утро в 11:00 фонтаны Большого каскада включают под музыку — постарайтесь успеть к этому моменту.",
+                "en": "Every morning at 11:00 the Grand Cascade fountains are turned on to music — try to be there for it."
+              },
+              "wiki": {"ru": "Большой каскад"}
+            },
+            {
+              "id": "spb-grand-palace",
+              "title": {"ru": "Большой Петергофский дворец", "en": "Grand Peterhof Palace"},
+              "coordinate": [59.88410, 29.90870],
+              "category": "palace",
+              "visit": 60,
+              "details": {
+                "ru": "Парадная летняя резиденция императоров над каскадом, заложенная при Петре I и перестроенная Растрелли при Елизавете. Танцевальный и Чесменский залы, Кабинет мод и граций с 368 портретами девушек кисти Пьетро Ротари.",
+                "en": "The ceremonial summer residence of the emperors above the cascade, begun under Peter the Great and rebuilt by Rastrelli for Empress Elizabeth. The Ballroom, the Chesma Hall and the Cabinet of Fashions and Graces with 368 portraits of young women by Pietro Rotari."
+              },
+              "wiki": {"ru": "Большой Петергофский дворец", "en": "Grand Peterhof Palace"}
+            },
+            {
+              "id": "spb-monplaisir",
+              "title": {"ru": "Монплезир", "en": "Monplaisir"},
+              "coordinate": [59.88920, 29.91620],
+              "category": "palace",
+              "visit": 40,
+              "details": {
+                "ru": "Любимый маленький дворец Петра I прямо на берегу Финского залива — «моё удовольствие» по-французски. В саду рядом прячутся фонтаны-шутихи «Зонтик» и «Дубок», которые неожиданно обливают гостей.",
+                "en": "Peter the Great's favourite little palace right on the shore of the Gulf of Finland — its French name means 'my pleasure'. The garden nearby hides the trick fountains 'Umbrella' and 'Little Oak' that suddenly soak visitors."
+              },
+              "wiki": {"ru": "Монплезир", "en": "Monplaisir Palace"}
+            },
+            {
+              "id": "spb-marly",
+              "title": {"ru": "Дворец Марли", "en": "Marly Palace"},
+              "coordinate": [59.88690, 29.88930],
+              "category": "palace",
+              "visit": 30,
+              "details": {
+                "ru": "Небольшой дворец на валу между прудами в западной части Нижнего парка, названный в честь королевской резиденции под Парижем. Рядом — каскад «Золотая гора» и пруды, в которых при Петре разводили рыбу к царскому столу.",
+                "en": "A small palace on an embankment between ponds in the western part of the Lower Park, named after the French royal residence near Paris. Nearby are the Golden Hill cascade and the ponds where fish were bred for Peter's table."
+              },
+              "wiki": {"ru": "Марли (дворец)"}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
