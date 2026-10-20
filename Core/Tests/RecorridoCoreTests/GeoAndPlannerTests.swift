@@ -101,6 +101,36 @@ final class PlannerTests: XCTestCase {
         }
     }
 
+    func testThreeDaysKeepThreeAreasApart() {
+        // West, center and east, 4 km apart; each fills about one day.
+        func area(_ name: String, _ longitude: Double, score: Double) -> [PlannerCandidate] {
+            (0..<5).map {
+                PlannerCandidate(id: "\(name)\($0)", coordinate: Coordinate(55.75 + Double($0) * 0.001, longitude),
+                                 score: score - Double($0) * 0.1, visitMinutes: 50)
+            }
+        }
+        let places = area("w", 37.55, score: 5) + area("c", 37.615, score: 7) + area("e", 37.68, score: 6)
+        var options = PlannerOptions()
+        options.days = 3
+        options.minutesPerDay = 360
+        options.mobility = .transit
+        let plan = RoutePlanner.plan(places, options: options)
+        XCTAssertEqual(plan.count, 3)
+        for day in plan {
+            XCTAssertEqual(Set(day.map { $0.id.prefix(1) }).count, 1, "each day should stay in one area: \(day.map(\.id))")
+        }
+    }
+
+    func testCombinations() {
+        let pairs = RoutePlanner.combinations(5, choose: 2)
+        XCTAssertEqual(pairs.count, 10)
+        XCTAssertEqual(Set(pairs).count, 10)
+        XCTAssertEqual(pairs.first, [0, 1])
+        XCTAssertEqual(pairs.last, [3, 4])
+        XCTAssertEqual(RoutePlanner.combinations(3, choose: 3), [[0, 1, 2]])
+        XCTAssertTrue(RoutePlanner.combinations(2, choose: 3).isEmpty)
+    }
+
     func testMobilityChoosesTransportForLongHops() {
         XCTAssertEqual(Mobility.car.mode(forDistance: 800, pace: .normal), .walk)
         XCTAssertEqual(Mobility.car.mode(forDistance: 5000, pace: .normal), .car)

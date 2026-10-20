@@ -16,7 +16,8 @@ final class LiveGeneratorTests: XCTestCase {
         let generator = CityRouteGenerator(client: WikipediaClient(language: language))
         let request = GeneratorRequest(cityName: name, center: center, length: length, mobility: mobility, language: language)
         let plan = try await generator.generate(request)
-        print(describe(plan, name: name))
+        // stderr is unbuffered, so the output survives a failing run.
+        FileHandle.standardError.write(Data((describe(plan, name: name) + "\n").utf8))
         return plan
     }
 

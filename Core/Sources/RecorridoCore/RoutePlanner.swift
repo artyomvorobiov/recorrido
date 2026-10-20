@@ -37,6 +37,16 @@ enum Mobility: String, CaseIterable, Codable, Sendable {
         case .car: 25000
         }
     }
+
+    /// Score points a kilometre of travelling costs when comparing ways to
+    /// split places into days.
+    var travelPenaltyPerKm: Double {
+        switch self {
+        case .walking: 0.8
+        case .transit: 0.35
+        case .car: 0.15
+        }
+    }
 }
 
 struct PlannerCandidate: Hashable, Sendable {
@@ -86,16 +96,16 @@ enum RoutePlanner {
                 load += cost
             }
         }
-        var groups = clusters(of: selected, count: min(days, selected.count), capacityMinutes: budget, options: options)
-        var used = Set<String>()
+        var groups = bestSplit(of: selected, days: min(days, selected.count), options: options)
+        var used = Set(groups.flatMap { $0.map(\.id) })
+        // Top up days that ended light with places nobody took, each place
+        // going only to the day whose area is closest to it.
+        let centers = groups.map { Geo.centroid(of: $0.map(\.coordinate)) }
         for index in groups.indices {
-            groups[index] = trim(order(groups[index], options: options), options: options)
-            used.formUnion(groups[index].map(\.id))
-        }
-        // Top up days that ended light with nearby places nobody took.
-        for index in groups.indices where !groups[index].isEmpty {
-            let remaining = pool.filter { !used.contains($0.id) }
-            let center = Geo.centroid(of: groups[index].map(\.coordinate))
+            guard let center = centers[index] else { continue }
+            let remaining = pool.filter {
+                !used.contains($0.id) && nearestDay(to: $0.coordinate, centers: centers) == index
+            }
             groups[index] = fillDay(groups[index], from: remaining, options: options, near: center)
             used.formUnion(groups[index].map(\.id))
         }
@@ -212,44 +222,57 @@ enum RoutePlanner {
         day.reduce(0) { $0 + $1.score }
     }
 
-    /// Splits places into `count` geographic groups with a similar workload:
-    /// k-means where each group has a soft time capacity.
+    /// Splits places into days. Tries several sets of seed places for the
+    /// day areas and keeps the split whose days hold the most worthwhile
+    /// places for the least travelling.
+    static func bestSplit(of items: [PlannerCandidate], days: Int, options: PlannerOptions) -> [[PlannerCandidate]] {
+        guard days > 1, items.count > days else {
+            return days <= 1 ? [trim(order(items, options: options), options: options)] : items.map { [$0] }
+        }
+        let poolSize = max(days, days >= 4 ? 7 : days == 3 ? 8 : 10)
+        let seedPool = Array(items.sorted { $0.score > $1.score }.prefix(poolSize))
+        var best: [[PlannerCandidate]] = []
+        var bestValue = -Double.infinity
+        for seeds in combinations(seedPool.count, choose: days) {
+            let groups = clusters(of: items, seeds: seeds.map { seedPool[$0].coordinate },
+                                  capacityMinutes: Double(options.minutesPerDay), options: options)
+                .map { trim(order($0, options: options), options: options) }
+            var value = 0.0
+            for day in groups {
+                value += totalScore(day) - pathMeters(day, options: options) / 1000 * options.mobility.travelPenaltyPerKm
+            }
+            if value > bestValue + 1e-9 {
+                bestValue = value
+                best = groups
+            }
+        }
+        return best
+    }
+
+    /// Groups places around the seeds: k-means where each group has a soft
+    /// time capacity. Places that clearly belong to one area are placed
+    /// first; the ones in between fill whatever room is left.
     static func clusters(
         of items: [PlannerCandidate],
-        count: Int,
+        seeds: [Coordinate],
         capacityMinutes: Double,
         options: PlannerOptions
     ) -> [[PlannerCandidate]] {
-        guard count > 1, items.count > count else {
-            return count <= 1 ? [items] : items.map { [$0] }
-        }
-        let byScore = items.sorted { $0.score > $1.score }
-        // Seeds: the best place, then places that are both important and far
-        // from the seeds chosen so far.
-        var centers = [byScore[0].coordinate]
-        while centers.count < count {
-            var bestSeed = byScore[0].coordinate
-            var bestWeight = -1.0
-            for item in byScore {
-                let weight = nearestDistance(item.coordinate, to: centers) * item.score
-                if weight > bestWeight {
-                    bestWeight = weight
-                    bestSeed = item.coordinate
-                }
-            }
-            centers.append(bestSeed)
-        }
+        guard seeds.count > 1 else { return [items] }
+        var centers = seeds
         var groups: [[PlannerCandidate]] = []
         for _ in 0..<12 {
-            groups = Array(repeating: [], count: count)
-            var load = [Double](repeating: 0, count: count)
-            for item in byScore {
-                let cost = visitCost(item, options) + options.mobility.travelGuessMinutes
-                let nearest = centers.indices.sorted {
-                    Geo.distance(item.coordinate, centers[$0]) < Geo.distance(item.coordinate, centers[$1])
-                }
-                let target = nearest.first { load[$0] + cost <= capacityMinutes * 1.15 } ?? nearest[0]
-                groups[target].append(item)
+            let ranked = items.map { item -> (item: PlannerCandidate, nearest: [Int], regret: Double) in
+                let distances = centers.map { Geo.distance(item.coordinate, $0) }
+                let nearest = distances.indices.sorted { distances[$0] < distances[$1] }
+                return (item, nearest, distances[nearest[1]] - distances[nearest[0]])
+            }.sorted { $0.regret != $1.regret ? $0.regret > $1.regret : $0.item.id < $1.item.id }
+            groups = Array(repeating: [], count: centers.count)
+            var load = [Double](repeating: 0, count: centers.count)
+            for entry in ranked {
+                let cost = visitCost(entry.item, options) + options.mobility.travelGuessMinutes
+                let target = entry.nearest.first { load[$0] + cost <= capacityMinutes * 1.15 } ?? entry.nearest[0]
+                groups[target].append(entry.item)
                 load[target] += cost
             }
             let updated = groups.indices.map { Geo.centroid(of: groups[$0].map(\.coordinate)) ?? centers[$0] }
@@ -259,14 +282,55 @@ enum RoutePlanner {
         return groups
     }
 
+    /// Every way to choose `size` of `count` indices, in lexicographic order.
+    static func combinations(_ count: Int, choose size: Int) -> [[Int]] {
+        guard size > 0, size <= count else { return [] }
+        var result: [[Int]] = []
+        var current: [Int] = []
+        func extend(from start: Int) {
+            if current.count == size {
+                result.append(current)
+                return
+            }
+            for index in start..<count where count - index >= size - current.count {
+                current.append(index)
+                extend(from: index + 1)
+                current.removeLast()
+            }
+        }
+        extend(from: 0)
+        return result
+    }
+
+    /// Length of the day's path in the given order, meters, including the
+    /// way from the start point (and back to it when asked).
+    static func pathMeters(_ day: [PlannerCandidate], options: PlannerOptions) -> Double {
+        var points = day.map(\.coordinate)
+        if let start = options.start, !points.isEmpty {
+            points.insert(start, at: 0)
+            if options.returnToStart { points.append(start) }
+        }
+        return Geo.pathLength(points)
+    }
+
     // MARK: - Helpers
+
+    private static func nearestDay(to point: Coordinate, centers: [Coordinate?]) -> Int? {
+        var nearest: Int?
+        var nearestDistance = Double.infinity
+        for (index, center) in centers.enumerated() {
+            guard let center else { continue }
+            let distance = Geo.distance(point, center)
+            if distance < nearestDistance {
+                nearest = index
+                nearestDistance = distance
+            }
+        }
+        return nearest
+    }
 
     private static func visitCost(_ candidate: PlannerCandidate, _ options: PlannerOptions) -> Double {
         Double(candidate.visitMinutes) * options.pace.visitFactor
-    }
-
-    private static func nearestDistance(_ point: Coordinate, to centers: [Coordinate]) -> Double {
-        centers.map { Geo.distance(point, $0) }.min() ?? 0
     }
 
     private static func nearestNeighbour(from first: Int, distances: [[Double]]) -> [Int] {

@@ -54,6 +54,12 @@ final class ClassifierTests: XCTestCase {
         XCTAssertNil(category("АФК «Система»", "российская финансово-промышленная группа"))
     }
 
+    func testCemeteriesScoreLower() {
+        XCTAssertEqual(PlaceClassifier.interest(title: "Новодевичье кладбище"), 0.6)
+        XCTAssertEqual(PlaceClassifier.interest(title: "Père Lachaise Cemetery"), 0.6)
+        XCTAssertEqual(PlaceClassifier.interest(title: "Суздальский кремль"), 1)
+    }
+
     func testWordMatching() {
         XCTAssertTrue(PlaceClassifier.matches("летний сад", "сад$"))
         XCTAssertFalse(PlaceClassifier.matches("садовая улица", "сад$"))

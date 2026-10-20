@@ -157,6 +157,12 @@ enum PlaceClassifier {
         "olympics", "ceremony", "церемония", "корпус$", "район$", "уезд", "волость",
     ]
 
+    /// Places with long articles (mostly lists of the people buried there)
+    /// that rarely make a first visit. They stay, with a lower score.
+    static let minorTitles: [String] = [
+        "cemetery", "graveyard", "кладбищ", "некропол",
+    ]
+
     /// Coordinate types (from the {{coord}} template) that are never single stops.
     static let excludedGeoTypes: Set<String> = [
         "country", "state", "adm1st", "adm2nd", "adm3rd", "city", "airport", "railwaystation",
@@ -186,6 +192,13 @@ enum PlaceClassifier {
         if let category = category(in: description) { return category }
         if let type, let category = placeGeoTypes[type] { return category }
         return nil
+    }
+
+    /// How much visitors usually care about this particular place, judging
+    /// by its title: 1 for most places, less for cemeteries.
+    static func interest(title: String) -> Double {
+        let text = normalize(title)
+        return compiled.minorTitles.contains { matches(text, $0) } ? 0.6 : 1
     }
 
     /// How much a category is usually worth a detour, relative to a landmark.
@@ -219,6 +232,7 @@ enum PlaceClassifier {
         let events: [Keyword]
         let excludedDescriptions: [Keyword]
         let excludedTitles: [Keyword]
+        let minorTitles: [Keyword]
     }
 
     /// Keywords are normalized once, on first use.
@@ -226,7 +240,8 @@ enum PlaceClassifier {
         rules: rules.map { (category: $0.category, keywords: $0.keywords.map(Keyword.init)) },
         events: eventDescriptions.map(Keyword.init),
         excludedDescriptions: excludedDescriptions.map(Keyword.init),
-        excludedTitles: excludedTitles.map(Keyword.init)
+        excludedTitles: excludedTitles.map(Keyword.init),
+        minorTitles: minorTitles.map(Keyword.init)
     )
 
     static func normalize(_ text: String) -> String {

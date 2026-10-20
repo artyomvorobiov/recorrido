@@ -63,7 +63,8 @@ struct CityRouteGenerator {
         let isSmallTown = pages.count < 450
         var candidates = classify(pages, request: request)
 
-        let length = request.length == .auto ? suggestedLength(for: candidates) : request.length
+        var length = request.length == .auto ? suggestedLength(for: candidates) : request.length
+        var widened = false
         if !isSmallTown, case .days(let days) = length {
             // Big cities have so many articles that the 500 nearest cover only
             // the very center. Ask Wikipedia for the most prominent places of
@@ -73,10 +74,18 @@ struct CityRouteGenerator {
                 pages += prominent
                 candidates = classify(pages, request: request)
             }
+        } else if isSmallTown, request.mobility != .walking,
+                  score(candidates, request: request, length: length).count < Self.fewSights {
+            // A small town with only a few sights of its own: look around it
+            // too — a monastery or an estate 15 km away is worth the drive.
+            pages += await surroundings(of: request.center)
+            candidates = classify(pages, request: request)
+            widened = true
+            if request.length == .auto { length = .days(1) }
         }
 
         progress(.selecting)
-        let scored = diversified(score(candidates, request: request, length: length))
+        let scored = diversified(score(candidates, request: request, length: length, widened: widened))
         guard !scored.isEmpty else { throw GeneratorError.nothingFound }
 
         let options = plannerOptions(for: request, length: length)
@@ -136,12 +145,32 @@ struct CityRouteGenerator {
 
     // MARK: - Steps
 
+    /// Fewer scored places than this in a small town means the trip should
+    /// include what is around it.
+    static let fewSights = 6
+
+    /// Articles 3–23 km around the center. Geosearch reaches only 10 km, so
+    /// this asks around six points on a ring.
+    func surroundings(of center: Coordinate) async -> [WikiPage] {
+        var pages: [WikiPage] = []
+        for bearing in stride(from: 0.0, to: 360.0, by: 60.0) {
+            if Task.isCancelled { break }
+            let point = Geo.destination(from: center, distance: 13_000, bearing: bearing)
+            if let found = try? await client.places(around: point, radius: 10_000, limit: 300) {
+                pages += found
+            }
+        }
+        return pages
+    }
+
     struct Candidate {
         var page: WikiPage
         var category: PlaceCategory
         /// log2 of the article size in KB: 2 KB → 1, 32 KB → 5, 128 KB → 7.
         var notability: Double
         var distance: Double
+        /// See `PlaceClassifier.interest(title:)`.
+        var interest: Double = 1
         var score: Double = 0
 
         var id: String { "wiki-\(page.pageID)" }
@@ -200,7 +229,8 @@ struct CityRouteGenerator {
                 page: page,
                 category: category,
                 notability: log2(Double(max(page.length, 2000)) / 1000),
-                distance: Geo.distance(request.center, page.coordinate)
+                distance: Geo.distance(request.center, page.coordinate),
+                interest: PlaceClassifier.interest(title: page.title)
             ))
         }
         return result
@@ -217,8 +247,11 @@ struct CityRouteGenerator {
         }
     }
 
-    func score(_ candidates: [Candidate], request: GeneratorRequest, length: TripLength) -> [Candidate] {
-        let reach: Double
+    /// Keeps the places within reach that are worth their distance. With
+    /// `widened` the sights around a small town count as part of the trip.
+    func score(_ candidates: [Candidate], request: GeneratorRequest, length: TripLength,
+               widened: Bool = false) -> [Candidate] {
+        var reach: Double
         var penaltyPerKm: Double
         switch length {
         case .hours(let hours) where hours <= 2:
@@ -236,13 +269,18 @@ struct CityRouteGenerator {
         }
         if request.mobility == .car { penaltyPerKm *= 0.5 }
         if request.mobility == .transit { penaltyPerKm *= 0.7 }
+        if widened {
+            reach = max(reach, request.mobility == .car ? 22_000 : 12_000)
+            penaltyPerKm = min(penaltyPerKm, request.mobility == .car ? 0.12 : 0.2)
+        }
         let origin = request.start ?? request.center
 
         return candidates.compactMap { (candidate: Candidate) -> Candidate? in
             let distance = Geo.distance(origin, candidate.page.coordinate)
             guard distance <= reach else { return nil }
             var item = candidate
-            var score = candidate.notability * PlaceClassifier.weight(of: candidate.category) + candidate.prominence
+            var score = candidate.notability * PlaceClassifier.weight(of: candidate.category) * candidate.interest
+                + candidate.prominence
             if !request.interests.isEmpty {
                 score *= request.interests.contains(candidate.category) ? 1.4 : 0.75
             }
