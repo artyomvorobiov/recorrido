@@ -132,7 +132,31 @@ def probe_titles(lang, titles):
         print("  page:", json.dumps(p, ensure_ascii=False)[:400])
 
 
+def probe_nearcoord(lang, name, lat, lon, km, limit):
+    """CirrusSearch ranks pages by popularity; `nearcoord:` limits the area."""
+    started = time.time()
+    params = {
+        "action": "query",
+        "generator": "search",
+        "gsrsearch": f"nearcoord:{km}km,{lat},{lon}",
+        "gsrlimit": str(limit),
+        "gsrnamespace": "0",
+        "prop": "coordinates|description|info",
+        "colimit": "max",
+        "coprop": "type",
+    }
+    pages, rounds, leftover = query_all(lang, params)
+    ordered = sorted(pages.values(), key=lambda p: p.get("index", 0))
+    print(f"\n=== nearcoord search {name} [{lang}] {km} km limit={limit}: pages={len(pages)} rounds={rounds} time={time.time() - started:.1f}s")
+    for p in ordered[:45]:
+        print(f"  #{p.get('index')}  {p['title']}  |  {p.get('description', '')}  | len={p.get('length')}")
+
+
 def main():
+    probe_nearcoord("en", "Paris", 48.8566, 2.3522, 8, 100)
+    probe_nearcoord("ru", "Москва", 55.7539, 37.6208, 12, 100)
+    probe_nearcoord("ru", "Суздаль", 56.4196, 40.4492, 10, 50)
+    probe_nearcoord("ru", "Коломна", 55.1025, 38.7531, 10, 50)
     paris = probe_generator("en", "Paris", 48.8566, 2.3522, 3000, 300, "info|description|coordinates")
     probe_generator("en", "Paris ring (Eiffel side)", 48.8580, 2.2950, 1800, 120, "info|description|coordinates")
     moscow = probe_generator("ru", "Moscow", 55.7539, 37.6208, 3000, 300, "info|description|coordinates")
