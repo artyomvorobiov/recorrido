@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Recorrido</title>
+<meta name="description" content="Маршруты по маленьким городам и большим столицам: карта, остановки и описания.">
+<meta name="theme-color" content="#c8553d">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --text: #1f1d1a;
+    --muted: #6b645c;
+    --line: #e7e1d8;
+    --accent: #c8553d;
+    --accent-text: #ffffff;
+    --tip: #fbf1e3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1b1a;
+      --card: #262422;
+      --text: #f2efea;
+      --muted: #a39d95;
+      --line: #3a3733;
+      --accent: #e07a5f;
+      --accent-text: #1c1b1a;
+      --tip: #3a2f25;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  a { color: var(--accent); }
+  h1 { font-size: 30px; line-height: 1.15; margin: 8px 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 21px; margin: 0; }
+  h3 { font-size: 18px; margin: 0 0 2px; }
+  p { margin: 0 0 10px; }
+  .emoji { font-size: 44px; line-height: 1; }
+  .meta { color: var(--muted); margin: 0 0 16px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .button {
+    appearance: none; border: 1px solid var(--line); background: var(--card); color: var(--text);
+    border-radius: 12px; padding: 10px 16px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer;
+  }
+  .button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+  .hint { color: var(--muted); font-size: 14px; margin: -12px 0 20px; }
+  #map {
+    height: 46vh; min-height: 260px; border-radius: 16px; overflow: hidden;
+    border: 1px solid var(--line); margin-bottom: 20px; background: var(--card);
+  }
+  .summary { font-size: 17px; margin-bottom: 24px; }
+  .day { margin-bottom: 28px; }
+  .day-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-bottom: 12px; }
+  .day-head .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; }
+  .stops { list-style: none; margin: 0; padding: 0; }
+  .stop { display: grid; grid-template-columns: 34px 1fr; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line); }
+  .stop:first-child { border-top: none; padding-top: 0; }
+  .num {
+    width: 30px; height: 30px; border-radius: 50%; color: #fff; font-weight: 700; font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .leg { grid-column: 1 / -1; color: var(--muted); font-size: 14px; margin-bottom: -4px; }
+  .kind { color: var(--muted); font-size: 14px; margin-bottom: 6px; }
+  .tip { background: var(--tip); border-radius: 10px; padding: 8px 12px; font-size: 15px; }
+  .links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 15px; }
+  .photo { width: 100%; max-height: 220px; object-fit: cover; border-radius: 12px; margin: 4px 0 10px; }
+  .notice { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin: 16px 0; }
+  .features { padding-left: 20px; }
+  .features li { margin-bottom: 6px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
+  .pin {
+    width: 26px; height: 26px; border-radius: 50%; border: 2px solid #fff; color: #fff;
+    font: 700 12px/22px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <section id="route" hidden>
+    <div class="emoji" id="route-emoji"></div>
+    <h1 id="route-title"></h1>
+    <p class="meta" id="route-meta"></p>
+    <div class="actions">
+      <a class="button primary" id="open-app" href="#"></a>
+      <button class="button" id="copy-link" type="button"></button>
+    </div>
+    <p class="hint" id="open-hint"></p>
+    <div id="map"></div>
+    <p class="summary" id="route-summary"></p>
+    <div id="days"></div>
+  </section>
+
+  <section id="landing" hidden>
+    <div class="emoji">🗺️</div>
+    <h1>Recorrido</h1>
+    <p class="meta" id="landing-tagline"></p>
+    <div class="notice" id="landing-text"></div>
+  </section>
+
+  <section id="error" class="notice" hidden></section>
+
+  <footer id="footer"></footer>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+"use strict";
+
+// Route links carry the whole route in the URL fragment, so this page needs
+// no server. Format: docs/SHARE_FORMAT.md.
+
+const REPO = "https://github.com/artyomvorobiov/recorrido";
+const DAY_COLORS = ["#c8553d", "#2a7f8e", "#7a5ba6", "#b8862b", "#3f8f5a", "#4f6db8", "#b5487a"];
+
+const TEXT = {
+  ru: {
+    open: "Открыть в Recorrido",
+    openHint: "Если приложение не открылось — установите Recorrido на iPhone и откройте ссылку ещё раз.",
+    copy: "Скопировать ссылку",
+    copied: "Ссылка скопирована",
+    day: "День",
+    days: (n) => plural(n, "день", "дня", "дней"),
+    stops: (n) => plural(n, "остановка", "остановки", "остановок"),
+    by: "автор:",
+    minutes: "мин",
+    wiki: "Википедия",
+    onMap: "На карте",
+    dayInMaps: "Маршрут дня в Google Картах",
+    tagline: "Маршруты по маленьким городам и большим столицам",
+    landing: `
+      <p>Это страница для просмотра маршрутов из приложения Recorrido для iPhone. Когда кто-то делится маршрутом,
+      ссылка ведёт сюда — весь маршрут зашифрован в самой ссылке, поэтому здесь можно посмотреть карту
+      и остановки даже без приложения.</p>
+      <ul class="features">
+        <li>готовые маршруты по Суздалю, Переславлю-Залесскому, Коломне, Плёсу и другим малым городам;</li>
+        <li>маршрут для любого города за минуту — по статьям Википедии;</li>
+        <li>пешком, на транспорте или на машине, если интересное место за городом;</li>
+        <li>свои маршруты, ссылки и QR-коды, виджет и Live Activity во время прогулки.</li>
+      </ul>
+      <p>Открыли ссылку на маршрут, а видите эту страницу? Скорее всего, ссылка обрезалась при копировании —
+      попросите прислать её ещё раз.</p>`,
+    broken: "Не получилось прочитать маршрут из ссылки. Возможно, она обрезалась при копировании — попросите прислать её ещё раз.",
+    oldBrowser: "Этот браузер не умеет распаковывать маршрут. Откройте ссылку в свежем Safari или Chrome.",
+    newer: "Маршрут сохранён в более новой версии Recorrido. Обновите приложение, чтобы его открыть.",
+    footer: `Recorrido — приложение для путешествий по городам. <a href="${REPO}">Исходный код</a>.`,
+    categories: {
+      landmark: "Достопримечательность", museum: "Музей", church: "Храм", palace: "Дворец или усадьба",
+      castle: "Крепость", park: "Парк", viewpoint: "Смотровая", square: "Площадь", street: "Улица", bridge: "Мост",
+      monument: "Памятник", market: "Рынок", theater: "Театр", district: "Район", nature: "Природа", food: "Еда",
+      other: "Место",
+    },
+    modes: {
+      walk: "Пешком", bike: "Велосипед", metro: "Метро", tram: "Трамвай", bus: "Автобус", train: "Поезд",
+      ferry: "Теплоход", funicular: "Фуникулёр", cableCar: "Канатная дорога", transit: "Общественный транспорт",
+      car: "Машина или такси",
+    },
+  },
+  en: {
+    open: "Open in Recorrido",
+    openHint: "If the app didn't open, install Recorrido on your iPhone and open the link again.",
+    copy: "Copy link",
+    copied: "Link copied",
+    day: "Day",
+    days: (n) => `${n} ${n === 1 ? "day" : "days"}`,
+    stops: (n) => `${n} ${n === 1 ? "stop" : "stops"}`,
+    by: "by",
+    minutes: "min",
+    wiki: "Wikipedia",
+    onMap: "On the map",
+    dayInMaps: "This day in Google Maps",
+    tagline: "Routes through small towns and big capitals",
+    landing: `
+      <p>This page shows routes shared from the Recorrido iPhone app. The whole route is packed into the link
+      itself, so you can see the map and the stops here even without the app.</p>
+      <ul class="features">
+        <li>ready-made routes through Suzdal, Pereslavl-Zalessky, Kolomna, Plyos and other small towns;</li>
+        <li>a route for any town in a minute, built from Wikipedia;</li>
+        <li>on foot, by public transport, or by car when a sight is outside town;</li>
+        <li>your own routes, links and QR codes, a widget and a Live Activity while you walk.</li>
+      </ul>
+      <p>Opened a route link but see this page? The link was probably cut off when it was copied — ask for it again.</p>`,
+    broken: "This link doesn't contain a readable route. It may have been cut off when copied — ask for it again.",
+    oldBrowser: "This browser can't unpack the route. Open the link in an up-to-date Safari or Chrome.",
+    newer: "This route was saved by a newer version of Recorrido. Update the app to open it.",
+    footer: `Recorrido is an app for exploring towns and cities. <a href="${REPO}">Source code</a>.`,
+    categories: {
+      landmark: "Landmark", museum: "Museum", church: "Church", palace: "Palace or estate", castle: "Fortress",
+      park: "Park", viewpoint: "Viewpoint", square: "Square", street: "Street", bridge: "Bridge", monument: "Monument",
+      market: "Market", theater: "Theatre", district: "Neighbourhood", nature: "Nature", food: "Food", other: "Place",
+    },
+    modes: {
+      walk: "On foot", bike: "Bike", metro: "Metro", tram: "Tram", bus: "Bus", train: "Train", ferry: "Boat",
+      funicular: "Funicular", cableCar: "Cable car", transit: "Public transport", car: "Car or taxi",
+    },
+  },
+};
+
+const MODE_ICONS = {
+  walk: "🚶", bike: "🚲", metro: "🚇", tram: "🚋", bus: "🚌", train: "🚆", ferry: "⛴️",
+  funicular: "🚞", cableCar: "🚡", transit: "🚌", car: "🚗",
+};
+
+// Minutes at a stop when the link leaves them out (same as the app).
+const DEFAULT_VISIT = {
+  museum: 90, palace: 75, castle: 75, park: 45, nature: 45, food: 45, market: 40, district: 40,
+  church: 25, street: 25, landmark: 20, theater: 20, viewpoint: 15, square: 15, bridge: 10, monument: 10, other: 20,
+};
+
+function plural(n, one, few, many) {
+  const mod10 = n % 10, mod100 = n % 100;
+  const word = mod10 === 1 && mod100 !== 11 ? one
+    : mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14) ? few : many;
+  return `${n} ${word}`;
+}
+
+function payloadFromLocation() {
+  let fragment = location.hash.replace(/^#/, "");
+  if (fragment.startsWith("r=")) fragment = fragment.slice(2);
+  if (!fragment) fragment = new URLSearchParams(location.search).get("r") || "";
+  try { fragment = decodeURIComponent(fragment); } catch (_) { /* keep as is */ }
+  return fragment.trim();
+}
+
+function base64UrlToBytes(text) {
+  let base64 = text.replace(/-/g, "+").replace(/_/g, "/");
+  while (base64.length % 4) base64 += "=";
+  const binary = atob(base64);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return bytes;
+}
+
+async function inflateRaw(bytes) {
+  if (typeof DecompressionStream === "undefined") throw new Error("old-browser");
+  const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"));
+  return new Uint8Array(await new Response(stream).arrayBuffer());
+}
+
+async function decodeRoute(payload) {
+  const bytes = base64UrlToBytes(payload);
+  if (bytes.length < 2) throw new Error("broken");
+  const version = bytes[0];
+  let json;
+  if (version === 0) json = bytes.subarray(1);
+  else if (version === 1) json = await inflateRaw(bytes.subarray(1));
+  else throw new Error("newer");
+  const route = JSON.parse(new TextDecoder().decode(json));
+  if (!route || typeof route.t !== "string" || !Array.isArray(route.d)) throw new Error("broken");
+  return route;
+}
+
+function element(tag, attributes = {}, children = []) {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(attributes)) {
+    if (value === undefined || value === null) continue;
+    if (key === "text") node.textContent = value;
+    else if (key === "style") node.setAttribute("style", value);
+    else node.setAttribute(key, value);
+  }
+  for (const child of [].concat(children)) if (child) node.append(child);
+  return node;
+}
+
+function validPoint(stop) {
+  return Number.isFinite(stop.y) && Number.isFinite(stop.x) && Math.abs(stop.y) <= 90 && Math.abs(stop.x) <= 180;
+}
+
+function mapLink(stop) {
+  const ios = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
+  const query = encodeURIComponent(stop.n);
+  return ios
+    ? `https://maps.apple.com/?ll=${stop.y},${stop.x}&q=${query}`
+    : `https://www.google.com/maps/search/?api=1&query=${stop.y},${stop.x}`;
+}
+
+function dayInGoogleMaps(stops) {
+  const points = stops.filter(validPoint).map((stop) => `${stop.y},${stop.x}`);
+  if (points.length < 2) return null;
+  const walking = stops.slice(1).every((stop) => !stop.am || stop.am === "walk");
+  const waypoints = points.slice(1, -1).slice(0, 9).join("|");
+  let url = `https://www.google.com/maps/dir/?api=1&origin=${points[0]}&destination=${points[points.length - 1]}`;
+  if (waypoints) url += `&waypoints=${encodeURIComponent(waypoints)}`;
+  return url + `&travelmode=${walking ? "walking" : "driving"}`;
+}
+
+function wikiLink(stop, language) {
+  if (!stop.w) return null;
+  const lang = /^[a-z-]{2,12}$/.test(stop.wl || "") ? stop.wl : language;
+  return `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(stop.w.replace(/ /g, "_"))}`;
+}
+
+function safeImage(url) {
+  // Only Wikimedia pictures: a shared link should not make the browser call
+  // arbitrary servers.
+  return typeof url === "string" && /^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(url) ? url : null;
+}
+
+function renderRoute(route, payload, t, language) {
+  document.title = `${route.t} — Recorrido`;
+  document.getElementById("route-emoji").textContent = route.e || "🗺️";
+  document.getElementById("route-title").textContent = route.t;
+  const stopCount = route.d.reduce((sum, day) => sum + (day.p || []).length, 0);
+  const meta = [route.c, route.cc, t.days(route.d.length), t.stops(stopCount)];
+  if (route.a) meta.push(`${t.by} ${route.a}`);
+  document.getElementById("route-meta").textContent = meta.filter(Boolean).join(" · ");
+  document.getElementById("route-summary").textContent = route.s || "";
+
+  const openApp = document.getElementById("open-app");
+  openApp.textContent = t.open;
+  openApp.href = `recorrido://import#${payload}`;
+  document.getElementById("open-hint").textContent = t.openHint;
+
+  const copy = document.getElementById("copy-link");
+  copy.textContent = t.copy;
+  copy.addEventListener("click", async () => {
+    try {
+      if (navigator.share && /iPhone|iPad|Android/.test(navigator.userAgent)) {
+        await navigator.share({ title: route.t, url: location.href });
+        return;
+      }
+      await navigator.clipboard.writeText(location.href);
+      copy.textContent = t.copied;
+      setTimeout(() => { copy.textContent = t.copy; }, 2000);
+    } catch (_) { /* the user closed the share sheet */ }
+  });
+
+  const daysNode = document.getElementById("days");
+  route.d.forEach((day, dayIndex) => {
+    const color = DAY_COLORS[dayIndex % DAY_COLORS.length];
+    const stops = day.p || [];
+    const heading = route.d.length > 1
+      ? `${t.day} ${dayIndex + 1}${day.t ? " · " + day.t : ""}`
+      : (day.t || "");
+    const head = element("div", { class: "day-head" }, [
+      heading ? element("h2", {}, [element("span", { class: "swatch", style: `background:${color}` }), heading]) : null,
+    ]);
+    const mapsURL = dayInGoogleMaps(stops);
+    if (mapsURL) head.append(element("a", { href: mapsURL, target: "_blank", rel: "noopener", text: t.dayInMaps }));
+
+    const list = element("ol", { class: "stops" });
+    stops.forEach((stop, index) => {
+      const body = element("div", { class: "body" });
+      body.append(element("h3", { text: stop.n }));
+      const category = t.categories[stop.k] || t.categories.other;
+      const minutes = Number.isFinite(stop.m) ? stop.m : DEFAULT_VISIT[stop.k] || DEFAULT_VISIT.other;
+      body.append(element("div", { class: "kind", text: `${category} · ${minutes} ${t.minutes}` }));
+      const image = safeImage(stop.i);
+      if (image) body.append(element("img", { class: "photo", src: image, alt: "", loading: "lazy" }));
+      if (stop.d) body.append(element("p", { text: stop.d }));
+      if (stop.tp) body.append(element("p", { class: "tip", text: `💡 ${stop.tp}` }));
+      const links = element("div", { class: "links" });
+      const wiki = wikiLink(stop, language);
+      if (wiki) links.append(element("a", { href: wiki, target: "_blank", rel: "noopener", text: t.wiki }));
+      if (validPoint(stop)) links.append(element("a", { href: mapLink(stop), target: "_blank", rel: "noopener", text: t.onMap }));
+      body.append(links);
+
+      const item = element("li", { class: "stop" });
+      if (index > 0 && (stop.am || stop.an)) {
+        const mode = stop.am || "walk";
+        const label = `${MODE_ICONS[mode] || "➡️"} ${stop.an || t.modes[mode] || ""}`;
+        item.append(element("div", { class: "leg", text: label }));
+      }
+      item.append(element("div", { class: "num", style: `background:${color}`, text: String(index + 1) }), body);
+      list.append(item);
+    });
+    daysNode.append(element("section", { class: "day" }, [head, list]));
+  });
+
+  document.getElementById("route").hidden = false;
+  drawMap(route);
+}
+
+function drawMap(route) {
+  const mapNode = document.getElementById("map");
+  if (typeof L === "undefined") { mapNode.hidden = true; return; }
+  const map = L.map(mapNode, { scrollWheelZoom: false });
+  map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+
+  const bounds = [];
+  route.d.forEach((day, dayIndex) => {
+    const color = DAY_COLORS[dayIndex % DAY_COLORS.length];
+    const stops = (day.p || []).filter(validPoint);
+    stops.forEach((stop, index) => {
+      if (index > 0) {
+        const walking = !stop.am || stop.am === "walk";
+        L.polyline([[stops[index - 1].y, stops[index - 1].x], [stop.y, stop.x]], {
+          color, weight: 4, opacity: 0.85, dashArray: walking ? null : "8 8",
+        }).addTo(map);
+      }
+      const icon = L.divIcon({
+        className: "",
+        html: `<div class="pin" style="background:${color}">${index + 1}</div>`,
+        iconSize: [26, 26],
+        iconAnchor: [13, 13],
+      });
+      const popup = document.createElement("strong");
+      popup.textContent = stop.n;
+      L.marker([stop.y, stop.x], { icon, title: stop.n }).bindPopup(popup).addTo(map);
+      bounds.push([stop.y, stop.x]);
+    });
+  });
+  if (bounds.length === 1) map.setView(bounds[0], 15);
+  else if (bounds.length > 1) map.fitBounds(bounds, { padding: [28, 28], maxZoom: 16 });
+  else mapNode.hidden = true;
+}
+
+function showError(message) {
+  const node = document.getElementById("error");
+  node.textContent = message;
+  node.hidden = false;
+}
+
+async function start() {
+  const preferred = (navigator.language || "ru").toLowerCase().startsWith("ru") ? "ru" : "en";
+  const payload = payloadFromLocation();
+  let t = TEXT[preferred];
+  document.getElementById("footer").innerHTML = t.footer;
+
+  if (!payload) {
+    document.documentElement.lang = preferred;
+    document.getElementById("landing-tagline").textContent = t.tagline;
+    document.getElementById("landing-text").innerHTML = t.landing;
+    document.getElementById("landing").hidden = false;
+    return;
+  }
+
+  try {
+    const route = await decodeRoute(payload);
+    const language = TEXT[route.l] ? route.l : preferred;
+    t = TEXT[language];
+    document.documentElement.lang = language;
+    document.getElementById("footer").innerHTML = t.footer;
+    renderRoute(route, payload, t, language);
+  } catch (error) {
+    const key = ["old-browser", "newer"].includes(error && error.message) ? error.message : "broken";
+    showError(key === "old-browser" ? t.oldBrowser : key === "newer" ? t.newer : t.broken);
+  }
+}
+
+window.addEventListener("hashchange", () => location.reload());
+start();
+</script>
+</body>
+</html>

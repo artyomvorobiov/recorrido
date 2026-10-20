@@ -55,7 +55,7 @@ def search(lang, text, near=None, limit=5):
     return [item["title"] for item in data.get("query", {}).get("search", [])]
 
 
-def suggestions(lang, title, coordinate):
+def suggest_titles(lang, title, coordinate):
     """Likely right titles for a missing article, with their distance to the stop."""
     base = title.split(" (")[0]
     found = []
@@ -147,7 +147,7 @@ def main():
         for lang, title in wiki.items():
             exists, coordinate, final, has_image = info[lang].get(title, (False, None, title, False))
             if not exists:
-                hint = suggestions(lang, title, stop["coordinate"])
+                hint = suggest_titles(lang, title, stop["coordinate"])
                 missing.append(f"{file} {stop['id']}: [{lang}] '{title}' not found\n    try: {hint}")
                 continue
             if lang == "ru" or "ru" not in wiki:
