@@ -24,6 +24,7 @@ jobs:
       - name: Unit tests
         run: swift test --package-path Core
       - name: Live route generation (Wikipedia)
+        if: always()
         continue-on-error: true
         env:
           RECORRIDO_LIVE: "1"
