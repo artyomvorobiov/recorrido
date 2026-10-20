@@ -1,0 +1,115 @@
+{
+  "city": {
+    "id": "uglich",
+    "name": {"ru": "Углич", "en": "Uglich"},
+    "region": {"ru": "Ярославская область", "en": "Yaroslavl Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Волжский город с драматичной историей: здесь в 1591 году погиб царевич Дмитрий, младший сын Ивана Грозного, — с этого началась Смута. Кремль на высоком берегу, «сосланный» колокол, шатровая Дивная церковь и шлюз, через который проходят теплоходы.",
+      "en": "A Volga town with a dramatic past: in 1591 Tsarevich Dmitry, the youngest son of Ivan the Terrible, died here — an event that led to the Time of Troubles. A kremlin on the high bank, the 'exiled' bell, the three-tented Wondrous Church and a lock where river ships pass."
+    },
+    "gettingThere": {
+      "ru": "Около 230 км от Москвы — 3,5 часа на машине. Летом в Углич заходят почти все теплоходы, идущие по Волге. Мышкин — в 40 км, их удобно совместить.",
+      "en": "About 230 km from Moscow — 3.5 hours by car. In summer almost every Volga cruise ship stops here. Myshkin is 40 km away, so the two combine well."
+    },
+    "coordinate": [57.5281, 38.3300],
+    "emoji": "⚓",
+    "size": "small",
+    "tags": ["golden-ring", "volga"],
+    "wiki": {"ru": "Углич", "en": "Uglich"}
+  },
+  "routes": [
+    {
+      "id": "uglich-day",
+      "title": {"ru": "Углич: кремль на Волге", "en": "Uglich: a kremlin on the Volga"},
+      "summary": {
+        "ru": "Прогулка от Алексеевского монастыря с шатровой Дивной церковью к кремлю: палаты удельных князей, церковь Димитрия «на крови» со «ссыльным» колоколом, Спасо-Преображенский собор — и дальше вдоль Волги к шлюзу.",
+        "en": "A walk from the Alekseevsky Monastery and its three-tented Wondrous Church to the kremlin: the princes' palace, the Church of Dmitry on the Blood with the 'exiled' bell, the Transfiguration Cathedral — and on along the Volga to the lock."
+      },
+      "emoji": "⚓",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "uglich-alekseevsky",
+              "title": {"ru": "Алексеевский монастырь и Дивная церковь", "en": "Alekseevsky Monastery and the Wondrous Church"},
+              "coordinate": [57.52690, 38.32050],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Успенская церковь Алексеевского монастыря 1628 года увенчана тремя стройными шатрами — за красоту её прозвали Дивной. Это один из лучших образцов шатрового зодчества в России.",
+                "en": "The Dormition Church of the Alekseevsky Monastery, built in 1628, is crowned by three slender tented roofs — its beauty earned it the name 'the Wondrous Church'. It is one of the finest examples of tented architecture in Russia."
+              },
+              "wiki": {"ru": "Алексеевский монастырь (Углич)"}
+            },
+            {
+              "id": "uglich-chambers",
+              "title": {"ru": "Палаты угличских князей", "en": "Palace of the Uglich princes"},
+              "coordinate": [57.52920, 38.33080],
+              "category": "palace",
+              "visit": 30,
+              "details": {
+                "ru": "Кирпичные палаты 1480-х годов — одно из старейших гражданских зданий России. Здесь жил в ссылке с матерью царевич Дмитрий, и именно отсюда пошла история, о которой спорят историки до сих пор.",
+                "en": "A brick palace from the 1480s, one of the oldest civil buildings in Russia. Tsarevich Dmitry lived here in exile with his mother, and this is where the story historians still argue about began."
+              },
+              "wiki": {"ru": "Палаты угличских удельных князей"}
+            },
+            {
+              "id": "uglich-blood",
+              "title": {"ru": "Церковь царевича Димитрия «на крови»", "en": "Church of St Dmitry on the Blood"},
+              "coordinate": [57.52960, 38.32880],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Красная церковь 1692 года на месте гибели царевича. Внутри хранится колокол, ударивший в набат в тот день: за «бунт» его, по преданию, высекли, вырвали язык и сослали в Тобольск. В Углич он вернулся только в 1892 году.",
+                "en": "A red church of 1692 on the spot where the tsarevich died. Inside is the bell that rang the alarm that day: as punishment, the story goes, it was flogged, had its clapper torn out and was exiled to Tobolsk. It came back to Uglich only in 1892."
+              },
+              "tip": {
+                "ru": "Смотритель иногда разрешает ударить в «ссыльный» колокол — говорят, это исполняет желания.",
+                "en": "The keeper sometimes lets visitors strike the exiled bell — they say it makes wishes come true."
+              },
+              "wiki": {"ru": "Церковь Димитрия на Крови (Углич)", "en": "Church of St. Demetrios on the Blood"}
+            },
+            {
+              "id": "uglich-transfiguration",
+              "title": {"ru": "Спасо-Преображенский собор", "en": "Transfiguration Cathedral"},
+              "coordinate": [57.52890, 38.32950],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Главный собор кремля начала XVIII века с огромным залом, расписанным в XIX веке. Рядом — колокольня, с которой видно Волгу и заволжские дали.",
+                "en": "The kremlin's main cathedral from the early 18th century, with a vast hall painted in the 19th century. Next to it stands the bell tower overlooking the Volga."
+              },
+              "wiki": {"ru": "Спасо-Преображенский собор (Углич)"}
+            },
+            {
+              "id": "uglich-voskresensky",
+              "title": {"ru": "Воскресенский монастырь", "en": "Resurrection Monastery"},
+              "coordinate": [57.53160, 38.33870],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Монастырский ансамбль 1670-х годов на берегу Волги, построенный на средства ростовского митрополита Ионы Сысоевича — того же, что выстроил Ростовский кремль. Высокая шатровая колокольня видна издалека с реки.",
+                "en": "A monastery ensemble of the 1670s on the Volga bank, paid for by Metropolitan Iona Sysoevich of Rostov — the same man who built the Rostov Kremlin. Its tall tented bell tower is visible far along the river."
+              },
+              "wiki": {"ru": "Воскресенский монастырь (Углич)"}
+            },
+            {
+              "id": "uglich-lock",
+              "title": {"ru": "Угличская ГЭС и шлюз", "en": "Uglich dam and lock"},
+              "coordinate": [57.53440, 38.30260],
+              "category": "viewpoint",
+              "visit": 20,
+              "details": {
+                "ru": "Плотина и шлюз 1930-х годов, при строительстве которых часть старого города ушла под воду водохранилища. Летом можно понаблюдать, как огромные теплоходы поднимаются и опускаются в камере шлюза.",
+                "en": "The dam and lock of the 1930s, whose construction flooded part of the old town under the reservoir. In summer you can watch huge cruise ships rise and fall inside the lock chamber."
+              },
+              "wiki": {"ru": "Угличская ГЭС", "en": "Uglich Hydroelectric Station"}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

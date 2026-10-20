@@ -64,15 +64,15 @@ struct CityRouteGenerator {
         var candidates = classify(pages, request: request)
 
         let length = request.length == .auto ? suggestedLength(for: candidates) : request.length
-        if !isSmallTown, case .days = length {
+        if !isSmallTown, case .days(let days) = length {
             // Big cities have so many articles that the 500 nearest cover only
-            // the very center; sample a ring (or two) around it as well.
-            for point in ringPoints(around: request.center, length: length) {
-                if let more = try? await client.places(around: point.center, radius: point.radius, limit: 200) {
-                    pages += more
-                }
+            // the very center. Ask Wikipedia for the most prominent places of
+            // the whole city as well.
+            let radius = days >= 2 ? 15 : 8
+            if let prominent = try? await client.prominentPlaces(near: request.center, radiusKm: radius, limit: 300) {
+                pages += prominent
+                candidates = classify(pages, request: request)
             }
-            candidates = classify(pages, request: request)
         }
 
         progress(.selecting)
@@ -147,12 +147,28 @@ struct CityRouteGenerator {
         var id: String { "wiki-\(page.pageID)" }
 
         var visitMinutes: Int {
-            switch category {
-            case .museum: notability >= 6.5 ? 120 : notability >= 5 ? 75 : 45
-            case .palace, .castle: notability >= 6 ? 90 : 50
-            case .church: notability >= 6 ? 40 : 20
-            default: category.defaultVisitMinutes
+            if category == .church, isMonastery {
+                return notability >= 5.5 ? 75 : 45
             }
+            switch category {
+            case .museum: return notability >= 6.5 ? 120 : notability >= 5 ? 75 : 45
+            case .palace, .castle: return notability >= 6 ? 90 : 50
+            case .church: return notability >= 6 ? 40 : 20
+            default: return category.defaultVisitMinutes
+            }
+        }
+
+        /// Monasteries are whole walled complexes, not a single church.
+        var isMonastery: Bool {
+            let title = PlaceClassifier.normalize(page.title)
+            return ["монастыр", "лавра", "monastery", "lavra", "abbey", "convent", "priory"]
+                .contains { PlaceClassifier.matches(title, $0) }
+        }
+
+        /// Extra points for being near the top of Wikipedia's own ranking.
+        var prominence: Double {
+            guard let rank = page.searchRank else { return 0 }
+            return max(0, 2.5 * (1 - Double(rank) / 150))
         }
 
         var plannerCandidate: PlannerCandidate {
@@ -161,9 +177,18 @@ struct CityRouteGenerator {
     }
 
     func classify(_ pages: [WikiPage], request: GeneratorRequest) -> [Candidate] {
-        var seen = Set<Int>()
+        // The same article may come from both searches; keep its search rank.
+        var merged: [Int: WikiPage] = [:]
+        for page in pages {
+            if var existing = merged[page.pageID] {
+                existing.searchRank = existing.searchRank ?? page.searchRank
+                merged[page.pageID] = existing
+            } else {
+                merged[page.pageID] = page
+            }
+        }
         var result: [Candidate] = []
-        for page in pages where seen.insert(page.pageID).inserted {
+        for page in merged.values.sorted(by: { $0.pageID < $1.pageID }) {
             guard page.coordinate.isValid,
                   let category = PlaceClassifier.classify(
                       title: page.title,
@@ -217,7 +242,7 @@ struct CityRouteGenerator {
             let distance = Geo.distance(origin, candidate.page.coordinate)
             guard distance <= reach else { return nil }
             var item = candidate
-            var score = candidate.notability * PlaceClassifier.weight(of: candidate.category)
+            var score = candidate.notability * PlaceClassifier.weight(of: candidate.category) + candidate.prominence
             if !request.interests.isEmpty {
                 score *= request.interests.contains(candidate.category) ? 1.4 : 0.75
             }
@@ -233,15 +258,33 @@ struct CityRouteGenerator {
     /// not ten stops in one square.
     func diversified(_ candidates: [Candidate]) -> [Candidate] {
         var kept: [Candidate] = []
+        var keptTitles: [String] = []
         for candidate in candidates.sorted(by: { $0.score > $1.score }) {
             let distances = kept.map { Geo.distance($0.page.coordinate, candidate.page.coordinate) }
             if distances.contains(where: { $0 < 40 }) { continue }
+            // "Louvre" and "Louvre Palace" are one stop.
+            let title = Self.baseTitle(candidate.page.title)
+            let duplicate = zip(kept, keptTitles).contains { other, otherTitle in
+                (title.contains(otherTitle) || otherTitle.contains(title))
+                    && Geo.distance(other.page.coordinate, candidate.page.coordinate) < 700
+            }
+            if duplicate { continue }
+            keptTitles.append(title)
             var item = candidate
             let crowd = distances.filter { $0 < 150 }.count
             if crowd >= 2 { item.score *= 0.7 }
             kept.append(item)
         }
         return kept.sorted { $0.score > $1.score }
+    }
+
+    /// Lowercased title without the "(Town)" qualifier.
+    static func baseTitle(_ title: String) -> String {
+        var text = PlaceClassifier.normalize(title)
+        if let bracket = text.firstIndex(of: "(") {
+            text = String(text[..<bracket])
+        }
+        return text.trimmingCharacters(in: .whitespaces)
     }
 
     func plannerOptions(for request: GeneratorRequest, length: TripLength) -> PlannerOptions {
@@ -267,25 +310,5 @@ struct CityRouteGenerator {
             options.minutesPerDay = request.pace.minutesPerDay
         }
         return options
-    }
-
-    struct SamplePoint {
-        var center: Coordinate
-        var radius: Int
-    }
-
-    func ringPoints(around center: Coordinate, length: TripLength) -> [SamplePoint] {
-        var points: [SamplePoint] = []
-        for index in 0..<6 {
-            let bearing = Double(index) * 60
-            points.append(SamplePoint(center: Geo.destination(from: center, distance: 2800, bearing: bearing), radius: 1800))
-        }
-        if length.dayCount >= 2 {
-            for index in 0..<8 {
-                let bearing = Double(index) * 45 + 22.5
-                points.append(SamplePoint(center: Geo.destination(from: center, distance: 6000, bearing: bearing), radius: 2800))
-            }
-        }
-        return points
     }
 }

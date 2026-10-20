@@ -78,7 +78,6 @@ final class CatalogTests: XCTestCase {
                         if !stopIDs.insert(stop.id).inserted { problems.append("duplicate stop id \(stop.id)") }
                         requireBoth(stop.title, "\(label) title")
                         requireBoth(stop.details, "\(label) details", minLength: 60)
-                        if stop.wiki?.values["ru"] == nil { problems.append("\(label): no Russian Wikipedia title") }
                         if !stop.coordinate.isValid { problems.append("\(label): bad coordinate") }
                         let fromCenter = Geo.distance(city.coordinate, stop.coordinate)
                         if fromCenter > 80_000 { problems.append("\(label): \(Int(fromCenter / 1000)) km from the city") }

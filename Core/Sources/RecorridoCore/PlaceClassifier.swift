@@ -41,12 +41,12 @@ enum PlaceClassifier {
             "детинец", "городище", "острог", "стена$", "city wall",
         ]),
         Rule(category: .palace, keywords: [
-            "palace", "palais", "palazzo", "manor", "mansion", "chateau", "estate",
-            "дворец", "дворца$", "палаццо", "усадьб", "особняк", "палаты$", "резиденци",
+            "palace", "palais", "palazzo", "manor", "chateau", "estate",
+            "дворец", "дворца$", "палаццо", "усадьб", "палаты$", "резиденци",
         ]),
         Rule(category: .theater, keywords: [
-            "theatre", "theater", "opera", "concert hall", "philharmoni", "circus",
-            "театр", "оперы$", "оперн", "филармони", "концертный зал", "консерватори", "цирк$",
+            "theatre", "theater", "opera", "concert hall", "philharmoni", "circus", "cabaret", "music hall",
+            "театр", "оперы$", "оперн", "филармони", "концертный зал", "консерватори", "цирк$", "кабаре",
         ]),
         Rule(category: .market, keywords: [
             "market", "bazaar", "bazar", "souk", "arcade",
@@ -66,9 +66,10 @@ enum PlaceClassifier {
         ]),
         Rule(category: .monument, keywords: [
             "monument", "memorial", "statue", "sculpture", "obelisk", "column", "triumphal", "arc de",
-            "fountain", "mausoleum", "tomb", "cenotaph", "cannon",
+            "fountain", "mausoleum", "tomb", "cenotaph", "cannon", "ossuary", "catacomb",
             "памятник", "монумент", "мемориал", "статуя", "скульптур", "обелиск", "колонна", "колонны$",
             "триумфальн", "фонтан", "мавзолей", "гробниц", "усыпальниц", "пушка", "колокол$", "стела",
+            "катакомб",
         ]),
         Rule(category: .nature, keywords: [
             "lake", "beach", "waterfall", "island", "forest", "nature reserve", "national park", "cave",
@@ -87,8 +88,10 @@ enum PlaceClassifier {
         ]),
         Rule(category: .landmark, keywords: [
             "building", "town hall", "city hall", "landmark", "gate", "lighthouse", "pavilion", "ensemble",
+            "mansion", "cemetery", "exhibition centre", "exhibition center",
             "здание", "ратуша", "ворота", "маяк", "дом$", "павильон", "ансамбль", "архитектурн",
-            "достопримечательн",
+            "достопримечательн", "особняк", "кладбище", "некрополь", "выставочный комплекс",
+            "выставка достижений",
         ]),
     ]
 

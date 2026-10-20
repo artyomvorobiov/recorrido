@@ -1,0 +1,99 @@
+{
+  "city": {
+    "id": "plyos",
+    "name": {"ru": "Плёс", "en": "Plyos"},
+    "region": {"ru": "Ивановская область", "en": "Ivanovo Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Крошечный город на высоком берегу Волги, который прославил Исаак Левитан: художник провёл здесь три лета и написал больше двухсот работ. Холмы, деревянные дома, неспешная набережная и, пожалуй, лучшие виды на Волгу.",
+      "en": "A tiny town on the high bank of the Volga made famous by Isaac Levitan: the painter spent three summers here and produced more than two hundred works. Hills, wooden houses, an unhurried embankment and perhaps the best views of the Volga."
+    },
+    "gettingThere": {
+      "ru": "Около 370 км от Москвы — 5 часов на машине. Ближайшие крупные города — Иваново (70 км) и Кострома (65 км). Летом в Плёс заходят речные теплоходы.",
+      "en": "About 370 km from Moscow — 5 hours by car. The nearest cities are Ivanovo (70 km) and Kostroma (65 km). In summer river cruise ships call here."
+    },
+    "coordinate": [57.4606, 41.5130],
+    "emoji": "🎨",
+    "size": "small",
+    "tags": ["volga"],
+    "wiki": {"ru": "Плёс", "en": "Plyos"}
+  },
+  "routes": [
+    {
+      "id": "plyos-walk",
+      "title": {"ru": "Плёс: по следам Левитана", "en": "Plyos: in Levitan's footsteps"},
+      "summary": {
+        "ru": "Неспешная прогулка на несколько часов: Соборная гора с видом на Волгу, Торговая площадь, дом-музей Левитана, холм, который называют его именем, и набережная с бронзовой «Дачницей».",
+        "en": "An unhurried walk of a few hours: Cathedral Hill above the Volga, the market square, the Levitan house museum, the hill that bears his name and the embankment with the bronze 'Summer Lady'."
+      },
+      "emoji": "🎨",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "plyos-cathedral-hill",
+              "title": {"ru": "Соборная гора", "en": "Cathedral Hill"},
+              "coordinate": [57.46080, 41.51290],
+              "category": "viewpoint",
+              "visit": 30,
+              "details": {
+                "ru": "Высокий холм над Волгой, на котором в древности стояла крепость, а теперь — Успенский собор конца XVII века. Отсюда открывается тот самый простор, ради которого в Плёс ехали художники: широкая река, заливные луга и бесконечное небо.",
+                "en": "A high hill above the Volga that once held a fortress and now carries the late 17th-century Dormition Cathedral. From here opens the vast view painters came for: a wide river, water meadows and endless sky."
+              },
+              "wiki": {"ru": "Успенский собор (Плёс)"}
+            },
+            {
+              "id": "plyos-market-square",
+              "title": {"ru": "Торговая площадь", "en": "Market Square"},
+              "coordinate": [57.45990, 41.51060],
+              "category": "square",
+              "visit": 20,
+              "details": {
+                "ru": "Небольшая площадь у подножия Соборной горы с торговыми рядами и Воскресенской церковью. Отсюда расходятся улочки с деревянными домами и палисадниками.",
+                "en": "A small square at the foot of Cathedral Hill with old shops and the Church of the Resurrection. Lanes of wooden houses with front gardens lead off in every direction."
+              }
+            },
+            {
+              "id": "plyos-levitan-house",
+              "title": {"ru": "Дом-музей Левитана", "en": "Levitan House Museum"},
+              "coordinate": [57.45920, 41.50700],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Дом, где Левитан жил летом 1888–1890 годов вместе с художницей Софьей Кувшинниковой. В Плёсе он написал «Вечер. Золотой Плёс» и «После дождя. Плёс» — в музее можно сравнить картины с видами за окном.",
+                "en": "The house where Levitan spent the summers of 1888–1890 with the artist Sofia Kuvshinnikova. In Plyos he painted 'Evening. Golden Plyos' and 'After the Rain. Plyos' — here you can compare the paintings with the views outside the window."
+              }
+            },
+            {
+              "id": "plyos-levitan-hill",
+              "title": {"ru": "Левитановская гора", "en": "Levitan Hill"},
+              "coordinate": [57.45780, 41.50440],
+              "category": "viewpoint",
+              "visit": 20,
+              "details": {
+                "ru": "Холм на краю города, откуда Левитан любил писать Волгу. С вершины вниз уходят тропинки к реке — отличное место, чтобы просто посидеть на лавочке и посмотреть на воду.",
+                "en": "A hill at the edge of town from which Levitan liked to paint the Volga. Paths run down from the top to the river — a fine spot to simply sit on a bench and watch the water."
+              }
+            },
+            {
+              "id": "plyos-embankment",
+              "title": {"ru": "Набережная и «Дачница»", "en": "The embankment and the 'Summer Lady'"},
+              "coordinate": [57.46130, 41.51530],
+              "category": "street",
+              "visit": 30,
+              "details": {
+                "ru": "Длинная набережная Волги с купеческими домами, кафе и пристанью. Бронзовая барышня с зонтиком на скамейке — «Дачница» — стала символом Плёса и его курортного прошлого.",
+                "en": "A long Volga embankment with merchant houses, cafés and the pier. The bronze young lady with a parasol on a bench — the 'Summer Lady' — has become the symbol of Plyos and its holiday past."
+              },
+              "tip": {
+                "ru": "Вечером вдоль набережной гуляет весь город — самое время для чая с видом на реку.",
+                "en": "In the evening the whole town strolls along the embankment — the perfect time for tea by the river."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

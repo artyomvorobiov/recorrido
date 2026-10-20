@@ -173,6 +173,8 @@ final class GeneratorModel {
             phase = .done(makeRoute(from: plan, place: place))
         } catch GeneratorError.nothingFound {
             phase = .failed(String(localized: "No sights found around this place. Try a longer trip or a different town."))
+        } catch WikipediaError.busy {
+            phase = .failed(String(localized: "Wikipedia is busy right now. Try again in a minute."))
         } catch {
             phase = .failed(String(localized: "Couldn't reach Wikipedia. Check the internet connection and try again."))
         }

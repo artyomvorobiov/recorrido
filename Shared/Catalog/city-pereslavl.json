@@ -1,0 +1,135 @@
+{
+  "city": {
+    "id": "pereslavl",
+    "name": {"ru": "Переславль-Залесский", "en": "Pereslavl-Zalessky"},
+    "region": {"ru": "Ярославская область", "en": "Yaroslavl Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город на берегу Плещеева озера, основанный Юрием Долгоруким в 1152 году. Здесь родился Александр Невский, а юный Пётр I строил «потешную флотилию» — с неё, как принято считать, начался русский флот. Монастыри, древние валы, озеро и загадочный Синий камень.",
+      "en": "A town on Lake Pleshcheyevo founded by Yuri Dolgoruky in 1152. Alexander Nevsky was born here, and young Peter the Great built his 'amusement flotilla' here — traditionally seen as the birth of the Russian navy. Monasteries, ancient ramparts, the lake and the mysterious Blue Stone."
+    },
+    "gettingThere": {
+      "ru": "Около 140 км от Москвы по Ярославскому шоссе — 2 часа на машине. Пассажирских поездов нет; автобусы идут с Центрального автовокзала («Щёлковская») около 2,5 часа. Переславль удобно совместить с Ростовом Великим (65 км).",
+      "en": "About 140 km from Moscow on the Yaroslavl highway — 2 hours by car. There are no passenger trains; buses from Moscow's Central Bus Station (Shchyolkovskaya) take about 2.5 hours. Pereslavl combines well with Rostov Veliky (65 km)."
+    },
+    "coordinate": [56.7360, 38.8543],
+    "emoji": "⛵",
+    "size": "small",
+    "tags": ["golden-ring"],
+    "wiki": {"ru": "Переславль-Залесский", "en": "Pereslavl-Zalessky"}
+  },
+  "routes": [
+    {
+      "id": "pereslavl-day",
+      "title": {"ru": "Переславль: валы, монастыри и озеро", "en": "Pereslavl: ramparts, monasteries and the lake"},
+      "summary": {
+        "ru": "Утро — пешком по центру: собор 1150-х годов, древние валы и Горицкий монастырь с видом на озеро. Днём — на машине вдоль Плещеева озера: музей-усадьба «Ботик Петра I», Синий камень и Никитский монастырь.",
+        "en": "Morning on foot in the centre: a cathedral from the 1150s, ancient ramparts and the Goritsky Monastery overlooking the lake. Afternoon by car along Lake Pleshcheyevo: Peter the Great's Botik museum, the Blue Stone and the Nikitsky Monastery."
+      },
+      "emoji": "⛵",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "pereslavl-transfiguration",
+              "title": {"ru": "Спасо-Преображенский собор", "en": "Transfiguration Cathedral"},
+              "coordinate": [56.73720, 38.85390],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Небольшой белокаменный собор на Красной площади, заложенный Юрием Долгоруким в 1152 году и освящённый при Андрее Боголюбском. Это один из самых древних сохранившихся храмов Северо-Восточной Руси. По преданию, в нём крестили Александра Невского — его памятник стоит рядом.",
+                "en": "A small white-stone cathedral on Red Square, begun by Yuri Dolgoruky in 1152 and consecrated under Andrei Bogolyubsky. It is one of the oldest surviving churches of North-Eastern Rus. Tradition holds that Alexander Nevsky was baptised here — his monument stands nearby."
+              },
+              "wiki": {"ru": "Спасо-Преображенский собор (Переславль-Залесский)", "en": "Transfiguration Cathedral, Pereslavl-Zalessky"}
+            },
+            {
+              "id": "pereslavl-ramparts",
+              "title": {"ru": "Земляные валы кремля", "en": "Earthen ramparts of the kremlin"},
+              "coordinate": [56.73810, 38.85020],
+              "category": "castle",
+              "visit": 30,
+              "details": {
+                "ru": "Деревянных стен кремля больше нет, но валы XII века сохранились почти целиком: высотой до 10 метров, они кольцом обходят исторический центр. По гребню вала проложена тропинка — прогулка по ней даёт понять размах древнего города.",
+                "en": "The kremlin's wooden walls are gone, but its 12th-century ramparts survive almost intact: up to 10 metres high, they circle the historic centre. A path runs along the crest — walking it shows how large the old town was."
+              },
+              "tip": {
+                "ru": "Пройдите по валу от собора к реке Трубеж — по дороге открываются виды на храмы центра.",
+                "en": "Walk the rampart from the cathedral to the Trubezh river for views of the churches in the centre."
+              },
+              "wiki": {"ru": "Переславский кремль"}
+            },
+            {
+              "id": "pereslavl-goritsky",
+              "title": {"ru": "Горицкий монастырь", "en": "Goritsky Monastery"},
+              "coordinate": [56.72648, 38.86596],
+              "category": "museum",
+              "visit": 90,
+              "details": {
+                "ru": "Монастырь на холме над городом, где сегодня работает Переславский музей-заповедник: иконы, резьба по дереву, старинная утварь. С колокольни и стен видно весь Переславль и синюю чашу Плещеева озера.",
+                "en": "A hilltop monastery that now houses the Pereslavl Museum-Reserve: icons, wood carving and old church treasures. From the bell tower and walls you can see the whole town and the blue bowl of Lake Pleshcheyevo."
+              },
+              "tip": {
+                "ru": "Обязательно поднимитесь на колокольню — это лучшая смотровая площадка города.",
+                "en": "Be sure to climb the bell tower — it is the best viewpoint in town."
+              },
+              "wiki": {"ru": "Горицкий монастырь", "en": "Goritsky Monastery"}
+            },
+            {
+              "id": "pereslavl-botik",
+              "title": {"ru": "Музей-усадьба «Ботик Петра I»", "en": "Peter the Great's Botik museum"},
+              "coordinate": [56.70850, 38.82470],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "На горе Гремяч у озера юный Пётр I в 1688–1692 годах строил «потешную флотилию» — с неё отсчитывают историю русского флота. Здесь хранится ботик «Фортуна», единственное уцелевшее судно той флотилии, и открывается широкий вид на Плещеево озеро.",
+                "en": "On Gremyach hill by the lake, young Peter the Great built his 'amusement flotilla' in 1688–1692 — the starting point of Russian naval history. The museum keeps the Fortuna, the only surviving boat of that flotilla, and offers a sweeping view of Lake Pleshcheyevo."
+              },
+              "wiki": {"ru": "Ботик Петра I (музей-усадьба)"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 4 км на юг вдоль озера — 10 минут на машине или такси", "en": "About 4 km south along the lake — 10 minutes by car or taxi"}
+              }
+            },
+            {
+              "id": "pereslavl-blue-stone",
+              "title": {"ru": "Синий камень", "en": "The Blue Stone"},
+              "coordinate": [56.77470, 38.83420],
+              "category": "nature",
+              "visit": 30,
+              "details": {
+                "ru": "Огромный валун весом около 12 тонн на берегу Плещеева озера. Древние меряне поклонялись ему как божеству; камень пытались закопать и даже увезти, но, по легенде, он каждый раз возвращался на своё место. После дождя он и правда отливает синевой.",
+                "en": "A huge boulder of about 12 tonnes on the shore of Lake Pleshcheyevo. The ancient Merya people worshipped it; the stone was buried and even hauled away, but legend says it always found its way back. After rain it really does shine bluish."
+              },
+              "tip": {
+                "ru": "Оставьте машину у деревни Городище и пройдите к камню по берегу — минут 10 пешком.",
+                "en": "Leave the car near the village of Gorodishche and walk along the shore — about 10 minutes."
+              },
+              "wiki": {"ru": "Синий камень"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Через город на северный берег озера — около 15 минут", "en": "Through town to the north shore of the lake — about 15 minutes"}
+              }
+            },
+            {
+              "id": "pereslavl-nikitsky",
+              "title": {"ru": "Никитский монастырь", "en": "Nikitsky Monastery"},
+              "coordinate": [56.76970, 38.84960],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Один из старейших монастырей России, обнесённый мощными стенами с башнями, — настоящая крепость на пригорке у Ярославского шоссе. Здесь в XII веке подвизался святой Никита Столпник, а сам монастырь, по преданию, возник ещё раньше.",
+                "en": "One of Russia's oldest monasteries, surrounded by mighty towered walls — a true fortress on a rise by the Yaroslavl highway. St Nikita the Stylite lived here as a hermit in the 12th century, and tradition dates the monastery even earlier."
+              },
+              "wiki": {"ru": "Никитский монастырь (Переславль-Залесский)", "en": "Nikitsky Monastery"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 3 км — 7 минут на машине", "en": "About 3 km — 7 minutes by car"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

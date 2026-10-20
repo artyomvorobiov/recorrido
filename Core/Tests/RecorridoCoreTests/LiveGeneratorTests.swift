@@ -29,12 +29,21 @@ final class LiveGeneratorTests: XCTestCase {
             ("Плёс", Coordinate(57.4606, 41.5130)),
             ("Боровск", Coordinate(55.2069, 36.4876)),
         ]
+        var built = 0
         for (name, center) in towns {
-            let plan = try await run(name, center, language: "ru")
-            XCTAssertTrue(plan.isSmallTown, name)
-            XCTAssertFalse(plan.days.isEmpty, name)
-            XCTAssertGreaterThanOrEqual(plan.days[0].stops.count, 3, name)
+            do {
+                let plan = try await run(name, center, language: "ru")
+                XCTAssertTrue(plan.isSmallTown, name)
+                XCTAssertFalse(plan.days.isEmpty, name)
+                XCTAssertGreaterThanOrEqual(plan.days[0].stops.count, 3, name)
+                built += 1
+            } catch WikipediaError.busy {
+                // Shared CI addresses hit Wikipedia's search limits now and then.
+                print("Wikipedia busy, skipped \(name)")
+            }
+            try await Task.sleep(nanoseconds: 2_000_000_000)
         }
+        XCTAssertGreaterThan(built, 0)
     }
 
     func testBigCities() async throws {

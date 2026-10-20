@@ -1,0 +1,114 @@
+{
+  "city": {
+    "id": "sergiev-posad",
+    "name": {"ru": "Сергиев Посад", "en": "Sergiev Posad"},
+    "region": {"ru": "Московская область", "en": "Moscow Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город вырос вокруг Троице-Сергиевой лавры — главного монастыря России, основанного Сергием Радонежским. А ещё это родина русской матрёшки: первые матрёшки стали массово делать именно здесь.",
+      "en": "The town grew up around the Trinity Lavra — Russia's most important monastery, founded by St Sergius of Radonezh. It is also the home of the matryoshka: this is where the nesting dolls were first produced in numbers."
+    },
+    "gettingThere": {
+      "ru": "75 км от Москвы. Электрички с Ярославского вокзала идут около 1,5 часа, экспрессы — около часа; на машине по Ярославскому шоссе — 1–1,5 часа.",
+      "en": "75 km from Moscow. Suburban trains from Yaroslavsky station take about 1.5 hours, express trains about an hour; by car on the Yaroslavl highway it is 1–1.5 hours."
+    },
+    "coordinate": [56.3108, 38.1307],
+    "emoji": "🪆",
+    "size": "small",
+    "tags": ["golden-ring", "near-moscow"],
+    "wiki": {"ru": "Сергиев Посад", "en": "Sergiyev Posad"}
+  },
+  "routes": [
+    {
+      "id": "sergiev-posad-day",
+      "title": {"ru": "Сергиев Посад: лавра и родина матрёшки", "en": "Sergiev Posad: the Lavra and the home of the matryoshka"},
+      "summary": {
+        "ru": "Полдня в Троице-Сергиевой лавре, классический вид с Блинной горы и музей игрушки, а затем — на машине к Черниговскому скиту и к водопадам Гремячего ключа.",
+        "en": "Half a day in the Trinity Lavra, the classic view from Blinnaya Hill and the toy museum, then a drive to the Chernigov Skete and the Gremyachy spring waterfalls."
+      },
+      "emoji": "🪆",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "sergiev-lavra",
+              "title": {"ru": "Троице-Сергиева лавра", "en": "Trinity Lavra of St Sergius"},
+              "coordinate": [56.31080, 38.13000],
+              "category": "church",
+              "visit": 150,
+              "details": {
+                "ru": "Монастырь основан около 1337 года Сергием Радонежским и входит в список Всемирного наследия ЮНЕСКО. Внутри — белокаменный Троицкий собор с иконостасом, в создании которого участвовал Андрей Рублёв, Успенский собор с синими куполами в золотых звёздах и колокольня высотой 88 метров.",
+                "en": "Founded around 1337 by St Sergius of Radonezh, the monastery is a UNESCO World Heritage site. Inside are the white-stone Trinity Cathedral with an iconostasis Andrei Rublev helped to create, the Dormition Cathedral with blue domes scattered with golden stars and an 88-metre bell tower."
+              },
+              "tip": {
+                "ru": "Лавра — действующий монастырь: женщинам нужен платок и юбка, мужчинам — без шорт и головных уборов в храмах.",
+                "en": "The Lavra is an active monastery: women should wear a headscarf and a skirt, men no shorts and no hats in the churches."
+              },
+              "wiki": {"ru": "Троице-Сергиева лавра", "en": "Trinity Lavra of St. Sergius"}
+            },
+            {
+              "id": "sergiev-blinnaya",
+              "title": {"ru": "Смотровая на Блинной горе", "en": "Blinnaya Hill viewpoint"},
+              "coordinate": [56.30860, 38.12350],
+              "category": "viewpoint",
+              "visit": 15,
+              "details": {
+                "ru": "Та самая открытка: стены, купола и колокольня лавры над оврагом и прудами. Лучший свет — утром и на закате.",
+                "en": "The picture-postcard view: the walls, domes and bell tower of the Lavra above a ravine and ponds. The light is best in the morning and at sunset."
+              }
+            },
+            {
+              "id": "sergiev-toy-museum",
+              "title": {"ru": "Музей игрушки", "en": "Toy Museum"},
+              "coordinate": [56.31650, 38.13470],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Один из старейших музеев игрушки в мире, основанный в 1918 году художником Николаем Бартрамом. Тут хранятся первые матрёшки, богородские деревянные игрушки, старинные куклы и солдатики.",
+                "en": "One of the oldest toy museums in the world, founded in 1918 by the artist Nikolai Bartram. It keeps some of the first matryoshkas, wooden toys from nearby Bogorodskoye, antique dolls and toy soldiers."
+              },
+              "wiki": {"ru": "Художественно-педагогический музей игрушки имени Н. Д. Бартрама"}
+            },
+            {
+              "id": "sergiev-chernigov",
+              "title": {"ru": "Черниговский скит", "en": "Chernigov Skete"},
+              "coordinate": [56.29330, 38.16890],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Тихий скит в лесу с краснокирпичным собором и пещерами, вырытыми монахами в XIX веке. Сюда приезжают и за атмосферой, и ради вида на высокую колокольню, выглядывающую из-за деревьев.",
+                "en": "A quiet skete in the woods with a red-brick cathedral and caves dug by monks in the 19th century. People come for the atmosphere and for the tall bell tower rising above the trees."
+              },
+              "wiki": {"ru": "Гефсиманский Черниговский скит"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 4 км — 10 минут на машине или такси", "en": "About 4 km — 10 minutes by car or taxi"}
+              }
+            },
+            {
+              "id": "sergiev-gremyachy",
+              "title": {"ru": "Гремячий ключ", "en": "Gremyachy Spring"},
+              "coordinate": [56.41290, 38.25100],
+              "category": "nature",
+              "visit": 60,
+              "details": {
+                "ru": "Родники, которые падают каскадом с высокого склона в лесной овраг и образуют небольшой водопад. По преданию, это место связано с Сергием Радонежским. Вниз ведёт деревянная лестница, у ручья всегда прохладно.",
+                "en": "Springs that tumble down a high slope into a forest ravine, forming a small waterfall. Tradition links the place to St Sergius. A wooden staircase leads down, and it is always cool by the stream."
+              },
+              "tip": {
+                "ru": "Лестница крутая — нужна удобная обувь, а зимой ступени бывают скользкими.",
+                "en": "The stairs are steep — wear good shoes; in winter the steps can be slippery."
+              },
+              "wiki": {"ru": "Гремячий ключ"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 18 км на северо-восток — 25 минут на машине", "en": "About 18 km north-east — 25 minutes by car"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

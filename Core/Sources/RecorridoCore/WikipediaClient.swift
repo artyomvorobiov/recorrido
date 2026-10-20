@@ -14,6 +14,9 @@ struct WikiPage: Hashable, Sendable {
     var length: Int
     /// Type from the coordinates template: "landmark", "church", "city"…
     var geoType: String?
+    /// Position in Wikipedia's own relevance ranking, when the page came
+    /// from a search (0 is the most prominent).
+    var searchRank: Int?
 }
 
 struct WikiSummary: Hashable, Sendable {
@@ -25,6 +28,8 @@ enum WikipediaError: Error {
     case badRequest
     case http(Int)
     case api(String)
+    /// Wikipedia's search cluster stayed overloaded after several retries.
+    case busy
 }
 
 /// Minimal client for the MediaWiki Action API. No API key needed.
@@ -52,6 +57,7 @@ struct WikipediaClient {
             "ggslimit": String(min(500, max(1, limit))),
             "prop": "coordinates|description|info",
             "colimit": "max",
+            "coprop": "type",
         ])
         return pages.values.compactMap { page in
             guard let id = page.pageid, page.missing != true,
@@ -63,6 +69,34 @@ struct WikipediaClient {
                 shortDescription: page.description?.nilIfEmpty,
                 length: page.length ?? 0,
                 geoType: point.type
+            )
+        }
+    }
+
+    /// The most prominent articles within `radiusKm` of a point, in
+    /// Wikipedia's relevance order (incoming links, popularity). Great for
+    /// big cities where the nearest articles are not the most interesting.
+    func prominentPlaces(near center: Coordinate, radiusKm: Int, limit: Int) async throws -> [WikiPage] {
+        let pages = try await queryPages([
+            "generator": "search",
+            "gsrsearch": "nearcoord:\(max(1, radiusKm))km,\(center.latitude),\(center.longitude)",
+            "gsrnamespace": "0",
+            "gsrlimit": String(min(500, max(1, limit))),
+            "prop": "coordinates|description|info",
+            "colimit": "max",
+            "coprop": "type",
+        ], maxRounds: 1)
+        return pages.values.compactMap { page in
+            guard let id = page.pageid, page.missing != true,
+                  let point = page.coordinates?.first else { return nil }
+            return WikiPage(
+                pageID: id,
+                title: page.title,
+                coordinate: Coordinate(point.lat, point.lon),
+                shortDescription: page.description?.nilIfEmpty,
+                length: page.length ?? 0,
+                geoType: point.type,
+                searchRank: page.index.map { max(0, $0 - 1) }
             )
         }
     }
@@ -184,21 +218,24 @@ struct WikipediaClient {
 
         // Geo search is backed by a search cluster that sometimes answers
         // "too busy"; such errors go away after a short pause.
+        let attempts = 5
         var attempt = 0
         while true {
             attempt += 1
             let (data, response) = try await session.data(for: request)
             let status = (response as? HTTPURLResponse)?.statusCode ?? 200
-            if status == 429 || status == 503, attempt < 4 {
-                try await Task.sleep(nanoseconds: UInt64(attempt) * 1_200_000_000)
+            if status == 429 || status == 503 {
+                guard attempt < attempts else { throw WikipediaError.busy }
+                try await Task.sleep(nanoseconds: UInt64(attempt) * 1_000_000_000)
                 continue
             }
             guard (200..<300).contains(status) else { throw WikipediaError.http(status) }
             let decoded = try JSONDecoder().decode(QueryResponse.self, from: data)
             if let error = decoded.error {
                 let code = error.code ?? ""
-                if attempt < 4, code.contains("busy") || code.contains("maxlag") || code.contains("ratelimit") {
-                    try await Task.sleep(nanoseconds: UInt64(attempt) * 1_200_000_000)
+                if code.contains("busy") || code.contains("maxlag") || code.contains("ratelimit") {
+                    guard attempt < attempts else { throw WikipediaError.busy }
+                    try await Task.sleep(nanoseconds: UInt64(attempt) * 1_000_000_000)
                     continue
                 }
                 throw WikipediaError.api(error.info ?? code)
@@ -230,6 +267,8 @@ struct QueryResponse: Decodable {
         var length: Int?
         var thumbnail: Thumbnail?
         var coordinates: [PageCoordinate]?
+        /// 1-based position in search results (generator=search).
+        var index: Int?
 
         func merged(with other: Page) -> Page {
             var page = self
@@ -238,6 +277,7 @@ struct QueryResponse: Decodable {
             page.length = page.length ?? other.length
             page.thumbnail = page.thumbnail ?? other.thumbnail
             page.coordinates = page.coordinates ?? other.coordinates
+            page.index = page.index ?? other.index
             return page
         }
     }

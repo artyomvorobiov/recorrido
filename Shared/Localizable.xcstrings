@@ -2509,6 +2509,16 @@
         }
       }
     },
+    "Wikipedia is busy right now. Try again in a minute.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Википедия сейчас перегружена. Попробуйте через минуту."
+          }
+        }
+      }
+    },
     "Writing the guide": {
       "localizations": {
         "ru": {
