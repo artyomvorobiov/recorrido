@@ -1,0 +1,2584 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ in %lld days": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ за %2$lld дня"
+          }
+        }
+      }
+    },
+    "%@ in a day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ за один день"
+          }
+        }
+      }
+    },
+    "%@ in half a day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ за полдня"
+          }
+        }
+      }
+    },
+    "%@: a short walk": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: короткая прогулка"
+          }
+        }
+      }
+    },
+    "%lld days": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld days"
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld день"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld дня"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld дней"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld дня"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld of %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld из %2$lld"
+          }
+        }
+      }
+    },
+    "%lld places visited. They are stamped in your passport.": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld place visited. It is stamped in your passport."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld places visited. They are stamped in your passport."
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Пройдено %lld место — оно уже в вашем паспорте."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Пройдено %lld места — они уже в вашем паспорте."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Пройдено %lld мест — они уже в вашем паспорте."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Пройдено %lld места — они уже в вашем паспорте."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld stops": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld stop"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld stops"
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld точка"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld точки"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld точек"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld точки"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "1 day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 день"
+          }
+        }
+      }
+    },
+    "2 days": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 дня"
+          }
+        }
+      }
+    },
+    "2 hours": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 часа"
+          }
+        }
+      }
+    },
+    "3 days": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 дня"
+          }
+        }
+      }
+    },
+    "A day on foot — with a short drive to the sights nearby": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "День пешком — и короткая поездка к тому, что рядом"
+          }
+        }
+      }
+    },
+    "A few words about the route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пара слов о маршруте"
+          }
+        }
+      }
+    },
+    "A map with the stops — for stories and chats": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Карта с точками — для сторис и чатов"
+          }
+        }
+      }
+    },
+    "A route for any town in seconds": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут по любому городу за секунды"
+          }
+        }
+      }
+    },
+    "A route in %@: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут «%2$@» — %1$@"
+          }
+        }
+      }
+    },
+    "About": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О приложении"
+          }
+        }
+      }
+    },
+    "About the route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О маршруте"
+          }
+        }
+      }
+    },
+    "About the town on Wikipedia": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О городе в Википедии"
+          }
+        }
+      }
+    },
+    "About this place": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Об этом месте"
+          }
+        }
+      }
+    },
+    "Active": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активный"
+          }
+        }
+      }
+    },
+    "Add a day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить день"
+          }
+        }
+      }
+    },
+    "Add a stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить точку"
+          }
+        }
+      }
+    },
+    "Add this point": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить эту точку"
+          }
+        }
+      }
+    },
+    "All stops visited": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все точки пройдены"
+          }
+        }
+      }
+    },
+    "Another walk is in progress": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уже идёт другая прогулка"
+          }
+        }
+      }
+    },
+    "Any town": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Любой город"
+          }
+        }
+      }
+    },
+    "Around me": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рядом со мной"
+          }
+        }
+      }
+    },
+    "Audio guide": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аудиогид"
+          }
+        }
+      }
+    },
+    "Author: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автор: %@"
+          }
+        }
+      }
+    },
+    "Auto": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Авто"
+          }
+        }
+      }
+    },
+    "Automatic": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автоматически"
+          }
+        }
+      }
+    },
+    "Back": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Назад"
+          }
+        }
+      }
+    },
+    "Big cities": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Большие города"
+          }
+        }
+      }
+    },
+    "Bike": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Велосипед"
+          }
+        }
+      }
+    },
+    "Boat": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Теплоход"
+          }
+        }
+      }
+    },
+    "Bridge": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мост"
+          }
+        }
+      }
+    },
+    "Build a route for a town": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Собрать маршрут по городу"
+          }
+        }
+      }
+    },
+    "Build a route for “%@”": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Собрать маршрут: «%@»"
+          }
+        }
+      }
+    },
+    "Build for any town": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для любого города"
+          }
+        }
+      }
+    },
+    "Build my own route here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Собрать свой маршрут здесь"
+          }
+        }
+      }
+    },
+    "Build the route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Собрать маршрут"
+          }
+        }
+      }
+    },
+    "Built automatically from %lld notable places on Wikipedia. Check opening hours before you go.": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Built automatically from %lld notable place on Wikipedia. Check opening hours before you go."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Built automatically from %lld notable places on Wikipedia. Check opening hours before you go."
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Собран автоматически из %lld интересного места по данным Википедии. Проверьте часы работы перед поездкой."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Собран автоматически из %lld интересных мест по данным Википедии. Проверьте часы работы перед поездкой."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Собран автоматически из %lld интересных мест по данным Википедии. Проверьте часы работы перед поездкой."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Собран автоматически из %lld интересного места по данным Википедии. Проверьте часы работы перед поездкой."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Bus": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автобус"
+          }
+        }
+      }
+    },
+    "Cable car": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Канатная дорога"
+          }
+        }
+      }
+    },
+    "Can't find this town. Check the name or pick it from the list.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не нашли такой город. Проверьте название или выберите его из списка."
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмена"
+          }
+        }
+      }
+    },
+    "Car or taxi": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Машина или такси"
+          }
+        }
+      }
+    },
+    "Catalog texts and Wikipedia descriptions for new routes.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тексты каталога и описания из Википедии для новых маршрутов."
+          }
+        }
+      }
+    },
+    "Change options": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить параметры"
+          }
+        }
+      }
+    },
+    "Check in at the stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отметиться на точке"
+          }
+        }
+      }
+    },
+    "Choosing the best and planning the way": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбираем лучшее и прокладываем путь"
+          }
+        }
+      }
+    },
+    "Church": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Храм"
+          }
+        }
+      }
+    },
+    "Churches": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Храмы"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть"
+          }
+        }
+      }
+    },
+    "Come back to the start": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вернуться к началу"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить"
+          }
+        }
+      }
+    },
+    "Continue the walk": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить прогулку"
+          }
+        }
+      }
+    },
+    "Couldn't reach Wikipedia. Check the internet connection and try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось связаться с Википедией. Проверьте интернет и попробуйте ещё раз."
+          }
+        }
+      }
+    },
+    "Create from scratch": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать с нуля"
+          }
+        }
+      }
+    },
+    "Created and received": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Созданные и полученные"
+          }
+        }
+      }
+    },
+    "Day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "День"
+          }
+        }
+      }
+    },
+    "Day %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "День %lld"
+          }
+        }
+      }
+    },
+    "Day %lld of %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "День %1$lld из %2$lld"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить"
+          }
+        }
+      }
+    },
+    "Delete the day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить день"
+          }
+        }
+      }
+    },
+    "Delete the stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить точку"
+          }
+        }
+      }
+    },
+    "Delete this route?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить маршрут?"
+          }
+        }
+      }
+    },
+    "Directions": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проложить путь"
+          }
+        }
+      }
+    },
+    "Directions to the start": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как добраться до старта"
+          }
+        }
+      }
+    },
+    "distance": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "путь"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        }
+      }
+    },
+    "During a walk": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Во время прогулки"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить"
+          }
+        }
+      }
+    },
+    "Edit route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Редактирование"
+          }
+        }
+      }
+    },
+    "Erase": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стереть"
+          }
+        }
+      }
+    },
+    "Erase everything?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стереть всё?"
+          }
+        }
+      }
+    },
+    "Erase my routes and passport": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стереть мои маршруты и паспорт"
+          }
+        }
+      }
+    },
+    "Explore": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обзор"
+          }
+        }
+      }
+    },
+    "Finish": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить"
+          }
+        }
+      }
+    },
+    "Finish around %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Финиш около %@"
+          }
+        }
+      }
+    },
+    "Finish the walk": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить прогулку"
+          }
+        }
+      }
+    },
+    "Finish the walk?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить прогулку?"
+          }
+        }
+      }
+    },
+    "Follow the walk in the background": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Следить за прогулкой в фоне"
+          }
+        }
+      }
+    },
+    "Food": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Еда"
+          }
+        }
+      }
+    },
+    "For AirDrop, Telegram, WhatsApp, e-mail": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для AirDrop, Telegram, WhatsApp, почты"
+          }
+        }
+      }
+    },
+    "Fortress": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Крепость"
+          }
+        }
+      }
+    },
+    "From the most interesting places nearby, in a few seconds": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Из самых интересных мест вокруг — за несколько секунд"
+          }
+        }
+      }
+    },
+    "From the previous stop. For the first stop of a day this is ignored.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "От предыдущей точки. Для первой точки дня не учитывается."
+          }
+        }
+      }
+    },
+    "Funicular": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фуникулёр"
+          }
+        }
+      }
+    },
+    "Getting around": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как передвигаться"
+          }
+        }
+      }
+    },
+    "Getting here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как добраться"
+          }
+        }
+      }
+    },
+    "Getting there": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как добраться"
+          }
+        }
+      }
+    },
+    "Go to a stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти к точке"
+          }
+        }
+      }
+    },
+    "Half a day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Полдня"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "История"
+          }
+        }
+      }
+    },
+    "How exactly, e.g. “tram 3 to the Kremlin”": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как именно, например «трамвай 3 до Кремля»"
+          }
+        }
+      }
+    },
+    "How much time": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сколько времени"
+          }
+        }
+      }
+    },
+    "I'm here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Я здесь"
+          }
+        }
+      }
+    },
+    "I'm in this town now": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Я сейчас в этом городе"
+          }
+        }
+      }
+    },
+    "Interesting to me": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мне интересно"
+          }
+        }
+      }
+    },
+    "Kazan": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Казани"
+          }
+        }
+      }
+    },
+    "Kind": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тип"
+          }
+        }
+      }
+    },
+    "Landmark": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Достопримечательность"
+          }
+        }
+      }
+    },
+    "Language of routes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык маршрутов"
+          }
+        }
+      }
+    },
+    "Let a friend scan it with the iPhone camera": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пусть друг отсканирует камерой iPhone"
+          }
+        }
+      }
+    },
+    "Listen": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слушать"
+          }
+        }
+      }
+    },
+    "Local tip": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Совет местных"
+          }
+        }
+      }
+    },
+    "Location is off — check in by hand": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Геолокация выключена — отмечайтесь вручную"
+          }
+        }
+      }
+    },
+    "Location is used only while a walk is in progress, to show where you are and to notice arrivals. It never leaves the phone.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Геолокация нужна только во время прогулки — чтобы показать, где вы, и заметить прибытие. Данные не покидают телефон."
+          }
+        }
+      }
+    },
+    "Look around": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Осмотреться"
+          }
+        }
+      }
+    },
+    "Looking for interesting places": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ищем интересные места"
+          }
+        }
+      }
+    },
+    "Make a picture": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сделать картинку"
+          }
+        }
+      }
+    },
+    "Make my own version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сделать свою версию"
+          }
+        }
+      }
+    },
+    "Maps and paths: Apple Maps. Photos and generated descriptions: Wikipedia and Wikimedia Commons, CC BY-SA 4.0.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Карты и пути: Apple Maps. Фото и описания для автоматических маршрутов: Википедия и Wikimedia Commons, CC BY-SA 4.0."
+          }
+        }
+      }
+    },
+    "Market": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рынок"
+          }
+        }
+      }
+    },
+    "Marks the current stop of your walk as visited.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмечает текущую точку прогулки как пройденную."
+          }
+        }
+      }
+    },
+    "Metro": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Метро"
+          }
+        }
+      }
+    },
+    "Minimize": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Свернуть"
+          }
+        }
+      }
+    },
+    "Monument": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Памятник"
+          }
+        }
+      }
+    },
+    "Moscow": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Москвы"
+          }
+        }
+      }
+    },
+    "Museum": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Музей"
+          }
+        }
+      }
+    },
+    "Museum, café, street…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Музей, кафе, улица…"
+          }
+        }
+      }
+    },
+    "Museums": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Музеи"
+          }
+        }
+      }
+    },
+    "My route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мой маршрут"
+          }
+        }
+      }
+    },
+    "My routes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мои маршруты"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название"
+          }
+        }
+      }
+    },
+    "Name of the place": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название места"
+          }
+        }
+      }
+    },
+    "Nature": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Природа"
+          }
+        }
+      }
+    },
+    "Neighbourhood": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Район"
+          }
+        }
+      }
+    },
+    "New route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый маршрут"
+          }
+        }
+      }
+    },
+    "New stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новая точка"
+          }
+        }
+      }
+    },
+    "Next stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Следующая точка"
+          }
+        }
+      }
+    },
+    "Next: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дальше: %@"
+          }
+        }
+      }
+    },
+    "No routes yet": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока нет маршрутов"
+          }
+        }
+      }
+    },
+    "No sights found around this place. Try a longer trip or a different town.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рядом не нашлось достопримечательностей. Попробуйте поездку подлиннее или другой город."
+          }
+        }
+      }
+    },
+    "No stamps yet": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока нет штампов"
+          }
+        }
+      }
+    },
+    "No stops yet.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Точек пока нет."
+          }
+        }
+      }
+    },
+    "Normal": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обычный"
+          }
+        }
+      }
+    },
+    "Nothing yet": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока ничего"
+          }
+        }
+      }
+    },
+    "Notify when I reach a stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сообщать о прибытии на точку"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ОК"
+          }
+        }
+      }
+    },
+    "On foot": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пешком"
+          }
+        }
+      }
+    },
+    "on foot": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "пешком"
+          }
+        }
+      }
+    },
+    "On foot + car or taxi": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пешком + машина или такси"
+          }
+        }
+      }
+    },
+    "On foot + public transport": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пешком + общественный транспорт"
+          }
+        }
+      }
+    },
+    "Only on foot": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только пешком"
+          }
+        }
+      }
+    },
+    "Open in Google Maps": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть в Google Картах"
+          }
+        }
+      }
+    },
+    "Open Recorrido to hear the story.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Recorrido, чтобы послушать рассказ."
+          }
+        }
+      }
+    },
+    "Open the map": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть карту"
+          }
+        }
+      }
+    },
+    "Opens in the app or in any browser": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откроется в приложении или в любом браузере"
+          }
+        }
+      }
+    },
+    "Pace": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Темп"
+          }
+        }
+      }
+    },
+    "Palace or estate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дворец или усадьба"
+          }
+        }
+      }
+    },
+    "Park": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Парк"
+          }
+        }
+      }
+    },
+    "Parks & nature": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Парки и природа"
+          }
+        }
+      }
+    },
+    "Passport": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Паспорт"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пауза"
+          }
+        }
+      }
+    },
+    "Photo: Wikipedia / Wikimedia Commons, CC BY-SA.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фото: Википедия / Wikimedia Commons, CC BY-SA."
+          }
+        }
+      }
+    },
+    "Photos: Wikipedia / Wikimedia Commons (CC BY-SA). Generated stories: Wikipedia.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фото: Википедия / Wikimedia Commons (CC BY-SA). Тексты автоматических маршрутов: Википедия."
+          }
+        }
+      }
+    },
+    "Pick a town and how much time you have — Recorrido finds the sights, puts them in order and works out where you'll need a car.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите город и сколько у вас времени — Recorrido найдёт достопримечательности, выстроит их по порядку и подскажет, где понадобится машина."
+          }
+        }
+      }
+    },
+    "Place": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Место"
+          }
+        }
+      }
+    },
+    "places": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "мест"
+          }
+        }
+      }
+    },
+    "Places and descriptions come from Wikipedia, paths from Apple Maps.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Места и описания — из Википедии, пути — из Apple Maps."
+          }
+        }
+      }
+    },
+    "Plan of the day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "План дня"
+          }
+        }
+      }
+    },
+    "Project page": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Страница проекта"
+          }
+        }
+      }
+    },
+    "Public transport": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Общественный транспорт"
+          }
+        }
+      }
+    },
+    "Read on Wikipedia": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Читать в Википедии"
+          }
+        }
+      }
+    },
+    "Read the story on arrival": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Читать рассказ по прибытии"
+          }
+        }
+      }
+    },
+    "Recently visited": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Недавно посещённые"
+          }
+        }
+      }
+    },
+    "Relaxed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спокойный"
+          }
+        }
+      }
+    },
+    "Remove from My routes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Убрать из «Моих маршрутов»"
+          }
+        }
+      }
+    },
+    "Route completed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут пройден"
+          }
+        }
+      }
+    },
+    "Route completed!": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут пройден!"
+          }
+        }
+      }
+    },
+    "Route of the day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут дня"
+          }
+        }
+      }
+    },
+    "Routes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршруты"
+          }
+        }
+      }
+    },
+    "routes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "маршрутов"
+          }
+        }
+      }
+    },
+    "Saint Petersburg": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Санкт-Петербурга"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить"
+          }
+        }
+      }
+    },
+    "Save routes from the catalog, build one for any town, or make your own — and share it with friends.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохраняйте маршруты из каталога, собирайте для любого города или создавайте свои — и делитесь с друзьями."
+          }
+        }
+      }
+    },
+    "Save to My routes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить в «Мои маршруты»"
+          }
+        }
+      }
+    },
+    "Saved from the catalog": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранённые из каталога"
+          }
+        }
+      }
+    },
+    "Send a link": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправить ссылку"
+          }
+        }
+      }
+    },
+    "Send as a file": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправить файлом"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        }
+      }
+    },
+    "Share": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поделиться"
+          }
+        }
+      }
+    },
+    "Share as a picture": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поделиться картинкой"
+          }
+        }
+      }
+    },
+    "Share the route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поделиться маршрутом"
+          }
+        }
+      }
+    },
+    "Shortest order (keeps the first stop)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Самый короткий порядок (первая точка остаётся)"
+          }
+        }
+      }
+    },
+    "Sights a few kilometres out of town get a car or taxi leg — handy for monasteries and estates nearby.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "К местам в нескольких километрах от города маршрут предложит машину или такси — удобно для монастырей и усадеб рядом."
+          }
+        }
+      }
+    },
+    "Skip": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пропустить"
+          }
+        }
+      }
+    },
+    "Small town — a walk for a few hours or a day; big city — two or three days.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Малый город — прогулка на несколько часов или день, большой — два-три дня."
+          }
+        }
+      }
+    },
+    "Small towns": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Малые города"
+          }
+        }
+      }
+    },
+    "Small towns, big walks": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Малые города, большие прогулки"
+          }
+        }
+      }
+    },
+    "Speed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скорость"
+          }
+        }
+      }
+    },
+    "Square": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Площадь"
+          }
+        }
+      }
+    },
+    "Stamps": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штампы"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Старт"
+          }
+        }
+      }
+    },
+    "Start a route and tap “I'm here” at each stop — every town you walk gets a stamp.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начните маршрут и нажимайте «Я здесь» на каждой точке — каждый пройденный город получит штамп."
+          }
+        }
+      }
+    },
+    "Start from where I am": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать от того места, где я"
+          }
+        }
+      }
+    },
+    "Start this route instead": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать этот маршрут"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Точка"
+          }
+        }
+      }
+    },
+    "stops": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "точек"
+          }
+        }
+      }
+    },
+    "Story": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рассказ"
+          }
+        }
+      }
+    },
+    "Street": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Улица"
+          }
+        }
+      }
+    },
+    "Streets & squares": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Улицы и площади"
+          }
+        }
+      }
+    },
+    "Tap the map to drop a pin": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь карты, чтобы поставить точку"
+          }
+        }
+      }
+    },
+    "Texts are written for Recorrido; photos come from Wikipedia. Opening hours change — check them before you go.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тексты написаны для Recorrido, фото — из Википедии. Часы работы меняются — проверяйте их перед поездкой."
+          }
+        }
+      }
+    },
+    "The app group is not set up, so the widget shows the route of the day only. See README.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Группа приложений не настроена, поэтому виджет показывает только маршрут дня. См. README."
+          }
+        }
+      }
+    },
+    "The current walk will be finished.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текущая прогулка будет завершена."
+          }
+        }
+      }
+    },
+    "The route is too long for a QR code — send a link or a file.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут слишком длинный для QR-кода — отправьте ссылку или файл."
+          }
+        }
+      }
+    },
+    "Theatre": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Театр"
+          }
+        }
+      }
+    },
+    "This file can't be opened as a route.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот файл не удаётся открыть как маршрут."
+          }
+        }
+      }
+    },
+    "This link doesn't contain a route. Maybe it was cut off — ask for the link again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В ссылке нет маршрута. Возможно, она обрезалась — попросите прислать её ещё раз."
+          }
+        }
+      }
+    },
+    "time": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "время"
+          }
+        }
+      }
+    },
+    "Time here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Время здесь"
+          }
+        }
+      }
+    },
+    "Tip: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Совет: %@"
+          }
+        }
+      }
+    },
+    "Tip: in a small town put the stops you reach by car at the end of the day, and set “Car or taxi” for them.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Совет: в малом городе ставьте точки, до которых нужно ехать, в конец дня и выбирайте для них «Машина или такси»."
+          }
+        }
+      }
+    },
+    "Title": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название"
+          }
+        }
+      }
+    },
+    "Town": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Город"
+          }
+        }
+      }
+    },
+    "Town, e.g. Pereslavl-Zalessky": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Город, например Переславль-Залесский"
+          }
+        }
+      }
+    },
+    "Town, route or place": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Город, маршрут или место"
+          }
+        }
+      }
+    },
+    "towns": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "городов"
+          }
+        }
+      }
+    },
+    "Train": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поезд"
+          }
+        }
+      }
+    },
+    "Tram": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Трамвай"
+          }
+        }
+      }
+    },
+    "Try again": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Попробовать снова"
+          }
+        }
+      }
+    },
+    "Two or three days, one area a day": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Два-три дня, каждый день — свой район"
+          }
+        }
+      }
+    },
+    "Tyumen": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тюмени"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия"
+          }
+        }
+      }
+    },
+    "Viewpoint": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Смотровая"
+          }
+        }
+      }
+    },
+    "Views": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Виды"
+          }
+        }
+      }
+    },
+    "Visited places stay in your passport.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пройденные места останутся в вашем паспорте."
+          }
+        }
+      }
+    },
+    "What is interesting here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чем интересно это место"
+          }
+        }
+      }
+    },
+    "Where": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Куда"
+          }
+        }
+      }
+    },
+    "Writing the guide": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пишем путеводитель"
+          }
+        }
+      }
+    },
+    "Yekaterinburg": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Екатеринбурга"
+          }
+        }
+      }
+    },
+    "You're here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы на месте"
+          }
+        }
+      }
+    },
+    "You've reached %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы на месте: %@"
+          }
+        }
+      }
+    },
+    "Your routes, bookmarks and stamps will be deleted from this iPhone.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваши маршруты, закладки и штампы будут удалены с этого iPhone."
+          }
+        }
+      }
+    },
+    "Your walk: the next stop and progress. Without a walk — a route of the day.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваша прогулка: следующая точка и прогресс. Без прогулки — маршрут дня."
+          }
+        }
+      }
+    },
+    "≈ %lld km from %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "≈ %lld км от %@"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
