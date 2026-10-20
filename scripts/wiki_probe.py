@@ -61,6 +61,7 @@ def probe_generator(lang, name, lat, lon, radius, limit, props):
         "pithumbsize": "400",
         "pilimit": "50",
         "colimit": "max",
+        "coprop": "type",
     }
     pages, rounds, leftover = query_all(lang, params)
     with_views = [p for p in pages.values() if p.get("pageviews")]
@@ -69,7 +70,8 @@ def probe_generator(lang, name, lat, lon, radius, limit, props):
     with_coord = [p for p in pages.values() if p.get("coordinates")]
 
     def total(p):
-        return sum(v for v in (p.get("pageviews") or {}).values() if v)
+        views = sum(v for v in (p.get("pageviews") or {}).values() if v)
+        return views or p.get("length", 0)
 
     top = sorted(pages.values(), key=total, reverse=True)[:15]
     print(f"\n=== {name} [{lang}] radius={radius} limit={limit} props={props}")
@@ -128,12 +130,12 @@ def probe_titles(lang, titles):
 
 
 def main():
-    paris = probe_generator("en", "Paris", 48.8566, 2.3522, 3000, 300, "pageviews|description|coordinates")
-    probe_generator("en", "Paris ring (Eiffel side)", 48.8580, 2.2950, 1800, 120, "pageviews|description|coordinates|pageimages")
-    moscow = probe_generator("ru", "Moscow", 55.7539, 37.6208, 3000, 300, "pageviews|description|coordinates")
-    probe_generator("ru", "Suzdal", 56.4196, 40.4492, 10000, 200, "pageviews|description|coordinates|pageimages")
+    paris = probe_generator("en", "Paris", 48.8566, 2.3522, 3000, 300, "info|description|coordinates")
+    probe_generator("en", "Paris ring (Eiffel side)", 48.8580, 2.2950, 1800, 120, "info|description|coordinates")
+    moscow = probe_generator("ru", "Moscow", 55.7539, 37.6208, 3000, 300, "info|description|coordinates")
+    probe_generator("ru", "Suzdal", 56.4196, 40.4492, 10000, 200, "info|description|coordinates")
     probe_geosearch_types("en", 48.8566, 2.3522)
-    probe_extracts("en", sorted(paris, key=lambda i: -sum(v for v in (paris[i].get("pageviews") or {}).values() if v))[:20])
+    probe_extracts("en", sorted(paris, key=lambda i: -paris[i].get("length", 0))[:20])
     probe_extracts("ru", list(moscow)[:20])
     probe_titles("ru", ["Эрмитаж", "Исаакиевский собор", "Медный всадник", "Несуществующая статья 123"])
     probe_titles("en", ["Hermitage Museum", "Eiffel tower", "Saint Isaac's Cathedral"])
