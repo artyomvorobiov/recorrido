@@ -94,7 +94,7 @@
             {
               "id": "suzdal-pokrovsky",
               "title": {"ru": "Покровский монастырь", "en": "Intercession Convent"},
-              "coordinate": [56.42983, 40.44658],
+              "coordinate": [56.42944, 40.43667],
               "category": "church",
               "visit": 40,
               "details": {
@@ -126,7 +126,7 @@
             {
               "id": "suzdal-kideksha",
               "title": {"ru": "Кидекша: церковь Бориса и Глеба", "en": "Kideksha: Church of Boris and Gleb"},
-              "coordinate": [56.42943, 40.52983],
+              "coordinate": [56.42500, 40.52779],
               "category": "church",
               "visit": 40,
               "details": {

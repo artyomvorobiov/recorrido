@@ -40,8 +40,7 @@
               "details": {
                 "ru": "Единственный в мире музей мыши: игрушечные, фарфоровые, вязаные мыши со всего света, сказки и легенды о том, как маленькая мышь спасла князя и дала имя городу. Весёлое место, особенно с детьми.",
                 "en": "The world's only museum devoted to mice: toy, porcelain and knitted mice from all over the world, plus tales and the legend of how a little mouse saved a prince and gave the town its name. A cheerful place, especially with children."
-              },
-              "wiki": {"ru": "Музей Мыши"}
+              }
             },
             {
               "id": "myshkin-cathedral",
@@ -58,7 +57,7 @@
             {
               "id": "myshkin-people-museum",
               "title": {"ru": "Мышкинский народный музей", "en": "Myshkin People's Museum"},
-              "coordinate": [57.78840, 38.45490],
+              "coordinate": [57.78278, 38.44944],
               "category": "museum",
               "visit": 60,
               "details": {

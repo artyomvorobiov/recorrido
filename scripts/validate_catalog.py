@@ -40,6 +40,46 @@ def api(lang, params, attempts=5):
     return {}
 
 
+# Lakes, rivers and regions have a coordinate somewhere in the middle; a stop
+# on their shore is fine wherever it is.
+AREA_TYPES = {"waterbody", "river", "isle", "forest", "glacier", "mountain", "city", "adm1st", "adm2nd", "adm3rd"}
+AREA = "area"
+
+
+def search(lang, text, near=None, limit=5):
+    """Titles that match `text`, optionally only near a coordinate."""
+    query = text.replace("«", "").replace("»", "")
+    if near:
+        query += f" nearcoord:5km,{near[0]},{near[1]}"
+    data = api(lang, {"list": "search", "srsearch": query, "srlimit": str(limit), "srprop": ""})
+    return [item["title"] for item in data.get("query", {}).get("search", [])]
+
+
+def suggestions(lang, title, coordinate):
+    """Likely right titles for a missing article, with their distance to the stop."""
+    base = title.split(" (")[0]
+    found = []
+    for text, near in ((base, coordinate), (title, None)):
+        try:
+            for item in search(lang, text, near):
+                if item not in found:
+                    found.append(item)
+        except Exception:  # noqa: BLE001
+            pass
+        time.sleep(0.3)
+    if not found:
+        return "no suggestions"
+    info = lookup(lang, found[:8])
+    parts = []
+    for item in found[:8]:
+        _, where, _, _ = info.get(item, (False, None, item, False))
+        if where and where != AREA:
+            parts.append(f"{item} ({int(distance(coordinate, where))} m)")
+        else:
+            parts.append(item)
+    return " | ".join(parts)
+
+
 def distance(a, b):
     lat1, lon1, lat2, lon2 = map(math.radians, (a[0], a[1], b[0], b[1]))
     h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
@@ -52,7 +92,7 @@ def lookup(lang, titles):
     for start in range(0, len(titles), 40):
         batch = titles[start:start + 40]
         data = api(lang, {"titles": "|".join(batch), "redirects": "1", "prop": "coordinates|pageimages",
-                          "piprop": "name"})
+                          "piprop": "name", "pilimit": "max", "colimit": "max", "coprop": "type"})
         q = data.get("query", {})
         mapping = {t: t for t in batch}
         for item in q.get("normalized", []):
@@ -71,6 +111,8 @@ def lookup(lang, titles):
                 continue
             coords = page.get("coordinates")
             coordinate = (coords[0]["lat"], coords[0]["lon"]) if coords else None
+            if coords and coords[0].get("type", "").split("(")[0] in AREA_TYPES:
+                coordinate = AREA
             result[title] = (True, coordinate, mapping[title], bool(page.get("pageimage")))
         time.sleep(0.3)
     return result
@@ -105,14 +147,15 @@ def main():
         for lang, title in wiki.items():
             exists, coordinate, final, has_image = info[lang].get(title, (False, None, title, False))
             if not exists:
-                missing.append(f"{file} {stop['id']}: [{lang}] '{title}' not found")
+                hint = suggestions(lang, title, stop["coordinate"])
+                missing.append(f"{file} {stop['id']}: [{lang}] '{title}' not found\n    try: {hint}")
                 continue
             if lang == "ru" or "ru" not in wiki:
                 if not has_image:
                     no_image.append(f"{stop['id']} [{lang}] {title}")
                 if coordinate is None:
                     no_coord.append(f"{stop['id']} [{lang}] {title}")
-                else:
+                elif coordinate != AREA:
                     d = distance(stop["coordinate"], coordinate)
                     if d > args.tolerance:
                         far.append(f"{file} {stop['id']}: {int(d)} m off; wiki [{lang}] {final} = {coordinate[0]:.5f}, {coordinate[1]:.5f}")

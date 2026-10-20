@@ -61,7 +61,7 @@
             {
               "id": "kolomna-cathedral-square",
               "title": {"ru": "Соборная площадь и Успенский собор", "en": "Cathedral Square and the Dormition Cathedral"},
-              "coordinate": [55.10360, 38.75282],
+              "coordinate": [55.10560, 38.75826],
               "category": "church",
               "visit": 30,
               "details": {
@@ -101,7 +101,7 @@
             {
               "id": "kolomna-golutvin",
               "title": {"ru": "Старо-Голутвин монастырь", "en": "Old Golutvin Monastery"},
-              "coordinate": [55.08150, 38.80370],
+              "coordinate": [55.07861, 38.83306],
               "category": "church",
               "visit": 40,
               "details": {
@@ -115,7 +115,7 @@
               "wiki": {"ru": "Старо-Голутвин монастырь", "en": "Old Golutvin Monastery"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 3 км — такси, 10 минут", "en": "About 3 km — 10 minutes by taxi"}
+                "note": {"ru": "Около 5 км по дороге — 10–15 минут на такси", "en": "About 5 km by road — 10–15 minutes by taxi"}
               }
             }
           ]
