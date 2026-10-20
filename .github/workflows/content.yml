@@ -1,0 +1,28 @@
+name: Content check
+
+# Validates the curated city catalog against Wikipedia (titles exist,
+# coordinates match) and checks that the Wikipedia API still answers in the
+# shape the route generator expects. Network-dependent, so it never blocks
+# the iOS build.
+on:
+  push:
+    paths:
+      - "Shared/Catalog/**"
+      - "scripts/**"
+      - ".github/workflows/content.yml"
+  workflow_dispatch:
+
+jobs:
+  wikipedia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Wikipedia API contract
+        run: python3 scripts/wiki_probe.py
+      - name: Catalog vs Wikipedia
+        if: hashFiles('scripts/validate_catalog.py') != ''
+        run: python3 scripts/validate_catalog.py
