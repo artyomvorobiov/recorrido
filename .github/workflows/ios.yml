@@ -1,0 +1,56 @@
+name: iOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core:
+    name: Core tests
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: |
+          ls -d /Applications/Xcode*.app
+          xcodebuild -version
+          swift --version
+      - name: Unit tests
+        run: swift test --package-path Core
+      - name: Live route generation (Wikipedia)
+        continue-on-error: true
+        env:
+          RECORRIDO_LIVE: "1"
+        run: swift test --package-path Core --filter LiveGeneratorTests
+
+  app:
+    name: Build app and widget
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build for the simulator
+        if: hashFiles('Recorrido.xcodeproj/project.pbxproj') != ''
+        run: |
+          set -o pipefail
+          xcodebuild -version
+          xcodebuild \
+            -project Recorrido.xcodeproj \
+            -scheme Recorrido \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO \
+            build 2>&1 | tee build.log | grep -E "^(/.*: (error|warning)|\*\* BUILD|error:)" || true
+          if ! grep -q "\*\* BUILD SUCCEEDED \*\*" build.log; then
+            echo "::group::Errors"
+            grep -E "error:" build.log | sort -u | head -150
+            echo "::endgroup::"
+            exit 1
+          fi
