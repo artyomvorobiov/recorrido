@@ -172,7 +172,7 @@
             {
               "id": "kazan-sviyazhsk-assumption",
               "title": {"ru": "Успенский монастырь Свияжска", "en": "Assumption Monastery of Sviyazhsk"},
-              "coordinate": [55.77060, 48.66080],
+              "coordinate": [55.77012, 48.65245],
               "category": "church",
               "visit": 40,
               "details": {

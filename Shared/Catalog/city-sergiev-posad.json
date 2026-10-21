@@ -61,7 +61,7 @@
             {
               "id": "sergiev-toy-museum",
               "title": {"ru": "Музей игрушки", "en": "Toy Museum"},
-              "coordinate": [56.31650, 38.13470],
+              "coordinate": [56.30506, 38.12964],
               "category": "museum",
               "visit": 60,
               "details": {
