@@ -28,6 +28,7 @@ final class ClassifierTests: XCTestCase {
         XCTAssertEqual(category("Богородице-Рождественский собор (Суздаль)", "православный храм в Суздале, Владимирская область, Россия"), .church)
         XCTAssertEqual(category("Музей-фабрика пастилы", "музей в Коломне"), .museum)
         XCTAssertEqual(category("Синий камень", "валун на берегу Плещеева озера"), .nature)
+        XCTAssertEqual(category("Соловецкий камень (Москва)", "памятник жертвам политических репрессий"), .monument)
         XCTAssertEqual(category("Tsar Bell", nil, type: "landmark"), .landmark)
     }
 
@@ -44,6 +45,9 @@ final class ClassifierTests: XCTestCase {
         XCTAssertNil(category("Суздаль", "город в Суздальском районе Владимирской области России", city: "Суздаль"))
         XCTAssertNil(category("Суздаль (главный туристический комплекс)", nil, city: "Суздаль"))
         XCTAssertNil(category("Кидекша", "село в Суздальском районе Владимирской области России"))
+        XCTAssertNil(category("Верхне-Волжский заказник", "государственный природный заказник", type: "landmark"))
+        XCTAssertNil(category("Шалимовское и Красковское болота", "болото в Ярославской области", type: "waterbody"))
+        XCTAssertNil(category("Железнодорожный мост у станции Волга", "мост через Волгу"))
         XCTAssertNil(category("Битва под Суздалем (1445)"))
         XCTAssertNil(category("Государственная дума", "нижняя палата российского парламента"))
         XCTAssertNil(category("Метрополь (гостиница, Москва)", "гостиница в центре Москвы класса «5 звёзд»"))

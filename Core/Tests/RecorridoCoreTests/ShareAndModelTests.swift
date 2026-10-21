@@ -51,6 +51,34 @@ final class ShareCodecTests: XCTestCase {
         XCTAssertNotEqual(stops[0].id, route.days[0].stops[0].id, "imported stops get fresh ids")
     }
 
+    /// Made with Python's zlib (raw DEFLATE, wbits = -15) as docs/SHARE_FORMAT.md
+    /// describes: links built on other platforms must open in the app.
+    func testReadsPayloadsMadeElsewhere() throws {
+        let payload = "AU1PwU6DUBD8lZc9YwOxoOFXjAeiHJqW2tjSapomFK5Go_FmDOrJI7WtVgv4C_P-xE9wANOYd3g7s7M7s1MZi2sZMhJXkOoIJZY6wRZfyBS-USqk2OpbPdeJGDKsZC9YE8aEJ_VU069gjZ9Qsj3HRt-Q80n9pNevLHssz0MWp-IeTRvLR2RYcF-ENd5RIKuHBrWgXwmemWjBjVHTVFjWIKPqUlz7oNV2TMeQC3HbVsu29g3pcmzc8SeDs05_1LgJ7rDBSlU7FOuSB_JMmRl_Lvek8j3kPP2DST4VHvi98YaYAYv_dvahtbMzHbvxC8KhHwYUBWyQ8_jLxOt1SXmVg2Uq5MxQ6ETHiptXVQh9tUuDjcyO-X4B"
+        let route = try ShareCodec.route(fromPayload: payload)
+        XCTAssertEqual(route.title, "Прогулка по Плёсу")
+        XCTAssertEqual(route.city, "Плёс")
+        XCTAssertEqual(route.emoji, "🎨")
+        XCTAssertEqual(route.days.count, 1)
+        XCTAssertEqual(route.days[0].title, "Набережная")
+        let stops = route.days[0].stops
+        XCTAssertEqual(stops.map(\.title), ["Соборная гора", "Дом-музей Левитана"])
+        XCTAssertEqual(stops[0].category, .viewpoint)
+        XCTAssertEqual(stops[1].visitMinutes, 45)
+        XCTAssertEqual(stops[1].arrival?.mode, .walk)
+        XCTAssertEqual(stops[1].arrival?.note, "10 минут вдоль Волги")
+    }
+
+    /// The body has to be raw DEFLATE, without a zlib header: that is what
+    /// browsers (`DecompressionStream("deflate-raw")`) and Android expect.
+    func testCompressedBodyIsRawDeflate() throws {
+        let bytes = try XCTUnwrap(Base64URL.decode(try ShareCodec.payload(for: sampleRoute())))
+        XCTAssertEqual(bytes.first, 1)
+        let body = Array(bytes.dropFirst())
+        let zlibHeader = body.count > 1 && body[0] & 0x0F == 8 && (Int(body[0]) * 256 + Int(body[1])) % 31 == 0
+        XCTAssertFalse(zlibHeader)
+    }
+
     func testPayloadIsURLSafe() throws {
         let payload = try ShareCodec.payload(for: sampleRoute())
         let allowed = CharacterSet(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_")

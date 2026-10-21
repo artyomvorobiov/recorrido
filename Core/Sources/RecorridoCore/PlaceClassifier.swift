@@ -76,7 +76,7 @@ enum PlaceClassifier {
             "lagoon", "cliff", "dune", "canyon", "gorge", "spring$", "boulder",
             "озеро", "пляж", "водопад", "остров", "лес$", "заповедник", "пещер", "лагун", "залив",
             "утес", "скала", "дюна", "коса$", "каньон", "ущелье", "родник", "источник", "ключ$",
-            "камень$", "валун",
+            "валун",
         ]),
         Rule(category: .district, keywords: [
             "district", "quarter", "neighbourhood", "neighborhood", "old town", "historic centre",
@@ -155,6 +155,7 @@ enum PlaceClassifier {
         "школа", "гимназия", "лицей", "больница", "посольство", "embassy of", "консульство",
         "бизнес-центр", "торговый центр", "жилой дом", "жилой комплекс", "метрополитен", "линия метро",
         "olympics", "ceremony", "церемония", "корпус$", "район$", "уезд", "волость",
+        "заказник", "болото$", "болота$", "урочище", "железнодорожный мост", "railway bridge",
     ]
 
     /// Places with long articles (mostly lists of the people buried there)
