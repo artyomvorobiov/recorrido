@@ -1,0 +1,126 @@
+{
+  "city": {
+    "id": "kolomna",
+    "name": {"ru": "Коломна", "en": "Kolomna"},
+    "region": {"ru": "Московская область", "en": "Moscow Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Один из старейших городов Подмосковья у слияния Москвы-реки и Оки: в летописи он впервые упомянут в 1177 году. Кремль XVI века с Маринкиной башней, тихий Посад с купеческими домами, музеи пастилы и калача, трамвай и монастыри на другом берегу.",
+      "en": "One of the oldest towns near Moscow, where the Moskva meets the Oka — first mentioned in the chronicles in 1177. A 16th-century kremlin with the Marinkina Tower, a quiet merchant quarter, museums of pastila and kalach bread, trams and monasteries across the river."
+    },
+    "gettingThere": {
+      "ru": "Около 115 км от Москвы. Электрички с Казанского вокзала до станций Коломна и Голутвин идут около 2–2,5 часа, на машине по трассе М-5 — 1,5–2 часа.",
+      "en": "About 115 km from Moscow. Suburban trains from Kazansky station to Kolomna or Golutvin take about 2–2.5 hours; by car on the M-5 highway it is 1.5–2 hours."
+    },
+    "coordinate": [55.1025, 38.7531],
+    "emoji": "🍬",
+    "size": "small",
+    "tags": ["near-moscow"],
+    "wiki": {"ru": "Коломна", "en": "Kolomna"}
+  },
+  "routes": [
+    {
+      "id": "kolomna-day",
+      "title": {"ru": "Коломна: кремль, пастила и монастыри", "en": "Kolomna: kremlin, pastila and monasteries"},
+      "summary": {
+        "ru": "Пешком по кремлю и Посаду: Пятницкие ворота, Соборная площадь, Маринкина башня и дегустация пастилы. После обеда — на такси через Москву-реку к Бобреневу монастырю и на стрелку к Старо-Голутвину монастырю.",
+        "en": "On foot through the kremlin and the merchant quarter: the Pyatnitsky Gate, Cathedral Square, the Marinkina Tower and a pastila tasting. After lunch, a taxi across the Moskva river to the Bobrenev Monastery and on to the Old Golutvin Monastery at the confluence."
+      },
+      "emoji": "🍬",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kolomna-pyatnitsky",
+              "title": {"ru": "Пятницкие ворота", "en": "Pyatnitsky Gate"},
+              "coordinate": [55.10234, 38.75712],
+              "category": "castle",
+              "visit": 15,
+              "details": {
+                "ru": "Главные проездные ворота Коломенского кремля, построенного в 1525–1531 годах по приказу Василия III. Из шестнадцати башен уцелели семь, а Пятницкие ворота — самые парадные: через них въезжали в город с московской дороги.",
+                "en": "The main gate tower of the Kolomna kremlin, built in 1525–1531 on the orders of Grand Prince Vasily III. Seven of the sixteen towers survive, and the Pyatnitsky Gate is the grandest: travellers from Moscow entered the town through it."
+              },
+              "wiki": {"ru": "Пятницкие ворота"}
+            },
+            {
+              "id": "kolomna-pastila",
+              "title": {"ru": "Музей коломенской пастилы", "en": "Kolomna Pastila Museum"},
+              "coordinate": [55.10465, 38.75620],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Музей возродил забытый рецепт: коломенская пастила из антоновских яблок славилась ещё в XIX веке и поставлялась ко двору. Экскурсия-спектакль рассказывает историю лакомства, а в конце — чаепитие с несколькими видами пастилы.",
+                "en": "The museum revived a forgotten recipe: Kolomna pastila made from Antonovka apples was famous in the 19th century and supplied to the imperial court. A theatrical tour tells its story and ends with tea and several kinds of pastila."
+              },
+              "tip": {
+                "ru": "На экскурсии с дегустацией лучше записаться заранее, особенно в выходные.",
+                "en": "Book the tasting tour in advance, especially at weekends."
+              }
+            },
+            {
+              "id": "kolomna-cathedral-square",
+              "title": {"ru": "Соборная площадь и Успенский собор", "en": "Cathedral Square and the Dormition Cathedral"},
+              "coordinate": [55.10560, 38.75826],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Сердце кремля: Успенский собор 1670-х годов, шатровая колокольня, Тихвинская церковь и звонница. По преданию, на месте собора молился перед Куликовской битвой Дмитрий Донской — отсюда войско выступило к Дону.",
+                "en": "The heart of the kremlin: the Dormition Cathedral of the 1670s, a tented bell tower, the Tikhvin church and a belfry. Tradition says Dmitry Donskoy prayed on this spot before the Battle of Kulikovo — his army set out for the Don from here."
+              },
+              "wiki": {"ru": "Успенский собор (Коломна)"}
+            },
+            {
+              "id": "kolomna-marinkina",
+              "title": {"ru": "Маринкина башня", "en": "Marinkina Tower"},
+              "coordinate": [55.10592, 38.75246],
+              "category": "castle",
+              "visit": 20,
+              "details": {
+                "ru": "Круглая угловая башня кремля, связанная с легендой о Марине Мнишек — жене двух Лжедмитриев. Говорят, её держали здесь в заточении, где она и умерла, а по другой версии — обернулась сорокой и улетела через бойницу.",
+                "en": "A round corner tower of the kremlin linked to the legend of Marina Mniszech, wife of two False Dmitrys. They say she was imprisoned and died here — or, in another version, turned into a magpie and flew out through a loophole."
+              },
+              "wiki": {"ru": "Маринкина башня"}
+            },
+            {
+              "id": "kolomna-bobrenev",
+              "title": {"ru": "Бобренев монастырь", "en": "Bobrenev Monastery"},
+              "coordinate": [55.11908, 38.76000],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Монастырь на другом берегу Москвы-реки, основанный, по преданию, воеводой Дмитрием Боброком-Волынским в память о победе на Куликовом поле. Отсюда открывается вид на кремль и купола Коломны.",
+                "en": "A monastery on the far bank of the Moskva, founded, legend says, by the commander Dmitry Bobrok-Volynsky to mark the victory at Kulikovo. It looks back across the water to the kremlin and the domes of Kolomna."
+              },
+              "wiki": {"ru": "Бобренев монастырь"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Через мост — около 10 минут на такси", "en": "Over the bridge — about 10 minutes by taxi"}
+              }
+            },
+            {
+              "id": "kolomna-golutvin",
+              "title": {"ru": "Старо-Голутвин монастырь", "en": "Old Golutvin Monastery"},
+              "coordinate": [55.07861, 38.83306],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Монастырь у слияния Москвы-реки и Оки, основанный Сергием Радонежским в конце XIV века. Белые стены, пышные барочные ворота, а за ними — смотровая площадка над стрелкой двух рек.",
+                "en": "A monastery near the confluence of the Moskva and the Oka, founded by St Sergius of Radonezh in the late 14th century. White walls, a flamboyant baroque gate and, beyond it, a viewpoint over the meeting of two rivers."
+              },
+              "tip": {
+                "ru": "Обратно в центр можно доехать на коломенском трамвае — он ходит с 1948 года.",
+                "en": "Ride back to the centre on the Kolomna tram, running since 1948."
+              },
+              "wiki": {"ru": "Старо-Голутвин монастырь"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 9 км по дороге через центр — 15–20 минут на такси", "en": "About 9 km by road through the centre — 15–20 minutes by taxi"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

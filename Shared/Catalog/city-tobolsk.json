@@ -1,0 +1,117 @@
+{
+  "city": {
+    "id": "tobolsk",
+    "name": {"ru": "Тобольск", "en": "Tobolsk"},
+    "region": {"ru": "Тюменская область", "en": "Tyumen Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Первая столица Сибири на высоком берегу Иртыша. Единственный в Сибири каменный кремль, деревянная лестница-взвоз между верхним и нижним городом, дом, где жила в ссылке семья Николая II, и Абалакский монастырь за городом.",
+      "en": "The first capital of Siberia, on the high bank of the Irtysh. The only stone kremlin in Siberia, a wooden stairway linking the upper and lower town, the house where Nicholas II's family lived in exile, and the Abalak Monastery outside town."
+    },
+    "gettingThere": {
+      "ru": "С 2021 года работает аэропорт «Ремезов» с прямыми рейсами из Москвы. Из Тюмени — около 250 км: 3,5 часа на машине или поезде.",
+      "en": "Remezov airport, opened in 2021, has direct flights from Moscow. From Tyumen it is about 250 km — 3.5 hours by car or train."
+    },
+    "coordinate": [58.1970, 68.2540],
+    "emoji": "❄️",
+    "size": "small",
+    "tags": ["siberia"],
+    "wiki": {"ru": "Тобольск", "en": "Tobolsk"}
+  },
+  "routes": [
+    {
+      "id": "tobolsk-day",
+      "title": {"ru": "Тобольск: кремль над Иртышом", "en": "Tobolsk: a kremlin above the Irtysh"},
+      "summary": {
+        "ru": "Кремль с Софийско-Успенским собором и Гостиным двором, спуск по деревянному Прямскому взвозу в нижний город к Губернаторскому дому — а после обеда поездка в Абалакский монастырь над Иртышом.",
+        "en": "The kremlin with the St Sophia–Assumption Cathedral and the merchant court, a walk down the wooden Pryamskoy Vzvoz to the lower town and the Governor's House — then an afternoon drive to the Abalak Monastery above the Irtysh."
+      },
+      "emoji": "❄️",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "tobolsk-kremlin",
+              "title": {"ru": "Тобольский кремль", "en": "Tobolsk Kremlin"},
+              "coordinate": [58.19690, 68.25450],
+              "category": "castle",
+              "visit": 60,
+              "details": {
+                "ru": "Единственный каменный кремль Сибири, выстроенный на рубеже XVII–XVIII веков под руководством картографа и зодчего Семёна Ремезова. Белые стены с башнями стоят на Троицком мысу над Иртышом.",
+                "en": "The only stone kremlin in Siberia, built at the turn of the 18th century under the cartographer and architect Semyon Remezov. Its white towered walls stand on Trinity Cape above the Irtysh."
+              },
+              "tip": {
+                "ru": "Обойдите кремль по краю мыса — сверху видно нижний город и петли Иртыша.",
+                "en": "Walk round the kremlin along the edge of the cape — you'll see the lower town and the loops of the Irtysh below."
+              },
+              "wiki": {"ru": "Тобольский кремль", "en": "Tobolsk Kremlin"}
+            },
+            {
+              "id": "tobolsk-sophia",
+              "title": {"ru": "Софийско-Успенский собор", "en": "St Sophia–Assumption Cathedral"},
+              "coordinate": [58.19949, 68.25175],
+              "category": "church",
+              "visit": 25,
+              "details": {
+                "ru": "Первый каменный храм Сибири, построенный в 1680-х годах по образцу Вознесенского собора московского Вознесенского монастыря. Его голубые купола видны издалека.",
+                "en": "The first stone church in Siberia, built in the 1680s after the model of a Moscow cathedral. Its blue domes can be seen from far away."
+              },
+              "wiki": {"ru": "Софийско-Успенский собор"}
+            },
+            {
+              "id": "tobolsk-gostiny",
+              "title": {"ru": "Гостиный двор", "en": "Merchant Court"},
+              "coordinate": [58.20000, 68.25290],
+              "category": "market",
+              "visit": 30,
+              "details": {
+                "ru": "Торговый двор начала XVIII века с башенками по углам, где останавливались купцы, идущие из Азии. Сегодня внутри — музейные экспозиции, ремесленные мастерские и кафе.",
+                "en": "An early 18th-century trading court with corner turrets, where merchants travelling from Asia stayed. Today it houses museum displays, craft workshops and a café."
+              },
+              "wiki": {"ru": "Гостиный двор (Тобольск)"}
+            },
+            {
+              "id": "tobolsk-vzvoz",
+              "title": {"ru": "Прямской взвоз", "en": "Pryamskoy Vzvoz"},
+              "coordinate": [58.19560, 68.25740],
+              "category": "street",
+              "visit": 15,
+              "details": {
+                "ru": "Деревянная лестница и мостовая, по которой с XVII века поднимались из нижнего посада в кремль. Её восстанавливали несколько раз, но идти по ней — всё равно что шагать сквозь историю города.",
+                "en": "A wooden stairway and road used since the 17th century to climb from the lower town to the kremlin. It has been rebuilt several times, but walking it still feels like walking through the town's history."
+              }
+            },
+            {
+              "id": "tobolsk-governor",
+              "title": {"ru": "Губернаторский дом", "en": "Governor's House"},
+              "coordinate": [58.19340, 68.25890],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Особняк в нижнем городе, где с августа 1917 по весну 1918 года жила в ссылке семья Николая II. Сейчас здесь музей, рассказывающий о последних месяцах царской семьи в Тобольске.",
+                "en": "A mansion in the lower town where Nicholas II and his family lived in exile from August 1917 until spring 1918. It is now a museum about the royal family's last months in Tobolsk."
+              }
+            },
+            {
+              "id": "tobolsk-abalak",
+              "title": {"ru": "Абалакский монастырь", "en": "Abalak Monastery"},
+              "coordinate": [58.12928, 68.59000],
+              "category": "church",
+              "visit": 60,
+              "details": {
+                "ru": "Знаменский монастырь в селе Абалак на высоком берегу Иртыша, известный с XVII века чудотворной Абалакской иконой. Белые стены и купола над рекой — одно из самых живописных мест Тобольского края.",
+                "en": "The Znamensky Monastery in the village of Abalak on the high bank of the Irtysh, known since the 17th century for its miracle-working Abalak icon. White walls and domes above the river make it one of the most picturesque places around Tobolsk."
+              },
+              "wiki": {"ru": "Абалакский Знаменский монастырь"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 25 км — 30 минут на машине", "en": "About 25 km — 30 minutes by car"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

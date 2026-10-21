@@ -35,6 +35,8 @@ def query_all(lang, params, max_rounds=30):
     while True:
         rounds += 1
         data = api(lang, {**params, **cont})
+        if "error" in data or "warnings" in data:
+            print("  API error/warnings:", json.dumps({k: data.get(k) for k in ("error", "warnings")}, ensure_ascii=False)[:600])
         for page in data.get("query", {}).get("pages", []):
             merged = pages.setdefault(page["pageid"], {})
             for key, value in page.items():
@@ -47,7 +49,7 @@ def query_all(lang, params, max_rounds=30):
         cont = data["continue"]
 
 
-def probe_generator(lang, name, lat, lon, radius, limit, props):
+def probe_generator(lang, name, lat, lon, radius, limit, props, coprop=True):
     started = time.time()
     params = {
         "action": "query",
@@ -62,6 +64,8 @@ def probe_generator(lang, name, lat, lon, radius, limit, props):
         "pilimit": "50",
         "colimit": "max",
     }
+    if coprop:
+        params["coprop"] = "type"
     pages, rounds, leftover = query_all(lang, params)
     with_views = [p for p in pages.values() if p.get("pageviews")]
     with_desc = [p for p in pages.values() if p.get("description")]
@@ -69,9 +73,10 @@ def probe_generator(lang, name, lat, lon, radius, limit, props):
     with_coord = [p for p in pages.values() if p.get("coordinates")]
 
     def total(p):
-        return sum(v for v in (p.get("pageviews") or {}).values() if v)
+        views = sum(v for v in (p.get("pageviews") or {}).values() if v)
+        return views or p.get("length", 0)
 
-    top = sorted(pages.values(), key=total, reverse=True)[:15]
+    top = sorted(pages.values(), key=total, reverse=True)[:40]
     print(f"\n=== {name} [{lang}] radius={radius} limit={limit} props={props}")
     print(f"pages={len(pages)} rounds={rounds} leftover_continue={leftover} "
           f"views={len(with_views)} desc={len(with_desc)} thumb={len(with_thumb)} coord={len(with_coord)} "
@@ -127,14 +132,41 @@ def probe_titles(lang, titles):
         print("  page:", json.dumps(p, ensure_ascii=False)[:400])
 
 
+def probe_nearcoord(lang, name, lat, lon, km, limit):
+    """CirrusSearch ranks pages by popularity; `nearcoord:` limits the area."""
+    started = time.time()
+    params = {
+        "action": "query",
+        "generator": "search",
+        "gsrsearch": f"nearcoord:{km}km,{lat},{lon}",
+        "gsrlimit": str(limit),
+        "gsrnamespace": "0",
+        "prop": "coordinates|description|info",
+        "colimit": "max",
+        "coprop": "type",
+    }
+    pages, rounds, leftover = query_all(lang, params)
+    ordered = sorted(pages.values(), key=lambda p: p.get("index", 0))
+    print(f"\n=== nearcoord search {name} [{lang}] {km} km limit={limit}: pages={len(pages)} rounds={rounds} time={time.time() - started:.1f}s")
+    for p in ordered[:45]:
+        print(f"  #{p.get('index')}  {p['title']}  |  {p.get('description', '')}  | len={p.get('length')}")
+
+
 def main():
-    paris = probe_generator("en", "Paris", 48.8566, 2.3522, 3000, 300, "pageviews|description|coordinates")
-    probe_generator("en", "Paris ring (Eiffel side)", 48.8580, 2.2950, 1800, 120, "pageviews|description|coordinates|pageimages")
-    moscow = probe_generator("ru", "Moscow", 55.7539, 37.6208, 3000, 300, "pageviews|description|coordinates")
-    probe_generator("ru", "Suzdal", 56.4196, 40.4492, 10000, 200, "pageviews|description|coordinates|pageimages")
+    probe_nearcoord("en", "Paris", 48.8566, 2.3522, 8, 100)
+    probe_nearcoord("ru", "Москва", 55.7539, 37.6208, 12, 100)
+    probe_nearcoord("ru", "Суздаль", 56.4196, 40.4492, 10, 50)
+    probe_nearcoord("ru", "Коломна", 55.1025, 38.7531, 10, 50)
+    paris = probe_generator("en", "Paris", 48.8566, 2.3522, 3000, 300, "info|description|coordinates")
+    probe_generator("en", "Paris ring (Eiffel side)", 48.8580, 2.2950, 1800, 120, "info|description|coordinates")
+    moscow = probe_generator("ru", "Moscow", 55.7539, 37.6208, 3000, 300, "info|description|coordinates")
+    moscow = probe_generator("ru", "Moscow (no coprop)", 55.7539, 37.6208, 3000, 300, "info|description|coordinates", coprop=False)
+    probe_generator("ru", "Pereslavl (no coprop)", 56.7360, 38.8543, 10000, 300, "info|description|coordinates", coprop=False)
+    probe_generator("ru", "Kolomna (no coprop)", 55.1025, 38.7531, 10000, 300, "info|description|coordinates", coprop=False)
+    probe_generator("ru", "Suzdal", 56.4196, 40.4492, 10000, 200, "info|description|coordinates")
     probe_geosearch_types("en", 48.8566, 2.3522)
-    probe_extracts("en", sorted(paris, key=lambda i: -sum(v for v in (paris[i].get("pageviews") or {}).values() if v))[:20])
-    probe_extracts("ru", list(moscow)[:20])
+    probe_extracts("en", sorted(paris, key=lambda i: -paris[i].get("length", 0))[:20])
+    probe_extracts("ru", sorted(moscow, key=lambda i: -moscow[i].get("length", 0))[:20])
     probe_titles("ru", ["Эрмитаж", "Исаакиевский собор", "Медный всадник", "Несуществующая статья 123"])
     probe_titles("en", ["Hermitage Museum", "Eiffel tower", "Saint Isaac's Cathedral"])
     return 0

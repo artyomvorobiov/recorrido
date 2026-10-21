@@ -1,0 +1,123 @@
+{
+  "city": {
+    "id": "vyborg",
+    "name": {"ru": "Выборг", "en": "Vyborg"},
+    "region": {"ru": "Ленинградская область", "en": "Leningrad Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Самый «европейский» город России: средневековый шведский замок, башни и брусчатка Старого города, финская архитектура XX века и скалистый парк Монрепо над заливом. Город успел побывать шведским, российским и финским — и всё это видно на его улицах.",
+      "en": "Russia's most 'European' town: a medieval Swedish castle, the towers and cobbles of the Old Town, 20th-century Finnish architecture and the rocky Monrepos park above the bay. The town has been Swedish, Russian and Finnish — and it all shows in its streets."
+    },
+    "gettingThere": {
+      "ru": "Из Санкт-Петербурга — «Ласточка» с Финляндского вокзала, около 1 ч 15 мин. На машине по трассе «Скандинавия» — около 2 часов (140 км).",
+      "en": "From Saint Petersburg take the Lastochka train from Finlyandsky station — about 1 hour 15 minutes. By car on the Scandinavia highway it is about 2 hours (140 km)."
+    },
+    "coordinate": [60.7130, 28.7520],
+    "emoji": "🏰",
+    "size": "small",
+    "tags": ["north-west"],
+    "wiki": {"ru": "Выборг", "en": "Vyborg"}
+  },
+  "routes": [
+    {
+      "id": "vyborg-day",
+      "title": {"ru": "Выборг: замок, башни и Монрепо", "en": "Vyborg: castle, towers and Monrepos"},
+      "summary": {
+        "ru": "От вокзала через библиотеку Алвара Аалто к Круглой башне и Часовой башне Старого города, по средневековым улочкам к замку на острове, а оттуда — в скалистый парк Монрепо.",
+        "en": "From the station past Alvar Aalto's library to the Round Tower and the Clock Tower of the Old Town, through medieval lanes to the island castle, and on to the rocky Monrepos park."
+      },
+      "emoji": "🏰",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "vyborg-library",
+              "title": {"ru": "Библиотека Алвара Аалто", "en": "Alvar Aalto Library"},
+              "coordinate": [60.70930, 28.74810],
+              "category": "landmark",
+              "visit": 30,
+              "details": {
+                "ru": "Шедевр модернизма, построенный финским архитектором Алваром Аалто в 1935 году. Волнистый деревянный потолок лекционного зала и мягкий верхний свет читального зала изучают архитекторы всего мира.",
+                "en": "A modernist masterpiece built by the Finnish architect Alvar Aalto in 1935. The wavy wooden ceiling of the lecture hall and the soft skylight of the reading room are studied by architects all over the world."
+              },
+              "tip": {
+                "ru": "Внутрь можно попасть с экскурсией — посмотрите расписание на сайте библиотеки.",
+                "en": "You can see the interiors on a guided tour — check the library's schedule."
+              },
+              "wiki": {"ru": "Библиотека Алвара Аалто", "en": "Viipuri Library"}
+            },
+            {
+              "id": "vyborg-round-tower",
+              "title": {"ru": "Круглая башня", "en": "Round Tower"},
+              "coordinate": [60.71170, 28.73860],
+              "category": "castle",
+              "visit": 15,
+              "details": {
+                "ru": "Мощная артиллерийская башня середины XVI века на Рыночной площади — часть городских укреплений. Рядом — финский крытый рынок 1900-х годов.",
+                "en": "A massive mid-16th-century artillery tower on Market Square, once part of the town fortifications. Next to it is a Finnish covered market from the 1900s."
+              },
+              "wiki": {"ru": "Круглая башня (Выборг)", "en": "Round Tower (Vyborg)"}
+            },
+            {
+              "id": "vyborg-clock-tower",
+              "title": {"ru": "Часовая башня", "en": "Clock Tower"},
+              "coordinate": [60.71280, 28.73360],
+              "category": "viewpoint",
+              "visit": 25,
+              "details": {
+                "ru": "Бывшая колокольня старого кафедрального собора, получившая часы в XVIII веке. Наверх можно подняться: с площадки видны черепичные крыши Старого города, замок и залив.",
+                "en": "The former bell tower of the old cathedral, which got its clock in the 18th century. You can climb it for a view over the tiled roofs of the Old Town, the castle and the bay."
+              },
+              "wiki": {"ru": "Часовая башня (Выборг)"}
+            },
+            {
+              "id": "vyborg-old-cathedral",
+              "title": {"ru": "Старый кафедральный собор", "en": "Old Cathedral"},
+              "coordinate": [60.71250, 28.73190],
+              "category": "church",
+              "visit": 15,
+              "details": {
+                "ru": "Руины средневекового собора XV века, сгоревшего во время Второй мировой войны. Готические стены без крыши посреди Старого города особенно атмосферны вечером.",
+                "en": "The ruins of a 15th-century cathedral that burned during the Second World War. Roofless Gothic walls in the middle of the Old Town feel especially atmospheric in the evening."
+              },
+              "wiki": {"ru": "Старый кафедральный собор (Выборг)"}
+            },
+            {
+              "id": "vyborg-castle",
+              "title": {"ru": "Выборгский замок", "en": "Vyborg Castle"},
+              "coordinate": [60.71440, 28.72870],
+              "category": "castle",
+              "visit": 90,
+              "details": {
+                "ru": "Замок, основанный шведами в 1293 году на острове, — единственный в России средневековый замок западноевропейского типа. Обязательно поднимитесь на башню Святого Олафа: оттуда видно весь Выборг и Финский залив.",
+                "en": "A castle founded by the Swedes in 1293 on an island — the only medieval Western-European-style castle in Russia. Do climb St Olaf's Tower: the whole of Vyborg and the Gulf of Finland are spread out below."
+              },
+              "wiki": {"ru": "Выборгский замок", "en": "Vyborg Castle"}
+            },
+            {
+              "id": "vyborg-monrepos",
+              "title": {"ru": "Парк Монрепо", "en": "Monrepos Park"},
+              "coordinate": [60.73190, 28.72860],
+              "category": "park",
+              "visit": 90,
+              "details": {
+                "ru": "Пейзажный парк XVIII–XIX веков на гранитных скалах над заливом Защитная бухта. Валуны, вековые ели, мостики, павильоны и остров Людвигштайн с некрополем баронов Николаи — бывших владельцев усадьбы.",
+                "en": "An 18th–19th-century landscape park on granite rocks above Zashchitnaya Bay. Boulders, ancient spruces, little bridges, pavilions and Ludwigstein island with the burial place of the Nicolay barons, the estate's former owners."
+              },
+              "tip": {
+                "ru": "Наденьте удобную обувь: тропинки идут по корням и камням.",
+                "en": "Wear comfortable shoes: the paths run over roots and rocks."
+              },
+              "wiki": {"ru": "Монрепо", "en": "Monrepos"},
+              "arrival": {
+                "mode": "walk",
+                "note": {"ru": "Около 2,5 км через мост — 35 минут пешком или такси", "en": "About 2.5 km over the bridge — 35 minutes on foot or a taxi"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

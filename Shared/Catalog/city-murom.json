@@ -1,0 +1,118 @@
+{
+  "city": {
+    "id": "murom",
+    "name": {"ru": "Муром", "en": "Murom"},
+    "region": {"ru": "Владимирская область", "en": "Vladimir Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Один из древнейших городов России на высоком берегу Оки, впервые упомянутый в 862 году. Родина былинного богатыря Ильи Муромца и город святых Петра и Февронии — покровителей семьи и верности. Монастыри, купеческие особняки и широкая Ока.",
+      "en": "One of Russia's oldest towns, on the high bank of the Oka, first mentioned in 862. The home of the epic hero Ilya Muromets and the town of Saints Peter and Fevronia, patrons of family and faithfulness. Monasteries, merchant mansions and the broad Oka."
+    },
+    "gettingThere": {
+      "ru": "Около 300 км от Москвы — 4,5–5 часов на машине через Владимир. Поезда с Казанского вокзала идут около 3,5–4 часов.",
+      "en": "About 300 km from Moscow — 4.5–5 hours by car via Vladimir. Trains from Moscow's Kazansky station take about 3.5–4 hours."
+    },
+    "coordinate": [55.5752, 42.0526],
+    "emoji": "🛡️",
+    "size": "small",
+    "tags": ["golden-ring"],
+    "wiki": {"ru": "Муром", "en": "Murom"}
+  },
+  "routes": [
+    {
+      "id": "murom-day",
+      "title": {"ru": "Муром: богатырь, святые и Ока", "en": "Murom: the hero, the saints and the Oka"},
+      "summary": {
+        "ru": "Свято-Троицкий монастырь с мощами Петра и Февронии, Благовещенский монастырь, музей в доме купцов Зворыкиных, памятник Илье Муромцу над Окой и Спасо-Преображенский монастырь — один из старейших в стране.",
+        "en": "The Holy Trinity Convent with the relics of Peter and Fevronia, the Annunciation Monastery, the museum in the Zvorykin merchant house, the Ilya Muromets monument above the Oka and the Saviour Transfiguration Monastery — one of the oldest in the country."
+      },
+      "emoji": "🛡️",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "murom-trinity",
+              "title": {"ru": "Свято-Троицкий монастырь", "en": "Holy Trinity Convent"},
+              "coordinate": [55.58139, 42.05278],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Здесь хранятся мощи святых Петра и Февронии Муромских — их история любви стала основой праздника 8 июля, Дня семьи, любви и верности. Нарядный Троицкий собор XVII века украшен изразцами.",
+                "en": "This convent keeps the relics of Saints Peter and Fevronia of Murom — their love story is the basis of 8 July, Russia's Day of Family, Love and Faithfulness. Its ornate 17th-century Trinity Cathedral is decorated with glazed tiles."
+              },
+              "tip": {
+                "ru": "8 июля в Муроме главный праздник года — город полон гостей, а вечером на Оке запускают фейерверк.",
+                "en": "8 July is the town's biggest celebration — Murom fills with visitors and there are fireworks over the Oka in the evening."
+              },
+              "wiki": {"ru": "Троицкий монастырь (Муром)"}
+            },
+            {
+              "id": "murom-annunciation",
+              "title": {"ru": "Благовещенский монастырь", "en": "Annunciation Monastery"},
+              "coordinate": [55.58233, 42.05478],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Монастырь, основанный при Иване Грозном после похода на Казань. Белый собор с пятью главами, тенистый двор и, по преданию, место погребения муромского князя Константина и его сыновей.",
+                "en": "A monastery founded under Ivan the Terrible after the Kazan campaign. A white five-domed cathedral, a shady courtyard and, according to tradition, the burial place of Prince Konstantin of Murom and his sons."
+              },
+              "wiki": {"ru": "Благовещенский монастырь (Муром)"}
+            },
+            {
+              "id": "murom-museum",
+              "title": {"ru": "Муромский историко-художественный музей", "en": "Murom Museum of History and Art"},
+              "coordinate": [55.57990, 42.05620],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Музей в особняке купцов Зворыкиных — из этой семьи происходит Владимир Зворыкин, один из изобретателей телевидения. В экспозиции — иконы, живопись, усадебные интерьеры и археологические находки муромы.",
+                "en": "A museum in the mansion of the Zvorykin merchant family — Vladimir Zworykin, one of the inventors of television, came from this family. It shows icons, paintings, period interiors and archaeological finds of the ancient Muroma tribe."
+              },
+              "wiki": {"ru": "Муромский историко-художественный музей"}
+            },
+            {
+              "id": "murom-ilya",
+              "title": {"ru": "Памятник Илье Муромцу", "en": "Ilya Muromets monument"},
+              "coordinate": [55.57060, 42.06150],
+              "category": "monument",
+              "visit": 15,
+              "details": {
+                "ru": "Богатырь с поднятым над головой мечом-крестом стоит в Окском парке на высоком берегу. Памятник работы Вячеслава Клыкова открыт в 1999 году; отсюда лучший вид на Оку и вантовый мост.",
+                "en": "The hero, raising a sword shaped like a cross above his head, stands in Oka Park on the high bank. The monument by Vyacheslav Klykov was unveiled in 1999; this is the best view of the Oka and the cable-stayed bridge."
+              }
+            },
+            {
+              "id": "murom-spaso",
+              "title": {"ru": "Спасо-Преображенский монастырь", "en": "Saviour Transfiguration Monastery"},
+              "coordinate": [55.57278, 42.06611],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Один из старейших монастырей России: впервые он упоминается в летописи под 1096 годом. Стоит на крутом берегу Оки, за белыми стенами — собор XVI века и ухоженный монастырский сад.",
+                "en": "One of Russia's oldest monasteries: the chronicles first mention it in 1096. It stands on a steep bank of the Oka, and behind its white walls are a 16th-century cathedral and a well-kept monastery garden."
+              },
+              "wiki": {"ru": "Спасо-Преображенский монастырь (Муром)"}
+            },
+            {
+              "id": "murom-karacharovo",
+              "title": {"ru": "Карачарово", "en": "Karacharovo"},
+              "coordinate": [55.59360, 42.09450],
+              "category": "palace",
+              "visit": 40,
+              "details": {
+                "ru": "Село, где, по былинам, родился Илья Муромец. Здесь стоит усадьба графов Уваровых — дом над Окой с парком, а у реки показывают «следы» коня богатыря и родник.",
+                "en": "The village where, according to the epics, Ilya Muromets was born. It has the estate of the Uvarov counts — a house above the Oka with a park — and by the river locals show the 'hoofprints' of the hero's horse and a spring."
+              },
+              "wiki": {"ru": "Карачарово (Муром)"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 5 км — 10 минут на машине или такси", "en": "About 5 km — 10 minutes by car or taxi"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

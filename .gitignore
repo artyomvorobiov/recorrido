@@ -1,0 +1,19 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Core/.build/
+Core/.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+__pycache__/

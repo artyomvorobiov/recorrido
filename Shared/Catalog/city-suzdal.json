@@ -1,0 +1,151 @@
+{
+  "city": {
+    "id": "suzdal",
+    "name": {"ru": "Суздаль", "en": "Suzdal"},
+    "region": {"ru": "Владимирская область", "en": "Vladimir Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город-музей Золотого кольца: на десять тысяч жителей здесь больше пятидесяти памятников архитектуры. Белокаменные храмы, монастыри с крепостными стенами, деревянные церкви, медовуха и огурцы — Суздаль легко обойти пешком за день.",
+      "en": "The museum town of the Golden Ring: fewer than ten thousand people and more than fifty listed monuments. White-stone churches, walled monasteries, wooden churches, mead and pickled cucumbers — Suzdal is easy to explore on foot in a day."
+    },
+    "gettingThere": {
+      "ru": "Железной дороги в Суздале нет. Из Москвы около 220 км — 3 часа на машине через Владимир. Или скоростной поезд с Курского вокзала до Владимира (около 2 часов), оттуда 40 минут на автобусе или такси.",
+      "en": "Suzdal has no railway. It is about 220 km from Moscow — 3 hours by car via Vladimir. Or take a fast train from Moscow's Kursky station to Vladimir (about 2 hours) and then a 40-minute bus or taxi."
+    },
+    "coordinate": [56.4196, 40.4492],
+    "emoji": "🥒",
+    "size": "small",
+    "tags": ["golden-ring"],
+    "wiki": {"ru": "Суздаль", "en": "Suzdal"}
+  },
+  "routes": [
+    {
+      "id": "suzdal-day",
+      "title": {"ru": "Суздаль за один день", "en": "Suzdal in one day"},
+      "summary": {
+        "ru": "Кремль с синими звёздными куполами, музей деревянного зодчества, торговые ряды и два больших монастыря, а в конце — короткая поездка в Кидекшу к храму 1152 года.",
+        "en": "The Kremlin with its blue star-spangled domes, the open-air museum of wooden architecture, the trading rows and two great monasteries, then a short drive to Kideksha and its church of 1152."
+      },
+      "emoji": "🥒",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "suzdal-kremlin",
+              "title": {"ru": "Суздальский кремль", "en": "Suzdal Kremlin"},
+              "coordinate": [56.41506, 40.44047],
+              "category": "castle",
+              "visit": 75,
+              "details": {
+                "ru": "Древнейшая часть города, окружённая земляными валами XI века. Главное здесь — Рождественский собор: его синие купола усыпаны золотыми звёздами, а внутри сохранились фрески XIII века и знаменитые Золотые врата с гравировкой по меди. В Архиерейских палатах работает музей истории Суздаля.",
+                "en": "The oldest part of town, ringed by earthen ramparts from the 11th century. Its heart is the Nativity Cathedral: blue domes strewn with golden stars, 13th-century frescoes inside and the famous Golden Gates engraved on copper. The Archbishop's Chambers house the museum of Suzdal's history."
+              },
+              "tip": {
+                "ru": "Поднимитесь на вал со стороны реки Каменки — оттуда лучший вид на собор и деревянную Никольскую церковь.",
+                "en": "Climb the rampart on the Kamenka river side — it gives the best view of the cathedral and the wooden St Nicholas church."
+              },
+              "wiki": {"ru": "Суздальский кремль", "en": "Suzdal Kremlin"}
+            },
+            {
+              "id": "suzdal-wooden-museum",
+              "title": {"ru": "Музей деревянного зодчества", "en": "Museum of Wooden Architecture"},
+              "coordinate": [56.41274, 40.43685],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Музей под открытым небом напротив кремля, за рекой. Сюда перевезли из окрестных сёл деревянные церкви XVIII века, крестьянские избы, амбары и ветряные мельницы. В избах можно посмотреть, как жили и что держали в хозяйстве суздальские крестьяне.",
+                "en": "An open-air museum across the river from the Kremlin. Eighteenth-century wooden churches, peasant houses, barns and windmills were brought here from nearby villages. Step inside the houses to see how Suzdal peasants lived and worked."
+              },
+              "tip": {
+                "ru": "Летом по выходным здесь часто проходят народные праздники и мастер-классы.",
+                "en": "On summer weekends there are often folk festivals and craft workshops."
+              },
+              "wiki": {"ru": "Музей деревянного зодчества"}
+            },
+            {
+              "id": "suzdal-trading-rows",
+              "title": {"ru": "Торговые ряды", "en": "Trading Rows"},
+              "coordinate": [56.41960, 40.44910],
+              "category": "market",
+              "visit": 40,
+              "details": {
+                "ru": "Длинная галерея купеческих лавок начала XIX века в самом центре, на Торговой площади. Сегодня здесь продают медовуху, огуречное варенье, керамику и местные сладости, а за рядами — тихая набережная Каменки.",
+                "en": "A long arcade of merchant shops from the early 19th century on the central Trading Square. Today it sells mead, cucumber jam, pottery and local sweets, and behind it lies the quiet Kamenka embankment."
+              },
+              "tip": {
+                "ru": "Медовуху здесь продают в разлив — попробуйте сначала маленький стакан.",
+                "en": "Mead is sold on tap — try a small glass first."
+              },
+              "wiki": {"ru": "Торговые ряды (Суздаль)"}
+            },
+            {
+              "id": "suzdal-rizopolozhensky",
+              "title": {"ru": "Ризоположенский монастырь", "en": "Rizopolozhensky Monastery"},
+              "coordinate": [56.42389, 40.44583],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Один из старейших монастырей Суздаля. Его Святые ворота конца XVII века с двумя шатровыми башенками — символ города, а колокольня 1819 года высотой около 72 метров — самое высокое сооружение Суздаля.",
+                "en": "One of Suzdal's oldest convents. Its late 17th-century Holy Gates with twin tented towers are a symbol of the town, and the bell tower of 1819, about 72 metres high, is the tallest structure in Suzdal."
+              },
+              "wiki": {"ru": "Ризоположенский монастырь"}
+            },
+            {
+              "id": "suzdal-pokrovsky",
+              "title": {"ru": "Покровский монастырь", "en": "Intercession Convent"},
+              "coordinate": [56.42944, 40.43667],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белоснежный монастырь на заливном лугу у реки Каменки. В XVI веке сюда отправляли в ссылку знатных женщин — например, Соломонию Сабурову, первую жену великого князя Василия III. Монастырь действующий, но его можно посетить.",
+                "en": "A snow-white convent on a water meadow by the Kamenka. In the 16th century noble women were exiled here — among them Solomonia Saburova, the first wife of Grand Prince Vasily III. It is an active convent open to visitors."
+              },
+              "tip": {
+                "ru": "Самый красивый вид на монастырь — со стены Спасо-Евфимиева монастыря напротив.",
+                "en": "The finest view of the convent is from the walls of the Saviour Monastery opposite."
+              },
+              "wiki": {"ru": "Покровский монастырь (Суздаль)"}
+            },
+            {
+              "id": "suzdal-spaso-evfimiev",
+              "title": {"ru": "Спасо-Евфимиев монастырь", "en": "Saviour Monastery of St Euthymius"},
+              "coordinate": [56.43215, 40.44271],
+              "category": "church",
+              "visit": 90,
+              "details": {
+                "ru": "Мощная монастырь-крепость XIV века на высоком берегу Каменки. Внутри — Спасо-Преображенский собор с фресками костромских мастеров XVII века, звонница и музейные экспозиции, в том числе о монастырской тюрьме, существовавшей здесь более ста лет.",
+                "en": "A mighty 14th-century fortress monastery on the high bank of the Kamenka. Inside are the Transfiguration Cathedral with 17th-century frescoes by Kostroma masters, the belfry and museum exhibitions, including one about the monastery prison that operated here for more than a hundred years."
+              },
+              "tip": {
+                "ru": "На звоннице несколько раз в день проходят концерты колокольного звона — расписание висит у входа.",
+                "en": "Bell-ringing concerts take place at the belfry several times a day — the schedule is posted at the entrance."
+              },
+              "wiki": {"ru": "Спасо-Евфимиев монастырь", "en": "Monastery of Saint Euthymius"}
+            },
+            {
+              "id": "suzdal-kideksha",
+              "title": {"ru": "Кидекша: церковь Бориса и Глеба", "en": "Kideksha: Church of Boris and Gleb"},
+              "coordinate": [56.42500, 40.52779],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белокаменная церковь 1152 года, построенная Юрием Долгоруким при впадении Каменки в Нерль, — одна из старейших в Северо-Восточной Руси. Храм посвящён святым князьям Борису и Глебу — по преданию, они останавливались на этом месте. Вокруг — луга и тишина.",
+                "en": "A white-stone church of 1152, built by Prince Yuri Dolgoruky where the Kamenka flows into the Nerl — one of the oldest in North-Eastern Rus. It is dedicated to the holy princes Boris and Gleb, who, legend says, once stopped at this spot. Around it are only meadows and silence."
+              },
+              "tip": {
+                "ru": "Отсюда удобно вернуться в Суздаль к закату — вечером на набережной Каменки особенно красиво.",
+                "en": "Head back to Suzdal for sunset — the Kamenka embankment is especially lovely in the evening."
+              },
+              "wiki": {"ru": "Церковь Бориса и Глеба (Кидекша)"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 5 км — 10 минут на машине или такси", "en": "About 5 km — 10 minutes by car or taxi"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "city": {
+    "id": "moscow",
+    "name": {"ru": "Москва", "en": "Moscow"},
+    "region": {"ru": "Москва", "en": "Moscow"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Столица, которую не обойти и за неделю, но главное можно увидеть за два дня: Кремль и Красную площадь, парк «Зарядье», станции-дворцы метро, Патриаршие, Арбат и Воробьёвы горы.",
+      "en": "A capital you couldn't cover in a week, but the essentials fit into two days: the Kremlin and Red Square, Zaryadye Park, palace-like metro stations, Patriarch's Ponds, the Arbat and Sparrow Hills."
+    },
+    "gettingThere": {
+      "ru": "Три аэропорта, девять вокзалов и метро, которое работает с 5:30 до часа ночи. По центру удобнее всего ходить пешком и ездить на метро.",
+      "en": "Three airports, nine railway stations and a metro running from 5:30 am to 1 am. In the centre, walking and the metro are the easiest ways to get around."
+    },
+    "coordinate": [55.7539, 37.6208],
+    "emoji": "⭐",
+    "size": "large",
+    "tags": ["big"],
+    "wiki": {"ru": "Москва", "en": "Moscow"}
+  },
+  "routes": [
+    {
+      "id": "moscow-two-days",
+      "title": {"ru": "Москва за два дня", "en": "Moscow in two days"},
+      "summary": {
+        "ru": "День первый — сердце города: Красная площадь, Кремль, «Зарядье», ГУМ, Никольская и Большой театр. День второй — метро-дворцы, Патриаршие пруды, Арбат, храм Христа Спасителя, парк Горького и закат на Воробьёвых горах.",
+        "en": "Day one is the heart of the city: Red Square, the Kremlin, Zaryadye, GUM, Nikolskaya Street and the Bolshoi. Day two brings palace-like metro stations, Patriarch's Ponds, the Arbat, Christ the Saviour, Gorky Park and sunset on Sparrow Hills."
+      },
+      "emoji": "⭐",
+      "tags": ["walk", "metro"],
+      "days": [
+        {
+          "title": {"ru": "Кремль и Китай-город", "en": "The Kremlin and Kitay-gorod"},
+          "stops": [
+            {
+              "id": "moscow-red-square",
+              "title": {"ru": "Красная площадь", "en": "Red Square"},
+              "coordinate": [55.75393, 37.62079],
+              "category": "square",
+              "visit": 30,
+              "details": {
+                "ru": "Главная площадь страны между Кремлём и Китай-городом. На ней — Мавзолей, Исторический музей, ГУМ и памятник Минину и Пожарскому. «Красная» в древнерусском значении — «красивая».",
+                "en": "The country's main square between the Kremlin and Kitay-gorod, with the Mausoleum, the State Historical Museum, GUM and the monument to Minin and Pozharsky. 'Krasnaya' meant 'beautiful' in Old Russian."
+              },
+              "wiki": {"ru": "Красная площадь", "en": "Red Square"}
+            },
+            {
+              "id": "moscow-st-basil",
+              "title": {"ru": "Храм Василия Блаженного", "en": "St Basil's Cathedral"},
+              "coordinate": [55.75253, 37.62308],
+              "category": "church",
+              "visit": 45,
+              "details": {
+                "ru": "Покровский собор, построенный в 1555–1561 годах в честь взятия Казани, — на самом деле это десять церквей на одном основании. Внутри — узкие галереи, расписанные цветами, и неожиданно высокие шатры.",
+                "en": "The Cathedral of the Intercession, built in 1555–1561 to celebrate the capture of Kazan, is really ten churches on one base. Inside are narrow galleries painted with flowers and surprisingly tall tented chapels."
+              },
+              "wiki": {"ru": "Храм Василия Блаженного", "en": "Saint Basil's Cathedral"}
+            },
+            {
+              "id": "moscow-kremlin",
+              "title": {"ru": "Московский Кремль", "en": "Moscow Kremlin"},
+              "coordinate": [55.75200, 37.61750],
+              "category": "castle",
+              "visit": 150,
+              "details": {
+                "ru": "Крепость конца XV века, построенная итальянскими мастерами. На Соборной площади — Успенский, Архангельский и Благовещенский соборы и колокольня Ивана Великого, рядом Царь-пушка и Царь-колокол. Оружейная палата хранит сокровища русских царей.",
+                "en": "A late 15th-century fortress built by Italian masters. Cathedral Square holds the Dormition, Archangel and Annunciation cathedrals and the Ivan the Great Bell Tower, next to the Tsar Cannon and the Tsar Bell. The Armoury keeps the treasures of the tsars."
+              },
+              "tip": {
+                "ru": "Билеты в Кремль и Оружейную палату продаются на сайте музеев Кремля — на Оружейную палату они по сеансам.",
+                "en": "Tickets for the Kremlin and the Armoury are sold on the Kremlin museums' website — the Armoury has timed entry."
+              },
+              "wiki": {"ru": "Московский Кремль", "en": "Moscow Kremlin"}
+            },
+            {
+              "id": "moscow-zaryadye",
+              "title": {"ru": "Парк «Зарядье»", "en": "Zaryadye Park"},
+              "coordinate": [55.75110, 37.62850],
+              "category": "park",
+              "visit": 45,
+              "details": {
+                "ru": "Парк 2017 года на месте снесённой гостиницы «Россия»: здесь собраны природные зоны России — от тундры до степи. Главная точка — «Парящий мост», висящий над Москвой-рекой без опор под концом.",
+                "en": "A park opened in 2017 on the site of the demolished Rossiya Hotel, recreating Russia's natural zones from tundra to steppe. Its highlight is the Floating Bridge, cantilevered over the Moskva river."
+              },
+              "wiki": {"ru": "Зарядье (парк)", "en": "Zaryadye Park"}
+            },
+            {
+              "id": "moscow-gum",
+              "title": {"ru": "ГУМ", "en": "GUM"},
+              "coordinate": [55.75470, 37.62150],
+              "category": "market",
+              "visit": 30,
+              "details": {
+                "ru": "Торговые ряды 1893 года со стеклянными сводами, мостиками и фонтаном в центре. Традиция — съесть знаменитое гумовское мороженое в вафельном стаканчике.",
+                "en": "An 1893 shopping arcade with glass vaults, footbridges and a fountain in the middle. The tradition is to eat GUM's famous ice cream in a wafer cup."
+              },
+              "wiki": {"ru": "ГУМ", "en": "GUM (department store)"}
+            },
+            {
+              "id": "moscow-nikolskaya",
+              "title": {"ru": "Никольская улица", "en": "Nikolskaya Street"},
+              "coordinate": [55.75750, 37.62280],
+              "category": "street",
+              "visit": 25,
+              "details": {
+                "ru": "Одна из старейших улиц Москвы, ведущая от Красной площади к Лубянке. Здесь стоит здание Синодальной типографии, где в 1564 году напечатали первую датированную русскую книгу, а вечером над головой сияют гирлянды.",
+                "en": "One of Moscow's oldest streets, running from Red Square to Lubyanka. Here stands the Synodal Printing House, near the spot where the first dated Russian book was printed in 1564, and in the evening garlands glow overhead."
+              },
+              "wiki": {"ru": "Никольская улица (Москва)", "en": "Nikolskaya Street"}
+            },
+            {
+              "id": "moscow-bolshoi",
+              "title": {"ru": "Большой театр", "en": "Bolshoi Theatre"},
+              "coordinate": [55.76010, 37.61860],
+              "category": "theater",
+              "visit": 20,
+              "details": {
+                "ru": "Один из главных театров оперы и балета в мире. Колесница Аполлона над портиком — символ театра; вечером площадь с фонтаном особенно красива.",
+                "en": "One of the world's great opera and ballet houses. Apollo's chariot above the portico is its emblem; in the evening the square with its fountain is especially beautiful."
+              },
+              "tip": {
+                "ru": "Билеты на спектакли расходятся за месяцы — проверяйте официальный сайт, а не перекупщиков.",
+                "en": "Tickets sell out months ahead — use the official website, not resellers."
+              },
+              "wiki": {"ru": "Большой театр", "en": "Bolshoi Theatre"}
+            }
+          ]
+        },
+        {
+          "title": {"ru": "Метро, Арбат и Воробьёвы горы", "en": "The metro, the Arbat and Sparrow Hills"},
+          "stops": [
+            {
+              "id": "moscow-revolution-station",
+              "title": {"ru": "Станция «Площадь Революции»", "en": "Ploshchad Revolyutsii station"},
+              "coordinate": [55.75670, 37.62200],
+              "category": "landmark",
+              "visit": 15,
+              "details": {
+                "ru": "Станция 1938 года с 76 бронзовыми скульптурами советских людей: пограничники, студенты, рабочие. Нос бронзовой собаки пограничника блестит — его трут на удачу.",
+                "en": "A 1938 station with 76 bronze statues of Soviet people: border guards, students, workers. The nose of the border guard's bronze dog shines — people rub it for luck."
+              },
+              "wiki": {"ru": "Площадь Революции (станция метро, Москва)", "en": "Ploshchad Revolyutsii (Moscow Metro)"}
+            },
+            {
+              "id": "moscow-mayakovskaya",
+              "title": {"ru": "Станция «Маяковская»", "en": "Mayakovskaya station"},
+              "coordinate": [55.76990, 37.59640],
+              "category": "landmark",
+              "visit": 15,
+              "details": {
+                "ru": "Лёгкий зал из нержавеющей стали и розового мрамора, а в куполах — мозаики по эскизам Александра Дейнеки «Сутки советского неба». Проект станции получил Гран-при на Всемирной выставке в Нью-Йорке в 1939 году.",
+                "en": "A light hall of stainless steel and pink marble, with ceiling mosaics designed by Alexander Deineka, 'A Day of the Soviet Sky'. The station's design won the Grand Prix at the 1939 New York World's Fair."
+              },
+              "tip": {
+                "ru": "Чтобы рассмотреть мозаики, встаньте в центре зала и смотрите вверх.",
+                "en": "Stand in the middle of the hall and look up to see the mosaics."
+              },
+              "wiki": {"ru": "Маяковская (станция метро, Москва)", "en": "Mayakovskaya (Moscow Metro)"},
+              "arrival": {
+                "mode": "metro",
+                "note": {"ru": "Пересадка на «Театральной» на зелёную линию, две станции до «Маяковской»", "en": "Change at Teatralnaya to the green line, two stops to Mayakovskaya"}
+              }
+            },
+            {
+              "id": "moscow-patriarch",
+              "title": {"ru": "Патриаршие пруды", "en": "Patriarch's Ponds"},
+              "coordinate": [55.76330, 37.59270],
+              "category": "park",
+              "visit": 30,
+              "details": {
+                "ru": "Тихий сквер с прудом, где начинается «Мастер и Маргарита» Булгакова. Вокруг — переулки с особняками и кафе, а зимой пруд превращается в каток.",
+                "en": "A quiet square with a pond where Bulgakov's 'The Master and Margarita' begins. Around it are lanes of mansions and cafés, and in winter the pond becomes a skating rink."
+              },
+              "wiki": {"ru": "Патриаршие пруды", "en": "Patriarch Ponds"}
+            },
+            {
+              "id": "moscow-arbat",
+              "title": {"ru": "Старый Арбат", "en": "The Arbat"},
+              "coordinate": [55.74950, 37.59160],
+              "category": "street",
+              "visit": 40,
+              "details": {
+                "ru": "Пешеходная улица уличных музыкантов и художников, где жили Пушкин и Булат Окуджава. Загляните в Кривоарбатский переулок к стене Цоя и к необычному дому-мастерской архитектора Мельникова.",
+                "en": "A pedestrian street of musicians and artists where Pushkin and Bulat Okudzhava once lived. Turn into Krivoarbatsky Lane for the Tsoi Wall and the remarkable house-studio of architect Melnikov."
+              },
+              "wiki": {"ru": "Арбат", "en": "Arbat Street"}
+            },
+            {
+              "id": "moscow-christ-saviour",
+              "title": {"ru": "Храм Христа Спасителя", "en": "Cathedral of Christ the Saviour"},
+              "coordinate": [55.74460, 37.60550],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Самый большой православный храм России, воздвигнутый в память о победе в войне 1812 года, взорванный в 1931 году и восстановленный в 1990-х. С Патриаршего моста открывается вид на Кремль и реку.",
+                "en": "Russia's largest Orthodox church, built to commemorate the victory of 1812, blown up in 1931 and rebuilt in the 1990s. The Patriarch's Bridge in front offers a view of the Kremlin and the river."
+              },
+              "wiki": {"ru": "Храм Христа Спасителя", "en": "Cathedral of Christ the Saviour"}
+            },
+            {
+              "id": "moscow-gorky-park",
+              "title": {"ru": "Парк Горького и «Музеон»", "en": "Gorky Park and Muzeon"},
+              "coordinate": [55.72980, 37.60110],
+              "category": "park",
+              "visit": 60,
+              "details": {
+                "ru": "Главный парк Москвы с набережной, велодорожками и музеем «Гараж», а по соседству — «Музеон», где под открытым небом собраны советские памятники. Отсюда вдоль Нескучного сада можно дойти до Воробьёвых гор.",
+                "en": "Moscow's main park with an embankment, cycle paths and the Garage museum, and next door Muzeon, an open-air collection of Soviet monuments. From here a path through Neskuchny Garden leads towards Sparrow Hills."
+              },
+              "wiki": {"ru": "Парк Горького", "en": "Gorky Park (Moscow)"}
+            },
+            {
+              "id": "moscow-sparrow-hills",
+              "title": {"ru": "Воробьёвы горы", "en": "Sparrow Hills"},
+              "coordinate": [55.71050, 37.55380],
+              "category": "viewpoint",
+              "visit": 40,
+              "details": {
+                "ru": "Смотровая площадка на высоком берегу Москвы-реки с видом на «Лужники», Москва-Сити и центр. За спиной — главное здание МГУ, самая высокая из сталинских высоток.",
+                "en": "A viewpoint on the high bank of the Moskva overlooking Luzhniki Stadium, Moscow City and the centre. Behind you rises the main building of Moscow State University, the tallest of Stalin's skyscrapers."
+              },
+              "tip": {
+                "ru": "Спуститься к реке можно на канатной дороге «Воробьёвы горы — Лужники» — пара минут над Москвой-рекой.",
+                "en": "Ride the Sparrow Hills–Luzhniki cable car down to the river — a couple of minutes floating over the Moskva."
+              },
+              "wiki": {"ru": "Воробьёвы горы", "en": "Sparrow Hills"},
+              "arrival": {
+                "mode": "metro",
+                "note": {"ru": "От «Парка культуры» две станции по красной линии до «Воробьёвых гор» — станция прямо на мосту над рекой", "en": "From Park Kultury, two stops on the red line to Vorobyovy Gory — a station right on a bridge over the river"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
