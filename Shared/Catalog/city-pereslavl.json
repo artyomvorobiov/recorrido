@@ -41,7 +41,7 @@
                 "ru": "Небольшой белокаменный собор на Красной площади, заложенный Юрием Долгоруким в 1152 году и освящённый при Андрее Боголюбском. Это один из самых древних сохранившихся храмов Северо-Восточной Руси. По преданию, в нём крестили Александра Невского — его памятник стоит рядом.",
                 "en": "A small white-stone cathedral on Red Square, begun by Yuri Dolgoruky in 1152 and consecrated under Andrei Bogolyubsky. It is one of the oldest surviving churches of North-Eastern Rus. Tradition holds that Alexander Nevsky was baptised here — his monument stands nearby."
               },
-              "wiki": {"ru": "Спасо-Преображенский собор (Переславль-Залесский)", "en": "Transfiguration Cathedral, Pereslavl-Zalessky"}
+              "wiki": {"ru": "Спасо-Преображенский собор (Переславль-Залесский)"}
             },
             {
               "id": "pereslavl-ramparts",
@@ -78,7 +78,7 @@
             {
               "id": "pereslavl-botik",
               "title": {"ru": "Музей-усадьба «Ботик Петра I»", "en": "Peter the Great's Botik museum"},
-              "coordinate": [56.70850, 38.82470],
+              "coordinate": [56.72375, 38.77333],
               "category": "museum",
               "visit": 60,
               "details": {
@@ -88,13 +88,13 @@
               "wiki": {"ru": "Ботик Петра I (музей-усадьба)"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 4 км на юг вдоль озера — 10 минут на машине или такси", "en": "About 4 km south along the lake — 10 minutes by car or taxi"}
+                "note": {"ru": "Около 6 км к Плещееву озеру — 15 минут на машине или такси", "en": "About 6 km to Lake Pleshcheyevo — 15 minutes by car or taxi"}
               }
             },
             {
               "id": "pereslavl-blue-stone",
               "title": {"ru": "Синий камень", "en": "The Blue Stone"},
-              "coordinate": [56.77470, 38.83420],
+              "coordinate": [56.78417, 38.82417],
               "category": "nature",
               "visit": 30,
               "details": {
@@ -114,7 +114,7 @@
             {
               "id": "pereslavl-nikitsky",
               "title": {"ru": "Никитский монастырь", "en": "Nikitsky Monastery"},
-              "coordinate": [56.76970, 38.84960],
+              "coordinate": [56.76097, 38.86000],
               "category": "church",
               "visit": 40,
               "details": {

@@ -57,12 +57,12 @@
                 "ru": "Первый каменный храм Сибири, построенный в 1680-х годах по образцу Вознесенского собора московского Вознесенского монастыря. Его голубые купола видны издалека.",
                 "en": "The first stone church in Siberia, built in the 1680s after the model of a Moscow cathedral. Its blue domes can be seen from far away."
               },
-              "wiki": {"ru": "Софийско-Успенский собор (Тобольск)"}
+              "wiki": {"ru": "Софийско-Успенский собор"}
             },
             {
               "id": "tobolsk-gostiny",
               "title": {"ru": "Гостиный двор", "en": "Merchant Court"},
-              "coordinate": [58.19610, 68.25330],
+              "coordinate": [58.20000, 68.25290],
               "category": "market",
               "visit": 30,
               "details": {
@@ -80,8 +80,7 @@
               "details": {
                 "ru": "Деревянная лестница и мостовая, по которой с XVII века поднимались из нижнего посада в кремль. Её восстанавливали несколько раз, но идти по ней — всё равно что шагать сквозь историю города.",
                 "en": "A wooden stairway and road used since the 17th century to climb from the lower town to the kremlin. It has been rebuilt several times, but walking it still feels like walking through the town's history."
-              },
-              "wiki": {"ru": "Прямской взвоз"}
+              }
             },
             {
               "id": "tobolsk-governor",
@@ -97,14 +96,14 @@
             {
               "id": "tobolsk-abalak",
               "title": {"ru": "Абалакский монастырь", "en": "Abalak Monastery"},
-              "coordinate": [58.12720, 68.59470],
+              "coordinate": [58.12928, 68.59000],
               "category": "church",
               "visit": 60,
               "details": {
                 "ru": "Знаменский монастырь в селе Абалак на высоком берегу Иртыша, известный с XVII века чудотворной Абалакской иконой. Белые стены и купола над рекой — одно из самых живописных мест Тобольского края.",
                 "en": "The Znamensky Monastery in the village of Abalak on the high bank of the Irtysh, known since the 17th century for its miracle-working Abalak icon. White walls and domes above the river make it one of the most picturesque places around Tobolsk."
               },
-              "wiki": {"ru": "Абалакский Знаменский монастырь", "en": "Abalak Monastery"},
+              "wiki": {"ru": "Абалакский Знаменский монастырь"},
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 25 км — 30 минут на машине", "en": "About 25 km — 30 minutes by car"}

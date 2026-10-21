@@ -55,8 +55,7 @@
               "details": {
                 "ru": "Главный храм центра Боровска с высокой колокольней, построенный в XVIII–XIX веках. Вокруг — Соборная площадь и улицы с купеческими домами.",
                 "en": "The main church of central Borovsk with a tall bell tower, built in the 18th–19th centuries. Around it lie Cathedral Square and streets of merchant houses."
-              },
-              "wiki": {"ru": "Благовещенский собор (Боровск)"}
+              }
             },
             {
               "id": "borovsk-tsiolkovsky",
@@ -94,7 +93,7 @@
                 "ru": "У монастыря есть святой источник и пруд — летом там приятно передохнуть.",
                 "en": "There is a holy spring and a pond by the monastery — a pleasant place to rest in summer."
               },
-              "wiki": {"ru": "Пафнутьев Боровский монастырь", "en": "Pafnutiev Monastery of Borovsk"},
+              "wiki": {"ru": "Пафнутьево-Боровский монастырь"},
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 3 км — 7 минут на машине или такси", "en": "About 3 km — 7 minutes by car or taxi"}

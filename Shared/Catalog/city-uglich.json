@@ -34,7 +34,7 @@
             {
               "id": "uglich-alekseevsky",
               "title": {"ru": "Алексеевский монастырь и Дивная церковь", "en": "Alekseevsky Monastery and the Wondrous Church"},
-              "coordinate": [57.52690, 38.32050],
+              "coordinate": [57.52750, 38.32722],
               "category": "church",
               "visit": 30,
               "details": {
@@ -53,12 +53,12 @@
                 "ru": "Кирпичные палаты 1480-х годов — одно из старейших гражданских зданий России. Здесь жил в ссылке с матерью царевич Дмитрий, и именно отсюда пошла история, о которой спорят историки до сих пор.",
                 "en": "A brick palace from the 1480s, one of the oldest civil buildings in Russia. Tsarevich Dmitry lived here in exile with his mother, and this is where the story historians still argue about began."
               },
-              "wiki": {"ru": "Палаты угличских удельных князей"}
+              "wiki": {"ru": "Палаты угличских князей"}
             },
             {
               "id": "uglich-blood",
               "title": {"ru": "Церковь царевича Димитрия «на крови»", "en": "Church of St Dmitry on the Blood"},
-              "coordinate": [57.52960, 38.32880],
+              "coordinate": [57.52961, 38.31858],
               "category": "church",
               "visit": 30,
               "details": {
@@ -69,12 +69,12 @@
                 "ru": "Смотритель иногда разрешает ударить в «ссыльный» колокол — говорят, это исполняет желания.",
                 "en": "The keeper sometimes lets visitors strike the exiled bell — they say it makes wishes come true."
               },
-              "wiki": {"ru": "Церковь Димитрия на Крови (Углич)", "en": "Church of St. Demetrios on the Blood"}
+              "wiki": {"ru": "Церковь Димитрия на Крови (Углич)"}
             },
             {
               "id": "uglich-transfiguration",
               "title": {"ru": "Спасо-Преображенский собор", "en": "Transfiguration Cathedral"},
-              "coordinate": [57.52890, 38.32950],
+              "coordinate": [57.52891, 38.31741],
               "category": "church",
               "visit": 20,
               "details": {
@@ -86,7 +86,7 @@
             {
               "id": "uglich-voskresensky",
               "title": {"ru": "Воскресенский монастырь", "en": "Resurrection Monastery"},
-              "coordinate": [57.53160, 38.33870],
+              "coordinate": [57.52528, 38.30917],
               "category": "church",
               "visit": 20,
               "details": {

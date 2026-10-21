@@ -81,7 +81,7 @@
                 "ru": "Финифть — расписная эмаль на металле, ремеслу в Ростове больше двухсот лет. В музее фабрики можно увидеть старинные миниатюры, понаблюдать за художниками и выбрать брошь или шкатулку на память.",
                 "en": "Finift is painted enamel on metal, a craft practised in Rostov for more than two centuries. The factory museum shows old miniatures, lets you watch the painters at work and sells brooches and boxes as souvenirs."
               },
-              "wiki": {"ru": "Ростовская финифть", "en": "Rostov Finift"}
+              "wiki": {"ru": "Ростовская финифть"}
             },
             {
               "id": "rostov-nero",
@@ -98,7 +98,7 @@
             {
               "id": "rostov-yakovlevsky",
               "title": {"ru": "Спасо-Яковлевский монастырь", "en": "Spaso-Yakovlevsky Monastery"},
-              "coordinate": [57.17790, 39.39640],
+              "coordinate": [57.17448, 39.39249],
               "category": "church",
               "visit": 45,
               "details": {

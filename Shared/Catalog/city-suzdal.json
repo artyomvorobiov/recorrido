@@ -82,7 +82,7 @@
             {
               "id": "suzdal-rizopolozhensky",
               "title": {"ru": "Ризоположенский монастырь", "en": "Rizopolozhensky Monastery"},
-              "coordinate": [56.42095, 40.44460],
+              "coordinate": [56.42389, 40.44583],
               "category": "church",
               "visit": 30,
               "details": {
@@ -121,7 +121,7 @@
                 "ru": "На звоннице несколько раз в день проходят концерты колокольного звона — расписание висит у входа.",
                 "en": "Bell-ringing concerts take place at the belfry several times a day — the schedule is posted at the entrance."
               },
-              "wiki": {"ru": "Спасо-Евфимиев монастырь", "en": "Saviour Monastery of St. Euthymius"}
+              "wiki": {"ru": "Спасо-Евфимиев монастырь", "en": "Monastery of Saint Euthymius"}
             },
             {
               "id": "suzdal-kideksha",

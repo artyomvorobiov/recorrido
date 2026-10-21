@@ -68,12 +68,12 @@
                 "ru": "Один из старейших музеев игрушки в мире, основанный в 1918 году художником Николаем Бартрамом. Тут хранятся первые матрёшки, богородские деревянные игрушки, старинные куклы и солдатики.",
                 "en": "One of the oldest toy museums in the world, founded in 1918 by the artist Nikolai Bartram. It keeps some of the first matryoshkas, wooden toys from nearby Bogorodskoye, antique dolls and toy soldiers."
               },
-              "wiki": {"ru": "Художественно-педагогический музей игрушки имени Н. Д. Бартрама"}
+              "wiki": {"ru": "Музей игрушки (Сергиев Посад)"}
             },
             {
               "id": "sergiev-chernigov",
               "title": {"ru": "Черниговский скит", "en": "Chernigov Skete"},
-              "coordinate": [56.29330, 38.16890],
+              "coordinate": [56.30722, 38.17972],
               "category": "church",
               "visit": 40,
               "details": {
@@ -100,7 +100,6 @@
                 "ru": "Лестница крутая — нужна удобная обувь, а зимой ступени бывают скользкими.",
                 "en": "The stairs are steep — wear good shoes; in winter the steps can be slippery."
               },
-              "wiki": {"ru": "Гремячий ключ"},
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 18 км на северо-восток — 25 минут на машине", "en": "About 18 km north-east — 25 minutes by car"}

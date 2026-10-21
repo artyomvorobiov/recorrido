@@ -179,7 +179,7 @@
                 "ru": "В праздники на Ростральных колоннах зажигают огненные факелы.",
                 "en": "On holidays the torches on top of the Rostral Columns are lit."
               },
-              "wiki": {"ru": "Стрелка Васильевского острова", "en": "Spit of Vasilyevsky Island"},
+              "wiki": {"ru": "Стрелка Васильевского острова", "en": "Old Saint Petersburg Stock Exchange and Rostral Columns"},
               "arrival": {
                 "mode": "walk",
                 "note": {"ru": "Через Биржевой мост — около 15 минут пешком", "en": "Across the Birzhevoy Bridge — about 15 minutes on foot"}
@@ -336,7 +336,7 @@
             {
               "id": "spb-monplaisir",
               "title": {"ru": "Монплезир", "en": "Monplaisir"},
-              "coordinate": [59.88920, 29.91620],
+              "coordinate": [59.88694, 29.91889],
               "category": "palace",
               "visit": 40,
               "details": {

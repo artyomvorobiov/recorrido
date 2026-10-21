@@ -45,12 +45,12 @@
                 "ru": "8 июля в Муроме главный праздник года — город полон гостей, а вечером на Оке запускают фейерверк.",
                 "en": "8 July is the town's biggest celebration — Murom fills with visitors and there are fireworks over the Oka in the evening."
               },
-              "wiki": {"ru": "Свято-Троицкий монастырь (Муром)"}
+              "wiki": {"ru": "Троицкий монастырь (Муром)"}
             },
             {
               "id": "murom-annunciation",
               "title": {"ru": "Благовещенский монастырь", "en": "Annunciation Monastery"},
-              "coordinate": [55.57820, 42.05780],
+              "coordinate": [55.58233, 42.05478],
               "category": "church",
               "visit": 30,
               "details": {
@@ -62,7 +62,7 @@
             {
               "id": "murom-museum",
               "title": {"ru": "Муромский историко-художественный музей", "en": "Murom Museum of History and Art"},
-              "coordinate": [55.57690, 42.05130],
+              "coordinate": [55.57990, 42.05620],
               "category": "museum",
               "visit": 60,
               "details": {
@@ -80,13 +80,12 @@
               "details": {
                 "ru": "Богатырь с поднятым над головой мечом-крестом стоит в Окском парке на высоком берегу. Памятник работы Вячеслава Клыкова открыт в 1999 году; отсюда лучший вид на Оку и вантовый мост.",
                 "en": "The hero, raising a sword shaped like a cross above his head, stands in Oka Park on the high bank. The monument by Vyacheslav Klykov was unveiled in 1999; this is the best view of the Oka and the cable-stayed bridge."
-              },
-              "wiki": {"ru": "Памятник Илье Муромцу (Муром)"}
+              }
             },
             {
               "id": "murom-spaso",
               "title": {"ru": "Спасо-Преображенский монастырь", "en": "Saviour Transfiguration Monastery"},
-              "coordinate": [55.56540, 42.06240],
+              "coordinate": [55.57278, 42.06611],
               "category": "church",
               "visit": 40,
               "details": {

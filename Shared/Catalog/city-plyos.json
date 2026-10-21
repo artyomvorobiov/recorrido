@@ -34,7 +34,7 @@
             {
               "id": "plyos-cathedral-hill",
               "title": {"ru": "Соборная гора", "en": "Cathedral Hill"},
-              "coordinate": [57.46080, 41.51290],
+              "coordinate": [57.45833, 41.51556],
               "category": "viewpoint",
               "visit": 30,
               "details": {

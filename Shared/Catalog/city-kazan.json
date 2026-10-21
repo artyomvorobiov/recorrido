@@ -58,7 +58,7 @@
                 "ru": "Озеро в самом центре города, на берегу которого стоит Татарский театр имени Галиасгара Камала. По легенде, на дне Кабана спрятаны сокровища казанских ханов, которые так и не нашли.",
                 "en": "A lake right in the city centre, with the Kamal Tatar Theatre on its shore. Legend says the treasure of the Kazan khans lies hidden at the bottom of the lake and has never been found."
               },
-              "wiki": {"ru": "Кабан (озеро)", "en": "Lake Kaban"}
+              "wiki": {"ru": "Кабан (озеро)", "en": "Kaban Lakes"}
             },
             {
               "id": "kazan-bauman",
@@ -82,7 +82,7 @@
                 "ru": "Нарядный барочный собор 1720-х годов, построенный купцом Иваном Михляевым в память о приезде в Казань Петра I. Фасады покрыты пышной лепниной с виноградными лозами и цветами — такого декора больше нет нигде в городе.",
                 "en": "An ornate Baroque cathedral of the 1720s, built by the merchant Ivan Mikhlyaev to mark Peter the Great's visit to Kazan. Its walls are covered in lush moulded vines and flowers — decoration you won't find anywhere else in the city."
               },
-              "wiki": {"ru": "Петропавловский собор (Казань)", "en": "Peter and Paul Cathedral, Kazan"}
+              "wiki": {"ru": "Петропавловский собор (Казань)", "en": "Saints Peter and Paul Cathedral, Kazan"}
             },
             {
               "id": "kazan-kremlin",
@@ -122,7 +122,7 @@
                 "ru": "Здание в форме огромного котла — «казана» — на другом берегу Казанки, где регистрируют браки. С площадки на крыше открывается лучший вид на кремль и набережные, особенно на закате.",
                 "en": "A building shaped like a giant cauldron — a 'kazan' — on the far bank of the Kazanka, used as a wedding palace. Its rooftop platform gives the best view of the kremlin and the embankments, especially at sunset."
               },
-              "wiki": {"ru": "Центр семьи «Казан»", "en": "Kazan Family Center"},
+              "wiki": {"ru": "Казан (центр семьи)"},
               "arrival": {
                 "mode": "walk",
                 "note": {"ru": "Около 2 км по Кремлёвской дамбе через Казанку — 30 минут пешком", "en": "About 2 km over the Kremlin dam across the Kazanka — 30 minutes on foot"}
@@ -179,7 +179,7 @@
                 "ru": "Монастырь XVI века, внесённый в список Всемирного наследия ЮНЕСКО. В Успенском соборе сохранились фрески 1560-х годов, среди них редкое изображение святого Христофора с головой коня.",
                 "en": "A 16th-century monastery on the UNESCO World Heritage list. The Assumption Cathedral keeps frescoes from the 1560s, including a rare image of St Christopher with a horse's head."
               },
-              "wiki": {"ru": "Успенский монастырь (Свияжск)", "en": "Assumption Monastery, Sviyazhsk"}
+              "wiki": {"ru": "Свияжский Успенский монастырь", "en": "Sviyazhsk Assumption Monastery"}
             },
             {
               "id": "kazan-raifa",
@@ -195,7 +195,7 @@
                 "ru": "Рядом начинаются экотропы заповедника — если останется время, пройдите по лесу к озеру.",
                 "en": "The reserve's nature trails start nearby — if you have time, take a walk through the forest to the lake."
               },
-              "wiki": {"ru": "Раифский Богородицкий монастырь", "en": "Raifa Monastery"},
+              "wiki": {"ru": "Раифский Богородицкий монастырь"},
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 50 км через мост у Зеленодольска — около часа на машине", "en": "About 50 km via the bridge at Zelenodolsk — about an hour by car"}

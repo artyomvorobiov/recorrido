@@ -80,19 +80,19 @@
                 "ru": "Круглая угловая башня кремля, связанная с легендой о Марине Мнишек — жене двух Лжедмитриев. Говорят, её держали здесь в заточении, где она и умерла, а по другой версии — обернулась сорокой и улетела через бойницу.",
                 "en": "A round corner tower of the kremlin linked to the legend of Marina Mniszech, wife of two False Dmitrys. They say she was imprisoned and died here — or, in another version, turned into a magpie and flew out through a loophole."
               },
-              "wiki": {"ru": "Маринкина башня (Коломна)"}
+              "wiki": {"ru": "Маринкина башня"}
             },
             {
               "id": "kolomna-bobrenev",
               "title": {"ru": "Бобренев монастырь", "en": "Bobrenev Monastery"},
-              "coordinate": [55.08470, 38.77840],
+              "coordinate": [55.11908, 38.76000],
               "category": "church",
               "visit": 40,
               "details": {
                 "ru": "Монастырь на другом берегу Москвы-реки, основанный, по преданию, воеводой Дмитрием Боброком-Волынским в память о победе на Куликовом поле. Отсюда открывается вид на кремль и купола Коломны.",
                 "en": "A monastery on the far bank of the Moskva, founded, legend says, by the commander Dmitry Bobrok-Volynsky to mark the victory at Kulikovo. It looks back across the water to the kremlin and the domes of Kolomna."
               },
-              "wiki": {"ru": "Бобренев монастырь", "en": "Bobrenev Monastery"},
+              "wiki": {"ru": "Бобренев монастырь"},
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Через мост — около 10 минут на такси", "en": "Over the bridge — about 10 minutes by taxi"}
@@ -112,10 +112,10 @@
                 "ru": "Обратно в центр можно доехать на коломенском трамвае — он ходит с 1948 года.",
                 "en": "Ride back to the centre on the Kolomna tram, running since 1948."
               },
-              "wiki": {"ru": "Старо-Голутвин монастырь", "en": "Old Golutvin Monastery"},
+              "wiki": {"ru": "Старо-Голутвин монастырь"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 5 км по дороге — 10–15 минут на такси", "en": "About 5 km by road — 10–15 minutes by taxi"}
+                "note": {"ru": "Около 9 км по дороге через центр — 15–20 минут на такси", "en": "About 9 km by road through the centre — 15–20 minutes by taxi"}
               }
             }
           ]
