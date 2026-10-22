@@ -3,7 +3,7 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 enum AppTab: Hashable {
-    case explore, library, passport
+    case explore, library, community, passport
 }
 
 /// A route someone sent us, waiting for "Save".
@@ -34,6 +34,7 @@ final class AppModel {
     let library: LibraryStore
     let trip: TripController
     let media = WikiMedia()
+    let community = Community()
     @ObservationIgnored let directions = DirectionsService()
 
     init() {
@@ -90,6 +91,15 @@ final class AppModel {
 
     func savedCatalogRoutes() -> [Route] {
         library.savedRouteIDs.compactMap { catalog.route(id: $0) }
+    }
+
+    /// Feed routes without the ones the user reported or whose authors they hid.
+    func visibleCommunityRoutes(_ routes: [CommunityRoute]) -> [CommunityRoute] {
+        let blocked = library.blockedAuthors
+        let hidden = library.hiddenRecords
+        return routes.filter { route in
+            !hidden.contains(route.id) && !(route.authorID.map { blocked.contains($0) } ?? false)
+        }
     }
 
     // MARK: - Guide
@@ -180,6 +190,7 @@ final class AppModel {
     }
 
     func didBecomeActive() {
+        Task { await community.refreshAccount() }
         trip.reloadFromDisk()
         library.reloadVisits()
         if trip.arrivedStopID != nil, trip.active != nil {

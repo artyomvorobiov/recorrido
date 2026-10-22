@@ -88,6 +88,9 @@ struct MyRoutesView: View {
             .navigationDestination(for: City.self) { city in
                 CityView(city: city)
             }
+            .navigationDestination(for: CommunityRoute.self) { item in
+                CommunityRouteScreen(item: item)
+            }
             .sheet(item: $newRoute) { route in
                 RouteEditorView(route: route, isNew: true)
             }
@@ -100,7 +103,12 @@ struct MyRoutesView: View {
 }
 
 struct RouteListRow: View {
+    @Environment(AppModel.self) private var model
     let route: Route
+
+    private var isPublished: Bool {
+        model.library.publication(for: route.id) != nil
+    }
 
     var body: some View {
         HStack(spacing: 12) {
@@ -117,6 +125,10 @@ struct RouteListRow: View {
                         Image(systemName: "arrow.down.circle")
                     } else if route.source == .generated {
                         Image(systemName: "wand.and.stars")
+                    }
+                    if isPublished {
+                        Image(systemName: "checkmark.icloud")
+                            .accessibilityLabel(Text("In the feed"))
                     }
                 }
                 .font(.caption)

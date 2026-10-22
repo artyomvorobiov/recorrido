@@ -297,6 +297,16 @@
         }
       }
     },
+    "A traveller": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Путешественник"
+          }
+        }
+      }
+    },
     "About": {
       "localizations": {
         "ru": {
@@ -377,6 +387,16 @@
         }
       }
     },
+    "Add at least two stops before publishing.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перед публикацией добавьте хотя бы две точки."
+          }
+        }
+      }
+    },
     "Add this point": {
       "localizations": {
         "ru": {
@@ -393,6 +413,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Все точки пройдены"
+          }
+        }
+      }
+    },
+    "Allow Recorrido to use your location to see routes nearby.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешите Recorrido доступ к геолокации, чтобы видеть маршруты рядом."
           }
         }
       }
@@ -433,6 +463,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Аудиогид"
+          }
+        }
+      }
+    },
+    "Author": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автор"
           }
         }
       }
@@ -789,6 +829,16 @@
         }
       }
     },
+    "Create a route in My routes, or make your own version of any catalog route — then publish it here.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создайте маршрут в «Моих маршрутах» или сделайте свою версию любого маршрута из каталога — и публикуйте его здесь."
+          }
+        }
+      }
+    },
     "Create from scratch": {
       "localizations": {
         "ru": {
@@ -805,6 +855,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Созданные и полученные"
+          }
+        }
+      }
+    },
+    "Dangerous advice": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опасные советы"
           }
         }
       }
@@ -929,6 +989,16 @@
         }
       }
     },
+    "Don't publish other people's private details: home addresses, phone numbers.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не публикуйте чужие личные данные: домашние адреса, телефоны."
+          }
+        }
+      }
+    },
     "Done": {
       "localizations": {
         "ru": {
@@ -999,6 +1069,26 @@
         }
       }
     },
+    "Every Recorrido traveller will see it": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Его увидят все путешественники Recorrido"
+          }
+        }
+      }
+    },
+    "Everyone using Recorrido will see the route, its stops and your stories. You can remove it at any time.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут, его точки и ваши рассказы увидят все пользователи Recorrido. Снять его с публикации можно в любой момент."
+          }
+        }
+      }
+    },
     "Everything found — a sharp eye!": {
       "localizations": {
         "ru": {
@@ -1015,6 +1105,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Обзор"
+          }
+        }
+      }
+    },
+    "Feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лента"
           }
         }
       }
@@ -1129,6 +1229,16 @@
         }
       }
     },
+    "From travellers": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "От путешественников"
+          }
+        }
+      }
+    },
     "Funicular": {
       "localizations": {
         "ru": {
@@ -1219,6 +1329,26 @@
         }
       }
     },
+    "Hide every route by %@?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрыть все маршруты автора %@?"
+          }
+        }
+      }
+    },
+    "Hide routes by %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрыть маршруты автора %@"
+          }
+        }
+      }
+    },
     "History": {
       "localizations": {
         "ru": {
@@ -1259,6 +1389,16 @@
         }
       }
     },
+    "I accept the rules": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Принимаю правила"
+          }
+        }
+      }
+    },
     "I'm here": {
       "localizations": {
         "ru": {
@@ -1289,12 +1429,32 @@
         }
       }
     },
+    "In the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В ленте"
+          }
+        }
+      }
+    },
     "Interesting to me": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Мне интересно"
+          }
+        }
+      }
+    },
+    "It may have been made by a newer version of Recorrido.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Возможно, он сделан в более новой версии Recorrido."
           }
         }
       }
@@ -1399,6 +1559,16 @@
         }
       }
     },
+    "Location is used during a walk, to show where you are and to notice arrivals. For routes nearby in the feed, a rough position is sent to iCloud and not stored.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Геолокация нужна во время прогулки — чтобы показать, где вы, и заметить прибытие. Для маршрутов рядом в ленте в iCloud уходит примерное место, оно не сохраняется."
+          }
+        }
+      }
+    },
     "Location is used only while a walk is in progress, to show where you are and to notice arrivals. It never leaves the phone.": {
       "localizations": {
         "ru": {
@@ -1435,6 +1605,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Сделать картинку"
+          }
+        }
+      }
+    },
+    "Make a route of your own and publish it — your town, your favourite places, your stories.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Соберите свой маршрут и опубликуйте его — ваш город, любимые места, ваши истории."
           }
         }
       }
@@ -1599,12 +1779,32 @@
         }
       }
     },
+    "Nearby": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рядом"
+          }
+        }
+      }
+    },
     "Neighbourhood": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Район"
+          }
+        }
+      }
+    },
+    "New": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новые"
           }
         }
       }
@@ -1645,6 +1845,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "Дальше: %@"
+          }
+        }
+      }
+    },
+    "No connection to iCloud. Check the internet and try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет связи с iCloud. Проверьте интернет и попробуйте снова."
+          }
+        }
+      }
+    },
+    "No insults, hatred, advertising or dangerous advice.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Без оскорблений, ненависти, рекламы и опасных советов."
+          }
+        }
+      }
+    },
+    "No routes of your own yet": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Своих маршрутов пока нет"
           }
         }
       }
@@ -1709,6 +1939,16 @@
         }
       }
     },
+    "Nothing in this town yet": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В этом городе пока ничего нет"
+          }
+        }
+      }
+    },
     "Nothing yet": {
       "localizations": {
         "ru": {
@@ -1725,6 +1965,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Сообщать о прибытии на точку"
+          }
+        }
+      }
+    },
+    "Offensive or hateful": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оскорбления или ненависть"
           }
         }
       }
@@ -1989,6 +2239,66 @@
         }
       }
     },
+    "Publish": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубликовать"
+          }
+        }
+      }
+    },
+    "Publish a route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубликовать маршрут"
+          }
+        }
+      }
+    },
+    "Publish in the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубликовать в ленте"
+          }
+        }
+      }
+    },
+    "Publish only your own routes and stories.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Публикуйте только свои маршруты и рассказы."
+          }
+        }
+      }
+    },
+    "Publish to the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Публикация в ленте"
+          }
+        }
+      }
+    },
+    "Published routes are kept in Apple's iCloud and are visible to everyone. You can remove yours at any time.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубликованные маршруты хранятся в iCloud Apple и видны всем. Свои вы можете снять в любой момент."
+          }
+        }
+      }
+    },
     "Question": {
       "localizations": {
         "ru": {
@@ -2069,6 +2379,46 @@
         }
       }
     },
+    "Remove from the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снять с публикации"
+          }
+        }
+      }
+    },
+    "Report a problem": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сообщить о проблеме"
+          }
+        }
+      }
+    },
+    "Report or hide": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожаловаться или скрыть"
+          }
+        }
+      }
+    },
+    "Report the route": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожаловаться на маршрут"
+          }
+        }
+      }
+    },
     "Right!": {
       "localizations": {
         "ru": {
@@ -2125,6 +2475,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "маршрутов"
+          }
+        }
+      }
+    },
+    "Routes that get reports are reviewed; they can be removed and their authors blocked.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршруты с жалобами проверяются: их могут удалить, а авторов — заблокировать."
+          }
+        }
+      }
+    },
+    "Rules of the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правила ленты"
           }
         }
       }
@@ -2249,12 +2619,42 @@
         }
       }
     },
+    "Show hidden authors again (%lld)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снова показывать скрытых авторов (%lld)"
+          }
+        }
+      }
+    },
+    "Shown next to the route.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будет видно рядом с маршрутом."
+          }
+        }
+      }
+    },
     "Sights a few kilometres out of town get a car or taxi leg — handy for monasteries and estates nearby.": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "К местам в нескольких километрах от города маршрут предложит машину или такси — удобно для монастырей и усадеб рядом."
+          }
+        }
+      }
+    },
+    "Sign in to iCloud in the iPhone settings to publish routes.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чтобы публиковать маршруты, войдите в iCloud в настройках iPhone."
           }
         }
       }
@@ -2295,6 +2695,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Малые города, большие прогулки"
+          }
+        }
+      }
+    },
+    "Something else": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Другое"
+          }
+        }
+      }
+    },
+    "Spam or advertising": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спам или реклама"
           }
         }
       }
@@ -2479,12 +2899,72 @@
         }
       }
     },
+    "The community feed is not available in this version of the app.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лента путешественников недоступна в этой версии приложения."
+          }
+        }
+      }
+    },
     "The current walk will be finished.": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Текущая прогулка будет завершена."
+          }
+        }
+      }
+    },
+    "The feed didn't load": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лента не загрузилась"
+          }
+        }
+      }
+    },
+    "The feed isn't set up yet: its indexes are missing in the CloudKit Console (see README).": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лента ещё не настроена: в CloudKit Console нет индексов (см. README)."
+          }
+        }
+      }
+    },
+    "The route contains words that are not allowed in the feed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В маршруте есть слова, недопустимые в ленте."
+          }
+        }
+      }
+    },
+    "The route disappears from your feed right away, and we review every report.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут сразу пропадёт из вашей ленты, а каждую жалобу мы проверяем."
+          }
+        }
+      }
+    },
+    "The route is in the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маршрут в ленте"
           }
         }
       }
@@ -2535,6 +3015,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "В ссылке нет маршрута. Возможно, она обрезалась — попросите прислать её ещё раз."
+          }
+        }
+      }
+    },
+    "This route can't be opened": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот маршрут не открывается"
           }
         }
       }
@@ -2659,6 +3149,36 @@
         }
       }
     },
+    "Travellers": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Путешественники"
+          }
+        }
+      }
+    },
+    "Travellers will find it in the feed and on the town's page.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Путешественники найдут его в ленте и на странице города."
+          }
+        }
+      }
+    },
+    "Travellers' feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лента путешественников"
+          }
+        }
+      }
+    },
     "Try again": {
       "localizations": {
         "ru": {
@@ -2685,6 +3205,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Тюмени"
+          }
+        }
+      }
+    },
+    "Update in the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить в ленте"
+          }
+        }
+      }
+    },
+    "Update it or take it down": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить или снять с публикации"
           }
         }
       }
@@ -2739,6 +3279,16 @@
         }
       }
     },
+    "What is wrong with the route?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что не так с маршрутом?"
+          }
+        }
+      }
+    },
     "What to find with your own eyes — one per line": {
       "localizations": {
         "ru": {
@@ -2755,6 +3305,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Куда"
+          }
+        }
+      }
+    },
+    "Which route?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Какой маршрут?"
           }
         }
       }
@@ -2789,12 +3349,32 @@
         }
       }
     },
+    "Wrong places or facts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неверные места или факты"
+          }
+        }
+      }
+    },
     "Yekaterinburg": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Екатеринбурга"
+          }
+        }
+      }
+    },
+    "You can show them again in Settings.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вернуть их можно в настройках."
           }
         }
       }
@@ -2815,6 +3395,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Вы на месте: %@"
+          }
+        }
+      }
+    },
+    "Your name in the feed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Имя в ленте"
+          }
+        }
+      }
+    },
+    "Your name or nickname": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваше имя или псевдоним"
           }
         }
       }

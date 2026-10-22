@@ -8,6 +8,8 @@ enum AppConfig {
     static let webViewerURL: URL? = URL(string: "https://artyomvorobiov.github.io/recorrido/")
 
     static let projectURL = URL(string: "https://github.com/artyomvorobiov/recorrido")!
+    /// Where feed users can reach the developer (the App Store asks for a contact).
+    static let issuesURL = URL(string: "https://github.com/artyomvorobiov/recorrido/issues")!
 
     /// Wikipedia asks API clients to introduce themselves.
     static let wikipediaUserAgent = "Recorrido/1.0 (iOS travel routes; https://github.com/artyomvorobiov/recorrido)"

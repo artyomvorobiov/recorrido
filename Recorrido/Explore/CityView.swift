@@ -24,6 +24,10 @@ struct CityView: View {
                     }
                 }
 
+                if model.community.isAvailable {
+                    CommunityCitySection(city: city)
+                }
+
                 if let guide = city.guide {
                     CityGuideView(guide: guide)
                 }

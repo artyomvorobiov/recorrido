@@ -23,6 +23,9 @@ struct ExploreView: View {
             .navigationDestination(for: City.self) { city in
                 CityView(city: city)
             }
+            .navigationDestination(for: CommunityRoute.self) { item in
+                CommunityRouteScreen(item: item)
+            }
         }
     }
 

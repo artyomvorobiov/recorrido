@@ -2,6 +2,7 @@ import SwiftUI
 
 /// All the ways to pass a route on: link, QR code, file and picture.
 struct ShareRouteView: View {
+    @Environment(AppModel.self) private var model
     @Environment(\.dismiss) private var dismiss
     let route: Route
     let dayIndex: Int
@@ -11,6 +12,12 @@ struct ShareRouteView: View {
     @State private var qrImage: UIImage?
     @State private var poster: UIImage?
     @State private var isRenderingPoster = false
+    @State private var publishes = false
+
+    /// Own routes can go to the community feed.
+    private var canPublish: Bool {
+        model.community.isAvailable && model.isInLibrary(route) && (route.source == .user || route.source == .generated)
+    }
 
     var body: some View {
         NavigationStack {
@@ -28,6 +35,18 @@ struct ShareRouteView: View {
                             row("Send as a file", detail: "For AirDrop, Telegram, WhatsApp, e-mail", symbol: "doc.fill")
                         }
                         posterRow
+                        if canPublish {
+                            Button {
+                                publishes = true
+                            } label: {
+                                if model.library.publication(for: route.id) == nil {
+                                    row("Publish in the feed", detail: "Every Recorrido traveller will see it", symbol: "person.2.fill")
+                                } else {
+                                    row("In the feed", detail: "Update it or take it down", symbol: "checkmark.icloud.fill")
+                                }
+                            }
+                            .buttonStyle(.plain)
+                        }
                     }
                 }
                 .padding()
@@ -41,6 +60,9 @@ struct ShareRouteView: View {
                 }
             }
             .task { prepare() }
+            .sheet(isPresented: $publishes) {
+                PublishRouteView(route: route)
+            }
         }
     }
 
