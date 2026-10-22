@@ -127,9 +127,49 @@ cd recorrido
    Политика конфиденциальности уже есть: `https://artyomvorobiov.github.io/recorrido/privacy.html`.
    В разделе App Privacy укажите, что данные не собираются: всё хранится на телефоне,
    а Википедия и Apple Maps получают только запросы для поиска мест и маршрутов.
+   Если вы включили ленту путешественников (шаг 7), отметьте ещё «User Content → Other User
+   Content» для работы приложения, без трекинга.
 6. В заметках для проверяющих объясните фоновую геолокацию: она работает только во время
    прогулки, чтобы отмечать прибытие на точки и обновлять Live Activity, и выключается
    в настройках приложения.
+
+## Шаг 7. Включить ленту путешественников
+
+Лента — вкладка «Путешественники»: там видны маршруты, которые опубликовали другие
+пользователи, а на странице каждого города — раздел «От путешественников». Работает
+через iCloud (CloudKit), своего сервера не нужно, хранение бесплатно в пределах больших
+лимитов Apple. Нужна **платная** учётная запись разработчика: с бесплатным Apple ID
+iCloud недоступен, и вкладка просто не появляется — остальное приложение работает как прежде.
+
+1. **Добавьте iCloud.** В Xcode откройте цель **Recorrido** → **Signing & Capabilities** →
+   **+ Capability** → **iCloud**. Отметьте **CloudKit**, в списке Containers нажмите «+» и
+   введите `iCloud.<ваш префикс>.recorrido`, например `iCloud.com.ivanova.masha.recorrido`.
+   Приложение само заметит iCloud в своей подписи и покажет вкладку.
+2. **Опубликуйте пробный маршрут.** Запустите приложение на iPhone (или в симуляторе,
+   где выполнен вход в iCloud), создайте маршрут хотя бы из двух точек и нажмите
+   «Поделиться» → «Опубликовать в ленте». CloudKit сам создаст таблицы `SharedRoute`
+   и `RouteReport` в окружении Development.
+3. **Включите поиск.** Откройте [CloudKit Console](https://icloud.developer.apple.com) →
+   ваш контейнер → **Schema → Indexes** и добавьте индексы:
+   - `SharedRoute`: `recordName` — Queryable; `createdTimestamp` — Sortable;
+     `cityKey` — Queryable; `location` — Queryable и Sortable;
+   - `RouteReport`: `recordName` — Queryable.
+
+   Без индексов лента покажет «Лента ещё не настроена». Всё это можно сделать и одной
+   командой из файла `Config/CloudKitSchema.ckdb`: создайте в консоли management-токен и выполните
+   `xcrun cktool save-token --type management`, затем
+   `xcrun cktool import-schema --team-id <TEAM_ID> --container-id iCloud.<префикс>.recorrido --environment development --file Config/CloudKitSchema.ckdb`.
+4. **Перед выпуском в App Store** в CloudKit Console нажмите **Deploy Schema Changes…** —
+   схема перейдёт в окружение Production, которым пользуются версии из TestFlight и App Store.
+
+**Модерация.** App Store требует, чтобы в разделах с контентом пользователей были правила,
+фильтр, жалобы и блокировка — всё это в приложении уже есть: правила принимаются перед первой
+публикацией, нецензурные слова не пропускаются, у каждого маршрута есть «Пожаловаться»
+и «Скрыть маршруты автора». Жалобы приходят в CloudKit Console: **Records → Public Database →
+RouteReport**. Неподходящий маршрут найдите там же в `SharedRoute` по имени записи из жалобы
+и удалите. Отвечайте на жалобы в течение суток — так требует App Store. Контакт для связи
+(страница Issues на GitHub) есть в настройках приложения; при желании поменяйте `issuesURL`
+в `Recorrido/App/AppConfig.swift`.
 
 ## Как устроен проект
 

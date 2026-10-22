@@ -1,0 +1,52 @@
+DEFINE SCHEMA
+
+    RECORD TYPE RouteReport (
+        "___createTime" TIMESTAMP SORTABLE,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        reason          STRING,
+        route           REFERENCE QUERYABLE,
+        routeTitle      STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_creator"
+    );
+
+    RECORD TYPE SharedRoute (
+        "___createTime" TIMESTAMP SORTABLE,
+        "___createdBy"  REFERENCE QUERYABLE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        authorName      STRING,
+        city            STRING,
+        cityKey         STRING QUERYABLE,
+        country         STRING,
+        dayCount        INT64,
+        emoji           STRING,
+        language        STRING,
+        location        LOCATION QUERYABLE SORTABLE,
+        payload         STRING,
+        stopCount       INT64,
+        summary         STRING,
+        title           STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE Users (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE,
+        roles           LIST<INT64>,
+        GRANT WRITE TO "_creator",
+        GRANT READ TO "_world"
+    );
