@@ -72,6 +72,8 @@
   .leg { grid-column: 1 / -1; color: var(--muted); font-size: 14px; margin-bottom: -4px; }
   .kind { color: var(--muted); font-size: 14px; margin-bottom: 6px; }
   .tip { background: var(--tip); border-radius: 10px; padding: 8px 12px; font-size: 15px; }
+  .story { font-size: 16px; }
+  .look { margin: -4px 0 10px; padding-left: 20px; }
   .links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 15px; }
   .photo { width: 100%; max-height: 220px; object-fit: cover; border-radius: 12px; margin: 4px 0 10px; }
   .notice { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin: 16px 0; }
@@ -139,6 +141,7 @@ const TEXT = {
     wiki: "Википедия",
     onMap: "На карте",
     dayInMaps: "Маршрут дня в Google Картах",
+    lookAround: "Посмотрите вокруг",
     tagline: "Маршруты по маленьким городам и большим столицам",
     landing: `
       <p>Это страница для просмотра маршрутов из приложения Recorrido для iPhone. Когда кто-то делится маршрутом,
@@ -181,6 +184,7 @@ const TEXT = {
     wiki: "Wikipedia",
     onMap: "On the map",
     dayInMaps: "This day in Google Maps",
+    lookAround: "Look around",
     tagline: "Routes through small towns and big capitals",
     landing: `
       <p>This page shows routes shared from the Recorrido iPhone app. The whole route is packed into the link
@@ -360,6 +364,15 @@ function renderRoute(route, payload, t, language) {
       const image = safeImage(stop.i);
       if (image) body.append(element("img", { class: "photo", src: image, alt: "", loading: "lazy" }));
       if (stop.d) body.append(element("p", { text: stop.d }));
+      if (typeof stop.st === "string") {
+        for (const paragraph of stop.st.split(/\n\s*\n/)) {
+          if (paragraph.trim()) body.append(element("p", { class: "story", text: paragraph.trim() }));
+        }
+      }
+      if (Array.isArray(stop.lf) && stop.lf.length) {
+        body.append(element("p", { class: "kind", text: `👀 ${t.lookAround}` }));
+        body.append(element("ul", { class: "look" }, stop.lf.map((item) => element("li", { text: String(item) }))));
+      }
       if (stop.tp) body.append(element("p", { class: "tip", text: `💡 ${stop.tp}` }));
       const links = element("div", { class: "links" });
       const wiki = wikiLink(stop, language);

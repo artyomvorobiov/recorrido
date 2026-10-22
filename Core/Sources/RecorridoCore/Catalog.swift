@@ -78,6 +78,8 @@ struct City: Hashable, Identifiable, Sendable {
     var wikiLanguage: String?
     /// Names in every language, for search.
     var searchTerms: [String]
+    /// The town's guidebook page.
+    var guide: CityGuide?
 }
 
 /// Routes that ship with the app: one JSON file per city in Shared/Catalog.
@@ -85,6 +87,19 @@ struct Catalog: Sendable {
     var language: String
     var cities: [City]
     var routes: [Route]
+    /// Catalog stops by id, to bring guides back to copies and shared routes.
+    private var stopsByID: [String: Stop] = [:]
+
+    init(language: String, cities: [City], routes: [Route]) {
+        self.language = language
+        self.cities = cities
+        self.routes = routes
+        for route in routes {
+            for stop in route.allStops {
+                stopsByID[stop.id] = stop
+            }
+        }
+    }
 
     static let empty = Catalog(language: "en", cities: [], routes: [])
 
@@ -124,10 +139,47 @@ struct Catalog: Sendable {
             tags: source.tags ?? [],
             wikiTitle: wiki?.text,
             wikiLanguage: wiki?.language,
-            searchTerms: source.name.allTexts
+            searchTerms: source.name.allTexts,
+            guide: source.guide.map { makeCityGuide($0, language: language) }
         )
         let routes = file.routes.map { makeRoute($0, city: city, language: language) }
         return (city, routes)
+    }
+
+    private static func makeCityGuide(_ guide: CatalogCityGuide, language: String) -> CityGuide? {
+        let result = CityGuide(
+            story: guide.story?.text(language) ?? "",
+            history: (guide.history ?? []).map {
+                CityGuide.Moment(year: $0.year.text(language), text: $0.text.text(language))
+            },
+            taste: guide.taste?.items(language) ?? [],
+            souvenirs: guide.souvenirs?.items(language) ?? [],
+            tips: guide.tips?.items(language) ?? []
+        )
+        return result.isEmpty ? nil : result
+    }
+
+    private static func makeStopGuide(_ guide: CatalogStopGuide, language: String) -> StopGuide? {
+        var quiz: Quiz?
+        if let source = guide.quiz, let question = source.question.resolve(language) {
+            // Options and explanation come in the question's language, so they always match.
+            let candidate = Quiz(
+                question: question.text,
+                options: source.options.items(question.language),
+                answer: source.answer,
+                explanation: source.explanation.text(question.language)
+            )
+            quiz = candidate.isValid ? candidate : nil
+        }
+        let result = StopGuide(
+            story: guide.story?.text(language) ?? "",
+            lookFor: guide.lookFor?.items(language) ?? [],
+            facts: guide.facts?.items(language) ?? [],
+            legend: guide.legend?.text(language).nilIfEmpty,
+            quiz: quiz,
+            approach: guide.approach?.text(language).nilIfEmpty
+        )
+        return result.isEmpty ? nil : result
     }
 
     private static func makeRoute(_ route: CatalogRoute, city: City, language: String) -> Route {
@@ -153,7 +205,8 @@ struct Catalog: Sendable {
             days: days,
             tags: route.tags ?? [],
             createdAt: publishedDate,
-            updatedAt: publishedDate
+            updatedAt: publishedDate,
+            intro: route.intro?.text(language).nilIfEmpty
         )
     }
 
@@ -174,8 +227,47 @@ struct Catalog: Sendable {
             address: stop.address?.text(language).nilIfEmpty,
             wikiTitle: wiki?.text,
             wikiLanguage: wiki?.language,
-            arrival: arrival
+            arrival: arrival,
+            guide: stop.guide.flatMap { makeStopGuide($0, language: language) },
+            ref: stop.id
         )
+    }
+
+    /// The catalog stop with this id.
+    func stop(ref: String?) -> Stop? {
+        guard let ref else { return nil }
+        return stopsByID[ref]
+    }
+
+    /// Brings catalog guides back to a route that lost them: a copy saved by an
+    /// older version, or a route received as a link (links carry only the
+    /// stop's catalog id). Stops without an id are matched by name and place.
+    func enrich(_ route: Route) -> Route {
+        var route = route
+        if route.intro == nil, let origin = self.route(id: route.originID) {
+            route.intro = origin.intro
+        }
+        for dayIndex in route.days.indices {
+            for stopIndex in route.days[dayIndex].stops.indices {
+                let stop = route.days[dayIndex].stops[stopIndex]
+                guard stop.guide == nil, let match = catalogStop(matching: stop), let guide = match.guide else {
+                    continue
+                }
+                route.days[dayIndex].stops[stopIndex].guide = guide
+                route.days[dayIndex].stops[stopIndex].ref = match.id
+            }
+        }
+        return route
+    }
+
+    private func catalogStop(matching stop: Stop) -> Stop? {
+        if let match = self.stop(ref: stop.ref) { return match }
+        guard stop.ref == nil else { return nil }
+        let title = PlaceClassifier.normalize(stop.title)
+        return stopsByID.values.first { candidate in
+            Geo.distance(candidate.coordinate, stop.coordinate) < 80
+                && PlaceClassifier.normalize(candidate.title) == title
+        }
     }
 
     func city(id: String?) -> City? {
@@ -244,12 +336,27 @@ struct CatalogCity: Decodable {
     var size: CitySize?
     var tags: [String]?
     var wiki: LocalizedText?
+    var guide: CatalogCityGuide?
+}
+
+struct CatalogCityGuide: Decodable {
+    var story: LocalizedText?
+    var history: [CatalogMoment]?
+    var taste: LocalizedList?
+    var souvenirs: LocalizedList?
+    var tips: LocalizedList?
+}
+
+struct CatalogMoment: Decodable {
+    var year: LocalizedText
+    var text: LocalizedText
 }
 
 struct CatalogRoute: Decodable {
     var id: String
     var title: LocalizedText
     var summary: LocalizedText
+    var intro: LocalizedText?
     var emoji: String?
     var tags: [String]?
     var days: [CatalogDay]
@@ -272,6 +379,23 @@ struct CatalogStop: Decodable {
     var address: LocalizedText?
     var wiki: LocalizedText?
     var arrival: CatalogArrival?
+    var guide: CatalogStopGuide?
+}
+
+struct CatalogStopGuide: Decodable {
+    var story: LocalizedText?
+    var lookFor: LocalizedList?
+    var facts: LocalizedList?
+    var legend: LocalizedText?
+    var quiz: CatalogQuiz?
+    var approach: LocalizedText?
+}
+
+struct CatalogQuiz: Decodable {
+    var question: LocalizedText
+    var options: LocalizedList
+    var answer: Int
+    var explanation: LocalizedText
 }
 
 struct CatalogArrival: Decodable {
