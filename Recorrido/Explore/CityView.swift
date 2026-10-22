@@ -24,6 +24,10 @@ struct CityView: View {
                     }
                 }
 
+                if let guide = city.guide {
+                    CityGuideView(guide: guide)
+                }
+
                 if let gettingThere = city.gettingThere {
                     VStack(alignment: .leading, spacing: 8) {
                         Label("Getting there", systemImage: "car.side")

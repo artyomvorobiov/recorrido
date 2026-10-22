@@ -87,8 +87,10 @@ struct Catalog: Sendable {
     var language: String
     var cities: [City]
     var routes: [Route]
-    /// Catalog stops by id, to bring guides back to copies and shared routes.
+    /// Catalog stops by id and by normalized name, to bring guides back to
+    /// copies and shared routes.
     private var stopsByID: [String: Stop] = [:]
+    private var stopsByName: [String: [Stop]] = [:]
 
     init(language: String, cities: [City], routes: [Route]) {
         self.language = language
@@ -97,6 +99,7 @@ struct Catalog: Sendable {
         for route in routes {
             for stop in route.allStops {
                 stopsByID[stop.id] = stop
+                stopsByName[PlaceClassifier.normalize(stop.title), default: []].append(stop)
             }
         }
     }
@@ -239,20 +242,20 @@ struct Catalog: Sendable {
         return stopsByID[ref]
     }
 
-    /// Brings catalog guides back to a route that lost them: a copy saved by an
-    /// older version, or a route received as a link (links carry only the
-    /// stop's catalog id). Stops without an id are matched by name and place.
+    /// Gives a route the catalog's guides in the current language: copies keep
+    /// up with the catalog, and routes received as links (which carry only the
+    /// stop's catalog id) get the full stories. Stops without an id, e.g. copies
+    /// saved by an older version, are matched by name and place. A stop whose
+    /// story the user rewrote has no catalog id and keeps its own text.
     func enrich(_ route: Route) -> Route {
         var route = route
-        if route.intro == nil, let origin = self.route(id: route.originID) {
-            route.intro = origin.intro
+        if let origin = self.route(id: route.originID ?? route.id), let intro = origin.intro {
+            route.intro = intro
         }
         for dayIndex in route.days.indices {
             for stopIndex in route.days[dayIndex].stops.indices {
                 let stop = route.days[dayIndex].stops[stopIndex]
-                guard stop.guide == nil, let match = catalogStop(matching: stop), let guide = match.guide else {
-                    continue
-                }
+                guard let match = catalogStop(matching: stop), let guide = match.guide else { continue }
                 route.days[dayIndex].stops[stopIndex].guide = guide
                 route.days[dayIndex].stops[stopIndex].ref = match.id
             }
@@ -261,12 +264,10 @@ struct Catalog: Sendable {
     }
 
     private func catalogStop(matching stop: Stop) -> Stop? {
-        if let match = self.stop(ref: stop.ref) { return match }
-        guard stop.ref == nil else { return nil }
-        let title = PlaceClassifier.normalize(stop.title)
-        return stopsByID.values.first { candidate in
+        if let ref = stop.ref { return stopsByID[ref] }
+        guard stop.guide == nil else { return nil }
+        return stopsByName[PlaceClassifier.normalize(stop.title)]?.first { candidate in
             Geo.distance(candidate.coordinate, stop.coordinate) < 80
-                && PlaceClassifier.normalize(candidate.title) == title
         }
     }
 

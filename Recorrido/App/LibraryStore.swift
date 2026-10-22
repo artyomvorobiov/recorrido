@@ -68,6 +68,62 @@ final class LibraryStore {
         persist()
     }
 
+    // MARK: - Guide
+
+    var progress: GuideProgress { data.progress }
+
+    func toggleFound(_ stop: Stop, item: Int) {
+        data.progress.toggle(stop.guideKey, item: item)
+        persist()
+    }
+
+    /// The quiz of an own stop, by the key progress is stored under.
+    func quiz(forKey key: String) -> Quiz? {
+        for route in data.routes {
+            if let stop = route.allStops.first(where: { $0.guideKey == key }), let quiz = stop.guide?.quiz {
+                return quiz
+            }
+        }
+        return nil
+    }
+
+    func answer(_ stop: Stop, option: Int) {
+        guard data.progress.answers[stop.guideKey] == nil else { return }
+        data.progress.answer(stop.guideKey, option: option)
+        persist()
+    }
+
+    // MARK: - Community feed
+
+    func publication(for routeID: String) -> Publication? {
+        data.publications[routeID]
+    }
+
+    func setPublication(_ publication: Publication?, for routeID: String) {
+        data.publications[routeID] = publication
+        persist()
+    }
+
+    var blockedAuthors: Set<String> { Set(data.blockedAuthors) }
+    var hiddenRecords: Set<String> { Set(data.hiddenRecords) }
+
+    func block(author: String) {
+        guard !data.blockedAuthors.contains(author) else { return }
+        data.blockedAuthors.append(author)
+        persist()
+    }
+
+    func unblockAll() {
+        data.blockedAuthors = []
+        persist()
+    }
+
+    func hide(record: String) {
+        guard !data.hiddenRecords.contains(record) else { return }
+        data.hiddenRecords.append(record)
+        persist()
+    }
+
     func eraseEverything() {
         data = LibraryData()
         visits = []

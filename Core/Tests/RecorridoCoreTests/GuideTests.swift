@@ -100,6 +100,21 @@ final class GuideTests: XCTestCase {
         XCTAssertNil(enriched.days[0].stops[1].guide)
     }
 
+    func testEnrichRefreshesCatalogTextsAndKeepsOwnStories() throws {
+        let (_, routesRU, _) = try catalog("ru")
+        let (_, _, catalogEN) = try catalog("en")
+        var copy = routesRU[0].userCopy()
+        copy.days[0].stops[1].guide = StopGuide(story: "Мой рассказ")
+        copy.days[0].stops.append(Stop(title: "Соборная гора", coordinate: Coordinate(57.4583, 41.5156),
+                                       guide: StopGuide(story: "Своё")))
+
+        let enriched = catalogEN.enrich(copy)
+        XCTAssertEqual(enriched.intro, "Start on the hill")
+        XCTAssertEqual(enriched.days[0].stops[0].guide?.story, "A fortress stood here.", "catalog texts follow the language")
+        XCTAssertEqual(enriched.days[0].stops[1].guide?.story, "Мой рассказ", "no catalog guide to replace it with")
+        XCTAssertEqual(enriched.days[0].stops[2].guide?.story, "Своё", "the user's own story stays")
+    }
+
     func testUserCopyKeepsCatalogReference() throws {
         let (_, routes, _) = try catalog("ru")
         let copy = routes[0].userCopy()

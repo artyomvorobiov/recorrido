@@ -317,6 +317,16 @@
         }
       }
     },
+    "About the town": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О городе"
+          }
+        }
+      }
+    },
     "About the town on Wikipedia": {
       "localizations": {
         "ru": {
@@ -463,6 +473,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Назад"
+          }
+        }
+      }
+    },
+    "Before you set off": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перед прогулкой"
           }
         }
       }
@@ -859,6 +879,26 @@
         }
       }
     },
+    "details found": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "найдено деталей"
+          }
+        }
+      }
+    },
+    "Did you know?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Знаете ли вы?"
+          }
+        }
+      }
+    },
     "Directions": {
       "localizations": {
         "ru": {
@@ -959,12 +999,32 @@
         }
       }
     },
+    "Everything found — a sharp eye!": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё найдено — зоркий глаз!"
+          }
+        }
+      }
+    },
     "Explore": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Обзор"
+          }
+        }
+      }
+    },
+    "Find with your own eyes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Найдите глазами"
           }
         }
       }
@@ -1119,6 +1179,26 @@
         }
       }
     },
+    "Good to know": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Полезно знать"
+          }
+        }
+      }
+    },
+    "Guide": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гид"
+          }
+        }
+      }
+    },
     "Half a day": {
       "localizations": {
         "ru": {
@@ -1129,12 +1209,32 @@
         }
       }
     },
+    "Hide": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрыть"
+          }
+        }
+      }
+    },
     "History": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "История"
+          }
+        }
+      }
+    },
+    "History in brief": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "История коротко"
           }
         }
       }
@@ -1175,6 +1275,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Я сейчас в этом городе"
+          }
+        }
+      }
+    },
+    "In a few words: what is this place": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В двух словах: что это за место"
           }
         }
       }
@@ -1225,6 +1335,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Язык маршрутов"
+          }
+        }
+      }
+    },
+    "Legend": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Легенда"
+          }
+        }
+      }
+    },
+    "Legend has it: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По легенде, %@"
           }
         }
       }
@@ -1569,6 +1699,16 @@
         }
       }
     },
+    "Not quite.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не совсем."
+          }
+        }
+      }
+    },
     "Nothing yet": {
       "localizations": {
         "ru": {
@@ -1635,6 +1775,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Пешком + общественный транспорт"
+          }
+        }
+      }
+    },
+    "On the way": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По дороге"
           }
         }
       }
@@ -1839,6 +1989,36 @@
         }
       }
     },
+    "Question": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вопрос"
+          }
+        }
+      }
+    },
+    "questions right": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "верных ответов"
+          }
+        }
+      }
+    },
+    "Read more": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Читать дальше"
+          }
+        }
+      }
+    },
     "Read on Wikipedia": {
       "localizations": {
         "ru": {
@@ -1885,6 +2065,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Убрать из «Моих маршрутов»"
+          }
+        }
+      }
+    },
+    "Right!": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Верно!"
           }
         }
       }
@@ -2229,12 +2419,42 @@
         }
       }
     },
+    "Tap for the whole story, things to find and a question": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите — весь рассказ, что поискать и вопрос"
+          }
+        }
+      }
+    },
     "Tap the map to drop a pin": {
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Коснитесь карты, чтобы поставить точку"
+          }
+        }
+      }
+    },
+    "Tell it like a guide: history, people, what you love here": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расскажите как гид: история, люди, что вы здесь любите"
+          }
+        }
+      }
+    },
+    "Tell me": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рассказать"
           }
         }
       }
@@ -2275,6 +2495,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Маршрут слишком длинный для QR-кода — отправьте ссылку или файл."
+          }
+        }
+      }
+    },
+    "The story": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рассказ"
           }
         }
       }
@@ -2355,6 +2585,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Название"
+          }
+        }
+      }
+    },
+    "To bring home": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что привезти"
           }
         }
       }
@@ -2499,6 +2739,16 @@
         }
       }
     },
+    "What to find with your own eyes — one per line": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что найти глазами — по одному в строке"
+          }
+        }
+      }
+    },
     "Where": {
       "localizations": {
         "ru": {
@@ -2515,6 +2765,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Википедия сейчас перегружена. Попробуйте через минуту."
+          }
+        }
+      }
+    },
+    "Worth tasting": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что попробовать"
           }
         }
       }
@@ -2565,6 +2825,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ваши маршруты, закладки и штампы будут удалены с этого iPhone."
+          }
+        }
+      }
+    },
+    "Your story travels with the route when you share it or publish it in the feed. Separate paragraphs with an empty line.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш рассказ уходит вместе с маршрутом, когда вы делитесь им или публикуете в ленте. Абзацы разделяйте пустой строкой."
           }
         }
       }

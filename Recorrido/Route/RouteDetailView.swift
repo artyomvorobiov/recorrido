@@ -137,6 +137,21 @@ struct RouteDetailView: View {
                     .font(.body)
                     .fixedSize(horizontal: false, vertical: true)
             }
+            if let intro = current.intro {
+                HStack(alignment: .top, spacing: 10) {
+                    Image(systemName: "signpost.right.and.left")
+                        .foregroundStyle(Color.accentColor)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Before you set off")
+                            .font(.subheadline.weight(.semibold))
+                        Text(intro)
+                            .font(.callout)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .card(padding: 14)
+            }
             HStack(spacing: 12) {
                 StatBlock(value: current.lengthLabel, caption: String(localized: "time"), symbol: "clock")
                 StatBlock(value: Format.distance(estimate.distance), caption: String(localized: "distance"), symbol: "point.topleft.down.to.point.bottomright.curvepath")

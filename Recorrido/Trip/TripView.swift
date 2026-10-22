@@ -156,10 +156,27 @@ struct TripView: View {
                 }
             }
 
-            if isHere, let full, !full.details.isEmpty {
-                Text(full.details)
+            if isHere, let full {
+                let opening = full.guide?.paragraphs.first ?? full.details
+                if !opening.isEmpty {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(opening)
+                            .font(.subheadline)
+                            .lineLimit(4)
+                        if full.guide != nil {
+                            Text("Tap for the whole story, things to find and a question")
+                                .font(.caption.weight(.semibold))
+                                .foregroundStyle(Color.accentColor)
+                        }
+                    }
+                    .contentShape(Rectangle())
+                    .onTapGesture { selectedStop = full }
+                }
+            } else if let approach = full?.guide?.approach {
+                Text(approach)
                     .font(.subheadline)
-                    .lineLimit(4)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(3)
                     .onTapGesture { selectedStop = full }
             }
 
