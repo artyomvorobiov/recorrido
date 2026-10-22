@@ -143,7 +143,7 @@ struct Catalog: Sendable {
             wikiTitle: wiki?.text,
             wikiLanguage: wiki?.language,
             searchTerms: source.name.allTexts,
-            guide: source.guide.map { makeCityGuide($0, language: language) }
+            guide: source.guide.flatMap { makeCityGuide($0, language: language) }
         )
         let routes = file.routes.map { makeRoute($0, city: city, language: language) }
         return (city, routes)

@@ -211,7 +211,7 @@ struct QuizCard: View {
                         }
                     }
                     .padding(12)
-                    .background(background(for: index, chosen: chosen), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .background(fill(for: index, chosen: chosen), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                     .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
@@ -234,7 +234,7 @@ struct QuizCard: View {
         }
     }
 
-    private func background(for index: Int, chosen: Int?) -> Color {
+    private func fill(for index: Int, chosen: Int?) -> Color {
         guard let chosen else { return Color(uiColor: .tertiarySystemFill) }
         if index == quiz.answer { return Color.green.opacity(0.18) }
         if index == chosen { return Color.red.opacity(0.15) }

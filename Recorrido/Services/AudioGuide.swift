@@ -77,7 +77,7 @@ final class AudioGuide: NSObject, AVSpeechSynthesizerDelegate {
         // A pause after every part, without doubling the full stops.
         return parts.map { part in
             let text = part.trimmingCharacters(in: .whitespacesAndNewlines)
-            return [".", "!", "?", "…", "»", "\""].contains(where: text.hasSuffix) ? text : text + "."
+            return [".", "!", "?", "…", "»", "\""].contains { text.hasSuffix($0) } ? text : text + "."
         }
         .joined(separator: " ")
     }
