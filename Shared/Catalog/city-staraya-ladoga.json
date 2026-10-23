@@ -124,7 +124,7 @@
             {
               "id": "ladoga-nikolsky",
               "title": {"ru": "Никольский монастырь", "en": "St Nicholas Monastery"},
-              "coordinate": [59.9862, 32.2908],
+              "coordinate": [59.992, 32.3014],
               "category": "church",
               "visit": 30,
               "details": {

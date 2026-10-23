@@ -121,8 +121,8 @@
         "en": "The world's first space museum with a rocket at the entrance, Tsiolkovsky's wooden house where his 'rocket trains' were born, and then the old centre with the Stone Bridge over a ravine and the 'Gothic' merchant arcade."
       },
       "intro": {
-        "ru": "Пеший день, около 4 км: начните с музея космонавтики (2–3 часа) и дома Циолковского у Оки, а потом пройдите через центр к Каменному мосту и Гостиному двору.",
-        "en": "A day on foot, about 4 km: start with the space museum (2–3 hours) and Tsiolkovsky's house by the Oka, then walk through the centre to the Stone Bridge and the merchant arcade."
+        "ru": "Пеший день, около 3 км: начните с музея космонавтики (2–3 часа) и дома Циолковского у Оки, а потом пройдите через центр к Каменному мосту и Гостиному двору.",
+        "en": "A day on foot, about 3 km: start with the space museum (2–3 hours) and Tsiolkovsky's house by the Oka, then walk through the centre to the Stone Bridge and the merchant arcade."
       },
       "emoji": "🚀",
       "tags": ["walk"],
@@ -194,7 +194,7 @@
             {
               "id": "kaluga-tsiolkovsky-house",
               "title": {"ru": "Дом-музей Циолковского", "en": "Tsiolkovsky House Museum"},
-              "coordinate": [54.5108, 36.2389],
+              "coordinate": [54.51111, 36.23028],
               "category": "museum",
               "visit": 45,
               "details": {
@@ -253,7 +253,7 @@
             {
               "id": "kaluga-stone-bridge",
               "title": {"ru": "Каменный мост", "en": "Stone Bridge"},
-              "coordinate": [54.5107, 36.2537],
+              "coordinate": [54.50986, 36.24736],
               "category": "bridge",
               "visit": 20,
               "details": {
@@ -263,8 +263,8 @@
               "wiki": {"ru": "Каменный мост (Калуга)"},
               "guide": {
                 "story": {
-                  "ru": "При Екатерине II Калугу перестраивали по новому плану, и чтобы соединить части города, разделённые глубоким Березуйским оврагом, в 1777–1785 годах построили каменный мост-виадук по проекту архитектора Петра Никитина.\n\nМост длиной около 160 метров стоит на высоких арках и до сих пор служит городу — по нему ходят пешеходы. Это один из первых каменных виадуков в России.\n\nСпуститесь в овраг: снизу арки моста выглядят особенно внушительно, а летом там тень и прохлада.",
-                  "en": "Under Catherine the Great Kaluga was rebuilt to a new plan, and to link the parts of town divided by the deep Berezuysky ravine a stone viaduct was built in 1777–1785 to the design of the architect Pyotr Nikitin.\n\nThe bridge, about 160 metres long, stands on tall arches and still serves the town as a footbridge. It is one of the first stone viaducts in Russia.\n\nGo down into the ravine: from below the arches look especially impressive, and in summer it is shady and cool there."
+                  "ru": "При Екатерине II Калугу перестраивали по новому плану, и чтобы соединить части города, разделённые глубоким Березуйским оврагом, в 1777–1785 годах построили каменный мост-виадук по проекту архитектора Петра Никитина.\n\nМост длиной около 160 метров стоит на высоких арках и до сих пор служит городу: по нему проходит улица. Это один из первых каменных виадуков в России.\n\nСпуститесь в овраг: снизу арки моста выглядят особенно внушительно, а летом там тень и прохлада.",
+                  "en": "Under Catherine the Great Kaluga was rebuilt to a new plan, and to link the parts of town divided by the deep Berezuysky ravine a stone viaduct was built in 1777–1785 to the design of the architect Pyotr Nikitin.\n\nThe bridge, about 160 metres long, stands on tall arches and still carries a street today. It is one of the first stone viaducts in Russia.\n\nGo down into the ravine: from below the arches look especially impressive, and in summer it is shady and cool there."
                 },
                 "lookFor": {
                   "ru": [
@@ -297,7 +297,7 @@
             {
               "id": "kaluga-gostiny-dvor",
               "title": {"ru": "Гостиный двор", "en": "Merchant Arcade"},
-              "coordinate": [54.5105, 36.258],
+              "coordinate": [54.50736, 36.25428],
               "category": "market",
               "visit": 30,
               "details": {
@@ -352,8 +352,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Пара минут от Каменного моста.",
-                  "en": "A couple of minutes from the Stone Bridge."
+                  "ru": "Около 7 минут пешком от Каменного моста.",
+                  "en": "About 7 minutes' walk from the Stone Bridge."
                 }
               }
             }

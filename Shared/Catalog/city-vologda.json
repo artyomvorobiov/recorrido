@@ -290,7 +290,7 @@
             {
               "id": "vologda-peter-house",
               "title": {"ru": "Домик Петра I", "en": "Peter the Great's House"},
-              "coordinate": [59.229, 39.93],
+              "coordinate": [59.20972, 39.90806],
               "category": "museum",
               "visit": 40,
               "details": {
@@ -349,8 +349,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 30 минут пешком вдоль реки на восток или пара остановок на автобусе.",
-                  "en": "About 30 minutes' walk east along the river, or a couple of stops by bus."
+                  "ru": "Около 30 минут пешком вдоль реки на юго-восток или пара остановок на автобусе.",
+                  "en": "About 30 minutes' walk south-east along the river, or a couple of stops by bus."
                 }
               }
             },
@@ -368,8 +368,8 @@
               "arrival": {
                 "mode": "bus",
                 "note": {
-                  "ru": "Около 5 км на север — 15 минут на автобусе или такси",
-                  "en": "About 5 km north — 15 minutes by bus or taxi"
+                  "ru": "Около 6 км на север — 20 минут на автобусе или такси",
+                  "en": "About 6 km north — 20 minutes by bus or taxi"
                 }
               },
               "guide": {
@@ -423,8 +423,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 5 км на север — 15 минут на автобусе или такси.",
-                  "en": "About 5 km north — 15 minutes by bus or taxi."
+                  "ru": "Около 6 км на север — 20 минут на автобусе или такси.",
+                  "en": "About 6 km north — 20 minutes by bus or taxi."
                 }
               }
             }

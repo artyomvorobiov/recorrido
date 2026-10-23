@@ -1615,8 +1615,8 @@
         "en": "Kotlin Island in the Gulf of Finland: the Naval Cathedral, Anchor Square with the Eternal Flame and Admiral Makarov's monument, the tide gauge from which all heights in Russia are measured, the old Petrovsky Dock and the Fort Island park."
       },
       "intro": {
-        "ru": "Поездка на полдня или день: около часа на машине по дамбе или на автобусе от метро. В центре Кронштадта всё пешком, около 3 км; до «Острова фортов» на западе острова — 10 минут на машине или автобусе.",
-        "en": "A half-day or full-day trip: about an hour by car across the dam or by bus from the metro. In central Kronstadt everything is walkable, about 3 km; Fort Island on the west of Kotlin is 10 minutes away by car or bus."
+        "ru": "Поездка на полдня или день: около часа на машине по дамбе или на автобусе от метро. Дальше всё пешком, около 4 км: от Якорной площади через старый центр до парка «Остров фортов» на Каботажной гавани.",
+        "en": "A half-day or full-day trip: about an hour by car across the dam or by bus from the metro. From there it is all on foot, about 4 km: from Anchor Square through the old centre to the Fort Island park on the Cabotage Harbour."
       },
       "emoji": "⚓",
       "tags": ["car", "walk"],
@@ -1633,7 +1633,7 @@
                 "ru": "Огромный собор 1903–1913 годов в византийском стиле — главный храм русского флота. На мраморных досках внутри — имена погибших моряков, а в убранстве — морская символика.",
                 "en": "A huge Byzantine-style cathedral of 1903–1913, the principal church of the Russian navy. Marble plaques inside list fallen sailors, and the decoration is full of naval symbols."
               },
-              "wiki": {"ru": "Кронштадтский Морской собор", "en": "Kronstadt Naval Cathedral"},
+              "wiki": {"ru": "Морской Никольский собор (Кронштадт)", "en": "Kronstadt Naval Cathedral"},
               "guide": {
                 "story": {
                   "ru": "Морской собор задумал главный командир Кронштадтского порта вице-адмирал Степан Макаров, и в 1903 году его заложили в присутствии Николая II. Архитектор Василий Косяков взял за образец константинопольскую Святую Софию, и купол собора виден далеко с моря.\n\nСобор освятили в 1913 году. На мраморных досках внутри высечены имена офицеров и моряков, погибших в морских сражениях, а в убранстве повторяются якоря, корабли и волны.\n\nВ советское время храм закрыли, в нём были кинотеатр и концертный зал. В 2010-х годах собор отреставрировали и вернули ему позолоту, росписи и огромную люстру.",
@@ -1703,8 +1703,8 @@
               "wiki": {"ru": "Якорная площадь (Кронштадт)"},
               "guide": {
                 "story": {
-                  "ru": "Площадь получила имя от якорей, которые здесь хранили в XVIII–XIX веках. Сегодня её окружают старинные якоря и якорные цепи, в центре горит Вечный огонь в память о моряках, а перед собором стоит памятник адмиралу Степану Макарову, погибшему в 1904 году при взрыве броненосца «Петропавловск» у Порт-Артура.\n\nМакаров был не только флотоводцем, но и учёным-океанографом и изобретателем: по его идее построили «Ермак» — первый в мире ледокол арктического плавания. На постаменте — его девиз: «Помни войну».\n\nИз Кронштадта уходили великие экспедиции: в 1803 году — первое русское кругосветное плавание Крузенштерна и Лисянского, а в 1819 году — экспедиция Беллинсгаузена и Лазарева, открывшая Антарктиду.",
-                  "en": "The square takes its name from the anchors stored here in the 18th and 19th centuries. Today it is ringed with old anchors and chains, the Eternal Flame burns in the middle in memory of sailors, and in front of the cathedral stands the monument to Admiral Stepan Makarov, killed in 1904 when the battleship Petropavlovsk blew up off Port Arthur.\n\nMakarov was not only a naval commander but also an oceanographer and inventor: the Yermak, the world's first Arctic icebreaker, was built to his idea. His motto is carved on the pedestal: 'Remember the war'.\n\nGreat expeditions set out from Kronstadt: in 1803 the first Russian circumnavigation by Krusenstern and Lisyansky, and in 1819 Bellingshausen and Lazarev's expedition that discovered Antarctica."
+                  "ru": "Площадь получила имя от якорей, которые здесь хранили в XVIII–XIX веках. Сегодня её окружают старинные якоря и якорные цепи, в центре горит Вечный огонь над братской могилой матросов и рабочих, погибших в революционные годы, а перед собором стоит памятник адмиралу Степану Макарову, погибшему в 1904 году при взрыве броненосца «Петропавловск» у Порт-Артура.\n\nМакаров был не только флотоводцем, но и учёным-океанографом и изобретателем: по его идее построили «Ермак» — первый в мире ледокол арктического плавания. На постаменте — его девиз: «Помни войну».\n\nИз Кронштадта уходили великие экспедиции: в 1803 году — первое русское кругосветное плавание Крузенштерна и Лисянского, а в 1819 году — экспедиция Беллинсгаузена и Лазарева, открывшая Антарктиду.",
+                  "en": "The square takes its name from the anchors stored here in the 18th and 19th centuries. Today it is ringed with old anchors and chains, the Eternal Flame burns in the middle over the mass grave of sailors and workers killed in the revolutionary years, and in front of the cathedral stands the monument to Admiral Stepan Makarov, killed in 1904 when the battleship Petropavlovsk blew up off Port Arthur.\n\nMakarov was not only a naval commander but also an oceanographer and inventor: the Yermak, the world's first Arctic icebreaker, was built to his idea. His motto is carved on the pedestal: 'Remember the war'.\n\nGreat expeditions set out from Kronstadt: in 1803 the first Russian circumnavigation by Krusenstern and Lisyansky, and in 1819 Bellingshausen and Lazarev's expedition that discovered Antarctica."
                 },
                 "lookFor": {
                   "ru": [
@@ -1756,7 +1756,7 @@
             {
               "id": "kronstadt-footstock",
               "title": {"ru": "Кронштадтский футшток", "en": "Kronstadt Tide Gauge"},
-              "coordinate": [59.9906, 29.7688],
+              "coordinate": [59.98926, 29.7624],
               "category": "landmark",
               "visit": 15,
               "details": {
@@ -1830,7 +1830,6 @@
                 "ru": "Каменный сухой док, задуманный Петром I и открытый в 1752 году: корабли заводили в него и откачивали воду, чтобы чинить днища. Один из старейших доков мира.",
                 "en": "A stone dry dock conceived by Peter the Great and opened in 1752: ships were floated in and the water pumped out so their hulls could be repaired. One of the oldest docks in the world."
               },
-              "wiki": {"ru": "Петровский док"},
               "guide": {
                 "story": {
                   "ru": "Пётр I задумал в Кронштадте док для ремонта кораблей, но достроили его уже при Елизавете Петровне, в 1752 году. Корабли заводили в огромный каменный бассейн, закрывали ворота и откачивали воду, чтобы корабль оказался «на суше».\n\nДля своего времени это было инженерное чудо, а позже здесь работала одна из первых в России паровых машин для откачки воды. Док служил флоту больше двухсот лет.\n\nСегодня его гранитные стенки — памятник петровской эпохи, и по ним легко представить, какие корабли здесь стояли.",
@@ -1867,41 +1866,45 @@
             {
               "id": "kronstadt-fort-island",
               "title": {"ru": "Парк «Остров фортов»", "en": "Fort Island Park"},
-              "coordinate": [60.0075, 29.694],
+              "coordinate": [59.99, 29.732],
               "category": "park",
               "visit": 75,
               "details": {
-                "ru": "Парк на западной оконечности острова Котлин, открытый в 2019 году: музей истории флота, аллея героев, маяк и вид на форты в Финском заливе.",
-                "en": "A park on the western tip of Kotlin Island opened in 2019: a museum of naval history, an avenue of heroes, a lighthouse and a view of the forts in the Gulf of Finland."
+                "ru": "Парк на берегу Каботажной гавани, открытый в 2020 году на месте заброшенной военной части: Аллея героев российского флота, «Маяк памяти» с именами моряков и вид на форты в Финском заливе.",
+                "en": "A park on the Cabotage Harbour opened in 2020 on the site of an abandoned military base: the Avenue of Heroes of the Russian Navy, the 'Lighthouse of Memory' with sailors' names and a view of the forts in the Gulf of Finland."
               },
               "wiki": {"ru": "Остров фортов"},
               "arrival": {
-                "mode": "car",
+                "mode": "walk",
                 "note": {
-                  "ru": "Около 7 км — 10 минут на машине или автобусе",
-                  "en": "About 7 km — 10 minutes by car or bus"
+                  "ru": "Около 2,5 км — полчаса пешком или автобус",
+                  "en": "About 2.5 km — half an hour on foot or by bus"
                 }
               },
               "guide": {
                 "story": {
-                  "ru": "Кронштадт окружён фортами: в XVIII–XIX веках их строили на островах и прямо в заливе, чтобы ни один вражеский флот не прошёл к Петербургу. Остров Котлин превратился в огромную крепость, которую так и не решился штурмовать ни один противник.\n\nВ 2019 году на западной оконечности Котлина открыли военно-исторический парк «Остров фортов»: музей истории Военно-морского флота, аллея героев флота, маяк и прогулочные дорожки вдоль воды.\n\nОтсюда видны форты, стоящие прямо в заливе, и корабли, идущие в Петербург. На закате здесь особенно красиво.",
-                  "en": "Kronstadt is ringed with forts: in the 18th and 19th centuries they were built on islets and right in the gulf so that no enemy fleet could get through to St Petersburg. Kotlin Island became a vast fortress that no enemy ever dared to storm.\n\nIn 2019 the Fort Island military history park opened on Kotlin's western tip: a museum of the history of the navy, an avenue of naval heroes, a lighthouse and paths along the water.\n\nFrom here you see the forts standing in the gulf and the ships heading for St Petersburg. It is especially beautiful at sunset."
+                  "ru": "Кронштадт окружён фортами: в XVIII–XIX веках их строили на островах и прямо в заливе, чтобы ни один вражеский флот не прошёл к Петербургу. Остров Котлин превратился в огромную крепость: в Крымскую войну англо-французский флот так и не решился её атаковать.\n\nВ 2020 году на берегу Каботажной гавани, на месте заброшенной военной части, открыли парк «Остров фортов». Его главная улица — Аллея героев российского флота, которая рассказывает о трёх веках морской истории, а рядом стоит «Маяк памяти» с двумя сотнями имён моряков — от петровских времён до наших дней.\n\nОтсюда видны форты, стоящие прямо в заливе, и корабли, идущие в Петербург. На закате здесь особенно красиво.",
+                  "en": "Kronstadt is ringed with forts: in the 18th and 19th centuries they were built on islets and right in the gulf so that no enemy fleet could get through to St Petersburg. Kotlin Island became a vast fortress: during the Crimean War the Anglo-French fleet never dared to attack it.\n\nIn 2020 the Fort Island park opened on the Cabotage Harbour, on the site of an abandoned military base. Its main street is the Avenue of Heroes of the Russian Navy, which tells three centuries of naval history, and next to it stands the 'Lighthouse of Memory' bearing two hundred sailors' names, from Peter the Great's time to the present day.\n\nFrom here you see the forts standing in the gulf and the ships heading for St Petersburg. It is especially beautiful at sunset."
                 },
                 "lookFor": {
-                  "ru": ["Маяк на берегу", "Форты в заливе", "Аллею героев флота"],
+                  "ru": [
+                    "«Маяк памяти» с именами моряков",
+                    "Форты в заливе",
+                    "Аллею героев флота"
+                  ],
                   "en": [
-                    "The lighthouse on the shore",
+                    "The 'Lighthouse of Memory' with sailors' names",
                     "The forts in the gulf",
                     "The avenue of naval heroes"
                   ]
                 },
                 "facts": {
                   "ru": [
-                    "Парк «Остров фортов» открыт в 2019 году.",
+                    "Парк «Остров фортов» открыт в 2020 году на месте заброшенной военной части.",
                     "Форты Кронштадта защищали морские подступы к Петербургу."
                   ],
                   "en": [
-                    "The Fort Island park opened in 2019.",
+                    "The Fort Island park opened in 2020 on the site of an abandoned military base.",
                     "Kronstadt's forts guarded the sea approaches to St Petersburg."
                   ]
                 },
@@ -1929,8 +1932,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 7 км на запад острова — 10 минут на машине или автобусе.",
-                  "en": "About 7 km west along the island — 10 minutes by car or bus."
+                  "ru": "Около 2,5 км на запад, к Каботажной гавани, — полчаса пешком или пара остановок на автобусе.",
+                  "en": "About 2.5 km west to the Cabotage Harbour — half an hour on foot or a couple of bus stops."
                 }
               }
             }

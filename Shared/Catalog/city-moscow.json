@@ -1152,7 +1152,7 @@
             {
               "id": "moscow-golosov",
               "title": {"ru": "Голосов овраг", "en": "Golosov Ravine"},
-              "coordinate": [55.6655, 37.6745],
+              "coordinate": [55.66306, 37.66278],
               "category": "nature",
               "visit": 30,
               "details": {
@@ -1188,12 +1188,12 @@
                   ]
                 },
                 "legend": {
-                  "ru": "Говорят, однажды двое крестьян, возвращаясь домой через овраг, попали в зелёный туман и вышли из него через двадцать лет, уверенные, что прошло лишь несколько часов.",
-                  "en": "They say two peasants walking home through the ravine were caught in a green fog and came out twenty years later, convinced only a few hours had passed."
+                  "ru": "Говорят, однажды двое крестьян, возвращаясь домой через овраг, попали в зелёный туман и вышли из него через двадцать один год, уверенные, что прошло лишь несколько часов.",
+                  "en": "They say two peasants walking home through the ravine were caught in a green fog and came out twenty-one years later, convinced only a few hours had passed."
                 },
                 "approach": {
-                  "ru": "Пара минут вниз от церкви Вознесения.",
-                  "en": "A couple of minutes down from the Church of the Ascension."
+                  "ru": "Около 10 минут пешком на юг от церкви Вознесения, вниз по склону.",
+                  "en": "About 10 minutes' walk south of the Church of the Ascension, down the slope."
                 }
               }
             },
@@ -1207,7 +1207,7 @@
                 "ru": "Огромный деревянный дворец царя Алексея Михайловича — «восьмое чудо света» XVII века, воссозданный в 2010 году по старинным обмерам: десятки теремов с кровлями-бочками и расписные палаты.",
                 "en": "Tsar Alexei Mikhailovich's huge wooden palace — a 17th-century 'eighth wonder of the world', rebuilt in 2010 from old measurements: dozens of towers with barrel roofs and painted chambers."
               },
-              "wiki": {"ru": "Дворец Алексея Михайловича в Коломенском"},
+              "wiki": {"ru": "Коломенский дворец"},
               "guide": {
                 "story": {
                   "ru": "В 1667–1672 годах царь Алексей Михайлович построил в Коломенском деревянный дворец, поражавший современников: около 270 комнат, разноцветные кровли-бочки и шатры, резные наличники. Иностранцы называли его восьмым чудом света. В 1768 году обветшавший дворец разобрали по приказу Екатерины II, но успели сделать обмеры и модель.\n\nПо ним в 2010 году дворец воссоздали в натуральную величину неподалёку от прежнего места. Внутри — царские и царицыны покои, расписанные цветами и библейскими сюжетами, изразцовые печи и мебель XVII века.\n\nЗдесь бывал в детстве и будущий Пётр I, сын Алексея Михайловича.",
