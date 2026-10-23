@@ -114,8 +114,8 @@
         "en": "The St Sophia Cathedral with its frescoes and a bell tower to climb, the lace museum, Peter the Great's house on the river, and outside town the Spaso-Prilutsky Monastery with one of the oldest tent-roofed wooden churches."
       },
       "intro": {
-        "ru": "Пешком по центру около 3 км: собор, колокольня, музей кружева и домик Петра. Затем 15 минут на автобусе или такси до Спасо-Прилуцкого монастыря. По пути заглядывайте в боковые улицы — там прячутся деревянные особняки.",
-        "en": "About 3 km on foot in the centre: the cathedral, the bell tower, the lace museum and Peter's house. Then 15 minutes by bus or taxi to the Spaso-Prilutsky Monastery. Look into the side streets on the way — wooden mansions hide there."
+        "ru": "Пешком по центру около 5 км: собор, колокольня, музей кружева и домик Петра на берегу реки. Затем 15 минут на автобусе или такси до Спасо-Прилуцкого монастыря. По пути заглядывайте в боковые улицы — там прячутся деревянные особняки.",
+        "en": "About 5 km on foot in the centre: the cathedral, the bell tower, the lace museum and Peter's house by the river. Then 15 minutes by bus or taxi to the Spaso-Prilutsky Monastery. Look into the side streets on the way — wooden mansions hide there."
       },
       "emoji": "🧈",
       "tags": ["walk"],
@@ -132,7 +132,7 @@
                 "ru": "Белый собор 1568–1570 годов, построенный по повелению Ивана Грозного по образцу московского Успенского. Внутри — огромный ансамбль фресок конца XVII века со «Страшным судом» на западной стене.",
                 "en": "A white cathedral of 1568–1570 built on Ivan the Terrible's orders after the model of Moscow's Dormition Cathedral. Inside is a vast late-17th-century fresco ensemble with the Last Judgement on the west wall."
               },
-              "wiki": {"ru": "Софийский собор (Вологда)", "en": "St. Sophia Cathedral, Vologda"},
+              "wiki": {"ru": "Софийский собор (Вологда)"},
               "guide": {
                 "story": {
                   "ru": "Софийский собор начали строить по указу Ивана Грозного, который в 1560-х годах задумал сделать Вологду одной из своих столиц. Образцом стал Успенский собор Московского Кремля: пять глав, мощные белые стены.\n\nВ 1686–1688 годах собор расписала артель ярославского мастера Дмитрия Плеханова: стены сплошь покрыты фресками, а на западной стене — огромный «Страшный суд».\n\nСобор не отапливается, поэтому открыт для посетителей только в тёплое время года.",
@@ -195,7 +195,6 @@
                 "ru": "Колокольня XIX века высотой около 78 метров с позолоченным шпилем — самая высокая постройка старой Вологды. Со смотровой площадки видно реку, кремль и деревянные кварталы.",
                 "en": "A 19th-century bell tower about 78 metres high with a gilded spire — the tallest building in old Vologda. From its viewing platform you see the river, the kremlin and the wooden quarters."
               },
-              "wiki": {"ru": "Колокольня Софийского собора (Вологда)"},
               "guide": {
                 "story": {
                   "ru": "Нынешнюю колокольню построили в 1869–1870 годах на месте старой, и она получила золочёный шпиль с крестом. Её видно отовсюду — это главный ориентир города.\n\nПо лестнице можно подняться на смотровую площадку: сверху видно, как петляет река Вологда, как стоят храмы на другом берегу и как прячутся в зелени деревянные особняки.\n\nКолокольня — хорошая точка, чтобы понять устройство города перед прогулкой.",
@@ -291,14 +290,14 @@
             {
               "id": "vologda-peter-house",
               "title": {"ru": "Домик Петра I", "en": "Peter the Great's House"},
-              "coordinate": [59.2266, 39.899],
+              "coordinate": [59.229, 39.93],
               "category": "museum",
               "visit": 40,
               "details": {
                 "ru": "Купеческий дом XVII века на берегу реки, где останавливался Пётр I, — один из первых мемориальных музеев России, открытый в 1885 году.",
                 "en": "A 17th-century merchant's house on the river where Peter the Great stayed — one of Russia's first memorial museums, opened in 1885."
               },
-              "wiki": {"ru": "Дом-музей Петра I (Вологда)"},
+              "wiki": {"ru": "Дом Петра I (Вологда)"},
               "guide": {
                 "story": {
                   "ru": "Пётр I бывал в Вологде пять раз: город лежал на пути к Архангельску, единственному тогда морскому порту России. Останавливался царь в доме голландского купца Гоутмана на берегу реки.\n\nВ 1885 году здесь открыли музей — один из первых мемориальных музеев страны. В нём показывают вещи петровской эпохи: мебель, инструменты, морские приборы, — и рассказывают, как молодой царь мечтал о море и флоте.\n\nДом стоит в тихом сквере у реки Вологды — хорошее место, чтобы передохнуть.",
@@ -350,15 +349,15 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 15 минут пешком вдоль реки от кремля на восток.",
-                  "en": "About 15 minutes' walk east along the river from the kremlin."
+                  "ru": "Около 30 минут пешком вдоль реки на восток или пара остановок на автобусе.",
+                  "en": "About 30 minutes' walk east along the river, or a couple of stops by bus."
                 }
               }
             },
             {
               "id": "vologda-spaso-prilutsky",
               "title": {"ru": "Спасо-Прилуцкий монастырь", "en": "Spaso-Prilutsky Monastery"},
-              "coordinate": [59.2577, 39.8977],
+              "coordinate": [59.26222, 39.88944],
               "category": "church",
               "visit": 60,
               "details": {

@@ -113,12 +113,12 @@
       "id": "pushkinskie-gory-day",
       "title": {"ru": "Пушкинские Горы за день", "en": "Pushkinskiye Gory in a day"},
       "summary": {
-        "ru": "Петровское прадеда Ганнибала, Михайловское с домом поэта и аллеей Керн, Тригорское с «Онегинской скамьёй» над Соротью и Святогорский монастырь, где похоронен Пушкин.",
-        "en": "Petrovskoye of great-grandfather Hannibal, Mikhailovskoye with the poet's house and the Kern avenue, Trigorskoye with 'Onegin's bench' above the Sorot, and the Svyatogorsky Monastery where Pushkin is buried."
+        "ru": "Михайловское с домом поэта и аллеей Керн, Тригорское с «Онегинской скамьёй» над Соротью и Святогорский монастырь, где похоронен Пушкин.",
+        "en": "Mikhailovskoye with the poet's house and the Kern avenue, Trigorskoye with 'Onegin's bench' above the Sorot, and the Svyatogorsky Monastery where Pushkin is buried."
       },
       "intro": {
-        "ru": "Целый день на машине или велосипеде: от Петровского к Михайловскому около 5 км, к Тригорскому ещё 4 км (летом можно пройти пешком вдоль Сороти), до монастыря — 6 км. На Михайловское заложите не меньше двух часов.",
-        "en": "A full day by car or bicycle: Petrovskoye to Mikhailovskoye is about 5 km, Trigorskoye another 4 km (in summer you can walk along the Sorot), and the monastery 6 km more. Allow at least two hours for Mikhailovskoye."
+        "ru": "Целый день на машине или велосипеде: от Михайловского до Тригорского около 4 км (летом можно пройти пешком вдоль Сороти), оттуда до монастыря — около 5 км. На Михайловское заложите не меньше двух часов, а если останется время — заверните в Петровское, усадьбу прадеда Ганнибала на другом берегу озера Кучане.",
+        "en": "A full day by car or bicycle: Mikhailovskoye to Trigorskoye is about 4 km (in summer you can walk along the Sorot), and from there the monastery is about 5 km. Allow at least two hours for Mikhailovskoye, and if you have time, drop in at Petrovskoye, the estate of great-grandfather Hannibal across Lake Kuchane."
       },
       "emoji": "🪶",
       "tags": ["car"],
@@ -126,68 +126,9 @@
         {
           "stops": [
             {
-              "id": "pg-petrovskoye",
-              "title": {"ru": "Петровское", "en": "Petrovskoye"},
-              "coordinate": [57.084, 28.902],
-              "category": "palace",
-              "visit": 45,
-              "details": {
-                "ru": "Усадьба прадеда поэта Абрама Ганнибала на берегу озера Кучане: дом-музей, парк и рассказ о «арапе Петра Великого», ставшем генералом.",
-                "en": "The estate of the poet's great-grandfather Abram Hannibal on Lake Kuchane: a house museum, a park and the story of 'the Moor of Peter the Great' who became a general."
-              },
-              "wiki": {"ru": "Петровское (Пушкинский заповедник)"},
-              "guide": {
-                "story": {
-                  "ru": "Абрам Ганнибал родился в Африке, мальчиком попал в Константинополь, а оттуда в Россию, где стал крестником и любимцем Петра I. Он учился во Франции военной инженерии, строил крепости, дослужился до генерал-аншефа и получил от императрицы Елизаветы псковские земли.\n\nПетровское стало его родовым имением: здесь он жил в старости, а потом усадьбой владел его сын Пётр. Пушкин бывал здесь, расспрашивая двоюродного деда о семейных преданиях, и начал писать роман «Арап Петра Великого».\n\nДом восстановлен после войны, а из парка открывается вид на озеро Кучане и далёкое Михайловское.",
-                  "en": "Abram Hannibal was born in Africa, taken as a boy to Constantinople and from there to Russia, where he became Peter the Great's godson and favourite. He studied military engineering in France, built fortresses, rose to general-in-chief and received lands near Pskov from Empress Elizabeth.\n\nPetrovskoye became his family seat: he lived here in old age, and later his son Pyotr owned it. Pushkin visited, questioning his great-uncle about family legends, and began the novel 'The Moor of Peter the Great'.\n\nThe house was rebuilt after the war, and from the park there is a view of Lake Kuchane and distant Mikhailovskoye."
-                },
-                "lookFor": {
-                  "ru": [
-                    "Портрет Ганнибала в доме",
-                    "Озеро Кучане за парком",
-                    "Михайловское на другом берегу"
-                  ],
-                  "en": [
-                    "Hannibal's portrait in the house",
-                    "Lake Kuchane beyond the park",
-                    "Mikhailovskoye on the far shore"
-                  ]
-                },
-                "facts": {
-                  "ru": [
-                    "Абрам Ганнибал был крестником Петра I.",
-                    "Пушкин начал писать о прадеде роман «Арап Петра Великого»."
-                  ],
-                  "en": [
-                    "Abram Hannibal was Peter the Great's godson.",
-                    "Pushkin began a novel about him, 'The Moor of Peter the Great'."
-                  ]
-                },
-                "quiz": {
-                  "question": {
-                    "ru": "Кем Абрам Ганнибал приходился Пушкину?",
-                    "en": "How was Abram Hannibal related to Pushkin?"
-                  },
-                  "options": {
-                    "ru": ["Прадедом", "Дедом", "Дядей"],
-                    "en": ["Great-grandfather", "Grandfather", "Uncle"]
-                  },
-                  "answer": 0,
-                  "explanation": {
-                    "ru": "Ганнибал — прадед поэта по матери, Надежде Осиповне Ганнибал.",
-                    "en": "Hannibal was the poet's great-grandfather on his mother's side, Nadezhda Hannibal."
-                  }
-                },
-                "approach": {
-                  "ru": "Петровское — к северу от Пушкинских Гор, около 15 минут на машине.",
-                  "en": "Petrovskoye lies north of Pushkinskiye Gory, about 15 minutes by car."
-                }
-              }
-            },
-            {
               "id": "pg-mikhailovskoye",
               "title": {"ru": "Михайловское", "en": "Mikhailovskoye"},
-              "coordinate": [57.0592, 28.9364],
+              "coordinate": [57.06098, 28.91939],
               "category": "palace",
               "visit": 120,
               "details": {
@@ -195,10 +136,6 @@
                 "en": "The estate where Pushkin spent two years of exile: the poet's house and study, the cottage of his nanny Arina Rodionovna, the Kern avenue, ponds and a view of the Sorot."
               },
               "wiki": {"ru": "Михайловское (музей-заповедник)"},
-              "arrival": {
-                "mode": "car",
-                "note": {"ru": "Около 5 км — 10 минут на машине", "en": "About 5 km — 10 minutes by car"}
-              },
               "guide": {
                 "story": {
                   "ru": "В августе 1824 года Пушкина за вольнодумные письма выслали из Одессы в Михайловское под надзор отца и настоятеля монастыря. Родные вскоре уехали, и поэт остался почти один — с няней Ариной Родионовной, книгами и деревенской тишиной.\n\nЗдесь он написал «Бориса Годунова», «Графа Нулина», главы «Евгения Онегина» и множество стихов. Вечерами няня рассказывала ему сказки и пела песни, и многое из её рассказов вошло потом в его сказки.\n\nДом поэта сгорел ещё в XIX веке и снова в войну; нынешний восстановлен Семёном Гейченко. В кабинете — книги, перья, портрет Байрона, а за домом — аллея Керн и спуск к Сороти.",
@@ -246,15 +183,15 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 5 км от Петровского вокруг озера — 10 минут на машине.",
-                  "en": "About 5 km from Petrovskoye around the lake — 10 minutes by car."
+                  "ru": "Михайловское — в 5 км к северу от посёлка Пушкинские Горы.",
+                  "en": "Mikhailovskoye is 5 km north of the village of Pushkinskiye Gory."
                 }
               }
             },
             {
               "id": "pg-trigorskoye",
               "title": {"ru": "Тригорское", "en": "Trigorskoye"},
-              "coordinate": [57.0504, 28.9736],
+              "coordinate": [57.0569, 28.8672],
               "category": "palace",
               "visit": 60,
               "details": {
@@ -330,7 +267,7 @@
               "wiki": {"ru": "Святогорский монастырь"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 6 км — 10 минут на машине", "en": "About 6 km — 10 minutes by car"}
+                "note": {"ru": "Около 5 км — 10 минут на машине", "en": "About 5 km — 10 minutes by car"}
               },
               "guide": {
                 "story": {
@@ -383,8 +320,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 6 км от Тригорского — 10 минут на машине, в центре посёлка.",
-                  "en": "About 6 km from Trigorskoye — 10 minutes by car, in the middle of the village."
+                  "ru": "Около 5 км от Тригорского — 10 минут на машине, в центре посёлка.",
+                  "en": "About 5 km from Trigorskoye — 10 minutes by car, in the middle of the village."
                 }
               }
             }

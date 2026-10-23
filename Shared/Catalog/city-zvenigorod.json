@@ -131,7 +131,7 @@
             {
               "id": "zvenigorod-gorodok",
               "title": {"ru": "Городок и Успенский собор", "en": "The Gorodok and Dormition Cathedral"},
-              "coordinate": [55.7345, 36.8446],
+              "coordinate": [55.73311, 36.84021],
               "category": "church",
               "visit": 40,
               "details": {

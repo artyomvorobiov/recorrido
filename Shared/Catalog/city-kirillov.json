@@ -131,7 +131,7 @@
             {
               "id": "kirillov-monastery",
               "title": {"ru": "Кирилло-Белозерский монастырь", "en": "Kirillo-Belozersky Monastery"},
-              "coordinate": [59.8577, 38.3773],
+              "coordinate": [59.85722, 38.36833],
               "category": "castle",
               "visit": 150,
               "details": {
@@ -194,7 +194,7 @@
             {
               "id": "kirillov-siverskoye",
               "title": {"ru": "Берег Сиверского озера", "en": "Lake Siverskoye Shore"},
-              "coordinate": [59.8558, 38.3745],
+              "coordinate": [59.856, 38.365],
               "category": "nature",
               "visit": 20,
               "details": {

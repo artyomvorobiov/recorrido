@@ -42,8 +42,12 @@ def api(lang, params, attempts=5):
 
 # Lakes, rivers and regions have a coordinate somewhere in the middle; a stop
 # on their shore is fine wherever it is.
-AREA_TYPES = {"waterbody", "river", "isle", "forest", "glacier", "mountain", "city", "adm1st", "adm2nd", "adm3rd"}
+AREA_TYPES = {"waterbody", "river", "isle", "forest", "glacier", "mountain", "adm1st", "adm2nd", "adm3rd"}
 AREA = "area"
+# A stop anywhere in a town or village is fine, but not one in the next district.
+SETTLEMENT_TYPES = {"city"}
+SETTLEMENT_TOLERANCE = 5000
+settlements = set()
 
 
 def search(lang, text, near=None, limit=5):
@@ -111,8 +115,11 @@ def lookup(lang, titles):
                 continue
             coords = page.get("coordinates")
             coordinate = (coords[0]["lat"], coords[0]["lon"]) if coords else None
-            if coords and coords[0].get("type", "").split("(")[0] in AREA_TYPES:
+            kind = coords[0].get("type", "").split("(")[0] if coords else ""
+            if kind in AREA_TYPES:
                 coordinate = AREA
+            elif kind in SETTLEMENT_TYPES:
+                settlements.add((lang, title))
             result[title] = (True, coordinate, mapping[title], bool(page.get("pageimage")))
         time.sleep(0.3)
     return result
@@ -157,7 +164,10 @@ def main():
                     no_coord.append(f"{stop['id']} [{lang}] {title}")
                 elif coordinate != AREA:
                     d = distance(stop["coordinate"], coordinate)
-                    if d > args.tolerance:
+                    tolerance = args.tolerance
+                    if (lang, title) in settlements:
+                        tolerance = max(tolerance, SETTLEMENT_TOLERANCE)
+                    if d > tolerance:
                         far.append(f"{file} {stop['id']}: {int(d)} m off; wiki [{lang}] {final} = {coordinate[0]:.5f}, {coordinate[1]:.5f}")
                         suggestions[stop["id"]] = [round(coordinate[0], 5), round(coordinate[1], 5)]
 

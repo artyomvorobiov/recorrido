@@ -122,14 +122,14 @@
             {
               "id": "kaliningrad-ocean",
               "title": {"ru": "Музей Мирового океана", "en": "Museum of the World Ocean"},
-              "coordinate": [54.7056, 20.4974],
+              "coordinate": [54.707, 20.5015],
               "category": "museum",
               "visit": 120,
               "details": {
                 "ru": "Музей на набережной Преголи с настоящими кораблями: научное судно «Витязь», подводная лодка, а в залах — аквариумы, скелет кита и история мореплавания.",
                 "en": "A museum on the Pregolya embankment with real ships: the research vessel Vityaz and a submarine, and inside aquariums, a whale skeleton and the history of seafaring."
               },
-              "wiki": {"ru": "Музей Мирового океана", "en": "Museum of the World Ocean"},
+              "wiki": {"ru": "Музей Мирового океана"},
               "guide": {
                 "story": {
                   "ru": "Музей Мирового океана открылся в 1990 году, и главная его гордость стоит прямо у причала: научно-исследовательское судно «Витязь». В 1957 году его экспедиция измерила глубину Марианской впадины — около 11 километров, самое глубокое место океана.\n\nРядом пришвартована подводная лодка Б-413: в неё можно спуститься и пройти по тесным отсекам, представляя, как жили подводники. В залах музея — аквариумы с рыбами и кораллами, скелет огромного кита и рассказ о том, как люди изучали океан.\n\nМузей растянут вдоль реки, так что прогулка по нему — это ещё и прогулка по набережной.",
@@ -256,7 +256,7 @@
             {
               "id": "kaliningrad-fishing-village",
               "title": {"ru": "Рыбная деревня", "en": "Fishing Village"},
-              "coordinate": [54.7061, 20.5154],
+              "coordinate": [54.70222, 20.51583],
               "category": "district",
               "visit": 40,
               "details": {
@@ -315,7 +315,7 @@
             {
               "id": "kaliningrad-kings-gate",
               "title": {"ru": "Королевские ворота", "en": "King's Gate"},
-              "coordinate": [54.7174, 20.5326],
+              "coordinate": [54.71361, 20.53583],
               "category": "landmark",
               "visit": 40,
               "details": {
@@ -374,7 +374,7 @@
             {
               "id": "kaliningrad-amber",
               "title": {"ru": "Музей янтаря", "en": "Amber Museum"},
-              "coordinate": [54.7208, 20.5196],
+              "coordinate": [54.72222, 20.52306],
               "category": "museum",
               "visit": 60,
               "details": {
@@ -575,14 +575,13 @@
             {
               "id": "kaliningrad-efa",
               "title": {"ru": "Высота Эфа", "en": "Efa Height"},
-              "coordinate": [55.2267, 20.91],
+              "coordinate": [55.221, 20.894],
               "category": "viewpoint",
               "visit": 60,
               "details": {
                 "ru": "Одна из самых высоких дюн косы — около 60 метров. С деревянных смотровых площадок видно и Балтийское море, и Куршский залив, а внизу — «долину дюн», похожую на пустыню.",
                 "en": "One of the spit's highest dunes, about 60 metres high. From wooden viewing platforms you see both the Baltic Sea and the Curonian Lagoon, and below lies a 'valley of dunes' like a desert."
               },
-              "wiki": {"ru": "Высота Эфа"},
               "arrival": {
                 "mode": "car",
                 "note": {
