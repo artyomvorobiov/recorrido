@@ -16,7 +16,100 @@
     "emoji": "🚀",
     "size": "small",
     "tags": ["near-moscow"],
-    "wiki": {"ru": "Боровск", "en": "Borovsk"}
+    "wiki": {"ru": "Боровск", "en": "Borovsk"},
+    "guide": {
+      "story": {
+        "ru": "Боровск — старинный город на холмах над рекой Протвой, примерно в ста километрах от Москвы. В летописях он появляется в XIV веке, а в 1444 году неподалёку основал монастырь преподобный Пафнутий — одна из самых почитаемых обителей Руси.\n\nГород связан с драматичными страницами истории. В Смутное время защитники Пафнутьева монастыря погибли, но не сдались. В 1675 году в земляной тюрьме Боровска уморили голодом боярыню Феодосию Морозову и её сестру княгиню Евдокию Урусову — непреклонных старообрядок. А в 1880–1892 годах здесь учительствовал молодой Константин Циолковский.\n\nСегодня Боровск знаменит ещё и росписями: художник Владимир Овчинников превратил стены домов, заборы и гаражи в картины об истории города и его жителях. Прогулка по Боровску — это поиск картинок, старые улицы и виды на Протву.",
+        "en": "Borovsk is an old town on hills above the Protva River, about a hundred kilometres from Moscow. It appears in the chronicles in the 14th century, and in 1444 St Paphnutius founded a monastery nearby — one of the most revered in Rus.\n\nThe town is tied to dramatic pages of history. In the Time of Troubles the defenders of the Pafnutiev Monastery died rather than surrender. In 1675 the boyarina Feodosia Morozova and her sister Princess Evdokia Urusova, unbending Old Believers, were starved to death in Borovsk's earthen prison. And in 1880–1892 the young Konstantin Tsiolkovsky taught here.\n\nToday Borovsk is also famous for its murals: the painter Vladimir Ovchinnikov turned house walls, fences and garages into pictures of the town's history and people. A walk in Borovsk means hunting for pictures, old streets and views of the Protva."
+      },
+      "history": [
+        {
+          "year": "1358",
+          "text": {
+            "ru": "Боровск впервые упомянут в духовной грамоте великого князя Ивана Красного.",
+            "en": "Borovsk is first mentioned in the testament of Grand Prince Ivan the Fair."
+          }
+        },
+        {
+          "year": "1444",
+          "text": {
+            "ru": "Преподобный Пафнутий основывает монастырь у Боровска.",
+            "en": "St Paphnutius founds a monastery near Borovsk."
+          }
+        },
+        {
+          "year": "1610",
+          "text": {
+            "ru": "Войско Сапеги после трёх неудачных штурмов врывается в монастырь через открытые изменниками ворота.",
+            "en": "After three failed assaults, Sapieha's army bursts into the monastery through gates opened by traitors."
+          }
+        },
+        {
+          "year": "1675",
+          "text": {
+            "ru": "В земляной тюрьме Боровска умирают боярыня Морозова и княгиня Урусова.",
+            "en": "Boyarina Morozova and Princess Urusova die in Borovsk's earthen prison."
+          }
+        },
+        {
+          "year": "1812",
+          "text": {
+            "ru": "Через Боровск проходит армия Наполеона, уходящая из Москвы.",
+            "en": "Napoleon's army passes through Borovsk after leaving Moscow."
+          }
+        },
+        {
+          "year": "1880–1892",
+          "text": {
+            "ru": "Константин Циолковский преподаёт в Боровском уездном училище.",
+            "en": "Konstantin Tsiolkovsky teaches at the Borovsk district school."
+          }
+        },
+        {
+          "year": "2002–2005",
+          "text": {
+            "ru": "Владимир Овчинников создаёт первую сотню росписей на стенах города.",
+            "en": "Vladimir Ovchinnikov paints the first hundred murals on the town's walls."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Калужское тесто — старинную сладость из муки, мёда и патоки",
+          "Выпечку из местных пекарен",
+          "Чай с травами и мёдом"
+        ],
+        "en": [
+          "Kaluga 'testo' — an old sweet made of flour, honey and treacle",
+          "Pastries from local bakeries",
+          "Herbal tea with honey"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Открытки и магниты с росписями Овчинникова",
+          "Книги о Циолковском и истории Боровска",
+          "Работы местных мастеров — керамику и деревянную игрушку"
+        ],
+        "en": [
+          "Postcards and magnets with Ovchinnikov's murals",
+          "Books about Tsiolkovsky and Borovsk's history",
+          "Work by local craftspeople — ceramics and wooden toys"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Многие росписи — на стенах частных домов: смотрите с улицы и не заходите во дворы без приглашения",
+          "Не торопитесь: часть картин спрятана на боковых улочках, ищите их как в игре",
+          "Спуски к Протве крутые — в дождь там скользко"
+        ],
+        "en": [
+          "Many murals are on the walls of private houses: look from the street and don't enter yards uninvited",
+          "Take your time: some pictures hide in side streets — hunt for them like a game",
+          "The paths down to the Protva are steep and slippery in the rain"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,6 +119,10 @@
         "ru": "Прогулка по центру среди росписей Овчинникова, Благовещенский собор, дом-музей Циолковского и вид на Протву с высокого берега, а затем — на машине к Пафнутьеву Боровскому монастырю.",
         "en": "A walk through the centre among Ovchinnikov's murals, the Annunciation Cathedral, the Tsiolkovsky house museum and a view over the Protva from the high bank, then a drive to the Pafnutiev Borovsky Monastery."
       },
+      "intro": {
+        "ru": "Прогулка по центру — около 3 км с подъёмами и спусками: от расписной площади к собору, музею Циолковского и откосу над Протвой. Затем 7–10 минут на машине до Пафнутьева монастыря — на него заложите час.",
+        "en": "A walk of about 3 km around the centre, with ups and downs: from the painted square to the cathedral, the Tsiolkovsky museum and the bluff above the Protva. Then 7–10 minutes by car to the Pafnutiev Monastery — allow an hour for it."
+      },
       "emoji": "🚀",
       "tags": ["walk", "car"],
       "days": [
@@ -34,60 +131,219 @@
             {
               "id": "borovsk-murals",
               "title": {"ru": "Росписи Овчинникова на площади", "en": "Ovchinnikov's murals"},
-              "coordinate": [55.20680, 36.48720],
+              "coordinate": [55.2068, 36.4872],
               "category": "landmark",
               "visit": 40,
               "details": {
-                "ru": "Владимир Овчинников, бывший инженер, с конца 1990-х годов превращает стены домов, заборы и гаражи Боровска в картины: князья и старообрядцы, учёные и солдаты, сценки из жизни горожан. Их больше сотни — посчитать все не удаётся даже местным.",
-                "en": "Since the late 1990s Vladimir Ovchinnikov, a former engineer, has been turning Borovsk house walls, fences and garages into paintings: princes and Old Believers, scientists and soldiers, scenes from townspeople's lives. There are more than a hundred — even locals can't count them all."
+                "ru": "Художник Владимир Овчинников, инженер по образованию, с начала 2000-х годов превращал стены домов, заборы и гаражи Боровска в картины: князья и старообрядцы, учёные и солдаты, сценки из жизни горожан. Их больше сотни — посчитать все не удаётся даже местным.",
+                "en": "From the early 2000s the painter Vladimir Ovchinnikov, an engineer by training, turned Borovsk house walls, fences and garages into paintings: princes and Old Believers, scientists and soldiers, scenes from townspeople's lives. There are more than a hundred — even locals can't count them all."
               },
               "tip": {
                 "ru": "Не торопитесь: многие росписи спрятаны во дворах и на боковых улочках.",
                 "en": "Take your time: many of the murals hide in courtyards and side streets."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Владимир Овчинников был инженером-строителем и экономистом, а рисовать учился сам. В 1998 году, выйдя на пенсию, он переехал из Москвы в Боровск и вскоре начал расписывать стены домов, заборы и гаражи. Только за четыре лета, с 2002 по 2005 год, появилась почти сотня росписей, а потом их стало ещё больше.\n\nНа стенах — вся история Боровска: князья и монахи, старообрядцы, учёные и солдаты, Циолковский, сценки из жизни горожан и память о жертвах репрессий. Рядом с картинками художник часто оставлял подписи и цитаты, и прогулка превращается в чтение огромной книги под открытым небом.\n\nВладимира Овчинникова не стало в 2026 году, но его город-галерея остаётся главной особенностью Боровска.",
+                  "en": "Vladimir Ovchinnikov was a civil engineer and economist who taught himself to paint. In 1998, after retiring, he moved from Moscow to Borovsk and soon began painting house walls, fences and garages. In just four summers, from 2002 to 2005, almost a hundred murals appeared, and later there were even more.\n\nThe walls tell the whole history of Borovsk: princes and monks, Old Believers, scientists and soldiers, Tsiolkovsky, scenes of townspeople's lives and the memory of victims of repression. The artist often added captions and quotations next to the pictures, so a walk turns into reading a huge open-air book.\n\nVladimir Ovchinnikov died in 2026, but his gallery town remains what makes Borovsk special."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Портрет Циолковского среди росписей",
+                    "Подписи и цитаты рядом с картинками",
+                    "Роспись на обычном гараже или заборе"
+                  ],
+                  "en": [
+                    "A portrait of Tsiolkovsky among the murals",
+                    "Captions and quotations next to the pictures",
+                    "A painting on an ordinary garage or fence"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "За четыре лета, с 2002 по 2005 год, Овчинников создал около сотни росписей.",
+                    "Художник учился рисовать сам — по образованию он инженер-строитель."
+                  ],
+                  "en": [
+                    "In four summers, from 2002 to 2005, Ovchinnikov created about a hundred murals.",
+                    "The artist was self-taught — he trained as a civil engineer."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кем был Владимир Овчинников до того, как стал расписывать Боровск?",
+                    "en": "What was Vladimir Ovchinnikov before he began painting Borovsk?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Инженером-строителем",
+                      "Космонавтом",
+                      "Учителем рисования"
+                    ],
+                    "en": ["A civil engineer", "A cosmonaut", "An art teacher"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Он окончил строительный институт, работал на стройках и занимался наукой, а живописи учился самостоятельно.",
+                    "en": "He graduated from a civil engineering institute, worked on building sites and did research, and taught himself to paint."
+                  }
+                },
+                "approach": {
+                  "ru": "Начните с центральной площади — росписи видны уже на соседних домах.",
+                  "en": "Start at the central square — murals appear on the very next houses."
+                }
               }
             },
             {
               "id": "borovsk-annunciation",
               "title": {"ru": "Благовещенский собор", "en": "Annunciation Cathedral"},
-              "coordinate": [55.20590, 36.48610],
+              "coordinate": [55.2059, 36.4861],
               "category": "church",
               "visit": 20,
               "details": {
                 "ru": "Главный храм центра Боровска с высокой колокольней, построенный в XVIII–XIX веках. Вокруг — Соборная площадь и улицы с купеческими домами.",
                 "en": "The main church of central Borovsk with a tall bell tower, built in the 18th–19th centuries. Around it lie Cathedral Square and streets of merchant houses."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Благовещенский собор — главный храм центра Боровска. Сначала он был деревянным, потом его отстроили в камне, а свой нынешний облик с высокой колокольней собор получил к середине XIX века. Вокруг — Соборная площадь, купеческие дома и спуски к реке.\n\nБоровск был богатым торговым городом, и многие его купцы были старообрядцами: город славился их общинами и молельнями. Купеческие дома вокруг площади строили основательно, из кирпича, с лавками внизу и жильём наверху.\n\nКолокольня собора — хороший ориентир: её видно почти из любой точки старого города.",
+                  "en": "The Annunciation Cathedral is the main church of central Borovsk. It was wooden at first, then rebuilt in stone, and took on its present look with a tall bell tower by the mid-19th century. Around it are Cathedral Square, merchants' houses and paths down to the river.\n\nBorovsk was a rich trading town, and many of its merchants were Old Believers: the town was known for their communities and prayer houses. The merchants' houses around the square were built to last, of brick, with shops below and living quarters above.\n\nThe bell tower is a good landmark: you can see it from almost anywhere in the old town."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Высокую колокольню собора",
+                    "Купеческие дома с лавками на первых этажах",
+                    "Росписи на домах вокруг площади"
+                  ],
+                  "en": [
+                    "The cathedral's tall bell tower",
+                    "Merchants' houses with shops on the ground floor",
+                    "Murals on the houses around the square"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Собор много раз перестраивали — от деревянного храма до каменного с колокольней.",
+                    "В Боровске издавна жили старообрядцы, и их община существует до сих пор."
+                  ],
+                  "en": [
+                    "The cathedral was rebuilt many times — from a wooden church to a stone one with a bell tower.",
+                    "Old Believers have lived in Borovsk for centuries, and their community still exists."
+                  ]
+                },
+                "approach": {
+                  "ru": "От площади с росписями — пара минут пешком.",
+                  "en": "A couple of minutes' walk from the painted square."
+                }
               }
             },
             {
               "id": "borovsk-tsiolkovsky",
               "title": {"ru": "Дом-музей Циолковского", "en": "Tsiolkovsky House Museum"},
-              "coordinate": [55.20420, 36.49210],
+              "coordinate": [55.2042, 36.4921],
               "category": "museum",
               "visit": 40,
               "details": {
                 "ru": "Константин Циолковский прожил в Боровске двенадцать лет, с 1880 по 1892 год: преподавал в училище и здесь же начал свои первые научные работы. Музей рассказывает о молодых годах будущего основоположника космонавтики.",
                 "en": "Konstantin Tsiolkovsky lived in Borovsk for twelve years, from 1880 to 1892: he taught at the local school and began his first scientific work here. The museum tells the story of the young years of the father of cosmonautics."
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1879 году двадцатидвухлетний Константин Циолковский сдал экзамен на звание учителя, а в 1880 году получил место в Боровском уездном училище: преподавал арифметику и геометрию. Почти глухой с детства после скарлатины, он учился всему сам и в Боровске впервые смог всерьёз заниматься наукой.\n\nЗдесь он женился на Варваре Соколовой и в съёмных комнатах ставил опыты: строил модели, мастерил приборы, экспериментировал с электричеством. Здесь же написал первые научные работы — например, «Теорию газов», которую отправил в Русское физико-химическое общество. Оказалось, что он заново открыл уже известное, но учёные заметили талант самоучки и приняли его в общество.\n\nВ Боровске Циолковский начал работать и над цельнометаллическим дирижаблем. В 1892 году он переехал в Калугу, где прожил до конца жизни.",
+                  "en": "In 1879 the 22-year-old Konstantin Tsiolkovsky passed the teacher's exam, and in 1880 he got a post at the Borovsk district school, teaching arithmetic and geometry. Almost deaf since a childhood bout of scarlet fever, he was largely self-taught, and in Borovsk he could at last take up science seriously.\n\nHere he married Varvara Sokolova and experimented in his rented rooms: he built models, made instruments and tried out electricity. Here too he wrote his first scientific papers, such as 'The Theory of Gases', which he sent to the Russian Physico-Chemical Society. It turned out he had rediscovered something already known, but the scientists noticed the self-taught talent and made him a member.\n\nIn Borovsk Tsiolkovsky also began working on an all-metal airship. In 1892 he moved to Kaluga, where he lived for the rest of his life."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Обстановку комнаты учителя конца XIX века",
+                    "Модели дирижаблей и летательных аппаратов",
+                    "Фотографии молодого Циолковского с семьёй"
+                  ],
+                  "en": [
+                    "The furnishings of a late-19th-century teacher's room",
+                    "Models of airships and flying machines",
+                    "Photos of the young Tsiolkovsky with his family"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В 1887 году Циолковский выступил в Москве с докладом о своём металлическом дирижабле.",
+                    "Циолковский был почти глухим и учился в основном самостоятельно."
+                  ],
+                  "en": [
+                    "In 1887 Tsiolkovsky gave a talk in Moscow about his metal airship.",
+                    "Tsiolkovsky was almost deaf and largely self-taught."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько лет Циолковский прожил в Боровске?",
+                    "en": "How many years did Tsiolkovsky live in Borovsk?"
+                  },
+                  "options": {"ru": ["12 лет", "2 года", "30 лет"], "en": ["12 years", "2 years", "30 years"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "С 1880 по 1892 год — потом он переехал в Калугу, где жил до конца жизни.",
+                    "en": "From 1880 to 1892 — then he moved to Kaluga, where he lived for the rest of his life."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 7 минут пешком на юго-восток от собора.",
+                  "en": "About 7 minutes' walk south-east of the cathedral."
+                }
               }
             },
             {
               "id": "borovsk-protva",
               "title": {"ru": "Высокий берег Протвы", "en": "High bank of the Protva"},
-              "coordinate": [55.20890, 36.48200],
+              "coordinate": [55.2089, 36.482],
               "category": "viewpoint",
               "visit": 20,
               "details": {
                 "ru": "С откоса над Протвой видно, как город карабкается по холмам: деревянные дома, колокольни и зелёные склоны. Внизу — мостики через реку и тропинки вдоль воды.",
                 "en": "From the slope above the Protva you can see the town climbing its hills: wooden houses, bell towers and green slopes. Below are footbridges and paths along the water."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Протва — приток Оки длиной около 280 километров. В Боровске она петляет в глубокой долине, и город поднимается над ней по холмам: деревянные дома, колокольни, сады на склонах.\n\nС высокого берега хорошо видно, как устроен старый Боровск: внизу — река, мостики и тропинки, на холмах — улицы и храмы. Река веками была частью городской жизни: на ней стояли мельницы, а летом здесь купались и рыбачили.\n\nВ ясный день отсюда далеко видно окрестные холмы и леса — хорошее место, чтобы остановиться и перевести дух перед поездкой в монастырь.",
+                  "en": "The Protva is a tributary of the Oka about 280 kilometres long. In Borovsk it winds through a deep valley, and the town climbs above it on hills: wooden houses, bell towers, gardens on the slopes.\n\nFrom the high bank you can see how old Borovsk is laid out: the river, footbridges and paths below, streets and churches on the hills. For centuries the river was part of town life: mills stood on it, and in summer people swam and fished here.\n\nOn a clear day you can see far across the surrounding hills and forests — a good place to stop and catch your breath before driving to the monastery."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Петлю Протвы в долине",
+                    "Колокольни над крышами старого города",
+                    "Деревянные дома на склонах"
+                  ],
+                  "en": [
+                    "The loop of the Protva in the valley",
+                    "Bell towers above the roofs of the old town",
+                    "Wooden houses on the slopes"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Длина Протвы — около 280 километров.",
+                    "Протва впадает в Оку недалеко от Серпухова."
+                  ],
+                  "en": [
+                    "The Protva is about 280 kilometres long.",
+                    "The Protva flows into the Oka near Serpukhov."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 12–15 минут пешком на северо-запад через центр.",
+                  "en": "About 12–15 minutes' walk north-west through the centre."
+                }
               }
             },
             {
               "id": "borovsk-pafnutiev",
               "title": {"ru": "Пафнутьев Боровский монастырь", "en": "Pafnutiev Borovsky Monastery"},
-              "coordinate": [55.21411, 36.53350],
+              "coordinate": [55.21411, 36.5335],
               "category": "church",
               "visit": 75,
               "details": {
-                "ru": "Монастырь основан в 1444 году преподобным Пафнутием Боровским. Крепостные стены с башнями, Рождественский собор XVI века и тишина вокруг. В Смутное время монастырь выдержал осаду, а его защитники погибли, но не сдались.",
-                "en": "The monastery was founded in 1444 by St Paphnutius of Borovsk. Fortress walls with towers, the 16th-century Nativity Cathedral and deep quiet all around. In the Time of Troubles it withstood a siege; its defenders died rather than surrender."
+                "ru": "Монастырь основан в 1444 году преподобным Пафнутием Боровским. Крепостные стены с башнями, Рождественский собор XVI века и тишина вокруг. В Смутное время защитники отбили три штурма, и враг ворвался в обитель только благодаря измене: защитники погибли, но не сдались.",
+                "en": "The monastery was founded in 1444 by St Paphnutius of Borovsk. Fortress walls with towers, the 16th-century Nativity Cathedral and deep quiet all around. In the Time of Troubles its defenders beat off three assaults, and the enemy got in only through treason: the defenders died rather than surrender."
               },
               "tip": {
                 "ru": "У монастыря есть святой источник и пруд — летом там приятно передохнуть.",
@@ -96,7 +352,69 @@
               "wiki": {"ru": "Пафнутьево-Боровский монастырь"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 3 км — 7 минут на машине или такси", "en": "About 3 km — 7 minutes by car or taxi"}
+                "note": {
+                  "ru": "Около 3 км — 7 минут на машине или такси",
+                  "en": "About 3 km — 7 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Монастырь основал в 1444 году преподобный Пафнутий Боровский — внук татарского баскака, принявшего крещение. Пафнутий был строгим и мудрым игуменом, и обитель быстро прославилась. Одним из его учеников был Иосиф Волоцкий, основатель знаменитого Иосифо-Волоцкого монастыря.\n\nПервый каменный собор монастыря в 1460–1470-х годах расписывали иконописцы Митрофан и Дионисий — это одна из первых известных работ великого Дионисия. Тот собор не сохранился; нынешний собор Рождества Богородицы построен в XVI веке.\n\nВ 1610 году монастырь осадило войско гетмана Сапеги. Защитники отбили три штурма, но изменники открыли ворота, и обитель была разорена. Командовавший обороной князь Михаил Волконский бился до последнего и погиб в соборе.",
+                  "en": "The monastery was founded in 1444 by St Paphnutius of Borovsk — the grandson of a Tatar tax collector who had been baptised. Paphnutius was a strict and wise abbot, and the monastery quickly became famous. One of his disciples was Joseph of Volokolamsk, founder of the famous Joseph-Volokolamsk Monastery.\n\nIn the 1460s–1470s the monastery's first stone cathedral was painted by the icon painters Mitrofan and Dionisius — one of the earliest known works of the great Dionisius. That cathedral has not survived; the present Cathedral of the Nativity of the Virgin dates from the 16th century.\n\nIn 1610 the monastery was besieged by the army of Hetman Sapieha. The defenders beat off three assaults, but traitors opened the gates and the monastery was sacked. Prince Mikhail Volkonsky, who led the defence, fought to the end and was killed in the cathedral."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Собор Рождества Богородицы XVI века",
+                    "Крепостные башни монастыря",
+                    "Святой источник и пруд за стенами"
+                  ],
+                  "en": [
+                    "The 16th-century Cathedral of the Nativity of the Virgin",
+                    "The monastery's fortress towers",
+                    "The holy spring and pond outside the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Учеником Пафнутия был Иосиф Волоцкий — один из самых влиятельных церковных писателей своего времени.",
+                    "Первый каменный собор монастыря расписывал знаменитый иконописец Дионисий."
+                  ],
+                  "en": [
+                    "Joseph of Volokolamsk, one of the most influential church writers of his time, was Paphnutius's disciple.",
+                    "The monastery's first stone cathedral was painted by the famous icon painter Dionisius."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что раненый князь Михаил Волконский отбивался от врагов у самых дверей собора и пал там же, а следы его крови долго не удавалось смыть с каменного пола храма.",
+                  "en": "They say the wounded Prince Mikhail Volkonsky fought off the enemy at the very doors of the cathedral and fell there, and that the stains of his blood could not be washed off the stone floor for a long time."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как враги в 1610 году попали в монастырь?",
+                    "en": "How did the enemy get into the monastery in 1610?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Изменники открыли им ворота",
+                      "Сделали подкоп под стену",
+                      "Монахи сдались сами"
+                    ],
+                    "en": [
+                      "Traitors opened the gates",
+                      "They dug a tunnel under the wall",
+                      "The monks surrendered"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Защитники отбили три штурма, но воеводы-изменники открыли ворота, и войско Сапеги ворвалось в обитель.",
+                    "en": "The defenders beat off three assaults, but traitorous commanders opened the gates and Sapieha's army burst in."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 3 км на восток от центра — 7–10 минут на машине или такси.",
+                  "en": "About 3 km east of the centre — 7–10 minutes by car or taxi."
+                }
               }
             }
           ]
