@@ -16,7 +16,101 @@
     "emoji": "🕌",
     "size": "large",
     "tags": ["big"],
-    "wiki": {"ru": "Казань", "en": "Kazan"}
+    "wiki": {"ru": "Казань", "en": "Kazan"},
+    "guide": {
+      "story": {
+        "ru": "Казань стоит там, где река Казанка впадает в Волгу. В 2005 году город отметил тысячелетие. В XV веке он стал столицей Казанского ханства, а в 1552 году его после долгой осады взяло войско Ивана Грозного.\n\nС тех пор здесь живут рядом татары и русские, мечети и церкви: в кремле мечеть Кул-Шариф соседствует с Благовещенским собором. В XIX веке Казань стала университетским городом: здесь учились Лев Толстой и Владимир Ульянов, а ректором был великий математик Николай Лобачевский.\n\nСегодня Казань — один из самых живых городов России: пешеходная Баумана, набережные Казанки, деревянная Татарская слобода, а к чаю — чак-чак и эчпочмак.",
+        "en": "Kazan stands where the Kazanka River flows into the Volga. In 2005 the city celebrated its millennium. In the 15th century it became the capital of the Kazan Khanate, and in 1552, after a long siege, it was taken by Ivan the Terrible's army.\n\nEver since, Tatars and Russians, mosques and churches have lived side by side: in the kremlin the Kul Sharif Mosque stands next to the Annunciation Cathedral. In the 19th century Kazan became a university city: Leo Tolstoy and Vladimir Ulyanov studied here, and the great mathematician Nikolai Lobachevsky was rector.\n\nToday Kazan is one of Russia's liveliest cities: pedestrian Bauman Street, the Kazanka embankments, the wooden Tatar Quarter, and chak-chak and echpochmak with your tea."
+      },
+      "history": [
+        {
+          "year": "1005",
+          "text": {
+            "ru": "Год, от которого Казань официально ведёт свою историю.",
+            "en": "The year from which Kazan officially counts its history."
+          }
+        },
+        {
+          "year": "1438",
+          "text": {
+            "ru": "Казань становится столицей Казанского ханства.",
+            "en": "Kazan becomes the capital of the Kazan Khanate."
+          }
+        },
+        {
+          "year": "1552",
+          "text": {"ru": "Войско Ивана Грозного берёт Казань.", "en": "Ivan the Terrible's army takes Kazan."}
+        },
+        {
+          "year": "1767",
+          "text": {
+            "ru": "Екатерина II посещает Казань и разрешает строить каменные мечети.",
+            "en": "Catherine the Great visits Kazan and allows stone mosques to be built."
+          }
+        },
+        {
+          "year": "1804",
+          "text": {"ru": "Основан Казанский университет.", "en": "Kazan University is founded."}
+        },
+        {
+          "year": "1873",
+          "text": {
+            "ru": "В Казани родился певец Фёдор Шаляпин.",
+            "en": "The singer Fyodor Chaliapin is born in Kazan."
+          }
+        },
+        {
+          "year": "2000",
+          "text": {
+            "ru": "Казанский кремль включён в список Всемирного наследия ЮНЕСКО.",
+            "en": "The Kazan Kremlin is inscribed on the UNESCO World Heritage List."
+          }
+        },
+        {
+          "year": "2005",
+          "text": {
+            "ru": "К тысячелетию города открыта мечеть Кул-Шариф.",
+            "en": "The Kul Sharif Mosque opens for the city's millennium."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Чак-чак — обжаренное тесто в медовом сиропе",
+          "Эчпочмак — треугольный пирожок с мясом и картошкой",
+          "Губадию — праздничный многослойный пирог с рисом, изюмом и сладким творогом"
+        ],
+        "en": [
+          "Chak-chak — fried dough in honey syrup",
+          "Echpochmak — a triangular pie with meat and potato",
+          "Gubadia — a festive layered pie with rice, raisins and sweet curd"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Чак-чак в подарочной коробке",
+          "Тюбетейку или калфак — татарские головные уборы",
+          "Вещи с татарским орнаментом-тюльпаном"
+        ],
+        "en": [
+          "Chak-chak in a gift box",
+          "A tyubeteika skullcap or a kalfak, traditional Tatar headwear",
+          "Things decorated with the Tatar tulip ornament"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Для мечетей одевайтесь скромно: закрытые плечи и колени, женщинам — платок",
+          "Вечером кремль и набережные подсвечены — не уходите рано",
+          "На второй день нужна машина: Свияжск и Раифа лежат в 50 км от Казани в разные стороны"
+        ],
+        "en": [
+          "Dress modestly for mosques: shoulders and knees covered, a headscarf for women",
+          "The kremlin and embankments are lit up in the evening — don't leave early",
+          "You need a car on the second day: Sviyazhsk and Raifa lie 50 km from Kazan in different directions"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,16 +120,23 @@
         "ru": "День первый — пешком: Старо-Татарская слобода и озеро Кабан, улица Баумана, Петропавловский собор, кремль с мечетью Кул-Шариф и закат над Казанкой у «Чаши». День второй — на машине: Храм всех религий, остров-град Свияжск и Раифский монастырь.",
         "en": "Day one on foot: the Old Tatar Quarter and Lake Kaban, Bauman Street, the Peter and Paul Cathedral, the kremlin with the Kul Sharif Mosque and sunset over the Kazanka by the giant 'Bowl'. Day two by car: the Temple of All Religions, the island town of Sviyazhsk and the Raifa Monastery."
       },
+      "intro": {
+        "ru": "День первый — около 7 км пешком от Татарской слободы до кремля и «Чаши» на закате. День второй — на машине: около 150 км по кругу через Храм всех религий, Свияжск и Раифу; выезжайте пораньше, чтобы всё успеть при свете дня.",
+        "en": "Day one: about 7 km on foot from the Tatar Quarter to the kremlin and the 'Cauldron' at sunset. Day two: by car, a loop of about 150 km via the Temple of All Religions, Sviyazhsk and Raifa; start early to fit it all in by daylight."
+      },
       "emoji": "🕌",
       "tags": ["walk", "car"],
       "days": [
         {
-          "title": {"ru": "Слобода, Баумана и кремль", "en": "The Tatar Quarter, Bauman Street and the kremlin"},
+          "title": {
+            "ru": "Слобода, Баумана и кремль",
+            "en": "The Tatar Quarter, Bauman Street and the kremlin"
+          },
           "stops": [
             {
               "id": "kazan-tatar-sloboda",
               "title": {"ru": "Старо-Татарская слобода", "en": "Old Tatar Quarter"},
-              "coordinate": [55.78380, 49.11400],
+              "coordinate": [55.7838, 49.114],
               "category": "district",
               "visit": 45,
               "details": {
@@ -46,60 +147,335 @@
                 "ru": "Здесь же музей чак-чака и кафе с татарской кухней — попробуйте эчпочмак и губадию.",
                 "en": "The quarter has a chak-chak museum and cafés with Tatar food — try echpochmak and gubadia."
               },
-              "wiki": {"ru": "Старо-Татарская слобода", "en": "Old Tatar Quarter"}
+              "wiki": {"ru": "Старо-Татарская слобода", "en": "Old Tatar Quarter"},
+              "guide": {
+                "story": {
+                  "ru": "После взятия Казани в 1552 году татарам запретили жить внутри городских стен, и они поселились за озером Кабан. Так появилась Старо-Татарская слобода — татарский город при русском, с мечетями, медресе, торговыми домами и деревянными особняками.\n\nМечеть Марджани построили в 1766–1770 годах: побывав в Казани, Екатерина II разрешила возводить каменные мечети. Мечеть названа по имени Шигабутдина Марджани — богослова и историка, служившего здесь имамом в XIX веке.\n\nСегодня здесь отреставрированные дома с резными наличниками, музей чак-чака, кафе с татарской кухней и атмосфера старой купеческой Казани.",
+                  "en": "After the capture of Kazan in 1552 Tatars were forbidden to live inside the city walls, and they settled beyond Lake Kaban. That is how the Old Tatar Quarter appeared — a Tatar town next to the Russian one, with mosques, madrasas, trading houses and wooden mansions.\n\nThe Marjani Mosque was built in 1766–1770: after visiting Kazan, Catherine the Great allowed stone mosques to be built. It is named after Shihabuddin Marjani, a theologian and historian who served as its imam in the 19th century.\n\nToday the quarter has restored houses with carved window frames, a chak-chak museum, cafés with Tatar food and the atmosphere of old merchant Kazan."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Минарет мечети Марджани",
+                    "Резные наличники деревянных домов",
+                    "Вывески на татарском языке"
+                  ],
+                  "en": [
+                    "The minaret of the Marjani Mosque",
+                    "The carved window frames of the wooden houses",
+                    "Signs in the Tatar language"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Мечеть Марджани — первая каменная мечеть, построенная в Казани после 1552 года.",
+                    "Шигабутдин Марджани — татарский историк и богослов XIX века."
+                  ],
+                  "en": [
+                    "The Marjani Mosque was the first stone mosque built in Kazan after 1552.",
+                    "Shihabuddin Marjani was a 19th-century Tatar historian and theologian."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто разрешил построить в Казани каменную мечеть Марджани?",
+                    "en": "Who allowed the stone Marjani Mosque to be built in Kazan?"
+                  },
+                  "options": {
+                    "ru": ["Екатерина II", "Иван Грозный", "Пётр I"],
+                    "en": [
+                      "Catherine the Great",
+                      "Ivan the Terrible",
+                      "Peter the Great"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "После визита в Казань в 1767 году императрица разрешила строить каменные мечети.",
+                    "en": "After her visit to Kazan in 1767 the empress allowed stone mosques to be built."
+                  }
+                },
+                "approach": {
+                  "ru": "Слобода — к югу от центра, на берегу озера Кабан.",
+                  "en": "The quarter lies south of the centre, on the shore of Lake Kaban."
+                }
+              }
             },
             {
               "id": "kazan-kaban",
               "title": {"ru": "Озеро Кабан", "en": "Lake Kaban"},
-              "coordinate": [55.78180, 49.11800],
+              "coordinate": [55.7818, 49.118],
               "category": "nature",
               "visit": 20,
               "details": {
                 "ru": "Озеро в самом центре города, на берегу которого стоит Татарский театр имени Галиасгара Камала. По легенде, на дне Кабана спрятаны сокровища казанских ханов, которые так и не нашли.",
                 "en": "A lake right in the city centre, with the Kamal Tatar Theatre on its shore. Legend says the treasure of the Kazan khans lies hidden at the bottom of the lake and has never been found."
               },
-              "wiki": {"ru": "Кабан (озеро)", "en": "Kaban Lakes"}
+              "wiki": {"ru": "Кабан (озеро)", "en": "Kaban Lakes"},
+              "guide": {
+                "story": {
+                  "ru": "Озеро Кабан — на самом деле система из трёх озёр: Нижнего, Среднего и Верхнего Кабана. Нижний Кабан лежит прямо в центре Казани, между Татарской слободой и деловой частью города.\n\nНа его берегу стоит Татарский театр имени Галиасгара Камала — одного из основателей татарской драматургии. Набережную благоустроили, и вечерами здесь гуляют горожане.\n\nОзеро окутано легендами. Самая известная — о сокровищах казанских ханов, будто бы утопленных в 1552 году. Их ищут до сих пор, но, говорят, ил на дне слишком глубок.",
+                  "en": "Lake Kaban is actually a system of three lakes: Lower, Middle and Upper Kaban. Lower Kaban lies right in the centre of Kazan, between the Tatar Quarter and the business district.\n\nOn its shore stands the Tatar Theatre named after Galiasgar Kamal, one of the founders of Tatar drama. The embankment has been landscaped, and townspeople stroll here in the evenings.\n\nThe lake is wrapped in legends. The best known is about the treasure of the Kazan khans, said to have been sunk here in 1552. People are still looking for it, but they say the silt on the bottom is too deep."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Театр имени Камала на берегу",
+                    "Мечети слободы на другом берегу",
+                    "Набережную вдоль воды"
+                  ],
+                  "en": [
+                    "The Kamal Theatre on the shore",
+                    "The mosques of the quarter on the far bank",
+                    "The embankment along the water"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Кабан — это три озера: Нижний, Средний и Верхний Кабан.",
+                    "Галиасгар Камал — один из основателей татарского театра."
+                  ],
+                  "en": [
+                    "Kaban is three lakes: Lower, Middle and Upper Kaban.",
+                    "Galiasgar Kamal was one of the founders of Tatar theatre."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что при штурме Казани в 1552 году ханскую казну тайно вывезли и опустили на дно озера Кабан. Клад искали и при царях, и в советское время — но так и не нашли.",
+                  "en": "They say that during the storming of Kazan in 1552 the khans' treasury was secretly taken out and sunk in Lake Kaban. People searched for it under the tsars and in Soviet times — and never found it."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по легенде, спрятано на дне озера Кабан?",
+                    "en": "According to legend, what lies at the bottom of Lake Kaban?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Сокровища казанских ханов",
+                      "Колокол Благовещенского собора",
+                      "Царская карета"
+                    ],
+                    "en": [
+                      "The treasure of the Kazan khans",
+                      "A bell from the Annunciation Cathedral",
+                      "A royal carriage"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Ханскую казну будто бы утопили в озере в 1552 году, и клад ищут до сих пор.",
+                    "en": "The khans' treasury was supposedly sunk in the lake in 1552, and people are still looking for it."
+                  }
+                },
+                "approach": {
+                  "ru": "Озеро — в паре минут от слободы.",
+                  "en": "The lake is a couple of minutes from the quarter."
+                }
+              }
             },
             {
               "id": "kazan-bauman",
               "title": {"ru": "Улица Баумана", "en": "Bauman Street"},
-              "coordinate": [55.79020, 49.11380],
+              "coordinate": [55.7902, 49.1138],
               "category": "street",
               "visit": 40,
               "details": {
                 "ru": "Главная пешеходная улица Казани — от площади Тукая до кремля. Колокольня Богоявленского собора, памятник Шаляпину, который родился в Казани, и под стеклом — карета, в которой по городу ездила Екатерина II.",
                 "en": "Kazan's main pedestrian street, running from Tukay Square to the kremlin. The bell tower of the Epiphany Cathedral, a statue of Chaliapin, who was born in Kazan, and a glass pavilion with the carriage Catherine II rode in around the city."
               },
-              "wiki": {"ru": "Улица Баумана (Казань)", "en": "Bauman Street"}
+              "wiki": {"ru": "Улица Баумана (Казань)", "en": "Bauman Street"},
+              "guide": {
+                "story": {
+                  "ru": "Улица Баумана — главная пешеходная улица Казани. Раньше она называлась Проломной: по преданию, именно здесь в 1552 году войска Ивана Грозного проломили стену крепости. Нынешнее имя — в честь революционера Николая Баумана, уроженца Казани.\n\nНад улицей поднимается колокольня Богоявленского собора высотой 74 метра — самая высокая в Казани. В соборе крестили Фёдора Шаляпина, родившегося в Казани в 1873 году; рядом стоит его памятник.\n\nИщите на улице карету, напоминающую о визите Екатерины II, и бронзового Кота Казанского: в 1745 году казанских котов, славившихся как лучшие мышеловы, отправили в Петербург ловить мышей в Зимнем дворце.",
+                  "en": "Bauman Street is Kazan's main pedestrian street. It used to be called Prolomnaya, 'Breach Street': tradition says this is where Ivan the Terrible's troops broke through the fortress wall in 1552. The present name honours the revolutionary Nikolai Bauman, a native of Kazan.\n\nAbove the street rises the 74-metre bell tower of the Epiphany Cathedral, the tallest in Kazan. Fyodor Chaliapin, born in Kazan in 1873, was baptised in the cathedral, and his monument stands nearby.\n\nLook out for a carriage recalling Catherine the Great's visit and the bronze Cat of Kazan: in 1745 Kazan cats, famous as the best mousers, were sent to St Petersburg to catch mice in the Winter Palace."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Колокольню Богоявленского собора",
+                    "Памятник Шаляпину",
+                    "Бронзового Кота Казанского"
+                  ],
+                  "en": [
+                    "The bell tower of the Epiphany Cathedral",
+                    "The Chaliapin monument",
+                    "The bronze Cat of Kazan"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокольня Богоявленского собора высотой 74 метра — самая высокая в Казани.",
+                    "В 1745 году казанских котов отправили в Петербург ловить мышей в Зимнем дворце."
+                  ],
+                  "en": [
+                    "The 74-metre bell tower of the Epiphany Cathedral is the tallest in Kazan.",
+                    "In 1745 Kazan cats were sent to St Petersburg to catch mice in the Winter Palace."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как раньше называлась улица Баумана?",
+                    "en": "What was Bauman Street called before?"
+                  },
+                  "options": {
+                    "ru": ["Проломная", "Царская", "Ханская"],
+                    "en": [
+                      "Prolomnaya — Breach Street",
+                      "Tsarskaya — Tsar's Street",
+                      "Khanskaya — Khan's Street"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "По преданию, здесь в 1552 году проломили стену крепости — отсюда старое название.",
+                    "en": "Tradition says the fortress wall was breached here in 1552 — hence the old name."
+                  }
+                },
+                "approach": {
+                  "ru": "От озера Кабан минут 15 пешком до площади Тукая — там начинается Баумана.",
+                  "en": "About 15 minutes' walk from Lake Kaban to Tukay Square, where Bauman Street begins."
+                }
+              }
             },
             {
               "id": "kazan-peter-paul",
               "title": {"ru": "Петропавловский собор", "en": "Peter and Paul Cathedral"},
-              "coordinate": [55.79230, 49.11570],
+              "coordinate": [55.7923, 49.1157],
               "category": "church",
               "visit": 20,
               "details": {
                 "ru": "Нарядный барочный собор 1720-х годов, построенный купцом Иваном Михляевым в память о приезде в Казань Петра I. Фасады покрыты пышной лепниной с виноградными лозами и цветами — такого декора больше нет нигде в городе.",
                 "en": "An ornate Baroque cathedral of the 1720s, built by the merchant Ivan Mikhlyaev to mark Peter the Great's visit to Kazan. Its walls are covered in lush moulded vines and flowers — decoration you won't find anywhere else in the city."
               },
-              "wiki": {"ru": "Петропавловский собор (Казань)", "en": "Saints Peter and Paul Cathedral, Kazan"}
+              "wiki": {"ru": "Петропавловский собор (Казань)", "en": "Saints Peter and Paul Cathedral, Kazan"},
+              "guide": {
+                "story": {
+                  "ru": "В 1722 году Пётр I по пути в Персидский поход остановился в Казани и гостил у купца Ивана Михляева. В память об этом Михляев построил в 1723–1726 годах каменный Петропавловский собор на месте деревянной церкви.\n\nСобор — один из самых нарядных храмов Поволжья: фасады покрыты пышной лепниной с виноградными лозами, цветами, фруктами и павлиньими перьями, раскрашенными в яркие цвета. Внутри — резной золочёный иконостас высотой около 25 метров.\n\nОбойдите храм кругом: лепные узоры на каждой стороне немного разные, и их интересно рассматривать.",
+                  "en": "In 1722, on his way to the Persian campaign, Peter the Great stopped in Kazan and stayed with the merchant Ivan Mikhlyaev. To commemorate the visit Mikhlyaev built the stone Cathedral of Saints Peter and Paul in 1723–1726 in place of a wooden church.\n\nIt is one of the most ornate churches on the Volga: its facades are covered with lavish moulding of vines, flowers, fruit and peacock feathers painted in bright colours. Inside is a carved and gilded iconostasis about 25 metres high.\n\nWalk around the church: the moulded patterns differ slightly on each side and are fun to study."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Лепные виноградные гроздья на фасадах",
+                    "Резной иконостас высотой около 25 метров",
+                    "Павлиньи перья в лепнине"
+                  ],
+                  "en": [
+                    "The moulded bunches of grapes on the facades",
+                    "The carved iconostasis about 25 metres high",
+                    "Peacock feathers in the moulding"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пётр I побывал в Казани в 1722 году по пути в Персидский поход.",
+                    "Иконостас собора поднимается примерно на 25 метров."
+                  ],
+                  "en": [
+                    "Peter the Great visited Kazan in 1722 on his way to the Persian campaign.",
+                    "The cathedral's iconostasis rises about 25 metres."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему купец Михляев построил собор?",
+                    "en": "Why did the merchant Mikhlyaev build the cathedral?"
+                  },
+                  "options": {
+                    "ru": [
+                      "В память о визите Петра I",
+                      "В честь победы над Наполеоном",
+                      "По обету после пожара"
+                    ],
+                    "en": [
+                      "To commemorate Peter the Great's visit",
+                      "To celebrate the victory over Napoleon",
+                      "On a vow after a fire"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Пётр гостил у Михляева в 1722 году, и собор посвятили святым Петру и Павлу.",
+                    "en": "Peter stayed with Mikhlyaev in 1722, and the cathedral was dedicated to Saints Peter and Paul."
+                  }
+                },
+                "approach": {
+                  "ru": "От улицы Баумана пара минут по улице Мусы Джалиля.",
+                  "en": "A couple of minutes from Bauman Street along Musa Jalil Street."
+                }
+              }
             },
             {
               "id": "kazan-kremlin",
               "title": {"ru": "Казанский кремль", "en": "Kazan Kremlin"},
-              "coordinate": [55.79880, 49.10600],
+              "coordinate": [55.7988, 49.106],
               "category": "castle",
               "visit": 75,
               "details": {
                 "ru": "Белокаменная крепость на холме над Казанкой, объект Всемирного наследия ЮНЕСКО. Внутри — Благовещенский собор XVI века, президентский дворец и «падающая» башня Сююмбике: по легенде, с неё бросилась царица, не желавшая выходить замуж за Ивана Грозного.",
                 "en": "A white stone fortress on a hill above the Kazanka river, a UNESCO World Heritage site. Inside are the 16th-century Annunciation Cathedral, the presidential palace and the leaning Söyembikä Tower — legend says the queen threw herself from it rather than marry Ivan the Terrible."
               },
-              "wiki": {"ru": "Казанский кремль", "en": "Kazan Kremlin"}
+              "wiki": {"ru": "Казанский кремль", "en": "Kazan Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Казанский кремль стоит на холме над Казанкой. Когда-то здесь была крепость казанских ханов, а после 1552 года русские зодчие построили белокаменные стены и башни; среди них был Постник Яковлев — один из строителей храма Василия Блаженного в Москве.\n\nВнутри — Благовещенский собор XVI века, губернаторский (ныне президентский) дворец, мечеть Кул-Шариф и наклонная башня Сююмбике высотой около 58 метров: дубовые сваи под ней просели, и верх отклонился почти на два метра.\n\nВ 2000 году кремль внесли в список Всемирного наследия ЮНЕСКО как место, где веками встречаются ислам и православие.",
+                  "en": "The Kazan Kremlin stands on a hill above the Kazanka. The khans' fortress was once here, and after 1552 Russian builders put up white stone walls and towers; among them was Postnik Yakovlev, one of the builders of St Basil's in Moscow.\n\nInside are the 16th-century Annunciation Cathedral, the governor's (now president's) palace, the Kul Sharif Mosque and the leaning Söyembikä Tower, about 58 metres high: the oak piles under it sank, and its top has tilted almost two metres.\n\nIn 2000 the kremlin was inscribed on the UNESCO World Heritage List as a place where Islam and Orthodoxy have met for centuries."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Наклонную башню Сююмбике",
+                    "Белые стены и Спасскую башню",
+                    "Вид на Казанку с края холма"
+                  ],
+                  "en": [
+                    "The leaning Söyembikä Tower",
+                    "The white walls and the Spasskaya Tower",
+                    "The view of the Kazanka from the edge of the hill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Стены кремля строил в том числе Постник Яковлев — один из зодчих храма Василия Блаженного.",
+                    "Кремль внесён в список ЮНЕСКО в 2000 году."
+                  ],
+                  "en": [
+                    "Among the builders of the walls was Postnik Yakovlev, one of the architects of St Basil's.",
+                    "The kremlin was inscribed on the UNESCO list in 2000."
+                  ]
+                },
+                "legend": {
+                  "ru": "По легенде, Иван Грозный захотел взять в жёны казанскую царицу Сююмбике. Она поставила условие — за семь дней построить башню выше всех в городе, а когда башню достроили, поднялась на неё и бросилась вниз. Историки считают, что башня построена гораздо позже, но легенда дала ей имя.",
+                  "en": "Legend says Ivan the Terrible wanted to marry Söyembikä, the queen of Kazan. She demanded that a tower taller than any in the city be built in seven days, and when it was finished she climbed it and threw herself off. Historians believe the tower was built much later, but the legend gave it its name."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему башня Сююмбике наклонилась?",
+                    "en": "Why does the Söyembikä Tower lean?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Просели сваи под фундаментом",
+                      "Её так задумали",
+                      "В неё ударила молния"
+                    ],
+                    "en": [
+                      "The piles under its foundation sank",
+                      "It was designed that way",
+                      "It was struck by lightning"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Дубовые сваи под башней были забиты недостаточно глубоко и просели под её весом.",
+                    "en": "The oak piles under the tower were not driven deep enough and sank under its weight."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход — через Спасскую башню в конце улицы Баумана.",
+                  "en": "Enter through the Spasskaya Tower at the end of Bauman Street."
+                }
+              }
             },
             {
               "id": "kazan-kul-sharif",
               "title": {"ru": "Мечеть Кул-Шариф", "en": "Kul Sharif Mosque"},
-              "coordinate": [55.79830, 49.10500],
+              "coordinate": [55.7983, 49.105],
               "category": "landmark",
               "visit": 30,
               "details": {
@@ -110,12 +486,67 @@
                 "ru": "Одевайтесь скромно: плечи и колени закрыты, женщинам — платок. С гостевой галереи наверху видно молельный зал.",
                 "en": "Dress modestly, with shoulders and knees covered and a headscarf for women. A visitors' gallery upstairs looks down on the prayer hall."
               },
-              "wiki": {"ru": "Кул-Шариф (мечеть)", "en": "Kul Sharif Mosque"}
+              "wiki": {"ru": "Кул-Шариф (мечеть)", "en": "Kul Sharif Mosque"},
+              "guide": {
+                "story": {
+                  "ru": "Мечеть Кул-Шариф открыли в 2005 году, к тысячелетию Казани. Она названа в честь имама Кул-Шарифа, который в 1552 году вместе с учениками погиб, защищая город от войск Ивана Грозного. Новая мечеть — память о многоминаретной мечети ханской Казани, разрушенной при штурме.\n\nЧетыре минарета поднимаются почти на 58 метров, а купол напоминает «казанскую шапку» — корону казанских ханов. Внутри — мрамор, гранит, витражи и огромная хрустальная люстра.\n\nМечеть действующая, но открыта для туристов: с гостевых балконов наверху видно молельный зал, а в нижнем этаже работает музей исламской культуры.",
+                  "en": "The Kul Sharif Mosque opened in 2005 for Kazan's millennium. It is named after Imam Kul Sharif, who died with his students in 1552 defending the city from Ivan the Terrible's army. The new mosque recalls the many-minareted mosque of the khans' Kazan destroyed in the assault.\n\nIts four minarets rise almost 58 metres, and the dome resembles the 'Kazan cap', the crown of the Kazan khans. Inside are marble, granite, stained glass and a huge crystal chandelier.\n\nThe mosque is active but open to visitors: from the guest balconies above you can see the prayer hall, and the lower floor houses a museum of Islamic culture."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Бирюзовые купола и четыре минарета",
+                    "Огромную люстру в молельном зале",
+                    "Восточные орнаменты на стенах"
+                  ],
+                  "en": [
+                    "The turquoise domes and four minarets",
+                    "The huge chandelier in the prayer hall",
+                    "The oriental ornaments on the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Мечеть открыта в 2005 году, к тысячелетию Казани.",
+                    "Купол мечети напоминает «казанскую шапку» — корону казанских ханов."
+                  ],
+                  "en": [
+                    "The mosque opened in 2005 for Kazan's millennium.",
+                    "The mosque's dome resembles the 'Kazan cap', the crown of the Kazan khans."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь кого названа мечеть Кул-Шариф?",
+                    "en": "Who is the Kul Sharif Mosque named after?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Имама, погибшего при защите Казани в 1552 году",
+                      "Первого хана Казани",
+                      "Архитектора мечети"
+                    ],
+                    "en": [
+                      "An imam who died defending Kazan in 1552",
+                      "The first khan of Kazan",
+                      "The mosque's architect"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Имам Кул-Шариф с учениками погиб при штурме Казани войсками Ивана Грозного.",
+                    "en": "Imam Kul Sharif and his students died during the storming of Kazan by Ivan the Terrible's army."
+                  }
+                },
+                "approach": {
+                  "ru": "Мечеть — внутри кремля, в нескольких минутах от Спасской башни.",
+                  "en": "The mosque is inside the kremlin, a few minutes from the Spasskaya Tower."
+                }
+              }
             },
             {
               "id": "kazan-family-center",
               "title": {"ru": "Центр семьи «Казан»", "en": "Kazan Family Centre"},
-              "coordinate": [55.81300, 49.10860],
+              "coordinate": [55.813, 49.1086],
               "category": "viewpoint",
               "visit": 30,
               "details": {
@@ -125,7 +556,57 @@
               "wiki": {"ru": "Казан (центр семьи)"},
               "arrival": {
                 "mode": "walk",
-                "note": {"ru": "Около 2 км по Кремлёвской дамбе через Казанку — 30 минут пешком", "en": "About 2 km over the Kremlin dam across the Kazanka — 30 minutes on foot"}
+                "note": {
+                  "ru": "Около 2 км по Кремлёвской дамбе через Казанку — 30 минут пешком",
+                  "en": "About 2 km over the Kremlin dam across the Kazanka — 30 minutes on foot"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Центр семьи «Казан» открылся в 2013 году, к Универсиаде: огромное здание в форме котла-казана стоит на правом берегу Казанки, напротив кремля. Внутри — главный загс города, поэтому здесь всегда много свадеб.\n\nФорма выбрана не случайно. По одной легенде, ханский слуга уронил в реку золотой котёл — казан, и по нему назвали реку и город. По другой — на этом месте вода в котле закипела сама собой, без огня, и здесь решили строить город.\n\nНа крыше «котла» — смотровая площадка. С неё открывается лучший вид на кремль, мечеть Кул-Шариф и набережные, особенно на закате.",
+                  "en": "The Kazan Family Centre opened in 2013 for the Universiade: a huge building shaped like a kazan cauldron on the right bank of the Kazanka, opposite the kremlin. It houses the city's main wedding registry, so there are always weddings here.\n\nThe shape is no accident. One legend says a khan's servant dropped a golden cauldron, a kazan, into the river, and the river and city were named after it. Another says water in a cauldron boiled here by itself, without fire, and it was decided to build the city on that spot.\n\nOn top of the 'cauldron' is a viewing platform with the best view of the kremlin, the Kul Sharif Mosque and the embankments, especially at sunset."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Кремль на противоположном берегу",
+                    "Набережные Казанки",
+                    "Свадебные пары у входа"
+                  ],
+                  "en": [
+                    "The kremlin on the opposite bank",
+                    "The Kazanka embankments",
+                    "Wedding couples at the entrance"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Здание открылось в 2013 году, к Универсиаде.",
+                    "Внутри находится главный загс Казани."
+                  ],
+                  "en": [
+                    "The building opened in 2013 for the Universiade.",
+                    "It houses Kazan's main wedding registry."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что напоминает форма Центра семьи?",
+                    "en": "What does the Family Centre's shape resemble?"
+                  },
+                  "options": {
+                    "ru": ["Котёл-казан", "Тюбетейку", "Тюльпан"],
+                    "en": ["A kazan cauldron", "A skullcap", "A tulip"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Слово «казан» по-татарски значит «котёл» — отсюда и форма здания, и, по легенде, имя города.",
+                    "en": "'Kazan' means 'cauldron' in Tatar — hence the building's shape and, legend says, the city's name."
+                  }
+                },
+                "approach": {
+                  "ru": "По Кремлёвской дамбе через Казанку — около 30 минут пешком.",
+                  "en": "Across the Kazanka by the Kremlin dam — about 30 minutes on foot."
+                }
               }
             }
           ]
@@ -136,7 +617,7 @@
             {
               "id": "kazan-all-religions",
               "title": {"ru": "Храм всех религий", "en": "Temple of All Religions"},
-              "coordinate": [55.80270, 48.97390],
+              "coordinate": [55.8027, 48.9739],
               "category": "landmark",
               "visit": 30,
               "details": {
@@ -146,13 +627,71 @@
               "wiki": {"ru": "Храм всех религий", "en": "Temple of All Religions"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 12 км от центра — 20 минут на машине или такси", "en": "About 12 km from the centre — 20 minutes by car or taxi"}
+                "note": {
+                  "ru": "Около 12 км от центра — 20 минут на машине или такси",
+                  "en": "About 12 km from the centre — 20 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Храм всех религий в посёлке Старое Аракчино начал строить в 1990-х годах художник Ильдар Ханов. По его замыслу, здание должно было объединить символы разных вер и культур: здесь соседствуют православные купола, минарет, синагогальные мотивы, пагода и символы древних цивилизаций.\n\nЭто не действующий храм, а архитектурная мечта — символ мира между людьми разных вер. Ханов умер в 2013 году, и стройку продолжили его близкие и единомышленники.\n\nПёстрые купола на берегу Волги выглядят как сказочный город, и вблизи можно долго рассматривать детали.",
+                  "en": "The Temple of All Religions in the village of Staroye Arakchino was begun in the 1990s by the artist Ildar Khanov. He meant it to unite the symbols of different faiths and cultures: Orthodox domes, a minaret, synagogue motifs, a pagoda and symbols of ancient civilisations stand side by side.\n\nIt is not a working place of worship but an architectural dream — a symbol of peace between people of different faiths. Khanov died in 2013, and his family and supporters carried on the building.\n\nThe colourful domes on the bank of the Volga look like a fairy-tale town, and up close you can spend a long time studying the details."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Купола разных религий на одном здании",
+                    "Символы древних культур на стенах",
+                    "Вид на Волгу"
+                  ],
+                  "en": [
+                    "The domes of different religions on one building",
+                    "The symbols of ancient cultures on the walls",
+                    "The view of the Volga"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Храм всех религий начал строить художник Ильдар Ханов в 1990-х годах.",
+                    "Внутри не проводят богослужений — это символ единства культур."
+                  ],
+                  "en": [
+                    "The artist Ildar Khanov began building the Temple of All Religions in the 1990s.",
+                    "No services are held inside — it is a symbol of the unity of cultures."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто задумал Храм всех религий?",
+                    "en": "Who conceived the Temple of All Religions?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Художник Ильдар Ханов",
+                      "Император Александр I",
+                      "Хан Улу-Мухаммед"
+                    ],
+                    "en": [
+                      "The artist Ildar Khanov",
+                      "Emperor Alexander I",
+                      "Khan Ulugh Muhammad"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Ханов, художник и архитектор, начал стройку в 1990-х и работал над ней до конца жизни.",
+                    "en": "Khanov, an artist and architect, began the work in the 1990s and kept at it for the rest of his life."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 минут на машине на запад вдоль Волги.",
+                  "en": "About 20 minutes by car west along the Volga."
+                }
               }
             },
             {
               "id": "kazan-sviyazhsk",
               "title": {"ru": "Остров-град Свияжск", "en": "Sviyazhsk island town"},
-              "coordinate": [55.77260, 48.65970],
+              "coordinate": [55.7726, 48.6597],
               "category": "castle",
               "visit": 90,
               "details": {
@@ -166,7 +705,61 @@
               "wiki": {"ru": "Свияжск", "en": "Sviyazhsk"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 50 км по трассе М-7 и дамбе — 50 минут на машине", "en": "About 50 km via the M-7 and the causeway — 50 minutes by car"}
+                "note": {
+                  "ru": "Около 50 км по трассе М-7 и дамбе — 50 минут на машине",
+                  "en": "About 50 km via the M-7 and the causeway — 50 minutes by car"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1551 году Иван Грозный решил поставить крепость прямо под боком у Казани. Её срубили в верховьях Волги, под Угличем, разметили брёвна, разобрали и сплавили по реке, а на холме в устье Свияги собрали всего за четыре недели. Отсюда в 1552 году войско и пошло на штурм Казани.\n\nПосле победы Свияжск стал крупным духовным центром с монастырями. В XX веке монастыри закрыли, а при создании Куйбышевского водохранилища в 1950-х годах холм окружила вода, и Свияжск превратился в остров. В 2008 году к нему проложили дамбу.\n\nСегодня это тихий город-музей: деревянная Троицкая церковь — по преданию, ровесница крепости, — монастыри, улочки и виды на слияние Свияги и Волги.",
+                  "en": "In 1551 Ivan the Terrible decided to build a fortress right next to Kazan. It was cut in the upper Volga near Uglich, the logs were marked, taken apart and floated down the river, and on a hill at the mouth of the Sviyaga it was assembled in just four weeks. From here in 1552 the army set off to storm Kazan.\n\nAfter the victory Sviyazhsk became a major religious centre with monasteries. In the 20th century the monasteries were closed, and when the Kuibyshev Reservoir was created in the 1950s water surrounded the hill and Sviyazhsk became an island. In 2008 a causeway was built to it.\n\nToday it is a quiet museum town: the wooden Trinity Church, said to be as old as the fortress, monasteries, lanes and views of the confluence of the Sviyaga and the Volga."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Деревянную Троицкую церковь — по преданию, ровесницу крепости",
+                    "Слияние Свияги и Волги с холма",
+                    "Деревянные дома на улочках острова"
+                  ],
+                  "en": [
+                    "The wooden Trinity Church, said to be as old as the fortress",
+                    "The confluence of the Sviyaga and the Volga from the hill",
+                    "The wooden houses along the island's lanes"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Крепость Свияжска собрали всего за четыре недели в 1551 году.",
+                    "Остров соединили с берегом дамбой в 2008 году."
+                  ],
+                  "en": [
+                    "The Sviyazhsk fortress was assembled in just four weeks in 1551.",
+                    "The island was linked to the shore by a causeway in 2008."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Откуда привезли брёвна для крепости Свияжск?",
+                    "en": "Where did the logs for the Sviyazhsk fortress come from?"
+                  },
+                  "options": {
+                    "ru": ["Из-под Углича, по Волге", "Из Сибири", "Из Казани"],
+                    "en": [
+                      "From near Uglich, down the Volga",
+                      "From Siberia",
+                      "From Kazan"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Крепость срубили под Угличем, разобрали и сплавили вниз по Волге.",
+                    "en": "The fortress was cut near Uglich, taken apart and floated down the Volga."
+                  }
+                },
+                "approach": {
+                  "ru": "Оставьте машину у подножия холма и поднимитесь к монастырям пешком.",
+                  "en": "Leave the car at the foot of the hill and walk up to the monasteries."
+                }
               }
             },
             {
@@ -179,12 +772,59 @@
                 "ru": "Монастырь XVI века, внесённый в список Всемирного наследия ЮНЕСКО. В Успенском соборе сохранились фрески 1560-х годов, среди них редкое изображение святого Христофора с головой коня.",
                 "en": "A 16th-century monastery on the UNESCO World Heritage list. The Assumption Cathedral keeps frescoes from the 1560s, including a rare image of St Christopher with a horse's head."
               },
-              "wiki": {"ru": "Свияжский Успенский монастырь", "en": "Sviyazhsk Assumption Monastery"}
+              "wiki": {"ru": "Свияжский Успенский монастырь", "en": "Sviyazhsk Assumption Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "Успенский монастырь основал в 1555 году святитель Герман, а Успенский собор заложили весной 1556 года и освятили в 1561-м. Внутри сохранился почти полный цикл старинных фресок — редкость для храмов того времени.\n\nСамая знаменитая фреска — святой Христофор с головой коня. По преданию, Христофор был великаном из народа псоглавцев, и на древних иконах его изображали с головой собаки. Здесь же у него голова коня — такое изображение больше нигде не сохранилось.\n\nВ 2017 году собор и монастырь внесли в список Всемирного наследия ЮНЕСКО.",
+                  "en": "The Dormition Monastery was founded in 1555 by St Herman; its Dormition Cathedral was begun in spring 1556 and consecrated in 1561. Inside an almost complete cycle of old frescoes survives — a rarity for churches of that time.\n\nThe most famous fresco shows St Christopher with the head of a horse. Tradition says Christopher was a giant from a dog-headed people, and old icons show him with a dog's head. Here, though, he has a horse's head — no other such image survives anywhere.\n\nIn 2017 the cathedral and monastery were inscribed on the UNESCO World Heritage List."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Святого Христофора с головой коня",
+                    "Старинные фрески на стенах собора",
+                    "Белые стены монастыря"
+                  ],
+                  "en": [
+                    "St Christopher with a horse's head",
+                    "The old frescoes on the cathedral walls",
+                    "The white walls of the monastery"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Успенский собор с фресками внесён в список ЮНЕСКО в 2017 году.",
+                    "Фреска с конеголовым Христофором — единственная такая в мире."
+                  ],
+                  "en": [
+                    "The Dormition Cathedral with its frescoes was inscribed on the UNESCO list in 2017.",
+                    "The fresco of the horse-headed Christopher is the only one of its kind in the world."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "С какой головой изображён святой Христофор на фреске Свияжска?",
+                    "en": "What kind of head does St Christopher have in the Sviyazhsk fresco?"
+                  },
+                  "options": {
+                    "ru": ["С головой коня", "С головой льва", "С головой орла"],
+                    "en": ["A horse's head", "A lion's head", "An eagle's head"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Обычно Христофора писали с головой пса, а в Свияжске — с головой коня.",
+                    "en": "Christopher was usually painted with a dog's head, but in Sviyazhsk he has a horse's."
+                  }
+                },
+                "approach": {
+                  "ru": "Монастырь — на вершине холма, пара минут от главной улицы острова.",
+                  "en": "The monastery is at the top of the hill, a couple of minutes from the island's main street."
+                }
+              }
             },
             {
               "id": "kazan-raifa",
               "title": {"ru": "Раифский монастырь", "en": "Raifa Monastery"},
-              "coordinate": [55.90390, 48.72710],
+              "coordinate": [55.9039, 48.7271],
               "category": "church",
               "visit": 60,
               "details": {
@@ -198,7 +838,65 @@
               "wiki": {"ru": "Раифский Богородицкий монастырь"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 50 км через мост у Зеленодольска — около часа на машине", "en": "About 50 km via the bridge at Zelenodolsk — about an hour by car"}
+                "note": {
+                  "ru": "Около 50 км через мост у Зеленодольска — около часа на машине",
+                  "en": "About 50 km via the bridge at Zelenodolsk — about an hour by car"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1613 году монах Филарет поселился в лесу на берегу Сумского озера и поставил там уединённую келью. Вокруг него собрались другие монахи, и так возникла Раифская пустынь. Название ей дали в память о древних монахах, убитых в Раифе на Синайском полуострове.\n\nГлавная святыня монастыря — чудотворный список Грузинской иконы Божией Матери. Белые стены, храмы и колокольня отражаются в тихой воде озера, а вокруг лежат сосновые леса Волжско-Камского заповедника.\n\nЕсли останется время, пройдитесь по экотропе заповедника — после монастыря лесная тишина кажется продолжением службы.",
+                  "en": "In 1613 the monk Filaret settled in the forest on the shore of Lake Sumskoye and built a solitary cell there. Other monks gathered around him, and so the Raifa Hermitage began. It was named in memory of ancient monks killed at Raithu on the Sinai Peninsula.\n\nThe monastery's chief treasure is a miracle-working copy of the Georgian icon of the Mother of God. White walls, churches and a bell tower are mirrored in the calm water of the lake, surrounded by the pine forests of the Volga-Kama Nature Reserve.\n\nIf you have time, walk one of the reserve's nature trails — after the monastery the forest silence feels like a continuation of the service."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Отражение монастыря в озере",
+                    "Грузинскую икону Божией Матери",
+                    "Сосны заповедника за стенами"
+                  ],
+                  "en": [
+                    "The monastery's reflection in the lake",
+                    "The Georgian icon of the Mother of God",
+                    "The reserve's pines beyond the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Название «Раифа» дано в память о монахах, погибших в древности в Раифе на Синае.",
+                    "Монастырь стоит на территории Волжско-Камского заповедника."
+                  ],
+                  "en": [
+                    "The name Raifa commemorates monks killed long ago at Raithu in Sinai.",
+                    "The monastery lies within the Volga-Kama Nature Reserve."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, лягушки в озере у стен Раифского монастыря не квакают: по преданию, они замолчали по молитве монахов, чтобы не мешать богослужению.",
+                  "en": "They say the frogs in the lake by the Raifa Monastery never croak: tradition holds that they fell silent at the monks' prayer so as not to disturb the services."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по преданию, особенного у лягушек в озере Раифы?",
+                    "en": "According to tradition, what is special about the frogs in Raifa's lake?"
+                  },
+                  "options": {
+                    "ru": ["Они не квакают", "Они светятся ночью", "Они золотые"],
+                    "en": [
+                      "They don't croak",
+                      "They glow at night",
+                      "They are golden"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Предание говорит, что лягушки замолчали, чтобы не мешать молитве монахов.",
+                    "en": "Tradition says the frogs fell silent so as not to disturb the monks' prayers."
+                  }
+                },
+                "approach": {
+                  "ru": "Около часа на машине через мост у Зеленодольска; последний участок — через лес.",
+                  "en": "About an hour by car via the bridge at Zelenodolsk; the last stretch runs through the forest."
+                }
               }
             }
           ]

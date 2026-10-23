@@ -6,7 +6,7 @@ import XCTest
 /// on the map.
 final class CatalogTests: XCTestCase {
     /// Every stop, route and city must have a guide, not just a description.
-    private let guidesRequired = false
+    private let guidesRequired = true
 
     private var catalogDirectory: URL {
         URL(fileURLWithPath: #filePath)
