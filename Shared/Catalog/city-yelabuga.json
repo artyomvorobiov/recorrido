@@ -174,7 +174,7 @@
             {
               "id": "yelabuga-durova",
               "title": {"ru": "Дом-музей Надежды Дуровой", "en": "Nadezhda Durova House Museum"},
-              "coordinate": [55.7583, 52.051],
+              "coordinate": [55.75861, 52.0675],
               "category": "museum",
               "visit": 45,
               "details": {
@@ -225,8 +225,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Несколько минут пешком по старому центру.",
-                  "en": "A few minutes' walk through the old centre."
+                  "ru": "Около 15 минут пешком на восток по старому центру.",
+                  "en": "About 15 minutes' walk east through the old centre."
                 }
               }
             },

@@ -245,7 +245,7 @@
             {
               "id": "pereslavl-goritsky",
               "title": {"ru": "Горицкий монастырь", "en": "Goritsky Monastery"},
-              "coordinate": [56.72648, 38.86596],
+              "coordinate": [56.72095, 38.82377],
               "category": "museum",
               "visit": 90,
               "details": {
@@ -300,8 +300,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "От центра идите на юг вдоль главной улицы — около 20 минут; монастырь на холме виден издалека.",
-                  "en": "From the centre walk south along the main street — about 20 minutes; the monastery on its hill is visible from afar."
+                  "ru": "От центра идите на юго-запад — около 30 минут; монастырь на холме виден издалека.",
+                  "en": "From the centre walk south-west — about 30 minutes; the monastery on its hill is visible from afar."
                 }
               }
             },
@@ -319,8 +319,8 @@
               "arrival": {
                 "mode": "car",
                 "note": {
-                  "ru": "Около 6 км к Плещееву озеру — 15 минут на машине или такси",
-                  "en": "About 6 km to Lake Pleshcheyevo — 15 minutes by car or taxi"
+                  "ru": "Около 5 км к Плещееву озеру — 10–15 минут на машине или такси",
+                  "en": "About 5 km to Lake Pleshcheyevo — 10–15 minutes by car or taxi"
                 }
               },
               "guide": {

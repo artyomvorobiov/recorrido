@@ -11,6 +11,11 @@ on:
       - "scripts/**"
       - ".github/workflows/content.yml"
   workflow_dispatch:
+    inputs:
+      stops:
+        description: "Stop ids to look up on OpenStreetMap as well, comma-separated"
+        required: false
+        default: ""
 
 jobs:
   wikipedia:
@@ -25,4 +30,6 @@ jobs:
         run: python3 scripts/wiki_probe.py
       - name: Catalog vs Wikipedia
         if: hashFiles('scripts/validate_catalog.py') != ''
-        run: python3 scripts/validate_catalog.py
+        run: python3 scripts/validate_catalog.py --stops "$STOPS"
+        env:
+          STOPS: ${{ github.event.inputs.stops }}

@@ -1200,7 +1200,7 @@
             {
               "id": "moscow-alexei-palace",
               "title": {"ru": "Дворец Алексея Михайловича", "en": "Tsar Alexei's Palace"},
-              "coordinate": [55.6697, 37.6615],
+              "coordinate": [55.65556, 37.65694],
               "category": "palace",
               "visit": 60,
               "details": {
@@ -1259,8 +1259,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 15–20 минут пешком через парк на запад.",
-                  "en": "About 15–20 minutes' walk west through the park."
+                  "ru": "Около 15 минут пешком через парк на юго-запад, к Дьякову.",
+                  "en": "About 15 minutes' walk south-west through the park, towards Dyakovo."
                 }
               }
             },

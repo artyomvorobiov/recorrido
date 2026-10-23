@@ -533,7 +533,7 @@
             {
               "id": "kostroma-gazebo",
               "title": {"ru": "Беседка Островского", "en": "Ostrovsky's Gazebo"},
-              "coordinate": [57.7633, 40.925],
+              "coordinate": [57.76178, 40.92877],
               "category": "viewpoint",
               "visit": 20,
               "details": {

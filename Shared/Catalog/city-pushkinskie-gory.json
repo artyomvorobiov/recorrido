@@ -257,7 +257,7 @@
             {
               "id": "pg-svyatogorsky",
               "title": {"ru": "Святогорский монастырь", "en": "Svyatogorsky Monastery"},
-              "coordinate": [57.0193, 28.9113],
+              "coordinate": [57.02242, 28.92007],
               "category": "church",
               "visit": 40,
               "details": {

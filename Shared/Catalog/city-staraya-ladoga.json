@@ -291,7 +291,7 @@
             {
               "id": "ladoga-oleg-mound",
               "title": {"ru": "Олегова могила", "en": "Oleg's Grave"},
-              "coordinate": [60.004, 32.302],
+              "coordinate": [60.01192, 32.30137],
               "category": "monument",
               "visit": 30,
               "details": {
@@ -354,8 +354,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 15 минут пешком на север вдоль Волхова от крепости.",
-                  "en": "About 15 minutes' walk north along the Volkhov from the fortress."
+                  "ru": "Около 20–25 минут пешком на север вдоль Волхова от крепости.",
+                  "en": "About 20–25 minutes' walk north along the Volkhov from the fortress."
                 }
               }
             }

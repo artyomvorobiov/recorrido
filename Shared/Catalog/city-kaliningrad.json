@@ -575,7 +575,7 @@
             {
               "id": "kaliningrad-efa",
               "title": {"ru": "Высота Эфа", "en": "Efa Height"},
-              "coordinate": [55.221, 20.894],
+              "coordinate": [55.22118, 20.90629],
               "category": "viewpoint",
               "visit": 60,
               "details": {

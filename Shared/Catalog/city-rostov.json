@@ -120,8 +120,8 @@
         "en": "The ancient Avraamiev Monastery, a walk along the kremlin walls, a belfry with giant bells, an enamel workshop and a lakeside walk to the Spaso-Yakovlevsky Monastery. Optionally, a drive to the fortress-like Borisoglebsky Monastery."
       },
       "intro": {
-        "ru": "Маршрут пеший, около 5 км: от Авраамиева монастыря через кремль и мастерскую финифти к озеру и Спасо-Яковлевскому монастырю. На кремль заложите минимум два часа. Борисоглебский монастырь — по желанию, на машине.",
-        "en": "The walk is about 5 km: from the Avraamiev Monastery through the kremlin and the enamel workshop to the lake and the Spaso-Yakovlevsky Monastery. Allow at least two hours for the kremlin. The Borisoglebsky Monastery is optional, by car."
+        "ru": "Маршрут пеший, около 6 км: от Авраамиева монастыря через кремль и набережную озера к мастерской финифти и Спасо-Яковлевскому монастырю. На кремль заложите минимум два часа. Борисоглебский монастырь — по желанию, на машине.",
+        "en": "The walk is about 6 km: from the Avraamiev Monastery through the kremlin and along the lakeside to the enamel workshop and the Spaso-Yakovlevsky Monastery. Allow at least two hours for the kremlin. The Borisoglebsky Monastery is optional, by car."
       },
       "emoji": "🔔",
       "tags": ["walk", "car"],
@@ -131,7 +131,7 @@
             {
               "id": "rostov-avraamiev",
               "title": {"ru": "Авраамиев монастырь", "en": "Avraamiev Monastery"},
-              "coordinate": [57.1902, 39.4242],
+              "coordinate": [57.19596, 39.45154],
               "category": "church",
               "visit": 30,
               "details": {
@@ -236,8 +236,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "От Авраамиева монастыря идите вдоль озера к центру — около 15 минут до кремля.",
-                  "en": "From the Avraamiev Monastery walk along the lake towards the centre — about 15 minutes to the kremlin."
+                  "ru": "От Авраамиева монастыря идите вдоль озера к центру — около 30 минут до кремля.",
+                  "en": "From the Avraamiev Monastery walk along the lake towards the centre — about 30 minutes to the kremlin."
                 }
               }
             },
@@ -296,48 +296,6 @@
               }
             },
             {
-              "id": "rostov-finift",
-              "title": {"ru": "Ростовская финифть", "en": "Rostov enamel"},
-              "coordinate": [57.1867, 39.4198],
-              "category": "museum",
-              "visit": 40,
-              "details": {
-                "ru": "Финифть — расписная эмаль на металле, ремеслу в Ростове больше двухсот лет. В музее фабрики можно увидеть старинные миниатюры, понаблюдать за художниками и выбрать брошь или шкатулку на память.",
-                "en": "Finift is painted enamel on metal, a craft practised in Rostov for more than two centuries. The factory museum shows old miniatures, lets you watch the painters at work and sells brooches and boxes as souvenirs."
-              },
-              "wiki": {"ru": "Ростовская финифть"},
-              "guide": {
-                "story": {
-                  "ru": "Финифть — это живопись эмалевыми красками по металлу, которую обжигают в печи. В Ростове её делают с XVIII века: сначала это были маленькие иконки и образки, потом броши, серьги, шкатулки и портреты.\n\nМастер наносит рисунок тончайшей кистью, слой за слоем, и после каждого слоя изделие отправляется в печь при температуре около 800 градусов. Краски не тускнеют веками — поэтому старинные миниатюры выглядят так, будто написаны вчера.\n\nВ музее фабрики можно увидеть старые работы, а иногда — понаблюдать за художниками и самому выбрать изделие на память.",
-                  "en": "Finift is painting in enamel on metal, fired in a kiln. Rostov has made it since the 18th century: first small icons and medallions, then brooches, earrings, boxes and portraits.\n\nThe artist paints with an extremely fine brush, layer by layer, and after each layer the piece goes into a kiln at around 800 degrees. The colours do not fade for centuries — that's why old miniatures look as if they were painted yesterday.\n\nThe factory museum shows old works, and sometimes you can watch the artists and pick a piece to take home."
-                },
-                "lookFor": {
-                  "ru": [
-                    "Миниатюры с видами ростовского кремля",
-                    "Тончайшие кисти на рабочем столе художника"
-                  ],
-                  "en": [
-                    "Miniatures with views of the Rostov kremlin",
-                    "The extremely fine brushes on an artist's desk"
-                  ]
-                },
-                "facts": {
-                  "ru": [
-                    "Эмаль для финифти — это стекло, смолотое в порошок: в печи оно плавится и превращается в гладкий блестящий слой.",
-                    "Ростовской финифти больше двухсот лет, и её до сих пор делают вручную."
-                  ],
-                  "en": [
-                    "Enamel is glass ground into powder: in the kiln it melts into a smooth glossy layer.",
-                    "Rostov enamel is more than two hundred years old and is still made by hand."
-                  ]
-                },
-                "approach": {
-                  "ru": "От кремля — несколько минут пешком по центру.",
-                  "en": "A few minutes' walk from the kremlin through the centre."
-                }
-              }
-            },
-            {
               "id": "rostov-nero",
               "title": {"ru": "Набережная озера Неро", "en": "Lake Nero embankment"},
               "coordinate": [57.1833, 39.4103],
@@ -376,6 +334,48 @@
                 "approach": {
                   "ru": "Спуститесь от кремля к воде — набережная начинается прямо под стенами.",
                   "en": "Go down from the kremlin to the water — the embankment starts right below the walls."
+                }
+              }
+            },
+            {
+              "id": "rostov-finift",
+              "title": {"ru": "Ростовская финифть", "en": "Rostov enamel"},
+              "coordinate": [57.18292, 39.38449],
+              "category": "museum",
+              "visit": 40,
+              "details": {
+                "ru": "Финифть — расписная эмаль на металле, ремеслу в Ростове больше двухсот лет. В музее фабрики можно увидеть старинные миниатюры, понаблюдать за художниками и выбрать брошь или шкатулку на память.",
+                "en": "Finift is painted enamel on metal, a craft practised in Rostov for more than two centuries. The factory museum shows old miniatures, lets you watch the painters at work and sells brooches and boxes as souvenirs."
+              },
+              "wiki": {"ru": "Ростовская финифть"},
+              "guide": {
+                "story": {
+                  "ru": "Финифть — это живопись эмалевыми красками по металлу, которую обжигают в печи. В Ростове её делают с XVIII века: сначала это были маленькие иконки и образки, потом броши, серьги, шкатулки и портреты.\n\nМастер наносит рисунок тончайшей кистью, слой за слоем, и после каждого слоя изделие отправляется в печь при температуре около 800 градусов. Краски не тускнеют веками — поэтому старинные миниатюры выглядят так, будто написаны вчера.\n\nВ музее фабрики можно увидеть старые работы, а иногда — понаблюдать за художниками и самому выбрать изделие на память.",
+                  "en": "Finift is painting in enamel on metal, fired in a kiln. Rostov has made it since the 18th century: first small icons and medallions, then brooches, earrings, boxes and portraits.\n\nThe artist paints with an extremely fine brush, layer by layer, and after each layer the piece goes into a kiln at around 800 degrees. The colours do not fade for centuries — that's why old miniatures look as if they were painted yesterday.\n\nThe factory museum shows old works, and sometimes you can watch the artists and pick a piece to take home."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Миниатюры с видами ростовского кремля",
+                    "Тончайшие кисти на рабочем столе художника"
+                  ],
+                  "en": [
+                    "Miniatures with views of the Rostov kremlin",
+                    "The extremely fine brushes on an artist's desk"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Эмаль для финифти — это стекло, смолотое в порошок: в печи оно плавится и превращается в гладкий блестящий слой.",
+                    "Ростовской финифти больше двухсот лет, и её до сих пор делают вручную."
+                  ],
+                  "en": [
+                    "Enamel is glass ground into powder: in the kiln it melts into a smooth glossy layer.",
+                    "Rostov enamel is more than two hundred years old and is still made by hand."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 20 минут пешком на запад от набережной по улицам старого города.",
+                  "en": "About 20 minutes' walk west from the embankment through the streets of the old town."
                 }
               }
             },
@@ -439,15 +439,15 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 1,5 км вдоль берега Неро на юго-запад — тихая прогулка с видом на воду.",
-                  "en": "About 1.5 km south-west along the shore of Nero — a quiet walk by the water."
+                  "ru": "Около 15 минут пешком на юг, к берегу Неро, — монастырь виден издалека.",
+                  "en": "About 15 minutes' walk south to the shore of Nero — the monastery is visible from afar."
                 }
               }
             },
             {
               "id": "rostov-borisoglebsky",
               "title": {"ru": "Борисоглебский монастырь", "en": "Borisoglebsky Monastery"},
-              "coordinate": [57.2633, 39.1427],
+              "coordinate": [57.25883, 39.15246],
               "category": "castle",
               "visit": 60,
               "details": {

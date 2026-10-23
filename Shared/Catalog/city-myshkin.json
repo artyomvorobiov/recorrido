@@ -121,7 +121,7 @@
             {
               "id": "myshkin-mouse-museum",
               "title": {"ru": "Музей Мыши", "en": "Mouse Museum"},
-              "coordinate": [57.7859, 38.4533],
+              "coordinate": [57.78372, 38.45065],
               "category": "museum",
               "visit": 40,
               "details": {
@@ -230,8 +230,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "От Музея Мыши — пара минут пешком до площади.",
-                  "en": "A couple of minutes' walk from the Mouse Museum to the square."
+                  "ru": "От Музея Мыши — около 5 минут пешком до площади.",
+                  "en": "About 5 minutes' walk from the Mouse Museum to the square."
                 }
               }
             },

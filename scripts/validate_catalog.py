@@ -5,9 +5,13 @@ For every stop with a `wiki` title it verifies that the article exists and
 compares the stop's coordinate with the article's one. Big differences are
 printed together with the Wikipedia coordinate, so they are easy to fix.
 Stops that Wikipedia can't place (no article, or one without coordinates)
-are looked up on OpenStreetMap near where the catalog puts them instead.
+are looked up on OpenStreetMap near where the catalog puts them instead;
+when the map knows no place by that name, the sights around the pin are
+listed, so a misplaced pin is still easy to spot.
 
-Usage: python3 scripts/validate_catalog.py [--tolerance 250]
+Usage: python3 scripts/validate_catalog.py [--tolerance 250] [--stops id,id]
+--stops looks those stops up on OpenStreetMap too, even when Wikipedia
+places them, and lists the sights around their pins.
 Exit code is 0 even with warnings: the network may be flaky in CI.
 """
 import argparse
@@ -21,6 +25,7 @@ import urllib.request
 
 UA = "RecorridoContentCheck/1.0 (https://github.com/artyomvorobiov/recorrido)"
 NOMINATIM = "https://nominatim.openstreetmap.org/search?"
+OVERPASS = "https://overpass-api.de/api/interpreter"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -87,7 +92,8 @@ def suggest_titles(lang, title, coordinate):
     return " | ".join(parts)
 
 
-TRANSPORT = {"highway", "railway", "public_transport"}
+# Bus stops and stations are named after the sights they serve.
+TRANSPORT = {"railway", "public_transport", "highway/bus_stop", "highway/platform"}
 
 
 def osm_search(text, near, radius=0.05):
@@ -103,14 +109,23 @@ def osm_search(text, near, radius=0.05):
     found = [((float(p["lat"]), float(p["lon"])), p.get("name") or p["display_name"].split(",")[0],
               f"{p.get('category', '')}/{p.get('type', '')}") for p in places]
     # A bus stop named after a museum is not the museum.
-    return sorted(found, key=lambda place: (place[2].split("/")[0] in TRANSPORT, distance(near, place[0])))
+    return sorted(found, key=lambda place: ({place[2], place[2].split("/")[0]} & TRANSPORT != set(),
+                                             distance(near, place[0])))
 
 
 def osm_check(stop):
-    """(searched text, places) for the stop's title, falling back to its article's title."""
+    """(searched text, places) for the stop's title, then its spellings and its article's title.
+
+    Map names are often longer or shorter than ours ("Дом памяти М. И. Цветаевой"),
+    so the last try is the stop's last proper name alone.
+    """
+    title = stop["title"].get("ru", "")
+    article = (stop.get("wiki") or {}).get("ru", "").split(" (")[0]
+    words = title.replace("«", "").replace("»", "").replace("-", " ").split()
+    names = [word for word in words[1:] if word[:1].isupper()]
     texts = []
-    for text in (stop["title"].get("ru"), (stop.get("wiki") or {}).get("ru", "").split(" (")[0]):
-        text = (text or "").replace("«", "").replace("»", "")
+    for text in (title, title.replace("ё", "е"), article, names[-1] if names else ""):
+        text = text.replace("«", "").replace("»", "").strip()
         if text and text not in texts:
             texts.append(text)
     for text in texts:
@@ -118,6 +133,31 @@ def osm_check(stop):
         if found:
             return text, found
     return texts[0] if texts else "", []
+
+
+def osm_nearby(near, radius=1500, limit=8):
+    """Named sights within `radius` metres of `near`, nearest first: (metres, name)."""
+    around = f"(around:{radius},{near[0]},{near[1]})"
+    query = f"""[out:json][timeout:60];
+(
+  nwr{around}["name"]["tourism"~"museum|attraction|viewpoint|artwork|gallery"];
+  nwr{around}["name"]["historic"];
+  nwr{around}["name"]["amenity"="place_of_worship"];
+  nwr{around}["name"]["natural"~"spring|peak|cliff|beach"];
+);
+out center;"""
+    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": query}).encode(),
+                                 headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=90) as resp:
+        elements = json.loads(resp.read().decode("utf-8")).get("elements", [])
+    time.sleep(1)
+    places = {}
+    for element in elements:
+        where = element.get("center") or element
+        d = int(distance(near, (where["lat"], where["lon"])))
+        name = element["tags"]["name"]
+        places[name] = min(d, places.get(name, d))
+    return sorted((d, name) for name, d in places.items())[:limit]
 
 
 def distance(a, b):
@@ -164,6 +204,7 @@ def lookup(lang, titles):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--tolerance", type=float, default=250)
+    parser.add_argument("--stops", default="", help="stop ids to look up on OpenStreetMap as well, comma-separated")
     args = parser.parse_args()
 
     stops = []
@@ -188,27 +229,32 @@ def main():
     placed = set()
     for file, route, stop in stops:
         wiki = stop.get("wiki") or {}
-        for lang, title in wiki.items():
+        # The Russian article first; another language's coordinate stands in when it has none.
+        langs = sorted(wiki, key=lambda lang: lang != "ru")
+        found = []
+        for lang in langs:
+            title = wiki[lang]
             exists, coordinate, final, has_image = info[lang].get(title, (False, None, title, False))
             if not exists:
                 hint = suggest_titles(lang, title, stop["coordinate"])
                 missing.append(f"{file} {stop['id']}: [{lang}] '{title}' not found\n    try: {hint}")
                 continue
-            if lang == "ru" or "ru" not in wiki:
-                if not has_image:
-                    no_image.append(f"{stop['id']} [{lang}] {title}")
-                if coordinate is None:
-                    no_coord.append(f"{stop['id']} [{lang}] {title}")
-                    continue
-                placed.add(stop["id"])
-                if coordinate != AREA:
-                    d = distance(stop["coordinate"], coordinate)
-                    tolerance = args.tolerance
-                    if (lang, title) in settlements:
-                        tolerance = max(tolerance, SETTLEMENT_TOLERANCE)
-                    if d > tolerance:
-                        far.append(f"{file} {stop['id']}: {int(d)} m off; wiki [{lang}] {final} = {coordinate[0]:.5f}, {coordinate[1]:.5f}")
-                        suggestions[stop["id"]] = [round(coordinate[0], 5), round(coordinate[1], 5)]
+            found.append(f"[{lang}] {title}")
+            if lang == langs[0] and not has_image:
+                no_image.append(f"{stop['id']} [{lang}] {title}")
+            if coordinate is None or stop["id"] in placed:
+                continue
+            placed.add(stop["id"])
+            if coordinate != AREA:
+                d = distance(stop["coordinate"], coordinate)
+                tolerance = args.tolerance
+                if (lang, title) in settlements:
+                    tolerance = max(tolerance, SETTLEMENT_TOLERANCE)
+                if d > tolerance:
+                    far.append(f"{file} {stop['id']}: {int(d)} m off; wiki [{lang}] {final} = {coordinate[0]:.5f}, {coordinate[1]:.5f}")
+                    suggestions[stop["id"]] = [round(coordinate[0], 5), round(coordinate[1], 5)]
+        if found and stop["id"] not in placed:
+            no_coord.append(f"{stop['id']} " + ", ".join(found))
 
     print(f"Checked {len(stops)} stops.")
     print(f"\n== Missing articles ({len(missing)})")
@@ -220,7 +266,11 @@ def main():
     print(f"\n== Articles without a picture ({len(no_image)})")
     print("\n".join(no_image) or "none")
 
-    unplaced = [(file, stop) for file, _, stop in stops if stop["id"] not in placed]
+    extra = {item.strip() for item in args.stops.split(",") if item.strip()}
+    unknown = extra - {stop["id"] for _, _, stop in stops}
+    if unknown:
+        print(f"\nUnknown stops: {', '.join(sorted(unknown))}")
+    unplaced = [(file, stop) for file, _, stop in stops if stop["id"] not in placed or stop["id"] in extra]
     print(f"\n== Stops without a Wikipedia coordinate vs OpenStreetMap ({len(unplaced)})")
     osm = {}
     for file, stop in unplaced:
@@ -229,15 +279,24 @@ def main():
         except Exception as error:  # noqa: BLE001
             print(f"OpenStreetMap unavailable: {error}")
             break
+        around = ""
+        if not found or stop["id"] in extra:
+            try:
+                around = " | ".join(f"{name} {d} m" for d, name in osm_nearby(stop["coordinate"])) or "no sights"
+            except Exception as error:  # noqa: BLE001
+                around = f"Overpass unavailable: {error}"
+            around = f"\n    around the pin: {around}"
         if not found:
-            print(f"{file} {stop['id']}: nothing called '{text}' nearby")
+            print(f"{file} {stop['id']}: nothing called '{text}' nearby{around}")
             continue
         (where, name, kind), others = found[0], found[1:3]
         d = distance(stop["coordinate"], where)
         line = f"{file} {stop['id']}: {int(d)} m off; OSM {name} ({kind}) = {where[0]:.5f}, {where[1]:.5f}"
+        if text != stop["title"].get("ru"):
+            line += f" (searched '{text}')"
         if others:
             line += "\n    also: " + " | ".join(f"{n} ({k}) {int(distance(stop['coordinate'], w))} m" for w, n, k in others)
-        print(line)
+        print(line + around)
         if d > args.tolerance:
             osm[stop["id"]] = [round(where[0], 5), round(where[1], 5)]
 

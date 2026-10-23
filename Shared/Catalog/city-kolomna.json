@@ -134,7 +134,7 @@
             {
               "id": "kolomna-pyatnitsky",
               "title": {"ru": "Пятницкие ворота", "en": "Pyatnitsky Gate"},
-              "coordinate": [55.10234, 38.75712],
+              "coordinate": [55.1058, 38.7633],
               "category": "castle",
               "visit": 15,
               "details": {
