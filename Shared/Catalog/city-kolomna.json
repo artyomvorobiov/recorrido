@@ -16,15 +16,115 @@
     "emoji": "🍬",
     "size": "small",
     "tags": ["near-moscow"],
-    "wiki": {"ru": "Коломна", "en": "Kolomna"}
+    "wiki": {"ru": "Коломна", "en": "Kolomna"},
+    "guide": {
+      "story": {
+        "ru": "Коломна стоит там, где Москва-река впадает в Оку, — на важном речном перекрёстке. Впервые её упоминают в 1177 году, а с начала XIV века она стала частью Московского княжества и его южным щитом: отсюда навстречу набегам выходили московские полки, здесь собиралось войско перед Куликовской битвой.\n\nВ XVI веке город получил каменный кремль — почти двухкилометровое кольцо стен с шестнадцатью башнями. В XIX веке Коломна разбогатела на торговле и ремёслах: славилась пастилой из антоновских яблок, калачами, а с 1863 года — паровозами Коломенского завода.\n\nСегодня это тёплый, неспешный город: мимо кремлёвских стен ходит трамвай, в купеческих домах работают маленькие музеи, а вечером над Москвой-рекой видны купола сразу нескольких монастырей.",
+        "en": "Kolomna stands where the Moskva river flows into the Oka — an important river crossroads. It is first mentioned in 1177, and from the early 14th century it belonged to Moscow and became its southern shield: Moscow's regiments marched out from here to meet raids, and the army gathered here before the Battle of Kulikovo.\n\nIn the 16th century the town got a stone kremlin — a ring of walls almost two kilometres long with sixteen towers. In the 19th century Kolomna grew rich on trade and crafts: it was famous for pastila made from Antonovka apples, for kalach bread and, from 1863, for the locomotives of the Kolomna Works.\n\nToday it is a warm, unhurried town: trams run past the kremlin walls, little museums occupy merchant houses, and in the evening you can see the domes of several monasteries above the Moskva."
+      },
+      "history": [
+        {
+          "year": "1177",
+          "text": {
+            "ru": "Первое упоминание Коломны в летописи.",
+            "en": "Kolomna is first mentioned in the chronicles."
+          }
+        },
+        {
+          "year": "1301",
+          "text": {
+            "ru": "Коломна входит в состав Московского княжества.",
+            "en": "Kolomna becomes part of the Principality of Moscow."
+          }
+        },
+        {
+          "year": "1366",
+          "text": {
+            "ru": "Дмитрий Донской венчается в Коломне с суздальской княжной Евдокией.",
+            "en": "Dmitry Donskoy marries Princess Eudoxia of Suzdal in Kolomna."
+          }
+        },
+        {
+          "year": "1380",
+          "text": {
+            "ru": "В Коломне собирается войско перед Куликовской битвой.",
+            "en": "The army gathers in Kolomna before the Battle of Kulikovo."
+          }
+        },
+        {
+          "year": "1525–1531",
+          "text": {
+            "ru": "По приказу Василия III строят каменный кремль.",
+            "en": "A stone kremlin is built on the orders of Vasily III."
+          }
+        },
+        {
+          "year": "1863",
+          "text": {
+            "ru": "Основан Коломенский завод, позже прославившийся паровозами.",
+            "en": "The Kolomna Works are founded, later famous for their locomotives."
+          }
+        },
+        {
+          "year": "2009",
+          "text": {
+            "ru": "Открывается музей коломенской пастилы, возродивший старинный рецепт.",
+            "en": "The Kolomna Pastila Museum opens and revives an old recipe."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Коломенскую пастилу — воздушную, из печёных антоновских яблок",
+          "Калачи из русской печи",
+          "Чай с пастилой и вареньем в купеческом доме"
+        ],
+        "en": [
+          "Kolomna pastila — airy, made from baked Antonovka apples",
+          "Kalach bread from a Russian stove",
+          "Tea with pastila and jam in a merchant house"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Пастилу в нарядных коробках",
+          "Свежие калачи в дорогу",
+          "Посуду и керамику с видами кремля"
+        ],
+        "en": [
+          "Pastila in decorated boxes",
+          "Fresh kalach for the road",
+          "Tableware and ceramics with views of the kremlin"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Пастила и калачи — в двух разных музеях; на экскурсии с дегустацией записывайтесь заранее",
+          "Погуляйте по Посаду — кварталам купеческих домов рядом с кремлём",
+          "Старый трамвай — удобный способ добраться до Голутвина и обратно"
+        ],
+        "en": [
+          "Pastila and kalach have separate museums; book the tasting tours in advance",
+          "Wander around the Posad, the quarter of merchant houses next to the kremlin",
+          "The old tram is a handy way to get to Golutvin and back"
+        ]
+      }
+    }
   },
   "routes": [
     {
       "id": "kolomna-day",
-      "title": {"ru": "Коломна: кремль, пастила и монастыри", "en": "Kolomna: kremlin, pastila and monasteries"},
+      "title": {
+        "ru": "Коломна: кремль, пастила и монастыри",
+        "en": "Kolomna: kremlin, pastila and monasteries"
+      },
       "summary": {
         "ru": "Пешком по кремлю и Посаду: Пятницкие ворота, Соборная площадь, Маринкина башня и дегустация пастилы. После обеда — на такси через Москву-реку к Бобреневу монастырю и на стрелку к Старо-Голутвину монастырю.",
         "en": "On foot through the kremlin and the merchant quarter: the Pyatnitsky Gate, Cathedral Square, the Marinkina Tower and a pastila tasting. After lunch, a taxi across the Moskva river to the Bobrenev Monastery and on to the Old Golutvin Monastery at the confluence."
+      },
+      "intro": {
+        "ru": "Утро — пешком по кремлю и Посаду, около 3 км, с дегустацией пастилы. После обеда — такси или машина к монастырям на другом берегу и на стрелку рек; из Голутвина в центр можно вернуться на трамвае.",
+        "en": "Spend the morning on foot in the kremlin and the Posad, about 3 km, with a pastila tasting. After lunch take a taxi or car to the monasteries across the river and to the meeting of the rivers; from Golutvin you can ride the tram back to the centre."
       },
       "emoji": "🍬",
       "tags": ["walk", "car"],
@@ -41,12 +141,63 @@
                 "ru": "Главные проездные ворота Коломенского кремля, построенного в 1525–1531 годах по приказу Василия III. Из шестнадцати башен уцелели семь, а Пятницкие ворота — самые парадные: через них въезжали в город с московской дороги.",
                 "en": "The main gate tower of the Kolomna kremlin, built in 1525–1531 on the orders of Grand Prince Vasily III. Seven of the sixteen towers survive, and the Pyatnitsky Gate is the grandest: travellers from Moscow entered the town through it."
               },
-              "wiki": {"ru": "Пятницкие ворота"}
+              "wiki": {"ru": "Пятницкие ворота"},
+              "guide": {
+                "story": {
+                  "ru": "Коломенский кремль построили в 1525–1531 годах по приказу Василия III: за шесть лет поднялось кольцо стен длиной почти два километра с шестнадцатью башнями. Строил его, возможно, итальянский мастер — как и московский кремль, на который коломенский очень похож.\n\nПятницкие ворота — главный въезд со стороны Москвы. Своё имя они получили от церкви Параскевы Пятницы, стоявшей рядом: святую почитали покровительницей торговли, а у ворот шумел торг. Это самая мощная башня кремля, с высоким проездом.\n\nСегодня из шестнадцати башен уцелели семь, но у ворот легко представить, какой была крепость, державшая оборону на южных рубежах Москвы.",
+                  "en": "The Kolomna kremlin was built in 1525–1531 on the orders of Vasily III: in six years a ring of walls almost two kilometres long rose with sixteen towers. It may have been built by an Italian master — like the Moscow Kremlin, which it closely resembles.\n\nThe Pyatnitsky Gates were the main entrance from the Moscow road. They take their name from the Church of St Paraskeva Pyatnitsa that stood nearby: she was the patron saint of trade, and a market bustled at the gates. It is the mightiest tower of the kremlin, with a tall gateway.\n\nOnly seven of the sixteen towers survive, but at the gates it is easy to imagine the fortress that guarded Moscow's southern frontier."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Проездную арку под башней",
+                    "Обрывки стены, уходящие от ворот",
+                    "Конный памятник Дмитрию Донскому на площади у ворот"
+                  ],
+                  "en": [
+                    "The gateway arch under the tower",
+                    "The stretches of wall running from the gates",
+                    "The equestrian monument to Dmitry Donskoy on the square by the gates"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Кремль строили всего шесть лет — с 1525 по 1531 год.",
+                    "Из шестнадцати башен кремля сохранились семь."
+                  ],
+                  "en": [
+                    "The kremlin took only six years to build, from 1525 to 1531.",
+                    "Seven of the kremlin's sixteen towers survive."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь кого названы Пятницкие ворота?",
+                    "en": "Who are the Pyatnitsky Gates named after?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Святой Параскевы Пятницы",
+                      "Дня недели, когда открывали ворота",
+                      "Купца Пятницкого"
+                    ],
+                    "en": [
+                      "St Paraskeva Pyatnitsa",
+                      "The weekday the gates were opened",
+                      "A merchant called Pyatnitsky"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Рядом стояла церковь Параскевы Пятницы — покровительницы торговли, а у ворот был торг.",
+                    "en": "The Church of St Paraskeva Pyatnitsa, patron of trade, stood nearby, and there was a market at the gates."
+                  }
+                }
+              }
             },
             {
               "id": "kolomna-pastila",
               "title": {"ru": "Музей коломенской пастилы", "en": "Kolomna Pastila Museum"},
-              "coordinate": [55.10465, 38.75620],
+              "coordinate": [55.10465, 38.7562],
               "category": "museum",
               "visit": 60,
               "details": {
@@ -56,19 +207,122 @@
               "tip": {
                 "ru": "На экскурсии с дегустацией лучше записаться заранее, особенно в выходные.",
                 "en": "Book the tasting tour in advance, especially at weekends."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Коломенская пастила — сладость из печёных антоновских яблок, сахара или мёда и яичного белка. Яблочную массу долго взбивали, раскладывали слоями и сушили в русской печи. В XIX веке её делали многие купеческие семьи Коломны, а потом рецепт забылся.\n\nВ 2009 году энтузиасты восстановили его по старинным описаниям и открыли музей в старом доме на Посаде. Экскурсия здесь похожа на маленький спектакль: рассказывают, как готовили пастилу, как её возили в Москву и Петербург, а в конце угощают чаем с несколькими сортами.\n\nРядом с музеем пастилу делают по тому же рецепту, так что без коробочки отсюда редко уходят.",
+                  "en": "Kolomna pastila is a sweet made from baked Antonovka apples, sugar or honey and egg white. The apple mass was whipped for a long time, spread in layers and dried in a Russian stove. In the 19th century many Kolomna merchant families made it, and then the recipe was forgotten.\n\nIn 2009 enthusiasts recreated it from old descriptions and opened a museum in an old house in the Posad. The tour is a little performance: you hear how pastila was made and taken to Moscow and St Petersburg, and at the end there is tea with several kinds.\n\nPastila is made next door to the old recipe, so few people leave without a box."
+                },
+                "lookFor": {
+                  "ru": [
+                    "На дегустации сравните сорта — яблочный, ягодный, с мёдом",
+                    "Старый купеческий дом, в котором работает музей"
+                  ],
+                  "en": [
+                    "At the tasting, compare the kinds — apple, berry, honey",
+                    "The old merchant house that holds the museum"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Для пастилы особенно хороша антоновка: в кислых яблоках много пектина, и масса становится воздушной.",
+                    "Музей коломенской пастилы открылся в 2009 году и вернул городу почти забытый рецепт."
+                  ],
+                  "en": [
+                    "Antonovka apples suit pastila best: sour apples are rich in pectin, which makes the mass airy.",
+                    "The Kolomna Pastila Museum opened in 2009 and brought back an almost forgotten recipe."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Из каких яблок традиционно делали коломенскую пастилу?",
+                    "en": "Which apples were traditionally used for Kolomna pastila?"
+                  },
+                  "options": {
+                    "ru": ["Антоновка", "Белый налив", "Гренни Смит"],
+                    "en": ["Antonovka", "White Transparent", "Granny Smith"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Кислая ароматная антоновка богата пектином — из неё получается самая пышная пастила.",
+                    "en": "Sour, fragrant Antonovka is rich in pectin, which gives the fluffiest pastila."
+                  }
+                },
+                "approach": {
+                  "ru": "От Пятницких ворот — несколько минут пешком по старым улицам Посада.",
+                  "en": "From the Pyatnitsky Gates it's a few minutes' walk through the old streets of the Posad."
+                }
               }
             },
             {
               "id": "kolomna-cathedral-square",
-              "title": {"ru": "Соборная площадь и Успенский собор", "en": "Cathedral Square and the Dormition Cathedral"},
-              "coordinate": [55.10560, 38.75826],
+              "title": {
+                "ru": "Соборная площадь и Успенский собор",
+                "en": "Cathedral Square and the Dormition Cathedral"
+              },
+              "coordinate": [55.1056, 38.75826],
               "category": "church",
               "visit": 30,
               "details": {
                 "ru": "Сердце кремля: Успенский собор 1670-х годов, шатровая колокольня, Тихвинская церковь и звонница. По преданию, на месте собора молился перед Куликовской битвой Дмитрий Донской — отсюда войско выступило к Дону.",
                 "en": "The heart of the kremlin: the Dormition Cathedral of the 1670s, a tented bell tower, the Tikhvin church and a belfry. Tradition says Dmitry Donskoy prayed on this spot before the Battle of Kulikovo — his army set out for the Don from here."
               },
-              "wiki": {"ru": "Успенский собор (Коломна)"}
+              "wiki": {"ru": "Успенский собор (Коломна)"},
+              "guide": {
+                "story": {
+                  "ru": "Соборная площадь — сердце кремля. Успенский собор построен в 1670-х годах на месте храма, который возвёл Дмитрий Донской после победы над ордынским войском на реке Воже в 1378 году. Рядом — высокая шатровая колокольня, Тихвинская церковь и звонница.\n\nКоломна была для Дмитрия Донского особым городом. В 1366 году он венчался здесь с суздальской княжной Евдокией — свадьбу сыграли в Коломне, потому что Москва ещё не оправилась после большого пожара. А в 1380 году сюда пришли полки перед походом на Куликово поле, и отсюда войско двинулось к Дону.\n\nСегодня собор снова действующий, а на площади проходят городские праздники.",
+                  "en": "Cathedral Square is the heart of the kremlin. The Dormition Cathedral was built in the 1670s on the site of a church raised by Dmitry Donskoy after his victory over the Horde on the Vozha river in 1378. Next to it are a tall tented bell tower, the Tikhvin Church and a belfry.\n\nKolomna was special to Dmitry Donskoy. In 1366 he married Princess Eudoxia of Suzdal here — the wedding was held in Kolomna because Moscow had not yet recovered from a great fire. And in 1380 the regiments gathered here before the campaign to the Kulikovo Field, and from here the army set out for the Don.\n\nToday the cathedral holds services again, and town festivals take place on the square."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Шатровую колокольню — её видно издалека",
+                    "Тихвинскую церковь рядом с собором",
+                    "Купеческие дома по краю площади"
+                  ],
+                  "en": [
+                    "The tented bell tower, visible from afar",
+                    "The Tikhvin Church next to the cathedral",
+                    "The merchant houses around the square"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Дмитрий Донской венчался в Коломне в 1366 году: Москва ещё не отстроилась после пожара 1365 года.",
+                    "Битва на реке Воже в 1378 году стала первой крупной победой Москвы над войском Орды."
+                  ],
+                  "en": [
+                    "Dmitry Donskoy married in Kolomna in 1366: Moscow had not yet been rebuilt after the fire of 1365.",
+                    "The Battle of the Vozha in 1378 was Moscow's first major victory over a Horde army."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что связывает Коломну с Куликовской битвой?",
+                    "en": "How is Kolomna connected with the Battle of Kulikovo?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Здесь собиралось войско перед походом",
+                      "Здесь короновали Дмитрия Донского",
+                      "Здесь подписали мир с Ордой"
+                    ],
+                    "en": [
+                      "The army gathered here before the campaign",
+                      "Dmitry Donskoy was crowned here",
+                      "Peace with the Horde was signed here"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В 1380 году полки сошлись в Коломне, и отсюда Дмитрий Донской повёл их к Дону.",
+                    "en": "In 1380 the regiments met in Kolomna, and from here Dmitry Donskoy led them to the Don."
+                  }
+                },
+                "approach": {
+                  "ru": "Пройдите вглубь кремля по улице Лажечникова — до Соборной площади меньше 10 минут.",
+                  "en": "Walk into the kremlin along Lazhechnikova Street — Cathedral Square is under 10 minutes away."
+                }
+              }
             },
             {
               "id": "kolomna-marinkina",
@@ -80,12 +334,61 @@
                 "ru": "Круглая угловая башня кремля, связанная с легендой о Марине Мнишек — жене двух Лжедмитриев. Говорят, её держали здесь в заточении, где она и умерла, а по другой версии — обернулась сорокой и улетела через бойницу.",
                 "en": "A round corner tower of the kremlin linked to the legend of Marina Mniszech, wife of two False Dmitrys. They say she was imprisoned and died here — or, in another version, turned into a magpie and flew out through a loophole."
               },
-              "wiki": {"ru": "Маринкина башня"}
+              "wiki": {"ru": "Маринкина башня"},
+              "guide": {
+                "story": {
+                  "ru": "Круглая угловая башня кремля стоит над рекой Коломенкой. Её официальное имя — Коломенская, но все знают её как Маринкину: по преданию, здесь в 1614 году держали в заточении Марину Мнишек.\n\nДочь польского воеводы, жена Лжедмитрия I, а потом и Лжедмитрия II, коронованная русская царица — Марина была одной из самых драматичных фигур Смутного времени. После поражения казачьего атамана Ивана Заруцкого, с которым она бежала на юг, её схватили и привезли в Коломну, где она и умерла.\n\nИсторики до сих пор спорят, как именно закончилась её жизнь, а горожане рассказывают легенду.",
+                  "en": "This round corner tower of the kremlin stands above the Kolomenka river. Its official name is the Kolomna Tower, but everyone knows it as Marinka's Tower: tradition says Marina Mniszech was imprisoned here in 1614.\n\nThe daughter of a Polish noble, wife of False Dmitry I and then of False Dmitry II, a crowned Russian tsaritsa — Marina was one of the most dramatic figures of the Time of Troubles. After the defeat of the Cossack leader Ivan Zarutsky, with whom she had fled south, she was captured and brought to Kolomna, where she died.\n\nHistorians still argue about how exactly her life ended — and the townspeople tell a legend."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Узкие бойницы — сквозь одну из них, по легенде, вылетела Марина",
+                    "Вид на Коломенку от подножия башни"
+                  ],
+                  "en": [
+                    "The narrow loopholes — legend says Marina flew out through one of them",
+                    "The view of the Kolomenka from the foot of the tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Марину Мнишек короновали в 1606 году — её считают первой коронованной царицей в истории России.",
+                    "Официально башня называется Коломенской, но её давно зовут Маринкиной."
+                  ],
+                  "en": [
+                    "Marina Mniszech was crowned in 1606 and is considered the first crowned tsaritsa in Russian history.",
+                    "The tower's official name is the Kolomna Tower, but it has long been called Marinka's Tower."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, Марина была колдуньей. Когда её заперли в башне, она обернулась сорокой и вылетела через бойницу — и больше её никто не видел. Поэтому, рассказывают, и называют башню Маринкиной.",
+                  "en": "They say Marina was a witch. When she was locked in the tower, she turned into a magpie and flew out through a loophole — and was never seen again. That, the story goes, is why the tower bears her name."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В кого, по легенде, обернулась Марина Мнишек, чтобы сбежать из башни?",
+                    "en": "What did Marina Mniszech turn into to escape the tower, according to legend?"
+                  },
+                  "options": {
+                    "ru": ["В сороку", "В кошку", "В летучую мышь"],
+                    "en": ["A magpie", "A cat", "A bat"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "По преданию, колдунья-царица обернулась сорокой и улетела через узкую бойницу.",
+                    "en": "The legend says the witch-tsaritsa became a magpie and flew away through a narrow loophole."
+                  }
+                },
+                "approach": {
+                  "ru": "От Соборной площади идите к углу кремля над Коломенкой — минут пять.",
+                  "en": "From Cathedral Square head to the kremlin's corner above the Kolomenka — about five minutes."
+                }
+              }
             },
             {
               "id": "kolomna-bobrenev",
               "title": {"ru": "Бобренев монастырь", "en": "Bobrenev Monastery"},
-              "coordinate": [55.11908, 38.76000],
+              "coordinate": [55.11908, 38.76],
               "category": "church",
               "visit": 40,
               "details": {
@@ -95,7 +398,65 @@
               "wiki": {"ru": "Бобренев монастырь"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Через мост — около 10 минут на такси", "en": "Over the bridge — about 10 minutes by taxi"}
+                "note": {
+                  "ru": "Через мост — около 10 минут на такси",
+                  "en": "Over the bridge — about 10 minutes by taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Бобренев монастырь стоит на другом берегу Москвы-реки, напротив кремля. По преданию, его основал в 1381 году воевода Дмитрий Боброк-Волынский — герой Куликовской битвы, командовавший засадным полком, который решил исход сражения.\n\nВ XVIII веке главный собор перестроили в стиле классицизма, а монастырь обнесли оградой с угловыми башнями. В советское время его закрыли, и он пришёл в запустение, но в 1990-е годы монастырь возродили — сейчас это одна из самых ухоженных обителей Подмосковья.\n\nОтсюда, с другого берега, видна вся панорама Коломны: кремль, купола и колокольни над рекой.",
+                  "en": "The Bobrenev Monastery stands across the Moskva from the kremlin. Tradition says it was founded in 1381 by the voivode Dmitry Bobrok-Volynsky, a hero of the Battle of Kulikovo who commanded the ambush regiment that decided the battle.\n\nIn the 18th century the main cathedral was rebuilt in the Classical style and the monastery got a wall with corner towers. It was closed in Soviet times and fell into ruin, but it was revived in the 1990s and is now one of the best kept monasteries near Moscow.\n\nFrom this bank you see the whole panorama of Kolomna: the kremlin, domes and bell towers above the river."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Панораму Коломны с берега",
+                    "Угловые башни ограды",
+                    "Купол собора в стиле классицизма"
+                  ],
+                  "en": [
+                    "The panorama of Kolomna from the bank",
+                    "The corner towers of the wall",
+                    "The dome of the Classical cathedral"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Засадный полк Боброка ударил в решающий момент и переломил ход Куликовской битвы.",
+                    "Полное название обители — Богородице-Рождественский Бобренев монастырь."
+                  ],
+                  "en": [
+                    "Bobrok's ambush regiment struck at the decisive moment and turned the Battle of Kulikovo.",
+                    "The full name is the Bobrenev Monastery of the Nativity of the Virgin."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чем прославился основатель монастыря Дмитрий Боброк?",
+                    "en": "What made the monastery's founder Dmitry Bobrok famous?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Командовал засадным полком на Куликовом поле",
+                      "Построил коломенский кремль",
+                      "Основал Коломну"
+                    ],
+                    "en": [
+                      "He commanded the ambush regiment at Kulikovo",
+                      "He built the Kolomna kremlin",
+                      "He founded Kolomna"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Засадный полк Боброка и князя Владимира Храброго ударил по ордынцам в самый тяжёлый момент битвы.",
+                    "en": "The ambush regiment of Bobrok and Prince Vladimir the Brave struck the Horde at the battle's hardest moment."
+                  }
+                },
+                "approach": {
+                  "ru": "На такси через мост на другой берег Москвы-реки — около 10 минут.",
+                  "en": "Take a taxi over the bridge to the other bank of the Moskva — about 10 minutes."
+                }
               }
             },
             {
@@ -115,7 +476,61 @@
               "wiki": {"ru": "Старо-Голутвин монастырь"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 9 км по дороге через центр — 15–20 минут на такси", "en": "About 9 km by road through the centre — 15–20 minutes by taxi"}
+                "note": {
+                  "ru": "Около 9 км по дороге через центр — 15–20 минут на такси",
+                  "en": "About 9 km by road through the centre — 15–20 minutes by taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Старо-Голутвин монастырь основал в 1385 году Сергий Радонежский по просьбе Дмитрия Донского. Он стоит на мысу у слияния Москвы-реки и Оки — отсюда далеко видно и широкую Оку, и купола Коломны.\n\nВ XVIII веке монастырь обнесли нарядной оградой с башенками и застроили ансамблем, который считают одним из красивейших в городе. После советского запустения обитель возродили: сейчас здесь женский монастырь и ухоженный сад.\n\nПройдите за стены к обрыву: внизу Москва-река заканчивает свой путь и вливается в Оку. Обратно в центр можно поехать на коломенском трамвае — он ходит здесь с 1948 года.",
+                  "en": "The Old Golutvin Monastery was founded in 1385 by St Sergius of Radonezh at the request of Dmitry Donskoy. It stands on a headland where the Moskva meets the Oka, with long views of the wide Oka and the domes of Kolomna.\n\nIn the 18th century the monastery got an ornate wall with little towers and an ensemble considered one of the finest in town. After Soviet neglect it was revived and is now a convent with a well-kept garden.\n\nWalk past the walls to the edge of the bank: below, the Moskva ends its journey and flows into the Oka. You can ride the Kolomna tram back to the centre — it has run here since 1948."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Слияние Москвы-реки и Оки с обрыва",
+                    "Нарядную ограду с башенками",
+                    "Колокольню над входом"
+                  ],
+                  "en": [
+                    "The meeting of the Moskva and the Oka from the edge of the bank",
+                    "The ornate wall with little towers",
+                    "The bell tower above the entrance"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Здесь Москва-река, начавшись в Смоленской области, заканчивает свой путь в Оке.",
+                    "Монастырь основан Сергием Радонежским по просьбе Дмитрия Донского."
+                  ],
+                  "en": [
+                    "Here the Moskva river, which rises in the Smolensk region, ends its course in the Oka.",
+                    "The monastery was founded by St Sergius of Radonezh at Dmitry Donskoy's request."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какие реки сливаются у Старо-Голутвина монастыря?",
+                    "en": "Which rivers meet at the Old Golutvin Monastery?"
+                  },
+                  "options": {
+                    "ru": ["Москва-река и Ока", "Ока и Волга", "Коломенка и Клязьма"],
+                    "en": [
+                      "The Moskva and the Oka",
+                      "The Oka and the Volga",
+                      "The Kolomenka and the Klyazma"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Монастырь стоит на стрелке, где Москва-река впадает в Оку.",
+                    "en": "The monastery stands on the point where the Moskva flows into the Oka."
+                  }
+                },
+                "approach": {
+                  "ru": "Через центр на юго-восток, к Голутвину — около 9 км по дороге.",
+                  "en": "Through the centre to the south-east, towards Golutvin — about 9 km by road."
+                }
               }
             }
           ]

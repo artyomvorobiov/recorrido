@@ -12,11 +12,97 @@
       "ru": "Около 230 км от Москвы — 3,5 часа на машине. Летом в Углич заходят почти все теплоходы, идущие по Волге. Мышкин — в 40 км, их удобно совместить.",
       "en": "About 230 km from Moscow — 3.5 hours by car. In summer almost every Volga cruise ship stops here. Myshkin is 40 km away, so the two combine well."
     },
-    "coordinate": [57.5281, 38.3300],
+    "coordinate": [57.5281, 38.33],
     "emoji": "⚓",
     "size": "small",
     "tags": ["golden-ring", "volga"],
-    "wiki": {"ru": "Углич", "en": "Uglich"}
+    "wiki": {"ru": "Углич", "en": "Uglich"},
+    "guide": {
+      "story": {
+        "ru": "Углич стоит на высоком берегу Волги, на крутом её изгибе — «угле», от которого, по одной из версий, и пошло название. По местной летописи, город существует с 937 года, а в XV–XVI веках был центром удельного княжества.\n\nЕго судьбу перевернул 1591 год: здесь при загадочных обстоятельствах погиб восьмилетний царевич Дмитрий, младший сын Ивана Грозного. Вскоре пресеклась династия Рюриковичей, началась Смута, а в ней появились самозванцы, называвшие себя спасшимся царевичем.\n\nВ XX веке у города выросла плотина ГЭС, и часть старого Углича ушла под воду. Сегодня это спокойный волжский город, куда летом каждый день причаливают круизные теплоходы, а вечером, когда они уходят, кремль снова становится тихим.",
+        "en": "Uglich stands on the high bank of the Volga at a sharp bend — an 'ugol', or corner, which by one version gave the town its name. Its local chronicle dates it to 937, and in the 15th–16th centuries it was the seat of an appanage principality.\n\nThe year 1591 turned its fate: the eight-year-old Tsarevich Dmitry, youngest son of Ivan the Terrible, died here in mysterious circumstances. Soon the Rurikid dynasty died out, the Time of Troubles began, and impostors appeared claiming to be the rescued prince.\n\nIn the 20th century a hydroelectric dam rose beside the town, and part of old Uglich went under water. Today it is a calm Volga town where cruise ships moor every summer day; in the evening, when they leave, the kremlin falls quiet again."
+      },
+      "history": [
+        {
+          "year": "937",
+          "text": {
+            "ru": "Год основания Углича по местной летописи.",
+            "en": "The year of Uglich's founding according to its local chronicle."
+          }
+        },
+        {
+          "year": "1480-е",
+          "text": {
+            "ru": "Для князя Андрея Большого строят кирпичные палаты — они стоят до сих пор.",
+            "en": "Brick chambers are built for Prince Andrei the Elder — they still stand."
+          }
+        },
+        {
+          "year": "1591",
+          "text": {
+            "ru": "Гибель царевича Дмитрия; «бунтовщика» — колокол — ссылают в Тобольск.",
+            "en": "Tsarevich Dmitry dies; the 'rebel' bell is exiled to Tobolsk."
+          }
+        },
+        {
+          "year": "1628",
+          "text": {
+            "ru": "Построена шатровая Дивная церковь Алексеевского монастыря.",
+            "en": "The tented 'Wondrous' Church of the Alexeyevsky Monastery is built."
+          }
+        },
+        {
+          "year": "1892",
+          "text": {
+            "ru": "«Ссыльный» колокол возвращается в Углич.",
+            "en": "The 'exiled' bell returns to Uglich."
+          }
+        },
+        {
+          "year": "1930-е–1940-е",
+          "text": {
+            "ru": "Строительство ГЭС и шлюза; часть старого города затоплена.",
+            "en": "The dam and lock are built; part of the old town is flooded."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Сыр — в Угличе работает старейший в стране институт сыроделия",
+          "Волжскую рыбу",
+          "Пирожки и сбитень у кремля"
+        ],
+        "en": [
+          "Cheese — Uglich is home to the country's oldest cheese-making institute",
+          "Volga fish",
+          "Pies and hot sbiten by the kremlin"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Часы «Чайка» местного часового завода",
+          "Колокольчик в память о «ссыльном» колоколе",
+          "Местный сыр"
+        ],
+        "en": [
+          "A Chaika watch from the local watch factory",
+          "A little bell in memory of the 'exiled' bell",
+          "Local cheese"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Летом утром в кремле много групп с теплоходов — приходите после обеда или ближе к вечеру",
+          "Посмотрите шлюзование: теплоход медленно поднимается или опускается в камере шлюза",
+          "В городе есть необычные музеи — например, музей истории русской водки"
+        ],
+        "en": [
+          "In summer the kremlin is busy with cruise groups in the morning — come after lunch or towards evening",
+          "Watch a ship pass the lock as it slowly rises or sinks in the chamber",
+          "The town has unusual museums, such as the museum of the history of Russian vodka"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,6 +112,10 @@
         "ru": "Прогулка от Алексеевского монастыря с шатровой Дивной церковью к кремлю: палаты удельных князей, церковь Димитрия «на крови» со «ссыльным» колоколом, Спасо-Преображенский собор — и дальше вдоль Волги к шлюзу.",
         "en": "A walk from the Alekseevsky Monastery and its three-tented Wondrous Church to the kremlin: the princes' palace, the Church of Dmitry on the Blood with the 'exiled' bell, the Transfiguration Cathedral — and on along the Volga to the lock."
       },
+      "intro": {
+        "ru": "Маршрут пеший, около 3 км вдоль Волги: от Алексеевского монастыря к кремлю и дальше к Воскресенскому монастырю и шлюзу. На кремль заложите часа два. Летом сверьтесь с расписанием теплоходов: без групп здесь гораздо уютнее.",
+        "en": "A walk of about 3 km along the Volga: from the Alexeyevsky Monastery to the kremlin, then on to the Resurrection Monastery and the lock. Allow about two hours for the kremlin. In summer check the cruise ship schedule: it's much cosier without the groups."
+      },
       "emoji": "⚓",
       "tags": ["walk"],
       "days": [
@@ -33,15 +123,67 @@
           "stops": [
             {
               "id": "uglich-alekseevsky",
-              "title": {"ru": "Алексеевский монастырь и Дивная церковь", "en": "Alekseevsky Monastery and the Wondrous Church"},
-              "coordinate": [57.52750, 38.32722],
+              "title": {
+                "ru": "Алексеевский монастырь и Дивная церковь",
+                "en": "Alekseevsky Monastery and the Wondrous Church"
+              },
+              "coordinate": [57.5275, 38.32722],
               "category": "church",
               "visit": 30,
               "details": {
                 "ru": "Успенская церковь Алексеевского монастыря 1628 года увенчана тремя стройными шатрами — за красоту её прозвали Дивной. Это один из лучших образцов шатрового зодчества в России.",
                 "en": "The Dormition Church of the Alekseevsky Monastery, built in 1628, is crowned by three slender tented roofs — its beauty earned it the name 'the Wondrous Church'. It is one of the finest examples of tented architecture in Russia."
               },
-              "wiki": {"ru": "Алексеевский монастырь (Углич)"}
+              "wiki": {"ru": "Алексеевский монастырь (Углич)"},
+              "guide": {
+                "story": {
+                  "ru": "Алексеевский монастырь основал в 1371 году митрополит Алексий — один из самых влиятельных людей Руси того времени. Он стоит на холме, и его главное украшение видно издалека.\n\nЭто Успенская церковь 1628 года, увенчанная тремя стройными шатрами. За красоту её прозвали Дивной: три шатра, как три свечи, тянутся вверх. Шатровые храмы строили в XVI–XVII веках, а потом церковь запретила их, и такие постройки стали редкостью.\n\nДивная церковь — одна из лучших в России в этом стиле и, пожалуй, самая фотогеничная постройка Углича.",
+                  "en": "The Alexeyevsky Monastery was founded in 1371 by Metropolitan Alexius, one of the most powerful men in Rus at the time. It stands on a hill, and its chief ornament can be seen from afar.\n\nThis is the Dormition Church of 1628, crowned with three slender tents. Its beauty earned it the name 'Wondrous': the three tents rise like three candles. Tented churches were built in the 16th–17th centuries, then the Church banned them, and such buildings became rare.\n\nThe Wondrous Church is one of the finest in Russia in this style and probably the most photogenic building in Uglich."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Три шатра Дивной церкви",
+                    "Вид на Углич с монастырского холма"
+                  ],
+                  "en": [
+                    "The three tents of the Wondrous Church",
+                    "The view of Uglich from the monastery hill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Трёхшатровых храмов в России сохранилось очень мало — Дивная церковь одна из самых известных.",
+                    "В середине XVII века патриарх Никон запретил строить шатровые храмы, и мастера перешли на луковичные главы."
+                  ],
+                  "en": [
+                    "Very few three-tented churches survive in Russia — the Wondrous Church is one of the best known.",
+                    "In the mid-17th century Patriarch Nikon banned tented churches, and builders switched to onion domes."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Успенскую церковь назвали Дивной?",
+                    "en": "Why was the Dormition Church called 'Wondrous'?"
+                  },
+                  "options": {
+                    "ru": [
+                      "За красоту трёх шатров",
+                      "Из-за чуда, случившегося при строительстве",
+                      "В честь купца Дивова"
+                    ],
+                    "en": [
+                      "For the beauty of its three tents",
+                      "Because of a miracle during its construction",
+                      "After a merchant named Divov"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Три стройных шатра так поразили современников, что церковь и назвали «дивной» — чудесной.",
+                    "en": "Its three slender tents so amazed people that they called it 'wondrous'."
+                  }
+                }
+              }
             },
             {
               "id": "uglich-chambers",
@@ -53,11 +195,59 @@
                 "ru": "Кирпичные палаты 1480-х годов — одно из старейших гражданских зданий России. Здесь жил в ссылке с матерью царевич Дмитрий, и именно отсюда пошла история, о которой спорят историки до сих пор.",
                 "en": "A brick palace from the 1480s, one of the oldest civil buildings in Russia. Tsarevich Dmitry lived here in exile with his mother, and this is where the story historians still argue about began."
               },
-              "wiki": {"ru": "Палаты угличских князей"}
+              "wiki": {"ru": "Палаты угличских князей"},
+              "guide": {
+                "story": {
+                  "ru": "Палаты угличских князей построены в 1480-х годах для князя Андрея Большого, брата Ивана III. Это одно из старейших гражданских кирпичных зданий в России: стены украшены узорной кладкой, а внутри сохранились своды XV века.\n\nЧерез сто лет здесь жил царевич Дмитрий — младший сын Ивана Грозного, отправленный с матерью Марией Нагой в Углич после смерти отца. Здесь же, во дворе, 15 мая 1591 года восьмилетний мальчик погиб.\n\nСледственная комиссия Василия Шуйского решила, что царевич в припадке падучей сам упал на нож. Но многие верили, что его убили по приказу Бориса Годунова, — и историки спорят об этом до сих пор. Сейчас в палатах — экспозиция об угличском деле.",
+                  "en": "The Chambers of the Uglich Princes were built in the 1480s for Prince Andrei the Elder, brother of Ivan III. It is one of the oldest secular brick buildings in Russia: the walls are decorated with patterned brickwork, and 15th-century vaults survive inside.\n\nA hundred years later Tsarevich Dmitry lived here — Ivan the Terrible's youngest son, sent to Uglich with his mother Maria Nagaya after his father's death. Here, in the courtyard, the eight-year-old boy died on 15 May 1591.\n\nVasily Shuisky's commission ruled that the prince fell on his knife during a seizure. But many believed he was killed on the orders of Boris Godunov — and historians still argue about it. The chambers now hold an exhibition about the Uglich case."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Узорную кирпичную кладку на фасаде",
+                    "Своды XV века внутри палат"
+                  ],
+                  "en": [
+                    "The patterned brickwork on the facade",
+                    "The 15th-century vaults inside"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Палатам больше 500 лет — они старше многих зданий Московского кремля.",
+                    "Через 15 лет после гибели Дмитрия Шуйский, уже царь, объявил его мучеником, и царевича причислили к святым."
+                  ],
+                  "en": [
+                    "The chambers are over 500 years old — older than many buildings of the Moscow Kremlin.",
+                    "Fifteen years after Dmitry's death Shuisky, by then tsar himself, declared him a martyr, and the prince was canonised."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто вёл следствие по делу о гибели царевича Дмитрия?",
+                    "en": "Who led the inquiry into Tsarevich Dmitry's death?"
+                  },
+                  "options": {
+                    "ru": ["Василий Шуйский", "Борис Годунов", "Кузьма Минин"],
+                    "en": ["Vasily Shuisky", "Boris Godunov", "Kuzma Minin"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Комиссия князя Василия Шуйского признала смерть несчастным случаем; позже, став царём, Шуйский сам изменил эту версию.",
+                    "en": "Prince Vasily Shuisky's commission called it an accident; later, as tsar, Shuisky himself changed the story."
+                  }
+                },
+                "approach": {
+                  "ru": "Спуститесь с холма к кремлю — около 10 минут по улицам старого города.",
+                  "en": "Walk down from the hill to the kremlin — about 10 minutes through the old streets."
+                }
+              }
             },
             {
               "id": "uglich-blood",
-              "title": {"ru": "Церковь царевича Димитрия «на крови»", "en": "Church of St Dmitry on the Blood"},
+              "title": {
+                "ru": "Церковь царевича Димитрия «на крови»",
+                "en": "Church of St Dmitry on the Blood"
+              },
               "coordinate": [57.52961, 38.31858],
               "category": "church",
               "visit": 30,
@@ -69,7 +259,66 @@
                 "ru": "Смотритель иногда разрешает ударить в «ссыльный» колокол — говорят, это исполняет желания.",
                 "en": "The keeper sometimes lets visitors strike the exiled bell — they say it makes wishes come true."
               },
-              "wiki": {"ru": "Церковь Димитрия на Крови (Углич)"}
+              "wiki": {"ru": "Церковь Димитрия на Крови (Углич)"},
+              "guide": {
+                "story": {
+                  "ru": "Ярко-красная церковь царевича Димитрия «на крови» построена в 1692 году на месте, где погиб царевич. Её синие главы с золотыми звёздами — одна из самых узнаваемых картин Углича.\n\nВнутри хранится колокол, в который в тот майский день ударили в набат. На звон сбежался народ, начались самосуды над теми, кого считали убийцами. За это колокол «наказали» как бунтовщика: по преданию, ему вырвали язык, высекли плетьми и сослали в Тобольск — первым ссыльным в Сибирь.\n\nТолько в 1892 году, после долгих хлопот угличан, колокол вернули домой. Росписи XIX века на стенах церкви рассказывают историю царевича.",
+                  "en": "The bright red Church of Tsarevich Dmitry 'on the Blood' was built in 1692 where the prince died. Its blue domes with golden stars are one of the best-known sights of Uglich.\n\nInside hangs the bell that rang the alarm on that May day. People came running at its sound, and those believed to be the killers were lynched. For this the bell was 'punished' like a rebel: tradition says its tongue was torn out, it was flogged and exiled to Tobolsk — the first exile to Siberia.\n\nOnly in 1892, after long efforts by the townspeople, was the bell brought home. The 19th-century paintings on the walls tell the prince's story."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Ссыльный» колокол внутри церкви",
+                    "Синие главы с золотыми звёздами",
+                    "Росписи о гибели царевича"
+                  ],
+                  "en": [
+                    "The 'exiled' bell inside the church",
+                    "The blue domes with golden stars",
+                    "The paintings of the prince's death"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокол провёл в ссылке в Тобольске около трёхсот лет.",
+                    "«Ссыльный» колокол весит около 300 килограммов — его везли в Сибирь на санях и подводах."
+                  ],
+                  "en": [
+                    "The bell spent about three hundred years in exile in Tobolsk.",
+                    "The 'exiled' bell weighs about 300 kilograms — it was taken to Siberia by sledge and cart."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, что по дороге в Сибирь колокол везли угличские ссыльные — те, кто бил в набат. И якобы они знали, что колоколу ещё суждено вернуться. А сегодня считается: если ударить в «ссыльный» колокол и загадать желание, оно сбудется.",
+                  "en": "They say the bell was taken to Siberia by exiled townsmen — the very ones who had rung the alarm — and that they knew it was destined to come back. Today people believe that if you strike the 'exiled' bell and make a wish, it will come true."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как «наказали» колокол, ударивший в набат в 1591 году?",
+                    "en": "How was the bell that rang the alarm in 1591 'punished'?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Высекли и сослали в Тобольск",
+                      "Переплавили в пушку",
+                      "Утопили в Волге"
+                    ],
+                    "en": [
+                      "It was flogged and exiled to Tobolsk",
+                      "It was melted into a cannon",
+                      "It was sunk in the Volga"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "По преданию, колоколу вырвали язык, высекли его и отправили в ссылку в Сибирь; вернулся он только через три века.",
+                    "en": "Tradition says its tongue was torn out, it was flogged and sent to Siberia; it came back only three centuries later."
+                  }
+                },
+                "approach": {
+                  "ru": "Церковь стоит в кремле, в двух шагах от княжеских палат.",
+                  "en": "The church stands inside the kremlin, a few steps from the princes' chambers."
+                }
+              }
             },
             {
               "id": "uglich-transfiguration",
@@ -81,7 +330,37 @@
                 "ru": "Главный собор кремля начала XVIII века с огромным залом, расписанным в XIX веке. Рядом — колокольня, с которой видно Волгу и заволжские дали.",
                 "en": "The kremlin's main cathedral from the early 18th century, with a vast hall painted in the 19th century. Next to it stands the bell tower overlooking the Volga."
               },
-              "wiki": {"ru": "Спасо-Преображенский собор (Углич)"}
+              "wiki": {"ru": "Спасо-Преображенский собор (Углич)"},
+              "guide": {
+                "story": {
+                  "ru": "Спасо-Преображенский собор — главный храм кремля, построенный в 1713 году на месте старого собора. Снаружи он строгий, а внутри поражает просторным залом без столбов и стенами, сплошь покрытыми росписями начала XIX века.\n\nРядом с собором — колокольня, с которой открывается вид на Волгу, плотину и заволжские дали. Отсюда хорошо видно, как река делает здесь крутой поворот — тот самый «угол», который, возможно, дал имя городу.",
+                  "en": "The Transfiguration Cathedral is the kremlin's main church, built in 1713 on the site of an older cathedral. Outside it is austere, but inside it amazes with a spacious hall without pillars and walls entirely covered in early 19th-century paintings.\n\nBeside it is a bell tower with a view of the Volga, the dam and the lands beyond the river. From here you can see clearly how the river makes a sharp turn — the very 'corner' that may have given the town its name."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Зал без внутренних столбов",
+                    "Крутой поворот Волги с колокольни"
+                  ],
+                  "en": [
+                    "The hall without inner pillars",
+                    "The sharp bend of the Volga from the bell tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Росписи собора выполнены в начале XIX века ярославскими и угличскими мастерами.",
+                    "Одна из версий названия Углича — от «угла», крутого изгиба Волги у города."
+                  ],
+                  "en": [
+                    "The cathedral's paintings were made in the early 19th century by painters from Yaroslavl and Uglich.",
+                    "One explanation of the name Uglich is 'ugol' — the corner, the sharp bend of the Volga by the town."
+                  ]
+                },
+                "approach": {
+                  "ru": "Собор — в центре кремля, рядом с церковью «на крови».",
+                  "en": "The cathedral is in the middle of the kremlin, next to the Church on the Blood."
+                }
+              }
             },
             {
               "id": "uglich-voskresensky",
@@ -93,19 +372,102 @@
                 "ru": "Монастырский ансамбль 1670-х годов на берегу Волги, построенный на средства ростовского митрополита Ионы Сысоевича — того же, что выстроил Ростовский кремль. Высокая шатровая колокольня видна издалека с реки.",
                 "en": "A monastery ensemble of the 1670s on the Volga bank, paid for by Metropolitan Iona Sysoevich of Rostov — the same man who built the Rostov Kremlin. Its tall tented bell tower is visible far along the river."
               },
-              "wiki": {"ru": "Воскресенский монастырь (Углич)"}
+              "wiki": {"ru": "Воскресенский монастырь (Углич)"},
+              "guide": {
+                "story": {
+                  "ru": "Воскресенский монастырь построен в 1670-х годах на средства ростовского митрополита Ионы Сысоевича — того самого, что выстроил Ростовский кремль. Поэтому ансамбль здесь напоминает ростовский: собор, трапезная и высокая шатровая колокольня, соединённые в одно целое.\n\nМонастырь стоит прямо у Волги, и его колокольня — один из главных ориентиров для теплоходов, подходящих к Угличу. После водохранилища вода подошла почти к его стенам.",
+                  "en": "The Resurrection Monastery was built in the 1670s with funds from Metropolitan Iona Sysoevich of Rostov — the same man who built the Rostov kremlin. That's why the ensemble resembles Rostov's: a cathedral, a refectory and a tall tented bell tower joined into one whole.\n\nThe monastery stands right by the Volga, and its bell tower is a key landmark for ships approaching Uglich. Since the reservoir was created, the water has come almost up to its walls."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Шатровую колокольню над Волгой",
+                    "Сходство с ростовским кремлём в постройках"
+                  ],
+                  "en": [
+                    "The tented bell tower above the Volga",
+                    "The likeness to the Rostov kremlin in its buildings"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Иона Сысоевич строил и в Ростове, и в Угличе — его постройки узнают по похожим формам.",
+                    "Колокольня монастыря видна с палубы теплохода задолго до причала."
+                  ],
+                  "en": [
+                    "Iona Sysoevich built in both Rostov and Uglich — his buildings are recognisable by their similar forms.",
+                    "The monastery bell tower is visible from a ship's deck long before it docks."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 10 минут на юг вдоль Волги от кремля.",
+                  "en": "About 10 minutes south along the Volga from the kremlin."
+                }
+              }
             },
             {
               "id": "uglich-lock",
               "title": {"ru": "Угличская ГЭС и шлюз", "en": "Uglich dam and lock"},
-              "coordinate": [57.52750, 38.29778],
+              "coordinate": [57.5275, 38.29778],
               "category": "viewpoint",
               "visit": 20,
               "details": {
                 "ru": "Плотина и шлюз 1930-х годов, при строительстве которых часть старого города ушла под воду водохранилища. Летом можно понаблюдать, как огромные теплоходы поднимаются и опускаются в камере шлюза.",
                 "en": "The dam and lock of the 1930s, whose construction flooded part of the old town under the reservoir. In summer you can watch huge cruise ships rise and fall inside the lock chamber."
               },
-              "wiki": {"ru": "Угличская ГЭС", "en": "Uglich Hydroelectric Station"}
+              "wiki": {"ru": "Угличская ГЭС", "en": "Uglich Hydroelectric Station"},
+              "guide": {
+                "story": {
+                  "ru": "Угличскую ГЭС и шлюз строили в 1930-е годы, во многом руками заключённых Волголага. Плотина подняла уровень Волги, и под водой оказались сёла, часть старого города и Никольский монастырь.\n\nШлюз устроен как огромная водяная ступенька: теплоход заходит в камеру, ворота закрываются, и вода медленно поднимает или опускает судно на уровень другой части реки. Посмотреть на это вблизи — завораживающее зрелище.\n\nРядом с плотиной — памятное место жертвам строительства Волжского каскада.",
+                  "en": "The Uglich hydroelectric dam and lock were built in the 1930s, largely by prisoners of the Volgolag camp. The dam raised the Volga, and villages, part of the old town and the Nikolsky Monastery disappeared under the water.\n\nThe lock works like a giant water step: a ship enters the chamber, the gates close, and the water slowly raises or lowers the vessel to the level of the other part of the river. Watching it up close is mesmerising.\n\nNear the dam is a memorial to the victims of the construction of the Volga cascade."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Теплоход в камере шлюза",
+                    "Ворота шлюза — посмотрите, как они открываются"
+                  ],
+                  "en": [
+                    "A ship in the lock chamber",
+                    "The lock gates — watch them open"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Угличская ГЭС — одна из ступеней Волжского каскада, превратившего реку в цепочку водохранилищ.",
+                    "При строительстве каскада под воду ушли десятки сёл и несколько старинных городов, например Молога."
+                  ],
+                  "en": [
+                    "The Uglich dam is one step of the Volga cascade, which turned the river into a chain of reservoirs.",
+                    "The cascade flooded dozens of villages and several old towns, such as Mologa."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Для чего нужен шлюз рядом с плотиной?",
+                    "en": "What is the lock next to the dam for?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Чтобы суда переходили с одного уровня воды на другой",
+                      "Чтобы чистить воду",
+                      "Чтобы разводить рыбу"
+                    ],
+                    "en": [
+                      "To move ships between two water levels",
+                      "To clean the water",
+                      "To breed fish"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Плотина делит реку на два уровня, и шлюз, как лифт, поднимает или опускает судно.",
+                    "en": "The dam splits the river into two levels, and the lock lifts or lowers ships like an elevator."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут вдоль берега на запад от Воскресенского монастыря.",
+                  "en": "About 10 minutes west along the bank from the Resurrection Monastery."
+                }
+              }
             }
           ]
         }

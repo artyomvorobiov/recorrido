@@ -16,7 +16,100 @@
     "emoji": "🔔",
     "size": "small",
     "tags": ["golden-ring"],
-    "wiki": {"ru": "Ростов", "en": "Rostov Veliky"}
+    "wiki": {"ru": "Ростов", "en": "Rostov Veliky"},
+    "guide": {
+      "story": {
+        "ru": "Ростов — один из старейших городов Руси: летопись упоминает его под 862 годом. Задолго до Москвы он был центром огромной земли на северо-востоке и одной из первых епархий, а озеро Неро и окрестные сёла кормили его веками.\n\nВ XVII веке митрополит Иона Сысоевич выстроил здесь свой «кремль» — не крепость, а сказочную резиденцию с надвратными церквями, палатами, садами и прудами. С тех пор силуэт ростовского кремля над озером — одна из самых узнаваемых картин Золотого кольца.\n\nРостов славился огородниками — зелёным горошком, луком и цикорием, — а ещё финифтью и колокольными звонами. Город небольшой и тихий, и лучше всего он раскрывается неспешно: на стенах кремля, на берегу Неро и под звон колоколов.",
+        "en": "Rostov is one of the oldest towns of Rus: the chronicles mention it in 862. Long before Moscow it was the centre of a vast north-eastern land and one of the first dioceses, and Lake Nero and the surrounding villages fed it for centuries.\n\nIn the 17th century Metropolitan Iona Sysoevich built his 'kremlin' here — not a fortress but a fairy-tale residence with gate churches, chambers, gardens and ponds. Ever since, the kremlin's silhouette above the lake has been one of the best-known pictures of the Golden Ring.\n\nRostov was famous for its market gardeners — green peas, onions and chicory — and also for enamel painting and the sound of its bells. The town is small and quiet and reveals itself best at a slow pace: on the kremlin walls, on the shore of Nero and to the ringing of bells."
+      },
+      "history": [
+        {
+          "year": "862",
+          "text": {
+            "ru": "Ростов упомянут в летописи среди городов, которыми правил Рюрик.",
+            "en": "Rostov is mentioned in the chronicles among the towns ruled by Rurik."
+          }
+        },
+        {
+          "year": "1474",
+          "text": {
+            "ru": "Ростовское княжество окончательно переходит к Москве при Иване III.",
+            "en": "The Principality of Rostov finally passes to Moscow under Ivan III."
+          }
+        },
+        {
+          "year": "1670–1683",
+          "text": {
+            "ru": "Митрополит Иона Сысоевич строит свою резиденцию — Ростовский кремль.",
+            "en": "Metropolitan Iona Sysoevich builds his residence, the Rostov kremlin."
+          }
+        },
+        {
+          "year": "1688",
+          "text": {
+            "ru": "Отлит колокол «Сысой» весом около 32 тонн.",
+            "en": "The Sysoy bell, weighing about 32 tonnes, is cast."
+          }
+        },
+        {
+          "year": "1883",
+          "text": {
+            "ru": "В кремле открывается музей церковных древностей.",
+            "en": "A museum of church antiquities opens in the kremlin."
+          }
+        },
+        {
+          "year": "1953",
+          "text": {
+            "ru": "Сильный ураган повреждает купола и кровли кремля; их долго восстанавливают.",
+            "en": "A violent storm damages the kremlin's domes and roofs; restoring them takes years."
+          }
+        },
+        {
+          "year": "1973",
+          "text": {
+            "ru": "На стенах кремля снимают «Иван Васильевич меняет профессию».",
+            "en": "Scenes of the comedy 'Ivan Vasilievich Changes Profession' are filmed on the kremlin walls."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Напиток из цикория — Ростов когда-то был цикорной столицей России",
+          "Рыбу из озера Неро",
+          "Пироги с луком и зелёным горошком — дань ростовским огородникам"
+        ],
+        "en": [
+          "A chicory drink — Rostov was once Russia's chicory capital",
+          "Fish from Lake Nero",
+          "Pies with onion and green peas, a nod to Rostov's market gardeners"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Финифть: брошь, серьги или шкатулку с эмалевой миниатюрой",
+          "Цикорий в красивой упаковке",
+          "Колокольчики с видами кремля"
+        ],
+        "en": [
+          "Enamel: a brooch, earrings or a little box with an enamel miniature",
+          "Chicory in a nice package",
+          "Little bells with views of the kremlin"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Билет на переходы по стенам кремля продаётся отдельно — не пропустите его",
+          "На звоннице иногда можно заказать концерт звонов — спросите в кассе музея",
+          "На закате пройдите вдоль Неро: купола кремля и монастырей отражаются в воде"
+        ],
+        "en": [
+          "Tickets for the walkways on the kremlin walls are sold separately — don't miss them",
+          "Sometimes you can book a bell concert at the belfry — ask at the museum ticket office",
+          "Walk along Nero at sunset: the domes of the kremlin and monasteries are mirrored in the water"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,6 +119,10 @@
         "ru": "Древний Авраамиев монастырь, прогулка по стенам кремля, звонница с колоколами-великанами, мастерская финифти и путь вдоль озера Неро к Спасо-Яковлевскому монастырю. По желанию — поездка в Борисоглебский монастырь-крепость.",
         "en": "The ancient Avraamiev Monastery, a walk along the kremlin walls, a belfry with giant bells, an enamel workshop and a lakeside walk to the Spaso-Yakovlevsky Monastery. Optionally, a drive to the fortress-like Borisoglebsky Monastery."
       },
+      "intro": {
+        "ru": "Маршрут пеший, около 5 км: от Авраамиева монастыря через кремль и мастерскую финифти к озеру и Спасо-Яковлевскому монастырю. На кремль заложите минимум два часа. Борисоглебский монастырь — по желанию, на машине.",
+        "en": "The walk is about 5 km: from the Avraamiev Monastery through the kremlin and the enamel workshop to the lake and the Spaso-Yakovlevsky Monastery. Allow at least two hours for the kremlin. The Borisoglebsky Monastery is optional, by car."
+      },
       "emoji": "🔔",
       "tags": ["walk", "car"],
       "days": [
@@ -34,19 +131,49 @@
             {
               "id": "rostov-avraamiev",
               "title": {"ru": "Авраамиев монастырь", "en": "Avraamiev Monastery"},
-              "coordinate": [57.19020, 39.42420],
+              "coordinate": [57.1902, 39.4242],
               "category": "church",
               "visit": 30,
               "details": {
                 "ru": "Один из самых древних монастырей России, основанный, по преданию, в XI веке преподобным Авраамием Ростовским. Его Богоявленский собор построен в 1553–1554 годах по повелению Ивана Грозного в память о взятии Казани.",
                 "en": "One of Russia's oldest monasteries, founded, according to tradition, by St Abraham of Rostov in the 11th century. Its Epiphany Cathedral was built in 1553–1554 on Ivan the Terrible's orders to mark the capture of Kazan."
               },
-              "wiki": {"ru": "Авраамиев монастырь", "en": "Avraamiev Monastery"}
+              "wiki": {"ru": "Авраамиев монастырь", "en": "Avraamiev Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "Авраамиев монастырь — один из самых древних в России. По преданию, его основал в XI веке преподобный Авраамий Ростовский. В те времена в Ростове ещё почитали языческого Велеса, и, как рассказывает житие, Авраамий сокрушил каменного идола посохом, полученным в видении от Иоанна Богослова, а на месте капища поставил церковь.\n\nГлавный Богоявленский собор построен в 1553–1554 годах по повелению Ивана Грозного в память о взятии Казани. Его тяжёлые главы и стены видели почти пять столетий ростовской истории.\n\nСейчас монастырь снова действующий. Здесь тише, чем у кремля, — хорошее начало прогулки.",
+                  "en": "The Avraamiev Monastery is one of the oldest in Russia. Tradition says it was founded in the 11th century by St Abraham of Rostov. Rostov still worshipped the pagan god Veles then, and according to his Life, Abraham smashed the stone idol with a staff received in a vision from St John the Theologian and built a church where the shrine had stood.\n\nThe main Epiphany Cathedral was built in 1553–1554 on Ivan the Terrible's orders to mark the capture of Kazan. Its heavy domes and walls have seen almost five centuries of Rostov's history.\n\nThe monastery is active again. It is quieter here than at the kremlin — a good start to the walk."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Тяжёлые главы Богоявленского собора",
+                    "Монастырскую колокольню над озёрной низиной"
+                  ],
+                  "en": [
+                    "The heavy domes of the Epiphany Cathedral",
+                    "The monastery bell tower above the lakeside lowland"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Богоявленский собор построен в память о взятии Казани в 1552 году — так же, как храм Василия Блаженного в Москве.",
+                    "Велес — славянский бог скота и богатства; его культ в Ростовской земле держался дольше, чем во многих других местах."
+                  ],
+                  "en": [
+                    "The Epiphany Cathedral commemorates the capture of Kazan in 1552 — just like St Basil's in Moscow.",
+                    "Veles was the Slavic god of cattle and wealth; his cult lasted longer in the Rostov land than in many other places."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что Авраамий долго не мог одолеть идола Велеса, пока не встретил у реки старца, который дал ему посох. Это был Иоанн Богослов. От одного удара посоха каменный идол рассыпался в прах.",
+                  "en": "They say Abraham could not overcome the idol of Veles until he met an old man by the river who gave him a staff. It was St John the Theologian. At a single blow of the staff the stone idol crumbled to dust."
+                }
+              }
             },
             {
               "id": "rostov-kremlin",
               "title": {"ru": "Ростовский кремль", "en": "Rostov Kremlin"},
-              "coordinate": [57.18460, 39.41552],
+              "coordinate": [57.1846, 39.41552],
               "category": "castle",
               "visit": 120,
               "details": {
@@ -57,43 +184,200 @@
                 "ru": "Билет на переходы по стенам продаётся отдельно — он того стоит.",
                 "en": "The ticket for the wall walkways is sold separately — it is worth it."
               },
-              "wiki": {"ru": "Ростовский кремль", "en": "Rostov Kremlin"}
+              "wiki": {"ru": "Ростовский кремль", "en": "Rostov Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Ростовский кремль — на самом деле не крепость, а резиденция митрополита Ионы Сысоевича, построенная в 1670–1683 годах. Стены и башни здесь скорее декорация: они окружают «рай на земле» — палаты, надвратные церкви, Митрополичий сад и пруд.\n\nСамое интересное — пройти по крытым переходам на стенах: отсюда видно дворы, купола и озеро Неро. Именно здесь снимали погоню из комедии «Иван Васильевич меняет профессию». Загляните в надвратные церкви Воскресения и Иоанна Богослова — их стены расписаны сверху донизу.\n\nВ 1953 году ураган сорвал многие купола и кровли кремля. Реставрация шла долгие годы, и сегодня ансамбль снова выглядит так, как его задумал Иона.",
+                  "en": "The Rostov kremlin is not really a fortress but the residence of Metropolitan Iona Sysoevich, built in 1670–1683. Its walls and towers are mostly scenery: they enclose a 'paradise on earth' — chambers, gate churches, the Metropolitan's Garden and a pond.\n\nThe best thing to do is walk the covered passages along the walls, with views of the courtyards, the domes and Lake Nero. The chase in the comedy 'Ivan Vasilievich Changes Profession' was filmed right here. Look into the gate churches of the Resurrection and of St John the Theologian — their walls are painted from top to bottom.\n\nIn 1953 a storm tore off many of the kremlin's domes and roofs. Restoration took many years, and today the ensemble looks again as Iona imagined it."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Крытые галереи на стенах",
+                    "Росписи надвратной церкви Воскресения",
+                    "Митрополичий сад и пруд внутри стен"
+                  ],
+                  "en": [
+                    "The covered galleries on the walls",
+                    "The paintings of the Resurrection gate church",
+                    "The Metropolitan's Garden and pond inside the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Кремль строился как образ небесного Иерусалима, поэтому в нём так много церквей над воротами.",
+                    "Эпизод погони в фильме «Иван Васильевич меняет профессию» снимали на стенах ростовского кремля."
+                  ],
+                  "en": [
+                    "The kremlin was built as an image of the heavenly Jerusalem — hence so many churches above its gates.",
+                    "The chase in 'Ivan Vasilievich Changes Profession' was filmed on the walls of the Rostov kremlin."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Для чего на самом деле построили Ростовский кремль?",
+                    "en": "What was the Rostov kremlin really built as?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Как резиденцию митрополита",
+                      "Как крепость против Орды",
+                      "Как царский дворец"
+                    ],
+                    "en": [
+                      "A metropolitan's residence",
+                      "A fortress against the Horde",
+                      "A royal palace"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Митрополит Иона Сысоевич строил «рай на земле» — свою резиденцию; стены здесь почти декоративные.",
+                    "en": "Metropolitan Iona Sysoevich built a 'paradise on earth' — his own residence; the walls are largely decorative."
+                  }
+                },
+                "approach": {
+                  "ru": "От Авраамиева монастыря идите вдоль озера к центру — около 15 минут до кремля.",
+                  "en": "From the Avraamiev Monastery walk along the lake towards the centre — about 15 minutes to the kremlin."
+                }
+              }
             },
             {
               "id": "rostov-belfry",
               "title": {"ru": "Успенский собор и звонница", "en": "Dormition Cathedral and the belfry"},
-              "coordinate": [57.18490, 39.41350],
+              "coordinate": [57.1849, 39.4135],
               "category": "church",
               "visit": 30,
               "details": {
                 "ru": "Огромный Успенский собор XVI века стоит рядом с кремлём, а его звонница хранит один из лучших наборов колоколов в России. Самый большой колокол, «Сысой», весит около 32 тонн. Ростовские звоны записывали на пластинки ещё в 1960-х.",
                 "en": "The huge 16th-century Dormition Cathedral stands beside the kremlin, and its belfry holds one of the finest sets of bells in Russia. The largest bell, Sysoy, weighs about 32 tonnes. Rostov bell ringing was recorded on vinyl back in the 1960s."
               },
-              "wiki": {"ru": "Успенский собор (Ростов)"}
+              "wiki": {"ru": "Успенский собор (Ростов)"},
+              "guide": {
+                "story": {
+                  "ru": "Огромный Успенский собор XVI века стоит рядом с кремлём, а возле него — звонница, построенная при Ионе Сысоевиче. На ней висят пятнадцать колоколов, и каждый имеет своё имя. Самый большой, «Сысой», отлит в 1688 году и весит около 32 тонн; есть «Полиелейный», «Лебедь», «Баран» и «Козёл».\n\nРостовские звоны знамениты на всю Россию: звонари исполняют их по старинным нотам-«звонам», каждый из которых носит своё название — Ионинский, Акимовский, Егорьевский. В 1960-е годы их записали на пластинки, и ростовский звон услышали во многих странах.\n\nЕсли вам повезёт оказаться здесь во время звона, встаньте поближе: низкий голос «Сысоя» чувствуется всем телом.",
+                  "en": "The huge 16th-century Dormition Cathedral stands next to the kremlin, and beside it is the belfry built under Iona Sysoevich. Fifteen bells hang there, each with its own name. The largest, Sysoy, was cast in 1688 and weighs about 32 tonnes; others are called Polyeleos, Swan, Ram and Goat.\n\nRostov's bell-ringing is famous across Russia: the ringers play old named peals — the Iona, the Akim, the Yegor. In the 1960s they were recorded on records, and the sound of Rostov's bells was heard in many countries.\n\nIf you are lucky enough to be here during a peal, stand close: Sysoy's deep voice is felt with your whole body."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Сысой» — самый большой колокол звонницы",
+                    "Звонарей на площадке — они звонят и руками, и ногами"
+                  ],
+                  "en": [
+                    "Sysoy, the largest bell in the belfry",
+                    "The ringers on the platform, who ring with both hands and feet"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокол «Сысой» весит около 32 тонн — это примерно 2000 пудов.",
+                    "Ростовские звоны в 1963 году записали на пластинку — одна из первых записей русского колокольного звона."
+                  ],
+                  "en": [
+                    "The Sysoy bell weighs about 32 tonnes — roughly 2,000 poods.",
+                    "Rostov's bells were recorded in 1963 — one of the first recordings of Russian bell-ringing."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как зовут самый большой колокол ростовской звонницы?",
+                    "en": "What is the name of the largest bell in the Rostov belfry?"
+                  },
+                  "options": {"ru": ["Сысой", "Царь", "Благовест"], "en": ["Sysoy", "Tsar", "Blagovest"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Сысой» назван в честь отца митрополита Ионы Сысоевича и весит около 32 тонн.",
+                    "en": "Sysoy is named after the father of Metropolitan Iona Sysoevich and weighs about 32 tonnes."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор и звонница — у северной стены кремля, пара минут от ворот.",
+                  "en": "The cathedral and belfry stand by the kremlin's north wall, a couple of minutes from the gates."
+                }
+              }
             },
             {
               "id": "rostov-finift",
               "title": {"ru": "Ростовская финифть", "en": "Rostov enamel"},
-              "coordinate": [57.18670, 39.41980],
+              "coordinate": [57.1867, 39.4198],
               "category": "museum",
               "visit": 40,
               "details": {
                 "ru": "Финифть — расписная эмаль на металле, ремеслу в Ростове больше двухсот лет. В музее фабрики можно увидеть старинные миниатюры, понаблюдать за художниками и выбрать брошь или шкатулку на память.",
                 "en": "Finift is painted enamel on metal, a craft practised in Rostov for more than two centuries. The factory museum shows old miniatures, lets you watch the painters at work and sells brooches and boxes as souvenirs."
               },
-              "wiki": {"ru": "Ростовская финифть"}
+              "wiki": {"ru": "Ростовская финифть"},
+              "guide": {
+                "story": {
+                  "ru": "Финифть — это живопись эмалевыми красками по металлу, которую обжигают в печи. В Ростове её делают с XVIII века: сначала это были маленькие иконки и образки, потом броши, серьги, шкатулки и портреты.\n\nМастер наносит рисунок тончайшей кистью, слой за слоем, и после каждого слоя изделие отправляется в печь при температуре около 800 градусов. Краски не тускнеют веками — поэтому старинные миниатюры выглядят так, будто написаны вчера.\n\nВ музее фабрики можно увидеть старые работы, а иногда — понаблюдать за художниками и самому выбрать изделие на память.",
+                  "en": "Finift is painting in enamel on metal, fired in a kiln. Rostov has made it since the 18th century: first small icons and medallions, then brooches, earrings, boxes and portraits.\n\nThe artist paints with an extremely fine brush, layer by layer, and after each layer the piece goes into a kiln at around 800 degrees. The colours do not fade for centuries — that's why old miniatures look as if they were painted yesterday.\n\nThe factory museum shows old works, and sometimes you can watch the artists and pick a piece to take home."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Миниатюры с видами ростовского кремля",
+                    "Тончайшие кисти на рабочем столе художника"
+                  ],
+                  "en": [
+                    "Miniatures with views of the Rostov kremlin",
+                    "The extremely fine brushes on an artist's desk"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Эмаль для финифти — это стекло, смолотое в порошок: в печи оно плавится и превращается в гладкий блестящий слой.",
+                    "Ростовской финифти больше двухсот лет, и её до сих пор делают вручную."
+                  ],
+                  "en": [
+                    "Enamel is glass ground into powder: in the kiln it melts into a smooth glossy layer.",
+                    "Rostov enamel is more than two hundred years old and is still made by hand."
+                  ]
+                },
+                "approach": {
+                  "ru": "От кремля — несколько минут пешком по центру.",
+                  "en": "A few minutes' walk from the kremlin through the centre."
+                }
+              }
             },
             {
               "id": "rostov-nero",
               "title": {"ru": "Набережная озера Неро", "en": "Lake Nero embankment"},
-              "coordinate": [57.18330, 39.41030],
+              "coordinate": [57.1833, 39.4103],
               "category": "nature",
               "visit": 20,
               "details": {
                 "ru": "Неро — одно из древнейших озёр Европы, возраст которого оценивают в сотни тысяч лет. С набережной видны кремлёвские купола, а вдоль воды тянется прогулочная дорога к Спасо-Яковлевскому монастырю.",
                 "en": "Nero is one of the oldest lakes in Europe, estimated to be hundreds of thousands of years old. From the embankment you can see the kremlin domes, and a lakeside path leads to the Spaso-Yakovlevsky Monastery."
               },
-              "wiki": {"ru": "Неро", "en": "Lake Nero"}
+              "wiki": {"ru": "Неро", "en": "Lake Nero"},
+              "guide": {
+                "story": {
+                  "ru": "Озеро Неро — одно из древнейших в Европе: его возраст оценивают в сотни тысяч лет. Оно мелкое, в среднем всего пару метров глубиной, но огромное, и его дно покрыто толстым слоем ила — сапропеля.\n\nОзеро кормило Ростов рыбой, а по его берегам веками жили люди: археологи находят здесь стоянки древнего народа меря. С набережной открывается классический вид Ростова — купола кремля над водой, а вдоль берега тянется дорога к Спасо-Яковлевскому монастырю.\n\nНа закате вода становится зеркальной, и в ней отражаются сразу и кремль, и монастыри.",
+                  "en": "Lake Nero is one of the oldest lakes in Europe, estimated at hundreds of thousands of years. It is shallow — only a couple of metres deep on average — but huge, and its bed is covered with a thick layer of silt, sapropel.\n\nThe lake fed Rostov with fish, and people have lived on its shores for ages: archaeologists find settlements of the ancient Merya people here. The embankment offers the classic view of Rostov — the kremlin's domes above the water — and a road runs along the shore to the Spaso-Yakovlevsky Monastery.\n\nAt sunset the water turns into a mirror, reflecting the kremlin and the monasteries together."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Отражение куполов кремля в воде",
+                    "Острова на озере — их видно с набережной"
+                  ],
+                  "en": [
+                    "The kremlin domes reflected in the water",
+                    "The islands in the lake, visible from the embankment"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Средняя глубина Неро — около 1,5–2 метров, хотя по площади это одно из крупных озёр области.",
+                    "На берегах озера жило финно-угорское племя меря, от которого остались многие местные названия."
+                  ],
+                  "en": [
+                    "Nero's average depth is only about 1.5–2 metres, though it is one of the region's large lakes by area.",
+                    "The Finno-Ugric Merya people lived on its shores and left many local place names."
+                  ]
+                },
+                "approach": {
+                  "ru": "Спуститесь от кремля к воде — набережная начинается прямо под стенами.",
+                  "en": "Go down from the kremlin to the water — the embankment starts right below the walls."
+                }
+              }
             },
             {
               "id": "rostov-yakovlevsky",
@@ -105,12 +389,65 @@
                 "ru": "Белоснежный монастырь на берегу Неро, перестроенный в XVIII–XIX веках в стиле классицизма. Особенно красив вечером, когда его стены и купола отражаются в озере.",
                 "en": "A snow-white monastery on the shore of Lake Nero, rebuilt in the 18th–19th centuries in the classical style. It is loveliest in the evening, when the walls and domes are mirrored in the lake."
               },
-              "wiki": {"ru": "Спасо-Яковлевский монастырь", "en": "Spaso-Yakovlevsky Monastery"}
+              "wiki": {"ru": "Спасо-Яковлевский монастырь", "en": "Spaso-Yakovlevsky Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "Спасо-Яковлевский монастырь основал в 1389 году святитель Иаков Ростовский. Своё нынешнее белоснежное обличье он получил в XVIII–XIX веках: граф Николай Шереметев построил здесь Димитриевскую церковь в стиле классицизма, и монастырь стал похож на дворцовый ансамбль.\n\nЗдесь покоится святитель Димитрий Ростовский — митрополит и писатель, автор многотомных «Четий-Миней», жизнеописаний святых на каждый день года. К его мощам веками шли паломники.\n\nЛучший вид на монастырь — со стороны озера: белые стены, зелёные купола и их отражение в воде.",
+                  "en": "The Spaso-Yakovlevsky Monastery was founded in 1389 by St Jacob of Rostov. It took on its present snow-white look in the 18th–19th centuries: Count Nikolai Sheremetev built the Classical Church of St Demetrius here, and the monastery came to resemble a palace ensemble.\n\nSt Demetrius of Rostov rests here — a metropolitan and writer, author of the many-volume Lives of the Saints for every day of the year. Pilgrims have come to his relics for centuries.\n\nThe best view of the monastery is from the lake: white walls, green domes and their reflection in the water."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Классические колонны Димитриевской церкви",
+                    "Зелёные купола над белыми стенами"
+                  ],
+                  "en": [
+                    "The Classical columns of the Church of St Demetrius",
+                    "The green domes above the white walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Димитриевскую церковь построил граф Николай Шереметев — тот самый, что создал усадьбу Останкино и театр.",
+                    "Димитрий Ростовский написал «Четьи-Минеи» — жития святых, которые читали по всей России."
+                  ],
+                  "en": [
+                    "The Church of St Demetrius was built by Count Nikolai Sheremetev — the creator of the Ostankino estate and its theatre.",
+                    "Demetrius of Rostov wrote the Lives of the Saints read throughout Russia."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какую знаменитую книгу написал святитель Димитрий Ростовский?",
+                    "en": "Which famous work did St Demetrius of Rostov write?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Четьи-Минеи» — жития святых",
+                      "«Повесть временных лет»",
+                      "«Домострой»"
+                    ],
+                    "en": [
+                      "The Lives of the Saints",
+                      "The Primary Chronicle",
+                      "The Domostroy"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Он двадцать лет собирал и писал жития святых на каждый день года.",
+                    "en": "He spent twenty years collecting and writing saints' lives for every day of the year."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 1,5 км вдоль берега Неро на юго-запад — тихая прогулка с видом на воду.",
+                  "en": "About 1.5 km south-west along the shore of Nero — a quiet walk by the water."
+                }
+              }
             },
             {
               "id": "rostov-borisoglebsky",
               "title": {"ru": "Борисоглебский монастырь", "en": "Borisoglebsky Monastery"},
-              "coordinate": [57.26330, 39.14270],
+              "coordinate": [57.2633, 39.1427],
               "category": "castle",
               "visit": 60,
               "details": {
@@ -121,6 +458,38 @@
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 20 км — 25 минут на машине", "en": "About 20 km — 25 minutes by car"}
+              },
+              "guide": {
+                "story": {
+                  "ru": "Борисоглебский монастырь основан в 1363 году, по преданию, с благословения Сергия Радонежского. Его мощные стены с башнями и крытыми галереями появились в XVI веке, и обитель стала настоящей крепостью среди лесов.\n\nНад воротами стоит нарядная надвратная церковь Сретения, а внутри — собор Бориса и Глеба и звонница. В XVII веке здесь подвизался затворник Иринарх, носивший тяжёлые вериги; его благословение получил Кузьма Минин перед походом на Москву.\n\nТуристов здесь гораздо меньше, чем в Ростове, — можно спокойно пройтись по стенам и посидеть в тишине монастырского двора.",
+                  "en": "The Borisoglebsky Monastery was founded in 1363, by tradition with the blessing of St Sergius of Radonezh. Its mighty walls with towers and covered galleries were built in the 16th century, turning it into a real fortress among the forests.\n\nAbove the gates stands the ornate Church of the Presentation, and inside are the Cathedral of Boris and Gleb and a belfry. In the 17th century the hermit Irinarch, who wore heavy chains, lived here; Kuzma Minin received his blessing before marching on Moscow.\n\nThere are far fewer tourists here than in Rostov — you can walk the walls in peace and sit in the quiet courtyard."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Крытые галереи на стенах",
+                    "Надвратную Сретенскую церковь",
+                    "Башни с бойницами"
+                  ],
+                  "en": [
+                    "The covered galleries on the walls",
+                    "The Church of the Presentation above the gates",
+                    "The towers with loopholes"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Стены монастыря построены в XVI веке и сохранились почти целиком.",
+                    "Затворник Иринарх Борисоглебский благословил ополчение Минина и Пожарского."
+                  ],
+                  "en": [
+                    "The monastery walls date from the 16th century and survive almost intact.",
+                    "The hermit Irinarch of Borisoglebsky blessed the militia of Minin and Pozharsky."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 20 км на запад от Ростова, дорога идёт через поля и перелески.",
+                  "en": "About 20 km west of Rostov, through fields and copses."
+                }
               }
             }
           ]
