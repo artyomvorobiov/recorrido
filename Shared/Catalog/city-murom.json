@@ -16,7 +16,107 @@
     "emoji": "🛡️",
     "size": "small",
     "tags": ["golden-ring"],
-    "wiki": {"ru": "Муром", "en": "Murom"}
+    "wiki": {"ru": "Муром", "en": "Murom"},
+    "guide": {
+      "story": {
+        "ru": "Муром — один из древнейших городов Руси: летопись упоминает его под 862 годом. Имя ему дал финно-угорский народ мурома, живший по берегам Оки задолго до славян. Город стоит на высоком левом берегу реки, и с его откосов далеко видно заокские леса.\n\nМуром — родина двух главных героев русского предания. В соседнем селе Карачарово, по былинам, родился богатырь Илья Муромец, а муромский князь Пётр и его жена Феврония, крестьянская дочь и мудрая целительница, стали образцом любви и верности. В день их памяти, 8 июля, по всей России отмечают День семьи, любви и верности.\n\nГород славился калачами — три калача изображены даже на его гербе — и огурцами. А ещё здесь родился Владимир Зворыкин, один из создателей электронного телевидения. Муром спокойный и зелёный: монастыри, купеческие особняки и широкая Ока.",
+        "en": "Murom is one of the oldest towns of Rus: the chronicle mentions it under the year 862. It is named after the Muroma, a Finno-Ugric people who lived along the Oka long before the Slavs. The town stands on the high left bank of the river, and from its bluffs you can see far over the forests beyond the Oka.\n\nMurom is the home of two of the great heroes of Russian tradition. According to the epics, the knight Ilya Muromets was born in the nearby village of Karacharovo, and Prince Peter of Murom and his wife Fevronia, a peasant's daughter and wise healer, became a model of love and faithfulness. On their feast day, 8 July, all of Russia celebrates the Day of Family, Love and Faithfulness.\n\nThe town was famous for kalach loaves — three of them even appear on its coat of arms — and for cucumbers. Vladimir Zworykin, one of the inventors of electronic television, was born here too. Murom is calm and green: monasteries, merchants' mansions and the broad Oka."
+      },
+      "history": [
+        {
+          "year": "862",
+          "text": {
+            "ru": "Муром упомянут в летописи среди городов, подвластных Рюрику.",
+            "en": "Murom is mentioned in the chronicle among the towns ruled by Rurik."
+          }
+        },
+        {
+          "year": "1096",
+          "text": {
+            "ru": "Первое упоминание Спасо-Преображенского монастыря — одного из старейших в России.",
+            "en": "First mention of the Saviour-Transfiguration Monastery, one of the oldest in Russia."
+          }
+        },
+        {
+          "year": "1228",
+          "text": {
+            "ru": "По преданию, в один день умирают князь Пётр и княгиня Феврония.",
+            "en": "According to tradition, Prince Peter and Princess Fevronia die on the same day."
+          }
+        },
+        {
+          "year": "1547",
+          "text": {
+            "ru": "Пётр и Феврония причислены к лику святых.",
+            "en": "Peter and Fevronia are canonised."
+          }
+        },
+        {
+          "year": "1553",
+          "text": {
+            "ru": "По обету Ивана Грозного, данному перед походом на Казань, основан Благовещенский монастырь.",
+            "en": "The Annunciation Monastery is founded on a vow Ivan the Terrible made before his Kazan campaign."
+          }
+        },
+        {
+          "year": "1642–1643",
+          "text": {
+            "ru": "Купец Тарасий Цветнов строит каменный Троицкий собор.",
+            "en": "The merchant Tarasy Tsvetnov builds the stone Trinity Cathedral."
+          }
+        },
+        {
+          "year": "1888",
+          "text": {
+            "ru": "В Муроме родился Владимир Зворыкин, будущий изобретатель кинескопа.",
+            "en": "Vladimir Zworykin, future inventor of the kinescope, is born in Murom."
+          }
+        },
+        {
+          "year": "2008",
+          "text": {
+            "ru": "8 июля становится Днём семьи, любви и верности.",
+            "en": "8 July becomes the Day of Family, Love and Faithfulness."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Муромские калачи — три калача изображены даже на гербе города",
+          "Солёные огурцы — Муром издавна ими славился",
+          "Рыбу из Оки"
+        ],
+        "en": [
+          "Murom kalach loaves — three of them even appear on the town's coat of arms",
+          "Pickled cucumbers — Murom has long been famous for them",
+          "Fish from the Oka"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Калач-сувенир или магнит с гербом",
+          "Ромашки и обереги к празднику Петра и Февронии",
+          "Изделия из бересты и дерева"
+        ],
+        "en": [
+          "A souvenir kalach or a magnet with the coat of arms",
+          "Chamomile flowers and charms for the feast of Peter and Fevronia",
+          "Birch-bark and wooden crafts"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "8 июля город полон гостей — приезжайте ради праздника или выбирайте другие дни ради тишины",
+          "Лучший закат — над Окой у памятника Илье Муромцу",
+          "Между монастырями всё пешком, а в Карачарово удобнее на машине или такси"
+        ],
+        "en": [
+          "On 8 July the town is packed — come for the festival or pick another day for peace and quiet",
+          "The best sunset is over the Oka by the Ilya Muromets monument",
+          "The monasteries are all within walking distance; Karacharovo is easier by car or taxi"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -25,6 +125,10 @@
       "summary": {
         "ru": "Свято-Троицкий монастырь с мощами Петра и Февронии, Благовещенский монастырь, музей в доме купцов Зворыкиных, памятник Илье Муромцу над Окой и Спасо-Преображенский монастырь — один из старейших в стране.",
         "en": "The Holy Trinity Convent with the relics of Peter and Fevronia, the Annunciation Monastery, the museum in the Zvorykin merchant house, the Ilya Muromets monument above the Oka and the Saviour Transfiguration Monastery — one of the oldest in the country."
+      },
+      "intro": {
+        "ru": "Пеший маршрут около 4 км по центру: три монастыря, музей в купеческом особняке и Окский парк с памятником Илье Муромцу. На каждый монастырь заложите 30–40 минут. Карачарово — по желанию, 10 минут на машине.",
+        "en": "A walk of about 4 km around the centre: three monasteries, a museum in a merchant's mansion and Oka Park with the Ilya Muromets monument. Allow 30–40 minutes for each monastery. Karacharovo is optional, 10 minutes by car."
       },
       "emoji": "🛡️",
       "tags": ["walk"],
@@ -45,7 +149,66 @@
                 "ru": "8 июля в Муроме главный праздник года — город полон гостей, а вечером на Оке запускают фейерверк.",
                 "en": "8 July is the town's biggest celebration — Murom fills with visitors and there are fireworks over the Oka in the evening."
               },
-              "wiki": {"ru": "Троицкий монастырь (Муром)"}
+              "wiki": {"ru": "Троицкий монастырь (Муром)"},
+              "guide": {
+                "story": {
+                  "ru": "«Повесть о Петре и Февронии», записанная в XVI веке писателем Ермолаем-Еразмом, рассказывает, как муромский князь Пётр одолел змея, но покрылся язвами от его ядовитой крови. Вылечить князя смогла лишь Феврония, дочь древолаза из рязанского села Ласково, — с условием, что он на ней женится. Пётр нарушил слово, болезнь вернулась, и тогда он сдержал обещание.\n\nБояре не хотели княгиню-крестьянку и велели ей уйти, взяв самое дорогое. Феврония выбрала мужа, и они вместе уплыли из Мурома, но вскоре горожане позвали их обратно. В старости супруги приняли монашество и молились умереть в один день — так и случилось. Их похоронили порознь, но наутро тела оказались в одном гробу.\n\nСегодня мощи святых хранятся в Свято-Троицком монастыре. Его собор построил в 1642–1643 годах купец Тарасий Цветнов и украсил изразцами с травами, диковинными зверями и птицами.",
+                  "en": "The Tale of Peter and Fevronia, written down in the 16th century by Yermolai-Erazm, tells how Prince Peter of Murom slew a serpent but was covered in sores from its poisonous blood. Only Fevronia, the daughter of a beekeeper from the Ryazan village of Laskovo, could cure him — on condition that he married her. Peter broke his word, the illness came back, and then he kept his promise.\n\nThe boyars did not want a peasant princess and told her to leave, taking what she valued most. Fevronia chose her husband, and they sailed away from Murom together, but soon the townspeople called them back. In old age the couple took monastic vows and prayed to die on the same day — and so they did. They were buried apart, but by morning their bodies lay in one coffin.\n\nToday the saints' relics are kept in the Holy Trinity Convent. Its cathedral was built in 1642–1643 by the merchant Tarasy Tsvetnov and decorated with tiles showing herbs, fabulous beasts and birds."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Изразцы с птицами и зверями на стенах собора",
+                    "Раку с мощами Петра и Февронии",
+                    "Надвратную церковь у входа в монастырь"
+                  ],
+                  "en": [
+                    "The tiles with birds and beasts on the cathedral walls",
+                    "The shrine with the relics of Peter and Fevronia",
+                    "The gate church at the monastery entrance"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "День семьи, любви и верности отмечают 8 июля — в день памяти Петра и Февронии.",
+                    "Ромашка — символ праздника Петра и Февронии."
+                  ],
+                  "en": [
+                    "The Day of Family, Love and Faithfulness falls on 8 July, the feast of Peter and Fevronia.",
+                    "The chamomile is the symbol of the feast of Peter and Fevronia."
+                  ]
+                },
+                "legend": {
+                  "ru": "По «Повести», змей являлся жене брата Петра в облике её мужа. Убить его можно было только Агриковым мечом, и Пётр нашёл этот меч в стене монастырской церкви — но кровь змея всё равно его отравила.",
+                  "en": "According to the Tale, the serpent visited the wife of Peter's brother disguised as her husband. It could only be killed with Agrik's sword, and Peter found the sword in the wall of a monastery church — yet the serpent's blood poisoned him all the same."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по преданию, случилось после смерти Петра и Февронии?",
+                    "en": "According to tradition, what happened after Peter and Fevronia died?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Их тела оказались в одном гробу",
+                      "Над Окой встала радуга",
+                      "Ока на день остановилась"
+                    ],
+                    "en": [
+                      "Their bodies were found in one coffin",
+                      "A rainbow rose over the Oka",
+                      "The Oka stood still for a day"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Супругов похоронили порознь, но наутро нашли вместе, в одном гробу, — так их и оставили.",
+                    "en": "The couple were buried apart but found together in one coffin the next morning — and were left that way."
+                  }
+                },
+                "approach": {
+                  "ru": "Монастырь в историческом центре, недалеко от Окского парка.",
+                  "en": "The convent is in the historic centre, not far from Oka Park."
+                }
+              }
             },
             {
               "id": "murom-annunciation",
@@ -57,29 +220,185 @@
                 "ru": "Монастырь, основанный при Иване Грозном после похода на Казань. Белый собор с пятью главами, тенистый двор и, по преданию, место погребения муромского князя Константина и его сыновей.",
                 "en": "A monastery founded under Ivan the Terrible after the Kazan campaign. A white five-domed cathedral, a shady courtyard and, according to tradition, the burial place of Prince Konstantin of Murom and his sons."
               },
-              "wiki": {"ru": "Благовещенский монастырь (Муром)"}
+              "wiki": {"ru": "Благовещенский монастырь (Муром)"},
+              "guide": {
+                "story": {
+                  "ru": "По преданию, в 1552 году, идя походом на Казань, Иван Грозный остановился в Муроме и молился у гробниц князя Константина и его сыновей Михаила и Фёдора. Он дал обет: если возьмёт Казань, построить здесь монастырь. Обет был исполнен — в 1553 году появился Благовещенский монастырь.\n\nКнязь Константин почитается как креститель Мурома. Рассказывают, что язычники-муромцы долго не принимали новую веру и убили его сына Михаила, но в конце концов покорились, когда князь вышел к ним с иконой.\n\nНынешний пятиглавый собор построен в XVII веке. Монастырь небольшой и тихий, с тенистым двором — хорошее место, чтобы передохнуть между прогулками.",
+                  "en": "Tradition says that in 1552, marching on Kazan, Ivan the Terrible stopped in Murom and prayed at the tombs of Prince Konstantin and his sons Mikhail and Fyodor. He vowed that if he took Kazan he would build a monastery here. The vow was kept — the Annunciation Monastery appeared in 1553.\n\nPrince Konstantin is venerated as the baptiser of Murom. They say the pagan townspeople long refused the new faith and killed his son Mikhail, but finally submitted when the prince came out to them with an icon.\n\nThe present five-domed cathedral dates from the 17th century. The monastery is small and quiet, with a shady courtyard — a good place for a rest between walks."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Пять глав собора",
+                    "Раку князей Константина, Михаила и Фёдора",
+                    "Тенистый монастырский двор"
+                  ],
+                  "en": [
+                    "The cathedral's five domes",
+                    "The shrine of Princes Konstantin, Mikhail and Fyodor",
+                    "The shady monastery courtyard"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Монастырь основан в 1553 году по обету Ивана Грозного, данному перед походом на Казань.",
+                    "Князь Константин с сыновьями почитаются как крестители Мурома."
+                  ],
+                  "en": [
+                    "The monastery was founded in 1553 on a vow Ivan the Terrible made before his Kazan campaign.",
+                    "Prince Konstantin and his sons are venerated as the baptisers of Murom."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Иван Грозный основал монастырь в Муроме?",
+                    "en": "Why did Ivan the Terrible found a monastery in Murom?"
+                  },
+                  "options": {
+                    "ru": [
+                      "По обету перед походом на Казань",
+                      "В честь рождения сына",
+                      "После пожара в Москве"
+                    ],
+                    "en": [
+                      "On a vow made before the Kazan campaign",
+                      "To celebrate the birth of a son",
+                      "After a fire in Moscow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Царь обещал построить обитель, если возьмёт Казань, — и в 1553 году исполнил обет.",
+                    "en": "The tsar promised to build a monastery if he took Kazan — and kept his vow in 1553."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 минут пешком от Троицкого монастыря.",
+                  "en": "About 5 minutes' walk from the Trinity Convent."
+                }
+              }
             },
             {
               "id": "murom-museum",
-              "title": {"ru": "Муромский историко-художественный музей", "en": "Murom Museum of History and Art"},
-              "coordinate": [55.57990, 42.05620],
+              "title": {
+                "ru": "Муромский историко-художественный музей",
+                "en": "Murom Museum of History and Art"
+              },
+              "coordinate": [55.5799, 42.0562],
               "category": "museum",
               "visit": 60,
               "details": {
                 "ru": "Музей в особняке купцов Зворыкиных — из этой семьи происходит Владимир Зворыкин, один из изобретателей телевидения. В экспозиции — иконы, живопись, усадебные интерьеры и археологические находки муромы.",
                 "en": "A museum in the mansion of the Zvorykin merchant family — Vladimir Zworykin, one of the inventors of television, came from this family. It shows icons, paintings, period interiors and archaeological finds of the ancient Muroma tribe."
               },
-              "wiki": {"ru": "Муромский историко-художественный музей"}
+              "wiki": {"ru": "Муромский историко-художественный музей"},
+              "guide": {
+                "story": {
+                  "ru": "Музей занимает особняк купцов Зворыкиных — одной из самых богатых семей старого Мурома. В этом доме вырос Владимир Зворыкин: он учился в Петербурге у пионера телевидения Бориса Розинга, после революции уехал в США и там создал иконоскоп и кинескоп — основу электронного телевидения.\n\nВ залах — иконы из муромских храмов, живопись, усадебные интерьеры и археология. Отдельная тема — древняя мурома, финно-угорский народ, давший имя городу: от неё остались бронзовые украшения с подвесками, которые звенели при ходьбе.\n\nМузей помогает увидеть Муром не только городом святых и богатырей, но и богатым купеческим городом XIX века.",
+                  "en": "The museum occupies the mansion of the Zworykin merchants, one of the richest families of old Murom. Vladimir Zworykin grew up in this house: he studied in St Petersburg under the television pioneer Boris Rosing, left for the USA after the revolution and there created the iconoscope and the kinescope — the basis of electronic television.\n\nThe halls hold icons from Murom's churches, paintings, manor interiors and archaeology. A special topic is the ancient Muroma, the Finno-Ugric people who gave the town its name: they left bronze jewellery with pendants that jingled as they walked.\n\nThe museum shows Murom not only as a town of saints and knights but also as a rich 19th-century merchant town."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Бронзовые украшения древней муромы",
+                    "Иконы из муромских храмов",
+                    "Интерьеры купеческого дома"
+                  ],
+                  "en": [
+                    "The bronze jewellery of the ancient Muroma",
+                    "Icons from Murom's churches",
+                    "The interiors of a merchant's house"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Владимир Зворыкин изобрёл иконоскоп и кинескоп — основу электронного телевидения.",
+                    "Мурома — финно-угорский народ; к XII веку он растворился среди славян, оставив городу своё имя."
+                  ],
+                  "en": [
+                    "Vladimir Zworykin invented the iconoscope and the kinescope, the basis of electronic television.",
+                    "The Muroma were a Finno-Ugric people; by the 12th century they had merged with the Slavs, leaving the town their name."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что изобрёл уроженец Мурома Владимир Зворыкин?",
+                    "en": "What did Murom-born Vladimir Zworykin invent?"
+                  },
+                  "options": {
+                    "ru": ["Электронное телевидение", "Радио", "Самолёт"],
+                    "en": ["Electronic television", "The radio", "The aeroplane"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Его иконоскоп и кинескоп — передающая и приёмная трубки — стали основой электронного телевидения.",
+                    "en": "His iconoscope and kinescope — the camera and picture tubes — became the basis of electronic television."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком по старым улицам центра.",
+                  "en": "About 10 minutes' walk through the old streets of the centre."
+                }
+              }
             },
             {
               "id": "murom-ilya",
               "title": {"ru": "Памятник Илье Муромцу", "en": "Ilya Muromets monument"},
-              "coordinate": [55.57060, 42.06150],
+              "coordinate": [55.5706, 42.0615],
               "category": "monument",
               "visit": 15,
               "details": {
                 "ru": "Богатырь с поднятым над головой мечом-крестом стоит в Окском парке на высоком берегу. Памятник работы Вячеслава Клыкова открыт в 1999 году; отсюда лучший вид на Оку и вантовый мост.",
                 "en": "The hero, raising a sword shaped like a cross above his head, stands in Oka Park on the high bank. The monument by Vyacheslav Klykov was unveiled in 1999; this is the best view of the Oka and the cable-stayed bridge."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Былинный Илья Муромец — «крестьянский сын из села Карачарова». Былины рассказывают, что он тридцать три года не владел ногами, пока странники-калики не исцелили его. Обретя богатырскую силу, Илья отправился в Киев служить князю Владимиру, по дороге одолел Соловья-разбойника и стал самым почитаемым из русских богатырей.\n\nВ Киево-Печерской лавре покоятся мощи преподобного Ильи Муромского, и многие верят, что это и есть богатырь. Историки спорят, но предание связало их навсегда.\n\nПамятник работы Вячеслава Клыкова открыт в 1999 году: богатырь поднимает над головой меч, похожий на крест. Он стоит на высоком берегу над Окой, откуда видно реку, заокские леса и вантовый мост, открытый в 2009 году.",
+                  "en": "The epic hero Ilya Muromets is 'a peasant's son from the village of Karacharovo'. The epics say he could not use his legs for thirty-three years until wandering pilgrims healed him. Gaining a knight's strength, Ilya set off for Kyiv to serve Prince Vladimir, defeated Nightingale the Robber on the way and became the most revered of the Russian bogatyrs.\n\nThe relics of St Ilya of Murom rest in the Kyiv Caves Monastery, and many believe he was the knight. Historians argue, but tradition has tied them together for good.\n\nThe monument by Vyacheslav Klykov was unveiled in 1999: the knight raises above his head a sword shaped like a cross. It stands on the high bank above the Oka, with a view of the river, the forests beyond and the cable-stayed bridge opened in 2009."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Меч, который богатырь держит как крест",
+                    "Вантовый мост через Оку",
+                    "Леса на другом берегу реки"
+                  ],
+                  "en": [
+                    "The sword the knight holds like a cross",
+                    "The cable-stayed bridge over the Oka",
+                    "The forests on the far bank"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Памятник Илье Муромцу работы Вячеслава Клыкова открыт в 1999 году.",
+                    "Вантовый мост через Оку у Мурома открыт в 2009 году."
+                  ],
+                  "en": [
+                    "The Ilya Muromets monument by Vyacheslav Klykov was unveiled in 1999.",
+                    "The cable-stayed bridge over the Oka at Murom opened in 2009."
+                  ]
+                },
+                "legend": {
+                  "ru": "Калики-перехожие попросили у сидевшего сиднем Ильи воды. Он ответил, что не может встать, но они велели: «Встань и иди». Илья поднялся, принёс им ковш — и, выпив поданный ими напиток, почувствовал в себе силу, какой не было ни у кого.",
+                  "en": "Wandering pilgrims asked Ilya, who sat unable to walk, for water. He said he could not stand, but they told him: 'Get up and go.' Ilya rose, brought them a ladle — and after drinking the draught they gave him felt a strength nobody else had."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько лет, по былинам, Илья Муромец не владел ногами?",
+                    "en": "According to the epics, how many years could Ilya Muromets not walk?"
+                  },
+                  "options": {
+                    "ru": ["33 года", "7 лет", "100 лет"],
+                    "en": ["33 years", "7 years", "100 years"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Тридцать три года Илья «сидел сиднем», пока его не исцелили странники.",
+                    "en": "For thirty-three years Ilya sat without walking, until the pilgrims healed him."
+                  }
+                },
+                "approach": {
+                  "ru": "Памятник в Окском парке, на краю высокого берега.",
+                  "en": "The monument is in Oka Park, on the edge of the high bank."
+                }
               }
             },
             {
@@ -92,12 +411,44 @@
                 "ru": "Один из старейших монастырей России: впервые он упоминается в летописи под 1096 годом. Стоит на крутом берегу Оки, за белыми стенами — собор XVI века и ухоженный монастырский сад.",
                 "en": "One of Russia's oldest monasteries: the chronicles first mention it in 1096. It stands on a steep bank of the Oka, and behind its white walls are a 16th-century cathedral and a well-kept monastery garden."
               },
-              "wiki": {"ru": "Спасо-Преображенский монастырь (Муром)"}
+              "wiki": {"ru": "Спасо-Преображенский монастырь (Муром)"},
+              "guide": {
+                "story": {
+                  "ru": "Спасо-Преображенский монастырь впервые упоминается в летописи под 1096 годом — в рассказе о гибели князя Изяслава, — и по известной дате считается одним из старейших в России. Он стоит на самом краю высокого берега Оки.\n\nГлавный собор построен в 1560-х годах и сохранил строгий облик того времени. В 1921 году монастырь закрыли, долгие годы здесь размещались военные, а в 1991 году монашеская жизнь вернулась.\n\nСегодня за белыми стенами ухоженный сад и цветники, а со смотровых мест у монастыря открывается вид на Оку.",
+                  "en": "The Saviour-Transfiguration Monastery is first mentioned in the chronicle under 1096, in the account of the death of Prince Izyaslav, and by its recorded date it counts as one of the oldest in Russia. It stands right on the edge of the high bank of the Oka.\n\nThe main cathedral was built in the 1560s and has kept the austere look of that time. In 1921 the monastery was closed and for many years housed the military; monastic life returned in 1991.\n\nToday there is a well-kept garden with flower beds behind the white walls, and the viewpoints by the monastery look out over the Oka."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Строгий собор XVI века",
+                    "Цветники монастырского сада",
+                    "Вид на Оку от стен"
+                  ],
+                  "en": [
+                    "The austere 16th-century cathedral",
+                    "The flower beds of the monastery garden",
+                    "The view of the Oka from the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Монастырь известен с 1096 года — это одна из самых ранних летописных дат среди русских монастырей.",
+                    "Монастырь был закрыт в 1921 году и возрождён в 1991-м."
+                  ],
+                  "en": [
+                    "The monastery has been known since 1096 — one of the earliest recorded dates among Russian monasteries.",
+                    "The monastery was closed in 1921 and revived in 1991."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком вдоль Окского парка.",
+                  "en": "About 10 minutes' walk along Oka Park."
+                }
+              }
             },
             {
               "id": "murom-karacharovo",
               "title": {"ru": "Карачарово", "en": "Karacharovo"},
-              "coordinate": [55.59360, 42.09450],
+              "coordinate": [55.5936, 42.0945],
               "category": "palace",
               "visit": 40,
               "details": {
@@ -107,7 +458,46 @@
               "wiki": {"ru": "Карачарово (Муром)"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 5 км — 10 минут на машине или такси", "en": "About 5 km — 10 minutes by car or taxi"}
+                "note": {
+                  "ru": "Около 5 км — 10 минут на машине или такси",
+                  "en": "About 5 km — 10 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Карачарово — то самое село, откуда, по былинам, вышел Илья Муромец. Здесь его считают своим: показывают место, где стояла изба богатыря, родник и «следы» его коня.\n\nНад Окой стоит усадебный дом графов Уваровых с парком — одна из самых красивых усадеб Владимирского края. Отсюда открывается широкий вид на реку и заокские дали.\n\nДаже если не верить легендам, сюда стоит приехать ради тишины, старого парка и простора над Окой — в таком пейзаже легко представить былинного богатыря.",
+                  "en": "Karacharovo is the very village where, according to the epics, Ilya Muromets came from. Locals consider him their own: they show the spot where his hut stood, a spring and the 'hoofprints' of his horse.\n\nAbove the Oka stands the manor house of the Counts Uvarov with its park — one of the loveliest estates of the Vladimir region. There is a wide view of the river and the country beyond.\n\nEven if you don't believe the legends, come for the quiet, the old park and the open view over the Oka — it is easy to imagine an epic knight in this landscape."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Усадебный дом над Окой",
+                    "Родник, связанный с Ильёй Муромцем",
+                    "Старые деревья усадебного парка"
+                  ],
+                  "en": [
+                    "The manor house above the Oka",
+                    "The spring linked to Ilya Muromets",
+                    "The old trees of the manor park"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В былинах Илья называет себя «крестьянским сыном из села Карачарова».",
+                    "От Карачарова до центра Мурома — всего около 5 км."
+                  ],
+                  "en": [
+                    "In the epics Ilya calls himself 'a peasant's son from the village of Karacharovo'.",
+                    "Karacharovo is only about 5 km from the centre of Murom."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, когда Илья впервые вскочил на своего коня, тот прыгнул так, что там, где ударили копыта, забили родники. Один из них и сейчас показывают в Карачарове.",
+                  "en": "They say that when Ilya first leapt onto his horse, it jumped so hard that springs burst out where its hooves struck. One of them is still shown in Karacharovo."
+                },
+                "approach": {
+                  "ru": "Около 5 км вдоль Оки — 10 минут на машине или такси.",
+                  "en": "About 5 km along the Oka — 10 minutes by car or taxi."
+                }
               }
             }
           ]

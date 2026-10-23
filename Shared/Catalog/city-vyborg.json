@@ -12,11 +12,93 @@
       "ru": "Из Санкт-Петербурга — «Ласточка» с Финляндского вокзала, около 1 ч 15 мин. На машине по трассе «Скандинавия» — около 2 часов (140 км).",
       "en": "From Saint Petersburg take the Lastochka train from Finlyandsky station — about 1 hour 15 minutes. By car on the Scandinavia highway it is about 2 hours (140 km)."
     },
-    "coordinate": [60.7130, 28.7520],
+    "coordinate": [60.713, 28.752],
     "emoji": "🏰",
     "size": "small",
     "tags": ["north-west"],
-    "wiki": {"ru": "Выборг", "en": "Vyborg"}
+    "wiki": {"ru": "Выборг", "en": "Vyborg"},
+    "guide": {
+      "story": {
+        "ru": "Выборг начался с замка: в 1293 году шведы заложили его на скалистом острове в проливе, чтобы закрепиться на землях карел. Вокруг вырос торговый город, в 1403 году получивший городские права. Три века Выборг был шведским, пока в 1710 году его не взял Пётр I.\n\nДальше город несколько раз менял страну. В 1812 году его включили в состав Великого княжества Финляндского, а после 1917 года Виипури стал вторым по величине городом независимой Финляндии. Здесь строили лучшие финские архитекторы — от модерна до функционализма. После войн 1939–1944 годов Выборг окончательно стал советским, а его финские жители уехали.\n\nСегодня в Выборге всё это видно сразу: средневековые башни и брусчатка, финские дома с острыми крышами, библиотека Алвара Аалто и скалистый парк Монрепо над заливом.",
+        "en": "Vyborg began with a castle: in 1293 the Swedes built it on a rocky island in a strait to gain a foothold in Karelian lands. A trading town grew up around it and received town rights in 1403. For three centuries Vyborg was Swedish, until Peter the Great took it in 1710.\n\nAfter that the town changed countries several times. In 1812 it was made part of the Grand Duchy of Finland, and after 1917 Viipuri became the second largest city of independent Finland. The best Finnish architects built here, from Art Nouveau to functionalism. After the wars of 1939–1944 Vyborg finally became Soviet, and its Finnish inhabitants left.\n\nToday you see it all at once in Vyborg: medieval towers and cobblestones, Finnish houses with steep roofs, Alvar Aalto's library and the rocky Monrepos park above the bay."
+      },
+      "history": [
+        {
+          "year": "1293",
+          "text": {"ru": "Шведы закладывают Выборгский замок.", "en": "The Swedes found Vyborg Castle."}
+        },
+        {
+          "year": "1403",
+          "text": {"ru": "Выборг получает городские права.", "en": "Vyborg receives town rights."}
+        },
+        {
+          "year": "1495",
+          "text": {
+            "ru": "Таинственный «Выборгский гром» отгоняет русское войско от стен.",
+            "en": "The mysterious 'Vyborg Bang' drives the Russian army from the walls."
+          }
+        },
+        {"year": "1710", "text": {"ru": "Пётр I берёт Выборг.", "en": "Peter the Great captures Vyborg."}},
+        {
+          "year": "1812",
+          "text": {
+            "ru": "Выборгская губерния входит в состав Великого княжества Финляндского.",
+            "en": "The Vyborg province becomes part of the Grand Duchy of Finland."
+          }
+        },
+        {
+          "year": "1917–1940",
+          "text": {
+            "ru": "Виипури — второй по величине город независимой Финляндии.",
+            "en": "Viipuri is the second largest city of independent Finland."
+          }
+        },
+        {
+          "year": "1935",
+          "text": {"ru": "Открывается библиотека Алвара Аалто.", "en": "Alvar Aalto's library opens."}
+        },
+        {
+          "year": "1944",
+          "text": {"ru": "Выборг окончательно становится советским.", "en": "Vyborg finally becomes Soviet."}
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Выборгский крендель — знаменитую сдобу в форме восьмёрки",
+          "Корюшку и салаку — рыбу Финского залива",
+          "Выпечку с корицей и кардамоном — наследие финского Выборга"
+        ],
+        "en": [
+          "The Vyborg kringle — the famous figure-of-eight sweet bread",
+          "Smelt and Baltic herring from the Gulf of Finland",
+          "Cinnamon and cardamom pastries, a legacy of Finnish Vyborg"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Выборгский крендель в красивой коробке",
+          "Сувениры с башней Святого Олафа и рыцарской символикой",
+          "Книги и открытки о финском Выборге"
+        ],
+        "en": [
+          "A Vyborg kringle in a nice box",
+          "Souvenirs with St Olaf's Tower and knightly emblems",
+          "Books and postcards about Finnish Vyborg"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "«Ласточка» из Петербурга идёт до Выборга чуть больше часа",
+          "На башню Святого Олафа ведут больше двухсот крутых ступеней — оно того стоит",
+          "Монрепо — большой парк на скалах: заложите на него 1,5–2 часа и наденьте удобную обувь"
+        ],
+        "en": [
+          "The Lastochka train from St Petersburg takes just over an hour",
+          "More than two hundred steep steps lead up St Olaf's Tower — it's worth it",
+          "Monrepos is a big park on rocks: allow 1.5–2 hours and wear comfortable shoes"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,6 +108,10 @@
         "ru": "От вокзала через библиотеку Алвара Аалто к Круглой башне и Часовой башне Старого города, по средневековым улочкам к замку на острове, а оттуда — в скалистый парк Монрепо.",
         "en": "From the station past Alvar Aalto's library to the Round Tower and the Clock Tower of the Old Town, through medieval lanes to the island castle, and on to the rocky Monrepos park."
       },
+      "intro": {
+        "ru": "Маршрут на целый день, около 6 км пешком: модернистская библиотека, средневековые башни Старого города, замок на острове и парк Монрепо на скалах. На замок заложите полтора часа, на Монрепо — два.",
+        "en": "A full day of about 6 km on foot: a modernist library, the medieval towers of the Old Town, the island castle and Monrepos park on its rocks. Allow an hour and a half for the castle and two hours for Monrepos."
+      },
       "emoji": "🏰",
       "tags": ["walk"],
       "days": [
@@ -34,7 +120,7 @@
             {
               "id": "vyborg-library",
               "title": {"ru": "Библиотека Алвара Аалто", "en": "Alvar Aalto Library"},
-              "coordinate": [60.70930, 28.74810],
+              "coordinate": [60.7093, 28.7481],
               "category": "landmark",
               "visit": 30,
               "details": {
@@ -45,60 +131,262 @@
                 "ru": "Внутрь можно попасть с экскурсией — посмотрите расписание на сайте библиотеки.",
                 "en": "You can see the interiors on a guided tour — check the library's schedule."
               },
-              "wiki": {"ru": "Библиотека Алвара Аалто", "en": "Viipuri Library"}
+              "wiki": {"ru": "Библиотека Алвара Аалто", "en": "Viipuri Library"},
+              "guide": {
+                "story": {
+                  "ru": "Молодой Алвар Аалто выиграл конкурс на проект городской библиотеки Выборга в 1927 году, а открылась она в 1935-м. Это здание стало манифестом нового, человечного модернизма: простые белые объёмы снаружи и продуманный до мелочей свет, звук и материал внутри.\n\nВ читальном зале нет окон в стенах — свет падает сверху через круглые световые фонари и мягко рассеивается, не давая теней на страницах. А лекционный зал перекрыт знаменитым волнистым деревянным потолком: его изгибы разносят звук так, что слово выступающего слышно в каждом углу.\n\nПосле войны здание пострадало и долго стояло полузаброшенным. Реставрация с участием финских специалистов шла больше двадцати лет и завершилась в 2013 году — теперь библиотеку снова изучают архитекторы со всего мира.",
+                  "en": "The young Alvar Aalto won the competition for Vyborg's city library in 1927, and it opened in 1935. The building became a manifesto of a new, humane modernism: plain white volumes outside, and light, sound and materials thought through to the smallest detail inside.\n\nThe reading room has no windows in its walls — light falls from above through round skylights and spreads softly, casting no shadows on the pages. The lecture hall is covered by the famous undulating wooden ceiling: its curves carry sound so that a speaker can be heard in every corner.\n\nAfter the war the building was damaged and stood half-abandoned for a long time. Restoration with Finnish specialists took more than twenty years and was completed in 2013 — architects from all over the world come to study the library again."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Волнистый деревянный потолок лекционного зала",
+                    "Круглые световые фонари в потолке читального зала",
+                    "Простые белые фасады без украшений"
+                  ],
+                  "en": [
+                    "The undulating wooden ceiling of the lecture hall",
+                    "The round skylights in the reading room ceiling",
+                    "The plain white facades without ornament"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Аалто выиграл конкурс на проект библиотеки в 1927 году, а открылась она в 1935-м.",
+                    "Реставрация здания завершилась в 2013 году, после двадцати с лишним лет работы."
+                  ],
+                  "en": [
+                    "Aalto won the library competition in 1927, and it opened in 1935.",
+                    "The restoration was completed in 2013 after more than twenty years of work."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Зачем Аалто сделал волнистый потолок в лекционном зале?",
+                    "en": "Why did Aalto give the lecture hall an undulating ceiling?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Чтобы звук был слышен в каждом углу",
+                      "Чтобы спрятать трубы",
+                      "Просто для красоты"
+                    ],
+                    "en": [
+                      "So that sound reaches every corner",
+                      "To hide the pipes",
+                      "Purely for looks"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Изгибы деревянных реек отражают звук и равномерно разносят его по залу.",
+                    "en": "The curves of the wooden slats reflect sound and spread it evenly through the hall."
+                  }
+                },
+                "approach": {
+                  "ru": "Библиотека в парке рядом с центром, минут 10 пешком от вокзала.",
+                  "en": "The library stands in a park near the centre, about 10 minutes' walk from the station."
+                }
+              }
             },
             {
               "id": "vyborg-round-tower",
               "title": {"ru": "Круглая башня", "en": "Round Tower"},
-              "coordinate": [60.71170, 28.73860],
+              "coordinate": [60.7117, 28.7386],
               "category": "castle",
               "visit": 15,
               "details": {
                 "ru": "Мощная артиллерийская башня середины XVI века на Рыночной площади — часть городских укреплений. Рядом — финский крытый рынок 1900-х годов.",
                 "en": "A massive mid-16th-century artillery tower on Market Square, once part of the town fortifications. Next to it is a Finnish covered market from the 1900s."
               },
-              "wiki": {"ru": "Круглая башня (Выборг)", "en": "Round Tower (Vyborg)"}
+              "wiki": {"ru": "Круглая башня (Выборг)", "en": "Round Tower (Vyborg)"},
+              "guide": {
+                "story": {
+                  "ru": "Круглая башня построена в середине XVI века, когда в Европе уже вовсю стреляли пушки: её толстые стены должны были выдерживать ядра, а на ярусах стояли орудия. Она была частью укреплений, окружавших шведский Выборг.\n\nСо временем стены города снесли, а башня осталась на Рыночной площади, как крепкий старик среди новых домов. В финское время в ней открыли ресторан, и он работал здесь много лет.\n\nРядом стоит крытый рынок, построенный в начале XX века, — одно из самых узнаваемых финских зданий города. Загляните внутрь: здесь продают рыбу, ягоды и выпечку.",
+                  "en": "The Round Tower was built in the mid-16th century, when cannons were already firing all over Europe: its thick walls were meant to withstand cannonballs, and guns stood on its levels. It was part of the fortifications around Swedish Vyborg.\n\nOver time the town walls were pulled down, but the tower remained on Market Square like a sturdy old man among new houses. In Finnish times a restaurant opened inside it and worked here for many years.\n\nNext to it stands the covered market built in the early 20th century, one of the town's best-known Finnish buildings. Look inside: fish, berries and pastries are sold there."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Толстые стены и узкие проёмы башни",
+                    "Крытый рынок рядом с башней",
+                    "Рыночную площадь, где сходятся старые улицы"
+                  ],
+                  "en": [
+                    "The thick walls and narrow openings of the tower",
+                    "The covered market next to the tower",
+                    "Market Square, where the old streets meet"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Круглую башню построили в середине XVI века для обороны города с помощью пушек.",
+                    "Крытый рынок у башни построен в начале XX века, в финский период."
+                  ],
+                  "en": [
+                    "The Round Tower was built in the mid-16th century to defend the town with cannons.",
+                    "The covered market by the tower was built in the early 20th century, in the Finnish period."
+                  ]
+                },
+                "approach": {
+                  "ru": "От библиотеки около 10 минут пешком к Рыночной площади.",
+                  "en": "About 10 minutes' walk from the library to Market Square."
+                }
+              }
             },
             {
               "id": "vyborg-clock-tower",
               "title": {"ru": "Часовая башня", "en": "Clock Tower"},
-              "coordinate": [60.71280, 28.73360],
+              "coordinate": [60.7128, 28.7336],
               "category": "viewpoint",
               "visit": 25,
               "details": {
                 "ru": "Бывшая колокольня старого кафедрального собора, получившая часы в XVIII веке. Наверх можно подняться: с площадки видны черепичные крыши Старого города, замок и залив.",
                 "en": "The former bell tower of the old cathedral, which got its clock in the 18th century. You can climb it for a view over the tiled roofs of the Old Town, the castle and the bay."
               },
-              "wiki": {"ru": "Часовая башня (Выборг)"}
+              "wiki": {"ru": "Часовая башня (Выборг)"},
+              "guide": {
+                "story": {
+                  "ru": "Часовая башня — бывшая колокольня старого кафедрального собора. Её нижняя часть средневековая, а в XVIII веке, уже при русской власти, башню надстроили и поставили на неё часы, которые с тех пор отбивают время над Старым городом.\n\nПо узкой лестнице можно подняться на смотровую площадку. Сверху Выборг выглядит как настоящий европейский город: черепичные крыши, шпили, кривые улочки, замок на острове и блеск залива.\n\nВнизу начинаются самые атмосферные улицы Старого города — с булыжной мостовой и домами разных эпох, стоящими плечом к плечу.",
+                  "en": "The Clock Tower is the former bell tower of the old cathedral. Its lower part is medieval, and in the 18th century, already under Russian rule, the tower was raised and given a clock that has struck the hours over the Old Town ever since.\n\nA narrow staircase leads up to a viewing platform. From the top Vyborg looks like a real European town: tiled roofs, spires, crooked lanes, the island castle and the glint of the bay.\n\nBelow begin the most atmospheric streets of the Old Town, cobbled and lined with houses of different eras standing shoulder to shoulder."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Циферблат часов на башне",
+                    "Черепичные крыши Старого города сверху",
+                    "Замок на острове с площадки"
+                  ],
+                  "en": [
+                    "The clock face on the tower",
+                    "The tiled roofs of the Old Town from above",
+                    "The island castle from the platform"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Часы на башне появились в XVIII веке, при русской власти.",
+                    "Башня когда-то была колокольней собора, руины которого стоят рядом."
+                  ],
+                  "en": [
+                    "The clock was added in the 18th century, under Russian rule.",
+                    "The tower was once the bell tower of the cathedral whose ruins stand nearby."
+                  ]
+                },
+                "approach": {
+                  "ru": "Пара минут пешком от Круглой башни вглубь Старого города.",
+                  "en": "A couple of minutes' walk from the Round Tower into the Old Town."
+                }
+              }
             },
             {
               "id": "vyborg-old-cathedral",
               "title": {"ru": "Старый кафедральный собор", "en": "Old Cathedral"},
-              "coordinate": [60.71250, 28.73190],
+              "coordinate": [60.7125, 28.7319],
               "category": "church",
               "visit": 15,
               "details": {
                 "ru": "Руины средневекового собора XV века, сгоревшего во время Второй мировой войны. Готические стены без крыши посреди Старого города особенно атмосферны вечером.",
                 "en": "The ruins of a 15th-century cathedral that burned during the Second World War. Roofless Gothic walls in the middle of the Old Town feel especially atmospheric in the evening."
               },
-              "wiki": {"ru": "Старый кафедральный собор (Выборг)"}
+              "wiki": {"ru": "Старый кафедральный собор (Выборг)"},
+              "guide": {
+                "story": {
+                  "ru": "Старый кафедральный собор начинался как церковь средневекового монастыря. При шведах он стал главным лютеранским храмом Выборга, а его колокольня — нынешняя Часовая башня — стоит отдельно, через улицу.\n\nСобор много раз горел и перестраивался, а во время Второй мировой войны был разрушен окончательно. Его так и не восстановили: остались готические стены без крыши, через пустые окна которых видно небо.\n\nРуины особенно хороши вечером, когда в Старом городе становится тихо. Это место помогает почувствовать, сколько всего пережил Выборг.",
+                  "en": "The Old Cathedral began as the church of a medieval monastery. Under the Swedes it became Vyborg's main Lutheran church, and its bell tower — today's Clock Tower — stands separately across the street.\n\nThe cathedral burned and was rebuilt many times, and during the Second World War it was finally destroyed. It was never restored: Gothic walls without a roof remain, with the sky showing through the empty windows.\n\nThe ruins are especially beautiful in the evening, when the Old Town grows quiet. The place helps you feel how much Vyborg has lived through."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Пустые готические окна",
+                    "Небо вместо крыши",
+                    "Часовую башню через улицу — бывшую колокольню собора"
+                  ],
+                  "en": [
+                    "The empty Gothic windows",
+                    "The sky instead of a roof",
+                    "The Clock Tower across the street — the cathedral's former bell tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Собор был разрушен во время Второй мировой войны и с тех пор стоит без крыши.",
+                    "При шведах это был главный лютеранский храм города."
+                  ],
+                  "en": [
+                    "The cathedral was destroyed in the Second World War and has stood roofless ever since.",
+                    "Under the Swedes it was the town's main Lutheran church."
+                  ]
+                },
+                "approach": {
+                  "ru": "Руины в паре минут от Часовой башни.",
+                  "en": "The ruins are a couple of minutes from the Clock Tower."
+                }
+              }
             },
             {
               "id": "vyborg-castle",
               "title": {"ru": "Выборгский замок", "en": "Vyborg Castle"},
-              "coordinate": [60.71440, 28.72870],
+              "coordinate": [60.7144, 28.7287],
               "category": "castle",
               "visit": 90,
               "details": {
                 "ru": "Замок, основанный шведами в 1293 году на острове, — единственный в России средневековый замок западноевропейского типа. Обязательно поднимитесь на башню Святого Олафа: оттуда видно весь Выборг и Финский залив.",
                 "en": "A castle founded by the Swedes in 1293 on an island — the only medieval Western-European-style castle in Russia. Do climb St Olaf's Tower: the whole of Vyborg and the Gulf of Finland are spread out below."
               },
-              "wiki": {"ru": "Выборгский замок", "en": "Vyborg Castle"}
+              "wiki": {"ru": "Выборгский замок", "en": "Vyborg Castle"},
+              "guide": {
+                "story": {
+                  "ru": "Замок основали в 1293 году участники шведского крестового похода во главе с маршалом Торгильсом Кнутссоном. Скалистый остров в проливе был идеальным местом: отсюда контролировали водный путь и земли карел. Главная башня названа в честь святого Олафа, норвежского короля, крестившего свою страну; при Густаве Васе в XVI веке её надстроили, и теперь её высота больше 48 метров.\n\nЗамок много раз осаждали. Самая знаменитая история случилась осенью 1495 года, когда русское войско штурмовало Выборг, а защитниками командовал Кнут Поссе. В день святого Андрея раздался страшный взрыв, и осаждавшие отступили — так родилась легенда о «Выборгском громе».\n\nСегодня в замке музей, а с башни Святого Олафа виден весь Выборг, залив и острова.",
+                  "en": "The castle was founded in 1293 by members of a Swedish crusade led by Marshal Torgils Knutsson. The rocky island in the strait was ideal: from here they controlled the waterway and the Karelian lands. The main tower is named after St Olaf, the Norwegian king who converted his country; under Gustav Vasa in the 16th century it was raised to more than 48 metres.\n\nThe castle was besieged many times. The most famous story dates from the autumn of 1495, when a Russian army stormed Vyborg and Knut Posse commanded the defenders. On St Andrew's Day a terrible explosion was heard and the besiegers withdrew — and so the legend of the 'Vyborg Bang' was born.\n\nToday the castle is a museum, and from St Olaf's Tower you can see all of Vyborg, the bay and the islands."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башню Святого Олафа — главную вертикаль замка",
+                    "Мост с материка на замковый остров",
+                    "Залив и острова с вершины башни"
+                  ],
+                  "en": [
+                    "St Olaf's Tower, the castle's main vertical",
+                    "The bridge from the mainland to the castle island",
+                    "The bay and the islands from the top of the tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Башня Святого Олафа выше 48 метров — её надстроили при короле Густаве Васе.",
+                    "Замок назван в честь святого Олафа — норвежского короля, крестившего свою страну."
+                  ],
+                  "en": [
+                    "St Olaf's Tower is more than 48 metres tall — it was raised under King Gustav Vasa.",
+                    "The castle is named after St Olaf, the Norwegian king who converted his country."
+                  ]
+                },
+                "legend": {
+                  "ru": "30 ноября 1495 года, в день святого Андрея, когда русские уже лезли на стены, Кнут Поссе будто бы взорвал башню, начинённую порохом. Говорят, в небе появился Андреевский крест, и осаждавшие в ужасе бежали. Молва сделала коменданта чародеем.",
+                  "en": "On 30 November 1495, St Andrew's Day, as the Russians were already scaling the walls, Knut Posse supposedly blew up a tower packed with gunpowder. They say a St Andrew's cross appeared in the sky and the besiegers fled in terror. Rumour turned the commander into a sorcerer."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто основал Выборгский замок в 1293 году?",
+                    "en": "Who founded Vyborg Castle in 1293?"
+                  },
+                  "options": {
+                    "ru": ["Шведы", "Новгородцы", "Тевтонские рыцари"],
+                    "en": ["The Swedes", "The Novgorodians", "The Teutonic Knights"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Замок заложили участники шведского крестового похода во главе с Торгильсом Кнутссоном.",
+                    "en": "It was founded by members of a Swedish crusade led by Torgils Knutsson."
+                  }
+                },
+                "approach": {
+                  "ru": "Через мост с Крепостной улицы — минут 5 от собора.",
+                  "en": "Across the bridge from Krepostnaya Street — about 5 minutes from the cathedral."
+                }
+              }
             },
             {
               "id": "vyborg-monrepos",
               "title": {"ru": "Парк Монрепо", "en": "Monrepos Park"},
-              "coordinate": [60.73190, 28.72860],
+              "coordinate": [60.7319, 28.7286],
               "category": "park",
               "visit": 90,
               "details": {
@@ -112,7 +400,57 @@
               "wiki": {"ru": "Монрепо", "en": "Monrepos"},
               "arrival": {
                 "mode": "walk",
-                "note": {"ru": "Около 2,5 км через мост — 35 минут пешком или такси", "en": "About 2.5 km over the bridge — 35 minutes on foot or a taxi"}
+                "note": {
+                  "ru": "Около 2,5 км через мост — 35 минут пешком или такси",
+                  "en": "About 2.5 km over the bridge — 35 minutes on foot or a taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Монрепо — по-французски «мой отдых». В конце XVIII века усадьбу купил Людвиг Генрих Николаи, поэт и наставник будущего императора Павла I. Он и его потомки превратили каменистый берег в романтический пейзажный парк: тропинки среди скал и вековых елей, мостики, павильоны и неожиданные виды на воду.\n\nСемья Николаи владела Монрепо больше полутора веков. На островке Людвигштайн в заливе — их фамильный некрополь, а по парку разбросаны памятные камни и надписи.\n\nГлавное в Монрепо — сама природа Карельского перешейка: гранитные скалы, огромные валуны, оставленные ледником, мох и тишина над бухтой.",
+                  "en": "Monrepos means 'my rest' in French. At the end of the 18th century the estate was bought by Ludwig Heinrich Nicolay, a poet and tutor to the future Emperor Paul I. He and his descendants turned the rocky shore into a Romantic landscape park: paths among cliffs and ancient spruces, little bridges, pavilions and unexpected views of the water.\n\nThe Nicolay family owned Monrepos for more than a century and a half. On the islet of Ludwigstein in the bay lies their family necropolis, and memorial stones and inscriptions are scattered around the park.\n\nBut the real star of Monrepos is the nature of the Karelian Isthmus: granite cliffs, huge boulders left by the glacier, moss and silence above the bay."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Остров Людвигштайн с некрополем Николаи",
+                    "Огромные валуны, оставленные ледником",
+                    "Мостики и павильоны среди скал"
+                  ],
+                  "en": [
+                    "Ludwigstein island with the Nicolay necropolis",
+                    "Huge boulders left by the glacier",
+                    "Bridges and pavilions among the rocks"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Название «Монрепо» по-французски значит «мой отдых».",
+                    "Валуны и отполированные скалы парка — следы ледника, отступившего больше десяти тысяч лет назад."
+                  ],
+                  "en": [
+                    "The name Monrepos is French for 'my rest'.",
+                    "The park's boulders and polished rocks are traces of a glacier that retreated more than ten thousand years ago."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что означает название «Монрепо»?",
+                    "en": "What does the name Monrepos mean?"
+                  },
+                  "options": {
+                    "ru": ["Мой отдых", "Моя гора", "Морской берег"],
+                    "en": ["My rest", "My mountain", "Seashore"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Mon repos — по-французски «мой отдых»: так называли загородные усадьбы для уединения.",
+                    "en": "Mon repos is French for 'my rest' — a name for country retreats."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 2,5 км от замка через мост — 35 минут пешком или такси.",
+                  "en": "About 2.5 km from the castle across the bridge — 35 minutes on foot or a taxi."
+                }
               }
             }
           ]

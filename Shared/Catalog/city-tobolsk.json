@@ -12,11 +12,108 @@
       "ru": "С 2021 года работает аэропорт «Ремезов» с прямыми рейсами из Москвы. Из Тюмени — около 250 км: 3,5 часа на машине или поезде.",
       "en": "Remezov airport, opened in 2021, has direct flights from Moscow. From Tyumen it is about 250 km — 3.5 hours by car or train."
     },
-    "coordinate": [58.1970, 68.2540],
+    "coordinate": [58.197, 68.254],
     "emoji": "❄️",
     "size": "small",
     "tags": ["siberia"],
-    "wiki": {"ru": "Тобольск", "en": "Tobolsk"}
+    "wiki": {"ru": "Тобольск", "en": "Tobolsk"},
+    "guide": {
+      "story": {
+        "ru": "Тобольск — первая столица Сибири. В 1582 году казаки Ермака разбили войско сибирского хана Кучума, а в 1587 году отряд Данилы Чулкова поставил на Троицком мысу над Иртышом острог. Отсюда Россия шла дальше на восток, и почти два века Тобольск был главным городом всей Сибири.\n\nНа рубеже XVII–XVIII веков картограф и зодчий Семён Ремезов выстроил здесь единственный в Сибири каменный кремль. Через Тобольск шли купцы из Бухары и Китая, сюда ссылали неугодных — от угличского колокола до декабристов, а в 1917–1918 годах здесь жила в ссылке семья Николая II.\n\nВ Тобольске родились химик Дмитрий Менделеев и композитор Александр Алябьев. Город делится на верхний — с кремлём на мысу — и нижний, старый посад у реки; между ними — деревянные лестницы-взвозы.",
+        "en": "Tobolsk was the first capital of Siberia. In 1582 Yermak's Cossacks defeated the army of Kuchum, Khan of Sibir, and in 1587 a detachment under Danila Chulkov built a fort on Trinity Cape above the Irtysh. From here Russia pushed further east, and for almost two centuries Tobolsk was the chief town of all Siberia.\n\nAt the turn of the 18th century the cartographer and architect Semyon Remezov built Siberia's only stone kremlin here. Merchants from Bukhara and China passed through Tobolsk, and the authorities sent their exiles here — from the Uglich bell to the Decembrists; in 1917–1918 the family of Nicholas II lived here in exile.\n\nThe chemist Dmitri Mendeleev and the composer Alexander Alyabyev were born in Tobolsk. The town is divided into the upper town, with the kremlin on the cape, and the lower town, the old riverside settlement, linked by wooden staircases and ramps called vzvozy."
+      },
+      "history": [
+        {
+          "year": "1582",
+          "text": {
+            "ru": "Казаки Ермака разбивают войско хана Кучума.",
+            "en": "Yermak's Cossacks defeat the army of Khan Kuchum."
+          }
+        },
+        {
+          "year": "1587",
+          "text": {
+            "ru": "Данила Чулков основывает острог на Троицком мысу.",
+            "en": "Danila Chulkov founds a fort on Trinity Cape."
+          }
+        },
+        {
+          "year": "1593",
+          "text": {
+            "ru": "В Тобольск «ссылают» угличский набатный колокол.",
+            "en": "The alarm bell of Uglich is 'exiled' to Tobolsk."
+          }
+        },
+        {
+          "year": "1680-е",
+          "text": {
+            "ru": "Строится Софийско-Успенский собор — первый каменный храм Сибири.",
+            "en": "The Sophia-Dormition Cathedral, Siberia's first stone church, is built."
+          }
+        },
+        {
+          "year": "1700-е",
+          "text": {
+            "ru": "Семён Ремезов возводит каменный кремль.",
+            "en": "Semyon Remezov builds the stone kremlin."
+          }
+        },
+        {
+          "year": "1834",
+          "text": {
+            "ru": "В Тобольске родился Дмитрий Менделеев.",
+            "en": "Dmitri Mendeleev is born in Tobolsk."
+          }
+        },
+        {
+          "year": "1892",
+          "text": {"ru": "Угличский колокол возвращают на родину.", "en": "The Uglich bell is returned home."}
+        },
+        {
+          "year": "1917–1918",
+          "text": {
+            "ru": "В Губернаторском доме живёт в ссылке семья Николая II.",
+            "en": "The family of Nicholas II lives in exile in the Governor's House."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Сибирскую рыбу — муксуна и нельму",
+          "Сибирские пельмени",
+          "Чай с брусникой и кедровыми орешками"
+        ],
+        "en": [
+          "Siberian fish — muksun and nelma",
+          "Siberian pelmeni dumplings",
+          "Tea with lingonberries and cedar nuts"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Тобольскую резьбу по кости — знаменитый местный промысел",
+          "Кедровые орехи и кедровое масло",
+          "Открытки с кремлём над Иртышом"
+        ],
+        "en": [
+          "Tobolsk bone carving — a famous local craft",
+          "Cedar nuts and cedar oil",
+          "Postcards of the kremlin above the Irtysh"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Город на двух уровнях: между верхним и нижним Тобольском — крутые лестницы, рассчитывайте силы",
+          "Вечером кремль подсвечивают — посмотрите на него снизу, из нижнего города",
+          "До Абалака удобнее ехать на машине или такси — общественный транспорт ходит редко"
+        ],
+        "en": [
+          "The town has two levels: steep stairs link upper and lower Tobolsk, so pace yourself",
+          "The kremlin is floodlit in the evening — look at it from the lower town",
+          "Abalak is easiest by car or taxi — public transport is infrequent"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,6 +123,10 @@
         "ru": "Кремль с Софийско-Успенским собором и Гостиным двором, спуск по деревянному Прямскому взвозу в нижний город к Губернаторскому дому — а после обеда поездка в Абалакский монастырь над Иртышом.",
         "en": "The kremlin with the St Sophia–Assumption Cathedral and the merchant court, a walk down the wooden Pryamskoy Vzvoz to the lower town and the Governor's House — then an afternoon drive to the Abalak Monastery above the Irtysh."
       },
+      "intro": {
+        "ru": "День в двух частях: утром кремль, собор и Гостиный двор (2–3 часа), затем спуск по Прямскому взвозу в нижний город к Губернаторскому дому. После обеда — 30 минут на машине до Абалакского монастыря над Иртышом.",
+        "en": "A day in two parts: in the morning the kremlin, the cathedral and the Merchant Court (2–3 hours), then down the Pryamskoy ramp to the lower town and the Governor's House. After lunch, a 30-minute drive to the Abalak Monastery above the Irtysh."
+      },
       "emoji": "❄️",
       "tags": ["walk", "car"],
       "days": [
@@ -34,7 +135,7 @@
             {
               "id": "tobolsk-kremlin",
               "title": {"ru": "Тобольский кремль", "en": "Tobolsk Kremlin"},
-              "coordinate": [58.19690, 68.25450],
+              "coordinate": [58.1969, 68.2545],
               "category": "castle",
               "visit": 60,
               "details": {
@@ -45,7 +146,54 @@
                 "ru": "Обойдите кремль по краю мыса — сверху видно нижний город и петли Иртыша.",
                 "en": "Walk round the kremlin along the edge of the cape — you'll see the lower town and the loops of the Irtysh below."
               },
-              "wiki": {"ru": "Тобольский кремль", "en": "Tobolsk Kremlin"}
+              "wiki": {"ru": "Тобольский кремль", "en": "Tobolsk Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Каменный кремль Тобольска связан с именем Семёна Ремезова — удивительного человека, который был и картографом, и иконописцем, и историком, и архитектором. Он составил «Чертёжную книгу Сибири» — первый русский атлас Сибири, а потом по поручению властей подготовил проекты каменного кремля и руководил строительством.\n\nКремль стоит на Троицком мысу, высоко над Иртышом. Внутри — Софийско-Успенский собор, колокольня, Гостиный двор, Приказная палата и Рентерея — казённое хранилище, которую в городе называют Шведской палатой: по преданию, её строили пленные шведы, оказавшиеся в Сибири после Полтавской битвы.\n\nОбойдите кремль по краю мыса: внизу лежит старый посад, а Иртыш делает широкую петлю до самого горизонта.",
+                  "en": "Tobolsk's stone kremlin is linked with Semyon Remezov, a remarkable man who was a cartographer, icon painter, historian and architect all at once. He compiled the 'Chart Book of Siberia', the first Russian atlas of Siberia, and then, on the authorities' orders, drew up designs for a stone kremlin and supervised its construction.\n\nThe kremlin stands on Trinity Cape, high above the Irtysh. Inside are the Sophia-Dormition Cathedral, the bell tower, the Merchant Court, the Chancellery and the Rentereya, a state treasury the townspeople call the Swedish Chamber: tradition says it was built by Swedish prisoners sent to Siberia after the Battle of Poltava.\n\nWalk around the kremlin along the edge of the cape: below lies the old settlement, and the Irtysh sweeps in a wide loop to the horizon."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Шведскую палату — Рентерею",
+                    "Вид с края мыса на нижний город",
+                    "Башни на стенах кремля"
+                  ],
+                  "en": [
+                    "The Swedish Chamber, the Rentereya",
+                    "The view of the lower town from the edge of the cape",
+                    "The towers on the kremlin walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Семён Ремезов составил «Чертёжную книгу Сибири» — первый русский атлас Сибири.",
+                    "Тобольский кремль — единственный каменный кремль в Сибири."
+                  ],
+                  "en": [
+                    "Semyon Remezov compiled the 'Chart Book of Siberia', the first Russian atlas of Siberia.",
+                    "The Tobolsk kremlin is the only stone kremlin in Siberia."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто руководил строительством каменного Тобольского кремля?",
+                    "en": "Who supervised the building of the stone Tobolsk kremlin?"
+                  },
+                  "options": {
+                    "ru": ["Семён Ремезов", "Доменико Трезини", "Василий Баженов"],
+                    "en": ["Semyon Remezov", "Domenico Trezzini", "Vasily Bazhenov"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Сибирский картограф и зодчий Ремезов подготовил проекты кремля и сам руководил стройкой. Трезини строил Петербург, а Баженов — Москву.",
+                    "en": "The Siberian cartographer and architect Remezov designed the kremlin and ran the work. Trezzini built St Petersburg, and Bazhenov worked in Moscow."
+                  }
+                },
+                "approach": {
+                  "ru": "Кремль — в верхнем городе, на краю Троицкого мыса.",
+                  "en": "The kremlin is in the upper town, on the edge of Trinity Cape."
+                }
+              }
             },
             {
               "id": "tobolsk-sophia",
@@ -57,46 +205,212 @@
                 "ru": "Первый каменный храм Сибири, построенный в 1680-х годах по образцу Вознесенского собора московского Вознесенского монастыря. Его голубые купола видны издалека.",
                 "en": "The first stone church in Siberia, built in the 1680s after the model of a Moscow cathedral. Its blue domes can be seen from far away."
               },
-              "wiki": {"ru": "Софийско-Успенский собор"}
+              "wiki": {"ru": "Софийско-Успенский собор"},
+              "guide": {
+                "story": {
+                  "ru": "Софийско-Успенский собор построили в 1680-х годах мастера из Москвы, взяв за образец Вознесенский собор московского Вознесенского монастыря. Это первый каменный храм Сибири, и много лет он оставался главным собором огромной сибирской епархии.\n\nРядом с собором — высокая колокольня. Тобольск помнит необычную историю: в 1593 году сюда сослали угличский колокол, который звонил в набат в день гибели царевича Дмитрия. По приказу властей ему, как преступнику, оборвали «язык», а в Тобольске он почти триста лет провёл в ссылке. Только в 1892 году колокол вернули в Углич.\n\nГолубые купола собора видны издалека, особенно с реки и из нижнего города.",
+                  "en": "The Sophia-Dormition Cathedral was built in the 1680s by craftsmen from Moscow, modelled on the Ascension Cathedral of Moscow's Ascension Monastery. It is the first stone church in Siberia and for many years remained the main cathedral of a vast Siberian diocese.\n\nNext to it rises a tall bell tower. Tobolsk remembers an unusual story: in 1593 the Uglich bell, which had rung the alarm on the day Tsarevich Dmitry died, was exiled here. On the authorities' orders its 'tongue' was torn out like a criminal's, and it spent almost three hundred years in exile in Tobolsk. Only in 1892 was the bell returned to Uglich.\n\nThe cathedral's blue domes can be seen from far away, especially from the river and the lower town."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Голубые купола собора",
+                    "Высокую колокольню рядом с собором",
+                    "Вид на собор с края мыса"
+                  ],
+                  "en": [
+                    "The cathedral's blue domes",
+                    "The tall bell tower beside the cathedral",
+                    "The view of the cathedral from the edge of the cape"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Софийско-Успенский собор — первый каменный храм Сибири.",
+                    "Угличский колокол «отбывал ссылку» в Тобольске с 1593 по 1892 год."
+                  ],
+                  "en": [
+                    "The Sophia-Dormition Cathedral is Siberia's first stone church.",
+                    "The Uglich bell 'served its exile' in Tobolsk from 1593 to 1892."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой колокол почти триста лет провёл «в ссылке» в Тобольске?",
+                    "en": "Which bell spent almost three hundred years 'in exile' in Tobolsk?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Угличский набатный",
+                      "Московский Царь-колокол",
+                      "Новгородский вечевой"
+                    ],
+                    "en": [
+                      "The Uglich alarm bell",
+                      "Moscow's Tsar Bell",
+                      "Novgorod's veche bell"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Угличский колокол наказали за то, что он созвал горожан в день гибели царевича Дмитрия в 1591 году.",
+                    "en": "The Uglich bell was punished for summoning the townspeople on the day Tsarevich Dmitry died in 1591."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор в центре кремля, пара минут от ворот.",
+                  "en": "The cathedral is in the middle of the kremlin, a couple of minutes from the gates."
+                }
+              }
             },
             {
               "id": "tobolsk-gostiny",
               "title": {"ru": "Гостиный двор", "en": "Merchant Court"},
-              "coordinate": [58.20000, 68.25290],
+              "coordinate": [58.2, 68.2529],
               "category": "market",
               "visit": 30,
               "details": {
                 "ru": "Торговый двор начала XVIII века с башенками по углам, где останавливались купцы, идущие из Азии. Сегодня внутри — музейные экспозиции, ремесленные мастерские и кафе.",
                 "en": "An early 18th-century trading court with corner turrets, where merchants travelling from Asia stayed. Today it houses museum displays, craft workshops and a café."
               },
-              "wiki": {"ru": "Гостиный двор (Тобольск)"}
+              "wiki": {"ru": "Гостиный двор (Тобольск)"},
+              "guide": {
+                "story": {
+                  "ru": "Гостиный двор построили в начале XVIII века, когда Тобольск был воротами России в Азию. Сюда приходили караваны купцов из Бухары и Китая: везли чай, шёлк, хлопок и пряности, а обратно — меха и кожи. Квадратный двор с башенками по углам был одновременно складом, рынком и гостиницей.\n\nВнутри по периметру шли лавки и кладовые, а ворота на ночь запирали — товары здесь стоили целые состояния. В Тобольске даже появилась своя слобода бухарских купцов.\n\nСегодня в Гостином дворе — музейные экспозиции, мастерские ремёсел и кафе, а его стены и башенки снова выглядят так, как в старину.",
+                  "en": "The Merchant Court was built in the early 18th century, when Tobolsk was Russia's gateway to Asia. Caravans of merchants came from Bukhara and China bringing tea, silk, cotton and spices, and going back with furs and hides. The square courtyard with turrets at the corners was warehouse, market and inn at once.\n\nShops and storerooms ran around the inside, and the gates were locked at night — the goods here were worth fortunes. Tobolsk even had its own quarter of Bukharan merchants.\n\nToday the Merchant Court houses museum displays, craft workshops and cafés, and its walls and turrets look as they did in the old days."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башенки по углам двора",
+                    "Галереи с лавками по периметру",
+                    "Мастерские ремёсел внутри"
+                  ],
+                  "en": [
+                    "The turrets at the corners of the court",
+                    "The galleries of shops around the inside",
+                    "The craft workshops inside"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Через Тобольск шла торговля с Бухарой и Китаем — сюда везли чай, шёлк и ткани.",
+                    "В Тобольске была слобода бухарских купцов."
+                  ],
+                  "en": [
+                    "Trade with Bukhara and China passed through Tobolsk — tea, silk and fabrics came here.",
+                    "Tobolsk had a quarter of Bukharan merchants."
+                  ]
+                },
+                "approach": {
+                  "ru": "Гостиный двор внутри кремля, рядом с собором.",
+                  "en": "The Merchant Court is inside the kremlin, next to the cathedral."
+                }
+              }
             },
             {
               "id": "tobolsk-vzvoz",
               "title": {"ru": "Прямской взвоз", "en": "Pryamskoy Vzvoz"},
-              "coordinate": [58.19560, 68.25740],
+              "coordinate": [58.1956, 68.2574],
               "category": "street",
               "visit": 15,
               "details": {
                 "ru": "Деревянная лестница и мостовая, по которой с XVII века поднимались из нижнего посада в кремль. Её восстанавливали несколько раз, но идти по ней — всё равно что шагать сквозь историю города.",
                 "en": "A wooden stairway and road used since the 17th century to climb from the lower town to the kremlin. It has been rebuilt several times, but walking it still feels like walking through the town's history."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Прямской взвоз — главная дорога между нижним посадом и кремлём с XVII века. «Взвозом» называли крутой подъём от реки, по которому ввозили грузы, и здесь по деревянному настилу когда-то поднимались и пешеходы, и телеги.\n\nВзвоз проложен в глубоком овраге, а над ним нависают кремлёвские стены. Деревянная лестница много раз ветшала и её восстанавливали, но маршрут остался прежним: по нему шли купцы, ссыльные, губернаторы и паломники.\n\nСпускайтесь не спеша: на середине пути остановитесь и оглянитесь — стены кремля над головой выглядят отсюда особенно мощно.",
+                  "en": "The Pryamskoy vzvoz has been the main road between the lower settlement and the kremlin since the 17th century. A 'vzvoz' was a steep ramp up from the river for hauling goods, and here both pedestrians and carts once climbed the wooden decking.\n\nThe ramp runs up a deep ravine, with the kremlin walls looming above. The wooden stairway decayed and was restored many times, but the route stayed the same: merchants, exiles, governors and pilgrims all walked it.\n\nGo down slowly: stop halfway and look back — the kremlin walls above you look especially mighty from here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Деревянные ступени и перила взвоза",
+                    "Кремлёвские стены над оврагом",
+                    "Крыши нижнего города впереди"
+                  ],
+                  "en": [
+                    "The wooden steps and railings of the ramp",
+                    "The kremlin walls above the ravine",
+                    "The roofs of the lower town ahead"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Взвоз» — старое слово для крутого подъёма от реки, по которому ввозили грузы.",
+                    "Прямской взвоз ведёт из нижнего города в кремль с XVII века."
+                  ],
+                  "en": [
+                    "'Vzvoz' is an old word for a steep ramp up from the river used to haul goods.",
+                    "The Pryamskoy vzvoz has led from the lower town to the kremlin since the 17th century."
+                  ]
+                },
+                "approach": {
+                  "ru": "Начало взвоза — у стен кремля, спуск в нижний город.",
+                  "en": "The ramp starts by the kremlin walls and goes down to the lower town."
+                }
               }
             },
             {
               "id": "tobolsk-governor",
               "title": {"ru": "Губернаторский дом", "en": "Governor's House"},
-              "coordinate": [58.19340, 68.25890],
+              "coordinate": [58.1934, 68.2589],
               "category": "museum",
               "visit": 45,
               "details": {
                 "ru": "Особняк в нижнем городе, где с августа 1917 по весну 1918 года жила в ссылке семья Николая II. Сейчас здесь музей, рассказывающий о последних месяцах царской семьи в Тобольске.",
                 "en": "A mansion in the lower town where Nicholas II and his family lived in exile from August 1917 until spring 1918. It is now a museum about the royal family's last months in Tobolsk."
+              },
+              "guide": {
+                "story": {
+                  "ru": "В августе 1917 года Временное правительство отправило бывшего императора Николая II с семьёй в Тобольск — подальше от революционного Петрограда. Их поселили в Губернаторском доме, который тогда иронично называли «Домом свободы».\n\nСемья жила здесь около восьми месяцев: дети учились, отец пилил дрова, по вечерам читали вслух и ставили домашние спектакли. После прихода большевиков режим становился всё строже. В апреле 1918 года Николая, Александру и Марию увезли в Екатеринбург, а в мае туда же отправили остальных детей.\n\nСегодня в доме музей: восстановлены комнаты и рассказана история последних месяцев царской семьи.",
+                  "en": "In August 1917 the Provisional Government sent the former Emperor Nicholas II and his family to Tobolsk, far from revolutionary Petrograd. They were housed in the Governor's House, ironically called the 'House of Freedom' at the time.\n\nThe family lived here for about eight months: the children studied, their father sawed firewood, and in the evenings they read aloud and put on home theatricals. After the Bolsheviks came, the regime grew stricter. In April 1918 Nicholas, Alexandra and Maria were taken to Yekaterinburg, and in May the other children followed.\n\nToday the house is a museum: the rooms have been restored and it tells the story of the imperial family's last months."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Восстановленные комнаты царской семьи",
+                    "Окна, из которых семья смотрела на улицу",
+                    "Фотографии тобольской жизни семьи"
+                  ],
+                  "en": [
+                    "The restored rooms of the imperial family",
+                    "The windows from which the family looked out at the street",
+                    "Photographs of the family's life in Tobolsk"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Во время ссылки царской семьи особняк называли «Домом свободы».",
+                    "Семья прожила в Тобольске около восьми месяцев."
+                  ],
+                  "en": [
+                    "During the imperial family's exile the mansion was called the 'House of Freedom'.",
+                    "The family lived in Tobolsk for about eight months."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Куда перевезли царскую семью из Тобольска весной 1918 года?",
+                    "en": "Where was the imperial family taken from Tobolsk in spring 1918?"
+                  },
+                  "options": {
+                    "ru": ["В Екатеринбург", "В Москву", "В Омск"],
+                    "en": ["Yekaterinburg", "Moscow", "Omsk"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В апреле и мае 1918 года семью перевезли в Екатеринбург, где в июле она погибла.",
+                    "en": "In April and May 1918 the family was moved to Yekaterinburg, where it was killed in July."
+                  }
+                },
+                "approach": {
+                  "ru": "Спустившись по взвозу, идите по нижнему городу минут 10.",
+                  "en": "After the ramp, walk about 10 minutes through the lower town."
+                }
               }
             },
             {
               "id": "tobolsk-abalak",
               "title": {"ru": "Абалакский монастырь", "en": "Abalak Monastery"},
-              "coordinate": [58.12928, 68.59000],
+              "coordinate": [58.12928, 68.59],
               "category": "church",
               "visit": 60,
               "details": {
@@ -107,6 +421,61 @@
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 25 км — 30 минут на машине", "en": "About 25 km — 30 minutes by car"}
+              },
+              "guide": {
+                "story": {
+                  "ru": "Летом 1636 года вдове Марии из села Абалак было видение: ей явилась икона «Знамение» Богоматери и велела построить в селе новую церковь. По её рассказу местный диакон Матфей написал икону, и уже в 1637 году здесь освятили Знаменский храм. Икона прославилась чудесами и стала главной святыней Сибири, а вокруг храма вырос монастырь.\n\nМонастырь стоит на высоком берегу Иртыша: белые стены с башнями, храмы и простор реки внизу. Старая икона не сохранилась, но в монастыре почитают её списки.\n\nАбалак связан и с походом Ермака: по преданию, неподалёку его казаки дали одно из сражений войску хана Кучума.",
+                  "en": "In the summer of 1636 a widow called Maria from the village of Abalak had a vision: the icon of the Mother of God of the Sign appeared to her and told her to build a new church in the village. From her description the local deacon Matthew painted the icon, and in 1637 the Church of the Sign was consecrated here. The icon became famous for miracles and the chief holy image of Siberia, and a monastery grew up around the church.\n\nThe monastery stands on the high bank of the Irtysh: white walls and towers, churches and the open river below. The original icon has not survived, but its copies are venerated in the monastery.\n\nAbalak is also linked with Yermak's campaign: tradition says his Cossacks fought one of their battles against Khan Kuchum's army nearby."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Список Абалакской иконы в соборе",
+                    "Вид на Иртыш с обрыва",
+                    "Белые стены и башни монастыря"
+                  ],
+                  "en": [
+                    "A copy of the Abalak icon in the cathedral",
+                    "The view of the Irtysh from the bluff",
+                    "The white walls and towers of the monastery"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Знаменский храм в Абалаке освятили в 1637 году — с него начался монастырь.",
+                    "Абалакская икона долго считалась главной святыней Сибири."
+                  ],
+                  "en": [
+                    "The Church of the Sign in Abalak was consecrated in 1637 — the beginning of the monastery.",
+                    "The Abalak icon was long considered the chief holy image of Siberia."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "С чего, по преданию, началась история Абалакского монастыря?",
+                    "en": "According to tradition, how did the story of the Abalak Monastery begin?"
+                  },
+                  "options": {
+                    "ru": [
+                      "С видения вдовы Марии",
+                      "С победы Ермака",
+                      "С приезда царя"
+                    ],
+                    "en": [
+                      "With a widow's vision",
+                      "With Yermak's victory",
+                      "With a tsar's visit"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В 1636 году вдове Марии явилась икона «Знамение» и велела построить церковь — её освятили в 1637 году.",
+                    "en": "In 1636 the icon of the Sign appeared to the widow Maria and told her to build a church, which was consecrated in 1637."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 25 км вдоль Иртыша — 30 минут на машине.",
+                  "en": "About 25 km along the Irtysh — 30 minutes by car."
+                }
               }
             }
           ]
