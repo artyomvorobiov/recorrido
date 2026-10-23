@@ -1,0 +1,511 @@
+{
+  "city": {
+    "id": "vladimir",
+    "name": {"ru": "Владимир", "en": "Vladimir"},
+    "region": {"ru": "Владимирская область", "en": "Vladimir Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Древняя столица Северо-Восточной Руси: Золотые ворота, белокаменные Успенский и Дмитриевский соборы XII века из списка ЮНЕСКО, смотровые над Клязьмой, а рядом — Боголюбово и церковь Покрова на Нерли, самый поэтичный храм России.",
+      "en": "The ancient capital of north-eastern Rus: the Golden Gate, the white-stone Dormition and St Demetrius cathedrals of the 12th century on the UNESCO list, views over the Klyazma, and nearby Bogolyubovo and the Church of the Intercession on the Nerl, Russia's most poetic church."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 190 км — 2,5–3 часа на машине по трассе М-7 или около двух часов на «Ласточке» с Курского вокзала. Владимир удобно совместить с Суздалем — до него 35 км.",
+      "en": "About 190 km from Moscow — 2.5–3 hours by car on the M-7 or about two hours on a Lastochka train from Kursky station. Vladimir pairs well with Suzdal, 35 km away."
+    },
+    "coordinate": [56.129, 40.4066],
+    "emoji": "🍒",
+    "size": "medium",
+    "tags": ["golden-ring"],
+    "wiki": {"ru": "Владимир (Россия)", "en": "Vladimir, Russia"},
+    "guide": {
+      "story": {
+        "ru": "Владимир основал в 1108 году князь Владимир Мономах как крепость на высоком берегу Клязьмы. Полвека спустя его сын Андрей Боголюбский перенёс сюда столицу княжества и начал строить город, который должен был соперничать с Киевом: Золотые ворота, белокаменные соборы, княжеский замок в Боголюбове. При его брате Всеволоде Большое Гнездо Владимир стал самым сильным городом Руси.\n\nВ 1238 году город сожгли войска Батыя, но белокаменные храмы уцелели и стоят до сих пор. В 1299 году сюда из Киева переехал митрополит, и до XIV века Владимир оставался главным городом русских земель — московские князья ещё долго называли себя великими князьями владимирскими.\n\nБелокаменные памятники Владимира и Суздаля входят в список Всемирного наследия ЮНЕСКО. А ещё Владимир славится вишней: старинный сорт «владимирская» выращивают здесь веками.",
+        "en": "Vladimir was founded in 1108 by Prince Vladimir Monomakh as a fortress on the high bank of the Klyazma. Half a century later his son Andrei Bogolyubsky moved the capital of the principality here and set out to build a city to rival Kyiv: the Golden Gate, white-stone cathedrals and a princely castle at Bogolyubovo. Under his brother Vsevolod the Big Nest, Vladimir became the most powerful city in Rus.\n\nIn 1238 Batu's army burned the city, but the white-stone churches survived and still stand. In 1299 the metropolitan moved here from Kyiv, and until the 14th century Vladimir remained the chief city of the Russian lands — the princes of Moscow long went on calling themselves Grand Princes of Vladimir.\n\nThe white-stone monuments of Vladimir and Suzdal are a UNESCO World Heritage Site. Vladimir is also famous for its cherries: the old 'Vladimirskaya' variety has been grown here for centuries."
+      },
+      "history": [
+        {
+          "year": "1108",
+          "text": {
+            "ru": "Владимир Мономах основывает крепость на Клязьме.",
+            "en": "Vladimir Monomakh founds a fortress on the Klyazma."
+          }
+        },
+        {
+          "year": "1155",
+          "text": {
+            "ru": "Андрей Боголюбский привозит икону, которую назовут Владимирской.",
+            "en": "Andrei Bogolyubsky brings the icon that will be called the Virgin of Vladimir."
+          }
+        },
+        {
+          "year": "1158–1160",
+          "text": {"ru": "Построен Успенский собор.", "en": "The Dormition Cathedral is built."}
+        },
+        {"year": "1164", "text": {"ru": "Закончены Золотые ворота.", "en": "The Golden Gate is completed."}},
+        {
+          "year": "1194–1197",
+          "text": {
+            "ru": "Всеволод Большое Гнездо строит Дмитриевский собор.",
+            "en": "Vsevolod the Big Nest builds the Cathedral of St Demetrius."
+          }
+        },
+        {
+          "year": "1238",
+          "text": {"ru": "Город разорён войском Батыя.", "en": "The city is sacked by Batu's army."}
+        },
+        {
+          "year": "1408",
+          "text": {
+            "ru": "Андрей Рублёв и Даниил Чёрный расписывают Успенский собор.",
+            "en": "Andrei Rublev and Daniil Chorny paint the Dormition Cathedral."
+          }
+        },
+        {
+          "year": "1992",
+          "text": {
+            "ru": "Белокаменные памятники Владимира и Суздаля включены в список ЮНЕСКО.",
+            "en": "The white-stone monuments of Vladimir and Suzdal are inscribed on the UNESCO list."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Владимирскую вишню — варенье, пастилу и наливки",
+          "Пироги с вишней",
+          "Медовуху из соседнего Суздаля"
+        ],
+        "en": [
+          "Vladimir cherries — as jam, pastila and liqueurs",
+          "Cherry pies",
+          "Mead from neighbouring Suzdal"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Вишнёвое варенье в баночке",
+          "Мстёрскую лаковую миниатюру — Мстёра во Владимирской области",
+          "Гусевский хрусталь — из соседнего Гусь-Хрустального"
+        ],
+        "en": [
+          "A jar of cherry jam",
+          "A Mstyora lacquer miniature — Mstyora is in the Vladimir region",
+          "Gus crystal from nearby Gus-Khrustalny"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Успенский и Дмитриевский соборы стоят рядом — начните с них утром, пока мало людей",
+          "За Успенским собором есть смотровая площадка с видом на Клязьму",
+          "До Боголюбова 15 минут на машине, а к Покрову на Нерли от Боголюбова идёт тропа через луг — около 1,5 км"
+        ],
+        "en": [
+          "The Dormition and St Demetrius cathedrals stand side by side — see them in the morning while it is quiet",
+          "Behind the Dormition Cathedral there is a viewpoint over the Klyazma",
+          "Bogolyubovo is 15 minutes by car, and from there a path across the meadow leads to the Intercession on the Nerl — about 1.5 km"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "vladimir-day",
+      "title": {"ru": "Владимир и Покров на Нерли", "en": "Vladimir and the Intercession on the Nerl"},
+      "summary": {
+        "ru": "Золотые ворота, белокаменные соборы XII века с фресками Рублёва и резьбой-«каменной книгой», вид на Клязьму, а потом — Боголюбово и прогулка через луг к церкви Покрова на Нерли.",
+        "en": "The Golden Gate, white-stone 12th-century cathedrals with Rublev's frescoes and stone carvings like a book, the view over the Klyazma, then Bogolyubovo and a walk across the meadow to the Church of the Intercession on the Nerl."
+      },
+      "intro": {
+        "ru": "Пеший центр, около 3 км: Золотые ворота, Успенский и Дмитриевский соборы, смотровая над Клязьмой. Затем 15 минут на машине до Боголюбова и прогулка 1,5 км через луг к Покрову на Нерли. На весь маршрут — 6–7 часов.",
+        "en": "The centre on foot, about 3 km: the Golden Gate, the Dormition and St Demetrius cathedrals and the Klyazma viewpoint. Then 15 minutes by car to Bogolyubovo and a 1.5 km walk across the meadow to the Intercession on the Nerl. Allow 6–7 hours in all."
+      },
+      "emoji": "🍒",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "vladimir-golden-gate",
+              "title": {"ru": "Золотые ворота", "en": "Golden Gate"},
+              "coordinate": [56.12698, 40.39722],
+              "category": "castle",
+              "visit": 40,
+              "details": {
+                "ru": "Парадные въездные ворота 1164 года — одни из немногих сохранившихся городских ворот Древней Руси. Над огромной белокаменной аркой — надвратная церковь, а внутри — военно-исторический музей с диорамой штурма Владимира в 1238 году.",
+                "en": "The ceremonial gate of 1164 — one of the few surviving city gates of early Rus. Above the huge white-stone arch is a gate church, and inside is a military history museum with a diorama of the storming of Vladimir in 1238."
+              },
+              "wiki": {"ru": "Золотые ворота (Владимир)", "en": "Golden Gate (Vladimir)"},
+              "guide": {
+                "story": {
+                  "ru": "Андрей Боголюбский строил Владимир как новый Киев — и даже название главных ворот повторяет киевские Золотые ворота. Их закончили в 1164 году: огромная белокаменная арка, а над ней — надвратная церковь. Створки ворот, по летописи, были обиты позолоченной медью и сверкали на солнце.\n\nВорота были не только парадными, но и военными: они стояли в линии земляных валов, и именно здесь в феврале 1238 года войска Батыя штурмовали город. Сегодня внутри работает музей с диорамой этого штурма.\n\nВ конце XVIII века ворота перестроили, добавив по углам круглые контрфорсы, а валы рядом срыли, — и теперь они стоят посреди улицы, как триумфальная арка.",
+                  "en": "Andrei Bogolyubsky built Vladimir as a new Kyiv — even the name of its main gate echoes Kyiv's Golden Gate. It was completed in 1164: a huge white-stone arch with a gate church above it. According to the chronicle, the doors were covered with gilded copper and glittered in the sun.\n\nThe gate was military as well as ceremonial: it stood in a line of earthen ramparts, and it was here in February 1238 that Batu's army stormed the city. Today the museum inside has a diorama of that assault.\n\nAt the end of the 18th century the gate was rebuilt with round buttresses at the corners and the ramparts beside it were levelled — so now it stands in the middle of the street like a triumphal arch."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Надвратную церковь над аркой",
+                    "Круглые угловые контрфорсы",
+                    "Диораму штурма 1238 года внутри"
+                  ],
+                  "en": [
+                    "The gate church above the arch",
+                    "The round corner buttresses",
+                    "The diorama of the 1238 assault inside"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Ворота названы в подражание Золотым воротам Киева.",
+                    "Ворота закончили строить в 1164 году."
+                  ],
+                  "en": [
+                    "The gate is named after Kyiv's Golden Gate.",
+                    "The gate was completed in 1164."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему ворота назвали Золотыми?",
+                    "en": "Why was the gate called Golden?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Створки были обиты позолоченной медью",
+                      "Их построили из жёлтого камня",
+                      "За проход брали плату золотом"
+                    ],
+                    "en": [
+                      "Its doors were covered with gilded copper",
+                      "It was built of yellow stone",
+                      "A toll was paid in gold"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Позолоченные створки сверкали на солнце, а название повторяло киевские Золотые ворота.",
+                    "en": "The gilded doors glittered in the sun, and the name echoed Kyiv's Golden Gate."
+                  }
+                },
+                "approach": {
+                  "ru": "Ворота — в начале Большой Московской улицы, главной улицы старого города.",
+                  "en": "The gate stands at the start of Bolshaya Moskovskaya, the old town's main street."
+                }
+              }
+            },
+            {
+              "id": "vladimir-assumption",
+              "title": {"ru": "Успенский собор", "en": "Dormition Cathedral"},
+              "coordinate": [56.12697, 40.41047],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белокаменный собор 1158–1160 годов, расширенный при Всеволоде Большое Гнездо, — главный храм Северо-Восточной Руси. Внутри — фрески Андрея Рублёва и Даниила Чёрного 1408 года со светлым «Страшным судом».",
+                "en": "A white-stone cathedral of 1158–1160, enlarged under Vsevolod the Big Nest — the chief church of north-eastern Rus. Inside are frescoes of 1408 by Andrei Rublev and Daniil Chorny, including a luminous Last Judgement."
+              },
+              "wiki": {"ru": "Успенский собор (Владимир)", "en": "Dormition Cathedral, Vladimir"},
+              "guide": {
+                "story": {
+                  "ru": "Успенский собор Андрей Боголюбский построил в 1158–1160 годах для главной святыни — иконы, которую он привёз с юга и которую стали называть Владимирской. Белокаменный собор с золотыми главами должен был показать, что центр Руси переместился сюда.\n\nПосле пожара 1185 года Всеволод Большое Гнездо обстроил собор новыми стенами, и он стал пятиглавым. Здесь венчали на великое княжение, здесь похоронены владимирские князья и епископы.\n\nВ 1408 году собор расписали Андрей Рублёв и Даниил Чёрный. Их «Страшный суд» под хорами — не грозный, а светлый, полный надежды. Сама Владимирская икона в конце XIV века была перевезена в Москву и хранится там до сих пор.",
+                  "en": "Andrei Bogolyubsky built the Dormition Cathedral in 1158–1160 for his greatest treasure — the icon he had brought from the south, which came to be called the Virgin of Vladimir. The white-stone cathedral with golden domes was meant to show that the centre of Rus had moved here.\n\nAfter a fire in 1185 Vsevolod the Big Nest surrounded it with new walls, and it became five-domed. Grand princes were enthroned here, and Vladimir's princes and bishops are buried here.\n\nIn 1408 the cathedral was painted by Andrei Rublev and Daniil Chorny. Their Last Judgement under the gallery is not menacing but bright and full of hope. The Vladimir icon itself was taken to Moscow at the end of the 14th century and is still kept there."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Страшный суд» Рублёва под хорами",
+                    "Пять золотых глав",
+                    "Белокаменные стены с узкими окнами"
+                  ],
+                  "en": [
+                    "Rublev's Last Judgement under the gallery",
+                    "The five golden domes",
+                    "The white-stone walls with narrow windows"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Фрески Андрея Рублёва и Даниила Чёрного написаны в 1408 году.",
+                    "Владимирская икона Богоматери, ради которой строили собор, хранится сейчас в Москве."
+                  ],
+                  "en": [
+                    "Andrei Rublev and Daniil Chorny painted their frescoes in 1408.",
+                    "The Virgin of Vladimir icon, for which the cathedral was built, is now kept in Moscow."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой знаменитый иконописец расписывал Успенский собор в 1408 году?",
+                    "en": "Which famous icon painter worked on the Dormition Cathedral in 1408?"
+                  },
+                  "options": {
+                    "ru": ["Андрей Рублёв", "Феофан Грек", "Дионисий"],
+                    "en": ["Andrei Rublev", "Theophanes the Greek", "Dionisius"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Рублёв работал здесь вместе с Даниилом Чёрным, и часть их фресок сохранилась.",
+                    "en": "Rublev worked here with Daniil Chorny, and some of their frescoes survive."
+                  }
+                },
+                "approach": {
+                  "ru": "От Золотых ворот около 15 минут пешком по Большой Московской улице.",
+                  "en": "About 15 minutes' walk from the Golden Gate along Bolshaya Moskovskaya."
+                }
+              }
+            },
+            {
+              "id": "vladimir-dmitrievsky",
+              "title": {"ru": "Дмитриевский собор", "en": "Cathedral of St Demetrius"},
+              "coordinate": [56.1272, 40.4127],
+              "category": "church",
+              "visit": 25,
+              "details": {
+                "ru": "Небольшой белокаменный собор 1194–1197 годов, придворный храм Всеволода Большое Гнездо. Его стены покрыты сотнями резных рельефов: львы, грифоны, птицы, царь Давид и Александр Македонский, возносящийся на небо.",
+                "en": "A small white-stone cathedral of 1194–1197, the court church of Vsevolod the Big Nest. Its walls are covered with hundreds of carved reliefs: lions, griffins, birds, King David and Alexander the Great ascending to heaven."
+              },
+              "wiki": {"ru": "Дмитриевский собор (Владимир)", "en": "Cathedral of Saint Demetrius"},
+              "guide": {
+                "story": {
+                  "ru": "Дмитриевский собор Всеволод Большое Гнездо построил при своём дворе и посвятил святому Дмитрию Солунскому — своему небесному покровителю: в крещении Всеволода звали Дмитрием. Собор невелик, но знаменит на весь мир резьбой: на его стенах около шестисот белокаменных рельефов.\n\nВ центре каждого фасада — царь Давид с псалтирью, а вокруг — целый мир: львы, барсы, грифоны, птицы, растения и святые воины. Есть сцена вознесения Александра Македонского на колеснице, запряжённой грифонами, и сам Всеволод с сыновьями.\n\nРезьба читается как каменная книга о гармонии мира. Лучше всего её видно в косом утреннем или вечернем свете, когда рельефы становятся объёмными.",
+                  "en": "Vsevolod the Big Nest built the Cathedral of St Demetrius at his court and dedicated it to St Demetrius of Thessalonica, his patron saint — Vsevolod's baptismal name was Dmitry. The cathedral is small but world-famous for its carving: about six hundred white-stone reliefs cover its walls.\n\nIn the centre of each facade is King David with his psalter, and around him a whole world: lions, leopards, griffins, birds, plants and warrior saints. There is Alexander the Great ascending to heaven in a chariot drawn by griffins, and Vsevolod himself with his sons.\n\nThe carving reads like a stone book about the harmony of the world. It is best seen in the slanting light of morning or evening, when the reliefs stand out."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Царя Давида с псалтирью в центре фасадов",
+                    "Вознесение Александра Македонского на грифонах",
+                    "Всеволода с сыновьями на северном фасаде"
+                  ],
+                  "en": [
+                    "King David with his psalter in the centre of the facades",
+                    "Alexander the Great ascending with griffins",
+                    "Vsevolod and his sons on the north facade"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "На стенах собора около шестисот белокаменных рельефов.",
+                    "Всеволод получил прозвище Большое Гнездо за большую семью — у него было больше десяти детей."
+                  ],
+                  "en": [
+                    "About six hundred white-stone reliefs cover the cathedral walls.",
+                    "Vsevolod was nicknamed the Big Nest for his large family — he had more than ten children."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто изображён в центре каждого фасада Дмитриевского собора?",
+                    "en": "Who is shown in the centre of each facade of the Cathedral of St Demetrius?"
+                  },
+                  "options": {
+                    "ru": ["Царь Давид", "Князь Всеволод", "Святой Георгий"],
+                    "en": ["King David", "Prince Vsevolod", "St George"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Царь-псалмопевец Давид с псалтирью — центральная фигура всех трёх фасадов.",
+                    "en": "King David the psalmist with his psalter is the central figure of each facade."
+                  }
+                },
+                "approach": {
+                  "ru": "Пара минут пешком от Успенского собора.",
+                  "en": "A couple of minutes' walk from the Dormition Cathedral."
+                }
+              }
+            },
+            {
+              "id": "vladimir-klyazma-view",
+              "title": {"ru": "Смотровая над Клязьмой", "en": "Klyazma Viewpoint"},
+              "coordinate": [56.1263, 40.4098],
+              "category": "viewpoint",
+              "visit": 15,
+              "details": {
+                "ru": "Площадка на краю высокого берега у Успенского собора с видом на долину Клязьмы, железную дорогу и заречные леса. Отсюда понятно, почему город поставили именно здесь.",
+                "en": "A platform on the edge of the high bank by the Dormition Cathedral, looking over the Klyazma valley, the railway and the forests beyond. From here it is clear why the city was built on this spot."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Владимир стоит на высоком левом берегу Клязьмы, и с откоса открывается вид на десятки километров: пойма, излучины реки, луга и леса до горизонта. Когда-то по Клязьме шли торговые суда, а с холма любого врага было видно задолго до его появления у стен.\n\nВнизу проходит железная дорога из Москвы в Нижний Новгород, а за рекой тянутся леса Мещёры. Соборы стоят прямо над обрывом — их строили так, чтобы путники видели золотые главы издалека.\n\nЗадержитесь здесь хотя бы на несколько минут: это лучшее место, чтобы почувствовать масштаб древней столицы.",
+                  "en": "Vladimir stands on the high left bank of the Klyazma, and from the bluff you can see for dozens of kilometres: the floodplain, the river's bends, meadows and forests to the horizon. Trading boats once sailed the Klyazma, and from the hill any enemy could be seen long before he reached the walls.\n\nBelow runs the railway from Moscow to Nizhny Novgorod, and beyond the river stretch the forests of Meshchera. The cathedrals stand right above the drop — they were built so that travellers would see their golden domes from afar.\n\nLinger here for at least a few minutes: it is the best place to feel the scale of the ancient capital."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Излучины Клязьмы в пойме",
+                    "Поезда на железной дороге внизу",
+                    "Купола Успенского собора за спиной"
+                  ],
+                  "en": [
+                    "The bends of the Klyazma in the floodplain",
+                    "Trains on the railway below",
+                    "The Dormition Cathedral's domes behind you"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Владимир стоит на высоком левом берегу Клязьмы.",
+                    "За рекой начинается Мещёра — край лесов и болот."
+                  ],
+                  "en": [
+                    "Vladimir stands on the high left bank of the Klyazma.",
+                    "Beyond the river begins Meshchera, a land of forests and marshes."
+                  ]
+                },
+                "approach": {
+                  "ru": "Площадка — рядом с Успенским собором, у края холма.",
+                  "en": "The platform is next to the Dormition Cathedral, on the edge of the hill."
+                }
+              }
+            },
+            {
+              "id": "vladimir-bogolyubovo",
+              "title": {"ru": "Боголюбово", "en": "Bogolyubovo"},
+              "coordinate": [56.1956, 40.533],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Остатки резиденции Андрея Боголюбского XII века — лестничная башня и переход к собору, редкий фрагмент княжеского замка домонгольской Руси, — внутри монастыря с яркими храмами XIX века.",
+                "en": "The remains of Andrei Bogolyubsky's 12th-century residence — a stair tower and a passage to the cathedral, a rare fragment of a princely castle from before the Mongol invasion — inside a monastery with colourful 19th-century churches."
+              },
+              "wiki": {"ru": "Боголюбский монастырь"},
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 11 км — 15 минут на машине или такси",
+                  "en": "About 11 km — 15 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "По преданию, в 1155 году кони, вёзшие с юга икону Богоматери, остановились здесь и не захотели идти дальше. Андрей увидел в этом знак, основал на этом месте свою резиденцию и назвал её Боголюбовым, а прозвище Боголюбский пристало к нему самому.\n\nЗдесь стоял белокаменный княжеский замок с собором Рождества Богородицы. До наших дней дошли лестничная башня и переход, по которому князь проходил из дворца в храм, — редкий уцелевший фрагмент гражданской архитектуры домонгольской Руси.\n\nВ 1174 году в своих покоях Андрей Боголюбский был убит заговорщиками. Сегодня вокруг древних стен — действующий монастырь с яркими храмами XIX века.",
+                  "en": "Tradition says that in 1155 the horses carrying an icon of the Mother of God from the south stopped here and refused to go on. Andrei saw it as a sign, founded his residence on the spot and named it Bogolyubovo, 'loved by God' — and the name Bogolyubsky stuck to him.\n\nA white-stone princely castle with the Cathedral of the Nativity of the Virgin stood here. What survives is a stair tower and the passage by which the prince walked from his palace to the church — a rare fragment of secular architecture from before the Mongol invasion.\n\nIn 1174 Andrei Bogolyubsky was murdered in his chambers by conspirators. Today an active monastery with colourful 19th-century churches surrounds the ancient walls."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Лестничную башню XII века",
+                    "Переход-галерею к собору",
+                    "Вид на заливной луг к церкви Покрова"
+                  ],
+                  "en": [
+                    "The 12th-century stair tower",
+                    "The gallery passage to the cathedral",
+                    "The view across the water meadow to the Intercession church"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Андрей Боголюбский был убит в Боголюбове заговорщиками в 1174 году.",
+                    "Лестничная башня — редкий сохранившийся фрагмент княжеского дворца домонгольской Руси."
+                  ],
+                  "en": [
+                    "Andrei Bogolyubsky was murdered at Bogolyubovo by conspirators in 1174.",
+                    "The stair tower is a rare surviving fragment of a princely palace from before the Mongol invasion."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Откуда князь Андрей получил прозвище Боголюбский?",
+                    "en": "Where did Prince Andrei get the name Bogolyubsky?"
+                  },
+                  "options": {
+                    "ru": [
+                      "От названия своей резиденции",
+                      "За любовь к охоте",
+                      "Так звали его отца"
+                    ],
+                    "en": [
+                      "From the name of his residence",
+                      "For his love of hunting",
+                      "It was his father's name"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "По преданию, здесь остановились кони с иконой; Андрей назвал место Боголюбовым, и прозвище перешло к нему.",
+                    "en": "Tradition says the horses with the icon stopped here; Andrei named the place Bogolyubovo, and the name passed to him."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 11 км по трассе на Нижний Новгород — 15 минут на машине или такси.",
+                  "en": "About 11 km along the Nizhny Novgorod road — 15 minutes by car or taxi."
+                }
+              }
+            },
+            {
+              "id": "vladimir-pokrov-nerl",
+              "title": {"ru": "Церковь Покрова на Нерли", "en": "Church of the Intercession on the Nerl"},
+              "coordinate": [56.1959, 40.5614],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белоснежная одноглавая церковь 1165 года на заливном лугу у слияния Нерли и Клязьмы — символ древнерусской архитектуры. Весной в разлив она стоит посреди воды, как на острове.",
+                "en": "A snow-white single-domed church of 1165 on a water meadow where the Nerl meets the Klyazma — a symbol of early Russian architecture. In the spring floods it stands in the middle of the water as if on an island."
+              },
+              "tip": {
+                "ru": "Весной луг может заливать — тогда к храму пробираются в высоких сапогах или подплывают на лодке.",
+                "en": "In spring the meadow may flood — then people wade over in tall boots or come by boat."
+              },
+              "wiki": {"ru": "Церковь Покрова на Нерли", "en": "Church of the Intercession on the Nerl"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Около 1,5 км по тропе через луг — 20–25 минут",
+                  "en": "About 1.5 km along the path across the meadow — 20–25 minutes"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Церковь Покрова на Нерли построена в 1165 году — по преданию, Андрей Боголюбский поставил её в память о сыне Изяславе, умершем после похода на волжских булгар. Храм стоит на рукотворном холме, обложенном белым камнем, — поэтому весеннее половодье, заливающее луг, ему не страшно.\n\nЕго называют самым поэтичным храмом России: тонкие пропорции, вытянутые окна и одна глава делают его лёгким, будто он вырастает из земли и тянется вверх. На фасадах — резной царь Давид, львы и девичьи маски.\n\nСюда идут пешком по тропе через луг — и это часть впечатления: храм постепенно вырастает перед вами на фоне неба.",
+                  "en": "The Church of the Intercession on the Nerl was built in 1165 — tradition says Andrei Bogolyubsky raised it in memory of his son Izyaslav, who died after a campaign against the Volga Bulgars. It stands on an artificial mound faced with white stone, so the spring floods that cover the meadow cannot harm it.\n\nIt is called the most poetic church in Russia: its slender proportions, tall windows and single dome make it seem light, as if growing out of the ground and reaching upwards. The facades carry King David, lions and maidens' masks.\n\nYou reach it on foot along a path across the meadow — and that is part of the experience: the church slowly rises before you against the sky."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Резного царя Давида на фасадах",
+                    "Девичьи маски под закомарами",
+                    "Отражение храма в старице"
+                  ],
+                  "en": [
+                    "The carved King David on the facades",
+                    "The maidens' masks under the arches",
+                    "The church's reflection in the oxbow lake"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Храм построен в 1165 году.",
+                    "Церковь стоит на искусственном холме, поэтому половодье ей не страшно."
+                  ],
+                  "en": [
+                    "The church was built in 1165.",
+                    "It stands on an artificial mound, so floods cannot harm it."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему весной церковь Покрова на Нерли не затапливает?",
+                    "en": "Why doesn't the Church of the Intercession on the Nerl flood in spring?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Она стоит на искусственном холме",
+                      "Её окружает дамба",
+                      "Весной вода здесь не поднимается"
+                    ],
+                    "en": [
+                      "It stands on an artificial mound",
+                      "A dam surrounds it",
+                      "The water never rises here"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Строители насыпали холм и облицевали его камнем, и вода обходит храм стороной.",
+                    "en": "The builders raised a mound and faced it with stone, so the water flows around the church."
+                  }
+                },
+                "approach": {
+                  "ru": "От Боголюбова по тропе через луг — около 1,5 км.",
+                  "en": "From Bogolyubovo along the path across the meadow — about 1.5 km."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

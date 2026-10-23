@@ -1,0 +1,533 @@
+{
+  "city": {
+    "id": "yaroslavl",
+    "name": {"ru": "Ярославль", "en": "Yaroslavl"},
+    "region": {"ru": "Ярославская область", "en": "Yaroslavl Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Столица Золотого кольца на слиянии Волги и Которосли, основанная, по преданию, Ярославом Мудрым. Храмы XVII века с яркими фресками, монастырь, откуда происходит «Слово о полку Игореве», широкая Волжская набережная и Стрелка — исторический центр в списке ЮНЕСКО.",
+      "en": "The capital of the Golden Ring where the Kotorosl meets the Volga, founded, legend says, by Yaroslav the Wise. Seventeenth-century churches with vivid frescoes, the monastery the 'Lay of Igor's Campaign' came from, the broad Volga embankment and the Strelka — a historic centre on the UNESCO list."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 270 км — 3,5–4 часа на машине по трассе М-8. Поезда с Ярославского вокзала идут около трёх с половиной часов.",
+      "en": "About 270 km from Moscow — 3.5–4 hours by car on the M-8 highway. Trains from Moscow's Yaroslavsky station take about three and a half hours."
+    },
+    "coordinate": [57.6261, 39.8845],
+    "emoji": "🐻",
+    "size": "medium",
+    "tags": ["golden-ring", "volga"],
+    "wiki": {"ru": "Ярославль", "en": "Yaroslavl"},
+    "guide": {
+      "story": {
+        "ru": "Ярославль, по преданию, основал около 1010 года князь Ярослав Мудрый. Легенда говорит, что на мысу между Волгой и Которослью местные язычники выпустили на него медведя, а князь зарубил зверя секирой и поставил здесь крепость. С тех пор медведь с секирой — на гербе города.\n\nВесной и летом 1612 года, в самый разгар Смуты, Ярославль на несколько месяцев стал фактической столицей страны: здесь собиралось ополчение Минина и Пожарского перед походом на Москву. А XVII век стал для города золотым: богатые купцы строили храмы и заказывали лучшим мастерам яркие фрески, которыми Ярославль славится до сих пор.\n\nВ 1750 году купеческий сын Фёдор Волков открыл здесь первый в России публичный театр. Исторический центр Ярославля включён в список Всемирного наследия ЮНЕСКО, а сам город — большой, живой и очень волжский.",
+        "en": "Legend says Yaroslavl was founded around 1010 by Prince Yaroslav the Wise. On the cape between the Volga and the Kotorosl the local pagans set a bear on him, but the prince killed it with his axe and built a fortress here. Ever since, a bear with an axe has been on the city's coat of arms.\n\nIn the spring and summer of 1612, at the height of the Time of Troubles, Yaroslavl was for a few months the country's de facto capital: Minin and Pozharsky's militia gathered here before marching on Moscow. The 17th century was the city's golden age: rich merchants built churches and hired the best masters to fill them with the vivid frescoes Yaroslavl is still famous for.\n\nIn 1750 Fyodor Volkov, a merchant's son, opened Russia's first public theatre here. Yaroslavl's historic centre is a UNESCO World Heritage Site, and the city itself is big, lively and very much a Volga city."
+      },
+      "history": [
+        {
+          "year": "1010",
+          "text": {
+            "ru": "По преданию, Ярослав Мудрый основывает город на мысу у слияния Волги и Которосли.",
+            "en": "Legend says Yaroslav the Wise founds the city on the cape where the Kotorosl meets the Volga."
+          }
+        },
+        {
+          "year": "1218",
+          "text": {
+            "ru": "Ярославль становится столицей отдельного княжества.",
+            "en": "Yaroslavl becomes the capital of its own principality."
+          }
+        },
+        {
+          "year": "1463",
+          "text": {
+            "ru": "Ярославское княжество входит в состав Московского государства.",
+            "en": "The Principality of Yaroslavl becomes part of the Muscovite state."
+          }
+        },
+        {
+          "year": "1612",
+          "text": {
+            "ru": "В городе собирается ополчение Минина и Пожарского.",
+            "en": "Minin and Pozharsky's militia gathers in the city."
+          }
+        },
+        {
+          "year": "1750",
+          "text": {
+            "ru": "Фёдор Волков открывает первый в России публичный театр.",
+            "en": "Fyodor Volkov opens Russia's first public theatre."
+          }
+        },
+        {
+          "year": "2005",
+          "text": {
+            "ru": "Исторический центр включён в список Всемирного наследия ЮНЕСКО.",
+            "en": "The historic centre is inscribed on the UNESCO World Heritage List."
+          }
+        },
+        {
+          "year": "2010",
+          "text": {
+            "ru": "Ярославль отмечает тысячелетие; на Стрелке освящён восстановленный Успенский собор.",
+            "en": "Yaroslavl celebrates its millennium; the rebuilt Dormition Cathedral on the Strelka is consecrated."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Волжскую рыбу — уху и жаркое из судака",
+          "Пироги и расстегаи в трактирах у набережной",
+          "Чай с вареньем из волжских ягод"
+        ],
+        "en": [
+          "Volga fish — fish soup and roast pike-perch",
+          "Pies and open-topped rasstegai in taverns by the embankment",
+          "Tea with jam from Volga berries"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Медведя с секирой — символ города",
+          "Изразцы с узорами, как на ярославских храмах",
+          "Открытку с видами Ярославля, как на тысячерублёвой купюре"
+        ],
+        "en": [
+          "A bear with an axe, the city's symbol",
+          "Tiles with patterns like those on Yaroslavl's churches",
+          "A postcard of the Yaroslavl views shown on the 1,000-rouble note"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Храмы XVII века с фресками часто открыты только в тёплое время года и могут закрываться в сырую погоду",
+          "Лучший вид на Стрелку — со звонницы Спасо-Преображенского монастыря и с Волжской набережной",
+          "Ярославль удобно совместить с Ростовом Великим — до него около часа на машине или электричке"
+        ],
+        "en": [
+          "The 17th-century frescoed churches are often open only in the warm season and may close in damp weather",
+          "The best views of the Strelka are from the belfry of the Saviour-Transfiguration Monastery and from the Volga embankment",
+          "Yaroslavl pairs well with Rostov the Great — about an hour away by car or local train"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "yaroslavl-day",
+      "title": {
+        "ru": "Ярославль: фрески, Волга и Стрелка",
+        "en": "Yaroslavl: frescoes, the Volga and the Strelka"
+      },
+      "summary": {
+        "ru": "Пеший день по центру из списка ЮНЕСКО: монастырь со звонницей, храм Ильи Пророка с фресками, Волжская набережная, музей «Музыка и время», Стрелка и храмы в Коровниках с «ярославской свечой».",
+        "en": "A day on foot in the UNESCO-listed centre: the monastery and its belfry, the frescoed Church of Elijah the Prophet, the Volga embankment, the Music and Time museum, the Strelka and the Korovniki churches with the 'Yaroslavl candle'."
+      },
+      "intro": {
+        "ru": "Пеший день, около 6 км: от монастыря через Советскую площадь к Волжской набережной, музею «Музыка и время» и Стрелке, а в конце — через Которосль к храмам в Коровниках. Заложите полтора часа на монастырь со звонницей и час — на фрески Ильи Пророка.",
+        "en": "A day on foot, about 6 km: from the monastery across Sovetskaya Square to the Volga embankment, the Music and Time museum and the Strelka, and finally across the Kotorosl to the Korovniki churches. Allow an hour and a half for the monastery and its belfry and an hour for the frescoes of Elijah the Prophet."
+      },
+      "emoji": "🐻",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "yaroslavl-spaso",
+              "title": {"ru": "Спасо-Преображенский монастырь", "en": "Saviour-Transfiguration Monastery"},
+              "coordinate": [57.62, 39.887],
+              "category": "church",
+              "visit": 90,
+              "details": {
+                "ru": "Монастырь XII века на берегу Которосли, который горожане называют Ярославским кремлём. Здесь стоит Спасо-Преображенский собор начала XVI века — старейшее сохранившееся здание города, а со звонницы открывается вид на центр, Которосль и Волгу.",
+                "en": "A 12th-century monastery on the Kotorosl that locals call the Yaroslavl Kremlin. Its Transfiguration Cathedral from the early 16th century is the oldest surviving building in the city, and the belfry offers a view of the centre, the Kotorosl and the Volga."
+              },
+              "tip": {
+                "ru": "Поднимитесь на звонницу — это одна из лучших смотровых площадок Ярославля.",
+                "en": "Climb the belfry — it is one of the best viewpoints in Yaroslavl."
+              },
+              "wiki": {"ru": "Спасо-Преображенский монастырь (Ярославль)"},
+              "guide": {
+                "story": {
+                  "ru": "Спасо-Преображенский монастырь основан в XII веке на берегу Которосли и стал одним из самых богатых и укреплённых в Северо-Восточной Руси. Его белые стены с башнями выдерживали осады, поэтому горожане до сих пор называют монастырь кремлём.\n\nСобор Спаса Преображения построен в 1506–1516 годах — это старейшее сохранившееся здание Ярославля, а его фрески XVI века считаются одними из лучших в городе. В конце XVIII века граф Алексей Мусин-Пушкин приобрёл рукопись из бывшей монастырской библиотеки — единственный известный список «Слова о полку Игореве». Рукопись сгорела в московском пожаре 1812 года, но её успели издать.\n\nСегодня в монастыре музей-заповедник с экспозицией о «Слове», а со звонницы видно Которосль, Волгу и купола центра.",
+                  "en": "The Saviour-Transfiguration Monastery was founded in the 12th century on the Kotorosl and became one of the richest and best fortified in north-eastern Rus. Its white walls and towers withstood sieges, which is why locals still call it the kremlin.\n\nThe Cathedral of the Transfiguration, built in 1506–1516, is Yaroslavl's oldest surviving building, and its 16th-century frescoes are among the finest in the city. At the end of the 18th century Count Alexei Musin-Pushkin acquired a manuscript from the former monastery library — the only known copy of the 'Lay of Igor's Campaign'. It burned in the Moscow fire of 1812, but had already been published.\n\nToday the monastery is a museum with an exhibition about the 'Lay', and from the belfry you can see the Kotorosl, the Volga and the domes of the centre."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Звонницу со смотровой площадкой",
+                    "Фрески XVI века в Спасо-Преображенском соборе",
+                    "Святые ворота с башней"
+                  ],
+                  "en": [
+                    "The belfry with its viewing platform",
+                    "The 16th-century frescoes in the Transfiguration Cathedral",
+                    "The Holy Gates with their tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Спасо-Преображенский собор (1506–1516) — старейшее сохранившееся здание Ярославля.",
+                    "Единственная рукопись «Слова о полку Игореве» сгорела в 1812 году, но была издана в 1800-м."
+                  ],
+                  "en": [
+                    "The Transfiguration Cathedral (1506–1516) is the oldest surviving building in Yaroslavl.",
+                    "The only manuscript of the 'Lay of Igor's Campaign' burned in 1812 but had been published in 1800."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какую знаменитую рукопись связывают с этим монастырём?",
+                    "en": "Which famous manuscript is linked with this monastery?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Слово о полку Игореве»",
+                      "«Повесть временных лет»",
+                      "«Задонщину»"
+                    ],
+                    "en": [
+                      "The Lay of Igor's Campaign",
+                      "The Primary Chronicle",
+                      "The Zadonshchina"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Мусин-Пушкин приобрёл единственный список «Слова» из бывшей библиотеки монастыря.",
+                    "en": "Musin-Pushkin acquired the only copy of the 'Lay' from the former monastery library."
+                  }
+                },
+                "approach": {
+                  "ru": "Монастырь стоит на Богоявленской площади, у моста через Которосль.",
+                  "en": "The monastery stands on Bogoyavlenskaya Square, by the bridge over the Kotorosl."
+                }
+              }
+            },
+            {
+              "id": "yaroslavl-elijah",
+              "title": {"ru": "Церковь Ильи Пророка", "en": "Church of Elijah the Prophet"},
+              "coordinate": [57.6269, 39.8937],
+              "category": "church",
+              "visit": 45,
+              "details": {
+                "ru": "Купеческий храм 1647–1650 годов посреди Советской площади. Внутри — одни из самых ярких фресок XVII века в России работы Гурия Никитина и Силы Савина: библейские сюжеты соседствуют с бытовыми сценами — жатвой, стройкой, пиром.",
+                "en": "A merchants' church of 1647–1650 in the middle of Sovetskaya Square. Inside are some of the most vivid 17th-century frescoes in Russia, by Gury Nikitin and Sila Savin: Bible stories side by side with everyday scenes of harvest, building and feasting."
+              },
+              "tip": {
+                "ru": "Храм открыт для посетителей в тёплое время года; в сырую погоду его могут закрыть, чтобы сберечь фрески.",
+                "en": "The church is open in the warm season; in damp weather it may close to protect the frescoes."
+              },
+              "wiki": {"ru": "Церковь Ильи Пророка (Ярославль)"},
+              "guide": {
+                "story": {
+                  "ru": "Церковь Ильи Пророка построили в 1647–1650 годах богатейшие ярославские купцы братья Скрипины, торговавшие пушниной и поставлявшие товары царскому двору. Их богатство позволяло приглашать лучших мастеров страны.\n\nВ 1680–1681 годах храм расписала артель Гурия Никитина и Силы Савина. На стенах — библейские истории, жития святых и чудеса, а рядом — сцены, которые художники подсмотрели в жизни: жатва в поле, строительство, корабли, пиры. Краски почти не потускнели, потому что храм мало перестраивали.\n\nЦерковь стоит в самом центре, на Советской площади, и вокруг неё сходятся главные улицы старого города.",
+                  "en": "The Church of Elijah the Prophet was built in 1647–1650 by the Skripin brothers, Yaroslavl's richest merchants, who traded in furs and supplied the royal court. Their wealth let them hire the best masters in the country.\n\nIn 1680–1681 the church was painted by the team of Gury Nikitin and Sila Savin. The walls show Bible stories, saints' lives and miracles, and next to them scenes the painters observed in real life: harvest in the fields, building work, ships and feasts. The colours have hardly faded because the church was rarely altered.\n\nIt stands right in the centre, on Sovetskaya Square, where the main streets of the old town meet."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Сцены жатвы и стройки среди библейских сюжетов",
+                    "Изразцы и наличники на фасаде",
+                    "Шатровую колокольню"
+                  ],
+                  "en": [
+                    "Scenes of harvest and building among the Bible stories",
+                    "The tiles and window surrounds on the facade",
+                    "The tent-roofed bell tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Храм построили купцы братья Скрипины, торговавшие пушниной.",
+                    "Фрески 1680–1681 годов написала артель Гурия Никитина и Силы Савина."
+                  ],
+                  "en": [
+                    "The church was built by the Skripin brothers, fur merchants.",
+                    "The frescoes of 1680–1681 were painted by the team of Gury Nikitin and Sila Savin."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто построил церковь Ильи Пророка?",
+                    "en": "Who built the Church of Elijah the Prophet?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Купцы братья Скрипины",
+                      "Царь Алексей Михайлович",
+                      "Монахи Спасского монастыря"
+                    ],
+                    "en": [
+                      "The Skripin merchant brothers",
+                      "Tsar Alexei Mikhailovich",
+                      "The monks of the Saviour Monastery"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Скрипины разбогатели на торговле пушниной и построили храм на свои деньги.",
+                    "en": "The Skripins grew rich in the fur trade and built the church with their own money."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10–12 минут пешком на север через центр.",
+                  "en": "About 10–12 minutes' walk north through the centre."
+                }
+              }
+            },
+            {
+              "id": "yaroslavl-embankment",
+              "title": {"ru": "Волжская набережная", "en": "Volga Embankment"},
+              "coordinate": [57.629, 39.8975],
+              "category": "street",
+              "visit": 30,
+              "details": {
+                "ru": "Широкая набережная на высоком берегу Волги с особняками XIX века, Губернаторским домом и белой ротондой. Отсюда видно реку и мосты, а в Губернаторском доме работает художественный музей.",
+                "en": "A broad embankment on the high bank of the Volga with 19th-century mansions, the Governor's House and a white rotunda. It looks out over the river and its bridges, and the Governor's House holds the art museum."
+              },
+              "wiki": {"ru": "Волжская набережная (Ярославль)"},
+              "guide": {
+                "story": {
+                  "ru": "Волжская набережная — главная прогулочная улица Ярославля. Её обустроили в первой половине XIX века: на высоком берегу посадили деревья, поставили белую ротонду-беседку, а вдоль набережной выросли дворянские и купеческие особняки.\n\nСамый известный — Губернаторский дом 1820-х годов с колоннами, где теперь работает Ярославский художественный музей с русской живописью. На другом берегу Волги лежат Тверицы — старая заволжская слобода.\n\nОтсюда хорошо видно, какая широкая здесь Волга: по ней идут теплоходы и баржи, а лестницы спускаются к нижнему ярусу у самой воды.",
+                  "en": "The Volga Embankment is Yaroslavl's main promenade. It was laid out in the first half of the 19th century: trees were planted on the high bank, a white rotunda was put up, and nobles' and merchants' mansions rose along it.\n\nThe best known is the colonnaded Governor's House of the 1820s, now the Yaroslavl Art Museum with its Russian paintings. On the far bank lies Tveritsy, the old settlement across the Volga.\n\nFrom here you see how wide the Volga is: cruise boats and barges pass by, and stairs lead down to a lower level right by the water."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Белую ротонду над рекой",
+                    "Губернаторский дом с колоннами",
+                    "Теплоходы на Волге"
+                  ],
+                  "en": [
+                    "The white rotunda above the river",
+                    "The colonnaded Governor's House",
+                    "Boats on the Volga"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В Губернаторском доме работает Ярославский художественный музей.",
+                    "На противоположном берегу Волги — Тверицы, старая заволжская часть города."
+                  ],
+                  "en": [
+                    "The Governor's House is home to the Yaroslavl Art Museum.",
+                    "On the opposite bank of the Volga lies Tveritsy, the old part of the city across the river."
+                  ]
+                },
+                "approach": {
+                  "ru": "От храма Ильи Пророка пара минут к Волге.",
+                  "en": "A couple of minutes from the Church of Elijah to the Volga."
+                }
+              }
+            },
+            {
+              "id": "yaroslavl-music-time",
+              "title": {"ru": "Музей «Музыка и время»", "en": "Music and Time Museum"},
+              "coordinate": [57.6235, 39.8995],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Частный музей у Волжской набережной: часы, музыкальные шкатулки, граммофоны, патефоны, колокольчики и старинные утюги. Многие экспонаты заводят и включают прямо при гостях.",
+                "en": "A private museum by the Volga embankment: clocks, music boxes, gramophones, bells and old irons. Many of the exhibits are wound up and played right in front of visitors."
+              },
+              "wiki": {"ru": "Музыка и время (музей)"},
+              "guide": {
+                "story": {
+                  "ru": "Музей «Музыка и время» открыл в 1993 году Джон Мостославский — артист и страстный коллекционер. Он собирал всё, что тикает, звенит и играет: каминные и напольные часы, музыкальные шкатулки, фонографы, граммофоны и патефоны, а заодно колокольчики и старинные утюги.\n\nГлавное отличие от обычного музея — вещи здесь живые: экскурсоводы заводят часы, ставят пластинки и дают послушать, как звучали дома сто лет назад. Колокольчиков здесь целая коллекция — от ямщицких до заграничных.\n\nМузей занимает небольшой особняк у Волжской набережной, и визит сюда обычно оказывается самым весёлым часом дня.",
+                  "en": "The Music and Time museum was opened in 1993 by Dzhon Mostoslavsky, a performer and passionate collector. He collected everything that ticks, rings and plays: mantel and grandfather clocks, music boxes, phonographs, gramophones and record players, and bells and old irons too.\n\nWhat sets it apart is that the things here are alive: the guides wind the clocks, put on records and let you hear how homes sounded a hundred years ago. There is a whole collection of bells, from coachmen's bells to foreign ones.\n\nThe museum fills a small mansion by the Volga embankment, and the visit usually turns out to be the most cheerful hour of the day."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Граммофон с огромной трубой",
+                    "Ямщицкие колокольчики",
+                    "Старинные утюги — от угольных до чугунных"
+                  ],
+                  "en": [
+                    "A gramophone with a huge horn",
+                    "Coachmen's bells",
+                    "Old irons, from charcoal to cast-iron ones"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Почти все экспонаты — из личной коллекции основателя музея.",
+                    "Многим механизмам больше ста лет, и они до сих пор работают."
+                  ],
+                  "en": [
+                    "Almost all the exhibits come from the founder's own collection.",
+                    "Many of the mechanisms are more than a hundred years old and still work."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чем музей «Музыка и время» отличается от многих других?",
+                    "en": "What makes the Music and Time museum different from many others?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Экспонаты заводят и включают при гостях",
+                      "Экспонаты можно купить",
+                      "В нём нет ни одних часов"
+                    ],
+                    "en": [
+                      "Exhibits are wound up and played for visitors",
+                      "You can buy the exhibits",
+                      "It has no clocks at all"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Экскурсоводы заводят часы и ставят пластинки, чтобы гости услышали звуки прошлого.",
+                    "en": "The guides wind the clocks and play records so visitors can hear the sounds of the past."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 минут вдоль набережной в сторону Стрелки.",
+                  "en": "About 5 minutes along the embankment towards the Strelka."
+                }
+              }
+            },
+            {
+              "id": "yaroslavl-strelka",
+              "title": {"ru": "Стрелка и Успенский собор", "en": "The Strelka and Dormition Cathedral"},
+              "coordinate": [57.62, 39.8965],
+              "category": "park",
+              "visit": 40,
+              "details": {
+                "ru": "Мыс у слияния Которосли и Волги, где, по преданию, Ярослав Мудрый основал город. Парк с цветниками и фонтанами и Успенский собор, восстановленный к тысячелетию Ярославля на месте взорванного в 1937 году.",
+                "en": "The cape where the Kotorosl meets the Volga and where, legend says, Yaroslav the Wise founded the city. A park with flower beds and fountains and the Dormition Cathedral, rebuilt for the city's millennium on the site of the one blown up in 1937."
+              },
+              "wiki": {"ru": "Стрелка (Ярославль)"},
+              "guide": {
+                "story": {
+                  "ru": "Стрелка — то самое место, где Которосль впадает в Волгу. По преданию, именно здесь, в Медвежьем углу, Ярослав Мудрый поставил крепость. Позже на мысу стоял ярославский кремль с Успенским собором, первый каменный храм которого построили в начале XIII века.\n\nВ 1937 году собор взорвали. Новый Успенский собор построили к тысячелетию города и освятили в 2010 году. Тогда же Стрелку превратили в парк с цветниками и фонтанами — сегодня это любимое место прогулок и свадебных фотографий.\n\nПройдите до самого конца мыса: отсюда видно, как сливаются две реки, а за ними открывается простор Волги.",
+                  "en": "The Strelka is the very spot where the Kotorosl flows into the Volga. Legend says that here, at the Bear's Corner, Yaroslav the Wise built his fortress. Later the Yaroslavl kremlin stood on the cape with its Dormition Cathedral, the first stone version of which was built in the early 13th century.\n\nIn 1937 the cathedral was blown up. A new Dormition Cathedral was built for the city's millennium and consecrated in 2010. At the same time the Strelka was turned into a park with flower beds and fountains — today a favourite place for walks and wedding photos.\n\nWalk to the very tip of the cape: from here you see the two rivers merge, with the wide Volga beyond."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Точку слияния Которосли и Волги",
+                    "Золотые купола нового Успенского собора",
+                    "Фонтаны в партере парка"
+                  ],
+                  "en": [
+                    "The point where the Kotorosl meets the Volga",
+                    "The golden domes of the new Dormition Cathedral",
+                    "The fountains in the park's parterre"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Первый каменный Успенский собор на этом месте построили в начале XIII века.",
+                    "Нынешний собор освящён в 2010 году, к тысячелетию Ярославля."
+                  ],
+                  "en": [
+                    "The first stone Dormition Cathedral here was built in the early 13th century.",
+                    "The present cathedral was consecrated in 2010 for Yaroslavl's millennium."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что, когда Ярослав приплыл к мысу, местные жители-язычники выпустили на него из клетки священного медведя. Князь зарубил зверя секирой, и жители покорились. С тех пор медведь с секирой — на гербе Ярославля.",
+                  "en": "They say that when Yaroslav landed on the cape, the pagan locals released a sacred bear from a cage to attack him. The prince killed it with his axe, and the people submitted. Ever since, a bear with an axe has been on Yaroslavl's coat of arms."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто изображён на гербе Ярославля?",
+                    "en": "What is on Yaroslavl's coat of arms?"
+                  },
+                  "options": {
+                    "ru": ["Медведь с секирой", "Всадник с копьём", "Олень"],
+                    "en": ["A bear with an axe", "A horseman with a spear", "A deer"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Медведь с секирой напоминает о легенде, как Ярослав одолел зверя на месте будущего города.",
+                    "en": "The bear with an axe recalls the legend of Yaroslav defeating the beast where the city now stands."
+                  }
+                },
+                "approach": {
+                  "ru": "От музея около 5–7 минут по набережной к мысу.",
+                  "en": "About 5–7 minutes from the museum along the embankment to the cape."
+                }
+              }
+            },
+            {
+              "id": "yaroslavl-korovniki",
+              "title": {"ru": "Храмы в Коровниках", "en": "The Korovniki Churches"},
+              "coordinate": [57.611, 39.899],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Ансамбль середины XVII века на берегу Волги: церковь Иоанна Златоуста, зимняя Владимирская церковь и 38-метровая шатровая колокольня, которую называют «ярославской свечой». Изразцовое окно храма — одно из чудес ярославского зодчества.",
+                "en": "A mid-17th-century ensemble on the Volga bank: the Church of St John Chrysostom, the winter Church of the Vladimir Icon and the 38-metre tent-roofed bell tower known as the 'Yaroslavl candle'. The church's tiled window is one of the marvels of Yaroslavl architecture."
+              },
+              "tip": {
+                "ru": "Выйдите к волжскому берегу за ансамблем — оттуда силуэт храмов виден целиком.",
+                "en": "Walk to the Volga bank behind the ensemble — from there you see the whole silhouette."
+              },
+              "wiki": {"ru": "Церковь Иоанна Златоуста в Коровниках"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Около 2,5 км через мост на Московском проспекте — 35 минут пешком или такси",
+                  "en": "About 2.5 km via the bridge on Moskovsky Avenue — 35 minutes on foot or a taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Коровницкая слобода получила название от скотоводов, которые жили здесь когда-то. В 1649–1654 годах местные жители построили церковь Иоанна Златоуста, а рядом — тёплую зимнюю Владимирскую церковь и стройную шатровую колокольню высотой 38 метров. Её прозвали «ярославской свечой»: с Волги она и правда похожа на свечу над рекой.\n\nГлавное украшение храма — изразцовое окно на восточной стене, обрамлённое пёстрыми глазурованными изразцами. Это один из лучших образцов ярославского изразцового убранства.\n\nСюда редко доходят туристы, и в этом прелесть места: тишина, Волга и храмы, почти не изменившиеся за три с половиной века.",
+                  "en": "The Korovniki settlement took its name from the cattle breeders who once lived here. In 1649–1654 the locals built the Church of St John Chrysostom and next to it the heated winter Church of the Vladimir Icon and a slender tent-roofed bell tower 38 metres high. It was nicknamed the 'Yaroslavl candle': from the Volga it really does look like a candle above the river.\n\nThe church's finest decoration is the tiled window on its east wall, framed with colourful glazed tiles — one of the best examples of Yaroslavl tilework.\n\nFew tourists get this far, and that is the charm: silence, the Volga and churches almost unchanged in three and a half centuries."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Изразцовое окно на восточной стене",
+                    "Шатровую колокольню — «ярославскую свечу»",
+                    "Вид на Волгу у стен ансамбля"
+                  ],
+                  "en": [
+                    "The tiled window on the east wall",
+                    "The tent-roofed bell tower, the 'Yaroslavl candle'",
+                    "The view of the Volga by the ensemble's walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокольня в Коровниках высотой 38 метров — её называют «ярославской свечой».",
+                    "Ансамбль построен в 1649–1654 годах."
+                  ],
+                  "en": [
+                    "The Korovniki bell tower is 38 metres high and is called the 'Yaroslavl candle'.",
+                    "The ensemble was built in 1649–1654."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как называют шатровую колокольню в Коровниках?",
+                    "en": "What is the Korovniki tent-roofed bell tower called?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Ярославская свеча»",
+                      "«Волжский маяк»",
+                      "«Каменная стрела»"
+                    ],
+                    "en": [
+                      "The 'Yaroslavl candle'",
+                      "The 'Volga lighthouse'",
+                      "The 'stone arrow'"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Стройную 38-метровую колокольню с Волги и правда легко принять за свечу.",
+                    "en": "From the Volga the slender 38-metre bell tower really does look like a candle."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Которосль по мосту на Московском проспекте — около 2,5 км.",
+                  "en": "Across the Kotorosl by the bridge on Moskovsky Avenue — about 2.5 km."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
