@@ -1,0 +1,313 @@
+{
+  "city": {
+    "id": "kirillov",
+    "name": {"ru": "Кириллов", "en": "Kirillov"},
+    "region": {"ru": "Вологодская область", "en": "Vologda Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Маленький северный город у стен Кирилло-Белозерского монастыря — одного из крупнейших в России — на берегу Сиверского озера. А в двадцати километрах — Ферапонтов монастырь с фресками Дионисия из списка ЮНЕСКО.",
+      "en": "A small northern town beside the walls of the Kirillo-Belozersky Monastery — one of the largest in Russia — on the shore of Lake Siverskoye. Twenty kilometres away is the Ferapontov Monastery with its UNESCO-listed frescoes by Dionisius."
+    },
+    "gettingThere": {
+      "ru": "От Вологды около 130 км — 2 часа на машине или автобусе. Летом сюда приходят круизные теплоходы: они причаливают в соседних Горицах.",
+      "en": "About 130 km from Vologda — 2 hours by car or bus. In summer cruise boats call at neighbouring Goritsy."
+    },
+    "coordinate": [59.859, 38.3747],
+    "emoji": "🏰",
+    "size": "small",
+    "tags": ["north"],
+    "wiki": {"ru": "Кириллов (город)"},
+    "guide": {
+      "story": {
+        "ru": "В 1397 году монах московского Симонова монастыря Кирилл, по преданию, услышал голос Богородицы: «Иди на Белоозеро». Вместе с другом Ферапонтом он пришёл на берег Сиверского озера и выкопал в холме келью-землянку. Так появился Кирилло-Белозерский монастырь, а через год Ферапонт основал неподалёку собственную обитель.\n\nКириллов монастырь стал одним из богатейших в России: у него были земли, промыслы и мощная крепость. Сюда приезжали цари — Василий III молился здесь о наследнике, а Иван Грозный даже собирался принять здесь постриг. Монастыри служили и местом ссылки: в Ферапонтове и Кириллове долгие годы жил опальный патриарх Никон.\n\nСам город вырос из монастырской слободы. Сегодня это тихое место на берегу озёр, куда едут ради двух монастырей — могучего Кирилловского и светлого Ферапонтова с фресками Дионисия.",
+        "en": "In 1397, tradition says, Cyril, a monk of Moscow's Simonov Monastery, heard the voice of the Mother of God: 'Go to Beloozero.' With his friend Ferapont he came to the shore of Lake Siverskoye and dug himself a cell in a hillside. That was the beginning of the Kirillo-Belozersky Monastery, and a year later Ferapont founded his own monastery nearby.\n\nThe Kirillov monastery became one of the richest in Russia, with lands, trades and a mighty fortress. Tsars came here — Vasily III prayed for an heir, and Ivan the Terrible even planned to become a monk here. The monasteries were also places of exile: the disgraced Patriarch Nikon spent many years at Ferapontovo and Kirillov.\n\nThe town itself grew out of the monastery settlement. Today it is a quiet place among lakes, visited for its two monasteries — the mighty Kirillov and the luminous Ferapontov with Dionisius's frescoes."
+      },
+      "history": [
+        {
+          "year": "1397",
+          "text": {
+            "ru": "Кирилл основывает монастырь на Сиверском озере.",
+            "en": "Cyril founds a monastery on Lake Siverskoye."
+          }
+        },
+        {
+          "year": "1398",
+          "text": {
+            "ru": "Ферапонт основывает Ферапонтов монастырь.",
+            "en": "Ferapont founds the Ferapontov Monastery."
+          }
+        },
+        {
+          "year": "1497",
+          "text": {
+            "ru": "Ростовские мастера строят Успенский собор Кириллова монастыря.",
+            "en": "Rostov masters build the Dormition Cathedral of the Kirillov monastery."
+          }
+        },
+        {
+          "year": "1502",
+          "text": {
+            "ru": "Дионисий с сыновьями расписывает собор Ферапонтова монастыря.",
+            "en": "Dionisius and his sons paint the cathedral of the Ferapontov Monastery."
+          }
+        },
+        {
+          "year": "1666–1681",
+          "text": {
+            "ru": "В Ферапонтове и Кириллове живёт в ссылке патриарх Никон.",
+            "en": "Patriarch Nikon lives in exile at Ferapontovo and Kirillov."
+          }
+        },
+        {
+          "year": "1776",
+          "text": {
+            "ru": "Монастырская слобода получает статус города Кириллова.",
+            "en": "The monastery settlement becomes the town of Kirillov."
+          }
+        },
+        {
+          "year": "2000",
+          "text": {
+            "ru": "Ансамбль Ферапонтова монастыря включён в список ЮНЕСКО.",
+            "en": "The Ferapontov Monastery ensemble is inscribed on the UNESCO list."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Рыбу из северных озёр — судака, леща, снетка",
+          "Монастырский квас и хлеб",
+          "Морошку и бруснику"
+        ],
+        "en": [
+          "Fish from the northern lakes — pike-perch, bream, smelt",
+          "Monastery kvass and bread",
+          "Cloudberries and lingonberries"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Изделия из бересты",
+          "Вологодское кружево",
+          "Репродукции фресок Дионисия"
+        ],
+        "en": [
+          "Birch-bark crafts",
+          "Vologda lace",
+          "Reproductions of Dionisius's frescoes"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "На Кирилло-Белозерский монастырь заложите не меньше двух часов — он огромный",
+          "Собор с фресками Дионисия открыт в тёплое время года и в сырую погоду может закрываться — фрески берегут",
+          "Летом в соседние Горицы приходят теплоходы — в эти часы в монастырях людно"
+        ],
+        "en": [
+          "Allow at least two hours for the Kirillo-Belozersky Monastery — it is huge",
+          "The cathedral with Dionisius's frescoes is open in the warm season and may close in damp weather to protect them",
+          "In summer cruise boats call at nearby Goritsy — the monasteries get busy then"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "kirillov-day",
+      "title": {"ru": "Кириллов и Ферапонтово", "en": "Kirillov and Ferapontovo"},
+      "summary": {
+        "ru": "Огромный Кирилло-Белозерский монастырь-крепость, вид на его башни с Сиверского озера и Ферапонтов монастырь, где сохранились светлые фрески Дионисия.",
+        "en": "The vast fortress-monastery of Kirillo-Belozersky, the view of its towers from Lake Siverskoye and the Ferapontov Monastery with Dionisius's luminous frescoes."
+      },
+      "intro": {
+        "ru": "Утром — Кирилло-Белозерский монастырь (2–3 часа) и прогулка вдоль его стен у озера. После обеда — 25 минут на машине до Ферапонтова; на собор с фресками и монастырь заложите час-полтора.",
+        "en": "In the morning the Kirillo-Belozersky Monastery (2–3 hours) and a walk along its walls by the lake. After lunch drive 25 minutes to Ferapontovo; allow an hour or an hour and a half for the cathedral and the monastery."
+      },
+      "emoji": "🏰",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kirillov-monastery",
+              "title": {"ru": "Кирилло-Белозерский монастырь", "en": "Kirillo-Belozersky Monastery"},
+              "coordinate": [59.8577, 38.3773],
+              "category": "castle",
+              "visit": 150,
+              "details": {
+                "ru": "Огромный монастырь-крепость на берегу Сиверского озера: стены и башни XVII века, Успенский собор 1497 года, часовня над пещеркой Кирилла и музеи древнерусского искусства.",
+                "en": "A vast fortress-monastery on Lake Siverskoye: 17th-century walls and towers, the Dormition Cathedral of 1497, a chapel over Cyril's cave and museums of early Russian art."
+              },
+              "wiki": {"ru": "Кирилло-Белозерский монастырь", "en": "Kirillo-Belozersky Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "Кирилло-Белозерский монастырь — один из крупнейших в России. Его мощные стены с башнями, построенные в XVII веке, окружают сразу два монастыря — Большой Успенский и Малый Ивановский. В 1612 году обитель выдержала осаду польско-литовского отряда.\n\nУспенский собор построили в 1497 году ростовские мастера — это один из старейших каменных храмов Русского Севера. Сохранилась и пещерка, где, по преданию, жил сам Кирилл, — над ней стоит маленькая часовня.\n\nЗдесь хранили богатейшую библиотеку, а сегодня в монастыре музей с иконами XV–XVII веков.",
+                  "en": "The Kirillo-Belozersky Monastery is one of the largest in Russia. Its massive 17th-century walls and towers enclose two monasteries at once, the Great Dormition and the Lesser St John. In 1612 it withstood a siege by a Polish-Lithuanian force.\n\nThe Dormition Cathedral was built in 1497 by masters from Rostov — one of the oldest stone churches of the Russian North. The little cave where, tradition says, Cyril himself lived also survives, with a small chapel above it.\n\nA great library was kept here, and today the monastery is a museum with icons of the 15th–17th centuries."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Часовню над пещеркой Кирилла",
+                    "Башни крепостной стены над озером",
+                    "Успенский собор 1497 года"
+                  ],
+                  "en": [
+                    "The chapel over Cyril's cave",
+                    "The fortress towers above the lake",
+                    "The Dormition Cathedral of 1497"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Успенский собор построен в 1497 году ростовскими мастерами.",
+                    "В 1612 году монастырь выдержал осаду польско-литовского отряда."
+                  ],
+                  "en": [
+                    "The Dormition Cathedral was built in 1497 by Rostov masters.",
+                    "In 1612 the monastery withstood a siege by a Polish-Lithuanian force."
+                  ]
+                },
+                "legend": {
+                  "ru": "По преданию, однажды ночью Кирилл читал акафист перед иконой Богоматери и услышал голос: «Кирилл, выйди отсюда и иди на Белоозеро, там уготовано тебе место». Открыв окно кельи, он увидел сияние над далёким Белоозером.",
+                  "en": "Tradition says that one night Cyril was reading a hymn before an icon of the Mother of God when he heard a voice: 'Cyril, leave this place and go to Beloozero, where a place has been prepared for you.' Opening the window of his cell, he saw a radiance over distant Beloozero."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой царь собирался принять постриг в Кирилло-Белозерском монастыре?",
+                    "en": "Which tsar planned to become a monk at the Kirillo-Belozersky Monastery?"
+                  },
+                  "options": {
+                    "ru": ["Иван Грозный", "Пётр I", "Борис Годунов"],
+                    "en": ["Ivan the Terrible", "Peter the Great", "Boris Godunov"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Иван Грозный не раз бывал в монастыре и писал, что хотел бы окончить здесь свои дни монахом.",
+                    "en": "Ivan the Terrible visited the monastery several times and wrote that he wished to end his days here as a monk."
+                  }
+                },
+                "approach": {
+                  "ru": "Монастырь — на краю Кириллова, на берегу Сиверского озера.",
+                  "en": "The monastery is on the edge of Kirillov, on Lake Siverskoye."
+                }
+              }
+            },
+            {
+              "id": "kirillov-siverskoye",
+              "title": {"ru": "Берег Сиверского озера", "en": "Lake Siverskoye Shore"},
+              "coordinate": [59.8558, 38.3745],
+              "category": "nature",
+              "visit": 20,
+              "details": {
+                "ru": "Берег озера, на котором Кирилл выкопал свою первую келью. Отсюда открывается самый известный вид: белые башни монастыря, отражённые в воде.",
+                "en": "The lakeshore where Cyril dug his first cell. From here comes the best-known view: the monastery's white towers reflected in the water."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Сиверское озеро — одно из многих озёр Белозерья, края ледниковых холмов и озёр. Кирилл выбрал для кельи холм на его берегу, и монастырь вырос прямо у воды.\n\nВдоль стен монастыря у озера идёт тропа: отсюда видно, как отражаются в воде белые башни и купола, а длинные стены кажутся бесконечными. Летом здесь купаются и ловят рыбу, зимой по льду выходят рыбаки.\n\nЭто лучшее место, чтобы почувствовать масштаб обители и тишину Севера.",
+                  "en": "Lake Siverskoye is one of the many lakes of the Beloozero country, a land of glacial hills and lakes. Cyril chose a hill on its shore for his cell, and the monastery grew right by the water.\n\nA path runs along the monastery walls by the lake: the white towers and domes are mirrored in the water and the long walls seem endless. In summer people swim and fish here; in winter anglers go out on the ice.\n\nIt is the best place to feel the monastery's scale and the quiet of the North."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Отражение башен в воде",
+                    "Лодки рыбаков",
+                    "Тропу вдоль стен у озера"
+                  ],
+                  "en": [
+                    "The towers reflected in the water",
+                    "The fishermen's boats",
+                    "The path along the walls by the lake"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Белозерье — край ледниковых озёр и холмов.",
+                    "Кирилл выбрал для кельи холм на берегу этого озера."
+                  ],
+                  "en": [
+                    "The Beloozero country is a land of glacial lakes and hills.",
+                    "Cyril chose a hill on this lake's shore for his cell."
+                  ]
+                },
+                "approach": {
+                  "ru": "Выйдите из монастыря к озеру — пара минут.",
+                  "en": "Walk out of the monastery to the lake — a couple of minutes."
+                }
+              }
+            },
+            {
+              "id": "kirillov-ferapontov",
+              "title": {"ru": "Ферапонтов монастырь", "en": "Ferapontov Monastery"},
+              "coordinate": [59.9566, 38.5672],
+              "category": "church",
+              "visit": 75,
+              "details": {
+                "ru": "Небольшой монастырь между двумя озёрами, где в соборе Рождества Богородицы сохранились фрески Дионисия 1502 года — почти полностью уцелевшая роспись великого мастера из списка ЮНЕСКО.",
+                "en": "A small monastery between two lakes, whose Cathedral of the Nativity of the Virgin preserves Dionisius's frescoes of 1502 — an almost complete surviving work of the great master, on the UNESCO list."
+              },
+              "wiki": {"ru": "Ферапонтов монастырь", "en": "Ferapontov Monastery"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 20 км — 25 минут на машине", "en": "About 20 km — 25 minutes by car"}
+              },
+              "guide": {
+                "story": {
+                  "ru": "Ферапонт, друг Кирилла, основал этот монастырь в 1398 году на холме между Паским и Бородаевским озёрами. Обитель не была богатой, но в 1502 году здесь случилось чудо искусства: знаменитый иконописец Дионисий с сыновьями расписал собор Рождества Богородицы.\n\nФрески Дионисия светлые и лёгкие — голубые, розовые, золотистые и белые, будто написанные северным небом. Это почти полностью сохранившаяся роспись великого мастера, и в 2000 году ансамбль монастыря включили в список ЮНЕСКО.\n\nЗдесь же десять лет провёл в ссылке опальный патриарх Никон.",
+                  "en": "Ferapont, Cyril's friend, founded this monastery in 1398 on a hill between Lakes Paskoye and Borodaevskoye. It was never rich, but in 1502 a miracle of art happened here: the famous icon painter Dionisius and his sons painted the Cathedral of the Nativity of the Virgin.\n\nDionisius's frescoes are light and airy — blue, pink, golden and white, as if painted with the northern sky. It is an almost completely preserved work of the great master, and in 2000 the monastery ensemble was inscribed on the UNESCO list.\n\nThe disgraced Patriarch Nikon spent ten years in exile here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Голубые фоны фресок Дионисия",
+                    "Летописную надпись о росписи у входа в собор",
+                    "Разноцветные камни на берегу озера"
+                  ],
+                  "en": [
+                    "The blue backgrounds of Dionisius's frescoes",
+                    "The painted inscription recording the work by the cathedral door",
+                    "The many-coloured pebbles on the lakeshore"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Фрески Дионисия написаны в 1502 году.",
+                    "Ансамбль Ферапонтова монастыря внесён в список ЮНЕСКО в 2000 году."
+                  ],
+                  "en": [
+                    "Dionisius's frescoes date from 1502.",
+                    "The Ferapontov Monastery ensemble was inscribed on the UNESCO list in 2000."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, краски для фресок Дионисий растирал из разноцветных камешков, которые и сегодня можно найти на берегу соседнего озера, — потому роспись и светится такими мягкими северными цветами.",
+                  "en": "They say Dionisius ground his paints from the many-coloured pebbles that can still be found on the shore of the nearby lake — which is why the paintings glow with such soft northern colours."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто расписал собор Ферапонтова монастыря?",
+                    "en": "Who painted the cathedral of the Ferapontov Monastery?"
+                  },
+                  "options": {
+                    "ru": ["Дионисий с сыновьями", "Андрей Рублёв", "Феофан Грек"],
+                    "en": [
+                      "Dionisius and his sons",
+                      "Andrei Rublev",
+                      "Theophanes the Greek"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Дионисий расписал собор в 1502 году вместе с сыновьями Феодосием и Владимиром.",
+                    "en": "Dionisius painted the cathedral in 1502 together with his sons Feodosy and Vladimir."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 км от Кириллова — 25 минут на машине.",
+                  "en": "About 20 km from Kirillov — 25 minutes by car."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

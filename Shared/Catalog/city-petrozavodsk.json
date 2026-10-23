@@ -1,0 +1,365 @@
+{
+  "city": {
+    "id": "petrozavodsk",
+    "name": {"ru": "Петрозаводск", "en": "Petrozavodsk"},
+    "region": {"ru": "Республика Карелия", "en": "Republic of Karelia"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Столица Карелии на берегу Онежского озера: длинная набережная со скульптурами из городов-побратимов, а в полутора часах на «Метеоре» — остров Кижи с 22-главой Преображенской церковью, которую, по преданию, построили без единого гвоздя.",
+      "en": "The capital of Karelia on Lake Onega: a long embankment with sculptures from twin cities, and an hour and a half away by hydrofoil, Kizhi island with the 22-domed Church of the Transfiguration, built, legend says, without a single nail."
+    },
+    "gettingThere": {
+      "ru": "Из Петербурга около 400 км — 5–6 часов на машине или около пяти часов на поезде; из Москвы — ночным поездом или самолётом.",
+      "en": "About 400 km from St Petersburg — 5–6 hours by car or about five hours by train; from Moscow take the night train or fly."
+    },
+    "coordinate": [61.7849, 34.3469],
+    "emoji": "🌲",
+    "size": "medium",
+    "tags": ["north", "karelia"],
+    "wiki": {"ru": "Петрозаводск", "en": "Petrozavodsk"},
+    "guide": {
+      "story": {
+        "ru": "Петрозаводск вырос из завода: в 1703 году по указу Петра I на реке Лососинке начали строить пушечный завод, чтобы лить орудия для армии и флота в Северной войне. Вокруг завода появилась Петровская слобода, а в 1777 году она стала городом Петрозаводском.\n\nГород стоит на берегу Онежского озера — второго по величине в Европе после Ладожского. Карелия — край лесов, тысяч озёр и рун «Калевалы»: здешние сказители веками пели эпические песни, которые в XIX веке записал Элиас Лённрот.\n\nГлавная причина приехать — Кижи: на маленьком острове собраны деревянные церкви, избы и часовни, а Преображенская церковь 1714 года с 22 главами считается чудом деревянного зодчества.",
+        "en": "Petrozavodsk grew out of a factory: in 1703, on Peter the Great's orders, a cannon works was begun on the Lososinka River to cast guns for the army and navy in the Great Northern War. The Petrovskaya settlement grew up around it, and in 1777 it became the town of Petrozavodsk.\n\nThe city stands on Lake Onega, the second-largest lake in Europe after Ladoga. Karelia is a land of forests, thousands of lakes and the runes of the Kalevala: local singers chanted epic songs for centuries, which Elias Lönnrot wrote down in the 19th century.\n\nThe main reason to come is Kizhi: wooden churches, houses and chapels are gathered on the little island, and the 22-domed Church of the Transfiguration of 1714 is considered a marvel of wooden architecture."
+      },
+      "history": [
+        {
+          "year": "1703",
+          "text": {
+            "ru": "Основан Петровский пушечный завод — начало города.",
+            "en": "The Petrovsky cannon works is founded — the start of the town."
+          }
+        },
+        {
+          "year": "1714",
+          "text": {
+            "ru": "На острове Кижи построена Преображенская церковь.",
+            "en": "The Church of the Transfiguration is built on Kizhi island."
+          }
+        },
+        {
+          "year": "1777",
+          "text": {
+            "ru": "Петровская слобода становится городом Петрозаводском.",
+            "en": "The Petrovskaya settlement becomes the town of Petrozavodsk."
+          }
+        },
+        {
+          "year": "1835",
+          "text": {
+            "ru": "Элиас Лённрот публикует «Калевалу», записанную у карельских сказителей.",
+            "en": "Elias Lönnrot publishes the Kalevala, collected from Karelian singers."
+          }
+        },
+        {
+          "year": "1966",
+          "text": {
+            "ru": "На Кижах создан музей-заповедник деревянного зодчества.",
+            "en": "The open-air museum of wooden architecture is founded on Kizhi."
+          }
+        },
+        {
+          "year": "1990",
+          "text": {
+            "ru": "Кижский погост включён в список Всемирного наследия ЮНЕСКО.",
+            "en": "The Kizhi Pogost is inscribed on the UNESCO World Heritage List."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Калитки — открытые ржаные пирожки с картошкой или пшеном",
+          "Уху из онежской рыбы — ряпушки, судака, лосося",
+          "Варенье из брусники, черники и морошки"
+        ],
+        "en": [
+          "Kalitki — open rye pasties with potato or millet",
+          "Fish soup from Onega fish — vendace, pike-perch, salmon",
+          "Lingonberry, blueberry and cloudberry jam"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Изделия из карельской берёзы — шкатулки и украшения",
+          "Шунгит — чёрный камень, который добывают только в Карелии",
+          "Вышивку и куклы-обереги"
+        ],
+        "en": [
+          "Karelian birch boxes and jewellery",
+          "Shungite, a black stone found only in Karelia",
+          "Embroidery and protective dolls"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "«Метеоры» на Кижи ходят только в навигацию, с конца мая до начала октября; билеты лучше брать заранее",
+          "На Кижах заложите не меньше двух-трёх часов",
+          "На Онеге ветрено даже летом — возьмите тёплую куртку"
+        ],
+        "en": [
+          "Hydrofoils to Kizhi run only in the navigation season, from late May to early October; book ahead",
+          "Allow at least two or three hours on Kizhi",
+          "It is windy on Lake Onega even in summer — bring a warm jacket"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "petrozavodsk-kizhi",
+      "title": {"ru": "Петрозаводск и Кижи", "en": "Petrozavodsk and Kizhi"},
+      "summary": {
+        "ru": "Утро на Онежской набережной, полтора часа на «Метеоре» по озеру — и остров Кижи: Кижский погост с 22-главой Преображенской церковью, огромный крестьянский дом Ошевнева и часовня, где звонят колокола.",
+        "en": "A morning on the Onega embankment, an hour and a half by hydrofoil across the lake, and Kizhi island: the Kizhi Pogost with the 22-domed Church of the Transfiguration, the huge Oshevnev farmhouse and a chapel where the bells are rung."
+      },
+      "intro": {
+        "ru": "Начните с набережной, а затем — «Метеор» от речного вокзала (около 1 ч 15 мин в одну сторону). На острове всё пешком по деревянным мосткам, около 2 км; рейсы обратно расписаны — не опоздайте.",
+        "en": "Start on the embankment, then take the hydrofoil from the river terminal (about 1 h 15 min each way). On the island everything is on foot along wooden walkways, about 2 km; return sailings are timetabled — don't miss yours."
+      },
+      "emoji": "⛵",
+      "tags": ["ferry", "walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "petrozavodsk-embankment",
+              "title": {"ru": "Онежская набережная", "en": "Onega Embankment"},
+              "coordinate": [61.7915, 34.379],
+              "category": "street",
+              "visit": 45,
+              "details": {
+                "ru": "Набережная Онежского озера длиной больше километра со скульптурами, подаренными городами-побратимами: «Дерево желаний», «Рыбаки» и другие. Отсюда отходят «Метеоры» на Кижи.",
+                "en": "The Lake Onega embankment, more than a kilometre long, with sculptures given by twin cities — the 'Wishing Tree', the 'Fishermen' and others. Hydrofoils to Kizhi leave from here."
+              },
+              "wiki": {"ru": "Онежская набережная"},
+              "guide": {
+                "story": {
+                  "ru": "Онежская набережная — главное место прогулок Петрозаводска. Вдоль воды стоят скульптуры, подаренные городами-побратимами из разных стран: «Дерево желаний», к которому привязывают ленточки, «Рыбаки», вытягивающие сеть, и другие необычные фигуры.\n\nОнежское озеро огромно — второе по величине в Европе, и с набережной оно кажется морем: другой берег не всегда виден, а ветер приносит настоящие волны.\n\nВ конце набережной — речной вокзал, откуда в навигацию уходят «Метеоры» на Кижи.",
+                  "en": "The Onega Embankment is Petrozavodsk's favourite promenade. Along the water stand sculptures given by twin cities in different countries: the 'Wishing Tree', to which people tie ribbons, the 'Fishermen' hauling a net and other unusual figures.\n\nLake Onega is huge — the second largest in Europe — and from the embankment it looks like a sea: the far shore is not always visible, and the wind brings real waves.\n\nAt the end of the embankment is the river terminal, from which hydrofoils leave for Kizhi during the navigation season."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Дерево желаний» с ленточками",
+                    "Скульптуру «Рыбаки»",
+                    "«Метеоры» у причала речного вокзала"
+                  ],
+                  "en": [
+                    "The 'Wishing Tree' with its ribbons",
+                    "The 'Fishermen' sculpture",
+                    "The hydrofoils at the river terminal"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Онежское озеро — второе по величине в Европе после Ладожского.",
+                    "Многие скульптуры набережной подарены городами-побратимами."
+                  ],
+                  "en": [
+                    "Lake Onega is the second-largest lake in Europe after Ladoga.",
+                    "Many of the embankment's sculptures were given by twin cities."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какое озеро в Европе больше Онежского?",
+                    "en": "Which European lake is larger than Lake Onega?"
+                  },
+                  "options": {
+                    "ru": ["Ладожское", "Байкал", "Чудское"],
+                    "en": ["Lake Ladoga", "Lake Baikal", "Lake Peipus"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Ладожское озеро — самое большое в Европе, Онежское — второе; Байкал находится в Азии.",
+                    "en": "Lake Ladoga is the largest in Europe and Onega second; Baikal is in Asia."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15 минут пешком от центра по проспекту Ленина к озеру.",
+                  "en": "About 15 minutes' walk from the centre along Lenin Avenue to the lake."
+                }
+              }
+            },
+            {
+              "id": "kizhi-pogost",
+              "title": {"ru": "Кижский погост", "en": "Kizhi Pogost"},
+              "coordinate": [62.0668, 35.2238],
+              "category": "church",
+              "visit": 75,
+              "details": {
+                "ru": "Ансамбль на острове Кижи: 22-главая Преображенская церковь 1714 года высотой 37 метров, девятиглавая Покровская церковь и колокольня. Объект Всемирного наследия ЮНЕСКО.",
+                "en": "The ensemble on Kizhi island: the 22-domed Church of the Transfiguration of 1714, 37 metres high, the nine-domed Church of the Intercession and a bell tower. A UNESCO World Heritage Site."
+              },
+              "wiki": {"ru": "Кижский погост", "en": "Kizhi Pogost"},
+              "arrival": {
+                "mode": "ferry",
+                "note": {
+                  "ru": "«Метеор» по Онежскому озеру — около 1 ч 15 мин",
+                  "en": "Hydrofoil across Lake Onega — about 1 h 15 min"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Погостом на Севере называли центр округи с храмами и кладбищем. На Кижском погосте стоят две деревянные церкви и колокольня: летняя Преображенская церковь 1714 года с 22 главами, поднимающаяся на 37 метров, и тёплая зимняя Покровская церковь с девятью главами.\n\nГлавы покрыты осиновым лемехом — деревянной чешуёй, которая на солнце становится серебристой. Преображенскую церковь много лет реставрировали: её поднимали, перебирали и меняли брёвна, чтобы сохранить шедевр.\n\nВ 1990 году Кижский погост включили в список Всемирного наследия ЮНЕСКО — как одно из чудес деревянного зодчества мира.",
+                  "en": "In the North a pogost was the centre of a parish, with churches and a graveyard. The Kizhi Pogost has two wooden churches and a bell tower: the summer Church of the Transfiguration of 1714 with 22 domes, rising 37 metres, and the heated winter Church of the Intercession with nine domes.\n\nThe domes are covered with aspen shingles — wooden scales that turn silvery in the sun. The Transfiguration church was restored for many years: it was raised, taken apart and had logs replaced to save the masterpiece.\n\nIn 1990 the Kizhi Pogost was inscribed on the UNESCO World Heritage List as one of the wonders of the world's wooden architecture."
+                },
+                "lookFor": {
+                  "ru": [
+                    "22 главы Преображенской церкви",
+                    "Серебристый осиновый лемех на главах",
+                    "Девятиглавую Покровскую церковь рядом"
+                  ],
+                  "en": [
+                    "The 22 domes of the Transfiguration church",
+                    "The silvery aspen shingles on the domes",
+                    "The nine-domed Intercession church next to it"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Преображенская церковь построена в 1714 году и поднимается на 37 метров.",
+                    "Кижский погост внесён в список ЮНЕСКО в 1990 году."
+                  ],
+                  "en": [
+                    "The Church of the Transfiguration was built in 1714 and is 37 metres tall.",
+                    "The Kizhi Pogost was inscribed on the UNESCO list in 1990."
+                  ]
+                },
+                "legend": {
+                  "ru": "По преданию, Преображенскую церковь построил мастер Нестор без единого гвоздя. Закончив работу, он забросил свой топор в Онежское озеро со словами: «Не было, нет и не будет такой».",
+                  "en": "Legend says the master Nestor built the Church of the Transfiguration without a single nail. When he finished, he threw his axe into Lake Onega, saying: 'There never was, is not and never will be another like it.'"
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько глав у Преображенской церкви на Кижах?",
+                    "en": "How many domes does the Church of the Transfiguration on Kizhi have?"
+                  },
+                  "options": {"ru": ["22", "9", "33"], "en": ["22", "9", "33"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "У летней Преображенской церкви 22 главы, а у зимней Покровской — девять.",
+                    "en": "The summer Transfiguration church has 22 domes, and the winter Intercession church nine."
+                  }
+                },
+                "approach": {
+                  "ru": "«Метеор» от речного вокзала Петрозаводска — около 1 ч 15 мин по Онежскому озеру.",
+                  "en": "The hydrofoil from Petrozavodsk river terminal takes about 1 h 15 min across Lake Onega."
+                }
+              }
+            },
+            {
+              "id": "kizhi-oshevnev",
+              "title": {"ru": "Дом Ошевнева", "en": "Oshevnev House"},
+              "coordinate": [62.0697, 35.225],
+              "category": "museum",
+              "visit": 30,
+              "details": {
+                "ru": "Огромный крестьянский дом 1876 года, где под одной крышей жильё, хлев, сеновал и мастерские. Внутри — обстановка заонежской семьи: печь, прялки, посуда, вышивка.",
+                "en": "A huge peasant house of 1876 with living quarters, cattle shed, hayloft and workshops under one roof. Inside are the furnishings of a Zaonezhye family: stove, spinning wheels, crockery and embroidery."
+              },
+              "wiki": {"ru": "Дом Ошевнева"},
+              "guide": {
+                "story": {
+                  "ru": "Дом Ошевнева перевезли на Кижи из соседней деревни. Это классический северный дом-комплекс: под одной огромной крышей помещаются изба, горница, хлев для скота, сеновал и хозяйственные помещения. Зимой хозяева могли неделями не выходить на улицу.\n\nВнутри — обстановка зажиточной крестьянской семьи: огромная русская печь, лавки вдоль стен, прялки, посуда, расписные сундуки и вышитые полотенца.\n\nОбратите внимание на резьбу на фасаде и на взвоз — пологий бревенчатый подъём, по которому лошадь с телегой заезжала прямо на сеновал под крышей.",
+                  "en": "The Oshevnev house was moved to Kizhi from a nearby village. It is a classic northern house-complex: under one huge roof are the living room, the best room, the cattle shed, the hayloft and the outbuildings. In winter the family could go for weeks without stepping outside.\n\nInside are the furnishings of a prosperous peasant family: a huge Russian stove, benches along the walls, spinning wheels, crockery, painted chests and embroidered towels.\n\nLook at the carving on the facade and at the vzvoz — a gently sloping log ramp up which a horse and cart drove right into the hayloft under the roof."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Взвоз — бревенчатый подъём на сеновал",
+                    "Огромную русскую печь",
+                    "Вышитые полотенца и прялки"
+                  ],
+                  "en": [
+                    "The vzvoz, the log ramp up to the hayloft",
+                    "The huge Russian stove",
+                    "The embroidered towels and spinning wheels"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Дом построен в 1876 году.",
+                    "Жильё и хозяйственный двор в нём объединены под одной крышей."
+                  ],
+                  "en": [
+                    "The house was built in 1876.",
+                    "The home and the farmyard share a single roof."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Зачем северному дому взвоз?",
+                    "en": "What was the vzvoz on a northern house for?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Чтобы заезжать с телегой на сеновал",
+                      "Чтобы спускать лодки",
+                      "Чтобы залезать на крышу зимой"
+                    ],
+                    "en": [
+                      "To drive a cart up into the hayloft",
+                      "To launch boats",
+                      "To climb onto the roof in winter"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "По пологому бревенчатому взвозу лошадь завозила сено прямо под крышу дома.",
+                    "en": "Up the gently sloping log ramp, a horse hauled hay right under the roof."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 минут по мосткам от погоста.",
+                  "en": "About 5 minutes along the walkways from the pogost."
+                }
+              }
+            },
+            {
+              "id": "kizhi-chapel",
+              "title": {"ru": "Часовня Михаила Архангела", "en": "Chapel of the Archangel Michael"},
+              "coordinate": [62.0735, 35.2238],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Деревянная часовня XVIII века с шатровой колокольней, где музейные звонари играют на колоколах старинные звоны. Отсюда видно погост на фоне озера.",
+                "en": "An 18th-century wooden chapel with a tent-roofed belfry where museum bell-ringers play old peals. From here you see the pogost against the lake."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Часовню Михаила Архангела перевезли на Кижи из заонежской деревни Леликозеро. В северных деревнях, где не было церквей, часовни были центром жизни: здесь молились, собирались на праздники и звонили в колокола.\n\nНа колокольне часовни звонари музея исполняют старинные заонежские звоны — их слышно над всем островом. Звон здесь не только для красоты: в туман он указывал путь рыбакам на озере.\n\nОт часовни открывается один из лучших видов на Кижский погост: силуэт глав на фоне озера и неба.",
+                  "en": "The Chapel of the Archangel Michael was moved to Kizhi from the Zaonezhye village of Lelikozero. In northern villages without churches, chapels were the heart of life: people prayed here, gathered for feast days and rang the bells.\n\nIn the chapel's belfry the museum's bell-ringers play old Zaonezhye peals that can be heard all over the island. The ringing was not just for beauty: in fog it guided fishermen on the lake.\n\nThe chapel offers one of the best views of the Kizhi Pogost: the silhouette of the domes against the lake and sky."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Звонаря на колокольне",
+                    "Силуэт погоста на фоне озера",
+                    "Шатровую колокольню часовни"
+                  ],
+                  "en": [
+                    "The bell-ringer in the belfry",
+                    "The pogost's silhouette against the lake",
+                    "The chapel's tent-roofed belfry"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Часовню перевезли из деревни Леликозеро.",
+                    "В туман колокольный звон указывал путь рыбакам."
+                  ],
+                  "en": [
+                    "The chapel was moved from the village of Lelikozero.",
+                    "In fog the bells guided fishermen home."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 10 минут по мосткам на север острова.",
+                  "en": "About 10 minutes north along the walkways."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

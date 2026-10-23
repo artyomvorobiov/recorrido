@@ -1,0 +1,517 @@
+{
+  "city": {
+    "id": "ryazan",
+    "name": {"ru": "Рязань", "en": "Ryazan"},
+    "region": {"ru": "Рязанская область", "en": "Ryazan Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город на Оке с древним кремлём на холме: огромный Успенский собор, высокая колокольня и «дворец Олега», а неподалёку — село Константиново, где родился Сергей Есенин, с видами на окские луга.",
+      "en": "A city on the Oka with an ancient kremlin on a hill: the huge Dormition Cathedral, a tall bell tower and 'Oleg's Palace' — and nearby the village of Konstantinovo, where Sergei Yesenin was born, with views over the Oka meadows."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 200 км — 3 часа на машине по трассе М-5 или около двух с половиной часов на «Ласточке» с Казанского вокзала.",
+      "en": "About 200 km from Moscow — 3 hours by car on the M-5 or about two and a half hours on a Lastochka train from Kazansky station."
+    },
+    "coordinate": [54.6292, 39.7365],
+    "emoji": "🌾",
+    "size": "medium",
+    "tags": ["oka"],
+    "wiki": {"ru": "Рязань", "en": "Ryazan"},
+    "guide": {
+      "story": {
+        "ru": "Нынешняя Рязань — это бывший Переяславль-Рязанский, впервые упомянутый в 1095 году. Старая Рязань, столица княжества, стояла в полусотне километров ниже по Оке и была разорена Батыем в 1237 году — с её гибелью связана легенда о богатыре Евпатии Коловрате. Столица переместилась в Переяславль, а в 1778 году он получил имя Рязань.\n\nВ 1521 году Рязанское княжество вошло в состав Московского государства. Кремль на холме между Трубежом и Лыбедью сохранил главные постройки: Успенский собор 1690-х годов, архиерейские палаты, которые называют дворцом Олега, и высокую колокольню.\n\nРязанская земля дала России Сергея Есенина, физиолога Ивана Павлова — первого русского нобелевского лауреата — и Константина Циолковского, родившегося в селе Ижевском.",
+        "en": "Today's Ryazan is the former Pereyaslavl-Ryazansky, first mentioned in 1095. Old Ryazan, the principality's capital, stood some fifty kilometres down the Oka and was destroyed by Batu in 1237 — its fall gave rise to the legend of the knight Yevpaty Kolovrat. The capital moved to Pereyaslavl, which took the name Ryazan in 1778.\n\nIn 1521 the Principality of Ryazan became part of Muscovy. The kremlin on a hill between the Trubezh and the Lybed keeps its main buildings: the Dormition Cathedral of the 1690s, the bishops' palace known as Oleg's Palace and a tall bell tower.\n\nThe Ryazan land gave Russia Sergei Yesenin, the physiologist Ivan Pavlov — the first Russian Nobel laureate — and Konstantin Tsiolkovsky, born in the village of Izhevskoye."
+      },
+      "history": [
+        {
+          "year": "1095",
+          "text": {
+            "ru": "Первое упоминание Переяславля-Рязанского.",
+            "en": "First mention of Pereyaslavl-Ryazansky."
+          }
+        },
+        {"year": "1237", "text": {"ru": "Батый разоряет Старую Рязань.", "en": "Batu destroys Old Ryazan."}},
+        {
+          "year": "1521",
+          "text": {
+            "ru": "Рязанское княжество входит в состав Московского государства.",
+            "en": "The Principality of Ryazan becomes part of Muscovy."
+          }
+        },
+        {
+          "year": "1693–1699",
+          "text": {
+            "ru": "Яков Бухвостов строит Успенский собор.",
+            "en": "Yakov Bukhvostov builds the Dormition Cathedral."
+          }
+        },
+        {
+          "year": "1778",
+          "text": {
+            "ru": "Переяславль-Рязанский переименован в Рязань.",
+            "en": "Pereyaslavl-Ryazansky is renamed Ryazan."
+          }
+        },
+        {
+          "year": "1849",
+          "text": {"ru": "В Рязани родился Иван Павлов.", "en": "Ivan Pavlov is born in Ryazan."}
+        },
+        {
+          "year": "1895",
+          "text": {
+            "ru": "В Константинове родился Сергей Есенин.",
+            "en": "Sergei Yesenin is born in Konstantinovo."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Антоновские яблоки и пироги с ними",
+          "Мёд с окских лугов",
+          "Рыбу из Оки"
+        ],
+        "en": [
+          "Antonovka apples and pies made with them",
+          "Honey from the Oka meadows",
+          "Fish from the Oka"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Скопинскую керамику — причудливые глиняные сосуды из соседнего Скопина",
+          "Михайловское кружево",
+          "Книги и открытки о Есенине"
+        ],
+        "en": [
+          "Skopin ceramics — fanciful clay vessels from nearby Skopin",
+          "Mikhailov lace",
+          "Books and postcards about Yesenin"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Кремль стоит на холме — обойдите его по валу, оттуда лучшие виды на Трубеж и Оку",
+          "В Константиново нужна машина или автобус: около 45 км",
+          "В начале октября, в дни рождения Есенина, в Константинове проходят поэтические праздники"
+        ],
+        "en": [
+          "The kremlin stands on a hill — walk around it on the rampart for the best views of the Trubezh and the Oka",
+          "You need a car or bus to reach Konstantinovo: about 45 km",
+          "In early October, around Yesenin's birthday, Konstantinovo holds poetry festivals"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "ryazan-kremlin",
+      "title": {"ru": "Рязанский кремль", "en": "The Ryazan Kremlin"},
+      "summary": {
+        "ru": "Холм над Трубежом с древними валами, огромный Успенский собор с иконостасом высотой почти в девятиэтажный дом и «дворец Олега» с кладами Старой Рязани.",
+        "en": "A hill above the Trubezh with ancient ramparts, the huge Dormition Cathedral with an iconostasis as tall as a nine-storey building, and 'Oleg's Palace' with the treasures of Old Ryazan."
+      },
+      "intro": {
+        "ru": "Прогулка на полдня, около 2 км: всё в кремле и вокруг него. Начните с вала — оттуда видно реки, — затем собор и музей во дворце Олега.",
+        "en": "A half-day walk of about 2 km, all in and around the kremlin. Start on the rampart for the view of the rivers, then the cathedral and the museum in Oleg's Palace."
+      },
+      "emoji": "🌾",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "ryazan-kremlin",
+              "title": {"ru": "Рязанский кремль", "en": "Ryazan Kremlin"},
+              "coordinate": [54.6362, 39.7487],
+              "category": "castle",
+              "visit": 45,
+              "details": {
+                "ru": "Кремль на холме у слияния Трубежа и Лыбеди: земляные валы, ров и целый город храмов и палат XV–XIX веков. Здесь начинался Переяславль-Рязанский.",
+                "en": "The kremlin on a hill where the Trubezh meets the Lybed: earthen ramparts, a moat and a whole town of churches and palaces from the 15th to 19th centuries. This is where Pereyaslavl-Ryazansky began."
+              },
+              "wiki": {"ru": "Рязанский кремль", "en": "Ryazan Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Рязанский кремль стоит на высоком холме, окружённом реками Трубежом и Лыбедью. Деревянные стены не сохранились, но земляные валы и ров до сих пор видны, а внутри — целый город храмов и палат XV–XIX веков.\n\nСтарейшее здание кремля — Христорождественский собор начала XV века. Рядом стоят Успенский собор, архиерейские палаты, Певческий корпус и высокая колокольня, которую видно издалека.\n\nПройдите по валу: с него открывается вид на Трубеж, Оку вдали и заокские луга.",
+                  "en": "The Ryazan Kremlin stands on a high hill surrounded by the Trubezh and Lybed rivers. Its wooden walls are gone, but the earthen ramparts and moat are still visible, and inside is a whole town of churches and palaces from the 15th to 19th centuries.\n\nThe oldest building is the Cathedral of the Nativity of Christ from the early 15th century. Nearby stand the Dormition Cathedral, the bishops' palace, the Singers' Building and a tall bell tower visible from far away.\n\nWalk along the rampart: it looks out over the Trubezh, the Oka in the distance and the meadows beyond."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Земляной вал вокруг кремля",
+                    "Христорождественский собор — старейшее здание кремля",
+                    "Вид на Трубеж и Оку с вала"
+                  ],
+                  "en": [
+                    "The earthen rampart around the kremlin",
+                    "The Cathedral of the Nativity, the kremlin's oldest building",
+                    "The view of the Trubezh and the Oka from the rampart"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Христорождественский собор построен в начале XV века — это старейшее здание кремля.",
+                    "Кремль окружён реками Трубежом и Лыбедью."
+                  ],
+                  "en": [
+                    "The Cathedral of the Nativity dates from the early 15th century — the kremlin's oldest building.",
+                    "The kremlin is surrounded by the Trubezh and Lybed rivers."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как назывался город Рязань до 1778 года?",
+                    "en": "What was Ryazan called before 1778?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Переяславль-Рязанский",
+                      "Старая Рязань",
+                      "Рязань-Залесская"
+                    ],
+                    "en": ["Pereyaslavl-Ryazansky", "Old Ryazan", "Ryazan-Zalesskaya"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Старая Рязань стояла в другом месте и погибла в 1237 году; нынешний город долго назывался Переяславлем-Рязанским.",
+                    "en": "Old Ryazan stood elsewhere and perished in 1237; the present city was long called Pereyaslavl-Ryazansky."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход в кремль — с Соборной площади, через ворота у колокольни.",
+                  "en": "Enter the kremlin from Cathedral Square through the gate by the bell tower."
+                }
+              }
+            },
+            {
+              "id": "ryazan-assumption",
+              "title": {"ru": "Успенский собор", "en": "Dormition Cathedral"},
+              "coordinate": [54.6365, 39.748],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Огромный собор 1693–1699 годов работы Якова Бухвостова с белокаменной резьбой и резным золочёным иконостасом высотой около 27 метров.",
+                "en": "A huge cathedral of 1693–1699 by Yakov Bukhvostov with white-stone carving and a carved gilded iconostasis about 27 metres high."
+              },
+              "wiki": {"ru": "Успенский собор (Рязань)"},
+              "guide": {
+                "story": {
+                  "ru": "Успенский собор построил в 1693–1699 годах зодчий Яков Бухвостов — один из самых талантливых мастеров своего времени, выходец из крестьян. Собор огромен: в год постройки он был одним из самых больших храмов России.\n\nЕго стены украшены белокаменной резьбой в духе нарышкинского барокко: наличники окон словно кружевные. Внутри — резной золочёный иконостас высотой около 27 метров, почти с девятиэтажный дом.\n\nПять глав собора поднимаются над кремлём, и в солнечный день он выглядит особенно торжественно.",
+                  "en": "The Dormition Cathedral was built in 1693–1699 by the architect Yakov Bukhvostov, one of the most gifted masters of his day and a man of peasant origin. It is enormous: when it was built it was one of the largest churches in Russia.\n\nIts walls are decorated with white-stone carving in the Naryshkin Baroque style, the window surrounds like lace. Inside is a carved gilded iconostasis about 27 metres high — almost the height of a nine-storey building.\n\nIts five domes rise above the kremlin, and on a sunny day it looks especially majestic."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Белокаменную резьбу на окнах",
+                    "Золочёный иконостас высотой около 27 метров",
+                    "Пять глав собора над кремлём"
+                  ],
+                  "en": [
+                    "The white-stone carving around the windows",
+                    "The gilded iconostasis about 27 metres high",
+                    "The five domes above the kremlin"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Собор построил зодчий Яков Бухвостов в 1693–1699 годах.",
+                    "Иконостас собора поднимается примерно на 27 метров."
+                  ],
+                  "en": [
+                    "The cathedral was built by Yakov Bukhvostov in 1693–1699.",
+                    "Its iconostasis rises about 27 metres."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, стройка так затянулась, что Бухвостова за срыв сроков приговорили к наказанию кнутом. Но собор вышел таким прекрасным, что приговор, по преданию, отменили.",
+                  "en": "They say construction dragged on so long that Bukhvostov was sentenced to the knout for missing his deadlines. But the cathedral turned out so beautiful that, legend says, the sentence was lifted."
+                },
+                "approach": {
+                  "ru": "Собор — в центре кремля, пара минут от колокольни.",
+                  "en": "The cathedral is in the middle of the kremlin, a couple of minutes from the bell tower."
+                }
+              }
+            },
+            {
+              "id": "ryazan-oleg-palace",
+              "title": {"ru": "Дворец Олега", "en": "Oleg's Palace"},
+              "coordinate": [54.637, 39.7495],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Архиерейские палаты XVII века, которые в городе называют «дворцом Олега». Внутри — музей с древностями Старой Рязани, кладами и иконами.",
+                "en": "The 17th-century bishops' palace that locals call 'Oleg's Palace'. Inside is a museum with antiquities and treasure hoards from Old Ryazan, and icons."
+              },
+              "wiki": {"ru": "Дворец Олега"},
+              "guide": {
+                "story": {
+                  "ru": "«Дворцом Олега» эти палаты называют по преданию: будто бы здесь стоял дворец великого князя Олега Рязанского, современника Дмитрия Донского. На самом деле нынешнее здание построено в XVII веке для рязанских архиереев.\n\nВнутри — Рязанский музей-заповедник: золотые украшения из кладов Старой Рязани, разорённой Батыем, иконы, предметы быта и расписные палаты.\n\nГлядя на клады, легко представить богатство древней столицы, от которой остались лишь валы на высоком берегу Оки.",
+                  "en": "These chambers are called 'Oleg's Palace' after a tradition that the palace of Grand Prince Oleg of Ryazan, a contemporary of Dmitry Donskoy, stood here. In fact the present building was put up in the 17th century for the bishops of Ryazan.\n\nInside is the Ryazan Museum: gold jewellery from the hoards of Old Ryazan, destroyed by Batu, icons, everyday objects and painted rooms.\n\nLooking at the treasures, it is easy to imagine the wealth of the old capital, of which only ramparts on the high bank of the Oka remain."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Золотые украшения из кладов Старой Рязани",
+                    "Расписные своды палат",
+                    "Изразцовые печи"
+                  ],
+                  "en": [
+                    "The gold jewellery from the Old Ryazan hoards",
+                    "The painted vaults",
+                    "The tiled stoves"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Палаты построены в XVII веке для рязанских архиереев.",
+                    "Олег Рязанский был современником Дмитрия Донского."
+                  ],
+                  "en": [
+                    "The palace was built in the 17th century for the bishops of Ryazan.",
+                    "Oleg of Ryazan was a contemporary of Dmitry Donskoy."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чей «дворец», по преданию, стоит в Рязанском кремле?",
+                    "en": "According to tradition, whose 'palace' stands in the Ryazan kremlin?"
+                  },
+                  "options": {
+                    "ru": ["Князя Олега Рязанского", "Ивана Грозного", "Хана Батыя"],
+                    "en": ["Prince Oleg of Ryazan", "Ivan the Terrible", "Khan Batu"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Палаты на самом деле архиерейские, но имя Олега Рязанского прочно закрепилось за ними.",
+                    "en": "The chambers actually belonged to the bishops, but the name of Oleg of Ryazan has stuck to them."
+                  }
+                },
+                "approach": {
+                  "ru": "В северной части кремля, несколько минут от собора.",
+                  "en": "In the northern part of the kremlin, a few minutes from the cathedral."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ryazan-konstantinovo",
+      "title": {"ru": "Константиново — родина Есенина", "en": "Konstantinovo, Yesenin's birthplace"},
+      "summary": {
+        "ru": "Село на высоком берегу Оки, где родился Сергей Есенин: дом его родителей, земская школа, усадьба Кашиной — прообраз «Анны Снегиной» — и откос с видом на бескрайние окские луга.",
+        "en": "The village on the high bank of the Oka where Sergei Yesenin was born: his parents' house, the village school, the Kashina manor — the model for 'Anna Snegina' — and the bluff overlooking the endless Oka meadows."
+      },
+      "intro": {
+        "ru": "Нужна машина или автобус: до Константинова около 45 км. Всё в селе рядом, в пределах километра; заложите на музей-заповедник 2–3 часа и обязательно выйдите к откосу над Окой.",
+        "en": "You need a car or bus: Konstantinovo is about 45 km away. Everything in the village is within a kilometre; allow 2–3 hours for the museum and be sure to walk out to the bluff above the Oka."
+      },
+      "emoji": "🌾",
+      "tags": ["car", "walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "ryazan-yesenin-house",
+              "title": {"ru": "Дом родителей Есенина", "en": "Yesenin's Parents' House"},
+              "coordinate": [54.8433, 39.6],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Деревенский дом, где прошло детство поэта, — главная часть музея-заповедника Есенина. Скромная изба, сад и амбар, где поэт любил работать летом.",
+                "en": "The village house where the poet spent his childhood, the heart of the Yesenin museum reserve: a modest cottage, a garden and the barn where he liked to write in summer."
+              },
+              "wiki": {"ru": "Государственный музей-заповедник С. А. Есенина"},
+              "guide": {
+                "story": {
+                  "ru": "Сергей Есенин родился в Константинове 3 октября 1895 года в крестьянской семье. Детство он провёл во многом у деда по матери, знатока церковных книг, а родительский дом стал для него символом родины: «Я покинул родимый дом, голубую оставил Русь…»\n\nИзба, которую видят посетители, восстановлена после пожара 1922 года на прежнем месте, но обстановка в ней — подлинная, семейная: стол, лавки, самовар, фотографии. В саду стоит амбар, где Есенин любил работать, приезжая летом.\n\nОтсюда начинается музей-заповедник: всё в Константинове связано с его стихами — от церкви до окских лугов.",
+                  "en": "Sergei Yesenin was born in Konstantinovo on 3 October 1895 into a peasant family. He spent much of his childhood with his maternal grandfather, a connoisseur of church books, and his parents' house became his symbol of home: 'I have left my native home, I have left blue Rus…'\n\nThe cottage you see was rebuilt on the same spot after a fire in 1922, but its furnishings are genuine family things: table, benches, samovar, photographs. In the garden stands the barn where Yesenin liked to work on his summer visits.\n\nThe museum reserve begins here: everything in Konstantinovo is linked with his poems, from the church to the Oka meadows."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Самовар и фотографии семьи в избе",
+                    "Амбар, где поэт работал летом",
+                    "Сад за домом"
+                  ],
+                  "en": [
+                    "The samovar and family photographs in the cottage",
+                    "The barn where the poet worked in summer",
+                    "The garden behind the house"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Есенин родился в Константинове 3 октября 1895 года.",
+                    "Дом восстановлен после пожара 1922 года, но обстановка в нём подлинная."
+                  ],
+                  "en": [
+                    "Yesenin was born in Konstantinovo on 3 October 1895.",
+                    "The house was rebuilt after a fire in 1922, but its furnishings are genuine."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В каком году родился Сергей Есенин?",
+                    "en": "In what year was Sergei Yesenin born?"
+                  },
+                  "options": {"ru": ["1895", "1875", "1915"], "en": ["1895", "1875", "1915"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Есенин родился 3 октября 1895 года и прожил всего тридцать лет.",
+                    "en": "Yesenin was born on 3 October 1895 and lived only thirty years."
+                  }
+                },
+                "approach": {
+                  "ru": "Константиново — в 45 км к северо-западу от Рязани, около часа на машине.",
+                  "en": "Konstantinovo is 45 km north-west of Ryazan, about an hour by car."
+                }
+              }
+            },
+            {
+              "id": "ryazan-yesenin-school",
+              "title": {"ru": "Земская школа", "en": "The Village School"},
+              "coordinate": [54.844, 39.6012],
+              "category": "museum",
+              "visit": 25,
+              "details": {
+                "ru": "Начальная школа, где маленький Есенин учился в 1904–1909 годах и окончил её с похвальным листом. Классная комната с партами и учительская квартира.",
+                "en": "The primary school where young Yesenin studied in 1904–1909, finishing with a certificate of merit. A classroom with desks and the teacher's flat."
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1904 году девятилетний Сергей пошёл в земское четырёхклассное училище в родном селе. Учился он хорошо, хотя не отличался примерным поведением, и окончил школу в 1909 году с похвальным листом.\n\nСегодня в здании восстановлен класс с партами, доской и чернильницами, а также квартира учителя. Здесь хорошо видно, как учились деревенские дети начала XX века.\n\nПосле Константинова Есенин учился в церковно-учительской школе в Спас-Клепиках, а в 1912 году уехал в Москву.",
+                  "en": "In 1904 nine-year-old Sergei started at the four-year village school in his native village. He did well, though his behaviour was far from model, and finished in 1909 with a certificate of merit.\n\nToday the building has a restored classroom with desks, a blackboard and inkwells, and the teacher's flat. It shows how village children studied in the early 20th century.\n\nAfter Konstantinovo Yesenin went on to a teachers' school at Spas-Klepiki, and in 1912 he left for Moscow."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Парты и чернильницы в классе",
+                    "Похвальный лист Есенина",
+                    "Квартиру учителя"
+                  ],
+                  "en": [
+                    "The desks and inkwells in the classroom",
+                    "Yesenin's certificate of merit",
+                    "The teacher's flat"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Есенин учился в земской школе в 1904–1909 годах.",
+                    "Он окончил её с похвальным листом."
+                  ],
+                  "en": [
+                    "Yesenin attended the village school in 1904–1909.",
+                    "He finished with a certificate of merit."
+                  ]
+                },
+                "approach": {
+                  "ru": "Пара минут пешком от родительского дома.",
+                  "en": "A couple of minutes' walk from his parents' house."
+                }
+              }
+            },
+            {
+              "id": "ryazan-kashina-manor",
+              "title": {"ru": "Усадьба Кашиной", "en": "The Kashina Manor"},
+              "coordinate": [54.8448, 39.5985],
+              "category": "palace",
+              "visit": 30,
+              "details": {
+                "ru": "Барская усадьба на краю села, где жила помещица Лидия Кашина — прообраз героини поэмы «Анна Снегина». Дом с мезонином, парк и вид на Оку.",
+                "en": "The manor at the edge of the village where the landowner Lydia Kashina lived — the model for the heroine of the poem 'Anna Snegina'. A house with an attic storey, a park and a view of the Oka."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Лидия Кашина, хозяйка усадьбы, была образованной и красивой женщиной, и молодой Есенин бывал у неё в гостях. Её считают прообразом героини поэмы «Анна Снегина», где поэт вспоминает юность, деревню и революцию.\n\nДом с мезонином окружён старым парком с прудом, а с края усадьбы открывается вид на Оку. В доме — литературная экспозиция о поэме и о Есенине.\n\nЗдесь особенно понятны его строки о «голубой Руси»: тихий парк, река и простор лугов.",
+                  "en": "Lydia Kashina, the manor's owner, was an educated and beautiful woman, and the young Yesenin was a guest here. She is believed to be the model for the heroine of 'Anna Snegina', the poem in which he recalls his youth, the village and the revolution.\n\nThe house with its attic storey stands in an old park with a pond, and from the edge of the estate there is a view of the Oka. The house holds a literary exhibition about the poem and the poet.\n\nHere his lines about 'blue Rus' make the most sense: the quiet park, the river and the open meadows."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Дом с мезонином",
+                    "Пруд в старом парке",
+                    "Вид на Оку с края усадьбы"
+                  ],
+                  "en": [
+                    "The house with its attic storey",
+                    "The pond in the old park",
+                    "The view of the Oka from the edge of the estate"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Лидию Кашину считают прообразом героини поэмы «Анна Снегина».",
+                    "В доме работает литературная экспозиция о поэме."
+                  ],
+                  "en": [
+                    "Lydia Kashina is thought to be the model for the heroine of 'Anna Snegina'.",
+                    "The house holds a literary exhibition about the poem."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Героиней какой поэмы Есенина считают Лидию Кашину?",
+                    "en": "Which Yesenin poem's heroine is Lydia Kashina thought to inspire?"
+                  },
+                  "options": {
+                    "ru": ["«Анна Снегина»", "«Чёрный человек»", "«Пугачёв»"],
+                    "en": ["Anna Snegina", "The Black Man", "Pugachev"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В «Анне Снегиной» поэт вспоминает юность в Константинове и встречи с владелицей усадьбы.",
+                    "en": "In 'Anna Snegina' the poet recalls his youth in Konstantinovo and meetings with the lady of the manor."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 минут пешком через село к усадьбе.",
+                  "en": "About 5 minutes' walk through the village to the manor."
+                }
+              }
+            },
+            {
+              "id": "ryazan-oka-bluff",
+              "title": {"ru": "Откос над Окой", "en": "The Bluff above the Oka"},
+              "coordinate": [54.8455, 39.5995],
+              "category": "viewpoint",
+              "visit": 20,
+              "details": {
+                "ru": "Высокий берег Оки на краю Константинова с видом на заливные луга до горизонта — пейзаж, который Есенин воспел в десятках стихов.",
+                "en": "The high bank of the Oka at the edge of Konstantinovo, looking over water meadows to the horizon — the landscape Yesenin celebrated in dozens of poems."
+              },
+              "guide": {
+                "story": {
+                  "ru": "С высокого откоса у Константинова видно, как Ока широко петляет внизу, а за ней до самого горизонта тянутся заливные луга, старицы и перелески. Этот простор и стал для Есенина образом родины.\n\nВесной Ока разливается, и луга превращаются в огромное озеро, а летом здесь косят сено и пасут стада. Над обрывом стоит церковь Казанской иконы Божией Матери, где крестили поэта.\n\nПрисядьте на скамейку и почитайте Есенина — здесь его строки звучат по-особенному.",
+                  "en": "From the high bluff at Konstantinovo you see the Oka winding broadly below, and beyond it water meadows, oxbow lakes and copses stretching to the horizon. This vastness became Yesenin's image of his homeland.\n\nIn spring the Oka floods and the meadows turn into a huge lake; in summer hay is mown and cattle graze here. Above the bluff stands the Church of the Kazan Icon of the Mother of God, where the poet was baptised.\n\nSit on a bench and read some Yesenin — his lines sound different here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Петли Оки внизу",
+                    "Заливные луга до горизонта",
+                    "Церковь, где крестили Есенина"
+                  ],
+                  "en": [
+                    "The loops of the Oka below",
+                    "The water meadows to the horizon",
+                    "The church where Yesenin was baptised"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Весной Ока разливается и затапливает луга.",
+                    "Есенина крестили в церкви Казанской иконы Божией Матери в Константинове."
+                  ],
+                  "en": [
+                    "In spring the Oka floods the meadows.",
+                    "Yesenin was baptised in the Church of the Kazan Icon in Konstantinovo."
+                  ]
+                },
+                "approach": {
+                  "ru": "Пара минут от усадьбы к краю берега.",
+                  "en": "A couple of minutes from the manor to the edge of the bank."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
