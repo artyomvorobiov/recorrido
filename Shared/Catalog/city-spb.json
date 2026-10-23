@@ -1606,6 +1606,337 @@
           ]
         }
       ]
+    },
+    {
+      "id": "spb-kronstadt",
+      "title": {"ru": "Кронштадт — морская крепость", "en": "Kronstadt, the naval fortress"},
+      "summary": {
+        "ru": "Остров Котлин в Финском заливе: Морской собор, Якорная площадь с Вечным огнём и памятником адмиралу Макарову, футшток, от которого отсчитывают все высоты России, старинный Петровский док и парк «Остров фортов».",
+        "en": "Kotlin Island in the Gulf of Finland: the Naval Cathedral, Anchor Square with the Eternal Flame and Admiral Makarov's monument, the tide gauge from which all heights in Russia are measured, the old Petrovsky Dock and the Fort Island park."
+      },
+      "intro": {
+        "ru": "Поездка на полдня или день: около часа на машине по дамбе или на автобусе от метро. В центре Кронштадта всё пешком, около 3 км; до «Острова фортов» на западе острова — 10 минут на машине или автобусе.",
+        "en": "A half-day or full-day trip: about an hour by car across the dam or by bus from the metro. In central Kronstadt everything is walkable, about 3 km; Fort Island on the west of Kotlin is 10 minutes away by car or bus."
+      },
+      "emoji": "⚓",
+      "tags": ["car", "walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kronstadt-naval-cathedral",
+              "title": {"ru": "Морской собор", "en": "Naval Cathedral"},
+              "coordinate": [59.9917, 29.7778],
+              "category": "church",
+              "visit": 45,
+              "details": {
+                "ru": "Огромный собор 1903–1913 годов в византийском стиле — главный храм русского флота. На мраморных досках внутри — имена погибших моряков, а в убранстве — морская символика.",
+                "en": "A huge Byzantine-style cathedral of 1903–1913, the principal church of the Russian navy. Marble plaques inside list fallen sailors, and the decoration is full of naval symbols."
+              },
+              "wiki": {"ru": "Кронштадтский Морской собор", "en": "Kronstadt Naval Cathedral"},
+              "guide": {
+                "story": {
+                  "ru": "Морской собор задумал главный командир Кронштадтского порта вице-адмирал Степан Макаров, и в 1903 году его заложили в присутствии Николая II. Архитектор Василий Косяков взял за образец константинопольскую Святую Софию, и купол собора виден далеко с моря.\n\nСобор освятили в 1913 году. На мраморных досках внутри высечены имена офицеров и моряков, погибших в морских сражениях, а в убранстве повторяются якоря, корабли и волны.\n\nВ советское время храм закрыли, в нём были кинотеатр и концертный зал. В 2010-х годах собор отреставрировали и вернули ему позолоту, росписи и огромную люстру.",
+                  "en": "The Naval Cathedral was conceived by Vice-Admiral Stepan Makarov, chief commander of the port of Kronstadt, and its foundation stone was laid in 1903 in the presence of Nicholas II. The architect Vasily Kosyakov took Constantinople's Hagia Sophia as his model, and the dome can be seen far out to sea.\n\nThe cathedral was consecrated in 1913. Marble plaques inside bear the names of officers and sailors killed in naval battles, and anchors, ships and waves recur in the decoration.\n\nIn Soviet times the church was closed and used as a cinema and concert hall. In the 2010s it was restored, its gilding, paintings and huge chandelier brought back."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Огромный купол в византийском стиле",
+                    "Мраморные доски с именами моряков",
+                    "Якоря и корабли в узорах убранства"
+                  ],
+                  "en": [
+                    "The huge Byzantine dome",
+                    "The marble plaques with sailors' names",
+                    "Anchors and ships in the decoration"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Образцом для собора стала Святая София в Константинополе.",
+                    "Собор освящён в 1913 году."
+                  ],
+                  "en": [
+                    "The cathedral was modelled on Hagia Sophia in Constantinople.",
+                    "It was consecrated in 1913."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой знаменитый храм стал образцом для Морского собора?",
+                    "en": "Which famous church was the model for the Naval Cathedral?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Святая София в Константинополе",
+                      "Собор Святого Петра в Риме",
+                      "Исаакиевский собор"
+                    ],
+                    "en": [
+                      "Hagia Sophia in Constantinople",
+                      "St Peter's in Rome",
+                      "St Isaac's Cathedral"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Архитектор Косяков повторил византийский купол Святой Софии — его видно далеко с моря.",
+                    "en": "The architect Kosyakov echoed Hagia Sophia's Byzantine dome — visible far out to sea."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор — в центре Кронштадта, на Якорной площади.",
+                  "en": "The cathedral stands on Anchor Square in the centre of Kronstadt."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-anchor-square",
+              "title": {"ru": "Якорная площадь", "en": "Anchor Square"},
+              "coordinate": [59.9921, 29.775],
+              "category": "square",
+              "visit": 20,
+              "details": {
+                "ru": "Площадь перед Морским собором, огороженная старинными якорями и цепями, с Вечным огнём и памятником адмиралу Макарову с девизом «Помни войну».",
+                "en": "The square in front of the Naval Cathedral, fenced with old anchors and chains, with the Eternal Flame and Admiral Makarov's monument bearing his motto 'Remember the war'."
+              },
+              "wiki": {"ru": "Якорная площадь (Кронштадт)"},
+              "guide": {
+                "story": {
+                  "ru": "Площадь получила имя от якорей, которые здесь хранили в XVIII–XIX веках. Сегодня её окружают старинные якоря и якорные цепи, в центре горит Вечный огонь в память о моряках, а перед собором стоит памятник адмиралу Степану Макарову, погибшему в 1904 году при взрыве броненосца «Петропавловск» у Порт-Артура.\n\nМакаров был не только флотоводцем, но и учёным-океанографом и изобретателем: по его идее построили «Ермак» — первый в мире ледокол арктического плавания. На постаменте — его девиз: «Помни войну».\n\nИз Кронштадта уходили великие экспедиции: в 1803 году — первое русское кругосветное плавание Крузенштерна и Лисянского, а в 1819 году — экспедиция Беллинсгаузена и Лазарева, открывшая Антарктиду.",
+                  "en": "The square takes its name from the anchors stored here in the 18th and 19th centuries. Today it is ringed with old anchors and chains, the Eternal Flame burns in the middle in memory of sailors, and in front of the cathedral stands the monument to Admiral Stepan Makarov, killed in 1904 when the battleship Petropavlovsk blew up off Port Arthur.\n\nMakarov was not only a naval commander but also an oceanographer and inventor: the Yermak, the world's first Arctic icebreaker, was built to his idea. His motto is carved on the pedestal: 'Remember the war'.\n\nGreat expeditions set out from Kronstadt: in 1803 the first Russian circumnavigation by Krusenstern and Lisyansky, and in 1819 Bellingshausen and Lazarev's expedition that discovered Antarctica."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Надпись «Помни войну» на памятнике Макарову",
+                    "Старинные якоря вокруг площади",
+                    "Вечный огонь"
+                  ],
+                  "en": [
+                    "The words 'Remember the war' on Makarov's monument",
+                    "The old anchors around the square",
+                    "The Eternal Flame"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "По идее Макарова построен «Ермак» — первый в мире ледокол арктического плавания.",
+                    "В 1803 году из Кронштадта ушло первое русское кругосветное плавание."
+                  ],
+                  "en": [
+                    "The Yermak, the world's first Arctic icebreaker, was built to Makarov's idea.",
+                    "In 1803 the first Russian round-the-world voyage set out from Kronstadt."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой девиз написан на памятнике адмиралу Макарову?",
+                    "en": "What motto is written on Admiral Makarov's monument?"
+                  },
+                  "options": {
+                    "ru": ["«Помни войну»", "«Вперёд, на север»", "«Служу Отечеству»"],
+                    "en": [
+                      "'Remember the war'",
+                      "'Forward, to the north'",
+                      "'I serve the Fatherland'"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Помни войну» — так Макаров напоминал морякам, что флот должен быть готов к бою всегда.",
+                    "en": "'Remember the war' was Makarov's reminder that a navy must always be ready for battle."
+                  }
+                },
+                "approach": {
+                  "ru": "Площадь — прямо перед собором.",
+                  "en": "The square is right in front of the cathedral."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-footstock",
+              "title": {"ru": "Кронштадтский футшток", "en": "Kronstadt Tide Gauge"},
+              "coordinate": [59.9906, 29.7688],
+              "category": "landmark",
+              "visit": 15,
+              "details": {
+                "ru": "Медная пластина с горизонтальной чертой на устое Синего моста через Обводный канал — нулевая отметка, от которой отсчитывают все высоты и глубины в России.",
+                "en": "A copper plate with a horizontal line on the abutment of the Blue Bridge over the Obvodny Canal — the zero mark from which all heights and depths in Russia are measured."
+              },
+              "wiki": {"ru": "Кронштадтский футшток"},
+              "guide": {
+                "story": {
+                  "ru": "Футшток — это рейка с делениями для измерения уровня воды. Наблюдения за уровнем Балтийского моря в Кронштадте ведут с начала XVIII века, а в 1840 году на устое Синего моста укрепили медную пластину с чертой — средним уровнем моря.\n\nОт этой черты отсчитывают высоты: когда в России говорят, что гора поднимается на столько-то метров «над уровнем моря», имеют в виду именно Кронштадтский футшток. Рядом стоит павильон с мареографом — прибором, записывающим колебания воды.\n\nЭто одно из самых незаметных и при этом самых важных мест страны: все российские карты «привязаны» к этой черте.",
+                  "en": "A tide gauge is a graduated staff for measuring the water level. The level of the Baltic Sea has been observed in Kronstadt since the early 18th century, and in 1840 a copper plate marking the mean sea level was fixed to the abutment of the Blue Bridge.\n\nHeights are measured from this line: when Russians say a mountain rises so many metres 'above sea level', they mean the Kronstadt gauge. Next to it stands a pavilion with a mareograph, an instrument that records the rise and fall of the water.\n\nIt is one of the least noticeable yet most important places in the country: every Russian map is tied to this line."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Медную пластину с чертой на устое моста",
+                    "Павильон мареографа",
+                    "Обводный канал"
+                  ],
+                  "en": [
+                    "The copper plate with its line on the bridge abutment",
+                    "The mareograph pavilion",
+                    "The Obvodny Canal"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "От Кронштадтского футштока отсчитывают высоты в Балтийской системе высот.",
+                    "Наблюдения за уровнем моря здесь ведут с начала XVIII века."
+                  ],
+                  "en": [
+                    "Heights in the Baltic height system are measured from the Kronstadt gauge.",
+                    "Sea level has been observed here since the early 18th century."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что отсчитывают от Кронштадтского футштока?",
+                    "en": "What is measured from the Kronstadt tide gauge?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Высоты над уровнем моря по всей России",
+                      "Время по Петербургу",
+                      "Расстояния до Москвы"
+                    ],
+                    "en": [
+                      "Heights above sea level across Russia",
+                      "St Petersburg time",
+                      "Distances to Moscow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Черта футштока — нулевая отметка Балтийской системы высот.",
+                    "en": "The gauge's line is the zero mark of the Baltic height system."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком от Якорной площади к Синему мосту.",
+                  "en": "About 10 minutes' walk from Anchor Square to the Blue Bridge."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-petrovsky-dock",
+              "title": {"ru": "Петровский док", "en": "Petrovsky Dock"},
+              "coordinate": [59.9927, 29.77],
+              "category": "landmark",
+              "visit": 20,
+              "details": {
+                "ru": "Каменный сухой док, задуманный Петром I и открытый в 1752 году: корабли заводили в него и откачивали воду, чтобы чинить днища. Один из старейших доков мира.",
+                "en": "A stone dry dock conceived by Peter the Great and opened in 1752: ships were floated in and the water pumped out so their hulls could be repaired. One of the oldest docks in the world."
+              },
+              "wiki": {"ru": "Петровский док"},
+              "guide": {
+                "story": {
+                  "ru": "Пётр I задумал в Кронштадте док для ремонта кораблей, но достроили его уже при Елизавете Петровне, в 1752 году. Корабли заводили в огромный каменный бассейн, закрывали ворота и откачивали воду, чтобы корабль оказался «на суше».\n\nДля своего времени это было инженерное чудо, а позже здесь работала одна из первых в России паровых машин для откачки воды. Док служил флоту больше двухсот лет.\n\nСегодня его гранитные стенки — памятник петровской эпохи, и по ним легко представить, какие корабли здесь стояли.",
+                  "en": "Peter the Great planned a dock for repairing ships in Kronstadt, but it was completed under Empress Elizabeth in 1752. Ships were brought into a huge stone basin, the gates were closed and the water pumped out, leaving the vessel 'on dry land'.\n\nIn its day it was an engineering marvel, and later one of the first steam engines in Russia worked here pumping out water. The dock served the navy for more than two hundred years.\n\nToday its granite walls are a monument of Peter's era, and it is easy to imagine the ships that once stood here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Гранитные стенки дока",
+                    "Огромные ворота-затворы",
+                    "Вид на Обводный канал"
+                  ],
+                  "en": [
+                    "The dock's granite walls",
+                    "The huge gates",
+                    "The view of the Obvodny Canal"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Док открыт в 1752 году.",
+                    "Чтобы починить днище корабля, из дока откачивали воду."
+                  ],
+                  "en": [
+                    "The dock opened in 1752.",
+                    "Water was pumped out of the dock so a ship's hull could be repaired."
+                  ]
+                },
+                "approach": {
+                  "ru": "Пара минут от футштока вдоль Обводного канала.",
+                  "en": "A couple of minutes from the tide gauge along the Obvodny Canal."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-fort-island",
+              "title": {"ru": "Парк «Остров фортов»", "en": "Fort Island Park"},
+              "coordinate": [60.0075, 29.694],
+              "category": "park",
+              "visit": 75,
+              "details": {
+                "ru": "Парк на западной оконечности острова Котлин, открытый в 2019 году: музей истории флота, аллея героев, маяк и вид на форты в Финском заливе.",
+                "en": "A park on the western tip of Kotlin Island opened in 2019: a museum of naval history, an avenue of heroes, a lighthouse and a view of the forts in the Gulf of Finland."
+              },
+              "wiki": {"ru": "Остров фортов"},
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 7 км — 10 минут на машине или автобусе",
+                  "en": "About 7 km — 10 minutes by car or bus"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Кронштадт окружён фортами: в XVIII–XIX веках их строили на островах и прямо в заливе, чтобы ни один вражеский флот не прошёл к Петербургу. Остров Котлин превратился в огромную крепость, которую так и не решился штурмовать ни один противник.\n\nВ 2019 году на западной оконечности Котлина открыли военно-исторический парк «Остров фортов»: музей истории Военно-морского флота, аллея героев флота, маяк и прогулочные дорожки вдоль воды.\n\nОтсюда видны форты, стоящие прямо в заливе, и корабли, идущие в Петербург. На закате здесь особенно красиво.",
+                  "en": "Kronstadt is ringed with forts: in the 18th and 19th centuries they were built on islets and right in the gulf so that no enemy fleet could get through to St Petersburg. Kotlin Island became a vast fortress that no enemy ever dared to storm.\n\nIn 2019 the Fort Island military history park opened on Kotlin's western tip: a museum of the history of the navy, an avenue of naval heroes, a lighthouse and paths along the water.\n\nFrom here you see the forts standing in the gulf and the ships heading for St Petersburg. It is especially beautiful at sunset."
+                },
+                "lookFor": {
+                  "ru": ["Маяк на берегу", "Форты в заливе", "Аллею героев флота"],
+                  "en": [
+                    "The lighthouse on the shore",
+                    "The forts in the gulf",
+                    "The avenue of naval heroes"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Парк «Остров фортов» открыт в 2019 году.",
+                    "Форты Кронштадта защищали морские подступы к Петербургу."
+                  ],
+                  "en": [
+                    "The Fort Island park opened in 2019.",
+                    "Kronstadt's forts guarded the sea approaches to St Petersburg."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Зачем вокруг Кронштадта строили форты?",
+                    "en": "Why were forts built around Kronstadt?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Чтобы не пропустить вражеский флот к Петербургу",
+                      "Чтобы ловить рыбу",
+                      "Чтобы хранить зерно"
+                    ],
+                    "en": [
+                      "To keep enemy fleets away from St Petersburg",
+                      "To catch fish",
+                      "To store grain"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Цепь фортов перекрывала фарватер, и пройти к столице с моря было невозможно.",
+                    "en": "The chain of forts blocked the fairway, making it impossible to reach the capital from the sea."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 7 км на запад острова — 10 минут на машине или автобусе.",
+                  "en": "About 7 km west along the island — 10 minutes by car or bus."
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

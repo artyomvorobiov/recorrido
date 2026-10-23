@@ -1,0 +1,356 @@
+{
+  "city": {
+    "id": "yelabuga",
+    "name": {"ru": "Елабуга", "en": "Yelabuga"},
+    "region": {"ru": "Республика Татарстан", "en": "Republic of Tatarstan"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Купеческий городок на высоком берегу Камы: дом детства художника Ивана Шишкина, дом кавалерист-девицы Надежды Дуровой, мемориал Марины Цветаевой и Чёртово городище — башня древней крепости над рекой.",
+      "en": "A merchant town on the high bank of the Kama: the childhood home of the painter Ivan Shishkin, the house of the 'cavalry maiden' Nadezhda Durova, the Marina Tsvetaeva memorial and the Devil's Fort — the tower of an ancient fortress above the river."
+    },
+    "gettingThere": {
+      "ru": "Из Казани около 210 км — 2,5–3 часа на машине или автобусе. Ближайший аэропорт — у Набережных Челнов.",
+      "en": "About 210 km from Kazan — 2.5–3 hours by car or bus. The nearest airport is at Naberezhnye Chelny."
+    },
+    "coordinate": [55.76, 52.056],
+    "emoji": "🌲",
+    "size": "small",
+    "tags": ["kama"],
+    "wiki": {"ru": "Елабуга", "en": "Yelabuga"},
+    "guide": {
+      "story": {
+        "ru": "Елабуга ведёт свою историю от крепости Волжской Булгарии на высоком берегу Камы — от неё осталось Чёртово городище с каменной башней. В 2007 году город отметил тысячелетие. Позже здесь выросло русское село, а в 1780 году Елабуга стала уездным городом.\n\nВ XIX веке Елабуга богатела на хлебной торговле по Каме: купцы строили каменные особняки и храмы, а городской голова Иван Васильевич Шишкин, отец художника, провёл в городе водопровод и написал его историю. Здесь родился Иван Шишкин, а последние двадцать пять лет жизни провела Надежда Дурова — первая женщина-офицер русской армии.\n\nВ августе 1941 года в Елабугу эвакуировали Марину Цветаеву, и здесь оборвалась её жизнь. Сегодня это тихий, бережно отреставрированный город-музей, окружённый «шишкинскими» сосновыми лесами.",
+        "en": "Yelabuga traces its history to a fortress of Volga Bulgaria on the high bank of the Kama — what remains is the Devil's Fort with its stone tower. In 2007 the town celebrated its millennium. Later a Russian village grew here, and in 1780 Yelabuga became a district town.\n\nIn the 19th century Yelabuga grew rich on the grain trade along the Kama: merchants built stone mansions and churches, and the mayor Ivan Vasilyevich Shishkin, the painter's father, gave the town a water supply and wrote its history. The painter Ivan Shishkin was born here, and Nadezhda Durova, the first woman officer in the Russian army, spent the last twenty-five years of her life here.\n\nIn August 1941 Marina Tsvetaeva was evacuated to Yelabuga, and her life ended here. Today it is a quiet, carefully restored museum town surrounded by the pine forests Shishkin painted."
+      },
+      "history": [
+        {
+          "year": "1007",
+          "text": {
+            "ru": "Год, от которого Елабуга ведёт историю: булгарская крепость на Чёртовом городище.",
+            "en": "The year Yelabuga counts its history from: a Bulgar fortress on the Devil's Fort."
+          }
+        },
+        {
+          "year": "1780",
+          "text": {"ru": "Елабуга становится уездным городом.", "en": "Yelabuga becomes a district town."}
+        },
+        {
+          "year": "1832",
+          "text": {
+            "ru": "В Елабуге родился художник Иван Шишкин.",
+            "en": "The painter Ivan Shishkin is born in Yelabuga."
+          }
+        },
+        {
+          "year": "1841",
+          "text": {"ru": "В Елабугу переезжает Надежда Дурова.", "en": "Nadezhda Durova moves to Yelabuga."}
+        },
+        {
+          "year": "1941",
+          "text": {
+            "ru": "В Елабугу эвакуирована Марина Цветаева.",
+            "en": "Marina Tsvetaeva is evacuated to Yelabuga."
+          }
+        },
+        {
+          "year": "2007",
+          "text": {"ru": "Елабуга отмечает тысячелетие.", "en": "Yelabuga celebrates its millennium."}
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Эчпочмак и перемячи — татарскую выпечку",
+          "Чак-чак и чай с травами",
+          "Камскую рыбу"
+        ],
+        "en": [
+          "Echpochmak and peremyach, Tatar pastries",
+          "Chak-chak and herbal tea",
+          "Fish from the Kama"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Открытки и репродукции картин Шишкина",
+          "Изделия из дерева с народной резьбой",
+          "Татарские сладости в подарочной коробке"
+        ],
+        "en": [
+          "Postcards and prints of Shishkin's paintings",
+          "Wooden crafts with folk carving",
+          "Tatar sweets in a gift box"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Музеи Елабуги входят в один музей-заповедник — часто можно купить единый билет",
+          "К Чёртову городищу ведёт тропа вдоль Тоймы; оттуда лучший вид на Каму",
+          "В окрестностях — сосновые леса и пруды, которые писал Шишкин"
+        ],
+        "en": [
+          "Yelabuga's museums belong to one museum reserve — a combined ticket is often available",
+          "A path along the Toyma leads to the Devil's Fort, which has the best view of the Kama",
+          "Around town are the pine forests and ponds Shishkin painted"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "yelabuga-walk",
+      "title": {"ru": "Елабуга: Шишкин, Дурова и Цветаева", "en": "Yelabuga: Shishkin, Durova and Tsvetaeva"},
+      "summary": {
+        "ru": "Прогулка по купеческой Елабуге: дом детства Ивана Шишкина, дом кавалерист-девицы Надежды Дуровой, Дом памяти Марины Цветаевой и тропа к Чёртову городищу над Камой.",
+        "en": "A walk through merchant Yelabuga: Ivan Shishkin's childhood home, the house of the cavalry maiden Nadezhda Durova, the Marina Tsvetaeva memorial house and the path to the Devil's Fort above the Kama."
+      },
+      "intro": {
+        "ru": "Пеший день, около 6 км: три литературно-художественных дома в старом центре, а потом прогулка вдоль Тоймы к Чёртову городищу. На каждый музей хватит 40–60 минут.",
+        "en": "A day on foot, about 6 km: three literary and artistic houses in the old centre, then a walk along the Toyma to the Devil's Fort. Allow 40–60 minutes for each museum."
+      },
+      "emoji": "🌲",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "yelabuga-shishkin",
+              "title": {"ru": "Дом-музей Шишкина", "en": "Shishkin House Museum"},
+              "coordinate": [55.759, 52.0535],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Дом купцов Шишкиных, где прошли детство и юность художника: мезонин, где он рисовал, семейные вещи и ранние работы. Рядом — памятник Шишкину.",
+                "en": "The Shishkin merchants' house where the painter spent his childhood and youth: the attic room where he drew, family belongings and early works. A monument to Shishkin stands nearby."
+              },
+              "wiki": {"ru": "Дом-музей И. И. Шишкина"},
+              "guide": {
+                "story": {
+                  "ru": "Иван Шишкин родился в Елабуге в 1832 году в семье купца и городского головы Ивана Васильевича Шишкина — человека разносторонних интересов: он провёл в городе водопровод, занимался археологией и написал историю Елабуги. Сын с детства рисовал и пропадал в окрестных лесах, хотя родные мечтали видеть его купцом.\n\nВ двадцать лет он уехал учиться в Москву, а потом в Петербург и стал главным певцом русского леса: «Утро в сосновом лесу», «Рожь», «Корабельная роща». «Корабельную рощу» он написал по этюдам, сделанным под Елабугой, — в лесах, которые знал с детства.\n\nВ доме воссоздана обстановка купеческой семьи середины XIX века, а в мезонине — уголок юного художника.",
+                  "en": "Ivan Shishkin was born in Yelabuga in 1832 into the family of a merchant and mayor, Ivan Vasilyevich Shishkin, a man of wide interests: he gave the town a water supply, dabbled in archaeology and wrote a history of Yelabuga. The son drew from childhood and vanished into the surrounding forests, though his family hoped he would become a merchant.\n\nAt twenty he left to study in Moscow and later St Petersburg, and became the great painter of the Russian forest: 'Morning in a Pine Forest', 'Rye', 'Ship Grove'. He painted 'Ship Grove' from sketches made near Yelabuga, in the forests he had known since childhood.\n\nThe house recreates a mid-19th-century merchant household, and the attic room is the young artist's corner."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Мезонин, где рисовал юный Шишкин",
+                    "Ранние рисунки художника",
+                    "Памятник Шишкину у дома"
+                  ],
+                  "en": [
+                    "The attic room where the young Shishkin drew",
+                    "The artist's early drawings",
+                    "The Shishkin monument by the house"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Отец художника был городским головой и провёл в Елабуге водопровод.",
+                    "«Корабельную рощу» Шишкин написал по этюдам, сделанным под Елабугой."
+                  ],
+                  "en": [
+                    "The painter's father was mayor and gave Yelabuga a water supply.",
+                    "Shishkin painted 'Ship Grove' from sketches made near Yelabuga."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какую картину Шишкин написал по этюдам, сделанным под Елабугой?",
+                    "en": "Which painting did Shishkin base on sketches made near Yelabuga?"
+                  },
+                  "options": {
+                    "ru": ["«Корабельная роща»", "«Девятый вал»", "«Грачи прилетели»"],
+                    "en": ["Ship Grove", "The Ninth Wave", "The Rooks Have Come Back"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Корабельная роща» — последняя большая картина Шишкина, написанная в 1898 году.",
+                    "en": "'Ship Grove' was Shishkin's last major painting, completed in 1898."
+                  }
+                },
+                "approach": {
+                  "ru": "Дом — в историческом центре, недалеко от Спасского собора.",
+                  "en": "The house is in the historic centre, near the Saviour Cathedral."
+                }
+              }
+            },
+            {
+              "id": "yelabuga-durova",
+              "title": {"ru": "Дом-музей Надежды Дуровой", "en": "Nadezhda Durova House Museum"},
+              "coordinate": [55.7583, 52.051],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Дом, где последние годы жила Надежда Дурова — «кавалерист-девица», первая женщина-офицер русской армии, героиня войны 1812 года и писательница.",
+                "en": "The house where Nadezhda Durova spent her last years — the 'cavalry maiden', the first woman officer in the Russian army, a heroine of 1812 and a writer."
+              },
+              "wiki": {"ru": "Дом-музей Н. А. Дуровой"},
+              "guide": {
+                "story": {
+                  "ru": "В 1806 году молодая Надежда Дурова переоделась в мужское платье и под чужим именем поступила в кавалерию. Она воевала с Наполеоном, была контужена при Бородине, а когда её тайна раскрылась, сам Александр I разрешил ей служить дальше под именем Александра Александрова и вручил Георгиевский крест.\n\nЕё «Записки кавалерист-девицы» напечатал Пушкин в «Современнике». Последние двадцать пять лет жизни Дурова провела в Елабуге, где служил её брат, — до конца дней она носила мужской костюм и просила называть себя Александром Андреевичем.\n\nЕё история вдохновила «Гусарскую балладу» Эльдара Рязанова — Шурочка Азарова стала одной из самых любимых героинь советского кино.",
+                  "en": "In 1806 young Nadezhda Durova put on men's clothes and joined the cavalry under an assumed name. She fought Napoleon and was concussed at Borodino, and when her secret came out, Alexander I himself let her go on serving as Alexander Alexandrov and gave her the Cross of St George.\n\nPushkin published her 'Notes of a Cavalry Maiden' in his journal The Contemporary. Durova spent the last twenty-five years of her life in Yelabuga, where her brother served — to the end she wore men's clothes and asked to be called Alexander Andreyevich.\n\nHer story inspired Eldar Ryazanov's 'Hussar Ballad', whose Shurochka Azarova became one of Soviet cinema's best-loved heroines."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Кавалерийскую форму эпохи 1812 года",
+                    "Портрет Дуровой в мундире",
+                    "Обстановку дома середины XIX века"
+                  ],
+                  "en": [
+                    "The cavalry uniform of 1812",
+                    "Durova's portrait in uniform",
+                    "The mid-19th-century furnishings"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Дурова служила в армии под именем Александра Александрова.",
+                    "Её записки напечатал Пушкин в журнале «Современник»."
+                  ],
+                  "en": [
+                    "Durova served in the army as Alexander Alexandrov.",
+                    "Pushkin published her memoirs in The Contemporary."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Под каким именем Надежда Дурова служила в армии?",
+                    "en": "Under what name did Nadezhda Durova serve in the army?"
+                  },
+                  "options": {
+                    "ru": ["Александр Александров", "Николай Дуров", "Иван Шишкин"],
+                    "en": ["Alexander Alexandrov", "Nikolai Durov", "Ivan Shishkin"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Это имя ей разрешил носить сам Александр I — по своему имени.",
+                    "en": "Alexander I himself allowed her to use the name — after his own."
+                  }
+                },
+                "approach": {
+                  "ru": "Несколько минут пешком по старому центру.",
+                  "en": "A few minutes' walk through the old centre."
+                }
+              }
+            },
+            {
+              "id": "yelabuga-tsvetaeva",
+              "title": {"ru": "Дом памяти Марины Цветаевой", "en": "Marina Tsvetaeva Memorial House"},
+              "coordinate": [55.7556, 52.0631],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Мемориальный комплекс Марины Цветаевой: литературный музей и маленький дом, где поэт провела последние дни в августе 1941 года.",
+                "en": "The Marina Tsvetaeva memorial complex: a literary museum and the little house where the poet spent her last days in August 1941."
+              },
+              "wiki": {"ru": "Дом памяти Марины Цветаевой"},
+              "guide": {
+                "story": {
+                  "ru": "В августе 1941 года, в первые месяцы войны, Марину Цветаеву с сыном эвакуировали из Москвы в Елабугу. Она поселилась в маленьком деревянном доме на окраине, искала работу и не находила её. 31 августа здесь оборвалась её жизнь.\n\nСегодня в этом доме — Дом памяти с обстановкой тех дней, а рядом — литературный музей о её судьбе и стихах. Цветаеву похоронили на Петропавловском кладбище Елабуги; точное место могилы неизвестно, и памятный камень стоит там, где, по воспоминаниям, её могли похоронить.\n\nЭто тихое и печальное место, и здесь особенно хорошо слышны её стихи.",
+                  "en": "In August 1941, in the first months of the war, Marina Tsvetaeva and her son were evacuated from Moscow to Yelabuga. She settled in a small wooden house on the outskirts, looked for work and found none. On 31 August her life ended here.\n\nToday the house is a memorial with the furnishings of those days, and next to it is a literary museum about her life and poetry. Tsvetaeva was buried in Yelabuga's Peter and Paul cemetery; the exact grave is unknown, and a memorial stone stands where, by recollections, she may have been buried.\n\nIt is a quiet and sorrowful place, where her poems ring especially true."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Обстановку дома 1941 года",
+                    "Рукописи и фотографии в литературном музее",
+                    "Тихую улицу на окраине старой Елабуги"
+                  ],
+                  "en": [
+                    "The furnishings of the house in 1941",
+                    "Manuscripts and photographs in the literary museum",
+                    "The quiet street on the edge of old Yelabuga"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Цветаева приехала в Елабугу в эвакуацию в августе 1941 года.",
+                    "Точное место её могилы на Петропавловском кладбище неизвестно."
+                  ],
+                  "en": [
+                    "Tsvetaeva came to Yelabuga as an evacuee in August 1941.",
+                    "The exact place of her grave in the Peter and Paul cemetery is unknown."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком по старым улицам.",
+                  "en": "About 10 minutes' walk along the old streets."
+                }
+              }
+            },
+            {
+              "id": "yelabuga-chertovo",
+              "title": {"ru": "Чёртово городище", "en": "The Devil's Fort"},
+              "coordinate": [55.747, 52.019],
+              "category": "castle",
+              "visit": 40,
+              "details": {
+                "ru": "Каменная башня на высоком мысу над Камой и Тоймой — остаток древней крепости. Отсюда открывается лучший вид на Каму и окрестные леса.",
+                "en": "A stone tower on a high cape above the Kama and the Toyma — the remains of an ancient fortress. It offers the best view of the Kama and the surrounding forests."
+              },
+              "wiki": {"ru": "Чёртово городище"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Около 2,5 км вдоль Тоймы — 35 минут пешком или такси",
+                  "en": "About 2.5 km along the Toyma — 35 minutes on foot or a taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "На высоком мысу, где речка Тойма впадает в Каму, стоит одинокая каменная башня. Это остаток крепости, которую археологи связывают с Волжской Булгарией. Позже руины оказались заброшены, и русские переселенцы, по преданию, считали их «нечистым местом» — отсюда и название.\n\nВ XIX веке отец художника Иван Васильевич Шишкин занялся раскопками городища, нашёл древние вещи и позаботился о том, чтобы разрушавшуюся башню укрепили.\n\nС мыса открывается широкий вид на Каму, заливные луга и сосновые леса — тот самый простор, который любил Шишкин.",
+                  "en": "On a high cape where the little Toyma flows into the Kama stands a lone stone tower. It is the remains of a fortress archaeologists link with Volga Bulgaria. Later the ruins were abandoned, and Russian settlers, tradition says, thought them an 'unclean place' — hence the name.\n\nIn the 19th century the painter's father, Ivan Vasilyevich Shishkin, excavated the site, found ancient objects and saw to it that the crumbling tower was strengthened.\n\nFrom the cape there is a wide view over the Kama, the water meadows and the pine forests — the very expanse Shishkin loved."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Каменную башню на мысу",
+                    "Слияние Тоймы и Камы",
+                    "Сосновые леса на горизонте"
+                  ],
+                  "en": [
+                    "The stone tower on the cape",
+                    "The meeting of the Toyma and the Kama",
+                    "The pine forests on the horizon"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Башня стоит на мысу при впадении Тоймы в Каму.",
+                    "В XIX веке городище раскапывал отец художника Шишкина."
+                  ],
+                  "en": [
+                    "The tower stands on the cape where the Toyma meets the Kama.",
+                    "In the 19th century the site was excavated by the painter Shishkin's father."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто в XIX веке раскапывал Чёртово городище?",
+                    "en": "Who excavated the Devil's Fort in the 19th century?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Отец художника Шишкина",
+                      "Император Александр II",
+                      "Надежда Дурова"
+                    ],
+                    "en": [
+                      "The painter Shishkin's father",
+                      "Emperor Alexander II",
+                      "Nadezhda Durova"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Иван Васильевич Шишкин увлекался археологией и написал историю родного города.",
+                    "en": "Ivan Vasilyevich Shishkin was keen on archaeology and wrote a history of his home town."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 2,5 км по тропе вдоль Тоймы — 35 минут пешком.",
+                  "en": "About 2.5 km along the path by the Toyma — 35 minutes on foot."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1055,6 +1055,288 @@
           ]
         }
       ]
+    },
+    {
+      "id": "moscow-kolomenskoye-tsaritsyno",
+      "title": {"ru": "Коломенское и Царицыно", "en": "Kolomenskoye and Tsaritsyno"},
+      "summary": {
+        "ru": "Две царские усадьбы на юге Москвы: шатровая церковь Вознесения над Москвой-рекой, таинственный Голосов овраг и деревянный дворец Алексея Михайловича в Коломенском, а потом — сказочный дворец Екатерины II и поющий фонтан в Царицыне.",
+        "en": "Two royal estates in the south of Moscow: the tent-roofed Church of the Ascension above the Moskva River, the mysterious Golosov ravine and Tsar Alexei's wooden palace at Kolomenskoye, then Catherine the Great's fairy-tale palace and the singing fountain at Tsaritsyno."
+      },
+      "intro": {
+        "ru": "День на юге Москвы: Коломенское пешком, около 4 км (парк большой — заложите три часа), затем две станции на метро от «Каширской» до «Царицына». В парках много холмов и лестниц — нужна удобная обувь.",
+        "en": "A day in south Moscow: Kolomenskoye on foot, about 4 km (the park is big — allow three hours), then two metro stops from Kashirskaya to Tsaritsyno. The parks are full of hills and steps — wear comfortable shoes."
+      },
+      "emoji": "🏰",
+      "tags": ["walk", "metro"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "moscow-ascension",
+              "title": {
+                "ru": "Церковь Вознесения в Коломенском",
+                "en": "Church of the Ascension, Kolomenskoye"
+              },
+              "coordinate": [55.6677, 37.6712],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белая шатровая церковь 1532 года на высоком берегу Москвы-реки, построенная, по преданию, в честь рождения долгожданного наследника — будущего Ивана Грозного. Объект Всемирного наследия ЮНЕСКО.",
+                "en": "A white tent-roofed church of 1532 on the high bank of the Moskva River, built, tradition says, to celebrate the birth of a long-awaited heir — the future Ivan the Terrible. A UNESCO World Heritage Site."
+              },
+              "wiki": {
+                "ru": "Церковь Вознесения в Коломенском",
+                "en": "Church of the Ascension, Kolomenskoye"
+              },
+              "guide": {
+                "story": {
+                  "ru": "Коломенское было летней резиденцией великих князей и царей, и в 1532 году здесь поставили церковь Вознесения. По преданию, Василий III построил её в благодарность за рождение долгожданного сына — будущего Ивана Грозного.\n\nХрам не похож на привычные церкви: вместо купола — высокий каменный шатёр, устремлённый в небо, а сам он напоминает белую свечу над рекой. Это одна из первых каменных шатровых церквей Руси; строил её, как считают, итальянский мастер Петрок Малый.\n\nВокруг храма идёт галерея-гульбище, откуда открывается вид на Москву-реку. В 1994 году церковь включили в список Всемирного наследия ЮНЕСКО.",
+                  "en": "Kolomenskoye was the summer residence of grand princes and tsars, and in 1532 the Church of the Ascension was built here. Tradition says Vasily III raised it in thanksgiving for the birth of his long-awaited son, the future Ivan the Terrible.\n\nIt is unlike ordinary churches: instead of a dome it has a tall stone tent roof soaring skywards, and the whole church looks like a white candle above the river. It is one of the first stone tent-roofed churches in Rus, built, it is believed, by the Italian master Petrok Maly.\n\nA gallery runs around the church with a view of the Moskva River. In 1994 the church was inscribed on the UNESCO World Heritage List."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Каменный шатёр вместо купола",
+                    "Галерею-гульбище вокруг храма",
+                    "Вид на Москву-реку с откоса"
+                  ],
+                  "en": [
+                    "The stone tent roof instead of a dome",
+                    "The gallery around the church",
+                    "The view of the Moskva River from the bluff"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь построена в 1532 году — это одна из первых каменных шатровых церквей Руси.",
+                    "В 1994 году её включили в список Всемирного наследия ЮНЕСКО."
+                  ],
+                  "en": [
+                    "The church was built in 1532 — one of the first stone tent-roofed churches in Rus.",
+                    "It was inscribed on the UNESCO World Heritage List in 1994."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что французский композитор Гектор Берлиоз, побывав в Коломенском, сказал: «Ничто так не поразило меня в жизни, как этот памятник древнерусского зодчества».",
+                  "en": "They say the French composer Hector Berlioz, after visiting Kolomenskoye, declared: 'Nothing in my life has struck me like this monument of old Russian architecture.'"
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь какого события, по преданию, построили церковь Вознесения?",
+                    "en": "According to tradition, what event was the Church of the Ascension built to celebrate?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Рождения будущего Ивана Грозного",
+                      "Взятия Казани",
+                      "Победы над Наполеоном"
+                    ],
+                    "en": [
+                      "The birth of the future Ivan the Terrible",
+                      "The capture of Kazan",
+                      "The victory over Napoleon"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Василий III долго ждал наследника и, по преданию, построил храм в благодарность за рождение сына.",
+                    "en": "Vasily III waited long for an heir and, tradition says, built the church in thanksgiving for his son."
+                  }
+                },
+                "approach": {
+                  "ru": "От метро «Коломенская» около 15 минут пешком через парк.",
+                  "en": "About 15 minutes' walk through the park from Kolomenskaya metro station."
+                }
+              }
+            },
+            {
+              "id": "moscow-golosov",
+              "title": {"ru": "Голосов овраг", "en": "Golosov Ravine"},
+              "coordinate": [55.6655, 37.6745],
+              "category": "nature",
+              "visit": 30,
+              "details": {
+                "ru": "Глубокий овраг с ручьём и огромными валунами — Девичьим и Гусь-камнем, вокруг которых сложилось множество легенд о загадочных туманах и исчезновениях.",
+                "en": "A deep ravine with a stream and huge boulders — the Maiden Stone and the Goose Stone — surrounded by legends of mysterious fogs and disappearances."
+              },
+              "wiki": {"ru": "Голосов овраг"},
+              "guide": {
+                "story": {
+                  "ru": "Голосов овраг прорезает высокий берег Москвы-реки в Коломенском. По дну бежит ручей, бьют родники, а на склоне лежат огромные валуны, принесённые ледником, — Девичий камень и Гусь-камень. Когда-то здесь, как считают, было языческое святилище.\n\nДевичьему камню приписывают силу исполнять желания, и на нём часто лежат монетки и ленточки. А сам овраг окутан легендами о зелёном тумане, в котором будто бы можно потеряться во времени.\n\nДаже если не верить в чудеса, это одно из самых живописных мест Москвы: кажется, что вы далеко от большого города.",
+                  "en": "The Golosov ravine cuts through the high bank of the Moskva River at Kolomenskoye. A stream runs along the bottom, springs bubble up, and on the slope lie huge glacial boulders — the Maiden Stone and the Goose Stone. A pagan sanctuary is believed to have stood here once.\n\nThe Maiden Stone is said to grant wishes, and coins and ribbons are often left on it. The ravine itself is wrapped in legends of a green fog in which you can supposedly get lost in time.\n\nEven if you don't believe in miracles, it is one of the most picturesque spots in Moscow — it feels far from the big city."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Девичий камень с монетками",
+                    "Ручей и родники на дне оврага",
+                    "Мостики через ручей"
+                  ],
+                  "en": [
+                    "The Maiden Stone with coins on it",
+                    "The stream and springs at the bottom",
+                    "The footbridges over the stream"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Валуны в овраге принесены ледником.",
+                    "Голосов овраг прорезает высокий берег Москвы-реки."
+                  ],
+                  "en": [
+                    "The boulders in the ravine were brought by a glacier.",
+                    "The Golosov ravine cuts through the high bank of the Moskva River."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, однажды двое крестьян, возвращаясь домой через овраг, попали в зелёный туман и вышли из него через двадцать лет, уверенные, что прошло лишь несколько часов.",
+                  "en": "They say two peasants walking home through the ravine were caught in a green fog and came out twenty years later, convinced only a few hours had passed."
+                },
+                "approach": {
+                  "ru": "Пара минут вниз от церкви Вознесения.",
+                  "en": "A couple of minutes down from the Church of the Ascension."
+                }
+              }
+            },
+            {
+              "id": "moscow-alexei-palace",
+              "title": {"ru": "Дворец Алексея Михайловича", "en": "Tsar Alexei's Palace"},
+              "coordinate": [55.6697, 37.6615],
+              "category": "palace",
+              "visit": 60,
+              "details": {
+                "ru": "Огромный деревянный дворец царя Алексея Михайловича — «восьмое чудо света» XVII века, воссозданный в 2010 году по старинным обмерам: десятки теремов с кровлями-бочками и расписные палаты.",
+                "en": "Tsar Alexei Mikhailovich's huge wooden palace — a 17th-century 'eighth wonder of the world', rebuilt in 2010 from old measurements: dozens of towers with barrel roofs and painted chambers."
+              },
+              "wiki": {"ru": "Дворец Алексея Михайловича в Коломенском"},
+              "guide": {
+                "story": {
+                  "ru": "В 1667–1672 годах царь Алексей Михайлович построил в Коломенском деревянный дворец, поражавший современников: около 270 комнат, разноцветные кровли-бочки и шатры, резные наличники. Иностранцы называли его восьмым чудом света. В 1768 году обветшавший дворец разобрали по приказу Екатерины II, но успели сделать обмеры и модель.\n\nПо ним в 2010 году дворец воссоздали в натуральную величину неподалёку от прежнего места. Внутри — царские и царицыны покои, расписанные цветами и библейскими сюжетами, изразцовые печи и мебель XVII века.\n\nЗдесь бывал в детстве и будущий Пётр I, сын Алексея Михайловича.",
+                  "en": "In 1667–1672 Tsar Alexei Mikhailovich built a wooden palace at Kolomenskoye that amazed his contemporaries: some 270 rooms, colourful barrel and tent roofs and carved window frames. Foreigners called it the eighth wonder of the world. In 1768 the dilapidated palace was dismantled on Catherine the Great's orders, but measurements and a model were made first.\n\nFrom them the palace was rebuilt full size in 2010, not far from the original site. Inside are the tsar's and tsaritsa's apartments painted with flowers and Bible scenes, tiled stoves and 17th-century furniture.\n\nThe future Peter the Great, Alexei Mikhailovich's son, came here as a child."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Кровли-«бочки» и шатры над теремами",
+                    "Расписные потолки царских покоев",
+                    "Изразцовые печи"
+                  ],
+                  "en": [
+                    "The barrel and tent roofs over the towers",
+                    "The painted ceilings of the royal apartments",
+                    "The tiled stoves"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Оригинальный дворец разобрали в 1768 году, а в 2010-м воссоздали по обмерам.",
+                    "Во дворце было около 270 комнат."
+                  ],
+                  "en": [
+                    "The original palace was dismantled in 1768 and rebuilt from measurements in 2010.",
+                    "The palace had some 270 rooms."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как иностранцы называли деревянный дворец в Коломенском?",
+                    "en": "What did foreigners call the wooden palace at Kolomenskoye?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Восьмым чудом света",
+                      "Северным Версалем",
+                      "Деревянной Венецией"
+                    ],
+                    "en": [
+                      "The eighth wonder of the world",
+                      "The northern Versailles",
+                      "Wooden Venice"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Огромный дворец с сотнями комнат и пёстрыми кровлями поражал всех, кто его видел.",
+                    "en": "The huge palace with hundreds of rooms and colourful roofs amazed everyone who saw it."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15–20 минут пешком через парк на запад.",
+                  "en": "About 15–20 minutes' walk west through the park."
+                }
+              }
+            },
+            {
+              "id": "moscow-tsaritsyno",
+              "title": {"ru": "Царицыно", "en": "Tsaritsyno"},
+              "coordinate": [55.6152, 37.6829],
+              "category": "palace",
+              "visit": 90,
+              "details": {
+                "ru": "Усадьба Екатерины II с «готическим» Большим дворцом, который достроили лишь в 2007 году, мостами, павильонами, каскадом прудов и поющим фонтаном.",
+                "en": "Catherine the Great's estate with its 'Gothic' Grand Palace, completed only in 2007, bridges, pavilions, a chain of ponds and a singing fountain."
+              },
+              "wiki": {"ru": "Царицыно (музей-заповедник)", "en": "Tsaritsyno Palace"},
+              "arrival": {
+                "mode": "metro",
+                "note": {
+                  "ru": "От «Каширской» две станции по зелёной линии до «Царицына»",
+                  "en": "From Kashirskaya two stops on the green line to Tsaritsyno"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1775 году Екатерина II купила подмосковное имение Чёрная Грязь и переименовала его в Царицыно. Строить дворец поручили Василию Баженову: он создал необычный ансамбль в «готическом» стиле из красного кирпича и белого камня. Но в 1785 году императрица, осмотрев почти готовый дворец, велела его снести.\n\nНовый Большой дворец строил Матвей Казаков, но после смерти Екатерины работы остановились, и почти двести лет дворец стоял без крыши. Его достроили только в 2007 году.\n\nСегодня Царицыно — один из самых красивых парков Москвы: фигурные мосты, павильоны, каскад прудов и поющий фонтан, где струи танцуют под музыку.",
+                  "en": "In 1775 Catherine the Great bought the estate of Chyornaya Gryaz near Moscow and renamed it Tsaritsyno. She commissioned Vasily Bazhenov to build a palace, and he created an unusual 'Gothic' ensemble of red brick and white stone. But in 1785, after inspecting the almost finished palace, the empress ordered it pulled down.\n\nThe new Grand Palace was built by Matvei Kazakov, but after Catherine's death work stopped, and for almost two hundred years the palace stood without a roof. It was completed only in 2007.\n\nToday Tsaritsyno is one of Moscow's loveliest parks: ornamental bridges, pavilions, a chain of ponds and a singing fountain whose jets dance to music."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Большой дворец из красного кирпича с белыми деталями",
+                    "Фигурный мост через овраг",
+                    "Поющий фонтан на пруду"
+                  ],
+                  "en": [
+                    "The red-brick Grand Palace with white details",
+                    "The ornamental bridge over the ravine",
+                    "The singing fountain on the pond"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Екатерина II купила имение в 1775 году.",
+                    "Большой дворец достроили только в 2007 году."
+                  ],
+                  "en": [
+                    "Catherine the Great bought the estate in 1775.",
+                    "The Grand Palace was completed only in 2007."
+                  ]
+                },
+                "legend": {
+                  "ru": "Почему Екатерина велела снести дворец Баженова, спорят до сих пор. Говорят, ей не понравились тесные покои, по другой версии — она увидела в узорах масонские символы, а по третьей — была недовольна, что дворец задуман на две равные половины, для неё и для нелюбимого сына Павла.",
+                  "en": "People still argue why Catherine had Bazhenov's palace pulled down. Some say she disliked the cramped rooms, others that she saw Masonic symbols in its ornament, and others that she objected to its two equal halves — for herself and for her unloved son Paul."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько лет Большой дворец в Царицыне стоял недостроенным?",
+                    "en": "For how long did the Grand Palace at Tsaritsyno stand unfinished?"
+                  },
+                  "options": {
+                    "ru": ["Около двухсот лет", "Десять лет", "Пятьдесят лет"],
+                    "en": ["About two hundred years", "Ten years", "Fifty years"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Работы остановились в конце XVIII века, а закончили дворец только в 2007 году.",
+                    "en": "Work stopped at the end of the 18th century, and the palace was completed only in 2007."
+                  }
+                },
+                "approach": {
+                  "ru": "От «Царицына» около 10 минут пешком через парк к дворцу.",
+                  "en": "About 10 minutes' walk through the park from Tsaritsyno station to the palace."
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
