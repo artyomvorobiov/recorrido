@@ -136,7 +136,7 @@
             {
               "id": "kazan-tatar-sloboda",
               "title": {"ru": "Старо-Татарская слобода", "en": "Old Tatar Quarter"},
-              "coordinate": [55.7838, 49.114],
+              "coordinate": [55.78056, 49.11667],
               "category": "district",
               "visit": 45,
               "details": {
@@ -274,7 +274,7 @@
             {
               "id": "kazan-bauman",
               "title": {"ru": "Улица Баумана", "en": "Bauman Street"},
-              "coordinate": [55.7902, 49.1138],
+              "coordinate": [55.78778, 49.12083],
               "category": "street",
               "visit": 40,
               "details": {

@@ -120,8 +120,8 @@
         "en": "The Ipatiev Monastery and the open-air museum of wooden architecture, then the fan-shaped centre: Susanin Square with its fire tower, the trading rows, the church on the Debra with its legend of English gold and Ostrovsky's gazebo above the Volga."
       },
       "intro": {
-        "ru": "Сначала — Ипатьевский монастырь и музей деревянного зодчества рядом (2–3 часа), затем 10 минут на автобусе или такси в центр: площадь-веер, каланча, Торговые ряды, церковь на Дебре и беседка Островского над Волгой. В центре всё пешком, около 3 км.",
-        "en": "First the Ipatiev Monastery and the museum of wooden architecture next to it (2–3 hours), then 10 minutes by bus or taxi to the centre: the fan-shaped square, the fire tower, the trading rows, the church on the Debra and Ostrovsky's gazebo above the Volga. Everything in the centre is walkable, about 3 km."
+        "ru": "Сначала — Ипатьевский монастырь и музей деревянного зодчества рядом (2–3 часа), затем 10 минут на автобусе или такси в центр: площадь-веер, каланча, Торговые ряды, церковь на Дебре и беседка Островского над Волгой. В центре всё пешком, около 4 км.",
+        "en": "First the Ipatiev Monastery and the museum of wooden architecture next to it (2–3 hours), then 10 minutes by bus or taxi to the centre: the fan-shaped square, the fire tower, the trading rows, the church on the Debra and Ostrovsky's gazebo above the Volga. Everything in the centre is walkable, about 4 km."
       },
       "emoji": "🧀",
       "tags": ["walk"],
@@ -131,7 +131,7 @@
             {
               "id": "kostroma-ipatiev",
               "title": {"ru": "Ипатьевский монастырь", "en": "Ipatiev Monastery"},
-              "coordinate": [57.7781, 40.887],
+              "coordinate": [57.77722, 40.89417],
               "category": "church",
               "visit": 90,
               "details": {
@@ -206,7 +206,7 @@
             {
               "id": "kostroma-sloboda",
               "title": {"ru": "Музей «Костромская слобода»", "en": "Kostromskaya Sloboda Museum"},
-              "coordinate": [57.7795, 40.881],
+              "coordinate": [57.77644, 40.8901],
               "category": "museum",
               "visit": 75,
               "details": {
@@ -462,7 +462,7 @@
             {
               "id": "kostroma-debra",
               "title": {"ru": "Церковь Воскресения на Дебре", "en": "Church of the Resurrection on the Debra"},
-              "coordinate": [57.7638, 40.9368],
+              "coordinate": [57.75556, 40.94861],
               "category": "church",
               "visit": 25,
               "details": {
@@ -525,8 +525,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 10 минут пешком на восток от Торговых рядов, ближе к Волге.",
-                  "en": "About 10 minutes' walk east of the trading rows, towards the Volga."
+                  "ru": "Около 20 минут пешком на юго-восток от Торговых рядов, ближе к Волге.",
+                  "en": "About 20 minutes' walk south-east of the trading rows, towards the Volga."
                 }
               }
             },
@@ -540,7 +540,6 @@
                 "ru": "Белая беседка-ротонда на высоком берегу Волги, где, по преданию, любил бывать драматург Александр Островский. Отсюда открывается один из лучших видов на реку.",
                 "en": "A white rotunda on the high bank of the Volga where, tradition says, the playwright Alexander Ostrovsky liked to sit. It offers one of the best views of the river."
               },
-              "wiki": {"ru": "Беседка Островского"},
               "guide": {
                 "story": {
                   "ru": "Беседку на высоком волжском берегу горожане называют беседкой Островского: драматург часто бывал в Костроме и, по преданию, любил сидеть здесь, глядя на реку. Говорят, эти виды вдохновили его на «Грозу», где героиня бросается с волжского обрыва.\n\nКостромские берега стали декорацией и для кино: здесь Эльдар Рязанов снимал «Жестокий романс» по пьесе Островского «Бесприданница».\n\nС беседки видно широкую Волгу, мост и заволжские дали. Это лучшее место, чтобы закончить прогулку, — особенно на закате.",
@@ -588,8 +587,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Спуститесь от центра к Волге — около 7–10 минут пешком.",
-                  "en": "Walk down from the centre to the Volga — about 7–10 minutes."
+                  "ru": "Вернитесь вдоль Волги на запад — около 20 минут пешком.",
+                  "en": "Walk back west along the Volga — about 20 minutes."
                 }
               }
             }

@@ -375,7 +375,7 @@
             {
               "id": "novgorod-spas-ilyina",
               "title": {"ru": "Церковь Спаса на Ильине улице", "en": "Church of the Saviour on Ilyina Street"},
-              "coordinate": [58.5174, 31.2892],
+              "coordinate": [58.51694, 31.29694],
               "category": "church",
               "visit": 30,
               "details": {
@@ -444,7 +444,7 @@
                 "ru": "Музей деревянного зодчества под открытым небом: шатровые церкви, часовни, избы и мельница со всей Новгородской области, а самым старым храмам больше четырёхсот лет.",
                 "en": "An open-air museum of wooden architecture: tent-roofed churches, chapels, houses and a mill from all over the Novgorod region, the oldest churches over four hundred years old."
               },
-              "wiki": {"ru": "Витославлицы", "en": "Vitoslavlitsy"},
+              "wiki": {"ru": "Витославлицы"},
               "arrival": {
                 "mode": "car",
                 "note": {

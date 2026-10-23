@@ -320,7 +320,7 @@
             {
               "id": "yaroslavl-music-time",
               "title": {"ru": "Музей «Музыка и время»", "en": "Music and Time Museum"},
-              "coordinate": [57.6235, 39.8995],
+              "coordinate": [57.63032, 39.89494],
               "category": "museum",
               "visit": 60,
               "details": {
@@ -379,15 +379,15 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 5 минут вдоль набережной в сторону Стрелки.",
-                  "en": "About 5 minutes along the embankment towards the Strelka."
+                  "ru": "Пара минут по набережной от Губернаторского дома.",
+                  "en": "A couple of minutes along the embankment from the Governor's House."
                 }
               }
             },
             {
               "id": "yaroslavl-strelka",
               "title": {"ru": "Стрелка и Успенский собор", "en": "The Strelka and Dormition Cathedral"},
-              "coordinate": [57.62, 39.8965],
+              "coordinate": [57.62195, 39.90295],
               "category": "park",
               "visit": 40,
               "details": {
@@ -442,15 +442,15 @@
                   }
                 },
                 "approach": {
-                  "ru": "От музея около 5–7 минут по набережной к мысу.",
-                  "en": "About 5–7 minutes from the museum along the embankment to the cape."
+                  "ru": "От музея около 15 минут вдоль набережной на юг, к мысу.",
+                  "en": "About 15 minutes south along the embankment to the cape."
                 }
               }
             },
             {
               "id": "yaroslavl-korovniki",
               "title": {"ru": "Храмы в Коровниках", "en": "The Korovniki Churches"},
-              "coordinate": [57.611, 39.899],
+              "coordinate": [57.61158, 39.90596],
               "category": "church",
               "visit": 30,
               "details": {
@@ -465,8 +465,8 @@
               "arrival": {
                 "mode": "walk",
                 "note": {
-                  "ru": "Около 2,5 км через мост на Московском проспекте — 35 минут пешком или такси",
-                  "en": "About 2.5 km via the bridge on Moskovsky Avenue — 35 minutes on foot or a taxi"
+                  "ru": "Около 3 км через мост на Московском проспекте — 40 минут пешком или такси",
+                  "en": "About 3 km via the bridge on Moskovsky Avenue — 40 minutes on foot or a taxi"
                 }
               },
               "guide": {
@@ -520,8 +520,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Через Которосль по мосту на Московском проспекте — около 2,5 км.",
-                  "en": "Across the Kotorosl by the bridge on Moskovsky Avenue — about 2.5 km."
+                  "ru": "Через Которосль по мосту на Московском проспекте — около 3 км.",
+                  "en": "Across the Kotorosl by the bridge on Moskovsky Avenue — about 3 km."
                 }
               }
             }

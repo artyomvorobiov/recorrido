@@ -193,7 +193,7 @@
             {
               "id": "vladimir-assumption",
               "title": {"ru": "Успенский собор", "en": "Dormition Cathedral"},
-              "coordinate": [56.12697, 40.41047],
+              "coordinate": [56.1289, 40.4086],
               "category": "church",
               "visit": 40,
               "details": {
@@ -252,7 +252,7 @@
             {
               "id": "vladimir-dmitrievsky",
               "title": {"ru": "Дмитриевский собор", "en": "Cathedral of St Demetrius"},
-              "coordinate": [56.1272, 40.4127],
+              "coordinate": [56.12925, 40.41094],
               "category": "church",
               "visit": 25,
               "details": {
@@ -311,7 +311,7 @@
             {
               "id": "vladimir-klyazma-view",
               "title": {"ru": "Смотровая над Клязьмой", "en": "Klyazma Viewpoint"},
-              "coordinate": [56.1263, 40.4098],
+              "coordinate": [56.128, 40.409],
               "category": "viewpoint",
               "visit": 15,
               "details": {

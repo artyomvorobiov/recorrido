@@ -195,7 +195,7 @@
             {
               "id": "tula-weapons",
               "title": {"ru": "Музей оружия", "en": "Weapons Museum"},
-              "coordinate": [54.1979, 37.624],
+              "coordinate": [54.19511, 37.62117],
               "category": "museum",
               "visit": 90,
               "details": {
@@ -375,7 +375,7 @@
             {
               "id": "tula-yasnaya-polyana",
               "title": {"ru": "Ясная Поляна", "en": "Yasnaya Polyana"},
-              "coordinate": [54.073, 37.525],
+              "coordinate": [54.0762, 37.52629],
               "category": "palace",
               "visit": 150,
               "details": {
