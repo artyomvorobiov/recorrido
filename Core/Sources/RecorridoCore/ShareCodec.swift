@@ -158,6 +158,11 @@ struct SharedRoute: Codable {
         /// Arrival mode and note.
         var am: String?
         var an: String?
+        /// Catalog stop id: the receiver's app brings back the full guide.
+        var r: String?
+        /// The author's own story and things to look for (stops not from the catalog).
+        var st: String?
+        var lf: [String]?
     }
 
     init(_ route: Route, detail: ShareCodec.Detail) {
@@ -181,6 +186,10 @@ struct SharedRoute: Codable {
                 if let arrival = stop.arrival, arrival.mode != .walk || arrival.note != nil {
                     shared.am = arrival.mode.rawValue
                 }
+                shared.r = stop.ref
+                // Catalog guides are long and every app already has them; only
+                // the author's own stories travel inside the link.
+                let ownGuide = stop.ref == nil ? stop.guide : nil
                 switch detail {
                 case .full:
                     shared.d = stop.details.nilIfEmpty
@@ -188,9 +197,12 @@ struct SharedRoute: Codable {
                     shared.ad = stop.address?.nilIfEmpty
                     shared.i = stop.imageURL?.absoluteString
                     shared.an = stop.arrival?.note?.nilIfEmpty
+                    shared.st = ownGuide?.story.nilIfEmpty
+                    shared.lf = ownGuide.flatMap { $0.lookFor.isEmpty ? nil : $0.lookFor }
                 case .compact:
                     shared.d = stop.details.truncated(to: 160).nilIfEmpty
                     shared.an = stop.arrival?.note?.truncated(to: 80).nilIfEmpty
+                    shared.st = ownGuide?.story.truncated(to: 280).nilIfEmpty
                 case .minimal:
                     break
                 }
@@ -218,6 +230,10 @@ struct SharedRoute: Codable {
                     } else if let note = stop.an {
                         arrival = Arrival(mode: .walk, note: note)
                     }
+                    var guide: StopGuide?
+                    if stop.st != nil || stop.lf != nil {
+                        guide = StopGuide(story: stop.st ?? "", lookFor: stop.lf ?? [])
+                    }
                     return Stop(
                         title: stop.n,
                         coordinate: Coordinate(stop.y, stop.x),
@@ -229,7 +245,9 @@ struct SharedRoute: Codable {
                         wikiTitle: stop.w,
                         wikiLanguage: stop.wl,
                         imageURL: stop.i.flatMap(URL.init(string:)),
-                        arrival: arrival
+                        arrival: arrival,
+                        guide: guide,
+                        ref: stop.r
                     )
                 })
             },

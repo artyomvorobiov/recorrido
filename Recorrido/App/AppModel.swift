@@ -3,7 +3,7 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 enum AppTab: Hashable {
-    case explore, library, passport
+    case explore, library, community, passport
 }
 
 /// A route someone sent us, waiting for "Save".
@@ -34,6 +34,7 @@ final class AppModel {
     let library: LibraryStore
     let trip: TripController
     let media = WikiMedia()
+    let community = Community()
     @ObservationIgnored let directions = DirectionsService()
 
     init() {
@@ -54,7 +55,7 @@ final class AppModel {
     // MARK: - Routes
 
     func route(id: String) -> Route? {
-        library.route(id: id) ?? catalog.route(id: id)
+        library.route(id: id).map(catalog.enrich) ?? catalog.route(id: id)
     }
 
     /// The freshest version of a route (it may have been edited).
@@ -90,6 +91,29 @@ final class AppModel {
 
     func savedCatalogRoutes() -> [Route] {
         library.savedRouteIDs.compactMap { catalog.route(id: $0) }
+    }
+
+    /// Feed routes without the ones the user reported or whose authors they hid.
+    func visibleCommunityRoutes(_ routes: [CommunityRoute]) -> [CommunityRoute] {
+        let blocked = library.blockedAuthors
+        let hidden = library.hiddenRecords
+        return routes.filter { route in
+            !hidden.contains(route.id) && !(route.authorID.map { blocked.contains($0) } ?? false)
+        }
+    }
+
+    // MARK: - Guide
+
+    /// Quizzes answered right, out of all answered.
+    var quizScore: (right: Int, answered: Int) {
+        var right = 0
+        let answers = library.progress.answers
+        for (key, option) in answers {
+            if let quiz = catalog.stop(ref: key)?.guide?.quiz ?? library.quiz(forKey: key), quiz.answer == option {
+                right += 1
+            }
+        }
+        return (right, answers.count)
     }
 
     func city(for route: Route) -> City? {
@@ -130,7 +154,7 @@ final class AppModel {
         }
         guard let payload = ShareCodec.payload(in: url) else { return }
         do {
-            importRequest = ImportRequest(route: try ShareCodec.route(fromPayload: payload))
+            importRequest = ImportRequest(route: catalog.enrich(try ShareCodec.route(fromPayload: payload)))
         } catch {
             alertMessage = String(localized: "This link doesn't contain a route. Maybe it was cut off — ask for the link again.")
         }
@@ -149,7 +173,7 @@ final class AppModel {
         defer { if scoped { url.stopAccessingSecurityScopedResource() } }
         do {
             let route = try RouteFile.read(from: url)
-            importRequest = ImportRequest(route: route)
+            importRequest = ImportRequest(route: catalog.enrich(route))
         } catch {
             alertMessage = String(localized: "This file can't be opened as a route.")
         }
@@ -166,6 +190,7 @@ final class AppModel {
     }
 
     func didBecomeActive() {
+        Task { await community.refreshAccount() }
         trip.reloadFromDisk()
         library.reloadVisits()
         if trip.arrivedStopID != nil, trip.active != nil {

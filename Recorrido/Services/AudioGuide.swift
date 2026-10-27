@@ -62,14 +62,24 @@ final class AudioGuide: NSObject, AVSpeechSynthesizerDelegate {
         finish()
     }
 
-    /// The text read for a stop: its name, story and tip.
+    /// The text read for a stop: its name, the guide's story (or the short
+    /// description), the legend and the tip.
     static func script(for stop: Stop) -> String {
         var parts = [stop.title]
-        if !stop.details.isEmpty { parts.append(stop.details) }
+        let story = stop.fullStory
+        if !story.isEmpty { parts.append(story.replacingOccurrences(of: "\n\n", with: " ")) }
+        if let legend = stop.guide?.legend, !legend.isEmpty {
+            parts.append(String(localized: "Legend has it: \(legend)"))
+        }
         if let tip = stop.tip, !tip.isEmpty {
             parts.append(String(localized: "Tip: \(tip)"))
         }
-        return parts.joined(separator: ". ")
+        // A pause after every part, without doubling the full stops.
+        return parts.map { part in
+            let text = part.trimmingCharacters(in: .whitespacesAndNewlines)
+            return [".", "!", "?", "…", "»", "\""].contains { text.hasSuffix($0) } ? text : text + "."
+        }
+        .joined(separator: " ")
     }
 
     static func voice(for language: String) -> AVSpeechSynthesisVoice? {

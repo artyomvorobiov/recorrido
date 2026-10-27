@@ -1,0 +1,367 @@
+{
+  "city": {
+    "id": "staraya-ladoga",
+    "name": {"ru": "Старая Ладога", "en": "Staraya Ladoga"},
+    "region": {"ru": "Ленинградская область", "en": "Leningrad Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Село на Волхове, которое называют первой столицей Руси: археологи датируют первые постройки 753 годом. Каменная крепость, церковь Святого Георгия с фресками XII века, курган, который зовут могилой Вещего Олега, и монастыри на высоком берегу.",
+      "en": "A village on the Volkhov called the first capital of Rus: archaeologists date its first buildings to 753. A stone fortress, the Church of St George with 12th-century frescoes, a burial mound known as the grave of Oleg the Seer and monasteries on the high bank."
+    },
+    "gettingThere": {
+      "ru": "Из Петербурга около 125 км — 2 часа на машине. Можно доехать на электричке до Волхова и оттуда около 15 км на автобусе или такси.",
+      "en": "About 125 km from St Petersburg — 2 hours by car. Or take a local train to Volkhov and then a bus or taxi for about 15 km."
+    },
+    "coordinate": [59.9952, 32.298],
+    "emoji": "⚔️",
+    "size": "small",
+    "tags": ["north-west"],
+    "wiki": {"ru": "Старая Ладога", "en": "Staraya Ladoga"},
+    "guide": {
+      "story": {
+        "ru": "Ладога — одно из древнейших поселений Руси: годичные кольца брёвен из самых ранних построек датируют их 753 годом. Здесь проходил великий путь «из варяг в греки»: от Ладожского озера по Волхову купцы и воины шли к Новгороду и дальше на юг, к Киеву и Константинополю.\n\nИпатьевская летопись говорит, что призванный на княжение Рюрик сначала сел именно в Ладоге, — поэтому её и называют первой столицей Руси. По преданию, здесь же правил и умер Вещий Олег.\n\nВ 1114 году посадник Павел построил в Ладоге одну из первых каменных крепостей Руси. В 1704 году Пётр I основал у устья Волхова Новую Ладогу, и древний город стал Старой Ладогой — тихим селом с крепостью, храмами XII века и курганами на берегу реки.",
+        "en": "Ladoga is one of the oldest settlements of Rus: the tree rings of logs from its earliest buildings date them to 753. The great route 'from the Varangians to the Greeks' passed through here: from Lake Ladoga up the Volkhov, merchants and warriors travelled to Novgorod and on south to Kyiv and Constantinople.\n\nThe Hypatian Chronicle says that Rurik, invited to rule, first settled in Ladoga — which is why it is called the first capital of Rus. Tradition says Oleg the Seer also ruled and died here.\n\nIn 1114 the governor Pavel built one of the first stone fortresses of Rus at Ladoga. In 1704 Peter the Great founded New Ladoga at the mouth of the Volkhov, and the ancient town became Staraya Ladoga — a quiet village with a fortress, 12th-century churches and burial mounds along the river."
+      },
+      "history": [
+        {
+          "year": "753",
+          "text": {
+            "ru": "Годичные кольца брёвен датируют первые постройки Ладоги.",
+            "en": "Tree rings date Ladoga's first buildings."
+          }
+        },
+        {
+          "year": "862",
+          "text": {
+            "ru": "По Ипатьевской летописи, Рюрик садится княжить в Ладоге.",
+            "en": "According to the Hypatian Chronicle, Rurik settles in Ladoga to rule."
+          }
+        },
+        {
+          "year": "1114",
+          "text": {
+            "ru": "Посадник Павел строит каменную крепость.",
+            "en": "The governor Pavel builds a stone fortress."
+          }
+        },
+        {
+          "year": "XII век",
+          "text": {
+            "ru": "Строятся церкви Святого Георгия и Успения с фресками.",
+            "en": "The churches of St George and the Dormition are built and painted."
+          }
+        },
+        {
+          "year": "1704",
+          "text": {
+            "ru": "Пётр I основывает Новую Ладогу; древний город становится Старой Ладогой.",
+            "en": "Peter the Great founds New Ladoga; the ancient town becomes Staraya Ladoga."
+          }
+        },
+        {
+          "year": "2003",
+          "text": {
+            "ru": "Старая Ладога отмечает 1250-летие.",
+            "en": "Staraya Ladoga celebrates its 1,250th anniversary."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Рыбу из Волхова и Ладожского озера — судака, леща, сига",
+          "Пироги с рыбой",
+          "Чай с травами — летом их продают местные жители"
+        ],
+        "en": [
+          "Fish from the Volkhov and Lake Ladoga — pike-perch, bream, whitefish",
+          "Fish pies",
+          "Herbal tea — locals sell the herbs in summer"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Копии древних украшений и бусин из раскопок",
+          "Изделия из дерева и бересты",
+          "Книги об истории Ладоги"
+        ],
+        "en": [
+          "Copies of ancient jewellery and beads from the excavations",
+          "Wooden and birch-bark crafts",
+          "Books about Ladoga's history"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Тропа вдоль Волхова соединяет монастыри, крепость и курганы — пройдите её пешком",
+          "Церковь Святого Георгия открыта не всегда — уточните время работы музея-заповедника",
+          "Кафе в Старой Ладоге немного — возьмите с собой воду и перекус"
+        ],
+        "en": [
+          "A path along the Volkhov links the monasteries, the fortress and the mounds — walk it",
+          "The Church of St George is not always open — check the museum's hours",
+          "There are few cafés in Staraya Ladoga — bring water and a snack"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "staraya-ladoga-walk",
+      "title": {"ru": "Старая Ладога: первая столица Руси", "en": "Staraya Ladoga: the first capital of Rus"},
+      "summary": {
+        "ru": "Прогулка по высокому берегу Волхова: Никольский монастырь, каменная крепость с музеем, церковь Святого Георгия с фресками XII века и курган, который называют могилой Вещего Олега.",
+        "en": "A walk along the high bank of the Volkhov: the St Nicholas Monastery, the stone fortress and its museum, the Church of St George with 12th-century frescoes and the mound known as the grave of Oleg the Seer."
+      },
+      "intro": {
+        "ru": "Пешая прогулка около 4 км с юга на север вдоль Волхова. На крепость с музеем и церковью заложите полтора часа; от неё тропа ведёт по берегу к курганам.",
+        "en": "A walk of about 4 km from south to north along the Volkhov. Allow an hour and a half for the fortress, its museum and the church; from there a path runs along the bank to the mounds."
+      },
+      "emoji": "⚔️",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "ladoga-nikolsky",
+              "title": {"ru": "Никольский монастырь", "en": "St Nicholas Monastery"},
+              "coordinate": [59.992, 32.3014],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Монастырь на высоком берегу Волхова к югу от крепости, по преданию основанный в память о победе Александра Невского над шведами. Белые храмы и колокольня над рекой.",
+                "en": "A monastery on the high bank of the Volkhov south of the fortress, traditionally said to have been founded to commemorate Alexander Nevsky's victory over the Swedes. White churches and a bell tower above the river."
+              },
+              "wiki": {"ru": "Староладожский Никольский монастырь"},
+              "guide": {
+                "story": {
+                  "ru": "Никольский монастырь, по преданию, основан в 1240 году в честь победы Александра Невского над шведами на Неве. Его храмы стоят на высоком берегу Волхова, и с реки обитель видна издалека.\n\nМонастырь пережил войны и закрытие, а в советское время здесь размещались мастерские и жильё. Сегодня он снова действующий, и его белые стены и колокольня — одна из самых красивых картин Ладоги.\n\nОтсюда начинается прогулка вдоль Волхова к крепости — одна из лучших в Старой Ладоге.",
+                  "en": "Tradition says the St Nicholas Monastery was founded in 1240 to mark Alexander Nevsky's victory over the Swedes on the Neva. Its churches stand on the high bank of the Volkhov, and the monastery can be seen far along the river.\n\nIt survived wars and closure, and in Soviet times housed workshops and flats. Today it is active again, and its white walls and bell tower are one of Ladoga's loveliest sights.\n\nFrom here starts the walk along the Volkhov to the fortress — one of the best in Staraya Ladoga."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Колокольню над Волховом",
+                    "Вид на реку с монастырского холма",
+                    "Крепость вдали, на севере"
+                  ],
+                  "en": [
+                    "The bell tower above the Volkhov",
+                    "The view of the river from the monastery hill",
+                    "The fortress in the distance to the north"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "По преданию, монастырь основан в 1240 году в честь победы на Неве.",
+                    "Монастырь стоит на высоком берегу Волхова к югу от крепости."
+                  ],
+                  "en": [
+                    "Tradition says the monastery was founded in 1240 to celebrate the victory on the Neva.",
+                    "The monastery stands on the high bank of the Volkhov south of the fortress."
+                  ]
+                },
+                "approach": {
+                  "ru": "Монастырь — в южной части села, на берегу Волхова.",
+                  "en": "The monastery is in the southern part of the village, on the Volkhov."
+                }
+              }
+            },
+            {
+              "id": "ladoga-fortress",
+              "title": {"ru": "Староладожская крепость", "en": "Staraya Ladoga Fortress"},
+              "coordinate": [59.9975, 32.29778],
+              "category": "castle",
+              "visit": 60,
+              "details": {
+                "ru": "Каменная крепость у впадения Ладожки в Волхов: первые каменные стены построены в 1114 году, нынешние башни — XVI века. Внутри — музей с находками археологов и церковь Святого Георгия.",
+                "en": "A stone fortress where the Ladozhka flows into the Volkhov: the first stone walls were built in 1114, the present towers in the 16th century. Inside are a museum of archaeological finds and the Church of St George."
+              },
+              "wiki": {"ru": "Староладожская крепость"},
+              "guide": {
+                "story": {
+                  "ru": "Крепость стоит на мысу, где речка Ладожка впадает в Волхов. Первые каменные стены здесь поставил в 1114 году посадник Павел — это одна из первых каменных крепостей Руси. Стены не раз перестраивали, и нынешние башни относятся к XVI веку, когда Ладога защищала север от шведов.\n\nВнутри — музей с находками археологов: бусы, украшения, инструменты, вещи скандинавских, арабских и византийских мастеров, которые попадали сюда по пути «из варяг в греки». Здесь же — маленькая церковь Святого Георгия XII века.\n\nСо стен открывается вид на широкий Волхов — ту самую реку, по которой плыли варяжские ладьи.",
+                  "en": "The fortress stands on a cape where the little Ladozhka flows into the Volkhov. The first stone walls were raised here in 1114 by the governor Pavel — one of the first stone fortresses of Rus. The walls were rebuilt many times, and the present towers date from the 16th century, when Ladoga guarded the North against the Swedes.\n\nInside is a museum of archaeological finds: beads, jewellery, tools and objects made by Scandinavian, Arab and Byzantine craftsmen that came here along the route 'from the Varangians to the Greeks'. The small 12th-century Church of St George is here too.\n\nFrom the walls you look out over the broad Volkhov — the very river the Viking boats sailed."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башни XVI века над Волховом",
+                    "Находки с пути «из варяг в греки» в музее",
+                    "Вид на Волхов со стены"
+                  ],
+                  "en": [
+                    "The 16th-century towers above the Volkhov",
+                    "The finds from the route 'from the Varangians to the Greeks' in the museum",
+                    "The view of the Volkhov from the wall"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Первые каменные стены крепости построены в 1114 году.",
+                    "Через Ладогу проходил путь «из варяг в греки»."
+                  ],
+                  "en": [
+                    "The fortress's first stone walls were built in 1114.",
+                    "The route 'from the Varangians to the Greeks' passed through Ladoga."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как назывался торговый путь, проходивший через Ладогу?",
+                    "en": "What was the trade route through Ladoga called?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Из варяг в греки»",
+                      "Великий шёлковый путь",
+                      "Янтарный путь"
+                    ],
+                    "en": [
+                      "'From the Varangians to the Greeks'",
+                      "The Great Silk Road",
+                      "The Amber Road"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Путь вёл из Скандинавии через Ладогу, Волхов и Днепр в Константинополь.",
+                    "en": "The route led from Scandinavia via Ladoga, the Volkhov and the Dnieper to Constantinople."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 минут пешком на север вдоль Волхова.",
+                  "en": "About 20 minutes' walk north along the Volkhov."
+                }
+              }
+            },
+            {
+              "id": "ladoga-st-george",
+              "title": {"ru": "Церковь Святого Георгия", "en": "Church of St George"},
+              "coordinate": [59.9973, 32.2983],
+              "category": "church",
+              "visit": 20,
+              "details": {
+                "ru": "Маленький храм XII века внутри крепости с фрагментами древних фресок — среди них знаменитое «Чудо Георгия о змие».",
+                "en": "A small 12th-century church inside the fortress with fragments of ancient frescoes, among them the famous 'Miracle of St George and the Dragon'."
+              },
+              "wiki": {"ru": "Георгиевская церковь (Старая Ладога)"},
+              "guide": {
+                "story": {
+                  "ru": "Церковь Святого Георгия построена в XII веке — как считают историки, в честь победы ладожан над шведами в 1164 году. Храм совсем невелик, но его фрески принадлежат к лучшим образцам домонгольской живописи.\n\nНа одной из стен — «Чудо Георгия о змие»: святой воин на коне поражает змея копьём. В куполе и на сводах сохранились лики святых и ангелов.\n\nФрески дошли до нас фрагментами, и в храм пускают ненадолго, чтобы не нарушать влажность. Но даже этих фрагментов хватает, чтобы почувствовать, каким ярким был древний храм.",
+                  "en": "The Church of St George was built in the 12th century — historians believe to celebrate the people of Ladoga's victory over the Swedes in 1164. It is tiny, but its frescoes are among the finest examples of pre-Mongol painting.\n\nOne wall shows the 'Miracle of St George and the Dragon': the warrior saint on horseback spears the serpent. The faces of saints and angels survive in the dome and vaults.\n\nThe frescoes survive only in fragments, and visits are kept short to protect the humidity. But even the fragments show how vivid the old church once was."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Фреску «Чудо Георгия о змие»",
+                    "Лики святых в куполе",
+                    "Узкие древние окна"
+                  ],
+                  "en": [
+                    "The fresco of St George and the Dragon",
+                    "The saints' faces in the dome",
+                    "The narrow ancient windows"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь построена в XII веке.",
+                    "Её фрески — одни из немногих сохранившихся росписей домонгольской Руси."
+                  ],
+                  "en": [
+                    "The church was built in the 12th century.",
+                    "Its frescoes are among the few surviving paintings of pre-Mongol Rus."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кого побеждает святой Георгий на знаменитой фреске?",
+                    "en": "What does St George defeat in the famous fresco?"
+                  },
+                  "options": {"ru": ["Змея", "Льва", "Медведя"], "en": ["A serpent", "A lion", "A bear"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Чудо Георгия о змие» — любимый сюжет древнерусских мастеров: святой воин спасает город от чудовища.",
+                    "en": "The Miracle of St George and the Dragon was a favourite subject: the warrior saint saves a city from the monster."
+                  }
+                },
+                "approach": {
+                  "ru": "Церковь — внутри крепости, в нескольких шагах от музея.",
+                  "en": "The church is inside the fortress, a few steps from the museum."
+                }
+              }
+            },
+            {
+              "id": "ladoga-oleg-mound",
+              "title": {"ru": "Олегова могила", "en": "Oleg's Grave"},
+              "coordinate": [60.01192, 32.30137],
+              "category": "monument",
+              "visit": 30,
+              "details": {
+                "ru": "Огромный курган на высоком берегу Волхова, который предание называет могилой князя Олега Вещего. Отсюда — один из лучших видов на реку.",
+                "en": "A huge burial mound on the high bank of the Volkhov that tradition calls the grave of Prince Oleg the Seer. It offers one of the best views of the river."
+              },
+              "wiki": {"ru": "Олегова могила"},
+              "guide": {
+                "story": {
+                  "ru": "Вдоль Волхова у Старой Ладоги тянутся сопки — высокие погребальные курганы. Самую большую из них местные жители издавна называют Олеговой могилой.\n\nВещий Олег — родственник Рюрика, объединивший Новгород и Киев и ходивший походом на Царьград. Одна летопись говорит, что его похоронили в Киеве, а Новгородская — что могила его в Ладоге.\n\nИсторики не знают, кто на самом деле лежит в кургане, но место действует сильно: высокий берег, широкий Волхов и тишина.",
+                  "en": "Along the Volkhov near Staraya Ladoga rise sopki — tall burial mounds. Locals have long called the largest of them Oleg's Grave.\n\nOleg the Seer, Rurik's kinsman, united Novgorod and Kyiv and led a campaign against Constantinople. One chronicle says he was buried in Kyiv, but the Novgorod chronicle says his grave is in Ladoga.\n\nHistorians do not know who really lies in the mound, but the place is powerful: the high bank, the broad Volkhov and the silence."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Самый высокий курган над Волховом",
+                    "Другие сопки вдоль берега",
+                    "Изгиб Волхова с вершины"
+                  ],
+                  "en": [
+                    "The tallest mound above the Volkhov",
+                    "The other mounds along the bank",
+                    "The bend of the Volkhov from the top"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Сопки у Старой Ладоги — древние погребальные курганы.",
+                    "Новгородская летопись пишет, что могила Олега находится в Ладоге."
+                  ],
+                  "en": [
+                    "The sopki near Staraya Ladoga are ancient burial mounds.",
+                    "The Novgorod chronicle says Oleg's grave is in Ladoga."
+                  ]
+                },
+                "legend": {
+                  "ru": "Волхвы предсказали Олегу смерть от любимого коня. Князь отослал коня, а через годы, узнав, что тот умер, пришёл посмеяться над его костями — и из черепа выползла змея, ужалившая Олега. Эту историю пересказал Пушкин в «Песни о вещем Олеге».",
+                  "en": "Soothsayers foretold that Oleg would die because of his beloved horse. The prince sent the horse away, and years later, hearing it had died, came to mock its bones — and a snake crawled out of the skull and bit him. Pushkin retold the story in his 'Song of Oleg the Seer'."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "От чего, по летописи, умер Вещий Олег?",
+                    "en": "According to the chronicle, how did Oleg the Seer die?"
+                  },
+                  "options": {
+                    "ru": [
+                      "От укуса змеи из черепа коня",
+                      "В бою с греками",
+                      "От болезни"
+                    ],
+                    "en": [
+                      "From a snake bite from his horse's skull",
+                      "In battle with the Greeks",
+                      "From illness"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Предсказание волхвов сбылось: смерть пришла от любимого коня, хотя и через змею.",
+                    "en": "The soothsayers' prophecy came true: death came through his beloved horse, by way of a snake."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20–25 минут пешком на север вдоль Волхова от крепости.",
+                  "en": "About 20–25 minutes' walk north along the Volkhov from the fortress."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

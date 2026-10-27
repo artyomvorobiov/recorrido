@@ -16,15 +16,122 @@
     "emoji": "🪆",
     "size": "small",
     "tags": ["golden-ring", "near-moscow"],
-    "wiki": {"ru": "Сергиев Посад", "en": "Sergiyev Posad"}
+    "wiki": {"ru": "Сергиев Посад", "en": "Sergiyev Posad"},
+    "guide": {
+      "story": {
+        "ru": "Сергиев Посад вырос вокруг монастыря. Около 1337 года молодой инок Сергий и его брат Стефан поставили в глухом лесу на холме Маковец келью и деревянную церковь Троицы. Брат вскоре ушёл, а Сергий остался — и к нему потянулись ученики. Так появилась Троице-Сергиева лавра, на века ставшая духовным сердцем России.\n\nВокруг обители селились ремесленники и торговцы: они кормили паломников и делали для них сувениры — резные игрушки, ложки, образки. В конце XVIII века слободы объединили в Сергиевский посад, городом Сергиевом он стал в 1919 году, с 1930 по 1991 год назывался Загорском, а потом вернул себе историческое имя.\n\nЗдешние кустари славились игрушкой, и неудивительно, что именно здесь на рубеже XIX и XX веков наладили выпуск матрёшек. Сегодня Сергиев Посад — это лавра, музей игрушки, тихие улицы с деревянными домами и леса вокруг, где прячутся скиты и родники.",
+        "en": "Sergiev Posad grew up around a monastery. Around 1337 a young monk, Sergius, and his brother Stefan built a cell and a wooden Trinity church in the deep forest on Makovets Hill. His brother soon left, but Sergius stayed — and disciples came to him. That is how the Trinity Lavra of St Sergius began, for centuries the spiritual heart of Russia.\n\nCraftsmen and traders settled around the monastery: they fed the pilgrims and made souvenirs for them — carved toys, spoons, little icons. At the end of the 18th century the settlements were merged into the Sergievsky Posad, it became the town of Sergiev in 1919, was called Zagorsk from 1930 to 1991, and then got its historic name back.\n\nThe local craftsmen were famous for their toys, so it is no surprise that matryoshka dolls went into production here at the turn of the 20th century. Today Sergiev Posad means the Lavra, the toy museum, quiet streets of wooden houses and the forests around, where sketes and springs hide."
+      },
+      "history": [
+        {
+          "year": "ок. 1337",
+          "text": {
+            "ru": "Сергий Радонежский основывает пустынь на холме Маковец.",
+            "en": "Sergius of Radonezh founds a hermitage on Makovets Hill."
+          }
+        },
+        {
+          "year": "1380",
+          "text": {
+            "ru": "По преданию, Сергий благословляет Дмитрия Донского перед Куликовской битвой.",
+            "en": "According to tradition, Sergius blesses Dmitry Donskoy before the Battle of Kulikovo."
+          }
+        },
+        {
+          "year": "1422–1423",
+          "text": {
+            "ru": "Над мощами Сергия строят белокаменный Троицкий собор.",
+            "en": "The white-stone Trinity Cathedral is built over Sergius's relics."
+          }
+        },
+        {
+          "year": "1608–1610",
+          "text": {
+            "ru": "Монастырь шестнадцать месяцев выдерживает осаду польско-литовского войска.",
+            "en": "The monastery withstands a sixteen-month siege by a Polish-Lithuanian army."
+          }
+        },
+        {
+          "year": "1744",
+          "text": {
+            "ru": "Монастырь получает почётный статус лавры.",
+            "en": "The monastery receives the honorary status of a lavra."
+          }
+        },
+        {
+          "year": "1919",
+          "text": {
+            "ru": "Посад становится городом Сергиевом; в 1930 году его переименуют в Загорск.",
+            "en": "The posad becomes the town of Sergiev; in 1930 it is renamed Zagorsk."
+          }
+        },
+        {
+          "year": "1991",
+          "text": {
+            "ru": "Городу возвращают имя Сергиев Посад.",
+            "en": "The town gets back the name Sergiev Posad."
+          }
+        },
+        {
+          "year": "1993",
+          "text": {
+            "ru": "Ансамбль лавры включён в список Всемирного наследия ЮНЕСКО.",
+            "en": "The Lavra ensemble is inscribed on the UNESCO World Heritage List."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Монастырскую выпечку — пирожки с капустой, грибами и рыбой",
+          "Блины — в память о Блинной горе, где их пекли для паломников",
+          "Сбитень — горячий медовый напиток с пряностями"
+        ],
+        "en": [
+          "Monastery pastries — pies with cabbage, mushrooms and fish",
+          "Pancakes, in memory of Pancake Hill, where they were baked for pilgrims",
+          "Sbiten, a hot honey drink with spices"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Матрёшку — Сергиев Посад считается её родиной",
+          "Богородскую резную игрушку — например, «Кузнецов» с мужиком и медведем у наковальни",
+          "Деревянные ложки и расписные шкатулки"
+        ],
+        "en": [
+          "A matryoshka — Sergiev Posad is considered its home",
+          "A carved Bogorodskoye toy, such as the Blacksmiths — a peasant and a bear at an anvil",
+          "Wooden spoons and painted boxes"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Лавра — действующий монастырь: вход свободный, но нужна закрытая одежда, а женщинам — платок и юбка",
+          "Электрички с Ярославского вокзала Москвы идут около полутора часов, экспрессы — быстрее",
+          "Приезжайте с утра: к полудню в лавру подъезжают экскурсионные автобусы"
+        ],
+        "en": [
+          "The Lavra is a working monastery: entry is free, but cover your shoulders and knees, and women need a headscarf and a skirt",
+          "Suburban trains from Moscow's Yaroslavsky station take about an hour and a half, express trains are faster",
+          "Come early: by midday the tour buses arrive at the Lavra"
+        ]
+      }
+    }
   },
   "routes": [
     {
       "id": "sergiev-posad-day",
-      "title": {"ru": "Сергиев Посад: лавра и родина матрёшки", "en": "Sergiev Posad: the Lavra and the home of the matryoshka"},
+      "title": {
+        "ru": "Сергиев Посад: лавра и родина матрёшки",
+        "en": "Sergiev Posad: the Lavra and the home of the matryoshka"
+      },
       "summary": {
         "ru": "Полдня в Троице-Сергиевой лавре, классический вид с Блинной горы и музей игрушки, а затем — на машине к Черниговскому скиту и к водопадам Гремячего ключа.",
         "en": "Half a day in the Trinity Lavra, the classic view from Blinnaya Hill and the toy museum, then a drive to the Chernigov Skete and the Gremyachy spring waterfalls."
+      },
+      "intro": {
+        "ru": "День делится на две части. Утром — пешком: лавра (2–3 часа), Блинная гора и музей игрушки, всё в пределах пары километров. После обеда — на машине или такси к Черниговскому скиту (около 10 минут) и к роднику Гремячий ключ (около получаса). Возьмите удобную обувь: к роднику ведёт крутая лестница.",
+        "en": "The day has two halves. In the morning, on foot: the Lavra (2–3 hours), Pancake Hill and the toy museum, all within a couple of kilometres. In the afternoon, by car or taxi to the Chernigov Skete (about 10 minutes) and the Gremyachy Klyuch springs (about half an hour). Wear comfortable shoes: a steep staircase leads down to the springs."
       },
       "emoji": "🪆",
       "tags": ["walk", "car"],
@@ -34,7 +141,7 @@
             {
               "id": "sergiev-lavra",
               "title": {"ru": "Троице-Сергиева лавра", "en": "Trinity Lavra of St Sergius"},
-              "coordinate": [56.31080, 38.13000],
+              "coordinate": [56.3108, 38.13],
               "category": "church",
               "visit": 150,
               "details": {
@@ -45,17 +152,104 @@
                 "ru": "Лавра — действующий монастырь: женщинам нужен платок и юбка, мужчинам — без шорт и головных уборов в храмах.",
                 "en": "The Lavra is an active monastery: women should wear a headscarf and a skirt, men no shorts and no hats in the churches."
               },
-              "wiki": {"ru": "Троице-Сергиева лавра", "en": "Trinity Lavra of St. Sergius"}
+              "wiki": {"ru": "Троице-Сергиева лавра", "en": "Trinity Lavra of St. Sergius"},
+              "guide": {
+                "story": {
+                  "ru": "Около 1337 года юноша Варфоломей, сын обедневшего ростовского боярина, ушёл с братом Стефаном в глухой лес на холм Маковец и поставил там келью и деревянную церковь Троицы. Брат не выдержал суровой жизни, а Варфоломей, принявший постриг с именем Сергий, остался. К нему стали приходить ученики, и пустынь превратилась в монастырь, а затем — в главную обитель России.\n\nСергий мирил враждующих князей, а перед Куликовской битвой, по преданию, благословил Дмитрия Донского и отпустил с ним двух иноков-воинов — Пересвета и Ослябю. В Смутное время монастырь шестнадцать месяцев держал осаду польско-литовского войска и так и не сдался.\n\nЗа стенами — пять веков русской архитектуры: белокаменный Троицкий собор 1422–1423 годов над мощами Сергия, Успенский собор времён Ивана Грозного с синими куполами в золотых звёздах, нарядная Трапезная палата, Надкладезная часовня над источником и колокольня высотой 88 метров — выше колокольни Ивана Великого в Кремле.",
+                  "en": "Around 1337 a young man called Bartholomew, son of an impoverished Rostov boyar, went with his brother Stefan into the deep forest on Makovets Hill and built a cell and a wooden Trinity church. His brother could not bear the harsh life, but Bartholomew, who took monastic vows as Sergius, stayed. Disciples began to come, and the hermitage grew into a monastery and then into Russia's foremost one.\n\nSergius reconciled feuding princes, and before the Battle of Kulikovo, tradition says, he blessed Dmitry Donskoy and sent two warrior-monks, Peresvet and Oslyabya, with him. In the Time of Troubles the monastery withstood a sixteen-month siege by a Polish-Lithuanian army and never surrendered.\n\nInside the walls are five centuries of Russian architecture: the white-stone Trinity Cathedral of 1422–1423 above Sergius's relics, the Dormition Cathedral from Ivan the Terrible's time with blue domes scattered with golden stars, the ornate Refectory, the Chapel over the Well and an 88-metre bell tower — taller than the Ivan the Great Bell Tower in the Kremlin."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Золотые звёзды на синих куполах Успенского собора",
+                    "Усыпальницу Бориса Годунова у стены Успенского собора",
+                    "Надкладезную часовню — к ней приходят за водой",
+                    "Утку на шпиле Уточьей башни"
+                  ],
+                  "en": [
+                    "The golden stars on the blue domes of the Dormition Cathedral",
+                    "Boris Godunov's family tomb by the wall of the Dormition Cathedral",
+                    "The Chapel over the Well, where people come for water",
+                    "The duck on the spire of the Duck Tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокольня лавры высотой 88 метров выше колокольни Ивана Великого в Московском Кремле.",
+                    "В лавре похоронены царь Борис Годунов и его семья.",
+                    "С 1814 года в лавре находится Московская духовная академия."
+                  ],
+                  "en": [
+                    "The Lavra's 88-metre bell tower is taller than the Ivan the Great Bell Tower in the Moscow Kremlin.",
+                    "Tsar Boris Godunov and his family are buried in the Lavra.",
+                    "The Moscow Theological Academy has been based in the Lavra since 1814."
+                  ]
+                },
+                "legend": {
+                  "ru": "Уточья башня получила имя от фигуры утки на шпиле. Говорят, юный Пётр I, не раз укрывавшийся в лавре от стрельцов, охотился на уток на здешних прудах, и в память об этом башню увенчали уткой.",
+                  "en": "The Duck Tower is named after the duck on its spire. They say the young Peter I, who more than once took refuge in the Lavra from the streltsy, hunted ducks on the nearby ponds, and the tower was crowned with a duck in memory of it."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько длилась осада лавры в Смутное время?",
+                    "en": "How long did the siege of the Lavra last in the Time of Troubles?"
+                  },
+                  "options": {
+                    "ru": ["Шестнадцать месяцев", "Три недели", "Пять лет"],
+                    "en": ["Sixteen months", "Three weeks", "Five years"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "С осени 1608 по январь 1610 года войско Сапеги и Лисовского стояло под стенами, но взять монастырь так и не смогло.",
+                    "en": "From autumn 1608 to January 1610 the army of Sapieha and Lisowski stood under the walls but never took the monastery."
+                  }
+                },
+                "approach": {
+                  "ru": "От железнодорожного вокзала до Святых ворот лавры — около 15 минут пешком по проспекту Красной Армии.",
+                  "en": "From the railway station to the Holy Gates of the Lavra is about a 15-minute walk along Krasnoy Armii Avenue."
+                }
+              }
             },
             {
               "id": "sergiev-blinnaya",
               "title": {"ru": "Смотровая на Блинной горе", "en": "Blinnaya Hill viewpoint"},
-              "coordinate": [56.30860, 38.12350],
+              "coordinate": [56.30734, 38.135],
               "category": "viewpoint",
               "visit": 15,
               "details": {
                 "ru": "Та самая открытка: стены, купола и колокольня лавры над оврагом и прудами. Лучший свет — утром и на закате.",
                 "en": "The picture-postcard view: the walls, domes and bell tower of the Lavra above a ravine and ponds. The light is best in the morning and at sunset."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Блинная гора — холм по другую сторону оврага от лавры. Отсюда монастырь виден целиком: могучие стены с башнями, синие и золотые купола, высокая колокольня. Именно этот вид чаще всего печатают на открытках и обложках путеводителей.\n\nНазвание, как рассказывают, осталось от старых времён: здесь стояли блинные, где паломники подкреплялись знаменитыми троицкими блинами. Позже на склоне шумела барахолка, а сегодня это тихая площадка со скамейками.\n\nЛучший свет — утром и ближе к закату, когда белые стены лавры становятся тёплыми, почти розовыми. Наверху часто дует сильный ветер — держите телефон крепче.",
+                  "en": "Blinnaya Gora — Pancake Hill — rises on the other side of the ravine from the Lavra. From here you see the whole monastery at once: the mighty walls and towers, blue and gold domes and the tall bell tower. This is the view printed most often on postcards and guidebook covers.\n\nThe name, people say, comes from the old days, when pancake houses stood here and pilgrims fortified themselves with the famous Trinity pancakes. Later a flea market bustled on the slope; today it is a quiet spot with benches.\n\nThe best light is in the morning and towards sunset, when the Lavra's white walls turn warm, almost pink. It is often windy at the top — hold on to your phone."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Колокольню — самую высокую точку панорамы",
+                    "Синие купола Успенского собора среди золотых",
+                    "Башни на углах крепостной стены"
+                  ],
+                  "en": [
+                    "The bell tower, the highest point of the panorama",
+                    "The blue domes of the Dormition Cathedral among the golden ones",
+                    "The towers at the corners of the fortress wall"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокольню лавры строили почти тридцать лет — с 1741 по 1770 год.",
+                    "У Успенского собора пять куполов: центральный золотой, а четыре синих усыпаны золотыми звёздами."
+                  ],
+                  "en": [
+                    "The Lavra's bell tower took almost thirty years to build, from 1741 to 1770.",
+                    "The Dormition Cathedral has five domes: the central one is gold, and four blue ones are scattered with golden stars."
+                  ]
+                },
+                "approach": {
+                  "ru": "Минут 10 пешком от лавры — холм лежит по ту сторону оврага.",
+                  "en": "About 10 minutes' walk from the Lavra — the hill lies on the other side of the ravine."
+                }
               }
             },
             {
@@ -68,7 +262,58 @@
                 "ru": "Один из старейших музеев игрушки в мире, основанный в 1918 году художником Николаем Бартрамом. Тут хранятся первые матрёшки, богородские деревянные игрушки, старинные куклы и солдатики.",
                 "en": "One of the oldest toy museums in the world, founded in 1918 by the artist Nikolai Bartram. It keeps some of the first matryoshkas, wooden toys from nearby Bogorodskoye, antique dolls and toy soldiers."
               },
-              "wiki": {"ru": "Музей игрушки (Сергиев Посад)"}
+              "wiki": {"ru": "Музей игрушки (Сергиев Посад)"},
+              "guide": {
+                "story": {
+                  "ru": "Музей игрушки основал в 1918 году в Москве художник и коллекционер Николай Бартрам. Он считал игрушку настоящим искусством и учебником для детей, и его музей был одним из самых посещаемых в Москве. В начале 1930-х коллекцию перевезли сюда — в город игрушечных мастеров.\n\nЗдесь собраны игрушки за много веков: глиняные свистульки, богородские деревянные фигурки, куклы в старинных платьях, оловянные солдатики, кукольные дома. Но главная звезда — первая русская матрёшка. Её выточил токарь Василий Звёздочкин, а расписал, как считается, художник Сергей Малютин: девочка в сарафане держит чёрного петуха, а внутри прячутся ещё семь фигурок.\n\nМатрёшку придумали в Москве, в мастерской «Детское воспитание» семьи Мамонтовых, а массово делать стали именно в Сергиевом Посаде. В 1900 году она получила медаль на Всемирной выставке в Париже и с тех пор стала одним из символов России.",
+                  "en": "The toy museum was founded in Moscow in 1918 by the artist and collector Nikolai Bartram. He saw toys as real art and as a textbook for children, and his museum was one of the most visited in Moscow. In the early 1930s the collection moved here, to the town of toy makers.\n\nThere are toys from many centuries: clay whistles, carved Bogorodskoye figures, dolls in old-fashioned dresses, tin soldiers, doll's houses. But the star is the first Russian matryoshka. It was turned by the woodworker Vasily Zvyozdochkin and painted, it is believed, by the artist Sergei Malyutin: a girl in a sarafan holds a black rooster, and seven more figures hide inside.\n\nThe matryoshka was invented in Moscow, in the Mamontov family's Children's Education workshop, but mass production started in Sergiev Posad. In 1900 it won a medal at the World's Fair in Paris and has been one of Russia's symbols ever since."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Первую матрёшку — девочку с чёрным петухом",
+                    "Богородских «Кузнецов» — мужика и медведя у наковальни",
+                    "Оловянных солдатиков и кукольные дома"
+                  ],
+                  "en": [
+                    "The first matryoshka — the girl with a black rooster",
+                    "The Bogorodskoye Blacksmiths — a peasant and a bear at an anvil",
+                    "Tin soldiers and doll's houses"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Первая матрёшка — восьмиместная: девочки и мальчики по очереди, а в самой маленькой — младенец в пелёнках.",
+                    "Имя «матрёшка» — от Матрёны, одного из самых распространённых в старину деревенских имён."
+                  ],
+                  "en": [
+                    "The first matryoshka has eight pieces: girls and boys in turn, and the smallest is a swaddled baby.",
+                    "The name comes from Matryona, one of the most common village names in the old days."
+                  ]
+                },
+                "legend": {
+                  "ru": "По одной из версий, идею матрёшки подсказала японская фигурка мудреца Фукурумы, внутри которой пряталась вся его семья. Её будто бы привезли с японского острова Хонсю в подмосковную усадьбу Абрамцево.",
+                  "en": "One story says the idea came from a Japanese figure of the sage Fukuruma, with his whole family hidden inside. It was supposedly brought from the Japanese island of Honshu to the Abramtsevo estate near Moscow."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что держит в руках первая русская матрёшка?",
+                    "en": "What does the first Russian matryoshka hold?"
+                  },
+                  "options": {
+                    "ru": ["Чёрного петуха", "Самовар", "Каравай"],
+                    "en": ["A black rooster", "A samovar", "A loaf of bread"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Девочка в сарафане с чёрным петухом — внутри неё ещё семь фигурок, а самая маленькая — младенец.",
+                    "en": "A girl in a sarafan with a black rooster — seven more figures inside, the smallest a baby."
+                  }
+                },
+                "approach": {
+                  "ru": "Спуститесь к проспекту Красной Армии — до музея около 10 минут пешком.",
+                  "en": "Go down to Krasnoy Armii Avenue — the museum is about a 10-minute walk."
+                }
+              }
             },
             {
               "id": "sergiev-chernigov",
@@ -83,13 +328,71 @@
               "wiki": {"ru": "Гефсиманский Черниговский скит"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 4 км — 10 минут на машине или такси", "en": "About 4 km — 10 minutes by car or taxi"}
+                "note": {
+                  "ru": "Около 4 км — 10 минут на машине или такси",
+                  "en": "About 4 km — 10 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Черниговский скит появился в середине XIX века рядом с Гефсиманским скитом лавры. Начало ему, по преданию, положил юродивый Филиппушка: подражая монахам Киево-Печерской лавры, он стал копать в склоне пещеру для молитвы. За ним пришли другие подвижники, и под землёй выросли целые галереи с кельями и пещерными храмами.\n\nВ пещерах поместили список Черниговской иконы Божией Матери. В 1869 году она прославилась исцелениями, и в скит потянулись паломники — отсюда и его имя. Здесь же подвизался старец Варнава Гефсиманский: к нему за советом приходили тысячи людей со всей России.\n\nНад пещерами в 1886–1893 годах поднялся краснокирпичный собор Черниговской иконы, а в 1895 году — пятиярусная колокольня, которую видно издалека. Скит и сегодня действующий, и в нём по-прежнему тихо.",
+                  "en": "The Chernigov Skete appeared in the mid-19th century next to the Lavra's Gethsemane Skete. Tradition says it was started by a holy fool called Filippushka: following the monks of the Kiev Caves, he began digging a cave in the slope to pray in. Other ascetics followed, and whole galleries of cells and cave churches grew underground.\n\nA copy of the Chernigov icon of the Mother of God was placed in the caves. In 1869 it became famous for healings and pilgrims began to come — hence the skete's name. The elder Barnabas of Gethsemane lived here too: thousands of people from all over Russia came to him for advice.\n\nAbove the caves a red-brick cathedral of the Chernigov icon rose in 1886–1893, and in 1895 a five-tier bell tower that can be seen from afar. The skete is still active, and it is still quiet."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Пятиярусную колокольню над деревьями",
+                    "Вход в пещерные храмы",
+                    "Узорную кирпичную кладку собора"
+                  ],
+                  "en": [
+                    "The five-tier bell tower above the trees",
+                    "The entrance to the cave churches",
+                    "The patterned brickwork of the cathedral"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пещеры копали вручную, по образцу Киево-Печерской лавры.",
+                    "Старец Варнава Гефсиманский прославлен в лике святых в 1995 году."
+                  ],
+                  "en": [
+                    "The caves were dug by hand, on the model of the Kiev Caves Lavra.",
+                    "The elder Barnabas of Gethsemane was canonised in 1995."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Откуда у скита название «Черниговский»?",
+                    "en": "Where does the name 'Chernigov Skete' come from?"
+                  },
+                  "options": {
+                    "ru": [
+                      "От Черниговской иконы Божией Матери",
+                      "Его основали монахи из Чернигова",
+                      "Так звали первого настоятеля"
+                    ],
+                    "en": [
+                      "From the Chernigov icon of the Mother of God",
+                      "It was founded by monks from Chernigov",
+                      "It was the first abbot's name"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Список Черниговской иконы в пещерах прославился исцелениями в 1869 году, и скит стали называть по ней.",
+                    "en": "The copy of the Chernigov icon in the caves became famous for healings in 1869, and the skete was named after it."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 4 км на восток от центра — 10 минут на машине или такси.",
+                  "en": "About 4 km east of the centre — 10 minutes by car or taxi."
+                }
               }
             },
             {
               "id": "sergiev-gremyachy",
               "title": {"ru": "Гремячий ключ", "en": "Gremyachy Spring"},
-              "coordinate": [56.41290, 38.25100],
+              "coordinate": [56.26956, 38.34369],
               "category": "nature",
               "visit": 60,
               "details": {
@@ -102,7 +405,69 @@
               },
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 18 км на северо-восток — 25 минут на машине", "en": "About 18 km north-east — 25 minutes by car"}
+                "note": {
+                  "ru": "Около 20 км на восток — 30 минут на машине",
+                  "en": "About 20 km east — 30 minutes by car"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Гремячий ключ — одно из самых красивых мест Подмосковья. Несколько родников выходят из высокого склона лесного оврага и с шумом падают вниз, образуя настоящий водопад, — отсюда и название: «гремячим» в старину называли источник, который бьёт с грохотом.\n\nК водопаду издавна приходят паломники: набирают воду и, несмотря на холод, встают под ледяные струи. Вода здесь холодная круглый год, и у ручья даже в жару свежо.\n\nВниз ведёт деревянная лестница, и спуск — часть приключения: наверху поле и лес, а внизу — шум воды, мокрые камни и ручей, убегающий по оврагу.",
+                  "en": "Gremyachy Klyuch — the Thundering Spring — is one of the loveliest places around Moscow. Several springs burst out of the high side of a forest ravine and fall noisily down, forming a real waterfall — hence the name: in the old days a 'thundering' spring was one that gushed with a roar.\n\nPilgrims have come here for ages: they collect water and, despite the cold, stand under the icy streams. The water is cold all year round, and even on a hot day it is fresh by the stream.\n\nA wooden staircase leads down, and the descent is part of the adventure: fields and forest above, and below — the noise of the water, wet stones and a stream running away along the ravine."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Сколько отдельных струй вы насчитаете на склоне",
+                    "Ручей, в который собирается вода внизу",
+                    "Деревянную лестницу, ведущую в овраг"
+                  ],
+                  "en": [
+                    "How many separate streams you can count on the slope",
+                    "The brook that gathers the water below",
+                    "The wooden staircase leading into the ravine"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Вода в родниках холодная круглый год — даже в жаркий день у ручья прохладно.",
+                    "Слово «гремячий» значит «гремящий»: так называли источники, бьющие с шумом."
+                  ],
+                  "en": [
+                    "The spring water is cold all year round — even on a hot day it is cool by the stream.",
+                    "'Gremyachy' means 'thundering': the word was used for springs that gush noisily."
+                  ]
+                },
+                "legend": {
+                  "ru": "По местному преданию, здесь молился Сергий Радонежский, и по его молитве из склона забили ключи. Поэтому воду Гремячего ключа считают святой и целебной.",
+                  "en": "Local tradition says Sergius of Radonezh prayed here, and at his prayer the springs burst out of the slope. That is why the water of Gremyachy Klyuch is considered holy and healing."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему ключ называют «Гремячим»?",
+                    "en": "Why is the spring called 'Gremyachy'?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Вода падает с шумом",
+                      "Рядом когда-то гремела битва",
+                      "Здесь звонили колокола"
+                    ],
+                    "en": [
+                      "The water falls noisily",
+                      "A battle once thundered nearby",
+                      "Bells used to ring here"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Родники падают со склона водопадом — их шум слышно издалека.",
+                    "en": "The springs fall down the slope as a waterfall — you can hear them from afar."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 км на восток, к реке Вондиге, — минут 30 на машине; после дождей подъезд бывает раскисшим.",
+                  "en": "About 20 km east, to the Vondiga river — around 30 minutes by car; after rain the access road can be muddy."
+                }
               }
             }
           ]

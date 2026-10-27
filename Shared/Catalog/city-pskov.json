@@ -1,0 +1,668 @@
+{
+  "city": {
+    "id": "pskov",
+    "name": {"ru": "Псков", "en": "Pskov"},
+    "region": {"ru": "Псковская область", "en": "Pskov Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город-крепость на слиянии Псковы и Великой: древний Кром с Троицким собором, белёные храмы псковской школы со звонницами-стенками, Поганкины палаты и Мирожский монастырь с фресками XII века. А рядом — Изборск и Псково-Печерский монастырь, который никогда не закрывался.",
+      "en": "A fortress city where the Pskova meets the Velikaya: the ancient Krom with the Trinity Cathedral, whitewashed churches of the Pskov school with wall-belfries, the Pogankin Chambers and the Mirozh Monastery with its 12th-century frescoes. Nearby are Izborsk and the Pskov-Caves Monastery, which never closed."
+    },
+    "gettingThere": {
+      "ru": "Из Петербурга около 290 км — 3,5–4 часа на машине или около 3,5 часа на «Ласточке». Из Москвы удобнее всего ночным поездом.",
+      "en": "About 290 km from St Petersburg — 3.5–4 hours by car or about 3.5 hours on a Lastochka train. From Moscow the night train is the most convenient."
+    },
+    "coordinate": [57.8194, 28.3318],
+    "emoji": "🛡️",
+    "size": "medium",
+    "tags": ["north-west"],
+    "wiki": {"ru": "Псков", "en": "Pskov"},
+    "guide": {
+      "story": {
+        "ru": "Псков впервые упоминается в летописи под 903 годом — в рассказе о княгине Ольге, которая, по преданию, была родом из этих мест. Город вырос на мысу при слиянии рек Псковы и Великой, и почти вся его история — история обороны: Ливонский орден, Литва, Польша и Швеция не раз подходили к его стенам.\n\nВ XIV–XV веках Псков, как и Новгород, был вольным городом со своим вечем, а в 1510 году вошёл в состав Московского государства. Самая знаменитая осада — 1581–1582 годов, когда армия польского короля Стефана Батория пять месяцев штурмовала город и так и не взяла его.\n\nПсков строил по-своему: невысокие белёные храмы с открытыми звонницами-стенками, крытые галереи, приземистые главы. Храмы псковской школы зодчества в 2019 году внесены в список Всемирного наследия ЮНЕСКО.",
+        "en": "Pskov is first mentioned in the chronicles under 903, in the story of Princess Olga, who tradition says came from these parts. The city grew on a cape where the Pskova meets the Velikaya, and nearly all its history is a history of defence: the Livonian Order, Lithuania, Poland and Sweden came to its walls again and again.\n\nIn the 14th and 15th centuries Pskov, like Novgorod, was a free city with its own veche, and in 1510 it became part of Muscovy. Its most famous siege was in 1581–1582, when the army of the Polish king Stephen Báthory assaulted it for five months and never took it.\n\nPskov built in its own way: low whitewashed churches with open wall-belfries, covered galleries and squat domes. The churches of the Pskov school of architecture were inscribed on the UNESCO World Heritage List in 2019."
+      },
+      "history": [
+        {
+          "year": "903",
+          "text": {
+            "ru": "Первое упоминание Пскова в летописи — в рассказе о княгине Ольге.",
+            "en": "Pskov's first mention in the chronicles, in the story of Princess Olga."
+          }
+        },
+        {
+          "year": "1242",
+          "text": {
+            "ru": "Александр Невский освобождает Псков и разбивает рыцарей на Чудском озере.",
+            "en": "Alexander Nevsky frees Pskov and defeats the knights on Lake Peipus."
+          }
+        },
+        {
+          "year": "1348",
+          "text": {
+            "ru": "Новгород признаёт независимость Пскова — начинается Псковская республика.",
+            "en": "Novgorod recognises Pskov's independence — the Pskov republic begins."
+          }
+        },
+        {
+          "year": "1510",
+          "text": {
+            "ru": "Псков входит в состав Московского государства.",
+            "en": "Pskov becomes part of Muscovy."
+          }
+        },
+        {
+          "year": "1581–1582",
+          "text": {
+            "ru": "Город выдерживает пятимесячную осаду армии Стефана Батория.",
+            "en": "The city withstands a five-month siege by Stephen Báthory's army."
+          }
+        },
+        {
+          "year": "1917",
+          "text": {
+            "ru": "В царском поезде на станции Псков Николай II подписывает отречение.",
+            "en": "Nicholas II signs his abdication in the imperial train at Pskov station."
+          }
+        },
+        {
+          "year": "2019",
+          "text": {
+            "ru": "Храмы псковской школы зодчества включены в список ЮНЕСКО.",
+            "en": "The churches of the Pskov school of architecture are inscribed on the UNESCO list."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Снетка — крошечную рыбку из Псковского озера, жареную или сушёную",
+          "Пироги с рыбой и капустой",
+          "Квас и морсы из местных ягод"
+        ],
+        "en": [
+          "Smelt — tiny fish from Lake Pskov, fried or dried",
+          "Pies with fish and cabbage",
+          "Kvass and berry drinks"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Льняные вещи — Псковщина издавна славится льном",
+          "Изделия из бересты и дерева",
+          "Сувениры с Псковским Кромом"
+        ],
+        "en": [
+          "Linen — the Pskov region has long been famous for flax",
+          "Birch-bark and wooden crafts",
+          "Souvenirs with the Pskov Krom"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Обойдите Кром снаружи вдоль реки Великой — так лучше видна мощь стен",
+          "Мирожский монастырь — на другом берегу Великой, туда легко дойти пешком через мост",
+          "На Изборск и Печоры нужен отдельный день и машина: до них около 30 и 50 км"
+        ],
+        "en": [
+          "Walk around the outside of the Krom along the Velikaya — that is where the walls look mightiest",
+          "The Mirozh Monastery is across the Velikaya and easy to reach on foot over the bridge",
+          "Izborsk and Pechory need a separate day and a car: they are about 30 and 50 km away"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "pskov-day",
+      "title": {
+        "ru": "Псков: Кром и храмы псковской школы",
+        "en": "Pskov: the Krom and the churches of the Pskov school"
+      },
+      "summary": {
+        "ru": "Кром с Троицким собором и Довмонтовым городом, Поганкины палаты, храм Василия на Горке со звонницей-стенкой и Мирожский монастырь с фресками XII века за рекой Великой.",
+        "en": "The Krom with the Trinity Cathedral and Dovmont's Town, the Pogankin Chambers, the Church of St Basil on the Hill with its wall-belfry, and the Mirozh Monastery with 12th-century frescoes across the Velikaya."
+      },
+      "intro": {
+        "ru": "Пеший день, около 5 км: начните с Крома (полтора часа), затем спуститесь в центр к Поганкиным палатам и храму Василия на Горке, а в конце перейдите по мосту через Великую к Мирожскому монастырю.",
+        "en": "A day on foot, about 5 km: start at the Krom (an hour and a half), then go down into the centre to the Pogankin Chambers and the Church of St Basil on the Hill, and finally cross the Velikaya to the Mirozh Monastery."
+      },
+      "emoji": "🛡️",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "pskov-krom",
+              "title": {"ru": "Псковский Кром", "en": "Pskov Krom"},
+              "coordinate": [57.8222, 28.3289],
+              "category": "castle",
+              "visit": 60,
+              "details": {
+                "ru": "Кром на высоком мысу при слиянии Псковы и Великой — сердце города. Стена Перси с Великими воротами, угловая башня Кутекрома над рекой, Довмонтов город с фундаментами древних храмов и Троицкий собор над всем этим.",
+                "en": "The Krom on a high cape where the Pskova meets the Velikaya is the heart of the city: the Persi wall with its Great Gate, the Kutekroma corner tower above the river, Dovmont's Town with the foundations of ancient churches, and the Trinity Cathedral above it all."
+              },
+              "wiki": {"ru": "Псковский кремль", "en": "Pskov Krom"},
+              "guide": {
+                "story": {
+                  "ru": "Кромом псковичи называют свой кремль. Он стоит на скалистом мысу, где Пскова впадает в Великую, и с двух сторон защищён водой. С третьей стороны мыс перегораживает Перси — самая мощная стена: «перси» по-древнерусски значит «грудь», и стена действительно принимала на себя удары врагов.\n\nКром был не только крепостью, но и сердцем вольного Пскова: здесь хранили городскую казну и грамоты, у собора собиралось вече. Перед Персями лежит Довмонтов город, названный в честь князя Довмонта, литовца на псковской службе: в XIII–XV веках здесь стояли около двух десятков храмов, от которых остались фундаменты.\n\nПоднимитесь к Кутекроме — угловой башне над Великой: отсюда видно, как встречаются две реки.",
+                  "en": "Pskovians call their kremlin the Krom. It stands on a rocky cape where the Pskova flows into the Velikaya, protected by water on two sides. On the third side the cape is closed by the Persi, the mightiest wall: 'persi' is Old Russian for 'breast', and the wall really did take the enemy's blows.\n\nThe Krom was not only a fortress but the heart of free Pskov: the city treasury and charters were kept here, and the veche gathered by the cathedral. In front of the Persi lies Dovmont's Town, named after Prince Daumantas, a Lithuanian in Pskov's service: in the 13th–15th centuries about twenty churches stood here, and their foundations survive.\n\nClimb to the Kutekroma, the corner tower above the Velikaya: from there you can see the two rivers meet."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Стену Перси с Великими воротами",
+                    "Фундаменты храмов в Довмонтовом городе",
+                    "Башню Кутекрому над Великой"
+                  ],
+                  "en": [
+                    "The Persi wall with the Great Gate",
+                    "The church foundations in Dovmont's Town",
+                    "The Kutekroma tower above the Velikaya"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Перси» по-древнерусски значит «грудь» — так называется самая мощная стена Крома.",
+                    "В Довмонтовом городе археологи нашли фундаменты около двадцати храмов."
+                  ],
+                  "en": [
+                    "'Persi' is Old Russian for 'breast' — the name of the Krom's mightiest wall.",
+                    "Archaeologists found the foundations of about twenty churches in Dovmont's Town."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как псковичи называют свой кремль?",
+                    "en": "What do Pskovians call their kremlin?"
+                  },
+                  "options": {
+                    "ru": ["Кром", "Детинец", "Острог"],
+                    "en": ["The Krom", "The Detinets", "The Ostrog"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В Пскове кремль — Кром, а в соседнем Новгороде — детинец.",
+                    "en": "In Pskov the kremlin is the Krom; in neighbouring Novgorod it is the Detinets."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход в Кром — через Великие ворота в стене Перси.",
+                  "en": "Enter the Krom through the Great Gate in the Persi wall."
+                }
+              }
+            },
+            {
+              "id": "pskov-trinity",
+              "title": {"ru": "Троицкий собор", "en": "Trinity Cathedral"},
+              "coordinate": [57.8221, 28.3284],
+              "category": "church",
+              "visit": 25,
+              "details": {
+                "ru": "Главный храм Пскова на вершине Крома: нынешний собор конца XVII века — уже четвёртый на этом месте. Его золотые купола видны за много километров, а внутри покоятся святые псковские князья.",
+                "en": "Pskov's main church at the top of the Krom: the present cathedral from the late 17th century is the fourth on the site. Its golden domes can be seen for many kilometres, and the holy princes of Pskov rest inside."
+              },
+              "wiki": {"ru": "Троицкий собор (Псков)", "en": "Trinity Cathedral, Pskov"},
+              "guide": {
+                "story": {
+                  "ru": "По преданию, первую деревянную Троицкую церковь на этом месте поставила ещё княгиня Ольга в X веке. Нынешний собор — уже четвёртый: его построили в 1682–1699 годах, и он сразу стал самой высокой постройкой города.\n\nСобор был главной святыней вольного Пскова: здесь хранились городские грамоты и казна, а у его стен собиралось вече. В соборе покоятся псковские князья-святые — Довмонт и Всеволод-Гавриил.\n\nВнутри — высокий многоярусный иконостас. Собор действующий, и его колокольный звон слышен над всем центром.",
+                  "en": "Tradition says the first wooden Trinity church here was built by Princess Olga in the 10th century. The present cathedral is the fourth: it was built in 1682–1699 and at once became the tallest building in the city.\n\nThe cathedral was the chief shrine of free Pskov: the city's charters and treasury were kept here, and the veche gathered by its walls. The holy princes of Pskov — Daumantas and Vsevolod-Gavriil — rest here.\n\nInside is a tall multi-tiered iconostasis. The cathedral is active, and its bells can be heard all over the centre."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Золотые купола над стенами Крома",
+                    "Многоярусный иконостас",
+                    "Раку святого князя Всеволода-Гавриила"
+                  ],
+                  "en": [
+                    "The golden domes above the Krom walls",
+                    "The multi-tiered iconostasis",
+                    "The shrine of the holy Prince Vsevolod-Gavriil"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Нынешний собор — четвёртый на этом месте; он построен в 1682–1699 годах.",
+                    "В соборе покоятся псковские князья-святые Довмонт и Всеволод-Гавриил."
+                  ],
+                  "en": [
+                    "The present cathedral is the fourth on the site; it was built in 1682–1699.",
+                    "The holy princes Daumantas and Vsevolod-Gavriil rest in the cathedral."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что княгиня Ольга, проезжая здесь, увидела на мысу три луча света, сходящихся с неба, и предсказала, что на этом месте будет храм Святой Троицы и великий город.",
+                  "en": "They say Princess Olga, passing this way, saw three rays of light descending from the sky onto the cape and foretold that a church of the Holy Trinity and a great city would stand here."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по легенде, увидела княгиня Ольга на месте будущего собора?",
+                    "en": "According to legend, what did Princess Olga see where the cathedral now stands?"
+                  },
+                  "options": {
+                    "ru": ["Три луча света", "Белого лебедя", "Огненный крест"],
+                    "en": ["Three rays of light", "A white swan", "A fiery cross"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Три луча, сходящихся с неба, стали знаком Святой Троицы — отсюда и посвящение собора.",
+                    "en": "Three rays descending from heaven were a sign of the Holy Trinity — hence the cathedral's dedication."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор — в центре Крома, за стеной Перси.",
+                  "en": "The cathedral is in the middle of the Krom, behind the Persi wall."
+                }
+              }
+            },
+            {
+              "id": "pskov-pogankin",
+              "title": {"ru": "Поганкины палаты", "en": "Pogankin Chambers"},
+              "coordinate": [57.81139, 28.33741],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Каменные палаты богатого купца Сергея Поганкина второй половины XVII века: стены толщиной до двух метров и узкие окна. Сейчас здесь музей — иконы псковской школы, древнее серебро и живопись.",
+                "en": "The stone mansion of the rich merchant Sergei Pogankin from the later 17th century: walls up to two metres thick and narrow windows. Today it is a museum of Pskov-school icons, old silver and paintings."
+              },
+              "wiki": {"ru": "Поганкины палаты"},
+              "guide": {
+                "story": {
+                  "ru": "Поганкины палаты построил в 1670-х годах купец Сергей Поганкин — один из богатейших людей Пскова, торговавший с Европой. Палаты похожи на маленькую крепость: стены толщиной до двух метров, узкие окна и тайники в толще стен, где хранили товары и деньги.\n\nФамилия «Поганкин» звучит неблагозвучно, но в старину «поганый» значило не «плохой», а «языческий, иноземный» — возможно, предки купца имели дело с иностранцами. Сегодня в палатах — Псковский музей-заповедник с иконами псковской школы, церковным серебром и живописью.\n\nОбратите внимание на окна: снаружи узкие, внутри они расширяются, чтобы пропускать больше света, — хитрость строителей XVII века.",
+                  "en": "The Pogankin Chambers were built in the 1670s by the merchant Sergei Pogankin, one of the richest men in Pskov, who traded with Europe. The building is like a small fortress: walls up to two metres thick, narrow windows and hiding places in the walls where goods and money were kept.\n\nThe name Pogankin sounds unpleasant in modern Russian, but in the old days 'pogany' meant not 'nasty' but 'pagan, foreign' — perhaps the merchant's ancestors dealt with foreigners. Today the chambers house the Pskov Museum with Pskov-school icons, church silver and paintings.\n\nLook at the windows: narrow outside, they widen inside to let in more light — a 17th-century builders' trick."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Узкие окна, расширяющиеся внутрь",
+                    "Иконы псковской школы с яркими красками",
+                    "Тайники в толще стен"
+                  ],
+                  "en": [
+                    "The narrow windows that widen inside",
+                    "Pskov-school icons with their bright colours",
+                    "The hiding places in the thick walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Стены палат толщиной до двух метров.",
+                    "Слово «поганый» в старину значило «языческий»."
+                  ],
+                  "en": [
+                    "The walls are up to two metres thick.",
+                    "In old Russian 'pogany' meant 'pagan'."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что в старину значило слово «поганый»?",
+                    "en": "What did the word 'pogany' mean in old Russian?"
+                  },
+                  "options": {
+                    "ru": ["Языческий", "Грязный", "Ядовитый"],
+                    "en": ["Pagan", "Dirty", "Poisonous"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Слово пришло от латинского paganus — «язычник»; отсюда же «поганки» — «нечистые» грибы.",
+                    "en": "It comes from the Latin paganus, 'pagan'; the Russian word for toadstools comes from the same root."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 12–15 минут пешком на юг от Крома.",
+                  "en": "About 12–15 minutes' walk south of the Krom."
+                }
+              }
+            },
+            {
+              "id": "pskov-vasily",
+              "title": {"ru": "Церковь Василия на Горке", "en": "Church of St Basil on the Hill"},
+              "coordinate": [57.8156, 28.337],
+              "category": "church",
+              "visit": 15,
+              "details": {
+                "ru": "Небольшой храм 1413 года с открытой звонницей и крытыми галереями — классический образец псковской школы зодчества из списка ЮНЕСКО. Он стоит на горке, где когда-то проходила крепостная стена.",
+                "en": "A small church of 1413 with an open belfry and covered galleries — a classic example of the UNESCO-listed Pskov school of architecture. It stands on a rise where the city wall once ran."
+              },
+              "wiki": {"ru": "Церковь Василия на Горке (Псков)"},
+              "guide": {
+                "story": {
+                  "ru": "Церковь Василия Великого на Горке построена в 1413 году на холме у бывшей крепостной стены — отсюда и название. Она — классический пример псковской школы: приземистый белёный объём, крытые галереи-паперти, звонница в виде стенки с проёмами для колоколов и маленькая глава.\n\nПсковичи строили из местной известняковой плиты, обмазывали стены известью и белили — поэтому храмы кажутся вылепленными руками. Такие церкви и составили объект ЮНЕСКО «Церкви псковской школы зодчества».\n\nПосмотрите на звонницу: колокола висят не в башне, а в проёмах стенки, и звон отсюда хорошо разносится над улицами.",
+                  "en": "The Church of St Basil the Great on the Hill was built in 1413 on a rise by the old city wall — hence the name. It is a classic example of the Pskov school: a squat whitewashed volume, covered porch galleries, a belfry in the form of a wall with openings for the bells, and a small dome.\n\nPskov builders used local limestone slabs, plastered the walls with lime and whitewashed them, so the churches look as if they were moulded by hand. Churches like this make up the UNESCO site 'Churches of the Pskov School of Architecture'.\n\nLook at the belfry: the bells hang not in a tower but in openings in a wall, and their sound carries well over the streets."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Звонницу-стенку с колоколами",
+                    "Крытые галереи вокруг храма",
+                    "Белёные стены из известняковой плиты"
+                  ],
+                  "en": [
+                    "The wall-belfry with its bells",
+                    "The covered galleries around the church",
+                    "The whitewashed limestone walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Храм построен в 1413 году.",
+                    "Псковская звонница — это стенка с проёмами для колоколов вместо башни."
+                  ],
+                  "en": [
+                    "The church was built in 1413.",
+                    "A Pskov belfry is a wall with openings for bells instead of a tower."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как устроена типичная псковская звонница?",
+                    "en": "What does a typical Pskov belfry look like?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Стенка с проёмами для колоколов",
+                      "Высокая башня со шпилем",
+                      "Деревянный навес"
+                    ],
+                    "en": [
+                      "A wall with openings for bells",
+                      "A tall tower with a spire",
+                      "A wooden canopy"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Колокола висят в арках стенки — так строили только в Пскове и вокруг него.",
+                    "en": "The bells hang in the arches of a wall — a style found only in and around Pskov."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 минут пешком от Поганкиных палат.",
+                  "en": "About 5 minutes' walk from the Pogankin Chambers."
+                }
+              }
+            },
+            {
+              "id": "pskov-mirozh",
+              "title": {"ru": "Мирожский монастырь", "en": "Mirozh Monastery"},
+              "coordinate": [57.8056, 28.3292],
+              "category": "church",
+              "visit": 45,
+              "details": {
+                "ru": "Монастырь XII века на левом берегу Великой. Его Спасо-Преображенский собор хранит фрески 1140-х годов — один из самых полных ансамблей домонгольской живописи в России и часть объекта ЮНЕСКО.",
+                "en": "A 12th-century monastery on the left bank of the Velikaya. Its Transfiguration Cathedral preserves frescoes of the 1140s — one of the most complete ensembles of pre-Mongol painting in Russia and part of the UNESCO site."
+              },
+              "wiki": {"ru": "Мирожский монастырь", "en": "Mirozhsky Monastery"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Около 1,5 км через Ольгинский мост — 20 минут пешком",
+                  "en": "About 1.5 km via the Olginsky Bridge — 20 minutes on foot"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Мирожский монастырь основал около 1140 года новгородский епископ Нифонт. Он стоит на мысу у впадения речки Мирожки в Великую, напротив Крома, и за свою историю не раз оказывался на пути врагов, подходивших к Пскову.\n\nГлавное сокровище — Спасо-Преображенский собор с фресками 1140-х годов. Их писали греческие мастера, и роспись покрывает почти все стены: евангельские сцены, святые, «Успение», «Страшный суд». Это один из самых полных и ранних ансамблей фресок в России.\n\nЧтобы фрески сохранились, в собор обычно пускают небольшими группами и следят за влажностью воздуха.",
+                  "en": "The Mirozh Monastery was founded around 1140 by Bishop Nifont of Novgorod. It stands on a cape where the little Mirozhka flows into the Velikaya, opposite the Krom, and over the centuries it often lay in the path of enemies advancing on Pskov.\n\nIts treasure is the Transfiguration Cathedral with frescoes of the 1140s. They were painted by Greek masters and cover almost all the walls: Gospel scenes, saints, the Dormition and the Last Judgement. It is one of the most complete and earliest fresco ensembles in Russia.\n\nTo protect the frescoes, visitors are usually admitted in small groups and the humidity is carefully watched."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Евангельские сцены на стенах сверху донизу",
+                    "Строгие лики святых XII века",
+                    "Вид на Кром через реку"
+                  ],
+                  "en": [
+                    "The Gospel scenes covering the walls from top to bottom",
+                    "The austere 12th-century faces of the saints",
+                    "The view of the Krom across the river"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Фрески собора написаны в 1140-х годах греческими мастерами.",
+                    "Монастырь основал новгородский епископ Нифонт."
+                  ],
+                  "en": [
+                    "The cathedral frescoes were painted in the 1140s by Greek masters.",
+                    "The monastery was founded by Bishop Nifont of Novgorod."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чем знаменит собор Мирожского монастыря?",
+                    "en": "What is the Mirozh Monastery's cathedral famous for?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Фресками XII века",
+                      "Самой высокой колокольней Пскова",
+                      "Царскими гробницами"
+                    ],
+                    "en": [
+                      "Its 12th-century frescoes",
+                      "Pskov's tallest bell tower",
+                      "Royal tombs"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Фрески 1140-х годов — одна из самых ранних и полных росписей, сохранившихся в России.",
+                    "en": "The frescoes of the 1140s are among the earliest and most complete murals surviving in Russia."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Ольгинский мост на левый берег Великой — около 20 минут.",
+                  "en": "Across the Olginsky Bridge to the left bank of the Velikaya — about 20 minutes."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pskov-izborsk-pechory",
+      "title": {"ru": "Изборск и Печоры", "en": "Izborsk and Pechory"},
+      "summary": {
+        "ru": "Поездка на день к западу от Пскова: древняя Изборская крепость на Жеравьей горе, двенадцать Словенских ключей у её подножия и Псково-Печерский монастырь с «Богом зданными пещерами».",
+        "en": "A day trip west of Pskov: the ancient Izborsk fortress on Zheravya Hill, the twelve Slovenian Springs at its foot and the Pskov-Caves Monastery with its 'God-made caves'."
+      },
+      "intro": {
+        "ru": "Нужна машина: до Изборска около 30 км, от него до Печор ещё 20. В Изборске заложите два часа на крепость и спуск к ключам, в Печорах — полтора часа на монастырь; пещеры показывают с экскурсией.",
+        "en": "You need a car: Izborsk is about 30 km away and Pechory 20 km further. Allow two hours in Izborsk for the fortress and the walk down to the springs, and an hour and a half for the monastery at Pechory; the caves are shown on a guided tour."
+      },
+      "emoji": "⛪",
+      "tags": ["car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "pskov-izborsk",
+              "title": {"ru": "Изборская крепость", "en": "Izborsk Fortress"},
+              "coordinate": [57.7086, 27.8611],
+              "category": "castle",
+              "visit": 75,
+              "details": {
+                "ru": "Одна из древнейших русских крепостей: каменные стены XIV века с башнями на Жеравьей горе. С обрыва — вид на Городищенское озеро и долину Словенских ключей.",
+                "en": "One of the oldest Russian fortresses: 14th-century stone walls and towers on Zheravya Hill. From the edge there is a view of Gorodishchenskoye Lake and the valley of the Slovenian Springs."
+              },
+              "wiki": {"ru": "Изборская крепость"},
+              "guide": {
+                "story": {
+                  "ru": "Изборск упоминается в летописи вместе с Новгородом под 862 годом: здесь, по преданию, сел княжить брат Рюрика Трувор. Сначала город стоял на соседнем Труворовом городище, а в XIV веке крепость перенесли на Жеравью гору и вскоре отстроили в камне.\n\nКрепость множество раз осаждали ливонские рыцари, но взять её удавалось редко, и псковичи называли Изборск «железным городом». Стены сложены из местной известняковой плиты, а башни смотрят во все стороны.\n\nПоднимитесь на башню Луковку — самую древнюю в крепости: с неё видно Городищенское озеро и холмы вокруг.",
+                  "en": "Izborsk is mentioned in the chronicle together with Novgorod under 862: tradition says Rurik's brother Truvor ruled here. At first the town stood on the neighbouring Truvor's Hillfort, and in the 14th century the fortress was moved to Zheravya Hill and soon rebuilt in stone.\n\nLivonian knights besieged it many times but rarely took it, and Pskovians called Izborsk 'the iron town'. The walls are built of local limestone slabs, and the towers look out in every direction.\n\nClimb the Lukovka, the oldest tower in the fortress: from it you can see Gorodishchenskoye Lake and the surrounding hills."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башню Луковку — самую древнюю в крепости",
+                    "Городищенское озеро с крепостных стен",
+                    "Крест Трувора на городище"
+                  ],
+                  "en": [
+                    "The Lukovka tower, the oldest in the fortress",
+                    "Gorodishchenskoye Lake from the walls",
+                    "Truvor's Cross on the hillfort"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "По преданию, в Изборске княжил брат Рюрика Трувор.",
+                    "Псковичи называли Изборск «железным городом»."
+                  ],
+                  "en": [
+                    "Tradition says Rurik's brother Truvor ruled in Izborsk.",
+                    "Pskovians called Izborsk 'the iron town'."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой брат Рюрика, по летописи, княжил в Изборске?",
+                    "en": "Which of Rurik's brothers, according to the chronicle, ruled Izborsk?"
+                  },
+                  "options": {"ru": ["Трувор", "Синеус", "Олег"], "en": ["Truvor", "Sineus", "Oleg"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Трувор сел в Изборске, Синеус — на Белоозере, а Рюрик — в Новгороде.",
+                    "en": "Truvor ruled in Izborsk, Sineus at Beloozero and Rurik in Novgorod."
+                  }
+                },
+                "approach": {
+                  "ru": "Изборск — в 30 км к западу от Пскова, около 40 минут на машине.",
+                  "en": "Izborsk is 30 km west of Pskov, about 40 minutes by car."
+                }
+              }
+            },
+            {
+              "id": "pskov-slovenian-springs",
+              "title": {"ru": "Словенские ключи", "en": "Slovenian Springs"},
+              "coordinate": [57.7085, 27.857],
+              "category": "nature",
+              "visit": 30,
+              "details": {
+                "ru": "Двенадцать родников, которые бьют из известняковой скалы под крепостью и стекают в Городищенское озеро. По поверью, у каждого ключа своя сила — здоровья, любви, удачи.",
+                "en": "Twelve springs gushing from the limestone rock below the fortress and running into Gorodishchenskoye Lake. Folk belief gives each spring its own power — health, love, luck."
+              },
+              "wiki": {"ru": "Словенские ключи"},
+              "guide": {
+                "story": {
+                  "ru": "Под стенами Изборска из склона бьют Словенские ключи — родники, ручьи которых сбегают в Городищенское озеро. Вода чистая и очень холодная, а камни вокруг покрыты мхом.\n\nПо местному поверью, у каждого родника своё назначение: один даёт здоровье, другой — любовь, третий — удачу, а всего их двенадцать, «на все случаи жизни». Многие умываются из каждого.\n\nКлючи — одно из самых живописных мест Псковщины: отсюда видно долину и крепость наверху.",
+                  "en": "Below the walls of Izborsk the Slovenian Springs burst from the slope, their streams running down into Gorodishchenskoye Lake. The water is clear and very cold, and the stones around are covered in moss.\n\nLocal belief gives each spring its own purpose: one grants health, another love, a third luck — twelve in all, 'for every need in life'. Many people wash their faces at each one.\n\nThe springs are one of the loveliest spots in the Pskov region, with a view of the valley and the fortress above."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Родники, бьющие прямо из скалы",
+                    "Ручьи, сбегающие к озеру",
+                    "Крепость на холме над долиной"
+                  ],
+                  "en": [
+                    "The springs flowing straight out of the rock",
+                    "The streams running down to the lake",
+                    "The fortress on the hill above the valley"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Ключей обычно насчитывают двенадцать.",
+                    "Вода стекает в Городищенское озеро."
+                  ],
+                  "en": [
+                    "The springs are usually counted as twelve.",
+                    "The water runs into Gorodishchenskoye Lake."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько, по поверью, Словенских ключей?",
+                    "en": "How many Slovenian Springs are there, according to local belief?"
+                  },
+                  "options": {"ru": ["Двенадцать", "Три", "Сорок"], "en": ["Twelve", "Three", "Forty"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Говорят, двенадцать ключей — «на все случаи жизни»: от здоровья до любви.",
+                    "en": "They say there are twelve springs 'for every need in life', from health to love."
+                  }
+                },
+                "approach": {
+                  "ru": "Тропа от крепости вниз к ключам — 5–10 минут.",
+                  "en": "A path leads down from the fortress to the springs — 5–10 minutes."
+                }
+              }
+            },
+            {
+              "id": "pskov-pechory",
+              "title": {"ru": "Псково-Печерский монастырь", "en": "Pskov-Caves Monastery"},
+              "coordinate": [57.8106, 27.6148],
+              "category": "church",
+              "visit": 90,
+              "details": {
+                "ru": "Один из самых почитаемых монастырей России, никогда не закрывавшийся. Храмы в глубоком овраге, крепостные стены XVI века и «Богом зданные пещеры» с захоронениями.",
+                "en": "One of Russia's most revered monasteries, which never closed. Churches in a deep ravine, 16th-century fortress walls and the 'God-made caves' with their burials."
+              },
+              "tip": {
+                "ru": "В пещеры водят с экскурсией по расписанию; одевайтесь как в действующий монастырь — женщинам платок и юбка.",
+                "en": "The caves are visited on scheduled tours; dress for a working monastery — a headscarf and skirt for women."
+              },
+              "wiki": {"ru": "Псково-Печерский монастырь", "en": "Pskov-Caves Monastery"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 20 км — 25 минут на машине", "en": "About 20 km — 25 minutes by car"}
+              },
+              "guide": {
+                "story": {
+                  "ru": "Монастырь вырос вокруг пещер в песчаном склоне оврага: по преданию, в конце XIV века охотники нашли здесь надпись «Богом зданные пещеры». В 1473 году в пещере освятили Успенский храм, и эта дата считается основанием монастыря.\n\nС XV века в пещерах хоронят монахов и мирян — там покоятся около десяти тысяч человек. В пещерах круглый год прохладно, и, по преданию, там нет запаха тления. Монастырь обнесён крепостными стенами XVI века и выдерживал осады, в том числе войск Стефана Батория.\n\nС 1920 по 1940 год Печоры были в составе Эстонии, поэтому монастырь избежал советского закрытия и стал одним из немногих в России, где монашеская жизнь никогда не прерывалась.",
+                  "en": "The monastery grew up around caves in the sandy side of a ravine: tradition says that at the end of the 14th century hunters found the words 'God-made caves' here. In 1473 a church of the Dormition was consecrated in a cave, and that date is counted as the monastery's founding.\n\nSince the 15th century monks and laypeople have been buried in the caves — about ten thousand people lie there. It is cool in the caves all year round, and tradition says there is no smell of decay. The monastery is ringed by 16th-century fortress walls and withstood sieges, including one by Stephen Báthory's troops.\n\nFrom 1920 to 1940 Pechory belonged to Estonia, so the monastery escaped Soviet closure and became one of the few in Russia where monastic life never stopped."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Монастырь в глубоком овраге — вид сверху от Святых ворот",
+                    "Вход в пещеры у Успенского храма",
+                    "Звонницу на склоне оврага"
+                  ],
+                  "en": [
+                    "The monastery in its deep ravine — the view from the Holy Gates",
+                    "The entrance to the caves by the Dormition church",
+                    "The belfry on the side of the ravine"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Основанием монастыря считают 1473 год.",
+                    "В пещерах похоронены около десяти тысяч человек."
+                  ],
+                  "en": [
+                    "1473 is counted as the monastery's founding year.",
+                    "About ten thousand people are buried in the caves."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Псково-Печерский монастырь не закрыли в 1920–1930-е годы?",
+                    "en": "Why wasn't the Pskov-Caves Monastery closed in the 1920s and 1930s?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Печоры тогда были в составе Эстонии",
+                      "Его защищала армия",
+                      "О нём забыли"
+                    ],
+                    "en": [
+                      "Pechory was part of Estonia then",
+                      "The army protected it",
+                      "It was forgotten"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В 1920–1940 годах Печоры принадлежали Эстонии, и советская власть до монастыря не дотянулась.",
+                    "en": "In 1920–1940 Pechory belonged to Estonia, beyond the reach of the Soviet authorities."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 км от Изборска — 25 минут на машине.",
+                  "en": "About 20 km from Izborsk — 25 minutes by car."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

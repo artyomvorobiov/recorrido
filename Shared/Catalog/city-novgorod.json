@@ -1,0 +1,580 @@
+{
+  "city": {
+    "id": "novgorod",
+    "name": {"ru": "Великий Новгород", "en": "Veliky Novgorod"},
+    "region": {"ru": "Новгородская область", "en": "Novgorod Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Господин Великий Новгород — один из древнейших городов России, вечевая республика, торговавшая с Европой. Кремль-детинец с Софийским собором XI века, памятник «Тысячелетие России», Ярославово дворище за Волховом, фрески Феофана Грека и берестяные грамоты.",
+      "en": "Lord Novgorod the Great — one of Russia's oldest cities and a medieval republic that traded with Europe. The kremlin with its 11th-century St Sophia Cathedral, the Millennium of Russia monument, Yaroslav's Court across the Volkhov, frescoes by Theophanes the Greek and birch-bark letters."
+    },
+    "gettingThere": {
+      "ru": "Из Петербурга около 190 км — 2,5 часа на машине или около трёх часов на «Ласточке». Из Москвы — ночным поездом или по трассе М-11, около шести часов на машине.",
+      "en": "About 190 km from St Petersburg — 2.5 hours by car or about three hours on a Lastochka train. From Moscow take the night train or drive the M-11, about six hours."
+    },
+    "coordinate": [58.5215, 31.2755],
+    "emoji": "📜",
+    "size": "medium",
+    "tags": ["north-west"],
+    "wiki": {"ru": "Великий Новгород", "en": "Veliky Novgorod"},
+    "guide": {
+      "story": {
+        "ru": "Новгород — город, с которого принято вести историю русской государственности: по летописи, в 862 году новгородцы призвали на княжение варяга Рюрика.\n\nНесколько веков Новгород был республикой: важные дела решало вече — собрание горожан, — а князя приглашали и могли выгнать. Город торговал с Ганзой, богател на мехах и воске и владел огромными землями до Урала. Его так и звали — Господин Великий Новгород. В 1478 году Иван III подчинил республику Москве и увёз вечевой колокол.\n\nНовгородская земля сохранила удивительные вещи: Софийский собор XI века, фрески Феофана Грека и берестяные грамоты. С 1951 года археологи нашли здесь больше тысячи писем на бересте — записки, счета, просьбы и даже детские рисунки. По ним видно, что в древнем Новгороде грамоту знали очень многие.",
+        "en": "Novgorod is the city from which Russian statehood is traditionally dated: according to the chronicle, in 862 its people invited the Varangian Rurik to rule.\n\nFor several centuries Novgorod was a republic: major matters were decided by the veche, the citizens' assembly, and princes were invited — and could be thrown out. The city traded with the Hanseatic League, grew rich on furs and wax and ruled vast lands stretching to the Urals. It was called Lord Novgorod the Great. In 1478 Ivan III brought the republic under Moscow and carried off its veche bell.\n\nThe Novgorod land has preserved remarkable things: the 11th-century St Sophia Cathedral, frescoes by Theophanes the Greek and birch-bark letters. Since 1951 archaeologists have found more than a thousand letters on birch bark here — notes, accounts, requests and even children's drawings. They show that very many people in medieval Novgorod could read and write."
+      },
+      "history": [
+        {
+          "year": "862",
+          "text": {
+            "ru": "По летописи, новгородцы призывают на княжение Рюрика.",
+            "en": "According to the chronicle, Novgorod invites Rurik to rule."
+          }
+        },
+        {
+          "year": "1045–1050",
+          "text": {"ru": "Построен Софийский собор.", "en": "St Sophia Cathedral is built."}
+        },
+        {
+          "year": "1136",
+          "text": {
+            "ru": "Новгородцы изгоняют князя — начало вечевой республики.",
+            "en": "Novgorod expels its prince — the start of the veche republic."
+          }
+        },
+        {
+          "year": "1240",
+          "text": {
+            "ru": "Новгородский князь Александр побеждает шведов на Неве и получает прозвище Невский.",
+            "en": "Prince Alexander of Novgorod defeats the Swedes on the Neva and becomes 'Nevsky'."
+          }
+        },
+        {
+          "year": "1378",
+          "text": {
+            "ru": "Феофан Грек расписывает церковь Спаса на Ильине улице.",
+            "en": "Theophanes the Greek paints the Church of the Saviour on Ilyina Street."
+          }
+        },
+        {
+          "year": "1478",
+          "text": {
+            "ru": "Иван III присоединяет Новгород к Москве и увозит вечевой колокол.",
+            "en": "Ivan III annexes Novgorod to Moscow and takes away the veche bell."
+          }
+        },
+        {
+          "year": "1862",
+          "text": {
+            "ru": "К тысячелетию Руси в кремле открыт памятник «Тысячелетие России».",
+            "en": "The Millennium of Russia monument is unveiled in the kremlin."
+          }
+        },
+        {
+          "year": "1951",
+          "text": {"ru": "Найдена первая берестяная грамота.", "en": "The first birch-bark letter is found."}
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Рыбу из озера Ильмень — судака и снетка",
+          "Сбитень — старинный горячий медовый напиток",
+          "Пироги с капустой и брусникой"
+        ],
+        "en": [
+          "Fish from Lake Ilmen — pike-perch and smelt",
+          "Sbiten, an old hot honey drink",
+          "Pies with cabbage and lingonberries"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Сувенирную берестяную грамоту",
+          "Изделия из бересты",
+          "Вышивку и льняные вещи"
+        ],
+        "en": [
+          "A souvenir birch-bark letter",
+          "Birch-bark crafts",
+          "Embroidery and linen"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Кремль окружён парком — его удобно обойти по кругу за полчаса",
+          "С пешеходного моста через Волхов открывается лучший вид на кремль",
+          "Музей Витославлицы и Юрьев монастырь — в 4–5 км к югу; туда удобнее на машине или автобусе"
+        ],
+        "en": [
+          "The kremlin is ringed by a park — a full circuit takes half an hour",
+          "The footbridge over the Volkhov gives the best view of the kremlin",
+          "The Vitoslavlitsy museum and the Yuriev Monastery are 4–5 km south; best reached by car or bus"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "novgorod-day",
+      "title": {"ru": "Великий Новгород за день", "en": "Veliky Novgorod in a day"},
+      "summary": {
+        "ru": "Детинец с Софийским собором и памятником «Тысячелетие России», пешеходный мост на Торговую сторону, Ярославово дворище и фрески Феофана Грека, а затем — музей деревянного зодчества Витославлицы и Юрьев монастырь у Ильменя.",
+        "en": "The kremlin with St Sophia Cathedral and the Millennium of Russia monument, the footbridge to the Trade Side, Yaroslav's Court and the frescoes of Theophanes the Greek, then the Vitoslavlitsy open-air museum and the Yuriev Monastery by Lake Ilmen."
+      },
+      "intro": {
+        "ru": "Утром — пешком по обоим берегам Волхова, около 4 км: детинец, Софийский собор, памятник, Ярославово дворище и Спас на Ильине. После обеда — 10 минут на машине или автобусе к Витославлицам и Юрьеву монастырю у озера Ильмень.",
+        "en": "In the morning walk both banks of the Volkhov, about 4 km: the kremlin, St Sophia, the monument, Yaroslav's Court and the Saviour on Ilyina Street. After lunch, 10 minutes by car or bus to Vitoslavlitsy and the Yuriev Monastery by Lake Ilmen."
+      },
+      "emoji": "📜",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "novgorod-kremlin",
+              "title": {"ru": "Новгородский детинец", "en": "Novgorod Kremlin"},
+              "coordinate": [58.5216, 31.2755],
+              "category": "castle",
+              "visit": 60,
+              "details": {
+                "ru": "Детинец — новгородский кремль на левом берегу Волхова, одна из старейших крепостей России. Кирпичные стены и башни конца XV века, внутри — Софийский собор, памятник «Тысячелетие России», Грановитая палата и музей.",
+                "en": "The Detinets is Novgorod's kremlin on the left bank of the Volkhov, one of the oldest fortresses in Russia. Brick walls and towers from the late 15th century enclose St Sophia Cathedral, the Millennium of Russia monument, the Palace of Facets and the museum."
+              },
+              "wiki": {"ru": "Новгородский детинец", "en": "Novgorod Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Детинцем в Новгороде называют кремль — укреплённое сердце города. Первые укрепления здесь появились ещё в XI веке, а нынешние кирпичные стены длиной около полутора километров построили в конце XV века, уже после присоединения Новгорода к Москве.\n\nВнутри — святыни и власть древнего Новгорода: Софийский собор, владычный двор с Грановитой палатой 1433 года, где заседал совет господ, и звонница. Вечевая площадь была на другом берегу — у Ярославова дворища.\n\nДетинец окружён парком и рвом, а со стороны Волхова у стен летом загорают на песчаном пляже. Обойдите кремль по кругу — это полчаса неспешной прогулки.",
+                  "en": "In Novgorod the kremlin is called the Detinets — the fortified heart of the city. The first fortifications appeared here in the 11th century, and the present brick walls, about one and a half kilometres long, were built at the end of the 15th century, after Novgorod became part of Muscovy.\n\nInside are the shrines and seats of power of old Novgorod: St Sophia Cathedral, the archbishop's court with the Palace of Facets of 1433, where the council of lords met, and the belfry. The veche square was on the other bank, by Yaroslav's Court.\n\nThe kremlin is ringed by a park and a moat, and in summer people sunbathe on a sandy beach below the walls on the Volkhov side. Walk all the way round — half an hour at an easy pace."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башню Кокуй со смотровой площадкой",
+                    "Грановитую палату 1433 года",
+                    "Пляж у стен со стороны Волхова"
+                  ],
+                  "en": [
+                    "The Kokui tower with its viewing platform",
+                    "The Palace of Facets of 1433",
+                    "The beach below the walls on the Volkhov side"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Новгородцы называют свой кремль детинцем.",
+                    "Владычная (Грановитая) палата 1433 года — одно из старейших гражданских зданий России."
+                  ],
+                  "en": [
+                    "Novgorodians call their kremlin the Detinets.",
+                    "The Archbishop's (Facets) Palace of 1433 is one of the oldest secular buildings in Russia."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как в Новгороде называют кремль?",
+                    "en": "What do people in Novgorod call their kremlin?"
+                  },
+                  "options": {"ru": ["Детинец", "Кром", "Острог"], "en": ["Detinets", "Krom", "Ostrog"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В Новгороде кремль — детинец, а в соседнем Пскове — Кром.",
+                    "en": "In Novgorod the kremlin is the Detinets; in neighbouring Pskov it is the Krom."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход в кремль — через ворота со стороны Софийской площади.",
+                  "en": "Enter the kremlin through the gate on the Sofiyskaya Square side."
+                }
+              }
+            },
+            {
+              "id": "novgorod-sophia",
+              "title": {"ru": "Софийский собор", "en": "St Sophia Cathedral"},
+              "coordinate": [58.5223, 31.2757],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Собор 1045–1050 годов — один из древнейших сохранившихся храмов России. Мощные стены, пять глав с золотым центральным куполом и бронзовые Магдебургские врата XII века с рельефами.",
+                "en": "A cathedral of 1045–1050 — one of the oldest surviving churches in Russia. Massive walls, five domes with a golden central one and the bronze Magdeburg Doors of the 12th century with their reliefs."
+              },
+              "wiki": {"ru": "Софийский собор (Великий Новгород)", "en": "Saint Sophia Cathedral in Novgorod"},
+              "guide": {
+                "story": {
+                  "ru": "Софийский собор построил в 1045–1050 годах князь Владимир, сын Ярослава Мудрого. Почти тысячу лет он остаётся главным храмом Новгорода: новгородцы говорили «Где святая София, там и Новгород» и клялись ей в верности.\n\nСтены собора сложены из грубого камня и плинфы и долго стояли без штукатурки. На западном фасаде — бронзовые Магдебургские врата XII века с десятками рельефов, среди которых есть изображения самих мастеров.\n\nНа кресте центральной главы сидит свинцовый голубь — с ним связана одна из самых известных новгородских легенд.",
+                  "en": "St Sophia Cathedral was built in 1045–1050 by Prince Vladimir, son of Yaroslav the Wise. For almost a thousand years it has been Novgorod's main church: Novgorodians used to say 'Where St Sophia is, there is Novgorod' and swore loyalty to her.\n\nThe walls are built of rough stone and thin bricks and long stood unplastered. On the west facade are the bronze Magdeburg Doors of the 12th century with dozens of reliefs, including portraits of the craftsmen themselves.\n\nA lead dove sits on the cross of the central dome — and it carries one of Novgorod's best-known legends."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Свинцового голубя на кресте главного купола",
+                    "Магдебургские врата на западном фасаде",
+                    "Фигурки мастеров на вратах"
+                  ],
+                  "en": [
+                    "The lead dove on the cross of the main dome",
+                    "The Magdeburg Doors on the west facade",
+                    "The figures of the craftsmen on the doors"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Собор построен в 1045–1050 годах сыном Ярослава Мудрого Владимиром.",
+                    "Бронзовые врата собора сделаны в XII веке."
+                  ],
+                  "en": [
+                    "The cathedral was built in 1045–1050 by Vladimir, son of Yaroslav the Wise.",
+                    "The bronze doors date from the 12th century."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что, когда Иван Грозный в 1570 году учинил расправу над новгородцами, на крест Софии сел голубь, увидел страдания города и окаменел от ужаса. Говорят, пока голубь сидит на кресте, город под защитой.",
+                  "en": "They say that when Ivan the Terrible massacred the people of Novgorod in 1570, a dove landed on St Sophia's cross, saw the city's suffering and turned to stone with horror. As long as the dove stays on the cross, they say, the city is protected."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто сидит на кресте главного купола Софийского собора?",
+                    "en": "What sits on the cross of St Sophia's main dome?"
+                  },
+                  "options": {"ru": ["Голубь", "Орёл", "Ангел"], "en": ["A dove", "An eagle", "An angel"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Свинцовый голубь на кресте — герой легенды о расправе Ивана Грозного над Новгородом.",
+                    "en": "The lead dove on the cross is the hero of the legend about Ivan the Terrible's massacre in Novgorod."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор — в северной части кремля, пара минут от ворот.",
+                  "en": "The cathedral is in the northern part of the kremlin, a couple of minutes from the gate."
+                }
+              }
+            },
+            {
+              "id": "novgorod-millennium",
+              "title": {"ru": "Памятник «Тысячелетие России»", "en": "Millennium of Russia Monument"},
+              "coordinate": [58.5213, 31.275],
+              "category": "monument",
+              "visit": 15,
+              "details": {
+                "ru": "Памятник 1862 года в форме огромного колокола с державой наверху: на нём больше сотни фигур героев русской истории. Его открыли к тысячелетию призвания Рюрика.",
+                "en": "An 1862 monument shaped like a huge bell crowned with an orb, carrying more than a hundred figures from Russian history. It was unveiled for the thousandth anniversary of Rurik's invitation."
+              },
+              "wiki": {"ru": "Тысячелетие России (памятник)", "en": "Millennium of Russia"},
+              "guide": {
+                "story": {
+                  "ru": "Памятник «Тысячелетие России» открыли в 1862 году — через тысячу лет после того, как, по летописи, новгородцы призвали на княжение Рюрика. Проект создал молодой художник Михаил Микешин, и форма у памятника необычная: это огромный колокол, увенчанный державой.\n\nНа нём больше сотни фигур — князья и цари, полководцы, святые, писатели и учёные: Пушкин, Ломоносов, Суворов, Кутузов. Но нет Ивана Грозного — его не включили из-за жестокости, в том числе к самому Новгороду.\n\nВо время войны оккупанты разобрали памятник, собираясь вывезти его в Германию, но после освобождения города его восстановили уже в 1944 году.",
+                  "en": "The Millennium of Russia monument was unveiled in 1862, a thousand years after the chronicle says Novgorod invited Rurik to rule. It was designed by the young artist Mikhail Mikeshin and has an unusual shape: a huge bell crowned with an orb.\n\nIt carries more than a hundred figures — princes and tsars, generals, saints, writers and scientists: Pushkin, Lomonosov, Suvorov, Kutuzov. But Ivan the Terrible is missing — left out because of his cruelty, not least to Novgorod itself.\n\nDuring the war the occupiers took the monument apart, intending to ship it to Germany, but after the city was liberated it was restored as early as 1944."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Державу на вершине колокола",
+                    "Пушкина и Глинку среди деятелей культуры",
+                    "Петра I в верхнем ярусе"
+                  ],
+                  "en": [
+                    "The orb on top of the bell",
+                    "Pushkin and Glinka among the cultural figures",
+                    "Peter the Great on the upper tier"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "На памятнике нет Ивана Грозного — из-за его жестокости.",
+                    "Памятник открыт в 1862 году, к тысячелетию призвания Рюрика."
+                  ],
+                  "en": [
+                    "Ivan the Terrible does not appear on the monument because of his cruelty.",
+                    "The monument was unveiled in 1862 for the millennium of Rurik's invitation."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кого из царей нет на памятнике «Тысячелетие России»?",
+                    "en": "Which tsar is missing from the Millennium of Russia monument?"
+                  },
+                  "options": {
+                    "ru": ["Ивана Грозного", "Петра I", "Михаила Романова"],
+                    "en": ["Ivan the Terrible", "Peter the Great", "Mikhail Romanov"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Ивана Грозного не стали изображать из-за его жестокости — особенно памятной для Новгорода.",
+                    "en": "Ivan the Terrible was left out because of his cruelty — remembered especially well in Novgorod."
+                  }
+                },
+                "approach": {
+                  "ru": "Памятник — в центре кремля, напротив Софийского собора.",
+                  "en": "The monument stands in the middle of the kremlin, opposite St Sophia."
+                }
+              }
+            },
+            {
+              "id": "novgorod-yaroslav-court",
+              "title": {"ru": "Ярославово дворище", "en": "Yaroslav's Court"},
+              "coordinate": [58.518, 31.2846],
+              "category": "district",
+              "visit": 40,
+              "details": {
+                "ru": "Сердце Торговой стороны за Волховом: здесь были княжеский двор, вечевая площадь и торг. Сохранились Никольский собор 1113 года, церкви XIII–XVI веков и аркада Гостиного двора.",
+                "en": "The heart of the Trade Side across the Volkhov: the prince's court, the veche square and the market were here. St Nicholas Cathedral of 1113, churches of the 13th–16th centuries and the arcade of the merchants' court survive."
+              },
+              "wiki": {"ru": "Ярославово дворище", "en": "Yaroslav's Court"},
+              "guide": {
+                "story": {
+                  "ru": "Через Волхов от кремля лежит Торговая сторона, а её сердце — Ярославово дворище. По преданию, здесь стоял двор Ярослава Мудрого, а позже на этой площади собиралось вече — народное собрание, решавшее судьбу республики. Рядом шумел торг, куда приезжали купцы из Ганзы.\n\nСегодня на дворище стоит Никольский собор 1113 года, построенный сыном Владимира Мономаха Мстиславом, и несколько церквей, которые строили новгородские купеческие объединения. От Гостиного двора осталась длинная аркада.\n\nСюда приходят по пешеходному мосту — с него открывается лучший вид на кремль и Волхов.",
+                  "en": "Across the Volkhov from the kremlin lies the Trade Side, and its heart is Yaroslav's Court. Tradition says Yaroslav the Wise had his court here, and later the veche — the people's assembly that decided the republic's fate — gathered on this square. Next to it bustled the market, where Hanseatic merchants came to trade.\n\nToday the court holds St Nicholas Cathedral of 1113, built by Mstislav, son of Vladimir Monomakh, and several churches built by Novgorod merchant guilds. A long arcade survives from the merchants' court.\n\nYou get here by the footbridge — which gives the best view of the kremlin and the Volkhov."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Аркаду Гостиного двора",
+                    "Никольский собор 1113 года",
+                    "Вид на кремль с пешеходного моста"
+                  ],
+                  "en": [
+                    "The arcade of the merchants' court",
+                    "St Nicholas Cathedral of 1113",
+                    "The view of the kremlin from the footbridge"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "На Ярославовом дворище собиралось новгородское вече.",
+                    "Никольский собор построен в 1113 году князем Мстиславом."
+                  ],
+                  "en": [
+                    "The Novgorod veche gathered at Yaroslav's Court.",
+                    "St Nicholas Cathedral was built in 1113 by Prince Mstislav."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что вечевой колокол, который Иван III увёз в Москву, по дороге раскололся на Валдае, и из его осколков сделали знаменитые валдайские колокольчики.",
+                  "en": "They say the veche bell that Ivan III carried off to Moscow broke apart on the way, at Valdai, and its pieces were made into the famous Valdai coach bells."
+                },
+                "quiz": {
+                  "question": {"ru": "Что такое вече?", "en": "What was the veche?"},
+                  "options": {
+                    "ru": [
+                      "Народное собрание",
+                      "Торговая гильдия",
+                      "Княжеская дружина"
+                    ],
+                    "en": [
+                      "A people's assembly",
+                      "A merchant guild",
+                      "A prince's retinue"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "На вече новгородцы решали важнейшие дела республики — от войны до выбора князя.",
+                    "en": "At the veche Novgorodians decided the republic's key matters, from war to the choice of a prince."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Волхов по пешеходному мосту — 5–7 минут от кремля.",
+                  "en": "Across the Volkhov by the footbridge — 5–7 minutes from the kremlin."
+                }
+              }
+            },
+            {
+              "id": "novgorod-spas-ilyina",
+              "title": {"ru": "Церковь Спаса на Ильине улице", "en": "Church of the Saviour on Ilyina Street"},
+              "coordinate": [58.51694, 31.29694],
+              "category": "church",
+              "visit": 30,
+              "details": {
+                "ru": "Церковь 1374 года на Торговой стороне с фресками Феофана Грека 1378 года — его единственной достоверно сохранившейся монументальной росписью: суровые святые-столпники, Троица и Пантократор в куполе.",
+                "en": "A church of 1374 on the Trade Side with frescoes of 1378 by Theophanes the Greek — his only reliably surviving monumental painting: austere pillar saints, the Trinity and the Pantocrator in the dome."
+              },
+              "wiki": {
+                "ru": "Церковь Спаса Преображения на Ильине улице",
+                "en": "Church of the Transfiguration on Ilyina Street"
+              },
+              "guide": {
+                "story": {
+                  "ru": "Церковь Спаса Преображения на Ильине улице построили в 1374 году жители улицы на свои деньги. А в 1378 году её расписал приехавший из Византии мастер Феофан Грек — это единственная его монументальная роспись, сохранившаяся достоверно.\n\nФрески Феофана не похожи ни на что: стремительные мазки, белые блики-«движки», аскетичные лица святых-столпников, будто охваченных внутренним огнём. Позже Феофан работал в Москве, где вместе с ним трудился молодой Андрей Рублёв.\n\nФрески дошли до нас фрагментами, а внутри мало света — дайте глазам привыкнуть, и лица на стенах проступят из полумрака.",
+                  "en": "The Church of the Transfiguration on Ilyina Street was built in 1374 by the street's residents with their own money. In 1378 it was painted by Theophanes the Greek, a master who had come from Byzantium — the only monumental work of his that has reliably survived.\n\nTheophanes' frescoes are unlike anything else: swift brushstrokes, white highlights, the ascetic faces of pillar saints seemingly consumed by an inner fire. Later Theophanes worked in Moscow, where the young Andrei Rublev worked alongside him.\n\nThe frescoes survive in fragments and the church is dim — give your eyes time to adjust, and the faces will emerge from the half-light."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Пантократора в куполе",
+                    "Святых-столпников на хорах",
+                    "Белые блики на ликах святых"
+                  ],
+                  "en": [
+                    "The Pantocrator in the dome",
+                    "The pillar saints in the gallery",
+                    "The white highlights on the saints' faces"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Фрески 1378 года — единственная достоверно сохранившаяся монументальная роспись Феофана Грека.",
+                    "Церковь построили в 1374 году на деньги жителей Ильиной улицы."
+                  ],
+                  "en": [
+                    "The 1378 frescoes are Theophanes the Greek's only reliably surviving monumental painting.",
+                    "The church was built in 1374 with money from the residents of Ilyina Street."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто расписал церковь Спаса на Ильине улице?",
+                    "en": "Who painted the Church of the Saviour on Ilyina Street?"
+                  },
+                  "options": {
+                    "ru": ["Феофан Грек", "Андрей Рублёв", "Дионисий"],
+                    "en": ["Theophanes the Greek", "Andrei Rublev", "Dionisius"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Феофан Грек расписал храм в 1378 году, и это его единственная достоверно сохранившаяся роспись.",
+                    "en": "Theophanes the Greek painted the church in 1378, and it is his only reliably surviving mural."
+                  }
+                },
+                "approach": {
+                  "ru": "Несколько минут пешком по Ильиной улице от Ярославова дворища.",
+                  "en": "A few minutes' walk along Ilyina Street from Yaroslav's Court."
+                }
+              }
+            },
+            {
+              "id": "novgorod-vitoslavlitsy",
+              "title": {"ru": "Музей Витославлицы", "en": "Vitoslavlitsy Museum"},
+              "coordinate": [58.4905, 31.2735],
+              "category": "museum",
+              "visit": 75,
+              "details": {
+                "ru": "Музей деревянного зодчества под открытым небом: шатровые церкви, часовни, избы и мельница со всей Новгородской области, а самым старым храмам больше четырёхсот лет.",
+                "en": "An open-air museum of wooden architecture: tent-roofed churches, chapels, houses and a mill from all over the Novgorod region, the oldest churches over four hundred years old."
+              },
+              "wiki": {"ru": "Витославлицы"},
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 4 км на юг — 10 минут на машине или автобусе",
+                  "en": "About 4 km south — 10 minutes by car or bus"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Витославлицы — один из первых в России музеев деревянного зодчества: его начали создавать в 1960-х годах, перевозя сюда постройки из сёл Новгородской земли. Название дала деревня, стоявшая здесь раньше.\n\nЗдесь стоят шатровые церкви, часовни, крестьянские избы-«кошели», где жильё и хозяйственный двор объединены под одной огромной крышей, и ветряная мельница. Самые старые храмы музея построены ещё в XVI веке.\n\nЛетом здесь проходят народные праздники, а в избах можно увидеть, как жили новгородские крестьяне.",
+                  "en": "Vitoslavlitsy is one of Russia's first museums of wooden architecture: it was started in the 1960s by bringing buildings here from villages of the Novgorod land. It is named after a village that once stood here.\n\nThere are tent-roofed churches, chapels, peasant 'koshel' houses with the home and the farmyard under one huge roof, and a windmill. The oldest churches were built as early as the 16th century.\n\nIn summer folk festivals are held here, and the houses show how Novgorod peasants lived."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Шатровые деревянные церкви",
+                    "Избу-«кошель» под одной огромной крышей",
+                    "Ветряную мельницу"
+                  ],
+                  "en": [
+                    "The tent-roofed wooden churches",
+                    "A 'koshel' house under one huge roof",
+                    "The windmill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Музей создаётся с 1960-х годов.",
+                    "В избе-«кошеле» дом и хозяйственный двор объединены под общей крышей."
+                  ],
+                  "en": [
+                    "The museum has been growing since the 1960s.",
+                    "In a 'koshel' house the home and the farmyard share one roof."
+                  ]
+                },
+                "quiz": {
+                  "question": {"ru": "Что такое изба-«кошель»?", "en": "What is a 'koshel' house?"},
+                  "options": {
+                    "ru": [
+                      "Дом и двор под одной крышей",
+                      "Изба без окон",
+                      "Охотничий домик"
+                    ],
+                    "en": [
+                      "A home and farmyard under one roof",
+                      "A house without windows",
+                      "A hunting lodge"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "На севере дом и двор со скотом объединяли под одной крышей, чтобы зимой не выходить на мороз.",
+                    "en": "In the north the home and the livestock yard shared one roof so people did not have to go out into the frost in winter."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 4 км на юг от центра — 10 минут на машине или автобусе.",
+                  "en": "About 4 km south of the centre — 10 minutes by car or bus."
+                }
+              }
+            },
+            {
+              "id": "novgorod-yuriev",
+              "title": {"ru": "Юрьев монастырь", "en": "Yuriev Monastery"},
+              "coordinate": [58.4867, 31.2842],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Один из древнейших монастырей России на берегу Волхова у озера Ильмень. Георгиевский собор 1119 года работы мастера Петра и белая колокольня с золотым шпилем видны издалека.",
+                "en": "One of Russia's oldest monasteries, on the Volkhov near Lake Ilmen. The St George Cathedral of 1119 by the master Pyotr and the white bell tower with its golden spire can be seen from afar."
+              },
+              "wiki": {"ru": "Юрьев монастырь", "en": "Yuriev Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "Юрьев монастырь, по преданию, основал в 1030 году Ярослав Мудрый — в крещении его звали Георгием, по-русски Юрием, отсюда и название. Он стоит там, где Волхов вытекает из озера Ильмень.\n\nГеоргиевский собор начали строить в 1119 году, и летопись сохранила имя зодчего — «мастер Пётр». Это один из самых высоких и строгих храмов домонгольской Руси, с тремя главами.\n\nВ XIX веке монастырь щедро поддерживала графиня Анна Орлова-Чесменская: тогда появились белые корпуса и колокольня с золотым шпилем. С берега открывается вид на Ильмень — огромное озеро, из которого начинается Волхов.",
+                  "en": "Tradition says the Yuriev Monastery was founded in 1030 by Yaroslav the Wise, whose baptismal name was George — Yuri in Russian — hence its name. It stands where the Volkhov flows out of Lake Ilmen.\n\nThe St George Cathedral was begun in 1119, and the chronicle preserves the builder's name: 'master Pyotr'. It is one of the tallest and most austere churches of pre-Mongol Rus, with three domes.\n\nIn the 19th century Countess Anna Orlova-Chesmenskaya was the monastery's great patron, and the white buildings and the bell tower with its golden spire date from then. From the bank there is a view of Ilmen, the huge lake where the Volkhov begins."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Три главы Георгиевского собора",
+                    "Колокольню с золотым шпилем",
+                    "Озеро Ильмень за монастырём"
+                  ],
+                  "en": [
+                    "The three domes of the St George Cathedral",
+                    "The bell tower with the golden spire",
+                    "Lake Ilmen beyond the monastery"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Летопись сохранила имя строителя Георгиевского собора — мастер Пётр.",
+                    "Монастырь стоит у истока Волхова из озера Ильмень."
+                  ],
+                  "en": [
+                    "The chronicle names the builder of the St George Cathedral: master Pyotr.",
+                    "The monastery stands where the Volkhov flows out of Lake Ilmen."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему монастырь называется Юрьевым?",
+                    "en": "Why is it called the Yuriev Monastery?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Он посвящён святому Георгию — Юрию",
+                      "Его основал Юрий Долгорукий",
+                      "Так звали первого игумена"
+                    ],
+                    "en": [
+                      "It is dedicated to St George — Yuri",
+                      "It was founded by Yuri Dolgoruky",
+                      "It was the first abbot's name"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Георгий по-русски — Юрий; монастырь посвящён святому Георгию, небесному покровителю Ярослава Мудрого.",
+                    "en": "George is Yuri in Russian; the monastery is dedicated to St George, Yaroslav the Wise's patron saint."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 1 км на юг вдоль Волхова от Витославлиц.",
+                  "en": "About 1 km south along the Volkhov from Vitoslavlitsy."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "city": {
+    "id": "pushkinskie-gory",
+    "name": {"ru": "Пушкинские Горы", "en": "Pushkinskiye Gory"},
+    "region": {"ru": "Псковская область", "en": "Pskov Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Пушкинский заповедник: Михайловское, где поэт провёл два года ссылки и написал «Бориса Годунова», Тригорское с «чудным мгновеньем», Петровское прадеда Ганнибала и Святогорский монастырь с могилой Пушкина.",
+      "en": "The Pushkin reserve: Mikhailovskoye, where the poet spent two years in exile and wrote 'Boris Godunov', Trigorskoye of 'the wondrous moment', Petrovskoye of his great-grandfather Hannibal and the Svyatogorsky Monastery with Pushkin's grave."
+    },
+    "gettingThere": {
+      "ru": "От Пскова около 120 км — 1,5–2 часа на машине или автобусе. Между усадьбами 4–8 км: удобнее на машине или велосипеде.",
+      "en": "About 120 km from Pskov — 1.5–2 hours by car or bus. The estates are 4–8 km apart: a car or bicycle is easiest."
+    },
+    "coordinate": [57.02, 28.913],
+    "emoji": "🪶",
+    "size": "small",
+    "tags": ["north-west"],
+    "wiki": {"ru": "Пушкинские Горы", "en": "Pushkinskiye Gory"},
+    "guide": {
+      "story": {
+        "ru": "Земли вокруг Святых Гор императрица Елизавета пожаловала прадеду поэта, «арапу Петра Великого» Абраму Ганнибалу. В селе Михайловском жила мать Пушкина, и сюда в 1824 году молодого поэта отправили в ссылку под надзор родителей и местного монастыря.\n\nДва года ссылки стали одними из самых плодотворных в его жизни: здесь он написал «Бориса Годунова», главы «Евгения Онегина», «Я помню чудное мгновенье» и десятки стихотворений. Вечерами он слушал сказки няни Арины Родионовны и ездил в соседнее Тригорское к друзьям Осиповым-Вульф.\n\nВ 1837 году Пушкина похоронили у стен Святогорского монастыря. В войну усадьбы сгорели, а после неё их восстановил хранитель заповедника Семён Гейченко, — и сегодня здесь снова пушкинский пейзаж: Сороть, озёра, холмы и аллеи.",
+        "en": "Empress Elizabeth granted the lands around Svyatye Gory to the poet's great-grandfather Abram Hannibal, 'the Moor of Peter the Great'. Pushkin's mother lived at Mikhailovskoye, and in 1824 the young poet was exiled here under the supervision of his parents and the local monastery.\n\nThose two years were among the most fruitful of his life: here he wrote 'Boris Godunov', chapters of 'Eugene Onegin', 'I remember a wondrous moment' and dozens of poems. In the evenings he listened to the tales of his nanny Arina Rodionovna and rode over to his friends the Osipov-Wulfs at neighbouring Trigorskoye.\n\nIn 1837 Pushkin was buried by the walls of the Svyatogorsky Monastery. The estates burned in the war, and afterwards the reserve's keeper Semyon Geichenko rebuilt them — so today Pushkin's landscape is here again: the Sorot river, lakes, hills and avenues."
+      },
+      "history": [
+        {
+          "year": "1569",
+          "text": {
+            "ru": "По указу Ивана Грозного основан Святогорский монастырь.",
+            "en": "The Svyatogorsky Monastery is founded on Ivan the Terrible's orders."
+          }
+        },
+        {
+          "year": "1742",
+          "text": {
+            "ru": "Императрица Елизавета жалует здешние земли Абраму Ганнибалу.",
+            "en": "Empress Elizabeth grants the lands here to Abram Hannibal."
+          }
+        },
+        {
+          "year": "1824–1826",
+          "text": {
+            "ru": "Пушкин живёт в ссылке в Михайловском.",
+            "en": "Pushkin lives in exile at Mikhailovskoye."
+          }
+        },
+        {
+          "year": "1825",
+          "text": {
+            "ru": "В Тригорском Пушкин встречает Анну Керн и пишет «Я помню чудное мгновенье».",
+            "en": "At Trigorskoye Pushkin meets Anna Kern and writes 'I remember a wondrous moment'."
+          }
+        },
+        {
+          "year": "1837",
+          "text": {
+            "ru": "Пушкина хоронят у стен Святогорского монастыря.",
+            "en": "Pushkin is buried by the walls of the Svyatogorsky Monastery."
+          }
+        },
+        {
+          "year": "1922",
+          "text": {"ru": "Создан Пушкинский заповедник.", "en": "The Pushkin reserve is founded."}
+        },
+        {
+          "year": "1945",
+          "text": {
+            "ru": "Хранителем становится Семён Гейченко, восстановивший усадьбы.",
+            "en": "Semyon Geichenko becomes keeper and restores the estates."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Пироги и блины в деревенских кафе",
+          "Мёд с местных пасек",
+          "Чай из самовара — как в пушкинские времена"
+        ],
+        "en": [
+          "Pies and pancakes in village cafés",
+          "Honey from local apiaries",
+          "Tea from a samovar, as in Pushkin's day"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Томик Пушкина с видами Михайловского",
+          "Льняные вещи и изделия местных мастеров",
+          "Гусиное перо — символ поэта"
+        ],
+        "en": [
+          "A volume of Pushkin with views of Mikhailovskoye",
+          "Linen and local crafts",
+          "A quill pen, the poet's symbol"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Между усадьбами 4–8 км: удобнее на машине или велосипеде, а вдоль Сороти есть красивые пешие тропы",
+          "В заповеднике много холмов, лестниц и аллей — нужна удобная обувь",
+          "В начале июня здесь проходит Пушкинский праздник поэзии"
+        ],
+        "en": [
+          "The estates are 4–8 km apart: a car or bicycle is easiest, and there are lovely footpaths along the Sorot",
+          "The reserve has many hills, steps and avenues — wear comfortable shoes",
+          "In early June the Pushkin Poetry Festival is held here"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "pushkinskie-gory-day",
+      "title": {"ru": "Пушкинские Горы за день", "en": "Pushkinskiye Gory in a day"},
+      "summary": {
+        "ru": "Михайловское с домом поэта и аллеей Керн, Тригорское с «Онегинской скамьёй» над Соротью и Святогорский монастырь, где похоронен Пушкин.",
+        "en": "Mikhailovskoye with the poet's house and the Kern avenue, Trigorskoye with 'Onegin's bench' above the Sorot, and the Svyatogorsky Monastery where Pushkin is buried."
+      },
+      "intro": {
+        "ru": "Целый день на машине или велосипеде: от Михайловского до Тригорского около 4 км (летом можно пройти пешком вдоль Сороти), оттуда до монастыря — около 5 км. На Михайловское заложите не меньше двух часов, а если останется время — заверните в Петровское, усадьбу прадеда Ганнибала на другом берегу озера Кучане.",
+        "en": "A full day by car or bicycle: Mikhailovskoye to Trigorskoye is about 4 km (in summer you can walk along the Sorot), and from there the monastery is about 5 km. Allow at least two hours for Mikhailovskoye, and if you have time, drop in at Petrovskoye, the estate of great-grandfather Hannibal across Lake Kuchane."
+      },
+      "emoji": "🪶",
+      "tags": ["car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "pg-mikhailovskoye",
+              "title": {"ru": "Михайловское", "en": "Mikhailovskoye"},
+              "coordinate": [57.06098, 28.91939],
+              "category": "palace",
+              "visit": 120,
+              "details": {
+                "ru": "Усадьба, где Пушкин провёл два года ссылки: дом поэта с кабинетом, домик няни Арины Родионовны, аллея Керн, пруды и вид на Сороть.",
+                "en": "The estate where Pushkin spent two years of exile: the poet's house and study, the cottage of his nanny Arina Rodionovna, the Kern avenue, ponds and a view of the Sorot."
+              },
+              "wiki": {"ru": "Михайловское (музей-заповедник)"},
+              "guide": {
+                "story": {
+                  "ru": "В августе 1824 года Пушкина за вольнодумные письма выслали из Одессы в Михайловское под надзор отца и настоятеля монастыря. Родные вскоре уехали, и поэт остался почти один — с няней Ариной Родионовной, книгами и деревенской тишиной.\n\nЗдесь он написал «Бориса Годунова», «Графа Нулина», главы «Евгения Онегина» и множество стихов. Вечерами няня рассказывала ему сказки и пела песни, и многое из её рассказов вошло потом в его сказки.\n\nДом поэта сгорел ещё в XIX веке и снова в войну; нынешний восстановлен Семёном Гейченко. В кабинете — книги, перья, портрет Байрона, а за домом — аллея Керн и спуск к Сороти.",
+                  "en": "In August 1824 Pushkin, for freethinking letters, was sent from Odessa to Mikhailovskoye under the supervision of his father and the monastery's abbot. His family soon left, and the poet stayed almost alone — with his nanny Arina Rodionovna, his books and the village quiet.\n\nHere he wrote 'Boris Godunov', 'Count Nulin', chapters of 'Eugene Onegin' and many poems. In the evenings his nanny told him stories and sang songs, and much of what she told later found its way into his fairy tales.\n\nThe poet's house burned in the 19th century and again in the war; the present one was rebuilt by Semyon Geichenko. The study holds books, quills and a portrait of Byron, and behind the house are the Kern avenue and the slope down to the Sorot."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Портрет Байрона в кабинете поэта",
+                    "Домик няни Арины Родионовны",
+                    "Аллею Керн"
+                  ],
+                  "en": [
+                    "The portrait of Byron in the poet's study",
+                    "Nanny Arina Rodionovna's cottage",
+                    "The Kern avenue"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пушкин жил в ссылке в Михайловском с 1824 по 1826 год.",
+                    "Здесь написан «Борис Годунов»."
+                  ],
+                  "en": [
+                    "Pushkin lived in exile at Mikhailovskoye from 1824 to 1826.",
+                    "'Boris Godunov' was written here."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что по аллее старых лип в Михайловском Пушкин гулял с Анной Керн летом 1825 года, — с тех пор её называют аллеей Керн. На прощание он подарил гостье листок со стихами «Я помню чудное мгновенье».",
+                  "en": "They say Pushkin walked with Anna Kern along the old lime avenue at Mikhailovskoye in the summer of 1825 — and ever since it has been called the Kern avenue. When she left he gave her a sheet with the poem 'I remember a wondrous moment'."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какую драму Пушкин написал в Михайловском?",
+                    "en": "Which drama did Pushkin write at Mikhailovskoye?"
+                  },
+                  "options": {
+                    "ru": ["«Борис Годунов»", "«Маскарад»", "«Горе от ума»"],
+                    "en": ["Boris Godunov", "Masquerade", "Woe from Wit"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Маскарад» — пьеса Лермонтова, «Горе от ума» — Грибоедова, а «Бориса Годунова» Пушкин закончил в Михайловском в 1825 году.",
+                    "en": "'Masquerade' is Lermontov's play and 'Woe from Wit' Griboyedov's; Pushkin finished 'Boris Godunov' at Mikhailovskoye in 1825."
+                  }
+                },
+                "approach": {
+                  "ru": "Михайловское — в 5 км к северу от посёлка Пушкинские Горы.",
+                  "en": "Mikhailovskoye is 5 km north of the village of Pushkinskiye Gory."
+                }
+              }
+            },
+            {
+              "id": "pg-trigorskoye",
+              "title": {"ru": "Тригорское", "en": "Trigorskoye"},
+              "coordinate": [57.0569, 28.8672],
+              "category": "palace",
+              "visit": 60,
+              "details": {
+                "ru": "Усадьба друзей Пушкина Осиповых-Вульф на высоком берегу Сороти: дом-музей, старый парк, «Онегинская скамья» и дуб уединённый.",
+                "en": "The estate of Pushkin's friends the Osipov-Wulfs on the high bank of the Sorot: a house museum, an old park, 'Onegin's bench' and the lone oak."
+              },
+              "wiki": {"ru": "Тригорское"},
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 4 км — 10 минут на машине или час пешком вдоль Сороти",
+                  "en": "About 4 km — 10 minutes by car or an hour on foot along the Sorot"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "В Тригорском жила Прасковья Осипова с детьми — соседи и друзья Пушкина. Во время ссылки он бывал здесь почти каждый день: читал стихи, спорил, ухаживал за барышнями и сражался в карты. Здесь в 1825 году он встретил Анну Керн — племянницу хозяйки.\n\nМногие верят, что Тригорское стало прообразом усадьбы Лариных в «Евгении Онегине». В парке над обрывом стоит «Онегинская скамья», где, по преданию, любил сидеть поэт, а рядом растёт «дуб уединённый» из его стихов.\n\nС высокого берега открывается вид на Сороть и луга — один из самых пушкинских пейзажей заповедника.",
+                  "en": "Praskovya Osipova lived at Trigorskoye with her children — Pushkin's neighbours and friends. During his exile he came almost every day: reading poems, arguing, courting the young ladies and playing cards. Here in 1825 he met Anna Kern, his hostess's niece.\n\nMany believe Trigorskoye was the model for the Larins' estate in 'Eugene Onegin'. In the park above the drop stands 'Onegin's bench', where the poet is said to have loved to sit, and nearby grows the 'lone oak' from his poems.\n\nThe high bank looks out over the Sorot and the meadows — one of the most Pushkinian landscapes in the reserve."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Онегинскую скамью» над обрывом",
+                    "Дуб уединённый в парке",
+                    "Вид на Сороть с высокого берега"
+                  ],
+                  "en": [
+                    "'Onegin's bench' above the drop",
+                    "The lone oak in the park",
+                    "The view of the Sorot from the high bank"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В Тригорском Пушкин в 1825 году встретил Анну Керн.",
+                    "Тригорское считают одним из прообразов усадьбы Лариных."
+                  ],
+                  "en": [
+                    "At Trigorskoye in 1825 Pushkin met Anna Kern.",
+                    "Trigorskoye is thought to be one model for the Larins' estate."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кому Пушкин посвятил «Я помню чудное мгновенье»?",
+                    "en": "To whom did Pushkin dedicate 'I remember a wondrous moment'?"
+                  },
+                  "options": {
+                    "ru": ["Анне Керн", "Наталье Гончаровой", "Арине Родионовне"],
+                    "en": ["Anna Kern", "Natalia Goncharova", "Arina Rodionovna"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Поэт встретил Анну Керн в Тригорском летом 1825 года и подарил ей стихотворение на прощание.",
+                    "en": "The poet met Anna Kern at Trigorskoye in summer 1825 and gave her the poem as she left."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 4 км — 10 минут на машине или час пешком по тропе вдоль Сороти.",
+                  "en": "About 4 km — 10 minutes by car or an hour on foot along the Sorot."
+                }
+              }
+            },
+            {
+              "id": "pg-svyatogorsky",
+              "title": {"ru": "Святогорский монастырь", "en": "Svyatogorsky Monastery"},
+              "coordinate": [57.02242, 28.92007],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Монастырь XVI века на Синичьей горе, у стены которого похоронен Александр Пушкин. Белый обелиск над могилой поэта и могилы его деда и прадеда рядом.",
+                "en": "A 16th-century monastery on Sinichya Hill, by whose wall Alexander Pushkin is buried. A white obelisk stands over the poet's grave, with the graves of his grandparents nearby."
+              },
+              "wiki": {"ru": "Святогорский монастырь"},
+              "arrival": {
+                "mode": "car",
+                "note": {"ru": "Около 5 км — 10 минут на машине", "en": "About 5 km — 10 minutes by car"}
+              },
+              "guide": {
+                "story": {
+                  "ru": "Святогорский монастырь основан в 1569 году по указу Ивана Грозного на месте, где, по преданию, явились чудотворные иконы. Во время ссылки Пушкин бывал здесь на ярмарках у стен обители, слушал песни странников и записывал народную речь.\n\nВесной 1836 года Пушкин похоронил здесь мать и купил место рядом для себя. Меньше чем через год, в феврале 1837-го, после гибели на дуэли, его тело тайно, ночью, привезли из Петербурга и похоронили у стены Успенского собора.\n\nНад могилой стоит белый мраморный обелиск. Рядом покоятся дед и бабушка поэта Ганнибалы. Сюда приходят с цветами круглый год.",
+                  "en": "The Svyatogorsky Monastery was founded in 1569 on Ivan the Terrible's orders where, tradition says, miracle-working icons appeared. During his exile Pushkin came to the fairs held by its walls, listened to the songs of pilgrims and noted down the speech of the people.\n\nIn spring 1836 Pushkin buried his mother here and bought the plot next to her for himself. Less than a year later, in February 1837, after his death in a duel, his body was secretly brought from St Petersburg by night and buried by the wall of the Dormition Cathedral.\n\nA white marble obelisk stands over the grave. The poet's grandparents, the Hannibals, lie nearby. People bring flowers here all year round."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Белый обелиск над могилой Пушкина",
+                    "Могилы Ганнибалов рядом",
+                    "Лестницу на Синичью гору"
+                  ],
+                  "en": [
+                    "The white obelisk over Pushkin's grave",
+                    "The Hannibal graves nearby",
+                    "The steps up Sinichya Hill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пушкин похоронен здесь в феврале 1837 года.",
+                    "Место рядом с могилой матери поэт купил сам в 1836 году."
+                  ],
+                  "en": [
+                    "Pushkin was buried here in February 1837.",
+                    "The poet bought the plot next to his mother's grave himself in 1836."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Пушкина похоронили именно здесь?",
+                    "en": "Why was Pushkin buried here?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Он сам купил место рядом с могилой матери",
+                      "Так велел царь",
+                      "Здесь была его родина"
+                    ],
+                    "en": [
+                      "He had bought a plot next to his mother's grave",
+                      "The tsar ordered it",
+                      "It was his birthplace"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Хороня мать весной 1836 года, Пушкин купил место рядом и для себя.",
+                    "en": "When he buried his mother in spring 1836, Pushkin bought the plot beside her for himself."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 км от Тригорского — 10 минут на машине, в центре посёлка.",
+                  "en": "About 5 km from Trigorskoye — 10 minutes by car, in the middle of the village."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

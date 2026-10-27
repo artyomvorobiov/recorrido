@@ -7,7 +7,9 @@ struct SettingsView: View {
     @AppStorage(SettingsKey.autoPlay, store: AppGroup.defaults) private var autoPlay = true
     @AppStorage(SettingsKey.backgroundTracking, store: AppGroup.defaults) private var backgroundTracking = true
     @AppStorage(SettingsKey.arrivalNotifications, store: AppGroup.defaults) private var arrivalNotifications = true
+    @AppStorage(SettingsKey.communityAuthor, store: AppGroup.defaults) private var communityAuthor = ""
     @State private var confirmsErase = false
+    @State private var showsRules = false
 
     var body: some View {
         Form {
@@ -41,7 +43,27 @@ struct SettingsView: View {
             } header: {
                 Text("During a walk")
             } footer: {
-                Text("Location is used only while a walk is in progress, to show where you are and to notice arrivals. It never leaves the phone.")
+                Text("Location is used during a walk, to show where you are and to notice arrivals. For routes nearby in the feed, a rough position is sent to iCloud and not stored.")
+            }
+
+            if model.community.isAvailable {
+                Section {
+                    TextField("Your name in the feed", text: $communityAuthor)
+                        .textContentType(.nickname)
+                    Button("Rules of the feed") { showsRules = true }
+                    if !model.library.blockedAuthors.isEmpty {
+                        Button("Show hidden authors again (\(model.library.blockedAuthors.count))") {
+                            model.library.unblockAll()
+                        }
+                    }
+                    Link(destination: AppConfig.issuesURL) {
+                        Label("Report a problem", systemImage: "exclamationmark.bubble")
+                    }
+                } header: {
+                    Text("Travellers' feed")
+                } footer: {
+                    Text("Published routes are kept in Apple's iCloud and are visible to everyone. You can remove yours at any time.")
+                }
             }
 
             Section("About") {
@@ -66,6 +88,19 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("Settings")
+        .sheet(isPresented: $showsRules) {
+            NavigationStack {
+                ScrollView {
+                    CommunityRules().padding()
+                }
+                .toolbar {
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button("Done") { showsRules = false }
+                    }
+                }
+            }
+            .presentationDetents([.medium])
+        }
         .onChange(of: contentLanguage) { _, _ in
             model.reloadCatalog()
         }

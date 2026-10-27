@@ -34,10 +34,21 @@ struct StopEditorView: View {
                 }
 
                 Section("Story") {
-                    TextField("What is interesting here", text: $stop.details, axis: .vertical)
-                        .lineLimit(3...12)
+                    TextField("In a few words: what is this place", text: $stop.details, axis: .vertical)
+                        .lineLimit(2...6)
                     TextField("Local tip", text: tipBinding, axis: .vertical)
                         .lineLimit(1...4)
+                }
+
+                Section {
+                    TextField("Tell it like a guide: history, people, what you love here", text: storyBinding, axis: .vertical)
+                        .lineLimit(4...20)
+                    TextField("What to find with your own eyes — one per line", text: lookForBinding, axis: .vertical)
+                        .lineLimit(2...8)
+                } header: {
+                    Text("Guide")
+                } footer: {
+                    Text("Your story travels with the route when you share it or publish it in the feed. Separate paragraphs with an empty line.")
                 }
 
                 Section {
@@ -76,6 +87,35 @@ struct StopEditorView: View {
                 }
             }
         }
+    }
+
+    private var storyBinding: Binding<String> {
+        Binding(
+            get: { stop.guide?.story ?? "" },
+            set: { story in
+                var guide = takeOwnGuide()
+                guide.story = story
+                stop.guide = guide.isEmpty ? nil : guide
+            }
+        )
+    }
+
+    private var lookForBinding: Binding<String> {
+        Binding(
+            get: { stop.guide?.lookFor.joined(separator: "\n") ?? "" },
+            set: { text in
+                var guide = takeOwnGuide()
+                guide.lookFor = text.components(separatedBy: "\n").compactMap(\.nilIfEmpty)
+                stop.guide = guide.isEmpty ? nil : guide
+            }
+        )
+    }
+
+    /// The guide the user is editing. Once rewritten, a catalog stop's guide
+    /// is the user's own and is no longer replaced by the catalog text.
+    private func takeOwnGuide() -> StopGuide {
+        if stop.ref != nil { stop.ref = nil }
+        return stop.guide ?? StopGuide()
     }
 
     private var tipBinding: Binding<String> {

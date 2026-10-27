@@ -105,7 +105,7 @@ struct Stop: Hashable, Identifiable, Sendable {
     var id: String
     var title: String
     var coordinate: Coordinate
-    /// The story of the place shown in the guide and read aloud by the audio guide.
+    /// A short description: two or three sentences for lists and the map.
     var details: String
     /// A practical local tip.
     var tip: String?
@@ -119,6 +119,11 @@ struct Stop: Hashable, Identifiable, Sendable {
     var imageURL: URL?
     /// How to get here from the previous stop of the day. `nil` means walking.
     var arrival: Arrival?
+    /// The long story, things to find, facts and a quiz.
+    var guide: StopGuide?
+    /// Id of the catalog stop this one comes from; survives copies and links,
+    /// so the guide can be found again.
+    var ref: String?
 
     init(
         id: String = UUID().uuidString,
@@ -132,7 +137,9 @@ struct Stop: Hashable, Identifiable, Sendable {
         wikiTitle: String? = nil,
         wikiLanguage: String? = nil,
         imageURL: URL? = nil,
-        arrival: Arrival? = nil
+        arrival: Arrival? = nil,
+        guide: StopGuide? = nil,
+        ref: String? = nil
     ) {
         self.id = id
         self.title = title
@@ -146,15 +153,24 @@ struct Stop: Hashable, Identifiable, Sendable {
         self.wikiLanguage = wikiLanguage
         self.imageURL = imageURL
         self.arrival = arrival
+        self.guide = guide?.isEmpty == true ? nil : guide
+        self.ref = ref
     }
 
     var arrivalMode: TransportMode { arrival?.mode ?? .walk }
+
+    /// Key for what the traveller found and answered here: the same for a
+    /// catalog stop and for any copy of it.
+    var guideKey: String { ref ?? id }
+
+    /// The story to tell: the guide's when there is one, else the short description.
+    var fullStory: String { guide?.story.nilIfEmpty ?? details }
 }
 
 extension Stop: Codable {
     private enum CodingKeys: String, CodingKey {
         case id, title, coordinate, details, tip, category, visitMinutes, address,
-             wikiTitle, wikiLanguage, imageURL, arrival
+             wikiTitle, wikiLanguage, imageURL, arrival, guide, ref
     }
 
     init(from decoder: Decoder) throws {
@@ -172,7 +188,9 @@ extension Stop: Codable {
             wikiTitle: try container.decodeIfPresent(String.self, forKey: .wikiTitle),
             wikiLanguage: try container.decodeIfPresent(String.self, forKey: .wikiLanguage),
             imageURL: try? container.decodeIfPresent(URL.self, forKey: .imageURL),
-            arrival: try container.decodeIfPresent(Arrival.self, forKey: .arrival)
+            arrival: try container.decodeIfPresent(Arrival.self, forKey: .arrival),
+            guide: try? container.decodeIfPresent(StopGuide.self, forKey: .guide),
+            ref: try container.decodeIfPresent(String.self, forKey: .ref)
         )
     }
 }
@@ -240,6 +258,8 @@ struct Route: Hashable, Identifiable, Sendable {
     var updatedAt: Date
     /// The route this one was copied from (customized catalog route, import).
     var originID: String?
+    /// What to know before setting off: where to start, the best time, the idea of the walk.
+    var intro: String?
 
     init(
         id: String = UUID().uuidString,
@@ -256,7 +276,8 @@ struct Route: Hashable, Identifiable, Sendable {
         tags: [String] = [],
         createdAt: Date = Date(),
         updatedAt: Date = Date(),
-        originID: String? = nil
+        originID: String? = nil,
+        intro: String? = nil
     ) {
         self.id = id
         self.title = title
@@ -273,6 +294,7 @@ struct Route: Hashable, Identifiable, Sendable {
         self.createdAt = createdAt
         self.updatedAt = updatedAt
         self.originID = originID
+        self.intro = intro
     }
 
     var allStops: [Stop] { days.flatMap(\.stops) }
@@ -317,6 +339,7 @@ struct Route: Hashable, Identifiable, Sendable {
             day.id = UUID().uuidString
             day.stops = day.stops.map { stop in
                 var stop = stop
+                if stop.ref == nil, source == .curated { stop.ref = stop.id }
                 stop.id = UUID().uuidString
                 return stop
             }
@@ -329,7 +352,7 @@ struct Route: Hashable, Identifiable, Sendable {
 extension Route: Codable {
     private enum CodingKeys: String, CodingKey {
         case id, title, summary, city, country, cityID, emoji, source, author, language,
-             days, tags, createdAt, updatedAt, originID
+             days, tags, createdAt, updatedAt, originID, intro
     }
 
     init(from decoder: Decoder) throws {
@@ -350,7 +373,8 @@ extension Route: Codable {
             tags: try container.decodeIfPresent([String].self, forKey: .tags) ?? [],
             createdAt: try container.decodeIfPresent(Date.self, forKey: .createdAt) ?? now,
             updatedAt: try container.decodeIfPresent(Date.self, forKey: .updatedAt) ?? now,
-            originID: try container.decodeIfPresent(String.self, forKey: .originID)
+            originID: try container.decodeIfPresent(String.self, forKey: .originID),
+            intro: try container.decodeIfPresent(String.self, forKey: .intro)
         )
     }
 }

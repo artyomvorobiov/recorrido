@@ -39,6 +39,8 @@ enum SettingsKey {
     static let autoPlay = "autoPlayOnArrival"
     static let backgroundTracking = "backgroundTracking"
     static let arrivalNotifications = "arrivalNotifications"
+    static let communityAuthor = "communityAuthor"
+    static let communityRulesAccepted = "communityRulesAccepted"
 
     static func registerDefaults() {
         AppGroup.defaults.register(defaults: [

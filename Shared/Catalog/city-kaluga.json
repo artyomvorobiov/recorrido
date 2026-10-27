@@ -1,0 +1,365 @@
+{
+  "city": {
+    "id": "kaluga",
+    "name": {"ru": "Калуга", "en": "Kaluga"},
+    "region": {"ru": "Калужская область", "en": "Kaluga Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Колыбель космонавтики на Оке: здесь Циолковский прожил больше сорока лет и придумал многоступенчатые ракеты. Первый в мире музей космонавтики, дом-музей учёного, старинный Каменный мост-виадук и «готический» Гостиный двор.",
+      "en": "The cradle of cosmonautics on the Oka: Tsiolkovsky lived here for more than forty years and conceived multistage rockets. The world's first museum of cosmonautics, the scientist's house museum, an old stone viaduct and the 'Gothic' merchant arcade."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 190 км — 2,5–3 часа на машине по трассе М-3 или около двух с половиной часов на «Ласточке» с Киевского вокзала.",
+      "en": "About 190 km from Moscow — 2.5–3 hours by car on the M-3 or about two and a half hours on a Lastochka train from Kievsky station."
+    },
+    "coordinate": [54.5138, 36.2612],
+    "emoji": "🚀",
+    "size": "medium",
+    "tags": ["near-moscow", "oka"],
+    "wiki": {"ru": "Калуга", "en": "Kaluga"},
+    "guide": {
+      "story": {
+        "ru": "Калуга впервые упоминается в 1371 году как крепость на границе с Литвой. В 1480 году неподалёку, на реке Угре, произошло «Великое стояние»: войска Ивана III и хана Ахмата несколько недель стояли друг против друга, и хан отступил, — так закончилось ордынское иго.\n\nВ Смутное время в Калуге обосновался Лжедмитрий II, здесь же он и погиб в 1610 году. В XVIII веке город стал губернским центром: при Екатерине II его отстроили по регулярному плану, появились Каменный мост, Гостиный двор и купеческие особняки.\n\nВ 1892 году в Калугу переехал школьный учитель Константин Циолковский. Здесь он прожил больше сорока лет и написал труды, которые сделали его основоположником космонавтики. Поэтому Калугу называют колыбелью космонавтики, а её музей космонавтики стал первым в мире.",
+        "en": "Kaluga is first mentioned in 1371 as a fortress on the border with Lithuania. In 1480, nearby on the Ugra River, came the 'Great Stand': the armies of Ivan III and Khan Akhmat faced each other for weeks until the khan withdrew — ending the Horde's rule over Rus.\n\nIn the Time of Troubles the second False Dmitry made Kaluga his base and was killed here in 1610. In the 18th century the town became a provincial capital: under Catherine the Great it was rebuilt to a regular plan, with a stone bridge, a merchant arcade and merchants' mansions.\n\nIn 1892 the schoolteacher Konstantin Tsiolkovsky moved to Kaluga. He lived here for more than forty years and wrote the works that made him the father of cosmonautics. That is why Kaluga is called the cradle of cosmonautics, and its space museum was the first in the world."
+      },
+      "history": [
+        {"year": "1371", "text": {"ru": "Первое упоминание Калуги.", "en": "Kaluga's first mention."}},
+        {
+          "year": "1480",
+          "text": {
+            "ru": "Стояние на Угре кладёт конец ордынскому игу.",
+            "en": "The Great Stand on the Ugra ends the Horde's rule."
+          }
+        },
+        {
+          "year": "1610",
+          "text": {
+            "ru": "В Калуге погибает Лжедмитрий II.",
+            "en": "The second False Dmitry is killed in Kaluga."
+          }
+        },
+        {
+          "year": "1777–1785",
+          "text": {
+            "ru": "Через Березуйский овраг строят Каменный мост.",
+            "en": "The Stone Bridge is built across the Berezuysky ravine."
+          }
+        },
+        {
+          "year": "1892",
+          "text": {
+            "ru": "Константин Циолковский переезжает в Калугу.",
+            "en": "Konstantin Tsiolkovsky moves to Kaluga."
+          }
+        },
+        {
+          "year": "1903",
+          "text": {
+            "ru": "Циолковский публикует «Исследование мировых пространств реактивными приборами».",
+            "en": "Tsiolkovsky publishes 'The Exploration of Cosmic Space by Means of Reaction Devices'."
+          }
+        },
+        {
+          "year": "1961",
+          "text": {
+            "ru": "Юрий Гагарин закладывает первый камень музея космонавтики.",
+            "en": "Yuri Gagarin lays the foundation stone of the space museum."
+          }
+        },
+        {
+          "year": "1967",
+          "text": {
+            "ru": "Открывается музей истории космонавтики — первый в мире.",
+            "en": "The museum of the history of cosmonautics, the world's first, opens."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Калужское тесто — старинную сладость из ржаного солода, мёда и патоки",
+          "Квас и выпечку Оптиной пустыни из соседнего Козельска",
+          "Рыбу из Оки"
+        ],
+        "en": [
+          "Kaluga 'testo', an old sweet of rye malt, honey and treacle",
+          "Kvass and pastries from Optina Monastery in nearby Kozelsk",
+          "Fish from the Oka"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Космические сувениры из музея — от моделей ракет до «космической еды» в тубах",
+          "Хлудневскую глиняную игрушку",
+          "Калужское тесто в подарочной коробке"
+        ],
+        "en": [
+          "Space souvenirs from the museum, from model rockets to 'space food' in tubes",
+          "Khludnevo clay toys",
+          "Kaluga testo in a gift box"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Музей космонавтики большой: заложите на него не меньше двух часов, а билеты в планетарий берите заранее",
+          "Дом-музей Циолковского и музей космонавтики стоят недалеко друг от друга — их удобно посетить вместе",
+          "Каменный мост лучше всего виден снизу, из Березуйского оврага"
+        ],
+        "en": [
+          "The space museum is big: allow at least two hours and book planetarium tickets in advance",
+          "Tsiolkovsky's house museum and the space museum are close to each other — easy to visit together",
+          "The Stone Bridge looks best from below, from the Berezuysky ravine"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "kaluga-day",
+      "title": {"ru": "Калуга: дорога к звёздам", "en": "Kaluga: the road to the stars"},
+      "summary": {
+        "ru": "Первый в мире музей космонавтики с ракетой у входа, деревянный дом Циолковского, где родились «ракетные поезда», а потом — старинный центр с Каменным мостом над оврагом и «готическим» Гостиным двором.",
+        "en": "The world's first space museum with a rocket at the entrance, Tsiolkovsky's wooden house where his 'rocket trains' were born, and then the old centre with the Stone Bridge over a ravine and the 'Gothic' merchant arcade."
+      },
+      "intro": {
+        "ru": "Пеший день, около 3 км: начните с музея космонавтики (2–3 часа) и дома Циолковского у Оки, а потом пройдите через центр к Каменному мосту и Гостиному двору.",
+        "en": "A day on foot, about 3 km: start with the space museum (2–3 hours) and Tsiolkovsky's house by the Oka, then walk through the centre to the Stone Bridge and the merchant arcade."
+      },
+      "emoji": "🚀",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kaluga-cosmonautics",
+              "title": {"ru": "Музей истории космонавтики", "en": "Museum of the History of Cosmonautics"},
+              "coordinate": [54.5155, 36.23],
+              "category": "museum",
+              "visit": 150,
+              "details": {
+                "ru": "Первый в мире музей космонавтики, первый камень которого заложил Юрий Гагарин: ракета у входа, спутники, спускаемые аппараты, скафандры, планетарий и новый корпус о будущем освоения космоса.",
+                "en": "The world's first museum of cosmonautics, whose foundation stone was laid by Yuri Gagarin: a rocket at the entrance, satellites, descent capsules, spacesuits, a planetarium and a new wing about the future of space exploration."
+              },
+              "wiki": {
+                "ru": "Государственный музей истории космонавтики имени К. Э. Циолковского",
+                "en": "Tsiolkovsky State Museum of the History of Cosmonautics"
+              },
+              "guide": {
+                "story": {
+                  "ru": "Музей создали в честь Циолковского: в 1961 году, через несколько месяцев после своего полёта, Юрий Гагарин заложил первый камень, а в 1967 году музей открылся — первый в мире музей космонавтики. Перед зданием стоит ракета-носитель «Восток» — такая же вывела Гагарина на орбиту.\n\nВ залах — первые спутники, ракетные двигатели, спускаемые аппараты, побывавшие в космосе, скафандры космонавтов и «космическая еда» в тубах. Есть и планетарий, где можно увидеть звёздное небо, о котором мечтал Циолковский.\n\nВ 2021 году открылся новый корпус с полноразмерными макетами кораблей и станций — от первых шагов в космосе до планов полёта на другие планеты.",
+                  "en": "The museum was created in Tsiolkovsky's honour: in 1961, a few months after his flight, Yuri Gagarin laid the foundation stone, and in 1967 the museum opened — the first museum of cosmonautics in the world. In front of the building stands a Vostok rocket, the type that took Gagarin into orbit.\n\nThe halls hold the first satellites, rocket engines, descent capsules that have been to space, cosmonauts' suits and 'space food' in tubes. There is also a planetarium where you can see the starry sky Tsiolkovsky dreamed of.\n\nIn 2021 a new wing opened with full-size models of spacecraft and stations — from the first steps into space to plans for flights to other planets."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ракету «Восток» перед музеем",
+                    "Скафандры космонавтов",
+                    "Спускаемый аппарат, вернувшийся из космоса"
+                  ],
+                  "en": [
+                    "The Vostok rocket in front of the museum",
+                    "The cosmonauts' spacesuits",
+                    "A descent capsule that came back from space"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Первый камень музея заложил Юрий Гагарин в 1961 году.",
+                    "Музей открылся в 1967 году — это первый в мире музей космонавтики."
+                  ],
+                  "en": [
+                    "Yuri Gagarin laid the museum's foundation stone in 1961.",
+                    "It opened in 1967 — the world's first museum of cosmonautics."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто заложил первый камень музея космонавтики?",
+                    "en": "Who laid the foundation stone of the space museum?"
+                  },
+                  "options": {
+                    "ru": ["Юрий Гагарин", "Сергей Королёв", "Валентина Терешкова"],
+                    "en": ["Yuri Gagarin", "Sergei Korolev", "Valentina Tereshkova"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Гагарин приехал в Калугу в 1961 году, вскоре после своего полёта, и заложил камень будущего музея.",
+                    "en": "Gagarin came to Kaluga in 1961, soon after his flight, and laid the stone of the future museum."
+                  }
+                },
+                "approach": {
+                  "ru": "Музей стоит на высоком берегу Оки, у парка имени Циолковского.",
+                  "en": "The museum stands on the high bank of the Oka, by the Tsiolkovsky park."
+                }
+              }
+            },
+            {
+              "id": "kaluga-tsiolkovsky-house",
+              "title": {"ru": "Дом-музей Циолковского", "en": "Tsiolkovsky House Museum"},
+              "coordinate": [54.51111, 36.23028],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Деревянный дом у Оки, где Циолковский прожил почти тридцать лет: кабинет-светёлка, мастерская с самодельными приборами и модели дирижаблей.",
+                "en": "The wooden house by the Oka where Tsiolkovsky lived for almost thirty years: his little upstairs study, a workshop with home-made instruments and models of airships."
+              },
+              "wiki": {"ru": "Дом-музей К. Э. Циолковского"},
+              "guide": {
+                "story": {
+                  "ru": "Циолковский купил этот дом в 1904 году и прожил в нём почти тридцать лет, до 1933-го. В маленькой светёлке наверху он писал свои работы, а в мастерской собирал модели и приборы: токарный станок, воздуходувку, модели дирижаблей.\n\nУчёный был почти глухим, преподавал физику и математику в училище, а всё свободное время отдавал науке. Здесь он рассчитал, как ракета может вырваться из земного притяжения, и придумал «ракетные поезда» — многоступенчатые ракеты, без которых сегодня не обходится ни один полёт в космос.\n\nДом сохранил обстановку тех лет, и по нему видно, как скромно жил человек, мечтавший о звёздах.",
+                  "en": "Tsiolkovsky bought this house in 1904 and lived in it for almost thirty years, until 1933. In the little room upstairs he wrote his works, and in the workshop he built models and instruments: a lathe, a blower, airship models.\n\nThe scientist was almost deaf; he taught physics and mathematics at a school and gave all his spare time to science. Here he calculated how a rocket could escape the Earth's gravity and devised 'rocket trains' — multistage rockets, without which no space flight is possible today.\n\nThe house keeps the furnishings of those years and shows how modestly lived the man who dreamed of the stars."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Кабинет-светёлку наверху",
+                    "Самодельные приборы в мастерской",
+                    "Модели дирижаблей"
+                  ],
+                  "en": [
+                    "The little study upstairs",
+                    "The home-made instruments in the workshop",
+                    "The airship models"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Циолковский прожил в этом доме с 1904 по 1933 год.",
+                    "Учёный придумал «ракетные поезда» — многоступенчатые ракеты."
+                  ],
+                  "en": [
+                    "Tsiolkovsky lived in this house from 1904 to 1933.",
+                    "He devised 'rocket trains' — multistage rockets."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как Циолковский называл многоступенчатые ракеты?",
+                    "en": "What did Tsiolkovsky call multistage rockets?"
+                  },
+                  "options": {
+                    "ru": ["Ракетные поезда", "Звёздные корабли", "Небесные лифты"],
+                    "en": ["Rocket trains", "Star ships", "Sky lifts"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Он сравнивал ступени ракеты с вагонами поезда, которые отцепляются по очереди.",
+                    "en": "He compared a rocket's stages to railway carriages uncoupled one after another."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком от музея космонавтики.",
+                  "en": "About 10 minutes' walk from the space museum."
+                }
+              }
+            },
+            {
+              "id": "kaluga-stone-bridge",
+              "title": {"ru": "Каменный мост", "en": "Stone Bridge"},
+              "coordinate": [54.50986, 36.24736],
+              "category": "bridge",
+              "visit": 20,
+              "details": {
+                "ru": "Каменный мост-виадук 1777–1785 годов через Березуйский овраг — один из первых каменных виадуков России, построенный по проекту губернского архитектора Петра Никитина.",
+                "en": "A stone viaduct of 1777–1785 across the Berezuysky ravine — one of the first stone viaducts in Russia, built to a design by the provincial architect Pyotr Nikitin."
+              },
+              "wiki": {"ru": "Каменный мост (Калуга)"},
+              "guide": {
+                "story": {
+                  "ru": "При Екатерине II Калугу перестраивали по новому плану, и чтобы соединить части города, разделённые глубоким Березуйским оврагом, в 1777–1785 годах построили каменный мост-виадук по проекту архитектора Петра Никитина.\n\nМост длиной около 160 метров стоит на высоких арках и до сих пор служит городу: по нему проходит улица. Это один из первых каменных виадуков в России.\n\nСпуститесь в овраг: снизу арки моста выглядят особенно внушительно, а летом там тень и прохлада.",
+                  "en": "Under Catherine the Great Kaluga was rebuilt to a new plan, and to link the parts of town divided by the deep Berezuysky ravine a stone viaduct was built in 1777–1785 to the design of the architect Pyotr Nikitin.\n\nThe bridge, about 160 metres long, stands on tall arches and still carries a street today. It is one of the first stone viaducts in Russia.\n\nGo down into the ravine: from below the arches look especially impressive, and in summer it is shady and cool there."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Арки моста снизу, из оврага",
+                    "Белокаменные детали кладки",
+                    "Вид на Гостиный двор с моста"
+                  ],
+                  "en": [
+                    "The arches seen from the ravine below",
+                    "The white-stone details in the masonry",
+                    "The view of the merchant arcade from the bridge"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Мост построен в 1777–1785 годах.",
+                    "Это один из первых каменных виадуков в России."
+                  ],
+                  "en": [
+                    "The bridge was built in 1777–1785.",
+                    "It is one of the first stone viaducts in Russia."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 20 минут пешком через центр на восток.",
+                  "en": "About 20 minutes' walk east through the centre."
+                }
+              }
+            },
+            {
+              "id": "kaluga-gostiny-dvor",
+              "title": {"ru": "Гостиный двор", "en": "Merchant Arcade"},
+              "coordinate": [54.50736, 36.25428],
+              "category": "market",
+              "visit": 30,
+              "details": {
+                "ru": "Торговые ряды конца XVIII — начала XIX века в «готическом» стиле с башенками и стрельчатыми арками, отреставрированные и снова полные лавок и кафе.",
+                "en": "A merchant arcade from the late 18th and early 19th centuries in 'Gothic' style with turrets and pointed arches, restored and once again full of shops and cafés."
+              },
+              "wiki": {"ru": "Гостиный двор (Калуга)"},
+              "guide": {
+                "story": {
+                  "ru": "Гостиный двор начали строить в 1780-х годах по проекту Петра Никитина, и стройка растянулась почти на сорок лет. Его фасады украшены стрельчатыми арками, башенками и белокаменными деталями в «готическом» вкусе — редкость для русских торговых рядов.\n\nЗдесь торговали калужские купцы, разбогатевшие на хлебе, пеньке и полотне. После долгих лет запустения ряды отреставрировали, и в галереях снова работают лавки, кафе и музеи.\n\nЭто хорошее место, чтобы закончить прогулку и выпить чаю с калужским тестом.",
+                  "en": "The merchant arcade was begun in the 1780s to Pyotr Nikitin's design, and construction dragged on for almost forty years. Its facades are adorned with pointed arches, turrets and white-stone details in 'Gothic' taste — rare for Russian trading rows.\n\nKaluga merchants who grew rich on grain, hemp and linen traded here. After long years of neglect the arcade was restored, and shops, cafés and museums fill its galleries again.\n\nIt is a good place to end the walk with a cup of tea and some Kaluga testo."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Стрельчатые арки галерей",
+                    "Башенки на углах",
+                    "Лавки во внутреннем дворе"
+                  ],
+                  "en": [
+                    "The pointed arches of the galleries",
+                    "The turrets at the corners",
+                    "The shops in the inner courtyard"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Строительство Гостиного двора заняло почти сорок лет.",
+                    "Его «готический» стиль — редкость для русских торговых рядов."
+                  ],
+                  "en": [
+                    "Building the merchant arcade took almost forty years.",
+                    "Its 'Gothic' style is rare for Russian trading rows."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В каком стиле украшен калужский Гостиный двор?",
+                    "en": "In what style is Kaluga's merchant arcade decorated?"
+                  },
+                  "options": {
+                    "ru": ["В «готическом»", "В византийском", "В стиле модерн"],
+                    "en": [
+                      "In 'Gothic' style",
+                      "In Byzantine style",
+                      "In Art Nouveau style"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Стрельчатые арки и башенки — приметы модной в конце XVIII века русской «готики».",
+                    "en": "Pointed arches and turrets are hallmarks of the Russian 'Gothic' fashionable in the late 18th century."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 7 минут пешком от Каменного моста.",
+                  "en": "About 7 minutes' walk from the Stone Bridge."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

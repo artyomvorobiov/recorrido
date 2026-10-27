@@ -17,6 +17,15 @@ struct PassportView: View {
                     }
                     .card(padding: 14)
 
+                    let score = model.quizScore
+                    if score.answered > 0 || library.progress.foundCount > 0 {
+                        HStack(spacing: 12) {
+                            StatBlock(value: "\(library.progress.foundCount)", caption: String(localized: "details found"), symbol: "eye")
+                            StatBlock(value: "\(score.right)/\(score.answered)", caption: String(localized: "questions right"), symbol: "questionmark.bubble")
+                        }
+                        .card(padding: 14)
+                    }
+
                     if library.stamps.isEmpty {
                         ContentUnavailableView {
                             Label("No stamps yet", systemImage: "seal")

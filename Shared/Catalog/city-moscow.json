@@ -16,7 +16,98 @@
     "emoji": "⭐",
     "size": "large",
     "tags": ["big"],
-    "wiki": {"ru": "Москва", "en": "Moscow"}
+    "wiki": {"ru": "Москва", "en": "Moscow"},
+    "guide": {
+      "story": {
+        "ru": "Москва впервые упомянута в летописи в 1147 году: князь Юрий Долгорукий позвал союзника на пир словами «Приди ко мне, брате, в Москов». Тогда это была небольшая крепость на Боровицком холме над рекой. За несколько веков она выросла в столицу огромной страны, а Кремль из деревянного стал белокаменным, а потом — краснокирпичным, каким мы его знаем.\n\nВ 1712 году Пётр I перенёс столицу в Петербург, но Москва осталась «первопрестольной» — здесь короновались цари. В 1812 году город сгорел при Наполеоне и быстро отстроился заново, а в 1918 году снова стал столицей.\n\nМосква многослойна: средневековый Кремль, купеческие особняки, сталинские высотки, станции-дворцы метро и стеклянные башни Сити. За два дня всё не увидеть, но главное — можно, если двигаться пешком и на метро.",
+        "en": "Moscow is first mentioned in the chronicles in 1147: Prince Yuri Dolgoruky invited an ally to a feast with the words 'Come to me, brother, to Moskov.' Back then it was a small fort on Borovitsky Hill above the river. Over several centuries it grew into the capital of a vast country, and the Kremlin went from wood to white stone and then to the red brick we know.\n\nIn 1712 Peter the Great moved the capital to St Petersburg, but Moscow remained the 'old capital' where tsars were crowned. In 1812 the city burned during Napoleon's occupation and was quickly rebuilt, and in 1918 it became the capital again.\n\nMoscow has many layers: the medieval Kremlin, merchants' mansions, Stalin's skyscrapers, palace-like metro stations and the glass towers of the City. You can't see everything in two days, but you can see the essentials if you go on foot and by metro."
+      },
+      "history": [
+        {
+          "year": "1147",
+          "text": {
+            "ru": "Первое упоминание Москвы в летописи.",
+            "en": "First mention of Moscow in the chronicles."
+          }
+        },
+        {
+          "year": "1156",
+          "text": {
+            "ru": "На Боровицком холме строят деревянную крепость.",
+            "en": "A wooden fort is built on Borovitsky Hill."
+          }
+        },
+        {
+          "year": "1485–1495",
+          "text": {
+            "ru": "Итальянские мастера возводят краснокирпичные стены Кремля.",
+            "en": "Italian masters build the red-brick Kremlin walls."
+          }
+        },
+        {
+          "year": "1555–1561",
+          "text": {
+            "ru": "В честь взятия Казани строят Покровский собор — храм Василия Блаженного.",
+            "en": "St Basil's Cathedral is built to mark the capture of Kazan."
+          }
+        },
+        {
+          "year": "1712",
+          "text": {"ru": "Столица переезжает в Санкт-Петербург.", "en": "The capital moves to St Petersburg."}
+        },
+        {
+          "year": "1812",
+          "text": {
+            "ru": "Великий пожар во время занятия Москвы Наполеоном.",
+            "en": "The great fire during Napoleon's occupation of Moscow."
+          }
+        },
+        {
+          "year": "1918",
+          "text": {"ru": "Москва снова становится столицей.", "en": "Moscow becomes the capital again."}
+        },
+        {
+          "year": "1935",
+          "text": {"ru": "Открывается первая линия метро.", "en": "The first metro line opens."}
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Мороженое в вафельном стаканчике из ГУМа",
+          "Торт «Птичье молоко» — его придумали в московском ресторане «Прага»",
+          "Бородинский хлеб с тмином и кориандром"
+        ],
+        "en": [
+          "Ice cream in a wafer cup from GUM",
+          "Bird's Milk cake, invented at Moscow's Praga restaurant",
+          "Borodinsky rye bread with caraway and coriander"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Павловопосадский платок — с яркими цветами",
+          "Гжель — бело-синий фарфор из Подмосковья",
+          "Шоколад московских фабрик в старинных обёртках"
+        ],
+        "en": [
+          "A Pavlovsky Posad shawl with bright flowers",
+          "Gzhel, the blue-and-white porcelain from the Moscow region",
+          "Chocolate from Moscow factories in vintage wrappers"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Музеи Кремля закрыты по четвергам — планируйте Кремль на другой день",
+          "Метро — самый быстрый транспорт: поезда в центре ходят каждые пару минут",
+          "Красную площадь иногда закрывают на мероприятия — проверьте заранее"
+        ],
+        "en": [
+          "The Kremlin museums are closed on Thursdays — plan the Kremlin for another day",
+          "The metro is the fastest way around: in the centre trains come every couple of minutes",
+          "Red Square is sometimes closed for events — check in advance"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -25,6 +116,10 @@
       "summary": {
         "ru": "День первый — сердце города: Красная площадь, Кремль, «Зарядье», ГУМ, Никольская и Большой театр. День второй — метро-дворцы, Патриаршие пруды, Арбат, храм Христа Спасителя, парк Горького и закат на Воробьёвых горах.",
         "en": "Day one is the heart of the city: Red Square, the Kremlin, Zaryadye, GUM, Nikolskaya Street and the Bolshoi. Day two brings palace-like metro stations, Patriarch's Ponds, the Arbat, Christ the Saviour, Gorky Park and sunset on Sparrow Hills."
+      },
+      "intro": {
+        "ru": "Два насыщенных дня пешком и на метро. В первый — около 6 км вокруг Кремля; на Кремль с Оружейной палатой заложите 3–4 часа. Во второй — пара станций метро, Патриаршие, Арбат и длинная прогулка вдоль реки до Воробьёвых гор, всего около 10 км.",
+        "en": "Two packed days on foot and by metro. On the first, about 6 km around the Kremlin; allow 3–4 hours for the Kremlin and the Armoury. On the second, a couple of metro stations, Patriarch's Ponds, the Arbat and a long riverside walk to Sparrow Hills — about 10 km in all."
       },
       "emoji": "⭐",
       "tags": ["walk", "metro"],
@@ -42,7 +137,58 @@
                 "ru": "Главная площадь страны между Кремлём и Китай-городом. На ней — Мавзолей, Исторический музей, ГУМ и памятник Минину и Пожарскому. «Красная» в древнерусском значении — «красивая».",
                 "en": "The country's main square between the Kremlin and Kitay-gorod, with the Mausoleum, the State Historical Museum, GUM and the monument to Minin and Pozharsky. 'Krasnaya' meant 'beautiful' in Old Russian."
               },
-              "wiki": {"ru": "Красная площадь", "en": "Red Square"}
+              "wiki": {"ru": "Красная площадь", "en": "Red Square"},
+              "guide": {
+                "story": {
+                  "ru": "Красная площадь появилась в конце XV века, когда Иван III велел расчистить место у стен Кремля от деревянных построек — подальше от пожаров. Сначала площадь называли Торгом, потом Пожаром, а «Красной», то есть красивой, стали звать в XVII веке.\n\nЗдесь торговали, с Лобного места объявляли царские указы, проводили праздники и парады. Вокруг — Исторический музей из красного кирпича, ГУМ, Мавзолей и памятник Минину и Пожарскому, открытый в 1818 году, — первый скульптурный памятник Москвы.\n\nПлощадь вымощена брусчаткой, и по ней стоит пройти не спеша — от Воскресенских ворот до храма Василия Блаженного.",
+                  "en": "Red Square appeared at the end of the 15th century, when Ivan III ordered the area by the Kremlin walls cleared of wooden buildings to keep fires away. It was first called the Market, then the Fire Site, and from the 17th century 'Red' — which meant 'beautiful'.\n\nPeople traded here, tsars' decrees were read out from the Lobnoye Mesto platform, and festivals and parades were held. Around it stand the red-brick State Historical Museum, GUM, the Mausoleum and the monument to Minin and Pozharsky, unveiled in 1818 — Moscow's first sculptural monument.\n\nThe square is paved with cobblestones and deserves a slow walk — from the Resurrection Gate to St Basil's."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Знак «Нулевой километр» у Воскресенских ворот",
+                    "Лобное место — круглый каменный помост",
+                    "Памятник Минину и Пожарскому"
+                  ],
+                  "en": [
+                    "The Kilometre Zero plaque by the Resurrection Gate",
+                    "Lobnoye Mesto, the round stone platform",
+                    "The monument to Minin and Pozharsky"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Памятник Минину и Пожарскому (1818) — первый скульптурный памятник Москвы.",
+                    "В древнерусском языке «красный» значило «красивый»."
+                  ],
+                  "en": [
+                    "The Minin and Pozharsky monument (1818) is Moscow's first sculptural monument.",
+                    "In Old Russian 'krasny' meant 'beautiful'."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, если встать на «Нулевой километр» спиной к Воскресенским воротам, загадать желание и бросить монетку через плечо, то обязательно вернёшься в Москву.",
+                  "en": "They say that if you stand on Kilometre Zero with your back to the Resurrection Gate, make a wish and toss a coin over your shoulder, you will be sure to come back to Moscow."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что значило слово «красная» в названии площади?",
+                    "en": "What did 'Red' originally mean in the square's name?"
+                  },
+                  "options": {
+                    "ru": ["Красивая", "Кирпичная", "Главная"],
+                    "en": ["Beautiful", "Made of brick", "Main"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В старину «красный» означало «красивый» — как в выражении «красна девица».",
+                    "en": "In the old days 'krasny' meant 'beautiful' — as in the phrase 'krasna devitsa', a fair maiden."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Воскресенские ворота со стороны Манежной площади.",
+                  "en": "Through the Resurrection Gate from Manezhnaya Square."
+                }
+              }
             },
             {
               "id": "moscow-st-basil",
@@ -54,12 +200,71 @@
                 "ru": "Покровский собор, построенный в 1555–1561 годах в честь взятия Казани, — на самом деле это десять церквей на одном основании. Внутри — узкие галереи, расписанные цветами, и неожиданно высокие шатры.",
                 "en": "The Cathedral of the Intercession, built in 1555–1561 to celebrate the capture of Kazan, is really ten churches on one base. Inside are narrow galleries painted with flowers and surprisingly tall tented chapels."
               },
-              "wiki": {"ru": "Храм Василия Блаженного", "en": "Saint Basil's Cathedral"}
+              "wiki": {"ru": "Храм Василия Блаженного", "en": "Saint Basil's Cathedral"},
+              "guide": {
+                "story": {
+                  "ru": "Покровский собор поставили в 1555–1561 годах по приказу Ивана Грозного в честь взятия Казани. Восемь церквей вокруг центральной посвящены праздникам и святым, в дни которых шли решающие бои похода, — так храм стал каменной летописью победы.\n\nНародное имя дал юродивый Василий Блаженный, похороненный у стен: в 1588 году над его могилой пристроили ещё одну церковь, и их стало десять. Летопись называет строителями Барму и Постника. Пёстрая раскраска глав появилась позже — изначально храм был сдержаннее.\n\nВнутри — узкие галереи, расписанные цветами, и неожиданно высокие шатры: каждая церковь похожа на отдельную башню.",
+                  "en": "The Cathedral of the Intercession was built in 1555–1561 on Ivan the Terrible's orders to mark the capture of Kazan. The eight churches around the central one are dedicated to the feasts and saints on whose days the campaign's decisive battles were fought — so the cathedral became a stone chronicle of victory.\n\nIts popular name comes from the holy fool Basil the Blessed, buried by its walls: in 1588 another church was added over his grave, making ten. The chronicle names Barma and Postnik as the builders. The colourful domes came later — originally the cathedral was more restrained.\n\nInside are narrow galleries painted with flowers and surprisingly tall tent roofs: each church feels like a separate tower."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Разные узоры на каждой главе",
+                    "Узкие галереи с цветочной росписью внутри",
+                    "Памятник Минину и Пожарскому перед собором"
+                  ],
+                  "en": [
+                    "The different patterns on every dome",
+                    "The narrow galleries painted with flowers inside",
+                    "The Minin and Pozharsky monument in front of the cathedral"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Храм — это десять церквей на одном основании.",
+                    "Памятник Минину и Пожарскому стоял в центре площади, а к собору его перенесли в 1931 году."
+                  ],
+                  "en": [
+                    "The cathedral is ten churches on a single base.",
+                    "The Minin and Pozharsky monument stood in the middle of the square and was moved to the cathedral in 1931."
+                  ]
+                },
+                "legend": {
+                  "ru": "По легенде, Иван Грозный велел ослепить зодчих, чтобы они больше нигде не построили ничего столь же прекрасного. Историки считают это выдумкой: мастер Постник потом строил стены Казанского кремля.",
+                  "en": "Legend says Ivan the Terrible had the architects blinded so they could never build anything as beautiful again. Historians consider this fiction: the master Postnik later built the walls of the Kazan kremlin."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь какого события построен храм Василия Блаженного?",
+                    "en": "What event does St Basil's Cathedral commemorate?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Взятия Казани",
+                      "Победы на Куликовом поле",
+                      "Изгнания поляков из Москвы"
+                    ],
+                    "en": [
+                      "The capture of Kazan",
+                      "The victory at Kulikovo",
+                      "The expulsion of the Poles from Moscow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Собор построен в 1555–1561 годах в память о взятии Казани в 1552 году.",
+                    "en": "It was built in 1555–1561 to commemorate the capture of Kazan in 1552."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор — в южном конце Красной площади, у спуска к реке.",
+                  "en": "The cathedral is at the south end of Red Square, where it slopes down to the river."
+                }
+              }
             },
             {
               "id": "moscow-kremlin",
               "title": {"ru": "Московский Кремль", "en": "Moscow Kremlin"},
-              "coordinate": [55.75200, 37.61750],
+              "coordinate": [55.752, 37.6175],
               "category": "castle",
               "visit": 150,
               "details": {
@@ -70,48 +275,241 @@
                 "ru": "Билеты в Кремль и Оружейную палату продаются на сайте музеев Кремля — на Оружейную палату они по сеансам.",
                 "en": "Tickets for the Kremlin and the Armoury are sold on the Kremlin museums' website — the Armoury has timed entry."
               },
-              "wiki": {"ru": "Московский Кремль", "en": "Moscow Kremlin"}
+              "wiki": {"ru": "Московский Кремль", "en": "Moscow Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Нынешние красные стены и двадцать башен Кремля построили в 1485–1495 годах итальянские мастера, приглашённые Иваном III; ласточкины хвосты зубцов — как в замках Милана. Длина стен — больше двух километров.\n\nНа Соборной площади — Успенский собор работы Аристотеля Фиораванти, где венчались на царство русские государи, Архангельский собор с гробницами великих князей и царей, Благовещенский — домовый храм государей, и колокольня Ивана Великого высотой 81 метр. Рядом — Царь-пушка, отлитая Андреем Чоховым в 1586 году, и Царь-колокол весом около 200 тонн.\n\nОружейная палата хранит шапку Мономаха, троны, кареты, оружие и пасхальные яйца Фаберже — одну из лучших сокровищниц мира.",
+                  "en": "The present red walls and twenty towers of the Kremlin were built in 1485–1495 by Italian masters invited by Ivan III; the swallowtail battlements are like those of Milan's castles. The walls are more than two kilometres long.\n\nOn Cathedral Square stand the Dormition Cathedral by Aristotele Fioravanti, where Russian rulers were crowned, the Archangel Cathedral with the tombs of grand princes and tsars, the Annunciation Cathedral, the rulers' private church, and the 81-metre Ivan the Great Bell Tower. Nearby are the Tsar Cannon, cast by Andrei Chokhov in 1586, and the Tsar Bell, weighing about 200 tonnes.\n\nThe Armoury holds the Cap of Monomakh, thrones, carriages, arms and Fabergé Easter eggs — one of the finest treasuries in the world."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Отколовшийся кусок Царь-колокола",
+                    "Царь-пушку и ядра у её лафета",
+                    "Зубцы-«ласточкины хвосты» на стенах"
+                  ],
+                  "en": [
+                    "The broken-off piece of the Tsar Bell",
+                    "The Tsar Cannon and the cannonballs by its carriage",
+                    "The swallowtail battlements on the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Длина кремлёвских стен — около 2,2 км, башен — двадцать.",
+                    "Царь-колокол треснул во время пожара 1737 года и ни разу не звонил: отколовшийся кусок весит около 11 тонн."
+                  ],
+                  "en": [
+                    "The Kremlin walls are about 2.2 km long, with twenty towers.",
+                    "The Tsar Bell cracked in the fire of 1737 and never rang: the broken piece weighs about 11 tonnes."
+                  ]
+                },
+                "legend": {
+                  "ru": "По легенде, где-то в подземельях Кремля спрятана библиотека Ивана Грозного — Либерея, с древними греческими и латинскими рукописями. Её ищут уже несколько веков, но так и не нашли.",
+                  "en": "Legend says Ivan the Terrible's library, the Liberia, with ancient Greek and Latin manuscripts, is hidden somewhere in the Kremlin's underground passages. People have searched for it for centuries without success."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Царь-колокол ни разу не звонил?",
+                    "en": "Why has the Tsar Bell never rung?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Он треснул во время пожара 1737 года",
+                      "Его запретил звонить царь",
+                      "У него никогда не было языка"
+                    ],
+                    "en": [
+                      "It cracked in the fire of 1737",
+                      "The tsar forbade ringing it",
+                      "It never had a clapper"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Колокол ещё стоял в литейной яме, когда начался пожар: от воды, которой тушили огонь, металл треснул.",
+                    "en": "The bell was still in its casting pit when a fire broke out: the water used to put out the flames cracked the metal."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход для посетителей — через Кутафью и Троицкую башни со стороны Александровского сада.",
+                  "en": "Visitors enter through the Kutafya and Trinity Towers from the Alexander Garden."
+                }
+              }
             },
             {
               "id": "moscow-zaryadye",
               "title": {"ru": "Парк «Зарядье»", "en": "Zaryadye Park"},
-              "coordinate": [55.75110, 37.62850],
+              "coordinate": [55.7511, 37.6285],
               "category": "park",
               "visit": 45,
               "details": {
                 "ru": "Парк 2017 года на месте снесённой гостиницы «Россия»: здесь собраны природные зоны России — от тундры до степи. Главная точка — «Парящий мост», висящий над Москвой-рекой без опор под концом.",
                 "en": "A park opened in 2017 on the site of the demolished Rossiya Hotel, recreating Russia's natural zones from tundra to steppe. Its highlight is the Floating Bridge, cantilevered over the Moskva river."
               },
-              "wiki": {"ru": "Зарядье (парк)", "en": "Zaryadye Park"}
+              "wiki": {"ru": "Зарядье (парк)", "en": "Zaryadye Park"},
+              "guide": {
+                "story": {
+                  "ru": "Зарядье — один из древнейших районов Москвы, название которого значит «за рядами» торговцев Китай-города. В XX веке старые кварталы снесли, и в 1967 году здесь открылась огромная гостиница «Россия». Её разобрали в середине 2000-х, а в 2017 году на этом месте открылся парк.\n\nЕго придумали архитекторы нью-йоркского бюро Diller Scofidio + Renfro: на холмах воссозданы ландшафты России — тундра, степь, лес и болото — с настоящими растениями. Под холмами прячутся концертный зал, медиацентр и ледяная пещера.\n\nГлавный аттракцион — Парящий мост: бетонная консоль в форме буквы V вылетает над Москвой-рекой примерно на 70 метров без опоры под концом. С неё видно Кремль, храм Василия Блаженного и набережные.",
+                  "en": "Zaryadye is one of Moscow's oldest districts; its name means 'behind the rows' of the Kitay-Gorod traders. In the 20th century the old blocks were demolished, and in 1967 the huge Rossiya Hotel opened here. It was dismantled in the mid-2000s, and in 2017 a park opened in its place.\n\nIt was designed by the New York firm Diller Scofidio + Renfro: its hills recreate Russia's landscapes — tundra, steppe, forest and wetland — with real plants. Under the hills hide a concert hall, a media centre and an ice cave.\n\nThe highlight is the Floating Bridge: a V-shaped concrete cantilever that juts out about 70 metres over the Moskva River with no support under its end. From it you see the Kremlin, St Basil's and the embankments."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ландшафтные зоны — от тундры до степи",
+                    "Парящий мост над рекой",
+                    "Вид на Кремль и храм Василия Блаженного с моста"
+                  ],
+                  "en": [
+                    "The landscape zones, from tundra to steppe",
+                    "The Floating Bridge over the river",
+                    "The view of the Kremlin and St Basil's from the bridge"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Парк открылся в 2017 году на месте гостиницы «Россия».",
+                    "Название «Зарядье» значит «за торговыми рядами»."
+                  ],
+                  "en": [
+                    "The park opened in 2017 on the site of the Rossiya Hotel.",
+                    "The name Zaryadye means 'behind the trading rows'."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что стояло на месте парка «Зарядье» до середины 2000-х?",
+                    "en": "What stood on the site of Zaryadye Park until the mid-2000s?"
+                  },
+                  "options": {
+                    "ru": ["Гостиница «Россия»", "Стадион", "Завод"],
+                    "en": ["The Rossiya Hotel", "A stadium", "A factory"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Огромную гостиницу «Россия» открыли в 1967 году и разобрали в 2000-х; на её месте сделали парк.",
+                    "en": "The huge Rossiya Hotel opened in 1967 and was taken down in the 2000s; the park was built in its place."
+                  }
+                },
+                "approach": {
+                  "ru": "Пять минут пешком от храма Василия Блаженного по Варварке.",
+                  "en": "Five minutes' walk from St Basil's along Varvarka Street."
+                }
+              }
             },
             {
               "id": "moscow-gum",
               "title": {"ru": "ГУМ", "en": "GUM"},
-              "coordinate": [55.75470, 37.62150],
+              "coordinate": [55.7547, 37.6215],
               "category": "market",
               "visit": 30,
               "details": {
                 "ru": "Торговые ряды 1893 года со стеклянными сводами, мостиками и фонтаном в центре. Традиция — съесть знаменитое гумовское мороженое в вафельном стаканчике.",
                 "en": "An 1893 shopping arcade with glass vaults, footbridges and a fountain in the middle. The tradition is to eat GUM's famous ice cream in a wafer cup."
               },
-              "wiki": {"ru": "ГУМ", "en": "GUM (department store)"}
+              "wiki": {"ru": "ГУМ", "en": "GUM (department store)"},
+              "guide": {
+                "story": {
+                  "ru": "Верхние торговые ряды, которые все знают как ГУМ, построили в 1890–1893 годах по проекту Александра Померанцева. Стеклянные своды над тремя пассажами рассчитал инженер Владимир Шухов — тот самый, что потом построил радиобашню на Шаболовке.\n\nВ советское время здесь был Государственный универсальный магазин — отсюда и название. Сегодня это снова торговые ряды с фонтаном в центре, мостиками между галереями и гастрономом в духе 1950-х.\n\nТрадиция — купить мороженое в вафельном стаканчике и съесть его, прогуливаясь под стеклянной крышей.",
+                  "en": "The Upper Trading Rows, known to everyone as GUM, were built in 1890–1893 to a design by Alexander Pomerantsev. The glass vaults over the three arcades were engineered by Vladimir Shukhov — the same man who later built the radio tower on Shabolovka.\n\nIn Soviet times this was the State Department Store, hence the name. Today it is a shopping arcade again, with a fountain in the middle, bridges between the galleries and a 1950s-style food hall.\n\nThe tradition is to buy an ice cream in a wafer cup and eat it as you stroll under the glass roof."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Фонтан в центре ГУМа",
+                    "Стеклянные своды Шухова",
+                    "Мостики между галереями второго этажа"
+                  ],
+                  "en": [
+                    "The fountain in the centre of GUM",
+                    "Shukhov's glass vaults",
+                    "The bridges between the upper galleries"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Стеклянные своды ГУМа рассчитал инженер Владимир Шухов.",
+                    "Фасад ГУМа вдоль Красной площади тянется примерно на 240 метров."
+                  ],
+                  "en": [
+                    "GUM's glass vaults were engineered by Vladimir Shukhov.",
+                    "GUM's facade along Red Square stretches for about 240 metres."
+                  ]
+                },
+                "approach": {
+                  "ru": "ГУМ — напротив Кремлёвской стены, на Красной площади.",
+                  "en": "GUM faces the Kremlin wall across Red Square."
+                }
+              }
             },
             {
               "id": "moscow-nikolskaya",
               "title": {"ru": "Никольская улица", "en": "Nikolskaya Street"},
-              "coordinate": [55.75750, 37.62280],
+              "coordinate": [55.7575, 37.6228],
               "category": "street",
               "visit": 25,
               "details": {
                 "ru": "Одна из старейших улиц Москвы, ведущая от Красной площади к Лубянке. Здесь стоит здание Синодальной типографии, где в 1564 году напечатали первую датированную русскую книгу, а вечером над головой сияют гирлянды.",
                 "en": "One of Moscow's oldest streets, running from Red Square to Lubyanka. Here stands the Synodal Printing House, near the spot where the first dated Russian book was printed in 1564, and in the evening garlands glow overhead."
               },
-              "wiki": {"ru": "Никольская улица (Москва)", "en": "Nikolskaya Street"}
+              "wiki": {"ru": "Никольская улица (Москва)", "en": "Nikolskaya Street"},
+              "guide": {
+                "story": {
+                  "ru": "Никольская — одна из старейших улиц Москвы; имя ей дал Никольский монастырь. Её называли улицей просвещения: здесь, на Печатном дворе, в 1564 году Иван Фёдоров и Пётр Мстиславец напечатали «Апостол» — первую точно датированную русскую печатную книгу.\n\nНа месте Печатного двора позже выросло здание Синодальной типографии с готическими окнами, солнечными часами и львом с единорогом на фасаде — эмблемой типографии. По соседству работала Славяно-греко-латинская академия, первое высшее учебное заведение Москвы, где учился Михаил Ломоносов.\n\nСегодня улица пешеходная, а над ней почти круглый год висят гирлянды.",
+                  "en": "Nikolskaya is one of Moscow's oldest streets, named after the St Nicholas Monastery. It was called the street of learning: here, at the Printing Yard, Ivan Fyodorov and Pyotr Mstislavets printed the Apostol in 1564 — the first precisely dated Russian printed book.\n\nOn the site of the Printing Yard later rose the Synodal Printing House with Gothic windows, a sundial and a lion and unicorn on the facade — the printers' emblem. Next door was the Slavic Greek Latin Academy, Moscow's first institution of higher learning, where Mikhail Lomonosov studied.\n\nToday the street is pedestrian, with garlands of lights overhead almost all year round."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Льва и единорога на фасаде Синодальной типографии",
+                    "Солнечные часы на том же здании",
+                    "Гирлянды над улицей"
+                  ],
+                  "en": [
+                    "The lion and unicorn on the Synodal Printing House",
+                    "The sundial on the same building",
+                    "The garlands over the street"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Апостол» 1564 года — первая точно датированная русская печатная книга.",
+                    "Михаил Ломоносов учился в Славяно-греко-латинской академии на Никольской."
+                  ],
+                  "en": [
+                    "The 1564 Apostol is the first precisely dated Russian printed book.",
+                    "Mikhail Lomonosov studied at the Slavic Greek Latin Academy on Nikolskaya."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какую книгу напечатали на Никольской в 1564 году?",
+                    "en": "Which book was printed on Nikolskaya in 1564?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Апостол»",
+                      "Первую газету «Ведомости»",
+                      "«Азбуку» для детей"
+                    ],
+                    "en": [
+                      "The Apostol",
+                      "The first newspaper, Vedomosti",
+                      "A children's primer"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Иван Фёдоров и Пётр Мстиславец закончили печатать «Апостол» 1 марта 1564 года.",
+                    "en": "Ivan Fyodorov and Pyotr Mstislavets finished printing the Apostol on 1 March 1564."
+                  }
+                },
+                "approach": {
+                  "ru": "Никольская начинается с Красной площади, между ГУМом и Казанским собором.",
+                  "en": "Nikolskaya starts at Red Square, between GUM and the Kazan Cathedral."
+                }
+              }
             },
             {
               "id": "moscow-bolshoi",
               "title": {"ru": "Большой театр", "en": "Bolshoi Theatre"},
-              "coordinate": [55.76010, 37.61860],
+              "coordinate": [55.7601, 37.6186],
               "category": "theater",
               "visit": 20,
               "details": {
@@ -122,7 +520,54 @@
                 "ru": "Билеты на спектакли расходятся за месяцы — проверяйте официальный сайт, а не перекупщиков.",
                 "en": "Tickets sell out months ahead — use the official website, not resellers."
               },
-              "wiki": {"ru": "Большой театр", "en": "Bolshoi Theatre"}
+              "wiki": {"ru": "Большой театр", "en": "Bolshoi Theatre"},
+              "guide": {
+                "story": {
+                  "ru": "Большой театр ведёт историю с 1776 года, когда князь Пётр Урусов получил от Екатерины II право содержать в Москве театр. Нынешнее здание построил Осип Бове в 1825 году, а после пожара 1853 года его восстановил Альберт Кавос. Колесница Аполлона над портиком — работа Петра Клодта, того самого, что создал коней на Аничковом мосту в Петербурге.\n\nНа этой сцене в 1877 году впервые поставили «Лебединое озеро» Чайковского. Премьера тогда не имела успеха, а сегодня это самый знаменитый балет в мире.\n\nВ 2005–2011 годах театр закрывали на большую реконструкцию: ему вернули историческую позолоту и знаменитую акустику.",
+                  "en": "The Bolshoi traces its history to 1776, when Prince Pyotr Urusov received Catherine the Great's permission to run a theatre in Moscow. The present building was put up by Joseph Bové in 1825 and restored by Alberto Cavos after the fire of 1853. Apollo's chariot above the portico is by Pyotr Klodt, who also made the horses on St Petersburg's Anichkov Bridge.\n\nTchaikovsky's Swan Lake was first staged here in 1877. The premiere was not a success, yet today it is the most famous ballet in the world.\n\nIn 2005–2011 the theatre closed for a major reconstruction that restored its historic gilding and celebrated acoustics."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Колесницу Аполлона над портиком",
+                    "Восемь колонн портика",
+                    "Фонтан на Театральной площади"
+                  ],
+                  "en": [
+                    "Apollo's chariot above the portico",
+                    "The eight columns of the portico",
+                    "The fountain on Teatralnaya Square"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Официальной датой основания Большого театра считается 28 марта 1776 года.",
+                    "«Лебединое озеро» впервые поставили в Большом театре в 1877 году."
+                  ],
+                  "en": [
+                    "The Bolshoi's official founding date is 28 March 1776.",
+                    "Swan Lake was first staged at the Bolshoi in 1877."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой балет Чайковского впервые поставили в Большом театре?",
+                    "en": "Which Tchaikovsky ballet was first staged at the Bolshoi?"
+                  },
+                  "options": {
+                    "ru": ["«Лебединое озеро»", "«Щелкунчик»", "«Спящую красавицу»"],
+                    "en": ["Swan Lake", "The Nutcracker", "The Sleeping Beauty"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Лебединое озеро» показали в Москве в 1877 году, а «Щелкунчика» и «Спящую красавицу» — в Мариинском театре в Петербурге.",
+                    "en": "Swan Lake premiered in Moscow in 1877, while The Nutcracker and The Sleeping Beauty premiered at the Mariinsky in St Petersburg."
+                  }
+                },
+                "approach": {
+                  "ru": "От Никольской — через Театральный проезд, минут 7–10.",
+                  "en": "From Nikolskaya via Teatralny Proyezd — 7–10 minutes."
+                }
+              }
             }
           ]
         },
@@ -132,19 +577,77 @@
             {
               "id": "moscow-revolution-station",
               "title": {"ru": "Станция «Площадь Революции»", "en": "Ploshchad Revolyutsii station"},
-              "coordinate": [55.75670, 37.62200],
+              "coordinate": [55.7567, 37.622],
               "category": "landmark",
               "visit": 15,
               "details": {
                 "ru": "Станция 1938 года с 76 бронзовыми скульптурами советских людей: пограничники, студенты, рабочие. Нос бронзовой собаки пограничника блестит — его трут на удачу.",
                 "en": "A 1938 station with 76 bronze statues of Soviet people: border guards, students, workers. The nose of the border guard's bronze dog shines — people rub it for luck."
               },
-              "wiki": {"ru": "Площадь Революции (станция метро, Москва)", "en": "Ploshchad Revolyutsii (Moscow Metro)"}
+              "wiki": {
+                "ru": "Площадь Революции (станция метро, Москва)",
+                "en": "Ploshchad Revolyutsii (Moscow Metro)"
+              },
+              "guide": {
+                "story": {
+                  "ru": "Станцию открыли в 1938 году. Скульптор Матвей Манизер с помощниками создал для неё 76 бронзовых фигур: революционные матросы и солдаты, рабочие и колхозницы, спортсмены, студенты и пограничник с собакой — история страны в бронзе.\n\nФигуры сидят или стоят на одном колене: в низких арках им не выпрямиться. Пассажиры и студенты трут на удачу нос собаки пограничника, петуха в руках девушки и другие детали — они отполированы до блеска.\n\nПройдите вдоль арок и посмотрите, как меняются герои: от революции — к мирной жизни, учёбе и спорту.",
+                  "en": "The station opened in 1938. The sculptor Matvei Manizer and his assistants made 76 bronze figures for it: revolutionary sailors and soldiers, workers and collective farmers, athletes, students and a border guard with a dog — the country's history in bronze.\n\nThe figures sit or kneel on one knee: they can't stand up straight in the low arches. Passengers and students rub the border guard's dog's nose, the rooster in a girl's hands and other details for luck — they are polished to a shine.\n\nWalk along the arches and watch the heroes change: from revolution to peaceful life, study and sport."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Нос собаки пограничника, отполированный до блеска",
+                    "Петуха в руках девушки",
+                    "Студентов с книгами"
+                  ],
+                  "en": [
+                    "The border guard's dog's nose, polished to a shine",
+                    "The rooster in a girl's hands",
+                    "The students with books"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "На станции 76 бронзовых скульптур работы Матвея Манизера.",
+                    "Студенты перед экзаменами трут на удачу нос собаки пограничника."
+                  ],
+                  "en": [
+                    "The station has 76 bronze sculptures by Matvei Manizer.",
+                    "Students rub the border guard's dog's nose for luck before exams."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что трут на удачу на станции «Площадь Революции»?",
+                    "en": "What do people rub for luck at Ploshchad Revolyutsii station?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Нос собаки пограничника",
+                      "Перила эскалатора",
+                      "Фонари на потолке"
+                    ],
+                    "en": [
+                      "The border guard's dog's nose",
+                      "The escalator handrail",
+                      "The ceiling lamps"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Нос бронзовой собаки так часто трут, что он блестит, как золото.",
+                    "en": "The bronze dog's nose is rubbed so often that it shines like gold."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход в метро — рядом с Красной площадью, у Площади Революции.",
+                  "en": "The metro entrance is by Ploshchad Revolyutsii, next to Red Square."
+                }
+              }
             },
             {
               "id": "moscow-mayakovskaya",
               "title": {"ru": "Станция «Маяковская»", "en": "Mayakovskaya station"},
-              "coordinate": [55.76990, 37.59640],
+              "coordinate": [55.7699, 37.5964],
               "category": "landmark",
               "visit": 15,
               "details": {
@@ -158,61 +661,323 @@
               "wiki": {"ru": "Маяковская (станция метро, Москва)", "en": "Mayakovskaya (Moscow Metro)"},
               "arrival": {
                 "mode": "metro",
-                "note": {"ru": "Пересадка на «Театральной» на зелёную линию, две станции до «Маяковской»", "en": "Change at Teatralnaya to the green line, two stops to Mayakovskaya"}
+                "note": {
+                  "ru": "Пересадка на «Театральной» на зелёную линию, две станции до «Маяковской»",
+                  "en": "Change at Teatralnaya to the green line, two stops to Mayakovskaya"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "«Маяковская» открылась в 1938 году по проекту Алексея Душкина. Колонны, облицованные нержавеющей сталью и розовым уральским родонитом, сделали подземный зал лёгким, как будто это не метро, а светлый дворец.\n\nВ нишах купола — мозаики по эскизам Александра Дейнеки «Сутки советского неба»: самолёты и парашютисты, спортсмены и цветущие ветви на фоне утреннего, дневного и ночного неба. Проект станции получил Гран-при на Всемирной выставке в Нью-Йорке в 1939 году.\n\n6 ноября 1941 года, когда немцы стояли под Москвой, в этом зале прошло торжественное заседание в честь годовщины революции, на котором выступил Сталин.",
+                  "en": "Mayakovskaya opened in 1938 to a design by Alexei Dushkin. Columns clad in stainless steel and pink Ural rhodonite make the underground hall feel light — less a metro station than a bright palace.\n\nThe ceiling niches hold mosaics designed by Alexander Deineka, 'A Day in the Soviet Sky': planes and parachutists, athletes and blossoming branches against the morning, daytime and night sky. The station's design won the Grand Prix at the 1939 World's Fair in New York.\n\nOn 6 November 1941, with German troops outside Moscow, a ceremonial meeting for the anniversary of the revolution was held in this hall, and Stalin spoke at it."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Мозаики Дейнеки в куполах — смотрите вверх",
+                    "Блестящие стальные дуги арок",
+                    "Парашютистов на одной из мозаик"
+                  ],
+                  "en": [
+                    "Deineka's mosaics in the domes — look up",
+                    "The shining steel curves of the arches",
+                    "The parachutists in one of the mosaics"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "6 ноября 1941 года на станции прошло торжественное заседание, на котором выступил Сталин.",
+                    "Мозаики показывают небо от утра до ночи — отсюда название «Сутки советского неба»."
+                  ],
+                  "en": [
+                    "On 6 November 1941 a ceremonial meeting addressed by Stalin was held at the station.",
+                    "The mosaics show the sky from morning to night — hence the title 'A Day in the Soviet Sky'."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что изображено на мозаиках в куполах «Маяковской»?",
+                    "en": "What do the mosaics in Mayakovskaya's domes show?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Небо — самолёты, парашютисты, спортсмены",
+                      "Портреты поэтов",
+                      "Карту Москвы"
+                    ],
+                    "en": [
+                      "The sky — planes, parachutists, athletes",
+                      "Portraits of poets",
+                      "A map of Moscow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Цикл Дейнеки называется «Сутки советского неба»: на мозаиках — небо в разное время дня.",
+                    "en": "Deineka's series is called 'A Day in the Soviet Sky': the mosaics show the sky at different times of day."
+                  }
+                },
+                "approach": {
+                  "ru": "Встаньте в центре зала и посмотрите вверх — мозаики прямо над головой.",
+                  "en": "Stand in the middle of the hall and look up — the mosaics are right above you."
+                }
               }
             },
             {
               "id": "moscow-patriarch",
               "title": {"ru": "Патриаршие пруды", "en": "Patriarch's Ponds"},
-              "coordinate": [55.76330, 37.59270],
+              "coordinate": [55.7633, 37.5927],
               "category": "park",
               "visit": 30,
               "details": {
                 "ru": "Тихий сквер с прудом, где начинается «Мастер и Маргарита» Булгакова. Вокруг — переулки с особняками и кафе, а зимой пруд превращается в каток.",
                 "en": "A quiet square with a pond where Bulgakov's 'The Master and Margarita' begins. Around it are lanes of mansions and cafés, and in winter the pond becomes a skating rink."
               },
-              "wiki": {"ru": "Патриаршие пруды", "en": "Patriarch Ponds"}
+              "wiki": {"ru": "Патриаршие пруды", "en": "Patriarch Ponds"},
+              "guide": {
+                "story": {
+                  "ru": "Патриаршие пруды получили имя от Патриаршей слободы XVII века: здесь патриарх держал пруды, в которых разводили рыбу к его столу. Прудов было три, а сохранился один.\n\nЗдесь начинается «Мастер и Маргарита»: «однажды весною, в час небывало жаркого заката», на скамейке у пруда Берлиоз и Иван Бездомный встретили Воланда. Первая глава романа называется «Никогда не разговаривайте с неизвестными». Любопытно, что трамвай, под который попал Берлиоз, по Патриаршим никогда не ходил.\n\nСегодня вокруг пруда — тихий сквер с липами, кафе в переулках и памятник баснописцу Ивану Крылову с героями его басен.",
+                  "en": "Patriarch's Ponds are named after a 17th-century Patriarch's settlement: the patriarch kept ponds here where fish were raised for his table. There were three ponds; one survives.\n\nThe Master and Margarita begins here: 'one spring, at the hour of an unprecedentedly hot sunset', Berlioz and Ivan Bezdomny met Woland on a bench by the pond. The first chapter is called 'Never Talk to Strangers'. Curiously, no tram — like the one that ran over Berlioz — ever ran past Patriarch's Ponds.\n\nToday there is a quiet square with lime trees around the pond, cafés in the side streets and a monument to the fabulist Ivan Krylov with characters from his fables."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Памятник Ивану Крылову и бронзовых героев его басен",
+                    "Скамейку у воды — как в первой главе романа",
+                    "Павильон на берегу пруда"
+                  ],
+                  "en": [
+                    "The Ivan Krylov monument with bronze characters from his fables",
+                    "A bench by the water, as in the novel's first chapter",
+                    "The pavilion on the bank of the pond"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Когда-то здесь было три пруда, а сохранился один.",
+                    "Трамвай, под который попал Берлиоз, на самом деле по Патриаршим никогда не ходил."
+                  ],
+                  "en": [
+                    "There were once three ponds here; only one survives.",
+                    "The tram that ran over Berlioz never actually ran past Patriarch's Ponds."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кого Берлиоз и Бездомный встретили на Патриарших прудах?",
+                    "en": "Whom did Berlioz and Bezdomny meet at Patriarch's Ponds?"
+                  },
+                  "options": {
+                    "ru": ["Воланда", "Мастера", "Маргариту"],
+                    "en": ["Woland", "The Master", "Margarita"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "С этой встречи начинается роман Булгакова «Мастер и Маргарита».",
+                    "en": "Bulgakov's The Master and Margarita opens with this meeting."
+                  }
+                },
+                "approach": {
+                  "ru": "От «Маяковской» около 10–15 минут пешком через Садовое кольцо и переулки.",
+                  "en": "About 10–15 minutes' walk from Mayakovskaya across the Garden Ring and through side streets."
+                }
+              }
             },
             {
               "id": "moscow-arbat",
               "title": {"ru": "Старый Арбат", "en": "The Arbat"},
-              "coordinate": [55.74950, 37.59160],
+              "coordinate": [55.7495, 37.5916],
               "category": "street",
               "visit": 40,
               "details": {
                 "ru": "Пешеходная улица уличных музыкантов и художников, где жили Пушкин и Булат Окуджава. Загляните в Кривоарбатский переулок к стене Цоя и к необычному дому-мастерской архитектора Мельникова.",
                 "en": "A pedestrian street of musicians and artists where Pushkin and Bulat Okudzhava once lived. Turn into Krivoarbatsky Lane for the Tsoi Wall and the remarkable house-studio of architect Melnikov."
               },
-              "wiki": {"ru": "Арбат", "en": "Arbat Street"}
+              "wiki": {"ru": "Арбат", "en": "Arbat Street"},
+              "guide": {
+                "story": {
+                  "ru": "Арбат — одна из старейших улиц Москвы, её название известно с XV века; по одной из версий, оно пришло из арабского «рабад» — «предместье». В XIX веке здесь жила дворянская Москва: в доме № 53 Пушкин провёл первые месяцы после свадьбы с Натальей Гончаровой в 1831 году — сейчас там музей-квартира.\n\nВ XX веке Арбат воспел Булат Окуджава — «Ах, Арбат, мой Арбат», — и его памятник стоит на углу Плотникова переулка. В 1986 году улицу сделали пешеходной, и она стала улицей уличных музыкантов и художников.\n\nУ Кривоарбатского переулка — стена памяти Виктора Цоя, а в самом переулке — круглый дом-мастерская архитектора Константина Мельникова, шедевр авангарда конца 1920-х.",
+                  "en": "The Arbat is one of Moscow's oldest streets, known since the 15th century; one theory traces its name to the Arabic 'rabad', a suburb. In the 19th century the nobility lived here: Pushkin spent his first months after marrying Natalia Goncharova in 1831 at No. 53 — now a museum flat.\n\nIn the 20th century Bulat Okudzhava sang of the Arbat — 'Oh, Arbat, my Arbat' — and his monument stands at the corner of Plotnikov Lane. In 1986 the street was pedestrianised and became the street of buskers and artists.\n\nBy Krivoarbatsky Lane is the Viktor Tsoi memorial wall, and in the lane itself the round house-studio of the architect Konstantin Melnikov, an avant-garde masterpiece of the late 1920s."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Памятник Булату Окуджаве",
+                    "Стену Цоя у Кривоарбатского переулка",
+                    "Шестигранные окна дома Мельникова"
+                  ],
+                  "en": [
+                    "The monument to Bulat Okudzhava",
+                    "The Tsoi wall by Krivoarbatsky Lane",
+                    "The hexagonal windows of the Melnikov House"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пушкин жил на Арбате, 53, сразу после свадьбы в 1831 году.",
+                    "Старый Арбат стал пешеходным в 1986 году."
+                  ],
+                  "en": [
+                    "Pushkin lived at 53 Arbat right after his wedding in 1831.",
+                    "The Old Arbat became pedestrian in 1986."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой поэт поселился на Арбате сразу после свадьбы?",
+                    "en": "Which poet settled on the Arbat right after his wedding?"
+                  },
+                  "options": {
+                    "ru": ["Александр Пушкин", "Сергей Есенин", "Михаил Лермонтов"],
+                    "en": ["Alexander Pushkin", "Sergei Yesenin", "Mikhail Lermontov"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В 1831 году Пушкин с Натальей Гончаровой снимал квартиру в доме № 53 — сейчас там музей.",
+                    "en": "In 1831 Pushkin and Natalia Goncharova rented a flat at No. 53 — now a museum."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 минут пешком через тихие переулки к Арбатской площади.",
+                  "en": "About 20 minutes' walk through quiet side streets to Arbatskaya Square."
+                }
+              }
             },
             {
               "id": "moscow-christ-saviour",
               "title": {"ru": "Храм Христа Спасителя", "en": "Cathedral of Christ the Saviour"},
-              "coordinate": [55.74460, 37.60550],
+              "coordinate": [55.7446, 37.6055],
               "category": "church",
               "visit": 30,
               "details": {
                 "ru": "Самый большой православный храм России, воздвигнутый в память о победе в войне 1812 года, взорванный в 1931 году и восстановленный в 1990-х. С Патриаршего моста открывается вид на Кремль и реку.",
                 "en": "Russia's largest Orthodox church, built to commemorate the victory of 1812, blown up in 1931 and rebuilt in the 1990s. The Patriarch's Bridge in front offers a view of the Kremlin and the river."
               },
-              "wiki": {"ru": "Храм Христа Спасителя", "en": "Cathedral of Christ the Saviour"}
+              "wiki": {"ru": "Храм Христа Спасителя", "en": "Cathedral of Christ the Saviour"},
+              "guide": {
+                "story": {
+                  "ru": "Храм Христа Спасителя задумали как памятник победе над Наполеоном: манифест об этом Александр I подписал в 1812 году. Строили его по проекту Константина Тона с 1839 по 1883 год, а на мраморных досках внутри высекли имена офицеров, погибших в войнах тех лет.\n\nВ 1931 году храм взорвали. На его месте собирались поставить гигантский Дворец Советов, но его так и не построили, а с 1960 года здесь работал открытый бассейн «Москва». В 1990-х храм восстановили, и в 2000 году его освятили.\n\nВысота храма — 103 метра. С пешеходного Патриаршего моста за ним открывается один из лучших видов на Кремль и реку.",
+                  "en": "The Cathedral of Christ the Saviour was conceived as a monument to the victory over Napoleon: Alexander I signed a manifesto about it in 1812. It was built to Konstantin Thon's design from 1839 to 1883, and the names of officers killed in the wars of those years were carved on marble plaques inside.\n\nIn 1931 the cathedral was blown up. A gigantic Palace of Soviets was to rise in its place but was never built, and from 1960 the open-air Moskva swimming pool operated here. The cathedral was rebuilt in the 1990s and consecrated in 2000.\n\nIt is 103 metres tall. From the Patriarch's footbridge behind it there is one of the best views of the Kremlin and the river."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Патриарший мост и вид с него на Кремль",
+                    "Горельефы на фасадах храма",
+                    "Золотой купол над набережной"
+                  ],
+                  "en": [
+                    "The Patriarch's Bridge and its view of the Kremlin",
+                    "The high reliefs on the facades",
+                    "The golden dome above the embankment"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Первый храм строили 44 года — с 1839 по 1883 год.",
+                    "Высота храма — 103 метра."
+                  ],
+                  "en": [
+                    "The original cathedral took 44 years to build, from 1839 to 1883.",
+                    "The cathedral is 103 metres tall."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что было на месте храма Христа Спасителя с 1960 года до 1990-х?",
+                    "en": "What was on the site of the cathedral from 1960 until the 1990s?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Открытый бассейн «Москва»",
+                      "Дворец Советов",
+                      "Парк аттракционов"
+                    ],
+                    "en": [
+                      "The open-air Moskva swimming pool",
+                      "The Palace of Soviets",
+                      "An amusement park"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Дворец Советов так и не построили, а в котловане для него сделали огромный открытый бассейн.",
+                    "en": "The Palace of Soviets was never built, and a huge open-air pool was made in its foundation pit."
+                  }
+                },
+                "approach": {
+                  "ru": "От Арбата около 15 минут пешком по Гоголевскому бульвару.",
+                  "en": "About 15 minutes' walk from the Arbat along Gogolevsky Boulevard."
+                }
+              }
             },
             {
               "id": "moscow-gorky-park",
               "title": {"ru": "Парк Горького и «Музеон»", "en": "Gorky Park and Muzeon"},
-              "coordinate": [55.72980, 37.60110],
+              "coordinate": [55.7298, 37.6011],
               "category": "park",
               "visit": 60,
               "details": {
                 "ru": "Главный парк Москвы с набережной, велодорожками и музеем «Гараж», а по соседству — «Музеон», где под открытым небом собраны советские памятники. Отсюда вдоль Нескучного сада можно дойти до Воробьёвых гор.",
                 "en": "Moscow's main park with an embankment, cycle paths and the Garage museum, and next door Muzeon, an open-air collection of Soviet monuments. From here a path through Neskuchny Garden leads towards Sparrow Hills."
               },
-              "wiki": {"ru": "Парк Горького", "en": "Gorky Park (Moscow)"}
+              "wiki": {"ru": "Парк Горького", "en": "Gorky Park (Moscow)"},
+              "guide": {
+                "story": {
+                  "ru": "Парк Горького открылся в 1928 году как первый в стране Центральный парк культуры и отдыха — с аттракционами, танцплощадками и парашютной вышкой. Позже он прославился летним кинотеатром и огромным зимним катком, а в 2011 году его обновили: убрали старые аттракционы, сделали газоны, велодорожки и набережную.\n\nВ парке — «Гараж», музей современного искусства в бывшем ресторане «Времена года» 1960-х годов, перестроенном бюро Рема Колхаса. По соседству — «Музеон», куда после 1991 года свезли снятые с постаментов советские памятники, в том числе «Железного Феликса» с Лубянки.\n\nОтсюда вдоль Нескучного сада по набережной можно дойти до Воробьёвых гор — одна из лучших прогулок Москвы.",
+                  "en": "Gorky Park opened in 1928 as the country's first Central Park of Culture and Leisure, with rides, dance floors and a parachute tower. Later it became famous for its open-air cinema and huge winter ice rink, and in 2011 it was renovated: the old rides were removed and lawns, cycle paths and an embankment were added.\n\nThe park is home to Garage, a contemporary art museum in a former 1960s restaurant, the Vremena Goda, rebuilt by Rem Koolhaas's firm. Next door is Muzeon, where Soviet monuments taken off their pedestals after 1991 were brought, including 'Iron Felix' from Lubyanka.\n\nFrom here you can walk along the embankment past Neskuchny Garden to Sparrow Hills — one of Moscow's best walks."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Главную арку-колоннаду у входа",
+                    "Памятник Дзержинскому в «Музеоне»",
+                    "Набережную вдоль Москвы-реки"
+                  ],
+                  "en": [
+                    "The colonnaded main entrance arch",
+                    "The Dzerzhinsky statue at Muzeon",
+                    "The embankment along the Moskva River"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Парк Горького открылся в 1928 году.",
+                    "В «Музеоне» собраны советские памятники, снятые с улиц после 1991 года."
+                  ],
+                  "en": [
+                    "Gorky Park opened in 1928.",
+                    "Muzeon gathers Soviet monuments removed from the streets after 1991."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой знаменитый памятник после 1991 года перевезли в «Музеон»?",
+                    "en": "Which famous monument was moved to Muzeon after 1991?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Железного Феликса» — Дзержинского",
+                      "Медного всадника",
+                      "Минина и Пожарского"
+                    ],
+                    "en": [
+                      "'Iron Felix' — Dzerzhinsky",
+                      "The Bronze Horseman",
+                      "Minin and Pozharsky"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Памятник Дзержинскому сняли с Лубянской площади в августе 1991 года.",
+                    "en": "The Dzerzhinsky statue was removed from Lubyanka Square in August 1991."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 25 минут пешком вдоль набережной и через Крымский мост.",
+                  "en": "About 25 minutes' walk along the embankment and across the Krymsky Bridge."
+                }
+              }
             },
             {
               "id": "moscow-sparrow-hills",
               "title": {"ru": "Воробьёвы горы", "en": "Sparrow Hills"},
-              "coordinate": [55.71050, 37.55380],
+              "coordinate": [55.7105, 37.5538],
               "category": "viewpoint",
               "visit": 40,
               "details": {
@@ -226,7 +991,347 @@
               "wiki": {"ru": "Воробьёвы горы", "en": "Sparrow Hills"},
               "arrival": {
                 "mode": "metro",
-                "note": {"ru": "От «Парка культуры» две станции по красной линии до «Воробьёвых гор» — станция прямо на мосту над рекой", "en": "From Park Kultury, two stops on the red line to Vorobyovy Gory — a station right on a bridge over the river"}
+                "note": {
+                  "ru": "От «Парка культуры» две станции по красной линии до «Воробьёвых гор» — станция прямо на мосту над рекой",
+                  "en": "From Park Kultury, two stops on the red line to Vorobyovy Gory — a station right on a bridge over the river"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Воробьёвы горы — высокий правый берег Москвы-реки, откуда город виден как на ладони. Название, по преданию, пошло от села Воробьёво, купленного в XV веке у священника по прозвищу Воробей. Здесь в 1827 году юные Александр Герцен и Николай Огарёв поклялись посвятить жизнь борьбе за свободу.\n\nС 1935 по 1999 год горы назывались Ленинскими. За смотровой площадкой — главное здание МГУ, построенное в 1953 году: вместе со шпилем его высота — 240 метров, это самая высокая из семи сталинских высоток.\n\nОтсюда видно «Лужники», Москву-Сити и купола центра. Вечером на площадке собираются байкеры, музыканты и туристы, а внизу горят огни города.",
+                  "en": "Sparrow Hills is the high right bank of the Moskva River, with the whole city spread out below. The name is said to come from the village of Vorobyovo, bought in the 15th century from a priest nicknamed Vorobey, 'Sparrow'. Here in 1827 the young Alexander Herzen and Nikolai Ogarev swore to devote their lives to the struggle for freedom.\n\nFrom 1935 to 1999 the hills were called Lenin Hills. Behind the viewpoint stands the main building of Moscow State University, completed in 1953: 240 metres tall with its spire, it is the highest of Stalin's seven skyscrapers.\n\nFrom here you can see Luzhniki, Moscow City and the domes of the centre. In the evening bikers, musicians and tourists gather at the viewpoint as the city lights come on below."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Москву-Сити на горизонте",
+                    "Стадион «Лужники» внизу",
+                    "Звезду на шпиле МГУ"
+                  ],
+                  "en": [
+                    "Moscow City on the horizon",
+                    "Luzhniki Stadium below",
+                    "The star on the university's spire"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Главное здание МГУ высотой 240 метров со шпилем — самая высокая из сталинских высоток.",
+                    "В 1935–1999 годах Воробьёвы горы назывались Ленинскими."
+                  ],
+                  "en": [
+                    "The 240-metre main building of Moscow State University is the tallest of Stalin's skyscrapers.",
+                    "From 1935 to 1999 Sparrow Hills were called Lenin Hills."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто дал клятву на Воробьёвых горах в 1827 году?",
+                    "en": "Who took an oath on Sparrow Hills in 1827?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Герцен и Огарёв",
+                      "Пушкин и Дельвиг",
+                      "Толстой и Тургенев"
+                    ],
+                    "en": [
+                      "Herzen and Ogarev",
+                      "Pushkin and Delvig",
+                      "Tolstoy and Turgenev"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Юные друзья поклялись бороться за свободу — и Герцен описал эту сцену в «Былом и думах».",
+                    "en": "The young friends swore to fight for freedom — Herzen described the scene in 'My Past and Thoughts'."
+                  }
+                },
+                "approach": {
+                  "ru": "От станции «Воробьёвы горы» поднимитесь по склону к смотровой — минут 15 в горку.",
+                  "en": "From Vorobyovy Gory station climb the slope to the viewpoint — about 15 minutes uphill."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moscow-kolomenskoye-tsaritsyno",
+      "title": {"ru": "Коломенское и Царицыно", "en": "Kolomenskoye and Tsaritsyno"},
+      "summary": {
+        "ru": "Две царские усадьбы на юге Москвы: шатровая церковь Вознесения над Москвой-рекой, таинственный Голосов овраг и деревянный дворец Алексея Михайловича в Коломенском, а потом — сказочный дворец Екатерины II и поющий фонтан в Царицыне.",
+        "en": "Two royal estates in the south of Moscow: the tent-roofed Church of the Ascension above the Moskva River, the mysterious Golosov ravine and Tsar Alexei's wooden palace at Kolomenskoye, then Catherine the Great's fairy-tale palace and the singing fountain at Tsaritsyno."
+      },
+      "intro": {
+        "ru": "День на юге Москвы: Коломенское пешком, около 4 км (парк большой — заложите три часа), затем две станции на метро от «Каширской» до «Царицына». В парках много холмов и лестниц — нужна удобная обувь.",
+        "en": "A day in south Moscow: Kolomenskoye on foot, about 4 km (the park is big — allow three hours), then two metro stops from Kashirskaya to Tsaritsyno. The parks are full of hills and steps — wear comfortable shoes."
+      },
+      "emoji": "🏰",
+      "tags": ["walk", "metro"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "moscow-ascension",
+              "title": {
+                "ru": "Церковь Вознесения в Коломенском",
+                "en": "Church of the Ascension, Kolomenskoye"
+              },
+              "coordinate": [55.6677, 37.6712],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белая шатровая церковь 1532 года на высоком берегу Москвы-реки, построенная, по преданию, в честь рождения долгожданного наследника — будущего Ивана Грозного. Объект Всемирного наследия ЮНЕСКО.",
+                "en": "A white tent-roofed church of 1532 on the high bank of the Moskva River, built, tradition says, to celebrate the birth of a long-awaited heir — the future Ivan the Terrible. A UNESCO World Heritage Site."
+              },
+              "wiki": {
+                "ru": "Церковь Вознесения в Коломенском",
+                "en": "Church of the Ascension, Kolomenskoye"
+              },
+              "guide": {
+                "story": {
+                  "ru": "Коломенское было летней резиденцией великих князей и царей, и в 1532 году здесь поставили церковь Вознесения. По преданию, Василий III построил её в благодарность за рождение долгожданного сына — будущего Ивана Грозного.\n\nХрам не похож на привычные церкви: вместо купола — высокий каменный шатёр, устремлённый в небо, а сам он напоминает белую свечу над рекой. Это одна из первых каменных шатровых церквей Руси; строил её, как считают, итальянский мастер Петрок Малый.\n\nВокруг храма идёт галерея-гульбище, откуда открывается вид на Москву-реку. В 1994 году церковь включили в список Всемирного наследия ЮНЕСКО.",
+                  "en": "Kolomenskoye was the summer residence of grand princes and tsars, and in 1532 the Church of the Ascension was built here. Tradition says Vasily III raised it in thanksgiving for the birth of his long-awaited son, the future Ivan the Terrible.\n\nIt is unlike ordinary churches: instead of a dome it has a tall stone tent roof soaring skywards, and the whole church looks like a white candle above the river. It is one of the first stone tent-roofed churches in Rus, built, it is believed, by the Italian master Petrok Maly.\n\nA gallery runs around the church with a view of the Moskva River. In 1994 the church was inscribed on the UNESCO World Heritage List."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Каменный шатёр вместо купола",
+                    "Галерею-гульбище вокруг храма",
+                    "Вид на Москву-реку с откоса"
+                  ],
+                  "en": [
+                    "The stone tent roof instead of a dome",
+                    "The gallery around the church",
+                    "The view of the Moskva River from the bluff"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь построена в 1532 году — это одна из первых каменных шатровых церквей Руси.",
+                    "В 1994 году её включили в список Всемирного наследия ЮНЕСКО."
+                  ],
+                  "en": [
+                    "The church was built in 1532 — one of the first stone tent-roofed churches in Rus.",
+                    "It was inscribed on the UNESCO World Heritage List in 1994."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что французский композитор Гектор Берлиоз, побывав в Коломенском, сказал: «Ничто так не поразило меня в жизни, как этот памятник древнерусского зодчества».",
+                  "en": "They say the French composer Hector Berlioz, after visiting Kolomenskoye, declared: 'Nothing in my life has struck me like this monument of old Russian architecture.'"
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь какого события, по преданию, построили церковь Вознесения?",
+                    "en": "According to tradition, what event was the Church of the Ascension built to celebrate?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Рождения будущего Ивана Грозного",
+                      "Взятия Казани",
+                      "Победы над Наполеоном"
+                    ],
+                    "en": [
+                      "The birth of the future Ivan the Terrible",
+                      "The capture of Kazan",
+                      "The victory over Napoleon"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Василий III долго ждал наследника и, по преданию, построил храм в благодарность за рождение сына.",
+                    "en": "Vasily III waited long for an heir and, tradition says, built the church in thanksgiving for his son."
+                  }
+                },
+                "approach": {
+                  "ru": "От метро «Коломенская» около 15 минут пешком через парк.",
+                  "en": "About 15 minutes' walk through the park from Kolomenskaya metro station."
+                }
+              }
+            },
+            {
+              "id": "moscow-golosov",
+              "title": {"ru": "Голосов овраг", "en": "Golosov Ravine"},
+              "coordinate": [55.66306, 37.66278],
+              "category": "nature",
+              "visit": 30,
+              "details": {
+                "ru": "Глубокий овраг с ручьём и огромными валунами — Девичьим и Гусь-камнем, вокруг которых сложилось множество легенд о загадочных туманах и исчезновениях.",
+                "en": "A deep ravine with a stream and huge boulders — the Maiden Stone and the Goose Stone — surrounded by legends of mysterious fogs and disappearances."
+              },
+              "wiki": {"ru": "Голосов овраг"},
+              "guide": {
+                "story": {
+                  "ru": "Голосов овраг прорезает высокий берег Москвы-реки в Коломенском. По дну бежит ручей, бьют родники, а на склоне лежат огромные валуны, принесённые ледником, — Девичий камень и Гусь-камень. Когда-то здесь, как считают, было языческое святилище.\n\nДевичьему камню приписывают силу исполнять желания, и на нём часто лежат монетки и ленточки. А сам овраг окутан легендами о зелёном тумане, в котором будто бы можно потеряться во времени.\n\nДаже если не верить в чудеса, это одно из самых живописных мест Москвы: кажется, что вы далеко от большого города.",
+                  "en": "The Golosov ravine cuts through the high bank of the Moskva River at Kolomenskoye. A stream runs along the bottom, springs bubble up, and on the slope lie huge glacial boulders — the Maiden Stone and the Goose Stone. A pagan sanctuary is believed to have stood here once.\n\nThe Maiden Stone is said to grant wishes, and coins and ribbons are often left on it. The ravine itself is wrapped in legends of a green fog in which you can supposedly get lost in time.\n\nEven if you don't believe in miracles, it is one of the most picturesque spots in Moscow — it feels far from the big city."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Девичий камень с монетками",
+                    "Ручей и родники на дне оврага",
+                    "Мостики через ручей"
+                  ],
+                  "en": [
+                    "The Maiden Stone with coins on it",
+                    "The stream and springs at the bottom",
+                    "The footbridges over the stream"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Валуны в овраге принесены ледником.",
+                    "Голосов овраг прорезает высокий берег Москвы-реки."
+                  ],
+                  "en": [
+                    "The boulders in the ravine were brought by a glacier.",
+                    "The Golosov ravine cuts through the high bank of the Moskva River."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, однажды двое крестьян, возвращаясь домой через овраг, попали в зелёный туман и вышли из него через двадцать один год, уверенные, что прошло лишь несколько часов.",
+                  "en": "They say two peasants walking home through the ravine were caught in a green fog and came out twenty-one years later, convinced only a few hours had passed."
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком на юг от церкви Вознесения, вниз по склону.",
+                  "en": "About 10 minutes' walk south of the Church of the Ascension, down the slope."
+                }
+              }
+            },
+            {
+              "id": "moscow-alexei-palace",
+              "title": {"ru": "Дворец Алексея Михайловича", "en": "Tsar Alexei's Palace"},
+              "coordinate": [55.65556, 37.65694],
+              "category": "palace",
+              "visit": 60,
+              "details": {
+                "ru": "Огромный деревянный дворец царя Алексея Михайловича — «восьмое чудо света» XVII века, воссозданный в 2010 году по старинным обмерам: десятки теремов с кровлями-бочками и расписные палаты.",
+                "en": "Tsar Alexei Mikhailovich's huge wooden palace — a 17th-century 'eighth wonder of the world', rebuilt in 2010 from old measurements: dozens of towers with barrel roofs and painted chambers."
+              },
+              "wiki": {"ru": "Коломенский дворец"},
+              "guide": {
+                "story": {
+                  "ru": "В 1667–1672 годах царь Алексей Михайлович построил в Коломенском деревянный дворец, поражавший современников: около 270 комнат, разноцветные кровли-бочки и шатры, резные наличники. Иностранцы называли его восьмым чудом света. В 1768 году обветшавший дворец разобрали по приказу Екатерины II, но успели сделать обмеры и модель.\n\nПо ним в 2010 году дворец воссоздали в натуральную величину неподалёку от прежнего места. Внутри — царские и царицыны покои, расписанные цветами и библейскими сюжетами, изразцовые печи и мебель XVII века.\n\nЗдесь бывал в детстве и будущий Пётр I, сын Алексея Михайловича.",
+                  "en": "In 1667–1672 Tsar Alexei Mikhailovich built a wooden palace at Kolomenskoye that amazed his contemporaries: some 270 rooms, colourful barrel and tent roofs and carved window frames. Foreigners called it the eighth wonder of the world. In 1768 the dilapidated palace was dismantled on Catherine the Great's orders, but measurements and a model were made first.\n\nFrom them the palace was rebuilt full size in 2010, not far from the original site. Inside are the tsar's and tsaritsa's apartments painted with flowers and Bible scenes, tiled stoves and 17th-century furniture.\n\nThe future Peter the Great, Alexei Mikhailovich's son, came here as a child."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Кровли-«бочки» и шатры над теремами",
+                    "Расписные потолки царских покоев",
+                    "Изразцовые печи"
+                  ],
+                  "en": [
+                    "The barrel and tent roofs over the towers",
+                    "The painted ceilings of the royal apartments",
+                    "The tiled stoves"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Оригинальный дворец разобрали в 1768 году, а в 2010-м воссоздали по обмерам.",
+                    "Во дворце было около 270 комнат."
+                  ],
+                  "en": [
+                    "The original palace was dismantled in 1768 and rebuilt from measurements in 2010.",
+                    "The palace had some 270 rooms."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как иностранцы называли деревянный дворец в Коломенском?",
+                    "en": "What did foreigners call the wooden palace at Kolomenskoye?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Восьмым чудом света",
+                      "Северным Версалем",
+                      "Деревянной Венецией"
+                    ],
+                    "en": [
+                      "The eighth wonder of the world",
+                      "The northern Versailles",
+                      "Wooden Venice"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Огромный дворец с сотнями комнат и пёстрыми кровлями поражал всех, кто его видел.",
+                    "en": "The huge palace with hundreds of rooms and colourful roofs amazed everyone who saw it."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15 минут пешком через парк на юго-запад, к Дьякову.",
+                  "en": "About 15 minutes' walk south-west through the park, towards Dyakovo."
+                }
+              }
+            },
+            {
+              "id": "moscow-tsaritsyno",
+              "title": {"ru": "Царицыно", "en": "Tsaritsyno"},
+              "coordinate": [55.6152, 37.6829],
+              "category": "palace",
+              "visit": 90,
+              "details": {
+                "ru": "Усадьба Екатерины II с «готическим» Большим дворцом, который достроили лишь в 2007 году, мостами, павильонами, каскадом прудов и поющим фонтаном.",
+                "en": "Catherine the Great's estate with its 'Gothic' Grand Palace, completed only in 2007, bridges, pavilions, a chain of ponds and a singing fountain."
+              },
+              "wiki": {"ru": "Царицыно (музей-заповедник)", "en": "Tsaritsyno Palace"},
+              "arrival": {
+                "mode": "metro",
+                "note": {
+                  "ru": "От «Каширской» две станции по зелёной линии до «Царицына»",
+                  "en": "From Kashirskaya two stops on the green line to Tsaritsyno"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1775 году Екатерина II купила подмосковное имение Чёрная Грязь и переименовала его в Царицыно. Строить дворец поручили Василию Баженову: он создал необычный ансамбль в «готическом» стиле из красного кирпича и белого камня. Но в 1785 году императрица, осмотрев почти готовый дворец, велела его снести.\n\nНовый Большой дворец строил Матвей Казаков, но после смерти Екатерины работы остановились, и почти двести лет дворец стоял без крыши. Его достроили только в 2007 году.\n\nСегодня Царицыно — один из самых красивых парков Москвы: фигурные мосты, павильоны, каскад прудов и поющий фонтан, где струи танцуют под музыку.",
+                  "en": "In 1775 Catherine the Great bought the estate of Chyornaya Gryaz near Moscow and renamed it Tsaritsyno. She commissioned Vasily Bazhenov to build a palace, and he created an unusual 'Gothic' ensemble of red brick and white stone. But in 1785, after inspecting the almost finished palace, the empress ordered it pulled down.\n\nThe new Grand Palace was built by Matvei Kazakov, but after Catherine's death work stopped, and for almost two hundred years the palace stood without a roof. It was completed only in 2007.\n\nToday Tsaritsyno is one of Moscow's loveliest parks: ornamental bridges, pavilions, a chain of ponds and a singing fountain whose jets dance to music."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Большой дворец из красного кирпича с белыми деталями",
+                    "Фигурный мост через овраг",
+                    "Поющий фонтан на пруду"
+                  ],
+                  "en": [
+                    "The red-brick Grand Palace with white details",
+                    "The ornamental bridge over the ravine",
+                    "The singing fountain on the pond"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Екатерина II купила имение в 1775 году.",
+                    "Большой дворец достроили только в 2007 году."
+                  ],
+                  "en": [
+                    "Catherine the Great bought the estate in 1775.",
+                    "The Grand Palace was completed only in 2007."
+                  ]
+                },
+                "legend": {
+                  "ru": "Почему Екатерина велела снести дворец Баженова, спорят до сих пор. Говорят, ей не понравились тесные покои, по другой версии — она увидела в узорах масонские символы, а по третьей — была недовольна, что дворец задуман на две равные половины, для неё и для нелюбимого сына Павла.",
+                  "en": "People still argue why Catherine had Bazhenov's palace pulled down. Some say she disliked the cramped rooms, others that she saw Masonic symbols in its ornament, and others that she objected to its two equal halves — for herself and for her unloved son Paul."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько лет Большой дворец в Царицыне стоял недостроенным?",
+                    "en": "For how long did the Grand Palace at Tsaritsyno stand unfinished?"
+                  },
+                  "options": {
+                    "ru": ["Около двухсот лет", "Десять лет", "Пятьдесят лет"],
+                    "en": ["About two hundred years", "Ten years", "Fifty years"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Работы остановились в конце XVIII века, а закончили дворец только в 2007 году.",
+                    "en": "Work stopped at the end of the 18th century, and the palace was completed only in 2007."
+                  }
+                },
+                "approach": {
+                  "ru": "От «Царицына» около 10 минут пешком через парк к дворцу.",
+                  "en": "About 10 minutes' walk through the park from Tsaritsyno station to the palace."
+                }
               }
             }
           ]

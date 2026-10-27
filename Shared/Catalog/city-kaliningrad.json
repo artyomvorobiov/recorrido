@@ -1,0 +1,653 @@
+{
+  "city": {
+    "id": "kaliningrad",
+    "name": {"ru": "Калининград", "en": "Kaliningrad"},
+    "region": {"ru": "Калининградская область", "en": "Kaliningrad Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Бывший Кёнигсберг на Балтике: остров Канта с готическим собором и могилой философа, Рыбная деревня, Музей Мирового океана с настоящими кораблями, Королевские ворота и янтарь. А в часе езды — дюны и «танцующий лес» Куршской косы.",
+      "en": "The former Königsberg on the Baltic: Kant Island with its Gothic cathedral and the philosopher's tomb, the Fishing Village, the Museum of the World Ocean with real ships, the King's Gate and amber. An hour away are the dunes and the 'dancing forest' of the Curonian Spit."
+    },
+    "gettingThere": {
+      "ru": "Удобнее всего самолётом: из Москвы около двух часов полёта, из Петербурга — около полутора. По области удобно ездить на машине, а к морю ходят электрички.",
+      "en": "Flying is easiest: about two hours from Moscow and an hour and a half from St Petersburg. Within the region a car is handy, and local trains run to the seaside."
+    },
+    "coordinate": [54.7104, 20.5],
+    "emoji": "⚓",
+    "size": "medium",
+    "tags": ["baltic"],
+    "wiki": {"ru": "Калининград", "en": "Kaliningrad"},
+    "guide": {
+      "story": {
+        "ru": "Кёнигсберг основали в 1255 году рыцари Тевтонского ордена и назвали «Королевской горой» в честь чешского короля Оттокара II, участвовавшего в походе. Город стал столицей Пруссии: здесь короновались прусские короли, работал университет Альбертина, а философ Иммануил Кант прожил всю жизнь, почти не выезжая из родного города.\n\nГород успел побывать и российским: в 1758–1762 годах, во время Семилетней войны, он присягнул императрице Елизавете — среди присягнувших был и Кант. В 1944 году исторический центр почти полностью разрушили бомбардировки, в апреле 1945 года город взяли советские войска, а в 1946 году его переименовали в Калининград.\n\nСегодня Калининград — самый западный большой город России: готический собор и форты соседствуют с советскими кварталами, а море, янтарь и Куршская коса совсем рядом.",
+        "en": "Königsberg was founded in 1255 by the knights of the Teutonic Order and named 'King's Mountain' in honour of the Bohemian king Ottokar II, who took part in the campaign. It became the capital of Prussia: Prussian kings were crowned here, the Albertina university flourished, and the philosopher Immanuel Kant spent his whole life here, hardly ever leaving his native city.\n\nThe city was briefly Russian too: in 1758–1762, during the Seven Years' War, it swore allegiance to Empress Elizabeth — Kant among them. In 1944 bombing destroyed almost the entire historic centre, in April 1945 Soviet troops took the city, and in 1946 it was renamed Kaliningrad.\n\nToday Kaliningrad is Russia's westernmost big city: a Gothic cathedral and forts stand beside Soviet blocks, and the sea, amber and the Curonian Spit are close by."
+      },
+      "history": [
+        {
+          "year": "1255",
+          "text": {
+            "ru": "Тевтонский орден основывает Кёнигсберг.",
+            "en": "The Teutonic Order founds Königsberg."
+          }
+        },
+        {
+          "year": "1544",
+          "text": {"ru": "Основан университет Альбертина.", "en": "The Albertina university is founded."}
+        },
+        {
+          "year": "1724",
+          "text": {"ru": "В Кёнигсберге родился Иммануил Кант.", "en": "Immanuel Kant is born in Königsberg."}
+        },
+        {
+          "year": "1736",
+          "text": {
+            "ru": "Леонард Эйлер решает задачу о семи кёнигсбергских мостах.",
+            "en": "Leonhard Euler solves the problem of the Seven Bridges of Königsberg."
+          }
+        },
+        {
+          "year": "1758–1762",
+          "text": {
+            "ru": "Кёнигсберг в составе Российской империи.",
+            "en": "Königsberg is part of the Russian Empire."
+          }
+        },
+        {
+          "year": "1945",
+          "text": {"ru": "Город взят советскими войсками.", "en": "Soviet troops take the city."}
+        },
+        {
+          "year": "1946",
+          "text": {"ru": "Кёнигсберг переименован в Калининград.", "en": "Königsberg is renamed Kaliningrad."}
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Копчёную балтийскую рыбу — угря, салаку, камбалу",
+          "Марципан по старинному кёнигсбергскому рецепту",
+          "Клопсы — кёнигсбергские тефтели в сливочном соусе с каперсами"
+        ],
+        "en": [
+          "Smoked Baltic fish — eel, sprats, flounder",
+          "Marzipan made the old Königsberg way",
+          "Klopse — Königsberg meatballs in a cream and caper sauce"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Янтарь — украшения и необработанные кусочки",
+          "Марципан в коробке с видами Кёнигсберга",
+          "Открытки и магниты с собором и Королевскими воротами"
+        ],
+        "en": [
+          "Amber — jewellery and raw pieces",
+          "Marzipan in a box with views of Königsberg",
+          "Postcards and magnets with the cathedral and the King's Gate"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Почти весь янтарь мира добывают в Калининградской области — покупайте его в проверенных магазинах",
+          "На Куршскую косу удобнее ехать на машине или с экскурсией; за въезд в национальный парк берут плату",
+          "Погода на Балтике переменчивая — возьмите ветровку даже летом"
+        ],
+        "en": [
+          "Nearly all the world's amber is mined in the Kaliningrad region — buy it from reputable shops",
+          "The Curonian Spit is easiest by car or on a tour; there is a fee to enter the national park",
+          "Baltic weather is changeable — bring a windbreaker even in summer"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "kaliningrad-day",
+      "title": {
+        "ru": "Калининград: от океана до Королевских ворот",
+        "en": "Kaliningrad: from the ocean to the King's Gate"
+      },
+      "summary": {
+        "ru": "Музей Мирового океана с настоящими кораблями, остров Канта с собором, Рыбная деревня, Королевские ворота и Музей янтаря в старинной башне у Верхнего озера.",
+        "en": "The Museum of the World Ocean with real ships, Kant Island and its cathedral, the Fishing Village, the King's Gate and the Amber Museum in an old tower by the Upper Lake."
+      },
+      "intro": {
+        "ru": "Пеший день, около 6 км вдоль Преголи и через старые укрепления. На Музей Мирового океана заложите два часа, на собор — час; пообедать удобно в Рыбной деревне.",
+        "en": "A day on foot, about 6 km along the Pregolya and through the old fortifications. Allow two hours for the Museum of the World Ocean and an hour for the cathedral; the Fishing Village is a handy lunch stop."
+      },
+      "emoji": "⚓",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kaliningrad-ocean",
+              "title": {"ru": "Музей Мирового океана", "en": "Museum of the World Ocean"},
+              "coordinate": [54.707, 20.5015],
+              "category": "museum",
+              "visit": 120,
+              "details": {
+                "ru": "Музей на набережной Преголи с настоящими кораблями: научное судно «Витязь», подводная лодка, а в залах — аквариумы, скелет кита и история мореплавания.",
+                "en": "A museum on the Pregolya embankment with real ships: the research vessel Vityaz and a submarine, and inside aquariums, a whale skeleton and the history of seafaring."
+              },
+              "wiki": {"ru": "Музей Мирового океана"},
+              "guide": {
+                "story": {
+                  "ru": "Музей Мирового океана открылся в 1990 году, и главная его гордость стоит прямо у причала: научно-исследовательское судно «Витязь». В 1957 году его экспедиция измерила глубину Марианской впадины — около 11 километров, самое глубокое место океана.\n\nРядом пришвартована подводная лодка Б-413: в неё можно спуститься и пройти по тесным отсекам, представляя, как жили подводники. В залах музея — аквариумы с рыбами и кораллами, скелет огромного кита и рассказ о том, как люди изучали океан.\n\nМузей растянут вдоль реки, так что прогулка по нему — это ещё и прогулка по набережной.",
+                  "en": "The Museum of the World Ocean opened in 1990, and its pride is moored right at the quay: the research vessel Vityaz. In 1957 its expedition measured the depth of the Mariana Trench — about 11 kilometres, the deepest point of the ocean.\n\nNext to it lies the submarine B-413: you can climb down and walk through its cramped compartments, imagining the submariners' life. The halls hold aquariums with fish and corals, the skeleton of a huge whale and the story of how people explored the ocean.\n\nThe museum stretches along the river, so a visit is also a walk along the embankment."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Судно «Витязь» у причала",
+                    "Отсеки подводной лодки Б-413",
+                    "Скелет кита в одном из залов"
+                  ],
+                  "en": [
+                    "The Vityaz at the quay",
+                    "The compartments of the submarine B-413",
+                    "The whale skeleton in one of the halls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В 1957 году экспедиция «Витязя» измерила глубину Марианской впадины — около 11 километров.",
+                    "Музей открылся в 1990 году."
+                  ],
+                  "en": [
+                    "In 1957 the Vityaz expedition measured the Mariana Trench at about 11 kilometres deep.",
+                    "The museum opened in 1990."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чем прославилось судно «Витязь»?",
+                    "en": "What is the Vityaz famous for?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Измерило глубину Марианской впадины",
+                      "Первым дошло до Северного полюса",
+                      "Возило янтарь в Европу"
+                    ],
+                    "en": [
+                      "It measured the depth of the Mariana Trench",
+                      "It was first to reach the North Pole",
+                      "It carried amber to Europe"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Экспедиция «Витязя» в 1957 году получила глубину около 11 километров — рекорд для своего времени.",
+                    "en": "In 1957 the Vityaz expedition recorded a depth of about 11 kilometres — a record for its time."
+                  }
+                },
+                "approach": {
+                  "ru": "Музей — на набережной Петра Великого у реки Преголи.",
+                  "en": "The museum is on Peter the Great Embankment by the Pregolya."
+                }
+              }
+            },
+            {
+              "id": "kaliningrad-cathedral",
+              "title": {"ru": "Кафедральный собор и остров Канта", "en": "The Cathedral and Kant Island"},
+              "coordinate": [54.7066, 20.5113],
+              "category": "church",
+              "visit": 60,
+              "details": {
+                "ru": "Готический собор XIV века на острове Кнайпхоф, который теперь называют островом Канта. Восстановленный после войны собор стал музеем и органным залом, а у его стены — могила Иммануила Канта.",
+                "en": "A 14th-century Gothic cathedral on Kneiphof Island, now called Kant Island. Restored after the war, it is a museum and organ hall, and Immanuel Kant's tomb stands by its wall."
+              },
+              "wiki": {"ru": "Кафедральный собор (Калининград)", "en": "Königsberg Cathedral"},
+              "guide": {
+                "story": {
+                  "ru": "Собор начали строить в 1333 году на острове Кнайпхоф — тогда это был центр одного из трёх городов, из которых вырос Кёнигсберг. В 1944 году он сгорел при бомбардировке и полвека стоял в руинах, а в 1990-х его восстановили: теперь внутри музей и органный зал с одним из крупнейших органов России.\n\nУ стены собора — могила Иммануила Канта: строгий портик с колоннами над саркофагом. Философ прожил в Кёнигсберге всю жизнь, и его распорядок был так точен, что, говорят, по его прогулкам горожане сверяли часы.\n\nОстров когда-то был частью знаменитой задачи о семи мостах: можно ли обойти их все, пройдя по каждому один раз? В 1736 году Леонард Эйлер доказал, что нельзя, — и положил начало теории графов.",
+                  "en": "The cathedral was begun in 1333 on Kneiphof Island, then the centre of one of the three towns that grew into Königsberg. In 1944 it burned in a bombing raid and stood in ruins for half a century; it was rebuilt in the 1990s and now holds a museum and an organ hall with one of Russia's largest organs.\n\nBy the cathedral wall is Immanuel Kant's tomb: a severe colonnaded portico over a sarcophagus. The philosopher spent his whole life in Königsberg, and his routine was so exact that, they say, townspeople set their clocks by his walks.\n\nThe island was once part of the famous Seven Bridges problem: can you cross every bridge exactly once? In 1736 Leonhard Euler proved you cannot — and founded graph theory."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Могилу Канта у стены собора",
+                    "Медовый мост — один из уцелевших старых мостов",
+                    "Готическую башню собора"
+                  ],
+                  "en": [
+                    "Kant's tomb by the cathedral wall",
+                    "The Honey Bridge, one of the surviving old bridges",
+                    "The cathedral's Gothic tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Строительство собора началось в 1333 году.",
+                    "В 1736 году Эйлер решил задачу о кёнигсбергских мостах — так родилась теория графов."
+                  ],
+                  "en": [
+                    "Construction of the cathedral began in 1333.",
+                    "In 1736 Euler solved the Königsberg bridges problem, founding graph theory."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, весной 1945 года на могиле Канта кто-то из советских солдат написал мелом: «Теперь ты понял, что мир материален?» Правда это или городская легенда, неизвестно, но её пересказывают уже почти восемьдесят лет.",
+                  "en": "They say that in the spring of 1945 a Soviet soldier chalked on Kant's tomb: 'Now do you understand that the world is material?' Whether it is true or an urban legend nobody knows, but it has been retold for almost eighty years."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чья могила находится у стены Кафедрального собора?",
+                    "en": "Whose tomb stands by the wall of the cathedral?"
+                  },
+                  "options": {
+                    "ru": ["Иммануила Канта", "Эрнста Гофмана", "Леонарда Эйлера"],
+                    "en": [
+                      "Immanuel Kant's",
+                      "E. T. A. Hoffmann's",
+                      "Leonhard Euler's"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Кант похоронен у собора; Гофман родился в Кёнигсберге, но умер в Берлине, а Эйлер работал в Петербурге.",
+                    "en": "Kant is buried by the cathedral; Hoffmann was born in Königsberg but died in Berlin, and Euler worked in St Petersburg."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15 минут вдоль Преголи и по мосту на остров.",
+                  "en": "About 15 minutes along the Pregolya and across the bridge to the island."
+                }
+              }
+            },
+            {
+              "id": "kaliningrad-fishing-village",
+              "title": {"ru": "Рыбная деревня", "en": "Fishing Village"},
+              "coordinate": [54.70222, 20.51583],
+              "category": "district",
+              "visit": 40,
+              "details": {
+                "ru": "Квартал на берегу Преголи, построенный в 2000-х в стиле старого Кёнигсберга: фахверковые дома, кафе, набережная и маяк-смотровая с видом на остров Канта.",
+                "en": "A riverside quarter on the Pregolya built in the 2000s in old Königsberg style: half-timbered houses, cafés, an embankment and a lighthouse viewpoint looking at Kant Island."
+              },
+              "wiki": {"ru": "Рыбная деревня"},
+              "guide": {
+                "story": {
+                  "ru": "До войны на этом берегу шумел рыбный рынок и стояли склады, но к концу XX века здесь остались пустыри. В 2000-х годах построили новый квартал, стилизованный под старый Кёнигсберг: островерхие фахверковые дома, набережная, мост и маяк со смотровой площадкой.\n\nЭто не историческая застройка, а современная мечта о прежнем городе, — но именно такой Калининград нравится многим путешественникам. С маяка видно остров Канта, собор и изгибы Преголи.\n\nЗдесь удобно пообедать: в ресторанах подают балтийскую рыбу и кёнигсбергские клопсы.",
+                  "en": "Before the war a fish market bustled on this bank and warehouses stood here, but by the end of the 20th century only wasteland remained. In the 2000s a new quarter was built in the style of old Königsberg: steep-roofed half-timbered houses, an embankment, a bridge and a lighthouse with a viewing platform.\n\nIt is not historic, but a modern dream of the vanished city — and many travellers love Kaliningrad this way. From the lighthouse you see Kant Island, the cathedral and the bends of the Pregolya.\n\nIt is a handy place for lunch: the restaurants serve Baltic fish and Königsberg klopse."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Маяк со смотровой площадкой",
+                    "Фахверковые фасады",
+                    "Вид на собор через реку"
+                  ],
+                  "en": [
+                    "The lighthouse with its viewing platform",
+                    "The half-timbered facades",
+                    "The view of the cathedral across the river"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Квартал построен в 2000-х годах в стиле довоенного Кёнигсберга.",
+                    "С маяка открывается вид на остров Канта и Преголю."
+                  ],
+                  "en": [
+                    "The quarter was built in the 2000s in the style of pre-war Königsberg.",
+                    "The lighthouse looks out over Kant Island and the Pregolya."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что служит в Рыбной деревне смотровой площадкой?",
+                    "en": "What serves as the viewpoint in the Fishing Village?"
+                  },
+                  "options": {
+                    "ru": ["Маяк", "Колокольня", "Водонапорная башня"],
+                    "en": ["A lighthouse", "A bell tower", "A water tower"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "С маяка Рыбной деревни видно остров Канта, собор и реку.",
+                    "en": "The Fishing Village lighthouse looks out over Kant Island, the cathedral and the river."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Юбилейный мост от острова Канта — 5 минут.",
+                  "en": "Five minutes from Kant Island across the Jubilee Bridge."
+                }
+              }
+            },
+            {
+              "id": "kaliningrad-kings-gate",
+              "title": {"ru": "Королевские ворота", "en": "King's Gate"},
+              "coordinate": [54.71361, 20.53583],
+              "category": "landmark",
+              "visit": 40,
+              "details": {
+                "ru": "Кирпичные ворота XIX века с фигурами короля Оттокара II, герцога Альбрехта и короля Фридриха I. Внутри — музей «Великое посольство» о путешествии Петра I в Европу.",
+                "en": "A 19th-century brick gate with statues of King Ottokar II, Duke Albrecht and King Frederick I. Inside is the Grand Embassy museum about Peter the Great's journey to Europe."
+              },
+              "wiki": {"ru": "Королевские ворота (Калининград)", "en": "King's Gate (Kaliningrad)"},
+              "guide": {
+                "story": {
+                  "ru": "Королевские ворота — одни из нескольких сохранившихся городских ворот Кёнигсберга, построенных в середине XIX века в кольце укреплений. Над аркой стоят фигуры трёх правителей: короля Оттокара II, в честь которого назван город, герцога Альбрехта, основавшего университет, и первого прусского короля Фридриха I.\n\nК 750-летию города в 2005 году ворота отреставрировали и открыли в них музей «Великое посольство» — о поездке Петра I в Европу. В 1697 году молодой царь побывал в Кёнигсберге и даже получил здесь свидетельство об успехах в артиллерийской науке.\n\nВорота стоят у старых валов и рвов — по ним видно, каким укреплённым городом был Кёнигсберг.",
+                  "en": "The King's Gate is one of several surviving city gates of Königsberg, built in the mid-19th century in a ring of fortifications. Above the arch stand three rulers: King Ottokar II, after whom the city is named, Duke Albrecht, who founded the university, and Frederick I, the first King in Prussia.\n\nFor the city's 750th anniversary in 2005 the gate was restored and the Grand Embassy museum opened inside, about Peter the Great's journey to Europe. In 1697 the young tsar visited Königsberg and even received a certificate of his progress in artillery here.\n\nThe gate stands by old ramparts and moats that show how heavily fortified Königsberg was."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Фигуры трёх правителей над аркой",
+                    "Гербы на фасаде",
+                    "Крепостной ров рядом с воротами"
+                  ],
+                  "en": [
+                    "The three rulers above the arch",
+                    "The coats of arms on the facade",
+                    "The moat next to the gate"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пётр I побывал в Кёнигсберге в 1697 году во время Великого посольства.",
+                    "Ворота отреставрированы к 750-летию города в 2005 году."
+                  ],
+                  "en": [
+                    "Peter the Great visited Königsberg in 1697 during the Grand Embassy.",
+                    "The gate was restored for the city's 750th anniversary in 2005."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чему посвящён музей в Королевских воротах?",
+                    "en": "What is the museum in the King's Gate about?"
+                  },
+                  "options": {
+                    "ru": ["Великому посольству Петра I", "Янтарю", "Канту"],
+                    "en": ["Peter the Great's Grand Embassy", "Amber", "Kant"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Во время Великого посольства Пётр I побывал в Кёнигсберге и учился здесь артиллерии.",
+                    "en": "During the Grand Embassy Peter the Great visited Königsberg and studied artillery here."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 25 минут пешком на северо-восток от Рыбной деревни.",
+                  "en": "About 25 minutes' walk north-east of the Fishing Village."
+                }
+              }
+            },
+            {
+              "id": "kaliningrad-amber",
+              "title": {"ru": "Музей янтаря", "en": "Amber Museum"},
+              "coordinate": [54.72222, 20.52306],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Музей в башне Дона — кирпичном укреплении XIX века у Верхнего озера: тысячи изделий из янтаря, огромные самородки и кусочки с застывшими в смоле насекомыми.",
+                "en": "A museum in the Dohna Tower, a 19th-century brick fortification by the Upper Lake: thousands of amber objects, huge nuggets and pieces with insects trapped in the resin."
+              },
+              "wiki": {"ru": "Музей янтаря (Калининград)"},
+              "guide": {
+                "story": {
+                  "ru": "Янтарь — окаменевшая смола древних деревьев, которой около 40 миллионов лет. Почти все его мировые запасы сосредоточены в Калининградской области: в посёлке Янтарный его добывают в карьере.\n\nМузей открылся в 1979 году в башне Дона — части городских укреплений XIX века. Здесь собраны тысячи предметов: от украшений и шкатулок до картин и мозаик из янтаря. Самое интересное — инклюзы: насекомые, листья и пёрышки, попавшие в смолу миллионы лет назад.\n\nРядом — Верхнее озеро, вокруг которого приятно пройтись после музея.",
+                  "en": "Amber is the fossilised resin of ancient trees, about 40 million years old. Nearly all the world's reserves lie in the Kaliningrad region, where it is mined in an open pit at Yantarny.\n\nThe museum opened in 1979 in the Dohna Tower, part of the city's 19th-century fortifications. It holds thousands of objects, from jewellery and boxes to amber pictures and mosaics. Most fascinating are the inclusions: insects, leaves and feathers caught in resin millions of years ago.\n\nThe Upper Lake is right next to it — a pleasant stroll after the museum."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Инклюзы — насекомые в янтаре",
+                    "Самый большой самородок в коллекции",
+                    "Кирпичную башню Дона снаружи"
+                  ],
+                  "en": [
+                    "The inclusions — insects in amber",
+                    "The largest nugget in the collection",
+                    "The brick Dohna Tower from outside"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Янтарю, который добывают в регионе, около 40 миллионов лет.",
+                    "Музей янтаря открылся в 1979 году в башне Дона."
+                  ],
+                  "en": [
+                    "The amber mined in the region is about 40 million years old.",
+                    "The Amber Museum opened in 1979 in the Dohna Tower."
+                  ]
+                },
+                "legend": {
+                  "ru": "Янтарную комнату, подаренную прусским королём Петру I, во время войны вывезли из Царского Села в Кёнигсберг и выставили в королевском замке. В 1945 году её следы теряются. Говорят, она до сих пор спрятана где-то в подземельях города.",
+                  "en": "The Amber Room, a gift from the King of Prussia to Peter the Great, was taken from Tsarskoye Selo to Königsberg during the war and displayed in the royal castle. In 1945 its trail goes cold. They say it is still hidden somewhere in the city's underground passages."
+                },
+                "approach": {
+                  "ru": "Около 15 минут пешком от Королевских ворот к Верхнему озеру.",
+                  "en": "About 15 minutes' walk from the King's Gate to the Upper Lake."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaliningrad-curonian-spit",
+      "title": {"ru": "Зеленоградск и Куршская коса", "en": "Zelenogradsk and the Curonian Spit"},
+      "summary": {
+        "ru": "Курортный Зеленоградск с котами и променадом, «танцующий лес» с закрученными соснами и Высота Эфа — дюна, с которой видно и море, и залив.",
+        "en": "Resort Zelenogradsk with its cats and promenade, the 'dancing forest' of twisted pines and the Efa Height, a dune with views of both the sea and the lagoon."
+      },
+      "intro": {
+        "ru": "Нужна машина: до Зеленоградска около 35 минут, оттуда по косе до танцующего леса ещё 40 минут. На косе ходите только по настилам — дюны и лес охраняются. Заложите на поездку целый день.",
+        "en": "You need a car: Zelenogradsk is about 35 minutes away, and the dancing forest another 40 minutes along the spit. On the spit keep to the boardwalks — the dunes and forest are protected. Allow a full day."
+      },
+      "emoji": "🌲",
+      "tags": ["car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kaliningrad-zelenogradsk",
+              "title": {"ru": "Зеленоградск", "en": "Zelenogradsk"},
+              "coordinate": [54.959, 20.4786],
+              "category": "district",
+              "visit": 60,
+              "details": {
+                "ru": "Курортный городок у моря с променадом, старыми виллами и кошками — город считает их своим символом: на улицах стоят скульптуры котов, а в водонапорной башне работает музей «Мурариум».",
+                "en": "A seaside resort with a promenade, old villas and cats — the town's symbol: cat sculptures line the streets and the water tower houses the 'Murarium' cat museum."
+              },
+              "wiki": {"ru": "Зеленоградск", "en": "Zelenogradsk"},
+              "guide": {
+                "story": {
+                  "ru": "Зеленоградск — бывший прусский курорт Кранц, куда в XIX веке ездили отдыхать жители Кёнигсберга. Здесь сохранились виллы и пансионы начала XX века, а вдоль моря тянется длинный променад.\n\nГород считает своим символом кошек: местные коты живут на улицах под опекой жителей, им поставлены скульптуры, а в старой водонапорной башне открыт музей кошек «Мурариум».\n\nОтсюда начинается Куршская коса — дорога на неё уходит прямо за городом.",
+                  "en": "Zelenogradsk is the former Prussian resort of Cranz, where Königsberg folk came to holiday in the 19th century. Villas and guesthouses from the early 20th century survive, and a long promenade runs along the sea.\n\nThe town's symbol is the cat: local cats live on the streets in the care of residents, there are sculptures of them, and the old water tower houses the Murarium cat museum.\n\nThe Curonian Spit begins here — the road onto it leaves right outside town."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Скульптуры котов на улицах",
+                    "Променад вдоль моря",
+                    "Водонапорную башню с «Мурариумом»"
+                  ],
+                  "en": [
+                    "The cat sculptures in the streets",
+                    "The seaside promenade",
+                    "The water tower with the Murarium"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "До 1946 года Зеленоградск назывался Кранц.",
+                    "Кошки — неофициальный символ города."
+                  ],
+                  "en": [
+                    "Until 1946 Zelenogradsk was called Cranz.",
+                    "Cats are the town's unofficial symbol."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какое животное считается символом Зеленоградска?",
+                    "en": "Which animal is Zelenogradsk's symbol?"
+                  },
+                  "options": {
+                    "ru": ["Кошка", "Чайка", "Тюлень"],
+                    "en": ["The cat", "The seagull", "The seal"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Местных кошек опекают жители, а в водонапорной башне есть музей кошек «Мурариум».",
+                    "en": "Residents look after the local cats, and the water tower houses the Murarium cat museum."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 30 км на север от Калининграда — 35 минут на машине или электричке.",
+                  "en": "About 30 km north of Kaliningrad — 35 minutes by car or local train."
+                }
+              }
+            },
+            {
+              "id": "kaliningrad-dancing-forest",
+              "title": {"ru": "Танцующий лес", "en": "Dancing Forest"},
+              "coordinate": [55.1803, 20.8606],
+              "category": "nature",
+              "visit": 40,
+              "details": {
+                "ru": "Сосновый лес у 37-го километра косы, где стволы деревьев закручены в кольца, спирали и петли. Учёные спорят о причинах, а легенды — о волшебстве.",
+                "en": "A pine forest at the 37th kilometre of the spit, where the trunks twist into rings, spirals and loops. Scientists argue about the cause; legends speak of magic."
+              },
+              "wiki": {"ru": "Танцующий лес", "en": "Dancing Forest"},
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 37 км по косе — 40 минут на машине",
+                  "en": "About 37 km along the spit — 40 minutes by car"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Танцующий лес растёт на дюне у 37-го километра Куршской косы. Сосны здесь посадили в середине XX века, чтобы закрепить пески, и многие стволы выросли странно изогнутыми — кольцами, волнами и спиралями, будто деревья застыли в танце.\n\nПочему так вышло, точно не знает никто: говорят о ветрах, о гусенице-побеговьюне, повреждающей молодые побеги, и о необычной энергетике места. Чтобы сохранить лес, гостей просят ходить только по деревянной тропе.\n\nЛес невелик — прогулка по тропе занимает около получаса, но впечатление остаётся надолго.",
+                  "en": "The Dancing Forest grows on a dune at the 37th kilometre of the Curonian Spit. The pines were planted in the mid-20th century to hold the sand, and many trunks grew strangely twisted — in rings, waves and spirals, as if the trees froze mid-dance.\n\nNo one knows for sure why: people talk of the winds, of a moth caterpillar that damages young shoots, and of the place's unusual energy. To protect the forest, visitors are asked to keep to the wooden path.\n\nThe forest is small — the trail takes about half an hour — but the impression lasts."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Сосну, закрученную в кольцо",
+                    "Деревянную тропу по дюне",
+                    "Стволы-спирали"
+                  ],
+                  "en": [
+                    "A pine twisted into a ring",
+                    "The wooden path over the dune",
+                    "The spiral trunks"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Лес растёт у 37-го километра Куршской косы.",
+                    "Сосны здесь сажали, чтобы закрепить движущиеся пески."
+                  ],
+                  "en": [
+                    "The forest grows at the 37th kilometre of the Curonian Spit.",
+                    "The pines were planted to stop the moving sands."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, если пролезть сквозь кольцо закрученной сосны, прибавится год жизни, а если загадать желание — оно сбудется. Только пролезать сейчас нельзя: деревья берегут, и на них можно лишь смотреть.",
+                  "en": "They say that climbing through the ring of a twisted pine adds a year to your life, and a wish made there comes true. But climbing is now forbidden: the trees are protected and are only to be looked at."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Зачем на Куршской косе сажали сосны?",
+                    "en": "Why were pines planted on the Curonian Spit?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Чтобы остановить движущиеся пески",
+                      "Для заготовки древесины",
+                      "Для красоты"
+                    ],
+                    "en": ["To stop the moving sands", "For timber", "For beauty"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Движущиеся дюны засыпали деревни, и лес помог остановить пески.",
+                    "en": "Moving dunes buried villages, and the forest helped stop the sand."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 37 км по косе от Зеленоградска — 40 минут на машине.",
+                  "en": "About 37 km along the spit from Zelenogradsk — 40 minutes by car."
+                }
+              }
+            },
+            {
+              "id": "kaliningrad-efa",
+              "title": {"ru": "Высота Эфа", "en": "Efa Height"},
+              "coordinate": [55.22118, 20.90629],
+              "category": "viewpoint",
+              "visit": 60,
+              "details": {
+                "ru": "Одна из самых высоких дюн косы — около 60 метров. С деревянных смотровых площадок видно и Балтийское море, и Куршский залив, а внизу — «долину дюн», похожую на пустыню.",
+                "en": "One of the spit's highest dunes, about 60 metres high. From wooden viewing platforms you see both the Baltic Sea and the Curonian Lagoon, and below lies a 'valley of dunes' like a desert."
+              },
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 5 км на север — 10 минут на машине",
+                  "en": "About 5 km north — 10 minutes by car"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Дюны Куршской косы когда-то двигались и засыпали целые деревни: пески шли по ветру на несколько метров в год. В XIX веке дюнный инспектор Франц Эфа предложил закреплять их посадками трав и деревьев, и коса постепенно зазеленела. Высшую точку назвали в его честь.\n\nС высоты около 60 метров открывается вид на две воды сразу: с одной стороны — Балтийское море, с другой — пресный Куршский залив. Внизу лежит долина дюн, похожая на маленькую пустыню.\n\nКуршская коса длиной около 98 километров внесена в список ЮНЕСКО; её южная часть российская, северная — литовская.",
+                  "en": "The dunes of the Curonian Spit used to move and bury whole villages: the sand advanced several metres a year with the wind. In the 19th century the dune inspector Franz Epha proposed fixing them with plantings of grass and trees, and the spit gradually turned green. Its highest point is named after him.\n\nFrom about 60 metres up you see two waters at once: the Baltic Sea on one side and the freshwater Curonian Lagoon on the other. Below lies a valley of dunes like a small desert.\n\nThe Curonian Spit, about 98 kilometres long, is on the UNESCO list; its southern part is Russian and its northern part Lithuanian."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Море и залив по обе стороны косы",
+                    "Долину дюн внизу",
+                    "Деревянный настил смотровой тропы"
+                  ],
+                  "en": [
+                    "The sea and the lagoon on either side of the spit",
+                    "The valley of dunes below",
+                    "The wooden boardwalk of the viewing trail"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Длина Куршской косы — около 98 километров.",
+                    "Высота Эфа названа в честь дюнного инспектора Франца Эфы, закреплявшего пески."
+                  ],
+                  "en": [
+                    "The Curonian Spit is about 98 kilometres long.",
+                    "The Efa Height is named after dune inspector Franz Epha, who fixed the sands."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какая вода видна с Высоты Эфа по обе стороны косы?",
+                    "en": "What water can be seen on either side of the spit from the Efa Height?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Балтийское море и Куршский залив",
+                      "Две реки",
+                      "Озеро и болото"
+                    ],
+                    "en": [
+                      "The Baltic Sea and the Curonian Lagoon",
+                      "Two rivers",
+                      "A lake and a marsh"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Коса отделяет пресный Куршский залив от солёного Балтийского моря.",
+                    "en": "The spit separates the freshwater Curonian Lagoon from the salty Baltic Sea."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 км на север от танцующего леса — 10 минут на машине.",
+                  "en": "About 5 km north of the dancing forest — 10 minutes by car."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "city": {
+    "id": "kostroma",
+    "name": {"ru": "Кострома", "en": "Kostroma"},
+    "region": {"ru": "Костромская область", "en": "Kostroma Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Колыбель династии Романовых на Волге: Ипатьевский монастырь, где в 1613 году юного Михаила Романова призвали на царство, площадь-веер с пожарной каланчой, огромные Торговые ряды и беседка Островского над рекой. А ещё — сыр, лён и родина Снегурочки.",
+      "en": "The cradle of the Romanov dynasty on the Volga: the Ipatiev Monastery, where young Mikhail Romanov was called to the throne in 1613, a fan-shaped square with a fire tower, vast trading rows and Ostrovsky's gazebo above the river. Plus cheese, linen and the home of the Snow Maiden."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 340 км — 4,5–5 часов на машине через Ярославль. Поезда с Ярославского вокзала идут около шести часов; из Ярославля до Костромы около 80 км.",
+      "en": "About 340 km from Moscow — 4.5–5 hours by car via Yaroslavl. Trains from Moscow's Yaroslavsky station take about six hours; Kostroma is about 80 km from Yaroslavl."
+    },
+    "coordinate": [57.7677, 40.9264],
+    "emoji": "🧀",
+    "size": "medium",
+    "tags": ["golden-ring", "volga"],
+    "wiki": {"ru": "Кострома", "en": "Kostroma"},
+    "guide": {
+      "story": {
+        "ru": "Кострому, по преданию, основал Юрий Долгорукий в 1152 году. Город вырос на Волге, торговал льном, хлебом и рыбой, а в XVII веке стал одним из богатейших в стране.\n\nГлавная страница его истории — 1613 год. В Ипатьевском монастыре жил шестнадцатилетний Михаил Романов, и сюда приехало посольство Земского собора просить его стать царём. Так в Костроме началась династия, правившая Россией триста лет. С тем же временем связана история Ивана Сусанина — крестьянина, который, по преданию, завёл польский отряд в болота и спас будущего царя.\n\nПосле пожара 1773 года центр отстроили по регулярному плану: улицы веером расходятся от главной площади к Волге. Сегодня Кострома — неспешный купеческий город с торговыми рядами, костромским сыром, льном и Снегурочкой: Островский написал свою сказку в костромском имении Щелыково.",
+        "en": "Legend says Kostroma was founded by Yuri Dolgoruky in 1152. The town grew up on the Volga, trading in flax, grain and fish, and in the 17th century it was one of the richest in the country.\n\nThe key page of its history is 1613. Sixteen-year-old Mikhail Romanov was living in the Ipatiev Monastery, and an embassy from the Zemsky Sobor came here to ask him to become tsar. So a dynasty that ruled Russia for three hundred years began in Kostroma. The story of Ivan Susanin belongs to the same time — the peasant who, tradition says, led a Polish detachment into the swamps and saved the future tsar.\n\nAfter the fire of 1773 the centre was rebuilt to a regular plan, with streets fanning out from the main square to the Volga. Today Kostroma is an unhurried merchant town of trading rows, Kostroma cheese, linen and the Snow Maiden: Ostrovsky wrote his fairy-tale play at Shchelykovo, an estate in the Kostroma region."
+      },
+      "history": [
+        {
+          "year": "1152",
+          "text": {
+            "ru": "По преданию, Юрий Долгорукий основывает Кострому.",
+            "en": "Legend says Yuri Dolgoruky founds Kostroma."
+          }
+        },
+        {
+          "year": "ок. 1330",
+          "text": {"ru": "Основан Ипатьевский монастырь.", "en": "The Ipatiev Monastery is founded."}
+        },
+        {
+          "year": "1613",
+          "text": {
+            "ru": "В Ипатьевском монастыре Михаила Романова призывают на царство.",
+            "en": "Mikhail Romanov is called to the throne at the Ipatiev Monastery."
+          }
+        },
+        {
+          "year": "1652",
+          "text": {
+            "ru": "Купец Кирилл Исаков строит церковь Воскресения на Дебре.",
+            "en": "The merchant Kirill Isakov builds the Church of the Resurrection on the Debra."
+          }
+        },
+        {
+          "year": "1773",
+          "text": {
+            "ru": "После большого пожара центр отстраивают по плану-«вееру».",
+            "en": "After a great fire the centre is rebuilt on a fan-shaped plan."
+          }
+        },
+        {
+          "year": "1873",
+          "text": {
+            "ru": "Островский пишет «Снегурочку» в костромском имении Щелыково.",
+            "en": "Ostrovsky writes 'The Snow Maiden' at Shchelykovo, his estate in the Kostroma region."
+          }
+        },
+        {
+          "year": "1984",
+          "text": {
+            "ru": "Выходит «Жестокий романс» Эльдара Рязанова, снятый в Костроме.",
+            "en": "Eldar Ryazanov's 'A Cruel Romance', filmed in Kostroma, is released."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Костромской сыр — в городе есть даже музей сыра",
+          "Лосиное молоко с лосефермы в Сумарокове",
+          "Волжскую рыбу и пироги"
+        ],
+        "en": [
+          "Kostroma cheese — the town even has a cheese museum",
+          "Moose milk from the moose farm at Sumarokovo",
+          "Volga fish and pies"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Льняные скатерти, полотенца и одежду — костромской лён",
+          "Украшения из Красного-на-Волге — посёлка ювелиров рядом с Костромой",
+          "Фигурку Снегурочки"
+        ],
+        "en": [
+          "Linen tablecloths, towels and clothes — Kostroma linen",
+          "Jewellery from Krasnoye-na-Volge, the jewellers' village near Kostroma",
+          "A Snow Maiden figurine"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Ипатьевский монастырь и «Костромская слобода» стоят рядом — заложите на них полдня",
+          "Летом по Волге ходят прогулочные теплоходы — посмотрите на город с реки",
+          "Лосеферма в Сумарокове — в получасе езды от города; проверьте время экскурсий заранее"
+        ],
+        "en": [
+          "The Ipatiev Monastery and the Kostromskaya Sloboda museum are next to each other — allow half a day",
+          "In summer pleasure boats sail on the Volga — see the town from the river",
+          "The moose farm at Sumarokovo is half an hour's drive away; check tour times in advance"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "kostroma-day",
+      "title": {
+        "ru": "Кострома: Романовы, Сусанин и Волга",
+        "en": "Kostroma: the Romanovs, Susanin and the Volga"
+      },
+      "summary": {
+        "ru": "Ипатьевский монастырь и музей деревянного зодчества, затем центр-«веер»: Сусанинская площадь с каланчой, Торговые ряды, церковь на Дебре с легендой об английском золоте и беседка Островского над Волгой.",
+        "en": "The Ipatiev Monastery and the open-air museum of wooden architecture, then the fan-shaped centre: Susanin Square with its fire tower, the trading rows, the church on the Debra with its legend of English gold and Ostrovsky's gazebo above the Volga."
+      },
+      "intro": {
+        "ru": "Сначала — Ипатьевский монастырь и музей деревянного зодчества рядом (2–3 часа), затем 10 минут на автобусе или такси в центр: площадь-веер, каланча, Торговые ряды, церковь на Дебре и беседка Островского над Волгой. В центре всё пешком, около 4 км.",
+        "en": "First the Ipatiev Monastery and the museum of wooden architecture next to it (2–3 hours), then 10 minutes by bus or taxi to the centre: the fan-shaped square, the fire tower, the trading rows, the church on the Debra and Ostrovsky's gazebo above the Volga. Everything in the centre is walkable, about 4 km."
+      },
+      "emoji": "🧀",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kostroma-ipatiev",
+              "title": {"ru": "Ипатьевский монастырь", "en": "Ipatiev Monastery"},
+              "coordinate": [57.77722, 40.89417],
+              "category": "church",
+              "visit": 90,
+              "details": {
+                "ru": "Монастырь XIV века у слияния Костромы и Волги — «колыбель дома Романовых». Здесь в 1613 году юный Михаил Романов принял приглашение на царство. Троицкий собор с фресками 1685 года, палаты бояр Романовых и белые стены с башнями.",
+                "en": "A 14th-century monastery where the Kostroma River meets the Volga — the 'cradle of the House of Romanov'. Here in 1613 young Mikhail Romanov accepted the call to the throne. The Trinity Cathedral with frescoes of 1685, the Romanov boyars' chambers and white walls with towers."
+              },
+              "tip": {
+                "ru": "Пройдите вдоль стен к реке Костроме — с берега монастырь выглядит особенно эффектно.",
+                "en": "Walk along the walls to the Kostroma River — the monastery looks most striking from the bank."
+              },
+              "wiki": {"ru": "Ипатьевский монастырь", "en": "Ipatiev Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "По преданию, монастырь основал около 1330 года татарский мурза Чет, перешедший на службу к московскому князю. Заболев в пути, он увидел во сне Богоматерь со святыми Филиппом и Ипатием, исцелился, крестился и поставил здесь обитель. От Чета вели свой род Годуновы, и монастырь долго был их родовой святыней.\n\nВ 1613 году здесь с матерью жил шестнадцатилетний Михаил Романов. 14 марта к монастырю пришло посольство Земского собора с просьбой принять престол, и после долгих уговоров он согласился. С тех пор монастырь считается колыбелью дома Романовых, и цари не раз приезжали сюда на богомолье.\n\nЗдесь хранилась рукопись древней летописи, которую по монастырю называют Ипатьевской. А Троицкий собор в 1685 году расписала артель Гурия Никитина — той же, что работала в ярославском храме Ильи Пророка.",
+                  "en": "Tradition says the monastery was founded around 1330 by Chet, a Tatar nobleman who had entered the service of the Prince of Moscow. Falling ill on the road, he dreamed of the Mother of God with Saints Philip and Hypatius, recovered, was baptised and founded a monastery here. The Godunov family traced its descent from Chet, and the monastery long remained their family shrine.\n\nIn 1613 sixteen-year-old Mikhail Romanov was living here with his mother. On 14 March an embassy from the Zemsky Sobor arrived to ask him to take the throne, and after long persuasion he agreed. Ever since, the monastery has been seen as the cradle of the House of Romanov, and tsars often came here on pilgrimage.\n\nAn ancient chronicle manuscript was kept here, which is why it is called the Ipatiev Chronicle. The Trinity Cathedral was painted in 1685 by Gury Nikitin's team — the same masters who worked in Yaroslavl's Church of Elijah the Prophet."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Фрески Троицкого собора 1685 года",
+                    "Палаты бояр Романовых с узорной крышей",
+                    "Реку Кострому у стен монастыря"
+                  ],
+                  "en": [
+                    "The 1685 frescoes of the Trinity Cathedral",
+                    "The Romanov boyars' chambers with their patterned roof",
+                    "The Kostroma River by the monastery walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "От основателя монастыря, мурзы Чета, вели свой род Годуновы.",
+                    "Ипатьевская летопись названа по монастырю, где хранилась рукопись."
+                  ],
+                  "en": [
+                    "The Godunovs traced their descent from the monastery's founder, Chet.",
+                    "The Ipatiev Chronicle is named after the monastery where the manuscript was kept."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что мать Михаила, инокиня Марфа, долго не соглашалась отпустить юного сына на трон разорённой Смутой страны, и послам пришлось уговаривать их много часов.",
+                  "en": "They say Mikhail's mother, the nun Marfa, long refused to let her young son take the throne of a country ruined by the Troubles, and the envoys had to plead with them for many hours."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что произошло в Ипатьевском монастыре в 1613 году?",
+                    "en": "What happened at the Ipatiev Monastery in 1613?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Михаила Романова призвали на царство",
+                      "Подписали мир со Швецией",
+                      "Короновали Петра I"
+                    ],
+                    "en": [
+                      "Mikhail Romanov was called to the throne",
+                      "Peace was signed with Sweden",
+                      "Peter the Great was crowned"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Посольство Земского собора уговорило юного Михаила принять престол — так началась династия Романовых.",
+                    "en": "An embassy from the Zemsky Sobor persuaded young Mikhail to accept the throne — the start of the Romanov dynasty."
+                  }
+                },
+                "approach": {
+                  "ru": "Монастырь стоит за рекой Костромой, к западу от центра.",
+                  "en": "The monastery stands beyond the Kostroma River, west of the centre."
+                }
+              }
+            },
+            {
+              "id": "kostroma-sloboda",
+              "title": {"ru": "Музей «Костромская слобода»", "en": "Kostromskaya Sloboda Museum"},
+              "coordinate": [57.77644, 40.8901],
+              "category": "museum",
+              "visit": 75,
+              "details": {
+                "ru": "Музей деревянного зодчества под открытым небом рядом с Ипатьевским монастырём: церкви, избы, мельницы и амбары со всей Костромской области. Самая необычная постройка — Спасо-Преображенская церковь из села Спас-Вежи, стоящая на сваях.",
+                "en": "An open-air museum of wooden architecture next to the Ipatiev Monastery: churches, houses, mills and barns from all over the Kostroma region. The most unusual is the Transfiguration Church from the village of Spas-Vezhi, standing on stilts."
+              },
+              "wiki": {"ru": "Костромская слобода"},
+              "guide": {
+                "story": {
+                  "ru": "Музей «Костромская слобода» начали создавать в середине XX века: из деревень Костромской области сюда перевозили деревянные храмы, избы, амбары, мельницы и бани, которым грозило исчезновение. Многие постройки спасли из сёл, попавших под затопление при создании водохранилища.\n\nСамый необычный экспонат — Спасо-Преображенская церковь 1713 года из села Спас-Вежи. Весной село заливало половодьем, поэтому и дома, и храм ставили на высокие сваи — в паводок к церкви подплывали на лодках.\n\nВ избах видно, как жили костромские крестьяне: печи, лавки, прялки, сундуки, а на мельницах — деревянные механизмы.",
+                  "en": "The Kostromskaya Sloboda museum was started in the mid-20th century: wooden churches, houses, barns, mills and bathhouses threatened with ruin were brought here from villages across the Kostroma region. Many were rescued from villages that were flooded when a reservoir was created.\n\nThe most unusual exhibit is the Transfiguration Church of 1713 from the village of Spas-Vezhi. The village flooded every spring, so both houses and church stood on tall stilts — at high water people rowed to church.\n\nThe houses show how Kostroma peasants lived: stoves, benches, spinning wheels and chests, and the mills show their wooden machinery."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Церковь на сваях из Спас-Вежей",
+                    "Ветряную мельницу",
+                    "Резные наличники крестьянских изб"
+                  ],
+                  "en": [
+                    "The church on stilts from Spas-Vezhi",
+                    "The windmill",
+                    "The carved window frames of the peasant houses"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь из Спас-Вежей построена в 1713 году и стоит на сваях из-за весенних паводков.",
+                    "Многие постройки перевезли из сёл, затопленных при создании водохранилища."
+                  ],
+                  "en": [
+                    "The Spas-Vezhi church was built in 1713 and stands on stilts because of spring floods.",
+                    "Many buildings came from villages flooded when a reservoir was created."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему церковь из Спас-Вежей стоит на сваях?",
+                    "en": "Why does the church from Spas-Vezhi stand on stilts?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Весной село заливало водой",
+                      "Так строили, спасаясь от медведей",
+                      "Под ней был склад"
+                    ],
+                    "en": [
+                      "The village flooded every spring",
+                      "To keep bears away",
+                      "There was a storehouse under it"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В половодье вода поднималась высоко, и к храму подплывали на лодках.",
+                    "en": "At high water the river rose so high that people rowed to the church."
+                  }
+                },
+                "approach": {
+                  "ru": "Музей — в нескольких минутах от стен Ипатьевского монастыря.",
+                  "en": "The museum is a few minutes from the walls of the Ipatiev Monastery."
+                }
+              }
+            },
+            {
+              "id": "kostroma-susanin-square",
+              "title": {"ru": "Сусанинская площадь", "en": "Susanin Square"},
+              "coordinate": [57.7676, 40.9266],
+              "category": "square",
+              "visit": 20,
+              "details": {
+                "ru": "Главная площадь Костромы, от которой веером расходятся улицы. Её окружают пожарная каланча, гауптвахта и дом генерала Борщова, а в центре стоит памятник Ивану Сусанину на высоком постаменте.",
+                "en": "Kostroma's main square, from which the streets fan out. It is ringed by the fire tower, the guardhouse and General Borshchov's house, and in the middle stands a monument to Ivan Susanin on a tall pedestal."
+              },
+              "wiki": {"ru": "Сусанинская площадь"},
+              "arrival": {
+                "mode": "bus",
+                "note": {
+                  "ru": "Около 3 км — 10 минут на автобусе или такси",
+                  "en": "About 3 km — 10 minutes by bus or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "После опустошительного пожара 1773 года центр Костромы отстроили заново по регулярному плану: улицы расходятся от главной площади к Волге, как пластины веера.\n\nВ центре площади стоит памятник Ивану Сусанину. По преданию, зимой 1613 года польский отряд искал юного Михаила Романова, и крестьянин Сусанин вызвался показать дорогу, но завёл врагов в непроходимые болота и погиб. Его подвиг вдохновил Глинку на оперу «Жизнь за царя».\n\nВокруг площади — классические здания XIX века: каланча, гауптвахта, дом генерала Борщова. Отсюда начинаются все прогулки по центру.",
+                  "en": "After the devastating fire of 1773 the centre of Kostroma was rebuilt to a regular plan: streets radiate from the main square to the Volga like the ribs of a fan.\n\nIn the middle of the square stands a monument to Ivan Susanin. Tradition says that in the winter of 1613 a Polish detachment was searching for young Mikhail Romanov, and the peasant Susanin offered to show them the way, but led them into impassable swamps and died. His deed inspired Glinka's opera 'A Life for the Tsar'.\n\nAround the square stand 19th-century Classical buildings: the fire tower, the guardhouse and General Borshchov's house. Every walk around the centre starts here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Памятник Сусанину на высоком постаменте",
+                    "Улицы, расходящиеся веером",
+                    "Гауптвахту с колоннами"
+                  ],
+                  "en": [
+                    "The Susanin monument on its tall pedestal",
+                    "The streets fanning out",
+                    "The colonnaded guardhouse"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Памятник Сусанину открыт в 1967 году.",
+                    "Опера Глинки о Сусанине впервые прозвучала в 1836 году под названием «Жизнь за царя»."
+                  ],
+                  "en": [
+                    "The Susanin monument was unveiled in 1967.",
+                    "Glinka's opera about Susanin premiered in 1836 as 'A Life for the Tsar'."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что, когда Екатерине II принесли план новой Костромы, императрица бросила на карту свой раскрытый веер и сказала: «Вот так и стройте». С тех пор улицы центра расходятся от площади веером.",
+                  "en": "They say that when Catherine the Great was shown the plan of the new Kostroma, she dropped her open fan on the map and said: 'Build it like this.' Ever since, the streets of the centre have fanned out from the square."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Куда, по преданию, Иван Сусанин завёл польский отряд?",
+                    "en": "According to tradition, where did Ivan Susanin lead the Polish detachment?"
+                  },
+                  "options": {
+                    "ru": ["В непроходимые болота", "В горы", "К стенам Москвы"],
+                    "en": [
+                      "Into impassable swamps",
+                      "Into the mountains",
+                      "To the walls of Moscow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Сусанин увёл врагов в болота, откуда они не смогли выбраться, и спас юного Михаила Романова.",
+                    "en": "Susanin led the enemy into swamps they could not escape from, saving young Mikhail Romanov."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 3 км от монастыря через мост — автобусом или такси минут 10.",
+                  "en": "About 3 km from the monastery across the bridge — some 10 minutes by bus or taxi."
+                }
+              }
+            },
+            {
+              "id": "kostroma-kalancha",
+              "title": {"ru": "Пожарная каланча", "en": "Fire Tower"},
+              "coordinate": [57.7676, 40.9246],
+              "category": "landmark",
+              "visit": 15,
+              "details": {
+                "ru": "Пожарная каланча 1820-х годов в виде классического особняка с колоннадой и стройной башней — символ Костромы. С её балкона дозорный высматривал дым над деревянным городом.",
+                "en": "A fire tower of the 1820s built like a Classical mansion with a portico and a slender tower — a symbol of Kostroma. From its balcony a watchman scanned the wooden town for smoke."
+              },
+              "wiki": {"ru": "Пожарная каланча (Кострома)"},
+              "guide": {
+                "story": {
+                  "ru": "Пожарную каланчу построили в 1823–1827 годах по проекту губернского архитектора Петра Фурсова. Он превратил утилитарную постройку в настоящий дворец: шестиколонный портик, фронтон и стройная башня с балконом наверху, откуда дозорный следил за городом.\n\nПосле пожара 1773 года костромичи особенно боялись огня, и каланча долго оставалась одной из самых высоких построек центра. С неё подавали сигналы шарами и флагами: по их числу и цвету пожарные понимали, в какой части города горит.\n\nСегодня каланча — один из символов Костромы и любимое место для фотографий.",
+                  "en": "The fire tower was built in 1823–1827 to a design by the provincial architect Pyotr Fursov. He turned a utilitarian building into a real palace: a six-column portico, a pediment and a slender tower with a balcony at the top, from which a watchman kept an eye on the town.\n\nAfter the fire of 1773 the townspeople were especially afraid of fire, and the tower long remained one of the tallest buildings in the centre. Signals were given from it with balls and flags: their number and colour told the firemen which part of town was burning.\n\nToday the tower is one of Kostroma's symbols and a favourite place for photos."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Портик с шестью колоннами",
+                    "Балкон дозорного наверху башни",
+                    "Пожарный двор за каланчой"
+                  ],
+                  "en": [
+                    "The six-column portico",
+                    "The watchman's balcony at the top of the tower",
+                    "The fire station yard behind the tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Каланчу построили в 1823–1827 годах по проекту Петра Фурсова.",
+                    "О пожаре сообщали с башни сигнальными шарами и флагами."
+                  ],
+                  "en": [
+                    "The fire tower was built in 1823–1827 to Pyotr Fursov's design.",
+                    "Fires were signalled from the tower with balls and flags."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, император Николай I, увидев костромскую каланчу, удивился и сказал, что такой каланчи нет даже в Петербурге.",
+                  "en": "They say Emperor Nicholas I was amazed when he saw the Kostroma fire tower and remarked that even St Petersburg had none like it."
+                },
+                "approach": {
+                  "ru": "Каланча — на западной стороне Сусанинской площади.",
+                  "en": "The fire tower is on the west side of Susanin Square."
+                }
+              }
+            },
+            {
+              "id": "kostroma-trading-rows",
+              "title": {"ru": "Торговые ряды", "en": "Trading Rows"},
+              "coordinate": [57.7663, 40.9285],
+              "category": "market",
+              "visit": 40,
+              "details": {
+                "ru": "Огромный торговый комплекс конца XVIII — начала XIX века в центре города: Красные, Мучные, Масляные, Рыбные ряды с галереями. Здесь и сейчас торгуют — от сыра до льна.",
+                "en": "A vast trading complex from the late 18th and early 19th century in the centre: the Red, Flour, Butter and Fish rows with their galleries. Trade still goes on here, from cheese to linen."
+              },
+              "wiki": {"ru": "Торговые ряды (Кострома)"},
+              "guide": {
+                "story": {
+                  "ru": "Торговые ряды Костромы — один из крупнейших сохранившихся торговых ансамблей России. Их строили после пожара 1773 года, и каждый корпус предназначался для своего товара — названия сохранились до сих пор: Мучные, Масляные, Рыбные.\n\nКрасные ряды с аркадами окружают маленькую церковь Спаса в Рядах, куда купцы заходили помолиться перед торговлей. В галереях по-прежнему работают лавки — можно пройти по настоящему торговому городу XVIII века.\n\nЗагляните в лавки с костромским сыром и льном — здесь лучшие покупки в городе.",
+                  "en": "Kostroma's trading rows are one of the largest surviving historic market ensembles in Russia. They were built after the fire of 1773, each block for its own goods, and the names survive to this day: the Flour Rows, the Butter Rows, the Fish Rows.\n\nThe arcaded Red Rows surround the little Church of the Saviour in the Rows, where merchants prayed before trading. Shops still trade in the galleries, so you can walk through a real 18th-century market town.\n\nLook into the shops selling Kostroma cheese and linen — the best buys in town."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Аркады Красных рядов",
+                    "Церковь Спаса в Рядах",
+                    "Лавки с сыром и льном"
+                  ],
+                  "en": [
+                    "The arcades of the Red Rows",
+                    "The Church of the Saviour in the Rows",
+                    "Shops selling cheese and linen"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Каждый корпус рядов строился для своего товара — отсюда названия Мучные, Масляные, Рыбные.",
+                    "Ряды строили после пожара 1773 года по единому плану."
+                  ],
+                  "en": [
+                    "Each block was built for its own goods — hence the names Flour, Butter and Fish Rows.",
+                    "The rows were built after the 1773 fire to a single plan."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему у костромских рядов такие названия — Мучные, Масляные, Рыбные?",
+                    "en": "Why do Kostroma's rows have names like Flour, Butter and Fish?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Каждый корпус был для своего товара",
+                      "Так звали купцов-владельцев",
+                      "Это названия улиц, где они стоят"
+                    ],
+                    "en": [
+                      "Each block was for its own goods",
+                      "They were the owners' names",
+                      "They are the names of their streets"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В каждом корпусе торговали определённым товаром, и названия сохранились до наших дней.",
+                    "en": "Each block sold a particular kind of goods, and the names have survived to this day."
+                  }
+                },
+                "approach": {
+                  "ru": "Ряды начинаются прямо у Сусанинской площади.",
+                  "en": "The rows start right by Susanin Square."
+                }
+              }
+            },
+            {
+              "id": "kostroma-debra",
+              "title": {"ru": "Церковь Воскресения на Дебре", "en": "Church of the Resurrection on the Debra"},
+              "coordinate": [57.75556, 40.94861],
+              "category": "church",
+              "visit": 25,
+              "details": {
+                "ru": "Нарядная церковь 1652 года, построенная купцом Кириллом Исаковым. Её стены и Святые ворота украшены каменной резьбой с фантастическими зверями, а с храмом связана легенда об «английском золоте».",
+                "en": "An ornate church of 1652 built by the merchant Kirill Isakov. Its walls and Holy Gates are covered with stone carvings of fabulous beasts, and the church comes with a legend of 'English gold'."
+              },
+              "wiki": {"ru": "Церковь Воскресения на Дебре"},
+              "guide": {
+                "story": {
+                  "ru": "Церковь Воскресения на Дебре построена в 1652 году на средства купца Кирилла Исакова и стала одним из немногих зданий Костромы, переживших пожар 1773 года. Её стены, крыльца и Святые ворота покрыты каменной резьбой: львы, единороги, птицы и травы, будто из средневековой книги.\n\n«Дебрей» в старину называли густой лес — когда-то он подходил здесь к самому берегу Волги.\n\nОбойдите храм кругом: на Святых воротах можно найти льва и единорога, которых часто связывают с английскими гербовыми зверями — и с легендой о том, на какие деньги построен храм.",
+                  "en": "The Church of the Resurrection on the Debra was built in 1652 with money from the merchant Kirill Isakov and is one of the few buildings in Kostroma to survive the fire of 1773. Its walls, porches and Holy Gates are covered with stone carvings — lions, unicorns, birds and plants, as if from a medieval book.\n\nIn the old days 'debra' meant a dense forest, which once reached the bank of the Volga here.\n\nWalk around the church: on the Holy Gates you can find a lion and a unicorn, often linked with the heraldic beasts of England — and with the legend of where the money for the church came from."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Льва и единорога на Святых воротах",
+                    "Каменную резьбу с травами и птицами",
+                    "Шатровую колокольню"
+                  ],
+                  "en": [
+                    "The lion and unicorn on the Holy Gates",
+                    "The stone carvings of plants and birds",
+                    "The tent-roofed bell tower"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь — одно из немногих зданий Костромы, переживших пожар 1773 года.",
+                    "«Дебрей» в старину называли густой лес у берега."
+                  ],
+                  "en": [
+                    "The church is one of the few buildings in Kostroma that survived the fire of 1773.",
+                    "'Debra' was an old word for a dense forest by the shore."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что Исаков заказал у английских купцов бочки с краской, а в одной из них нашёл золотые монеты. Он написал англичанам, но те ответили: раз так вышло, пусть золото пойдёт на доброе дело. На него купец и построил храм.",
+                  "en": "They say Isakov ordered barrels of dye from English merchants and found gold coins in one of them. He wrote to the English, but they replied that since it had happened, the gold should go to a good cause. So the merchant built the church with it."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по легенде, купец Исаков нашёл в бочке с краской?",
+                    "en": "According to legend, what did the merchant Isakov find in a barrel of dye?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Золотые монеты",
+                      "Письмо английского короля",
+                      "Драгоценные камни"
+                    ],
+                    "en": [
+                      "Gold coins",
+                      "A letter from the English king",
+                      "Precious stones"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Англичане не взяли золото назад и предложили потратить его на доброе дело — так появился храм.",
+                    "en": "The English refused to take the gold back and suggested spending it on a good cause — and so the church was built."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 минут пешком на юго-восток от Торговых рядов, ближе к Волге.",
+                  "en": "About 20 minutes' walk south-east of the trading rows, towards the Volga."
+                }
+              }
+            },
+            {
+              "id": "kostroma-gazebo",
+              "title": {"ru": "Беседка Островского", "en": "Ostrovsky's Gazebo"},
+              "coordinate": [57.76178, 40.92877],
+              "category": "viewpoint",
+              "visit": 20,
+              "details": {
+                "ru": "Белая беседка-ротонда на высоком берегу Волги, где, по преданию, любил бывать драматург Александр Островский. Отсюда открывается один из лучших видов на реку.",
+                "en": "A white rotunda on the high bank of the Volga where, tradition says, the playwright Alexander Ostrovsky liked to sit. It offers one of the best views of the river."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Беседку на высоком волжском берегу горожане называют беседкой Островского: драматург часто бывал в Костроме и, по преданию, любил сидеть здесь, глядя на реку. Говорят, эти виды вдохновили его на «Грозу», где героиня бросается с волжского обрыва.\n\nКостромские берега стали декорацией и для кино: здесь Эльдар Рязанов снимал «Жестокий романс» по пьесе Островского «Бесприданница».\n\nС беседки видно широкую Волгу, мост и заволжские дали. Это лучшее место, чтобы закончить прогулку, — особенно на закате.",
+                  "en": "Townspeople call the gazebo on the high Volga bank Ostrovsky's gazebo: the playwright often visited Kostroma and, tradition says, loved to sit here looking at the river. They say these views inspired 'The Storm', whose heroine throws herself off a Volga cliff.\n\nKostroma's riverbanks also became a film set: Eldar Ryazanov shot 'A Cruel Romance', based on Ostrovsky's play 'Without a Dowry', here.\n\nFrom the gazebo you see the broad Volga, the bridge and the far bank. It is the best place to end the walk, especially at sunset."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Колонны белой беседки",
+                    "Волжский мост вдали",
+                    "Теплоходы на реке"
+                  ],
+                  "en": [
+                    "The columns of the white gazebo",
+                    "The Volga bridge in the distance",
+                    "Boats on the river"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Жестокий романс» Эльдара Рязанова снимали в Костроме.",
+                    "Островский много лет проводил лето в костромском имении Щелыково и написал там «Снегурочку»."
+                  ],
+                  "en": [
+                    "Eldar Ryazanov's 'A Cruel Romance' was filmed in Kostroma.",
+                    "Ostrovsky spent many summers at Shchelykovo in the Kostroma region and wrote 'The Snow Maiden' there."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой фильм Эльдара Рязанова снимали в Костроме?",
+                    "en": "Which Eldar Ryazanov film was shot in Kostroma?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Жестокий романс»",
+                      "«Ирония судьбы»",
+                      "«Служебный роман»"
+                    ],
+                    "en": ["A Cruel Romance", "The Irony of Fate", "Office Romance"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Фильм по пьесе Островского «Бесприданница» снимали на волжских берегах Костромы.",
+                    "en": "The film of Ostrovsky's 'Without a Dowry' was shot on Kostroma's Volga banks."
+                  }
+                },
+                "approach": {
+                  "ru": "Вернитесь вдоль Волги на запад — около 20 минут пешком.",
+                  "en": "Walk back west along the Volga — about 20 minutes."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

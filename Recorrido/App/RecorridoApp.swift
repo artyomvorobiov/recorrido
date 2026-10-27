@@ -36,6 +36,11 @@ struct RootView: View {
             MyRoutesView()
                 .tabItem { Label("My routes", systemImage: "bookmark") }
                 .tag(AppTab.library)
+            if model.community.isAvailable {
+                CommunityView()
+                    .tabItem { Label("Travellers", systemImage: "person.2") }
+                    .tag(AppTab.community)
+            }
             PassportView()
                 .tabItem { Label("Passport", systemImage: "seal") }
                 .tag(AppTab.passport)

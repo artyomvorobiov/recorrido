@@ -1,0 +1,316 @@
+{
+  "city": {
+    "id": "zvenigorod",
+    "name": {"ru": "Звенигород", "en": "Zvenigorod"},
+    "region": {"ru": "Московская область", "en": "Moscow Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Старинный город на холмах над Москвой-рекой, «подмосковная Швейцария»: Саввино-Сторожевский монастырь — бывшая царская резиденция, Городок с белокаменным собором времён Андрея Рублёва и тропа к источнику преподобного Саввы.",
+      "en": "An old town on hills above the Moskva River, the 'Switzerland near Moscow': the Savvino-Storozhevsky Monastery, once a royal residence, the Gorodok hill with a white-stone cathedral from Andrei Rublev's time, and a path to St Savva's spring."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 60 км — час на машине или около полутора часов на электричке с Белорусского вокзала.",
+      "en": "About 60 km from Moscow — an hour by car or about an hour and a half by local train from Belorussky station."
+    },
+    "coordinate": [55.7296, 36.855],
+    "emoji": "🔔",
+    "size": "small",
+    "tags": ["near-moscow"],
+    "wiki": {"ru": "Звенигород", "en": "Zvenigorod"},
+    "guide": {
+      "story": {
+        "ru": "Звенигород впервые упоминается в грамоте Ивана Калиты 1339 года. Название, по одной из версий, связано со звоном колоколов, которыми дозорные предупреждали об опасности. В конце XIV века это был удельный город князя Юрия Звенигородского, сына Дмитрия Донского: на холме Городок он построил белокаменный собор, а его духовник Савва основал рядом монастырь.\n\nВ XVII веке Саввино-Сторожевский монастырь стал любимым местом богомолья царя Алексея Михайловича: здесь построили Царицыны палаты и Царский дворец, и обитель превратилась в загородную резиденцию двора.\n\nВ XIX веке холмы, леса и излучины Москвы-реки прозвали «подмосковной Швейцарией». Здесь работал врачом молодой Антон Чехов, писал свои пейзажи Исаак Левитан, а Звенигород и сегодня — город прогулок и красивых видов.",
+        "en": "Zvenigorod is first mentioned in a charter of Ivan Kalita from 1339. One theory links its name — 'ringing town' — to the bells sentries rang to warn of danger. At the end of the 14th century it was the appanage town of Prince Yuri of Zvenigorod, son of Dmitry Donskoy: he built a white-stone cathedral on the Gorodok hill, and his confessor Savva founded a monastery nearby.\n\nIn the 17th century the Savvino-Storozhevsky Monastery became Tsar Alexei Mikhailovich's favourite place of pilgrimage: the Tsaritsa's Chambers and the Royal Palace were built, and the monastery became a country residence of the court.\n\nIn the 19th century the hills, forests and river bends earned the name 'Switzerland near Moscow'. The young Anton Chekhov worked here as a doctor and Isaac Levitan painted his landscapes, and Zvenigorod is still a town of walks and beautiful views."
+      },
+      "history": [
+        {
+          "year": "1339",
+          "text": {"ru": "Первое упоминание Звенигорода.", "en": "Zvenigorod's first mention."}
+        },
+        {
+          "year": "1398",
+          "text": {
+            "ru": "Савва Сторожевский основывает монастырь.",
+            "en": "Savva Storozhevsky founds the monastery."
+          }
+        },
+        {
+          "year": "ок. 1400",
+          "text": {
+            "ru": "Юрий Звенигородский строит Успенский собор на Городке.",
+            "en": "Yuri of Zvenigorod builds the Dormition Cathedral on the Gorodok."
+          }
+        },
+        {
+          "year": "1650-е",
+          "text": {
+            "ru": "Царь Алексей Михайлович превращает монастырь в загородную резиденцию.",
+            "en": "Tsar Alexei Mikhailovich turns the monastery into a country residence."
+          }
+        },
+        {
+          "year": "1812",
+          "text": {
+            "ru": "Войска Евгения Богарне не тронули монастырь — по легенде, после явления Саввы.",
+            "en": "Eugène de Beauharnais's troops spare the monastery — after a vision of Savva, legend says."
+          }
+        },
+        {
+          "year": "1884",
+          "text": {
+            "ru": "Чехов работает врачом в Звенигороде, Левитан пишет здесь пейзажи.",
+            "en": "Chekhov works as a doctor in Zvenigorod, and Levitan paints landscapes here."
+          }
+        },
+        {
+          "year": "1918",
+          "text": {
+            "ru": "Возле собора на Городке находят иконы «Звенигородского чина».",
+            "en": "The icons of the 'Zvenigorod Deesis' are found near the cathedral on the Gorodok."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Монастырский квас и выпечку",
+          "Мёд с подмосковных пасек",
+          "Пироги в кафе на старых улицах"
+        ],
+        "en": [
+          "Monastery kvass and pastries",
+          "Honey from Moscow-region apiaries",
+          "Pies in the cafés of the old streets"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Колокольчик — символ «звенящего» города",
+          "Изделия монастырских мастерских",
+          "Открытки с видами Москвы-реки и холмов"
+        ],
+        "en": [
+          "A little bell, the symbol of the 'ringing' town",
+          "Goods from the monastery workshops",
+          "Postcards of the Moskva River and the hills"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Летом по Москве-реке под Звенигородом сплавляются на байдарках — попробуйте",
+          "К скиту и источнику Саввы ведёт тропа под горой от монастыря — около 20 минут",
+          "Летом в выходные здесь много паломников и дачников; в будни гораздо тише"
+        ],
+        "en": [
+          "In summer people kayak down the Moskva River near Zvenigorod — give it a try",
+          "A path below the hill leads from the monastery to Savva's skete and spring — about 20 minutes",
+          "Summer weekends bring crowds of pilgrims and weekenders; weekdays are much quieter"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "zvenigorod-walk",
+      "title": {
+        "ru": "Звенигород: Городок, монастырь и источник",
+        "en": "Zvenigorod: the Gorodok, the monastery and the spring"
+      },
+      "summary": {
+        "ru": "Холм Городок с белокаменным Успенским собором, где нашли «Звенигородский чин» Рублёва, Саввино-Сторожевский монастырь с царскими палатами и тропа под горой к скиту и источнику Саввы.",
+        "en": "The Gorodok hill with the white-stone Dormition Cathedral, where Rublev's 'Zvenigorod Deesis' was found, the Savvino-Storozhevsky Monastery with its royal chambers, and a path below the hill to Savva's skete and spring."
+      },
+      "intro": {
+        "ru": "Пешая прогулка около 4 км: от Городка по дороге вдоль холмов к монастырю (или пару остановок на автобусе), а оттуда тропой вниз к скиту у Москвы-реки. На монастырь заложите полтора часа.",
+        "en": "A walk of about 4 km: from the Gorodok along the road over the hills to the monastery (or a couple of stops by bus), then down a path to the skete by the Moskva River. Allow an hour and a half for the monastery."
+      },
+      "emoji": "🔔",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "zvenigorod-gorodok",
+              "title": {"ru": "Городок и Успенский собор", "en": "The Gorodok and Dormition Cathedral"},
+              "coordinate": [55.73311, 36.84021],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Холм над Москвой-рекой, где стоял древний Звенигород, и белокаменный Успенский собор рубежа XIV–XV веков с фрагментами фресок, которые приписывают Андрею Рублёву.",
+                "en": "The hill above the Moskva River where ancient Zvenigorod stood, and the white-stone Dormition Cathedral of around 1400 with fresco fragments attributed to Andrei Rublev."
+              },
+              "wiki": {"ru": "Успенский собор на Городке"},
+              "guide": {
+                "story": {
+                  "ru": "Городок — древнее сердце Звенигорода: здесь, на высоком холме над Москвой-рекой, стояла деревянная крепость, от которой остались земляные валы. Около 1400 года князь Юрий Звенигородский построил на холме белокаменный Успенский собор — один из старейших храмов Подмосковья.\n\nСобор расписывали, как считают, Андрей Рублёв и Даниил Чёрный: от росписи сохранились фрагменты на алтарных столбах. А в 1918 году неподалёку, в дровяном сарае, нашли три иконы деисусного чина — «Спаса», «Апостола Павла» и «Архангела Михаила». Сегодня «Звенигородский чин» хранится в Третьяковской галерее, и «Спас» Рублёва — одна из самых знаменитых икон России.\n\nС валов Городка открывается вид на Москву-реку и леса — тот самый пейзаж «подмосковной Швейцарии».",
+                  "en": "The Gorodok is the ancient heart of Zvenigorod: on this high hill above the Moskva River stood a wooden fortress, of which earthen ramparts remain. Around 1400 Prince Yuri of Zvenigorod built the white-stone Dormition Cathedral here — one of the oldest churches in the Moscow region.\n\nIt is believed to have been painted by Andrei Rublev and Daniil Chorny, and fragments survive on the altar pillars. In 1918, in a woodshed nearby, three icons of a Deesis tier were found — the Saviour, the Apostle Paul and the Archangel Michael. Today the 'Zvenigorod Deesis' is in the Tretyakov Gallery, and Rublev's Saviour is one of the most famous icons in Russia.\n\nFrom the Gorodok ramparts there is a view of the Moskva River and the forests — the very landscape of the 'Switzerland near Moscow'."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Земляные валы древней крепости",
+                    "Фрагменты фресок на алтарных столбах",
+                    "Вид на Москву-реку с валов"
+                  ],
+                  "en": [
+                    "The earthen ramparts of the old fortress",
+                    "The fresco fragments on the altar pillars",
+                    "The view of the Moskva River from the ramparts"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Успенский собор построен около 1400 года.",
+                    "Иконы «Звенигородского чина» нашли в 1918 году в дровяном сарае возле собора."
+                  ],
+                  "en": [
+                    "The Dormition Cathedral was built around 1400.",
+                    "The icons of the Zvenigorod Deesis were found in a woodshed near the cathedral in 1918."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Где в 1918 году нашли иконы «Звенигородского чина»?",
+                    "en": "Where were the Zvenigorod Deesis icons found in 1918?"
+                  },
+                  "options": {
+                    "ru": [
+                      "В дровяном сарае у собора",
+                      "В подземелье монастыря",
+                      "На чердаке крестьянской избы"
+                    ],
+                    "en": [
+                      "In a woodshed by the cathedral",
+                      "In a monastery vault",
+                      "In a peasant's attic"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Иконы Рублёва пролежали в сарае неизвестно сколько лет — их случайно нашли реставраторы.",
+                    "en": "Rublev's icons had lain in the shed for who knows how long until restorers found them by chance."
+                  }
+                },
+                "approach": {
+                  "ru": "Городок — на холме к западу от центра, над Москвой-рекой.",
+                  "en": "The Gorodok is on a hill west of the centre, above the Moskva River."
+                }
+              }
+            },
+            {
+              "id": "zvenigorod-savvino",
+              "title": {"ru": "Саввино-Сторожевский монастырь", "en": "Savvino-Storozhevsky Monastery"},
+              "coordinate": [55.7297, 36.818],
+              "category": "church",
+              "visit": 90,
+              "details": {
+                "ru": "Монастырь 1398 года на горе Сторожи: белые стены с башнями, Рождественский собор начала XV века, Царицыны палаты и Царский дворец Алексея Михайловича — бывшая загородная резиденция царей.",
+                "en": "A monastery of 1398 on Storozhi Hill: white walls with towers, the early-15th-century Nativity Cathedral, the Tsaritsa's Chambers and Tsar Alexei Mikhailovich's palace — once a country residence of the tsars."
+              },
+              "wiki": {"ru": "Саввино-Сторожевский монастырь", "en": "Savvino-Storozhevsky Monastery"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Около 2 км — 25 минут пешком или пара остановок на автобусе",
+                  "en": "About 2 km — 25 minutes on foot or a couple of stops by bus"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Гору Сторожи назвали так потому, что здесь когда-то стояли дозорные, сторожившие подступы к Звенигороду. В 1398 году Савва, ученик Сергия Радонежского и духовник князя Юрия, основал здесь монастырь. Рождественский собор начала XV века — один из старейших храмов Подмосковья.\n\nЦарь Алексей Михайлович часто приезжал сюда на богомолье: при нём построили каменные стены, Царицыны палаты и Царский дворец, а монастырь стал загородной резиденцией двора. Сегодня в палатах работает музей.\n\nСо стен и смотровых площадок видно холмы, леса и излучины Москвы-реки — один из лучших видов Подмосковья.",
+                  "en": "Storozhi Hill — 'the Watch Hill' — is named after the sentries who once guarded the approaches to Zvenigorod here. In 1398 Savva, a disciple of Sergius of Radonezh and Prince Yuri's confessor, founded a monastery here. The early-15th-century Nativity Cathedral is one of the oldest churches in the Moscow region.\n\nTsar Alexei Mikhailovich often came here on pilgrimage: under him the stone walls, the Tsaritsa's Chambers and the Royal Palace were built, and the monastery became a country residence of the court. Today the chambers house a museum.\n\nFrom the walls and viewpoints you see hills, forests and the bends of the Moskva River — one of the best views in the Moscow region."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Царицыны палаты с изразцами",
+                    "Рождественский собор XV века",
+                    "Вид на Москву-реку со стен"
+                  ],
+                  "en": [
+                    "The tiled Tsaritsa's Chambers",
+                    "The 15th-century Nativity Cathedral",
+                    "The view of the Moskva River from the walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Монастырь основан в 1398 году.",
+                    "При Алексее Михайловиче монастырь стал загородной резиденцией царей."
+                  ],
+                  "en": [
+                    "The monastery was founded in 1398.",
+                    "Under Alexei Mikhailovich it became a country residence of the tsars."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что в 1812 году в монастыре ночевал пасынок Наполеона Евгений Богарне. Ночью ему явился старец и попросил не трогать обитель, пообещав, что тогда Евгений вернётся домой живым. Богарне запретил грабить монастырь и действительно уцелел в войне, а потом узнал старца на иконе — это был святой Савва.",
+                  "en": "They say that in 1812 Napoleon's stepson Eugène de Beauharnais spent a night in the monastery. An old man appeared to him and asked him to spare it, promising that Eugène would then return home alive. Beauharnais forbade looting, survived the war, and later recognised the old man on an icon — it was St Savva."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Чей пасынок, по легенде, пощадил монастырь в 1812 году?",
+                    "en": "According to legend, whose stepson spared the monastery in 1812?"
+                  },
+                  "options": {
+                    "ru": ["Наполеона", "Кутузова", "Александра I"],
+                    "en": ["Napoleon's", "Kutuzov's", "Alexander I's"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Евгений Богарне — пасынок Наполеона, сын императрицы Жозефины от первого брака.",
+                    "en": "Eugène de Beauharnais was Napoleon's stepson, the son of Empress Joséphine by her first marriage."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 2 км по дороге вдоль холмов — 25 минут пешком или пара остановок на автобусе.",
+                  "en": "About 2 km along the road over the hills — 25 minutes on foot or a couple of stops by bus."
+                }
+              }
+            },
+            {
+              "id": "zvenigorod-skete",
+              "title": {"ru": "Скит и источник Саввы", "en": "Savva's Skete and Spring"},
+              "coordinate": [55.7276, 36.8125],
+              "category": "nature",
+              "visit": 30,
+              "details": {
+                "ru": "Скит и святой источник под горой у Москвы-реки, где, по преданию, молился преподобный Савва. Сюда спускается лесная тропа от монастыря.",
+                "en": "A skete and holy spring below the hill by the Moskva River, where tradition says St Savva prayed. A forest path leads down from the monastery."
+              },
+              "guide": {
+                "story": {
+                  "ru": "По преданию, Савва выкопал себе пещеру-келью под горой у реки и уходил туда молиться в уединении. Сегодня на этом месте скит с небольшими храмами, а рядом — источник, к которому приходят за водой.\n\nТропа от монастыря к скиту идёт вниз через лес, и уже в пути шум дороги сменяется тишиной и пением птиц.\n\nВнизу течёт Москва-река; летом здесь купаются, а вода источника холодная даже в жару.",
+                  "en": "Tradition says Savva dug himself a cave cell below the hill by the river and went there to pray alone. Today a skete with small churches stands on the spot, and next to it is a spring where people come for water.\n\nThe path from the monastery runs down through the forest, and on the way the noise of the road gives way to silence and birdsong.\n\nBelow flows the Moskva River; people swim here in summer, and the spring water stays cold even on hot days."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Часовню над источником",
+                    "Тропу через лес от монастыря",
+                    "Москву-реку у подножия горы"
+                  ],
+                  "en": [
+                    "The chapel over the spring",
+                    "The forest path from the monastery",
+                    "The Moskva River at the foot of the hill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "По преданию, Савва молился в пещере под горой у реки.",
+                    "Вода источника холодная круглый год."
+                  ],
+                  "en": [
+                    "Tradition says Savva prayed in a cave below the hill by the river.",
+                    "The spring water is cold all year round."
+                  ]
+                },
+                "approach": {
+                  "ru": "Тропа от монастыря вниз к реке — около 15–20 минут.",
+                  "en": "The path from the monastery down to the river takes about 15–20 minutes."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

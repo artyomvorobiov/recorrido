@@ -1,0 +1,450 @@
+{
+  "city": {
+    "id": "tula",
+    "name": {"ru": "Тула", "en": "Tula"},
+    "region": {"ru": "Тульская область", "en": "Tula Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город оружейников, самоваров и пряников к югу от Москвы: кирпичный кремль XVI века, музей оружия в здании-шлеме, музей самоваров, набережная Упы, а в 15 км — Ясная Поляна, усадьба Льва Толстого.",
+      "en": "The city of gunsmiths, samovars and gingerbread south of Moscow: a 16th-century brick kremlin, the weapons museum in a helmet-shaped building, a samovar museum, the Upa embankment and, 15 km away, Yasnaya Polyana, Leo Tolstoy's estate."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 180 км — 2,5 часа на машине по трассе М-2 или около двух часов на «Ласточке» с Курского вокзала.",
+      "en": "About 180 km from Moscow — 2.5 hours by car on the M-2 or about two hours on a Lastochka train from Kursky station."
+    },
+    "coordinate": [54.1931, 37.6177],
+    "emoji": "🫖",
+    "size": "medium",
+    "tags": ["near-moscow"],
+    "wiki": {"ru": "Тула", "en": "Tula"},
+    "guide": {
+      "story": {
+        "ru": "Тула впервые упомянута в летописи в 1146 году. Город стоял на южной границе Московского государства, и в 1507–1520 годах здесь построили каменный кремль: он защищал страну от набегов крымских татар. В 1552 году Тула выдержала осаду войска Девлет-Гирея, а в 1607 году царь Василий Шуйский взял засевших здесь восставших Болотникова, затопив город водами Упы.\n\nВ 1712 году Пётр I основал здесь оружейный завод, и Тула стала оружейной столицей России. Тульские мастера славились умением «подковать блоху», как лесковский Левша, а ещё делали самовары, гармони и печатные пряники.\n\nРядом с Тулой — Ясная Поляна, где Лев Толстой родился, прожил большую часть жизни и написал «Войну и мир» и «Анну Каренину». Сегодня Тула заметно обновилась: отреставрированный кремль, набережная Упы и пешеходные улицы.",
+        "en": "Tula is first mentioned in the chronicles in 1146. It stood on the southern border of Muscovy, and in 1507–1520 a stone kremlin was built here to guard the country against Crimean Tatar raids. In 1552 Tula withstood a siege by Devlet Giray's army, and in 1607 Tsar Vasily Shuisky took the town from Bolotnikov's rebels by flooding it with the waters of the Upa.\n\nIn 1712 Peter the Great founded an arms factory here, and Tula became Russia's arms capital. Its craftsmen were famous for being able to 'shoe a flea', like Leskov's Lefty, and they also made samovars, accordions and printed gingerbread.\n\nNear Tula is Yasnaya Polyana, where Leo Tolstoy was born, spent most of his life and wrote 'War and Peace' and 'Anna Karenina'. Today Tula has been noticeably renewed: a restored kremlin, the Upa embankment and pedestrian streets."
+      },
+      "history": [
+        {
+          "year": "1146",
+          "text": {
+            "ru": "Первое упоминание Тулы в летописи.",
+            "en": "Tula's first mention in the chronicles."
+          }
+        },
+        {
+          "year": "1507–1520",
+          "text": {"ru": "Строится каменный кремль.", "en": "The stone kremlin is built."}
+        },
+        {
+          "year": "1552",
+          "text": {
+            "ru": "Тула выдерживает осаду войска крымского хана Девлет-Гирея.",
+            "en": "Tula withstands a siege by the army of the Crimean khan Devlet Giray."
+          }
+        },
+        {
+          "year": "1607",
+          "text": {
+            "ru": "Василий Шуйский берёт город восставших, затопив его водами Упы.",
+            "en": "Vasily Shuisky takes the rebels' town by flooding it with the Upa."
+          }
+        },
+        {
+          "year": "1712",
+          "text": {
+            "ru": "Пётр I основывает Тульский оружейный завод.",
+            "en": "Peter the Great founds the Tula Arms Factory."
+          }
+        },
+        {
+          "year": "1828",
+          "text": {
+            "ru": "В Ясной Поляне родился Лев Толстой.",
+            "en": "Leo Tolstoy is born at Yasnaya Polyana."
+          }
+        },
+        {
+          "year": "1976",
+          "text": {
+            "ru": "Туле присвоено звание города-героя за оборону 1941 года.",
+            "en": "Tula is named a Hero City for its defence in 1941."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Тульский пряник — печатный, с начинкой из повидла или сгущёнки",
+          "Чай из самовара — как же иначе",
+          "Белёвскую пастилу из соседнего Белёва"
+        ],
+        "en": [
+          "Tula gingerbread — printed, with jam or condensed-milk filling",
+          "Tea from a samovar, of course",
+          "Belyov pastila from neighbouring Belyov"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Печатный пряник с тульским кремлём",
+          "Самовар — от сувенирного до настоящего",
+          "Ножи и сувениры тульских оружейников"
+        ],
+        "en": [
+          "Printed gingerbread with the Tula kremlin",
+          "A samovar, from a souvenir to the real thing",
+          "Knives and souvenirs by Tula gunsmiths"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "На Ясную Поляну заложите полдня: усадьба большая, а к могиле Толстого идут через лес",
+          "В музеях самоваров и пряника часто проводят чаепития и мастер-классы — уточните расписание",
+          "Набережная Упы у кремля — лучшее место для вечерней прогулки"
+        ],
+        "en": [
+          "Allow half a day for Yasnaya Polyana: the estate is large and Tolstoy's grave is reached through the woods",
+          "The samovar and gingerbread museums often hold tea parties and workshops — check the schedule",
+          "The Upa embankment by the kremlin is the best place for an evening walk"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "tula-day",
+      "title": {"ru": "Тула и Ясная Поляна", "en": "Tula and Yasnaya Polyana"},
+      "summary": {
+        "ru": "Тульский кремль, музей оружия в здании-шлеме, самовары и набережная Упы, а потом — Ясная Поляна: дом Толстого, яблоневые сады и его скромная могила в лесу.",
+        "en": "The Tula kremlin, the weapons museum in its helmet-shaped building, samovars and the Upa embankment, then Yasnaya Polyana: Tolstoy's house, the apple orchards and his simple grave in the woods."
+      },
+      "intro": {
+        "ru": "Утром — центр Тулы пешком, около 2 км: кремль, музей оружия, музей самоваров и набережная. После обеда — 25 минут на машине или такси до Ясной Поляны; на усадьбу заложите 2–3 часа.",
+        "en": "In the morning see central Tula on foot, about 2 km: the kremlin, the weapons museum, the samovar museum and the embankment. After lunch, 25 minutes by car or taxi to Yasnaya Polyana; allow 2–3 hours for the estate."
+      },
+      "emoji": "🫖",
+      "tags": ["walk", "car"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "tula-kremlin",
+              "title": {"ru": "Тульский кремль", "en": "Tula Kremlin"},
+              "coordinate": [54.1962, 37.62],
+              "category": "castle",
+              "visit": 60,
+              "details": {
+                "ru": "Кирпичный кремль 1507–1520 годов в центре города: девять башен, стены с ходом поверху и два собора — Успенский с яркими фресками и Богоявленский. Штурмом кремль не взяли ни разу.",
+                "en": "A brick kremlin of 1507–1520 in the city centre: nine towers, walls with a walkway along the top and two cathedrals — the Dormition, with vivid frescoes, and the Epiphany. It was never taken by storm."
+              },
+              "wiki": {"ru": "Тульский кремль", "en": "Tula Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Тульский кремль построили в 1507–1520 годах на южной границе Московского государства, против набегов крымских татар. В отличие от многих кремлей, он стоит не на холме, а в низине у реки Упы, — защитой служили вода и мощные кирпичные стены.\n\nВ 1552 году, когда Иван Грозный шёл на Казань, к Туле подошло войско крымского хана Девлет-Гирея. Гарнизон и горожане отбились. А в 1607 году здесь засели восставшие Ивана Болотникова, и царь Василий Шуйский взял город, перегородив Упу плотиной и затопив его.\n\nСегодня по стенам кремля можно пройти поверху, а внутри стоят Успенский собор XVIII века с яркими фресками и Богоявленский собор XIX века.",
+                  "en": "The Tula kremlin was built in 1507–1520 on Muscovy's southern border against Crimean Tatar raids. Unlike many kremlins, it stands not on a hill but in a hollow by the Upa — water and massive brick walls were its defence.\n\nIn 1552, as Ivan the Terrible marched on Kazan, the army of the Crimean khan Devlet Giray came to Tula. The garrison and the townspeople fought it off. In 1607 Ivan Bolotnikov's rebels held out here, and Tsar Vasily Shuisky took the town by damming the Upa and flooding it.\n\nToday you can walk along the top of the walls, and inside stand the 18th-century Dormition Cathedral with its vivid frescoes and the 19th-century Epiphany Cathedral."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ход поверху стен",
+                    "Фрески Успенского собора",
+                    "Башню Водяных ворот у Упы"
+                  ],
+                  "en": [
+                    "The walkway along the top of the walls",
+                    "The frescoes of the Dormition Cathedral",
+                    "The Water Gate tower by the Upa"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Тульский кремль стоит в низине, а не на холме, как большинство русских кремлей.",
+                    "В 1607 году Тулу взяли, затопив город водами Упы."
+                  ],
+                  "en": [
+                    "The Tula kremlin stands in a hollow rather than on a hill like most Russian kremlins.",
+                    "In 1607 Tula was taken by flooding it with the waters of the Upa."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как царь Василий Шуйский взял Тулу в 1607 году?",
+                    "en": "How did Tsar Vasily Shuisky take Tula in 1607?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Затопил город, перегородив Упу плотиной",
+                      "Сделал подкоп под стену",
+                      "Подкупил стражу"
+                    ],
+                    "en": [
+                      "He flooded the town by damming the Upa",
+                      "He tunnelled under the wall",
+                      "He bribed the guards"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Плотина подняла воду в Упе, город затопило, и восставшим пришлось сдаться.",
+                    "en": "The dam raised the Upa, the town flooded and the rebels had to surrender."
+                  }
+                },
+                "approach": {
+                  "ru": "Кремль — в самом центре, у Советской улицы.",
+                  "en": "The kremlin is right in the centre, by Sovetskaya Street."
+                }
+              }
+            },
+            {
+              "id": "tula-weapons",
+              "title": {"ru": "Музей оружия", "en": "Weapons Museum"},
+              "coordinate": [54.19511, 37.62117],
+              "category": "museum",
+              "visit": 90,
+              "details": {
+                "ru": "Один из старейших музеев России, начатый по указу Петра I в 1724 году, в новом здании в форме богатырского шлема. Пищали, ружья, сабли, автоматы и декоративное оружие тульских мастеров с серебряной насечкой.",
+                "en": "One of Russia's oldest museums, begun by Peter the Great's decree of 1724, in a new building shaped like a knight's helmet. Harquebuses, rifles, sabres, automatic weapons and decorative arms by Tula masters inlaid with silver."
+              },
+              "wiki": {"ru": "Тульский государственный музей оружия"},
+              "guide": {
+                "story": {
+                  "ru": "В 1712 году Пётр I основал в Туле государственный оружейный завод, а в 1724 году велел хранить при нём образцы лучших изделий — так начался один из старейших музеев России. Сегодня он занимает новое здание в форме огромного богатырского шлема на берегу Упы.\n\nЗдесь можно проследить всю историю оружия: от луков, кольчуг и пищалей до винтовок, автоматов и современных образцов. Отдельная гордость — декоративное оружие тульских мастеров, украшенное серебром, золотом и тончайшей насечкой, которое дарили императорам и послам.\n\nТульские оружейники славились точностью — недаром Лесков сделал тульского мастера Левшу героем сказа о подкованной блохе.",
+                  "en": "In 1712 Peter the Great founded a state arms factory in Tula, and in 1724 he ordered samples of its best work to be kept there — the beginning of one of Russia's oldest museums. Today it occupies a new building shaped like a giant knight's helmet on the bank of the Upa.\n\nYou can follow the whole history of weapons here, from bows, mail and harquebuses to rifles, automatic weapons and modern arms. A special pride is the decorative weaponry of Tula masters, adorned with silver, gold and the finest inlay, which was presented to emperors and ambassadors.\n\nTula gunsmiths were famous for precision — no wonder Leskov made the Tula craftsman Lefty the hero of his tale about the shod flea."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Здание-шлем со стороны Упы",
+                    "Охотничьи ружья с серебряной насечкой",
+                    "Старинные пищали и кольчуги"
+                  ],
+                  "en": [
+                    "The helmet-shaped building seen from the Upa",
+                    "Hunting guns with silver inlay",
+                    "Old harquebuses and mail"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Музей ведёт историю с 1724 года.",
+                    "Новое здание музея построено в форме богатырского шлема."
+                  ],
+                  "en": [
+                    "The museum dates back to 1724.",
+                    "Its new building is shaped like a knight's helmet."
+                  ]
+                },
+                "legend": {
+                  "ru": "По сказу Лескова, англичане подарили царю стальную блоху-танцовщицу, а тульский Левша с товарищами подковал её крошечными подковками, на каждой из которых было имя мастера. Только плясать блоха после этого перестала.",
+                  "en": "In Leskov's tale the English gave the tsar a dancing steel flea, and Lefty of Tula and his friends shod it with tiny horseshoes, each bearing its maker's name. The only trouble was that the flea stopped dancing."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто в сказе Лескова подковал стальную блоху?",
+                    "en": "In Leskov's tale, who shod the steel flea?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Тульский мастер Левша",
+                      "Английский механик",
+                      "Царь Александр"
+                    ],
+                    "en": [
+                      "Lefty, the Tula craftsman",
+                      "An English mechanic",
+                      "Tsar Alexander"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Левша с товарищами подковал блоху так мелко, что подковы видно только в «мелкоскоп».",
+                    "en": "Lefty and his friends shod the flea so finely that the shoes could only be seen through a microscope."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 минут от кремля к Упе.",
+                  "en": "About 5 minutes from the kremlin towards the Upa."
+                }
+              }
+            },
+            {
+              "id": "tula-samovars",
+              "title": {"ru": "Музей «Тульские самовары»", "en": "Tula Samovars Museum"},
+              "coordinate": [54.19427, 37.61894],
+              "category": "museum",
+              "visit": 45,
+              "details": {
+                "ru": "Небольшой музей напротив кремля: самовары всех форм и размеров — «рюмки», «банки», «вазы», дорожные самовары и самовары-кухни.",
+                "en": "A small museum opposite the kremlin: samovars of every shape and size — 'wineglasses', 'jars', 'vases', travel samovars and samovar-kitchens."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Тула стала самоварной столицей России в XIX веке: здесь работали десятки самоварных фабрик, и выражение «ехать в Тулу со своим самоваром» стало поговоркой — так говорят о чём-то совершенно лишнем.\n\nВ музее собраны самовары всех форм — «рюмка», «банка», «ваза», «яйцо», — дорожные и самовары-кухни, в которых можно было одновременно кипятить воду и варить еду. Самовар работал на углях: внутри у него труба-жаровня, а вода нагревается вокруг неё.\n\nЧай из самовара — целый ритуал: заварочный чайник ставили на конфорку сверху, а пили из блюдец, вприкуску с сахаром и, конечно, с тульским пряником.",
+                  "en": "Tula became Russia's samovar capital in the 19th century: dozens of samovar factories worked here, and 'taking your own samovar to Tula' became a saying for something utterly pointless.\n\nThe museum has samovars of every shape — 'wineglass', 'jar', 'vase', 'egg' — travel samovars and samovar-kitchens in which you could boil water and cook at the same time. A samovar burned charcoal: inside is a fire tube, and the water heats up around it.\n\nTea from a samovar is a whole ritual: the teapot sat on top, and people drank from saucers with a lump of sugar and, of course, Tula gingerbread."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Самовар в форме «рюмки» или «вазы»",
+                    "Самовар-кухню с отделениями",
+                    "Самый маленький самовар в коллекции"
+                  ],
+                  "en": [
+                    "A 'wineglass' or 'vase' samovar",
+                    "A samovar-kitchen with compartments",
+                    "The smallest samovar in the collection"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В XIX веке в Туле работали десятки самоварных фабрик.",
+                    "«Ехать в Тулу со своим самоваром» — значит делать что-то лишнее."
+                  ],
+                  "en": [
+                    "In the 19th century dozens of samovar factories worked in Tula.",
+                    "'To take your own samovar to Tula' means to do something pointless."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что значит «ехать в Тулу со своим самоваром»?",
+                    "en": "What does 'taking your own samovar to Tula' mean?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Делать что-то лишнее",
+                      "Готовиться к долгой дороге",
+                      "Приходить в гости с подарком"
+                    ],
+                    "en": [
+                      "Doing something pointless",
+                      "Preparing for a long journey",
+                      "Bringing a present when visiting"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В Туле самоваров и так было больше, чем где-либо, — везти туда свой бессмысленно.",
+                    "en": "Tula already had more samovars than anywhere else — bringing your own was pointless."
+                  }
+                },
+                "approach": {
+                  "ru": "Напротив кремля, через Менделеевскую улицу.",
+                  "en": "Opposite the kremlin, across Mendeleevskaya Street."
+                }
+              }
+            },
+            {
+              "id": "tula-embankment",
+              "title": {"ru": "Набережная Упы", "en": "Upa Embankment"},
+              "coordinate": [54.1985, 37.6215],
+              "category": "street",
+              "visit": 25,
+              "details": {
+                "ru": "Обновлённая Казанская набережная Упы у стен кремля: прогулочные настилы, ступени-амфитеатры у воды, мостики и вид на кремлёвские башни. Вечером её подсвечивают.",
+                "en": "The renovated Kazanskaya embankment of the Upa by the kremlin walls: boardwalks, amphitheatre steps down to the water, footbridges and a view of the kremlin towers. It is lit up in the evening."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Река Упа — приток Оки — веками служила Туле и защитой, и силой для заводов. Набережная у кремля долго оставалась заброшенной, но в 2018 году её реконструировали: появились деревянные настилы, ступени к воде, мостики и фонари.\n\nС набережной видно кремлёвские стены и башни, здание-шлем музея оружия и купола соборов. Это любимое место вечерних прогулок туляков.\n\nПрисядьте на ступенях у воды — отсюда кремль выглядит особенно мощным, а по вечерам на набережной играют музыканты.",
+                  "en": "The Upa, a tributary of the Oka, served Tula for centuries as both a defence and a source of power for its factories. The embankment by the kremlin was long neglected, but in 2018 it was rebuilt with boardwalks, steps down to the water, footbridges and lamps.\n\nFrom the embankment you see the kremlin walls and towers, the helmet of the weapons museum and the cathedral domes. It is the favourite evening stroll of Tula's residents.\n\nSit on the steps by the water — the kremlin looks especially mighty from here, and in the evening musicians often play on the embankment."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ступени-амфитеатр у воды",
+                    "Кремлёвские башни над рекой",
+                    "Здание-шлем музея оружия"
+                  ],
+                  "en": [
+                    "The amphitheatre steps by the water",
+                    "The kremlin towers above the river",
+                    "The weapons museum's helmet"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Упа — приток Оки.",
+                    "Набережную реконструировали в 2018 году."
+                  ],
+                  "en": [
+                    "The Upa is a tributary of the Oka.",
+                    "The embankment was rebuilt in 2018."
+                  ]
+                },
+                "approach": {
+                  "ru": "Спуститесь к реке от музея оружия.",
+                  "en": "Walk down to the river from the weapons museum."
+                }
+              }
+            },
+            {
+              "id": "tula-yasnaya-polyana",
+              "title": {"ru": "Ясная Поляна", "en": "Yasnaya Polyana"},
+              "coordinate": [54.0762, 37.52629],
+              "category": "palace",
+              "visit": 150,
+              "details": {
+                "ru": "Усадьба Льва Толстого в 15 км от Тулы: дом, где он прожил почти шестьдесят лет и написал «Войну и мир» и «Анну Каренину», берёзовая аллея, яблоневые сады, пруды и скромная могила писателя в лесу.",
+                "en": "Leo Tolstoy's estate 15 km from Tula: the house where he lived for almost sixty years and wrote 'War and Peace' and 'Anna Karenina', the birch avenue, apple orchards, ponds and the writer's simple grave in the woods."
+              },
+              "wiki": {"ru": "Ясная Поляна", "en": "Yasnaya Polyana"},
+              "arrival": {
+                "mode": "car",
+                "note": {
+                  "ru": "Около 15 км — 25 минут на машине или такси",
+                  "en": "About 15 km — 25 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Ясная Поляна — родовая усадьба Толстых и Волконских. Лев Толстой родился здесь в 1828 году и прожил тут большую часть жизни: написал «Войну и мир» и «Анну Каренину», учил крестьянских детей в своей школе, пахал землю и принимал гостей со всего мира.\n\nДом сохранился таким, каким его оставил писатель в 1910 году, уходя из Ясной Поляны навсегда: кабинет, библиотека из двадцати с лишним тысяч книг, фонограф, подаренный Томасом Эдисоном. Вокруг — берёзовая аллея «Прешпект», пруды, яблоневые сады и леса.\n\nТолстой просил похоронить его без памятника и креста, в лесу Старый Заказ. Скромный зелёный холмик среди деревьев — одно из самых пронзительных мест в России.",
+                  "en": "Yasnaya Polyana is the family estate of the Tolstoys and Volkonskys. Leo Tolstoy was born here in 1828 and spent most of his life here: he wrote 'War and Peace' and 'Anna Karenina', taught peasant children in his school, ploughed the land and received guests from all over the world.\n\nThe house is preserved as the writer left it in 1910, when he walked out of Yasnaya Polyana for ever: his study, a library of more than twenty thousand books, and a phonograph sent by Thomas Edison. Around it are the birch avenue known as the 'Preshpekt', ponds, apple orchards and woods.\n\nTolstoy asked to be buried without a monument or a cross, in the Stary Zakaz wood. The simple green mound among the trees is one of the most moving places in Russia."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Берёзовую аллею «Прешпект» у въезда",
+                    "Фонограф Эдисона в доме",
+                    "Могилу Толстого без креста и памятника"
+                  ],
+                  "en": [
+                    "The 'Preshpekt' birch avenue at the entrance",
+                    "Edison's phonograph in the house",
+                    "Tolstoy's grave without cross or monument"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Лев Толстой родился в Ясной Поляне в 1828 году и похоронен здесь же.",
+                    "В библиотеке писателя больше двадцати тысяч книг на разных языках."
+                  ],
+                  "en": [
+                    "Leo Tolstoy was born at Yasnaya Polyana in 1828 and is buried here.",
+                    "The writer's library holds more than twenty thousand books in many languages."
+                  ]
+                },
+                "legend": {
+                  "ru": "Старший брат Николай рассказывал маленькому Льву, что в лесу зарыта зелёная палочка, на которой написан секрет, как сделать всех людей счастливыми. Толстой всю жизнь помнил эту игру и просил похоронить его на том самом месте.",
+                  "en": "His elder brother Nikolai told young Leo that a green stick was buried in the woods with the secret of making all people happy written on it. Tolstoy remembered the game all his life and asked to be buried on that very spot."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой подарок прислал Толстому изобретатель Томас Эдисон?",
+                    "en": "What did the inventor Thomas Edison send Tolstoy?"
+                  },
+                  "options": {
+                    "ru": ["Фонограф", "Телефон", "Электрическую лампу"],
+                    "en": ["A phonograph", "A telephone", "An electric lamp"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "На фонограф Эдисона Толстой записывал свой голос — записи сохранились.",
+                    "en": "Tolstoy recorded his voice on Edison's phonograph — the recordings survive."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15 км на юг от Тулы — 25 минут на машине или такси.",
+                  "en": "About 15 km south of Tula — 25 minutes by car or taxi."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

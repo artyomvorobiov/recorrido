@@ -12,11 +12,97 @@
       "ru": "Около 370 км от Москвы — 5 часов на машине. Ближайшие крупные города — Иваново (70 км) и Кострома (65 км). Летом в Плёс заходят речные теплоходы.",
       "en": "About 370 km from Moscow — 5 hours by car. The nearest cities are Ivanovo (70 km) and Kostroma (65 km). In summer river cruise ships call here."
     },
-    "coordinate": [57.4606, 41.5130],
+    "coordinate": [57.4606, 41.513],
     "emoji": "🎨",
     "size": "small",
     "tags": ["volga"],
-    "wiki": {"ru": "Плёс", "en": "Plyos"}
+    "wiki": {"ru": "Плёс", "en": "Plyos"},
+    "guide": {
+      "story": {
+        "ru": "Плёс — крошечный город на высоком правом берегу Волги. «Плёсом» называют прямой участок реки между двумя излучинами, и здесь Волга действительно широко и спокойно разворачивается перед глазами. Летопись впервые упоминает поселение в 1141 году, а в 1410 году московский князь Василий I поставил на горе укреплённую заставу, чтобы стеречь путь по реке.\n\nПлёс жил торговлей, а в XIX веке остался в стороне от железных дорог и словно застыл во времени. Именно эту тишину и простор полюбили художники: Исаак Левитан провёл здесь три лета подряд и написал свои знаменитые волжские пейзажи.\n\nСегодня весь центр Плёса — музей под открытым небом: деревянные и каменные дома, лестницы на холмы, белые церкви и длинная набережная. Город маленький, но его лучше не пробегать, а прогуливать — с остановками на скамейках над водой.",
+        "en": "Plyos is a tiny town on the high right bank of the Volga. A 'plyos' is a straight stretch of river between two bends, and here the Volga really does open out wide and calm before your eyes. The chronicles first mention the settlement in 1141, and in 1410 Grand Prince Vasily I of Moscow built a fortified outpost on the hill to guard the river route.\n\nPlyos lived by trade, and in the 19th century it was bypassed by the railways and seemed to freeze in time. That quiet and space is exactly what painters loved: Isaac Levitan spent three summers in a row here and painted his famous Volga landscapes.\n\nToday the whole centre of Plyos is an open-air museum: wooden and stone houses, staircases up the hills, white churches and a long embankment. The town is small, but it is better strolled than rushed — with stops on benches above the water."
+      },
+      "history": [
+        {
+          "year": "1141",
+          "text": {
+            "ru": "Первое упоминание поселения в летописи.",
+            "en": "First mention of the settlement in a chronicle."
+          }
+        },
+        {
+          "year": "1410",
+          "text": {
+            "ru": "Князь Василий I строит на горе укреплённую заставу.",
+            "en": "Prince Vasily I builds a fortified outpost on the hill."
+          }
+        },
+        {
+          "year": "1699",
+          "text": {
+            "ru": "На Соборной горе возводят каменный Успенский собор.",
+            "en": "The stone Dormition Cathedral is built on Cathedral Hill."
+          }
+        },
+        {
+          "year": "1778",
+          "text": {
+            "ru": "Плёс становится уездным городом Костромского наместничества.",
+            "en": "Plyos becomes a district town of the Kostroma vicegerency."
+          }
+        },
+        {
+          "year": "1888–1890",
+          "text": {
+            "ru": "Исаак Левитан проводит в Плёсе три лета подряд.",
+            "en": "Isaac Levitan spends three summers in a row in Plyos."
+          }
+        },
+        {
+          "year": "1982",
+          "text": {
+            "ru": "На Левитановскую гору перевозят деревянную церковь 1699 года из села Билюково.",
+            "en": "A wooden church of 1699 is moved to Levitan Hill from the village of Bilyukovo."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Волжскую рыбу — копчёного леща или жареного судака",
+          "Чай из самовара с вареньем — в духе дачного Плёса",
+          "Пироги с рыбой и капустой"
+        ],
+        "en": [
+          "Volga fish — smoked bream or fried pike-perch",
+          "Tea from a samovar with jam, in the spirit of dacha-time Plyos",
+          "Pies with fish and cabbage"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Ивановский ситец и лён — Плёс стоит в «ситцевом краю»",
+          "Открытки и репродукции левитановских пейзажей",
+          "Работы местных художников с видами Волги"
+        ],
+        "en": [
+          "Ivanovo chintz and linen — Plyos lies in Russia's 'chintz country'",
+          "Postcards and prints of Levitan's landscapes",
+          "Paintings of the Volga by local artists"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "На Соборную и Левитановскую горы ведут крутые подъёмы — нужна удобная обувь",
+          "Самый «золотой» свет — вечером: не случайно Левитан назвал картину «Вечер. Золотой Плёс»",
+          "Летом в выходные Плёс полон гостей — в будни город гораздо тише"
+        ],
+        "en": [
+          "Steep climbs lead up Cathedral Hill and Levitan Hill — wear comfortable shoes",
+          "The most 'golden' light is in the evening — no wonder Levitan called a painting 'Evening. Golden Plyos'",
+          "On summer weekends Plyos is full of visitors — on weekdays it is much quieter"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -25,6 +111,10 @@
       "summary": {
         "ru": "Неспешная прогулка на несколько часов: Соборная гора с видом на Волгу, Торговая площадь, дом-музей Левитана, холм, который называют его именем, и набережная с бронзовой «Дачницей».",
         "en": "An unhurried walk of a few hours: Cathedral Hill above the Volga, the market square, the Levitan house museum, the hill that bears his name and the embankment with the bronze 'Summer Lady'."
+      },
+      "intro": {
+        "ru": "Прогулка на 3–4 часа, около 3 км, но с подъёмами: Плёс стоит на холмах. Начните с Соборной горы, спуститесь к Торговой площади, загляните в дом Левитана, поднимитесь на его гору и закончите на набережной — к вечеру, когда свет становится «золотым».",
+        "en": "A 3–4 hour walk of about 3 km, but with climbs: Plyos stands on hills. Start on Cathedral Hill, go down to Market Square, visit Levitan's house, climb his hill and finish on the embankment towards evening, when the light turns 'golden'."
       },
       "emoji": "🎨",
       "tags": ["walk"],
@@ -41,45 +131,231 @@
                 "ru": "Высокий холм над Волгой, на котором в древности стояла крепость, а теперь — Успенский собор конца XVII века. Отсюда открывается тот самый простор, ради которого в Плёс ехали художники: широкая река, заливные луга и бесконечное небо.",
                 "en": "A high hill above the Volga that once held a fortress and now carries the late 17th-century Dormition Cathedral. From here opens the vast view painters came for: a wide river, water meadows and endless sky."
               },
-              "wiki": {"ru": "Успенский собор (Плёс)"}
+              "wiki": {"ru": "Успенский собор (Плёс)"},
+              "guide": {
+                "story": {
+                  "ru": "Соборная гора — сердце Плёса. Здесь в 1410 году по приказу московского князя Василия I поставили деревянную крепость-заставу: с высоты было видно далеко вверх и вниз по Волге. Крепость не сохранилась, а вершину холма занимает белый Успенский собор, построенный в 1699 году.\n\nС горы открывается тот самый простор, ради которого в Плёс ехали художники: широкая река, луга на низком левом берегу и огромное небо. Живописцы поднимались сюда с этюдниками, и с этой горы написано немало волжских пейзажей.\n\nОтдышитесь после подъёма и посмотрите вниз: под горой — Торговая площадь, крыши старого города и пристань.",
+                  "en": "Cathedral Hill is the heart of Plyos. In 1410, on the orders of Grand Prince Vasily I of Moscow, a wooden fortress-outpost was built here: from the top you could see far up and down the Volga. The fortress has not survived; the hilltop is now crowned by the white Dormition Cathedral, built in 1699.\n\nFrom the hill opens the very expanse painters came to Plyos for: the broad river, meadows on the low left bank and a huge sky. Artists climbed up here with their easels, and many Volga landscapes were painted from this hill.\n\nCatch your breath after the climb and look down: below are Market Square, the roofs of the old town and the pier."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Белый Успенский собор на вершине",
+                    "Изгиб Волги — тот самый «плёс», давший имя городу",
+                    "Луга на низком берегу напротив"
+                  ],
+                  "en": [
+                    "The white Dormition Cathedral on the top",
+                    "The bend of the Volga — the very 'plyos' that named the town",
+                    "The meadows on the low bank opposite"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Слово «плёс» означает прямой участок реки между двумя излучинами.",
+                    "Каменный Успенский собор на горе построен в 1699 году."
+                  ],
+                  "en": [
+                    "The word 'plyos' means a straight stretch of river between two bends.",
+                    "The stone Dormition Cathedral on the hill was built in 1699."
+                  ]
+                },
+                "quiz": {
+                  "question": {"ru": "Что означает слово «плёс»?", "en": "What does the word 'plyos' mean?"},
+                  "options": {
+                    "ru": [
+                      "Прямой участок реки между излучинами",
+                      "Высокий холм над рекой",
+                      "Причал для лодок"
+                    ],
+                    "en": [
+                      "A straight stretch of river between bends",
+                      "A high hill above a river",
+                      "A mooring for boats"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Город назван по участку Волги: здесь река течёт широко и прямо между двумя изгибами.",
+                    "en": "The town is named after this stretch of the Volga, where the river runs wide and straight between two bends."
+                  }
+                },
+                "approach": {
+                  "ru": "Подняться можно по лестнице от набережной — подъём крутой, но короткий.",
+                  "en": "You can climb the stairs from the embankment — steep but short."
+                }
+              }
             },
             {
               "id": "plyos-market-square",
               "title": {"ru": "Торговая площадь", "en": "Market Square"},
-              "coordinate": [57.45990, 41.51060],
+              "coordinate": [57.46066, 41.5123],
               "category": "square",
               "visit": 20,
               "details": {
                 "ru": "Небольшая площадь у подножия Соборной горы с торговыми рядами и Воскресенской церковью. Отсюда расходятся улочки с деревянными домами и палисадниками.",
                 "en": "A small square at the foot of Cathedral Hill with old shops and the Church of the Resurrection. Lanes of wooden houses with front gardens lead off in every direction."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Торговая площадь у подножия Соборной горы веками была главным местом Плёса: сюда приставали суда, здесь торговали и устраивали ярмарки. Старые торговые ряды помнят купеческий Плёс XIX века.\n\nНад площадью поднимается Воскресенская церковь с колокольней. Вокруг расходятся улицы с деревянными домами, резными наличниками и палисадниками, где летом цветут цветы.\n\nПлощадь и сегодня — место встреч: здесь кафе, лавки и сувениры. Отсюда удобно продолжить прогулку в любую сторону.",
+                  "en": "Market Square at the foot of Cathedral Hill was for centuries the main place in Plyos: boats moored here, trading went on and fairs were held. The old trading rows remember the merchant Plyos of the 19th century.\n\nThe Resurrection Church with its bell tower rises above the square. Around it, streets of wooden houses spread out, with carved window frames and front gardens full of flowers in summer.\n\nThe square is still a meeting place, with cafés, shops and souvenirs. From here it is easy to continue the walk in any direction."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Воскресенскую церковь с колокольней",
+                    "Резные наличники на деревянных домах вокруг",
+                    "Старые торговые ряды"
+                  ],
+                  "en": [
+                    "The Resurrection Church with its bell tower",
+                    "Carved window frames on the wooden houses around",
+                    "The old trading rows"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В Плёсе живёт около двух тысяч человек — это один из самых маленьких городов России.",
+                    "В 1778 году Плёс получил статус уездного города, но уже в 1796 году стал заштатным."
+                  ],
+                  "en": [
+                    "About two thousand people live in Plyos — one of the smallest towns in Russia.",
+                    "Plyos became a district town in 1778 but lost that rank as early as 1796."
+                  ]
+                },
+                "approach": {
+                  "ru": "Спуститесь с Соборной горы по лестнице — площадь прямо под ней.",
+                  "en": "Take the stairs down from Cathedral Hill — the square lies right below it."
+                }
               }
             },
             {
               "id": "plyos-levitan-house",
               "title": {"ru": "Дом-музей Левитана", "en": "Levitan House Museum"},
-              "coordinate": [57.45920, 41.50700],
+              "coordinate": [57.45936, 41.52374],
               "category": "museum",
               "visit": 45,
               "details": {
                 "ru": "Дом, где Левитан жил летом 1888–1890 годов вместе с художницей Софьей Кувшинниковой. В Плёсе он написал «Вечер. Золотой Плёс» и «После дождя. Плёс» — в музее можно сравнить картины с видами за окном.",
                 "en": "The house where Levitan spent the summers of 1888–1890 with the artist Sofia Kuvshinnikova. In Plyos he painted 'Evening. Golden Plyos' and 'After the Rain. Plyos' — here you can compare the paintings with the views outside the window."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Исаак Левитан впервые приехал в Плёс в 1888 году вместе с художницей Софьей Кувшинниковой и провёл здесь три лета подряд. Плёс стал для него поворотным: именно здесь сложился его «пейзаж настроения», где река, небо и тихие церкви говорят о чувствах больше, чем слова.\n\nЗа плёсские лета Левитан написал «Вечер. Золотой Плёс», «После дождя. Плёс», закончил «Берёзовую рощу» и сделал множество этюдов. В доме, где он жил, теперь музей: можно увидеть обстановку тех лет, пейзажи художника и сравнить волжские виды с тем, что видно за окнами.\n\nДружба Левитана и Кувшинниковой стала поводом для рассказа Чехова «Попрыгунья», после которого Левитан почти три года не разговаривал с другом-писателем.",
+                  "en": "Isaac Levitan first came to Plyos in 1888 with the painter Sofia Kuvshinnikova and spent three summers in a row here. Plyos was a turning point for him: this is where his 'mood landscape' took shape, in which river, sky and quiet churches say more about feelings than words.\n\nDuring his Plyos summers Levitan painted 'Evening. Golden Plyos' and 'After the Rain. Plyos', finished 'Birch Grove' and made many sketches. The house where he lived is now a museum: you can see the furnishings of those years and the painter's landscapes, and compare the Volga views with what you see out of the windows.\n\nLevitan's friendship with Kuvshinnikova inspired Chekhov's story 'The Grasshopper', after which Levitan did not speak to his writer friend for almost three years."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Вид из окон на Волгу — сравните с картинами",
+                    "Пейзажи с Волгой, написанные в Плёсе",
+                    "Обстановку дачного дома конца XIX века"
+                  ],
+                  "en": [
+                    "The view of the Volga from the windows — compare it with the paintings",
+                    "Volga landscapes painted in Plyos",
+                    "The furnishings of a late-19th-century summer house"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Картины «Вечер. Золотой Плёс» и «После дождя. Плёс» хранятся в Третьяковской галерее.",
+                    "Софья Кувшинникова была художницей и ученицей Левитана — она тоже писала в Плёсе."
+                  ],
+                  "en": [
+                    "'Evening. Golden Plyos' and 'After the Rain. Plyos' are kept in the Tretyakov Gallery.",
+                    "Sofia Kuvshinnikova was a painter and Levitan's student — she painted in Plyos too."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой писатель описал Левитана и Кувшинникову в рассказе «Попрыгунья»?",
+                    "en": "Which writer portrayed Levitan and Kuvshinnikova in the story 'The Grasshopper'?"
+                  },
+                  "options": {
+                    "ru": ["Антон Чехов", "Лев Толстой", "Иван Тургенев"],
+                    "en": ["Anton Chekhov", "Leo Tolstoy", "Ivan Turgenev"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Чехов дружил с Левитаном, но «Попрыгунья» так обидела художника, что они почти три года не общались.",
+                    "en": "Chekhov was Levitan's friend, but 'The Grasshopper' offended the painter so much that they did not speak for almost three years."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком на восток от площади.",
+                  "en": "About 10 minutes' walk east of the square."
+                }
               }
             },
             {
               "id": "plyos-levitan-hill",
               "title": {"ru": "Левитановская гора", "en": "Levitan Hill"},
-              "coordinate": [57.45780, 41.50440],
+              "coordinate": [57.45656, 41.52164],
               "category": "viewpoint",
               "visit": 20,
               "details": {
                 "ru": "Холм на краю города, откуда Левитан любил писать Волгу. С вершины вниз уходят тропинки к реке — отличное место, чтобы просто посидеть на лавочке и посмотреть на воду.",
                 "en": "A hill at the edge of town from which Levitan liked to paint the Volga. Paths run down from the top to the river — a fine spot to simply sit on a bench and watch the water."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Холм над Плёсом неподалёку от дома-музея Левитана раньше называли Петропавловской горой: на нём стояла маленькая деревянная церковь Петра и Павла. Левитан написал её этюд «Деревянная церковь в Плёсе при последних лучах солнца», а позже соединил этот мотив с видом озера Удомля в знаменитой картине «Над вечным покоем».\n\nСама церковь сгорела в 1903 году. В 1982 году на её место перевезли похожую деревянную Воскресенскую церковь 1699 года из села Билюково — и вид снова стал «левитановским». А гору с тех пор называют Левитановой.\n\nОтсюда вниз к Волге сбегают тропинки, а на склоне стоят скамейки. Это лучшее место в Плёсе, чтобы просто посидеть и посмотреть на реку.",
+                  "en": "The hill above Plyos, not far from Levitan's house museum, used to be called Peter and Paul Hill: a small wooden church of Saints Peter and Paul stood on it. Levitan painted a sketch of it, 'Wooden Church in Plyos in the Last Rays of the Sun', and later combined the motif with a view of Lake Udomlya in his famous 'Above Eternal Peace'.\n\nThe church itself burned down in 1903. In 1982 a similar wooden Resurrection church of 1699 was moved here from the village of Bilyukovo — and the view became 'Levitan's' again. Ever since, the hill has been called Levitan Hill.\n\nPaths run down to the Volga from here, and there are benches on the slope. It is the best place in Plyos simply to sit and look at the river."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Деревянную Воскресенскую церковь на вершине",
+                    "Вид на Волгу, похожий на картину «Над вечным покоем»",
+                    "Тропинки, сбегающие к воде"
+                  ],
+                  "en": [
+                    "The wooden Resurrection church on the top",
+                    "A view of the Volga reminiscent of 'Above Eternal Peace'",
+                    "The paths running down to the water"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь, которую писал Левитан, сгорела в 1903 году; нынешнюю перевезли сюда в 1982 году.",
+                    "О картине «Над вечным покоем» Левитан писал Третьякову: «В ней я весь, со всей своей психикой, со всем моим содержанием»."
+                  ],
+                  "en": [
+                    "The church Levitan painted burned down in 1903; the present one was moved here in 1982.",
+                    "Levitan wrote to Tretyakov about 'Above Eternal Peace': 'I am all in it, with all my psyche, with all my substance.'"
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какую знаменитую картину Левитан связал с церковью с этой горы?",
+                    "en": "Which famous painting did Levitan base on the church from this hill?"
+                  },
+                  "options": {
+                    "ru": [
+                      "«Над вечным покоем»",
+                      "«Грачи прилетели»",
+                      "«Девятый вал»"
+                    ],
+                    "en": [
+                      "Above Eternal Peace",
+                      "The Rooks Have Come Back",
+                      "The Ninth Wave"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Левитан соединил этюд плёсской церкви с видом озера Удомля. «Грачи прилетели» написал Саврасов, а «Девятый вал» — Айвазовский.",
+                    "en": "Levitan combined his sketch of the Plyos church with a view of Lake Udomlya. 'The Rooks Have Come Back' is by Savrasov, and 'The Ninth Wave' by Aivazovsky."
+                  }
+                },
+                "approach": {
+                  "ru": "От дома-музея 5–7 минут пешком вверх по склону, на юг.",
+                  "en": "5–7 minutes' walk up the slope, south of the house museum."
+                }
               }
             },
             {
               "id": "plyos-embankment",
               "title": {"ru": "Набережная и «Дачница»", "en": "The embankment and the 'Summer Lady'"},
-              "coordinate": [57.46130, 41.51530],
+              "coordinate": [57.45912, 41.52914],
               "category": "street",
               "visit": 30,
               "details": {
@@ -89,6 +365,61 @@
               "tip": {
                 "ru": "Вечером вдоль набережной гуляет весь город — самое время для чая с видом на реку.",
                 "en": "In the evening the whole town strolls along the embankment — the perfect time for tea by the river."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Волжская набережная тянется вдоль реки почти через весь Плёс. На ней стоят купеческие дома и особняки, работают кафе, а у пристани швартуются теплоходы и прогулочные катера.\n\nБронзовая «Дачница» с зонтиком на скамейке напоминает о том времени, когда на рубеже XIX и XX веков Плёс стал модным дачным местом: сюда приезжали отдыхать москвичи и фабриканты из соседнего Иванова.\n\nВечером здесь гуляет весь город. Это лучшее время, чтобы закончить прогулку: солнце садится за холмы, и Волга становится золотой — как на картине Левитана.",
+                  "en": "The Volga embankment runs along the river almost through the whole of Plyos. It is lined with merchants' houses and mansions and cafés, and pleasure boats and river cruisers moor at the pier.\n\nThe bronze 'Dachnitsa' — a lady with an umbrella on a bench — recalls the time around 1900 when Plyos became a fashionable summer retreat: Muscovites and factory owners from nearby Ivanovo came here to rest.\n\nIn the evening the whole town strolls here. It is the best time to end the walk: the sun sets behind the hills and the Volga turns golden — just like in Levitan's painting."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Дачницу» с зонтиком на скамейке",
+                    "Купеческие дома с балконами и мезонинами",
+                    "Теплоходы у пристани"
+                  ],
+                  "en": [
+                    "The 'Dachnitsa' with her umbrella on a bench",
+                    "Merchants' houses with balconies and attics",
+                    "Boats at the pier"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "На рубеже XIX и XX веков Плёс стал модным дачным местом.",
+                    "Плёс стоит на высоком правом берегу Волги, а напротив — низкий левый берег с лугами и лесом."
+                  ],
+                  "en": [
+                    "Around 1900 Plyos became a fashionable summer retreat.",
+                    "Plyos stands on the high right bank of the Volga; opposite lies the low left bank with meadows and forest."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кого изображает бронзовая скульптура на скамейке набережной?",
+                    "en": "Who does the bronze sculpture on the embankment bench portray?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Дачницу с зонтиком",
+                      "Рыбака с удочкой",
+                      "Купца с самоваром"
+                    ],
+                    "en": [
+                      "A summer visitor with an umbrella",
+                      "A fisherman with a rod",
+                      "A merchant with a samovar"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Дачница» — символ курортного Плёса начала XX века, с ней любят фотографироваться.",
+                    "en": "The 'Dachnitsa' is the symbol of resort-time Plyos in the early 20th century, and everyone takes pictures with her."
+                  }
+                },
+                "approach": {
+                  "ru": "Спуститесь с горы к Волге — «Дачница» сидит на набережной, минут 10 ходьбы.",
+                  "en": "Go down the hill to the Volga — the 'Summer Lady' sits on the embankment, about 10 minutes' walk away."
+                }
               }
             }
           ]

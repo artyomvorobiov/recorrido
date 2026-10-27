@@ -1,0 +1,555 @@
+{
+  "city": {
+    "id": "nizhny-novgorod",
+    "name": {"ru": "Нижний Новгород", "en": "Nizhny Novgorod"},
+    "region": {"ru": "Нижегородская область", "en": "Nizhny Novgorod Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Город на слиянии Оки и Волги: кремль на высоком откосе, Чкаловская лестница в 560 ступеней, купеческая Рождественская улица, Стрелка с собором Александра Невского и канатная дорога над Волгой. Отсюда в 1612 году Минин и Пожарский повели ополчение на Москву.",
+      "en": "A city where the Oka meets the Volga: a kremlin on a high bluff, the 560-step Chkalov Staircase, merchant Rozhdestvenskaya Street, the Strelka with its Alexander Nevsky Cathedral and a cable car over the Volga. In 1612 Minin and Pozharsky led their militia from here to free Moscow."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 420 км — 5–6 часов на машине по трассе М-7 или около четырёх часов на «Ласточке» с Курского вокзала.",
+      "en": "About 420 km from Moscow — 5–6 hours by car on the M-7 or about four hours on a Lastochka train from Kursky station."
+    },
+    "coordinate": [56.3269, 44.0059],
+    "emoji": "🚡",
+    "size": "large",
+    "tags": ["volga"],
+    "wiki": {"ru": "Нижний Новгород", "en": "Nizhny Novgorod"},
+    "guide": {
+      "story": {
+        "ru": "Нижний Новгород основал в 1221 году владимирский князь Юрий Всеволодович — как крепость на высоком мысу при слиянии Оки и Волги, на восточной границе Руси. Слово «Нижний» отличало его от Великого Новгорода: по одной из версий, так называли новый город «Низовской земли», как новгородцы звали Владимиро-Суздальскую Русь.\n\nОсенью 1611 года, в самое тёмное время Смуты, нижегородский земский староста Кузьма Минин призвал горожан собрать деньги на ополчение, а командовать им пригласили князя Дмитрия Пожарского. Отсюда ополчение и двинулось освобождать Москву.\n\nВ 1817 году сюда перенесли знаменитую Макарьевскую ярмарку, и Нижний стал торговой столицей России: говорили, что Петербург — голова России, Москва — сердце, а Нижний — карман. В 1932–1990 годах город назывался Горьким, в честь уроженца — писателя Максима Горького, и был закрыт для иностранцев. Сегодня это большой живой город с откосами, видами на две реки и великолепной купеческой архитектурой.",
+        "en": "Nizhny Novgorod was founded in 1221 by Prince Yuri Vsevolodovich of Vladimir as a fortress on a high cape where the Oka meets the Volga, on the eastern frontier of Rus. 'Nizhny' — 'Lower' — set it apart from Novgorod the Great: one theory says it meant the new town of the 'Lower Land', as Novgorodians called the Vladimir-Suzdal lands.\n\nIn the autumn of 1611, in the darkest days of the Time of Troubles, the town elder Kuzma Minin called on the citizens to raise money for a militia and invited Prince Dmitry Pozharsky to lead it. From here the militia set out to free Moscow.\n\nIn 1817 the famous Makaryev fair moved here, and Nizhny became Russia's trading capital: people said St Petersburg was Russia's head, Moscow its heart and Nizhny its pocket. From 1932 to 1990 the city was called Gorky, after its native son the writer Maxim Gorky, and was closed to foreigners. Today it is a big, lively city of steep bluffs, views over two rivers and splendid merchant architecture."
+      },
+      "history": [
+        {
+          "year": "1221",
+          "text": {
+            "ru": "Князь Юрий Всеволодович основывает крепость при слиянии Оки и Волги.",
+            "en": "Prince Yuri Vsevolodovich founds a fortress where the Oka meets the Volga."
+          }
+        },
+        {
+          "year": "1508–1515",
+          "text": {"ru": "Строится каменный кремль.", "en": "The stone kremlin is built."}
+        },
+        {
+          "year": "1611–1612",
+          "text": {
+            "ru": "Кузьма Минин собирает ополчение, которое освобождает Москву.",
+            "en": "Kuzma Minin raises the militia that frees Moscow."
+          }
+        },
+        {
+          "year": "1817",
+          "text": {
+            "ru": "В Нижний переносят Макарьевскую ярмарку.",
+            "en": "The Makaryev fair moves to Nizhny."
+          }
+        },
+        {
+          "year": "1868",
+          "text": {
+            "ru": "В Нижнем Новгороде родился Максим Горький.",
+            "en": "Maxim Gorky is born in Nizhny Novgorod."
+          }
+        },
+        {"year": "1932–1990", "text": {"ru": "Город носит имя Горький.", "en": "The city is called Gorky."}},
+        {
+          "year": "2012",
+          "text": {
+            "ru": "Открывается канатная дорога над Волгой.",
+            "en": "The cable car over the Volga opens."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Городецкий печатный пряник из соседнего Городца",
+          "Волжскую и окскую рыбу",
+          "Чай с вареньем в кафе на Большой Покровской"
+        ],
+        "en": [
+          "Printed gingerbread from nearby Gorodets",
+          "Fish from the Volga and the Oka",
+          "Tea with jam in a café on Bolshaya Pokrovskaya"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Хохломскую посуду — золото на чёрном и красном",
+          "Семёновскую матрёшку",
+          "Доску или шкатулку с городецкой росписью"
+        ],
+        "en": [
+          "Khokhloma tableware — gold on black and red",
+          "A Semyonov matryoshka",
+          "A board or box with Gorodets painting"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Канатная дорога над Волгой до Бора — лучший вид на город, особенно на закате",
+          "Чкаловская лестница — 560 ступеней: спускаться проще, чем подниматься",
+          "Нижний — город откосов: лучшие виды открываются с бровки над Волгой и Окой"
+        ],
+        "en": [
+          "The cable car across the Volga to Bor gives the best view of the city, especially at sunset",
+          "The Chkalov Staircase has 560 steps: going down is easier than going up",
+          "Nizhny is a city of bluffs: the best views are from the edge above the Volga and the Oka"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "nizhny-novgorod-two-days",
+      "title": {"ru": "Нижний Новгород за два дня", "en": "Nizhny Novgorod in two days"},
+      "summary": {
+        "ru": "День первый — кремль, Чкаловская лестница, Верхне-Волжская набережная с усадьбой Рукавишниковых и канатная дорога над Волгой. День второй — Большая Покровская, купеческая Рождественская улица со Строгановской церковью и Стрелка.",
+        "en": "Day one: the kremlin, the Chkalov Staircase, the Upper Volga Embankment with the Rukavishnikov mansion and the cable car over the Volga. Day two: Bolshaya Pokrovskaya, merchant Rozhdestvenskaya Street with the Stroganov Church, and the Strelka."
+      },
+      "intro": {
+        "ru": "Два пеших дня, по 4–5 км: в первый — по верхнему городу над Волгой с полётом на канатной дороге (около получаса туда и обратно), во второй — от Покровки вниз к Рождественской улице и через Канавинский мост на Стрелку.",
+        "en": "Two days on foot, 4–5 km each: on the first, the upper town above the Volga with a ride on the cable car (about half an hour there and back); on the second, from Pokrovka down to Rozhdestvenskaya Street and across the Kanavinsky Bridge to the Strelka."
+      },
+      "emoji": "🚡",
+      "tags": ["walk"],
+      "days": [
+        {
+          "title": {"ru": "Кремль и Волжский откос", "en": "The kremlin and the Volga bluff"},
+          "stops": [
+            {
+              "id": "nizhny-kremlin",
+              "title": {"ru": "Нижегородский кремль", "en": "Nizhny Novgorod Kremlin"},
+              "coordinate": [56.3284, 44.0036],
+              "category": "castle",
+              "visit": 75,
+              "details": {
+                "ru": "Кремль начала XVI века на высоком откосе над Волгой: краснокирпичные стены длиной около двух километров с 13 башнями, Михайло-Архангельский собор с гробницей Кузьмы Минина и смотровые площадки над слиянием рек.",
+                "en": "An early 16th-century kremlin on a high bluff above the Volga: red-brick walls about two kilometres long with 13 towers, the Archangel Michael Cathedral with Kuzma Minin's tomb and viewpoints over the meeting of the rivers."
+              },
+              "wiki": {"ru": "Нижегородский кремль", "en": "Nizhny Novgorod Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Каменный кремль строили в 1508–1515 годах на смену деревянной крепости. Его стены карабкаются вверх и вниз по крутому склону, а 13 башен держали под контролем и Волгу, и Оку. Враги так ни разу и не взяли нижегородский кремль.\n\nГлавный вход — через Дмитриевскую башню со стороны площади Минина и Пожарского. Внутри — Михайло-Архангельский собор, где похоронен Кузьма Минин, и Вечный огонь, а с бровки откоса открывается вид на Волгу и заволжские дали.\n\nПеред Дмитриевской башней стоит памятник Минину и Пожарскому — копия знаменитого московского: ополчение 1612 года начиналось именно здесь.",
+                  "en": "The stone kremlin was built in 1508–1515 to replace a wooden fortress. Its walls climb up and down the steep slope, and its 13 towers commanded both the Volga and the Oka. No enemy ever took the Nizhny Novgorod kremlin.\n\nThe main entrance is through the Dmitrievskaya Tower from Minin and Pozharsky Square. Inside are the Archangel Michael Cathedral, where Kuzma Minin is buried, and the Eternal Flame, and from the edge of the bluff there is a view of the Volga and the country beyond.\n\nIn front of the Dmitrievskaya Tower stands a copy of Moscow's famous Minin and Pozharsky monument: the militia of 1612 began right here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Дмитриевскую башню — главный вход",
+                    "Гробницу Кузьмы Минина в соборе",
+                    "Вид на Волгу с бровки откоса"
+                  ],
+                  "en": [
+                    "The Dmitrievskaya Tower, the main gate",
+                    "Kuzma Minin's tomb in the cathedral",
+                    "The view of the Volga from the edge of the bluff"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Каменный кремль построен в 1508–1515 годах.",
+                    "Нижегородский кремль ни разу не был взят врагом."
+                  ],
+                  "en": [
+                    "The stone kremlin was built in 1508–1515.",
+                    "The Nizhny Novgorod kremlin was never taken by an enemy."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто похоронен в Михайло-Архангельском соборе Нижегородского кремля?",
+                    "en": "Who is buried in the Archangel Michael Cathedral of the Nizhny Novgorod kremlin?"
+                  },
+                  "options": {
+                    "ru": ["Кузьма Минин", "Дмитрий Пожарский", "Максим Горький"],
+                    "en": ["Kuzma Minin", "Dmitry Pozharsky", "Maxim Gorky"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Минин похоронен в родном Нижнем, а князь Пожарский — в Суздале.",
+                    "en": "Minin is buried in his native Nizhny, while Prince Pozharsky lies in Suzdal."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход — через Дмитриевскую башню с площади Минина и Пожарского.",
+                  "en": "Enter through the Dmitrievskaya Tower from Minin and Pozharsky Square."
+                }
+              }
+            },
+            {
+              "id": "nizhny-chkalov-stairs",
+              "title": {"ru": "Чкаловская лестница", "en": "Chkalov Staircase"},
+              "coordinate": [56.3318, 44.0098],
+              "category": "landmark",
+              "visit": 30,
+              "details": {
+                "ru": "Лестница-«восьмёрка» в 560 ступеней от памятника Чкалову к Нижне-Волжской набережной, построенная в 1943–1949 годах в честь победы под Сталинградом. С её площадок Волга открывается всё шире.",
+                "en": "A figure-of-eight staircase of 560 steps from the Chkalov monument down to the Lower Volga Embankment, built in 1943–1949 to honour the victory at Stalingrad. From each landing the Volga opens up wider."
+              },
+              "wiki": {"ru": "Чкаловская лестница"},
+              "guide": {
+                "story": {
+                  "ru": "Чкаловскую лестницу начали строить в 1943 году, в разгар войны, в честь победы под Сталинградом, а закончили в 1949-м. Её назвали по имени лётчика Валерия Чкалова — уроженца Нижегородской губернии, который в 1937 году первым перелетел через Северный полюс в Америку. Его памятник стоит на верхней площадке.\n\nВ плане лестница похожа на восьмёрку, и в ней 560 ступеней — это одна из самых длинных лестниц в России. Её марши то сходятся, то расходятся, и с каждой площадки Волга открывается по-новому.\n\nВнизу — Нижне-Волжская набережная и бронекатер времён войны, наверху — Верхне-Волжская набережная с особняками.",
+                  "en": "Work on the Chkalov Staircase began in 1943, in the middle of the war, to honour the victory at Stalingrad, and it was finished in 1949. It is named after the pilot Valery Chkalov, a native of the Nizhny Novgorod province, who in 1937 was the first to fly over the North Pole to America. His monument stands on the top landing.\n\nSeen from above, the staircase looks like a figure eight, and it has 560 steps — one of the longest staircases in Russia. Its flights part and meet again, and from each landing the Volga appears in a new way.\n\nAt the bottom is the Lower Volga Embankment with a wartime armoured boat; at the top, the Upper Volga Embankment and its mansions."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Памятник Чкалову на верхней площадке",
+                    "Форму «восьмёрки» — её видно с середины лестницы",
+                    "Бронекатер у подножия"
+                  ],
+                  "en": [
+                    "The Chkalov monument on the top landing",
+                    "The figure-of-eight shape, visible from halfway down",
+                    "The armoured boat at the bottom"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В Чкаловской лестнице 560 ступеней.",
+                    "В 1937 году Валерий Чкалов первым перелетел через Северный полюс в Америку."
+                  ],
+                  "en": [
+                    "The Chkalov Staircase has 560 steps.",
+                    "In 1937 Valery Chkalov was the first to fly over the North Pole to America."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько ступеней в Чкаловской лестнице?",
+                    "en": "How many steps does the Chkalov Staircase have?"
+                  },
+                  "options": {"ru": ["560", "100", "1000"], "en": ["560", "100", "1,000"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "560 ступеней делают её одной из самых длинных лестниц в России.",
+                    "en": "Its 560 steps make it one of the longest staircases in Russia."
+                  }
+                },
+                "approach": {
+                  "ru": "От кремля пара минут к памятнику Чкалову на бровке откоса.",
+                  "en": "A couple of minutes from the kremlin to the Chkalov monument on the edge of the bluff."
+                }
+              }
+            },
+            {
+              "id": "nizhny-rukavishnikov",
+              "title": {"ru": "Усадьба Рукавишниковых", "en": "Rukavishnikov Mansion"},
+              "coordinate": [56.329, 44.0175],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Роскошный особняк купцов Рукавишниковых 1870-х годов на Верхне-Волжской набережной: лепнина, мраморные лестницы, расписные залы и вид на Волгу из окон. Сейчас здесь музей.",
+                "en": "The lavish mansion of the Rukavishnikov merchants from the 1870s on the Upper Volga Embankment: stucco, marble staircases, painted halls and the Volga outside the windows. Today it is a museum."
+              },
+              "wiki": {"ru": "Усадьба С. М. Рукавишникова"},
+              "guide": {
+                "story": {
+                  "ru": "Рукавишниковы были одной из богатейших семей ярмарочного Нижнего: они разбогатели на торговле железом и владели заводами и пароходами. Сергей Рукавишников в 1870-х годах построил на Верхне-Волжской набережной особняк, который должен был поразить весь город, — и поразил.\n\nФасад украшен атлантами, кариатидами и лепниной, а внутри — мраморная парадная лестница, расписные потолки, позолота и зеркала. Каждый зал оформлен в своём стиле: от готики до рококо.\n\nСегодня здесь музей, и из окон парадных залов открывается тот же вид на Волгу, которым любовались хозяева.",
+                  "en": "The Rukavishnikovs were one of the richest families of fair-time Nizhny: they made their fortune in the iron trade and owned factories and steamships. In the 1870s Sergei Rukavishnikov built a mansion on the Upper Volga Embankment meant to astonish the whole city — and it did.\n\nThe facade is decorated with atlantes, caryatids and stucco, and inside are a marble grand staircase, painted ceilings, gilding and mirrors. Each hall is decorated in its own style, from Gothic to Rococo.\n\nToday it is a museum, and from the windows of the state rooms you get the same view of the Volga that the owners enjoyed."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Атлантов и кариатид на фасаде",
+                    "Мраморную парадную лестницу",
+                    "Вид на Волгу из окон"
+                  ],
+                  "en": [
+                    "The atlantes and caryatids on the facade",
+                    "The marble grand staircase",
+                    "The view of the Volga from the windows"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Рукавишниковы разбогатели на торговле железом.",
+                    "Особняк построен в 1870-х годах."
+                  ],
+                  "en": [
+                    "The Rukavishnikovs grew rich in the iron trade.",
+                    "The mansion was built in the 1870s."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 10 минут вдоль Верхне-Волжской набережной на восток.",
+                  "en": "About 10 minutes east along the Upper Volga Embankment."
+                }
+              }
+            },
+            {
+              "id": "nizhny-cable-car",
+              "title": {"ru": "Канатная дорога над Волгой", "en": "Cable Car over the Volga"},
+              "coordinate": [56.3226, 44.0379],
+              "category": "viewpoint",
+              "visit": 45,
+              "details": {
+                "ru": "Канатная дорога длиной около 3,7 км с огромным пролётом над Волгой — от Нижнего Новгорода до города Бор. Полёт в кабинке занимает около 12 минут и дарит лучший вид на город и реку.",
+                "en": "A cable car about 3.7 km long with a huge span over the Volga, from Nizhny Novgorod to the town of Bor. The ride takes about 12 minutes and gives the best view of the city and the river."
+              },
+              "wiki": {"ru": "Нижегородская канатная дорога", "en": "Nizhny Novgorod cable car"},
+              "guide": {
+                "story": {
+                  "ru": "Канатную дорогу открыли в 2012 году, чтобы соединить Нижний Новгород с городом Бор на другом берегу Волги, — мостов ниже по реке мало, а пробки на них огромные. Сегодня это и транспорт для тысяч жителей, и главный аттракцион города.\n\nКабинки плывут над рекой на высоте нескольких десятков метров, а пролёт над самой Волгой — без опор, почти на километр. Снизу проходят баржи и теплоходы, а впереди медленно приближается заволжский берег с лесами и пляжами.\n\nЛучше всего ехать на закате: город на откосе подсвечивается солнцем, и купола кремля горят золотом.",
+                  "en": "The cable car opened in 2012 to link Nizhny Novgorod with the town of Bor on the far bank of the Volga — there are few bridges downstream and their traffic jams are huge. Today it is both transport for thousands of residents and the city's top attraction.\n\nThe cabins glide over the river several dozen metres up, and the span over the Volga itself has no towers for almost a kilometre. Barges and cruise boats pass below, while the far bank with its forests and beaches slowly comes closer.\n\nRide it at sunset: the city on its bluff is lit by the sun and the kremlin domes glow gold."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Кремль на откосе из кабинки",
+                    "Баржи и теплоходы под ногами",
+                    "Заволжские пляжи и леса"
+                  ],
+                  "en": [
+                    "The kremlin on its bluff from the cabin",
+                    "Barges and boats below your feet",
+                    "The beaches and forests across the Volga"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Канатная дорога открыта в 2012 году.",
+                    "Её длина — около 3,7 километра."
+                  ],
+                  "en": [
+                    "The cable car opened in 2012.",
+                    "It is about 3.7 kilometres long."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какие города соединяет канатная дорога?",
+                    "en": "Which towns does the cable car link?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Нижний Новгород и Бор",
+                      "Нижний Новгород и Городец",
+                      "Нижний Новгород и Дзержинск"
+                    ],
+                    "en": [
+                      "Nizhny Novgorod and Bor",
+                      "Nizhny Novgorod and Gorodets",
+                      "Nizhny Novgorod and Dzerzhinsk"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Бор стоит на другом берегу Волги — по канатной дороге до него около 12 минут.",
+                    "en": "Bor lies on the far bank of the Volga — about 12 minutes by cable car."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 20 минут пешком вдоль набережной на восток к нижней станции.",
+                  "en": "About 20 minutes east along the embankment to the lower station."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "title": {"ru": "Покровка, Рождественка и Стрелка", "en": "Pokrovka, Rozhdestvenka and the Strelka"},
+          "stops": [
+            {
+              "id": "nizhny-pokrovka",
+              "title": {"ru": "Большая Покровская улица", "en": "Bolshaya Pokrovskaya Street"},
+              "coordinate": [56.3218, 43.9993],
+              "category": "street",
+              "visit": 40,
+              "details": {
+                "ru": "Главная пешеходная улица Нижнего от площади Минина до площади Горького: здание Госбанка в древнерусском стиле, драмтеатр, особняки и бронзовые скульптуры горожан.",
+                "en": "Nizhny's main pedestrian street, from Minin Square to Gorky Square: the State Bank in Old Russian style, the drama theatre, mansions and bronze sculptures of townspeople."
+              },
+              "wiki": {"ru": "Большая Покровская улица"},
+              "guide": {
+                "story": {
+                  "ru": "Большая Покровская, или просто Покровка, — главная улица Нижнего с XIX века. Здесь гуляли купцы и студенты, работали банки, магазины и театр, а сегодня она пешеходная от начала до конца.\n\nСамое необычное здание — Государственный банк, построенный к 300-летию дома Романовых в стиле древнерусских палат; его операционный зал расписал Иван Билибин. Рядом — драмтеатр конца XIX века, а дальше — особняки модерна.\n\nПо улице расставлены бронзовые скульптуры: горожане, фотограф, почтальон, — ищите их и фотографируйтесь.",
+                  "en": "Bolshaya Pokrovskaya, or simply Pokrovka, has been Nizhny's main street since the 19th century. Merchants and students strolled here, there were banks, shops and the theatre, and today it is pedestrian from end to end.\n\nThe most unusual building is the State Bank, built for the Romanov tercentenary in the style of Old Russian palaces; its banking hall was painted by Ivan Bilibin. Nearby is the late-19th-century drama theatre, and further on are Art Nouveau mansions.\n\nBronze sculptures are placed along the street — townspeople, a photographer, a postman — so look out for them and take pictures."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Здание Госбанка в древнерусском стиле",
+                    "Бронзовые скульптуры горожан",
+                    "Драматический театр"
+                  ],
+                  "en": [
+                    "The State Bank in Old Russian style",
+                    "The bronze sculptures of townspeople",
+                    "The drama theatre"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Здание Госбанка построено к 300-летию дома Романовых.",
+                    "Операционный зал банка расписал художник Иван Билибин."
+                  ],
+                  "en": [
+                    "The State Bank was built for the Romanov tercentenary.",
+                    "Its banking hall was painted by the artist Ivan Bilibin."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто расписал операционный зал нижегородского Госбанка?",
+                    "en": "Who painted the banking hall of Nizhny's State Bank?"
+                  },
+                  "options": {
+                    "ru": ["Иван Билибин", "Илья Репин", "Виктор Васнецов"],
+                    "en": ["Ivan Bilibin", "Ilya Repin", "Viktor Vasnetsov"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Билибин — знаменитый иллюстратор русских сказок — оформил зал в древнерусском духе.",
+                    "en": "Bilibin, the famous illustrator of Russian fairy tales, decorated the hall in Old Russian style."
+                  }
+                },
+                "approach": {
+                  "ru": "Улица начинается у площади Минина и Пожарского, рядом с кремлём.",
+                  "en": "The street starts at Minin and Pozharsky Square, next to the kremlin."
+                }
+              }
+            },
+            {
+              "id": "nizhny-rozhdestvenskaya",
+              "title": {"ru": "Рождественская улица", "en": "Rozhdestvenskaya Street"},
+              "coordinate": [56.32833, 43.9875],
+              "category": "street",
+              "visit": 40,
+              "details": {
+                "ru": "Улица купеческого Нижнего у подножия кремлёвского холма: банки, конторы и доходные дома XIX — начала XX века, а в её начале — нарядная Строгановская церковь с белокаменной резьбой.",
+                "en": "The street of merchant Nizhny at the foot of the kremlin hill: banks, offices and apartment houses of the 19th and early 20th centuries, and at its start the ornate Stroganov Church with its white-stone carving."
+              },
+              "wiki": {"ru": "Рождественская улица (Нижний Новгород)"},
+              "guide": {
+                "story": {
+                  "ru": "Рождественская улица — главная улица Нижнего посада, где во времена ярмарки кипела деловая жизнь: здесь стояли банки, конторы пароходных компаний и гостиницы для купцов. Многие дома построены в стиле эклектики и модерна, с лепниной и башенками.\n\nВ начале улицы стоит Рождественская церковь, построенная в 1696–1719 годах на средства купцов Строгановых, — поэтому её называют Строгановской. Её стены покрыты тончайшей белокаменной резьбой: виноградные лозы, цветы, раковины. Это один из шедевров «строгановского барокко».\n\nУлица отреставрирована, в ней много кафе и галерей, а между домами мелькает Ока.",
+                  "en": "Rozhdestvenskaya Street was the main street of Nizhny's lower town, buzzing with business at fair time: banks, steamship company offices and merchants' hotels stood here. Many buildings are eclectic or Art Nouveau, with stucco and turrets.\n\nAt its start stands the Church of the Nativity, built in 1696–1719 with money from the Stroganov merchants — hence its name, the Stroganov Church. Its walls are covered with the finest white-stone carving: vines, flowers and shells. It is a masterpiece of 'Stroganov Baroque'.\n\nThe street has been restored and is full of cafés and galleries, with glimpses of the Oka between the houses."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Белокаменную резьбу Строгановской церкви",
+                    "Башенки и лепнину доходных домов",
+                    "Оку в просветах между домами"
+                  ],
+                  "en": [
+                    "The white-stone carving of the Stroganov Church",
+                    "The turrets and stucco of the apartment houses",
+                    "The Oka glimpsed between the houses"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Строгановская церковь построена в 1696–1719 годах.",
+                    "В XIX веке здесь находились банки и конторы пароходных компаний."
+                  ],
+                  "en": [
+                    "The Stroganov Church was built in 1696–1719.",
+                    "In the 19th century the street held banks and steamship company offices."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Рождественскую церковь называют Строгановской?",
+                    "en": "Why is the Church of the Nativity called the Stroganov Church?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Её построили купцы Строгановы",
+                      "Её строил архитектор Строганов",
+                      "Она стоит на Строгановской улице"
+                    ],
+                    "en": [
+                      "The Stroganov merchants built it",
+                      "An architect called Stroganov built it",
+                      "It stands on Stroganov Street"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Богатейшие купцы и промышленники Строгановы построили храм на свои средства.",
+                    "en": "The immensely rich Stroganov merchants and industrialists built it with their own money."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15 минут вниз по Зеленскому съезду от Покровки.",
+                  "en": "About 15 minutes down the Zelensky descent from Pokrovka."
+                }
+              }
+            },
+            {
+              "id": "nizhny-strelka",
+              "title": {"ru": "Стрелка", "en": "The Strelka"},
+              "coordinate": [56.33111, 43.97667],
+              "category": "viewpoint",
+              "visit": 40,
+              "details": {
+                "ru": "Мыс при слиянии Оки и Волги: собор Александра Невского, бывшие ярмарочные пакгаузы, стадион и набережная, откуда видно, как встречаются две великие реки и как кремль поднимается на холме напротив.",
+                "en": "The cape where the Oka meets the Volga: the Alexander Nevsky Cathedral, former fair warehouses, the stadium and the embankment, with a view of two great rivers meeting and the kremlin rising on the hill opposite."
+              },
+              "wiki": {"ru": "Стрелка (Нижний Новгород)"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Через Канавинский мост — около 2 км, 25 минут пешком",
+                  "en": "Across the Kanavinsky Bridge — about 2 km, 25 minutes on foot"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Стрелка — место, где Ока впадает в Волгу. В XIX веке рядом кипела Нижегородская ярмарка — самая большая в России: на мысу стояли пакгаузы и причалы, а за ними раскинулся ярмарочный город с Главным ярмарочным домом.\n\nНад Стрелкой поднимается собор Александра Невского, освящённый в 1881 году: его высокие шатры видны издалека. К чемпионату мира по футболу 2018 года здесь построили стадион и обновили набережную.\n\nОтсюда открывается главный вид Нижнего: две реки и кремль на высоком холме напротив.",
+                  "en": "The Strelka is where the Oka flows into the Volga. In the 19th century the Nizhny Novgorod fair — Russia's largest — bustled nearby: warehouses and wharves lined the cape, and behind them spread the fair town with its Main Fair House.\n\nAbove the Strelka rises the Alexander Nevsky Cathedral, consecrated in 1881, whose tall tent roofs can be seen from afar. For the 2018 World Cup a stadium was built here and the embankment renewed.\n\nFrom here you get Nizhny's signature view: two rivers and the kremlin on the high hill opposite."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Слияние Оки и Волги",
+                    "Шатры собора Александра Невского",
+                    "Кремль на холме за Окой"
+                  ],
+                  "en": [
+                    "The meeting of the Oka and the Volga",
+                    "The tent roofs of the Alexander Nevsky Cathedral",
+                    "The kremlin on the hill across the Oka"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Нижегородская ярмарка в XIX веке была крупнейшей в России.",
+                    "Стадион на Стрелке построен к чемпионату мира по футболу 2018 года."
+                  ],
+                  "en": [
+                    "In the 19th century the Nizhny Novgorod fair was the largest in Russia.",
+                    "The stadium on the Strelka was built for the 2018 World Cup."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какие реки сливаются у Стрелки?",
+                    "en": "Which rivers meet at the Strelka?"
+                  },
+                  "options": {
+                    "ru": ["Ока и Волга", "Кама и Волга", "Ока и Клязьма"],
+                    "en": [
+                      "The Oka and the Volga",
+                      "The Kama and the Volga",
+                      "The Oka and the Klyazma"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Ока впадает в Волгу прямо у Стрелки, напротив кремля.",
+                    "en": "The Oka flows into the Volga right at the Strelka, opposite the kremlin."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Канавинский мост на левый берег Оки — около 25 минут пешком.",
+                  "en": "Across the Kanavinsky Bridge to the left bank of the Oka — about 25 minutes on foot."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

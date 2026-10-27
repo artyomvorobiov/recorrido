@@ -16,7 +16,99 @@
     "emoji": "🌉",
     "size": "large",
     "tags": ["big"],
-    "wiki": {"ru": "Санкт-Петербург", "en": "Saint Petersburg"}
+    "wiki": {"ru": "Санкт-Петербург", "en": "Saint Petersburg"},
+    "guide": {
+      "story": {
+        "ru": "Петербург основал Пётр I 27 мая 1703 года на отвоёванных у шведов землях в устье Невы. Город строили на болотах и островах, вбивая в топкую землю тысячи свай, и уже в 1712 году сюда перенесли столицу. Больше двухсот лет Петербург был столицей империи, и каждый правитель украшал его дворцами, соборами и гранитными набережными.\n\nГород не раз менял имя: в 1914 году он стал Петроградом, в 1924-м — Ленинградом, а в 1991 году вернул имя Санкт-Петербург. Во время блокады 1941–1944 годов Ленинград 872 дня держался в кольце, и сотни тысяч жителей погибли от голода и обстрелов.\n\nПетербург — это десятки рек и каналов, сотни мостов и белые ночи, когда солнце почти не уходит за горизонт, а над Невой разводят мосты. Лучше всего он раскрывается пешком и с воды.",
+        "en": "Peter the Great founded St Petersburg on 27 May 1703 on land won from the Swedes at the mouth of the Neva. The city was built on marshes and islands, with thousands of piles driven into the boggy ground, and as early as 1712 the capital moved here. For more than two hundred years St Petersburg was the imperial capital, and each ruler adorned it with palaces, cathedrals and granite embankments.\n\nThe city changed its name more than once: in 1914 it became Petrograd, in 1924 Leningrad, and in 1991 it took back the name St Petersburg. During the siege of 1941–1944 Leningrad held out for 872 days, and hundreds of thousands of its people died from hunger and shelling.\n\nSt Petersburg means dozens of rivers and canals, hundreds of bridges and the white nights, when the sun barely sets and the bridges over the Neva are raised. It is best discovered on foot and from the water."
+      },
+      "history": [
+        {
+          "year": "1703",
+          "text": {
+            "ru": "Закладка Петропавловской крепости — день рождения города.",
+            "en": "The Peter and Paul Fortress is founded — the city's birthday."
+          }
+        },
+        {
+          "year": "1712",
+          "text": {
+            "ru": "Столица переезжает из Москвы в Петербург.",
+            "en": "The capital moves from Moscow to St Petersburg."
+          }
+        },
+        {
+          "year": "1764",
+          "text": {
+            "ru": "Екатерина II начинает собирать коллекцию Эрмитажа.",
+            "en": "Catherine the Great starts the Hermitage collection."
+          }
+        },
+        {"year": "1782", "text": {"ru": "Открыт Медный всадник.", "en": "The Bronze Horseman is unveiled."}},
+        {
+          "year": "1825",
+          "text": {
+            "ru": "Восстание декабристов на Сенатской площади.",
+            "en": "The Decembrist revolt on Senate Square."
+          }
+        },
+        {
+          "year": "1914",
+          "text": {"ru": "Город переименован в Петроград.", "en": "The city is renamed Petrograd."}
+        },
+        {
+          "year": "1924",
+          "text": {"ru": "Петроград становится Ленинградом.", "en": "Petrograd becomes Leningrad."}
+        },
+        {
+          "year": "1941–1944",
+          "text": {"ru": "872 дня блокады Ленинграда.", "en": "The 872-day siege of Leningrad."}
+        },
+        {
+          "year": "1991",
+          "text": {
+            "ru": "Городу возвращают имя Санкт-Петербург.",
+            "en": "The city regains the name St Petersburg."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Корюшку — весной её жарят по всему городу, а пахнет она свежим огурцом",
+          "Пышки с сахарной пудрой и кофе с молоком",
+          "Шаверму — так в Петербурге называют шаурму"
+        ],
+        "en": [
+          "Smelt — fried all over the city in spring, it smells of fresh cucumber",
+          "Pyshki doughnuts with icing sugar and milky coffee",
+          "Shaverma — what Petersburgers call shawarma"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Фарфор с «кобальтовой сеткой» Императорского фарфорового завода",
+          "Книги из Дома книги в доме Зингера на Невском",
+          "Открытки и магниты с разведёнными мостами"
+        ],
+        "en": [
+          "Imperial Porcelain Factory china with the 'cobalt net' pattern",
+          "Books from Dom Knigi in the Singer House on Nevsky",
+          "Postcards and magnets with raised bridges"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Мосты разводят ночью с весны до осени — проверьте расписание, чтобы не застрять на другом берегу",
+          "Эрмитаж закрыт по понедельникам — планируйте его на другой день",
+          "Погода меняется быстро: зонт и ветровка пригодятся даже летом"
+        ],
+        "en": [
+          "The bridges are raised at night from spring to autumn — check the timetable so you don't get stuck on the wrong bank",
+          "The Hermitage is closed on Mondays — plan it for another day",
+          "The weather changes fast: an umbrella and a windbreaker come in handy even in summer"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -25,6 +117,10 @@
       "summary": {
         "ru": "День первый — парадный центр: Дворцовая площадь, Эрмитаж, Медный всадник, Исаакий, Казанский собор, Спас на Крови, Летний сад и Невский проспект. День второй — Петропавловская крепость с полуденным выстрелом, Стрелка Васильевского острова, Кунсткамера, Новая Голландия и Коломна с Мариинским театром.",
         "en": "Day one is the grand centre: Palace Square, the Hermitage, the Bronze Horseman, St Isaac's, Kazan Cathedral, the Saviour on Spilled Blood, the Summer Garden and Nevsky Prospect. Day two brings the Peter and Paul Fortress with its noon cannon, the Spit of Vasilyevsky Island, the Kunstkamera, New Holland and the Mariinsky Theatre."
+      },
+      "intro": {
+        "ru": "Два дня пешком: около 8 км в первый день по парадному центру и около 9 км во второй — через Неву на острова и обратно в Коломну. Эрмитажу дайте минимум три часа, а в Петропавловскую крепость приходите к полудню — на выстрел пушки.",
+        "en": "Two days on foot: about 8 km on the first day around the grand centre and about 9 km on the second, across the Neva to the islands and back to Kolomna. Give the Hermitage at least three hours, and be at the Peter and Paul Fortress by noon for the cannon shot."
       },
       "emoji": "🌉",
       "tags": ["walk"],
@@ -35,7 +131,7 @@
             {
               "id": "spb-palace-square",
               "title": {"ru": "Дворцовая площадь", "en": "Palace Square"},
-              "coordinate": [59.93900, 30.31580],
+              "coordinate": [59.939, 30.3158],
               "category": "square",
               "visit": 20,
               "details": {
@@ -46,12 +142,67 @@
                 "ru": "Зайдите на площадь с Невского через арку Главного штаба — так её задумал архитектор Росси.",
                 "en": "Enter the square from Nevsky through the General Staff arch — the way the architect Rossi intended."
               },
-              "wiki": {"ru": "Дворцовая площадь", "en": "Palace Square"}
+              "wiki": {"ru": "Дворцовая площадь", "en": "Palace Square"},
+              "guide": {
+                "story": {
+                  "ru": "Дворцовая площадь сложилась перед Зимним дворцом, а свой нынешний вид получила при Карле Росси: в 1819–1829 годах он объединил старые дома огромной дугой Главного штаба с триумфальной аркой, увенчанной колесницей Славы.\n\nВ центре — Александровская колонна в честь победы над Наполеоном, открытая в 1834 году. Гранитный монолит весом около 600 тонн привезли из каменоломни под Выборгом и подняли меньше чем за два часа силами двух с половиной тысяч солдат и рабочих. Колонна ничем не закреплена и стоит под собственным весом.\n\nПлощадь видела и праздники, и трагедии: «Кровавое воскресенье» в январе 1905 года и штурм Зимнего в октябре 1917-го.",
+                  "en": "Palace Square took shape in front of the Winter Palace and got its present look under Carlo Rossi: in 1819–1829 he joined the old houses into the huge curve of the General Staff Building with a triumphal arch crowned by the Chariot of Glory.\n\nIn the centre stands the Alexander Column, celebrating the victory over Napoleon and unveiled in 1834. The granite monolith, weighing about 600 tonnes, was brought from a quarry near Vyborg and raised in under two hours by some two and a half thousand soldiers and workers. It is not fixed in any way and stands under its own weight.\n\nThe square has seen celebrations and tragedies: 'Bloody Sunday' in January 1905 and the storming of the Winter Palace in October 1917."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ангела на вершине колонны",
+                    "Колесницу Славы над аркой Главного штаба",
+                    "Зелёно-белый фасад Зимнего дворца"
+                  ],
+                  "en": [
+                    "The angel on top of the column",
+                    "The Chariot of Glory above the General Staff arch",
+                    "The green-and-white facade of the Winter Palace"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Высота Александровской колонны — 47,5 метра.",
+                    "Колонна держится только собственным весом — её ничем не крепили к основанию."
+                  ],
+                  "en": [
+                    "The Alexander Column is 47.5 metres tall.",
+                    "The column is held in place only by its own weight — it was never fixed to its base."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, после открытия колонны горожане боялись подходить к ней — вдруг упадёт. Чтобы развеять страх, архитектор Огюст Монферран каждое утро гулял вокруг неё со своей собакой.",
+                  "en": "They say that after the column was unveiled people were afraid to go near it in case it fell. To dispel their fears, the architect Auguste de Montferrand walked around it every morning with his dog."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как держится Александровская колонна?",
+                    "en": "What holds the Alexander Column in place?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Под собственным весом",
+                      "На стальных штырях",
+                      "На цементном растворе"
+                    ],
+                    "en": ["Its own weight", "Steel pins", "Cement mortar"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Монолит весом около 600 тонн так тяжёл, что ему не нужны крепления.",
+                    "en": "The monolith of about 600 tonnes is so heavy that it needs no fixings."
+                  }
+                },
+                "approach": {
+                  "ru": "Войдите на площадь с Невского через арку Главного штаба — так её задумал Росси.",
+                  "en": "Enter the square from Nevsky through the General Staff arch — just as Rossi intended."
+                }
+              }
             },
             {
               "id": "spb-hermitage",
               "title": {"ru": "Эрмитаж", "en": "The Hermitage"},
-              "coordinate": [59.93980, 30.31460],
+              "coordinate": [59.9398, 30.3146],
               "category": "museum",
               "visit": 150,
               "details": {
@@ -62,24 +213,138 @@
                 "ru": "Купите билет на официальном сайте заранее и выберите 2–3 раздела — за один раз весь музей не обойти.",
                 "en": "Buy your ticket on the official website in advance and pick two or three sections — you can't see the whole museum in one visit."
               },
-              "wiki": {"ru": "Государственный Эрмитаж", "en": "Hermitage Museum"}
+              "wiki": {"ru": "Государственный Эрмитаж", "en": "Hermitage Museum"},
+              "guide": {
+                "story": {
+                  "ru": "Эрмитаж начался в 1764 году, когда Екатерина II приняла от берлинского купца Гоцковского 225 картин в счёт долга. Императрица назвала своё собрание «эрмитажем» — по-французски «уединённым местом»: смотреть его могли лишь избранные. Публичным музеем Эрмитаж стал в 1852 году.\n\nСегодня в нём больше трёх миллионов предметов. В Зимнем дворце — Иорданская лестница, Тронный и Малахитовый залы, две «Мадонны» Леонардо да Винчи и залы Рембрандта, а импрессионисты переехали в Главный штаб напротив. В Павильонном зале стоят часы «Павлин», которые Потёмкин купил для Екатерины: павлин распускает хвост, сова вертит головой, а петух кричит.\n\nУ музея есть и неофициальные хранители — коты: они живут в подвалах Зимнего дворца с XVIII века и ловят мышей.",
+                  "en": "The Hermitage began in 1764, when Catherine the Great accepted 225 paintings from the Berlin merchant Gotzkowsky in payment of a debt. The empress called her collection a 'hermitage', French for a secluded place: only a chosen few could see it. It became a public museum in 1852.\n\nToday it holds more than three million objects. The Winter Palace has the Jordan Staircase, the Throne and Malachite Rooms, two Madonnas by Leonardo da Vinci and the Rembrandt rooms, while the Impressionists have moved to the General Staff Building opposite. In the Pavilion Hall stands the Peacock Clock that Potemkin bought for Catherine: the peacock spreads its tail, the owl turns its head and the rooster crows.\n\nThe museum also has unofficial guardians — cats, which have lived in the Winter Palace cellars since the 18th century to catch mice."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Иорданскую лестницу из белого мрамора",
+                    "Часы «Павлин» в Павильонном зале",
+                    "«Мадонну Литту» Леонардо да Винчи"
+                  ],
+                  "en": [
+                    "The white marble Jordan Staircase",
+                    "The Peacock Clock in the Pavilion Hall",
+                    "Leonardo da Vinci's Madonna Litta"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "В коллекции Эрмитажа больше трёх миллионов предметов.",
+                    "Слово «эрмитаж» по-французски означает «уединённое место»."
+                  ],
+                  "en": [
+                    "The Hermitage collection holds more than three million objects.",
+                    "'Hermitage' is French for a secluded place."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "С чего началась коллекция Эрмитажа?",
+                    "en": "How did the Hermitage collection begin?"
+                  },
+                  "options": {
+                    "ru": [
+                      "С 225 картин, полученных в счёт долга",
+                      "С трофеев войны 1812 года",
+                      "С подарка английского короля"
+                    ],
+                    "en": [
+                      "With 225 paintings taken in payment of a debt",
+                      "With trophies from the war of 1812",
+                      "With a gift from the King of England"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Купец Гоцковский расплатился с казной картинами, и Екатерина II оставила их себе.",
+                    "en": "The merchant Gotzkowsky paid the treasury with paintings, and Catherine kept them."
+                  }
+                },
+                "approach": {
+                  "ru": "Вход — с Дворцовой площади, через Большой двор Зимнего дворца.",
+                  "en": "Enter from Palace Square through the Great Courtyard of the Winter Palace."
+                }
+              }
             },
             {
               "id": "spb-bronze-horseman",
               "title": {"ru": "Медный всадник", "en": "The Bronze Horseman"},
-              "coordinate": [59.93640, 30.30220],
+              "coordinate": [59.9364, 30.3022],
               "category": "monument",
               "visit": 15,
               "details": {
                 "ru": "Памятник Петру I работы Этьена Фальконе, открытый в 1782 году по заказу Екатерины II. Постамент — Гром-камень, гранитная глыба весом около 1600 тонн, которую доставили из-под Лахты. Имя памятнику дала поэма Пушкина.",
                 "en": "Étienne Falconet's monument to Peter the Great, unveiled in 1782 on the orders of Catherine II. The pedestal is the Thunder Stone, a granite block of about 1,600 tonnes brought from near Lakhta. Pushkin's poem gave the monument its name."
               },
-              "wiki": {"ru": "Медный всадник", "en": "Bronze Horseman"}
+              "wiki": {"ru": "Медный всадник", "en": "Bronze Horseman"},
+              "guide": {
+                "story": {
+                  "ru": "Памятник Петру I заказала Екатерина II французскому скульптору Этьену Фальконе. Работа заняла двенадцать лет; голову Петра вылепила ученица Фальконе Мари-Анн Колло, а змею под копытами — Фёдор Гордеев. Надпись на постаменте лаконична: «Петру Первому Екатерина Вторая, лета 1782».\n\nПостамент — Гром-камень, гранитная глыба весом около 1600 тонн, найденная у деревни Конная Лахта. Её двигали на платформе, катившейся по медным шарам, а потом везли по воде на специальном судне — перевозку называли чудом века.\n\nИмя «Медный всадник» памятнику дала поэма Пушкина 1833 года, хотя отлит он из бронзы.",
+                  "en": "Catherine the Great commissioned the monument to Peter I from the French sculptor Étienne Falconet. The work took twelve years; Peter's head was modelled by Falconet's pupil Marie-Anne Collot, and the serpent under the hooves by Fyodor Gordeyev. The inscription is brief: 'To Peter the First from Catherine the Second, 1782'.\n\nThe pedestal is the Thunder Stone, a granite block of about 1,600 tonnes found near the village of Konnaya Lakhta. It was moved on a platform rolling over copper balls and then shipped on a special vessel — the transport was called the wonder of the age.\n\nThe name 'Bronze Horseman' (literally 'Copper Horseman' in Russian) comes from Pushkin's poem of 1833."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Змею под копытами коня",
+                    "Надпись «Петру Первому Екатерина Вторая»",
+                    "Гром-камень, обтёсанный как волна"
+                  ],
+                  "en": [
+                    "The serpent under the horse's hooves",
+                    "The inscription 'To Peter the First from Catherine the Second'",
+                    "The Thunder Stone, carved like a wave"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Голову Петра вылепила Мари-Анн Колло, ученица Фальконе.",
+                    "Памятник называют медным, хотя он бронзовый, — так его назвал Пушкин."
+                  ],
+                  "en": [
+                    "Peter's head was modelled by Marie-Anne Collot, Falconet's pupil.",
+                    "The monument is called 'copper' though it is bronze — Pushkin named it so."
+                  ]
+                },
+                "legend": {
+                  "ru": "По легенде, пока Медный всадник стоит на месте, враг не возьмёт город. В 1812 году памятник хотели эвакуировать, но майору Батурину приснилось, будто всадник скачет к царю и говорит, что, пока он здесь, Петербургу нечего бояться. Памятник оставили, а в блокаду лишь укрыли мешками с песком.",
+                  "en": "Legend says that while the Bronze Horseman stays in place, no enemy will take the city. In 1812 the monument was to be evacuated, but a Major Baturin dreamed that the horseman rode to the tsar and said that as long as he stood here the city had nothing to fear. The monument stayed, and during the siege it was only covered with sandbags."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему памятник называют «Медным всадником»?",
+                    "en": "Why is the monument called the 'Copper Horseman' in Russian?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Так назвал его Пушкин в поэме",
+                      "Он отлит из меди",
+                      "Медь добывали под Лахтой"
+                    ],
+                    "en": [
+                      "Pushkin named it so in his poem",
+                      "It is cast from copper",
+                      "Copper was mined near Lakhta"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Памятник отлит из бронзы, а имя ему дала поэма Пушкина «Медный всадник».",
+                    "en": "The monument is bronze; its name comes from Pushkin's poem 'The Bronze Horseman'."
+                  }
+                },
+                "approach": {
+                  "ru": "От Эрмитажа около 10 минут вдоль Адмиралтейства к Неве.",
+                  "en": "About 10 minutes from the Hermitage past the Admiralty to the Neva."
+                }
+              }
             },
             {
               "id": "spb-isaac",
               "title": {"ru": "Исаакиевский собор", "en": "St Isaac's Cathedral"},
-              "coordinate": [59.93410, 30.30610],
+              "coordinate": [59.9341, 30.3061],
               "category": "church",
               "visit": 45,
               "details": {
@@ -90,48 +355,276 @@
                 "ru": "Поднимитесь на колоннаду под куполом — больше 200 ступеней, зато один из лучших видов на город.",
                 "en": "Climb to the colonnade under the dome — more than 200 steps, but one of the best views of the city."
               },
-              "wiki": {"ru": "Исаакиевский собор", "en": "Saint Isaac's Cathedral"}
+              "wiki": {"ru": "Исаакиевский собор", "en": "Saint Isaac's Cathedral"},
+              "guide": {
+                "story": {
+                  "ru": "Исаакиевский собор посвящён Исаакию Далматскому: в день его памяти родился Пётр I. Нынешний собор — уже четвёртый; его строили сорок лет, с 1818 по 1858 год, по проекту молодого француза Огюста Монферрана.\n\nСтройка была инженерным подвигом: под фундамент забили больше десяти тысяч свай, а гранитные колонны портиков весом больше 100 тонн каждая поднимали без современных кранов. Внутри — малахитовые и лазуритовые колонны иконостаса, мозаичные иконы и огромный купол, расписанный Карлом Брюлловым.\n\nС колоннады вокруг купола, куда ведут больше двухсот ступеней, открывается один из лучших видов на город.",
+                  "en": "St Isaac's Cathedral is dedicated to St Isaac of Dalmatia, on whose feast day Peter the Great was born. The present cathedral is the fourth on the site; it took forty years to build, from 1818 to 1858, to the design of the young Frenchman Auguste de Montferrand.\n\nThe construction was an engineering feat: more than ten thousand piles were driven into the foundations, and the granite portico columns, each weighing more than 100 tonnes, were raised without modern cranes. Inside are malachite and lapis lazuli columns on the iconostasis, mosaic icons and a vast dome painted by Karl Bryullov.\n\nFrom the colonnade around the dome, up more than two hundred steps, there is one of the best views of the city."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Малахитовые колонны иконостаса",
+                    "Роспись купола работы Брюллова",
+                    "Ангелов со светильниками вокруг купола"
+                  ],
+                  "en": [
+                    "The malachite columns of the iconostasis",
+                    "Bryullov's painting in the dome",
+                    "The angels with lamps around the dome"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Собор строили сорок лет — с 1818 по 1858 год.",
+                    "Под фундамент собора забили больше десяти тысяч свай."
+                  ],
+                  "en": [
+                    "The cathedral took forty years to build, from 1818 to 1858.",
+                    "More than ten thousand piles were driven into its foundations."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, гадалка предсказала Монферрану, что он умрёт, как только закончит собор. Архитектор действительно скончался вскоре после освящения в 1858 году. Он просил похоронить его в соборе, но ему, католику, отказали: гроб обнесли вокруг храма и увезли в Париж.",
+                  "en": "They say a fortune teller told Montferrand he would die as soon as the cathedral was finished. He did die shortly after its consecration in 1858. He asked to be buried in the cathedral, but as a Catholic he was refused: his coffin was carried around the church and taken to Paris."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему собор посвятили святому Исаакию Далматскому?",
+                    "en": "Why was the cathedral dedicated to St Isaac of Dalmatia?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Пётр I родился в день его памяти",
+                      "Он покровитель моряков",
+                      "Так звали архитектора"
+                    ],
+                    "en": [
+                      "Peter the Great was born on his feast day",
+                      "He is the patron of sailors",
+                      "It was the architect's name"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Пётр I родился 30 мая (по старому стилю) — в день памяти Исаакия Далматского.",
+                    "en": "Peter the Great was born on 30 May (Old Style), the feast of St Isaac of Dalmatia."
+                  }
+                },
+                "approach": {
+                  "ru": "От Медного всадника пара минут через Исаакиевскую площадь.",
+                  "en": "A couple of minutes from the Bronze Horseman across St Isaac's Square."
+                }
+              }
             },
             {
               "id": "spb-kazan-cathedral",
               "title": {"ru": "Казанский собор", "en": "Kazan Cathedral"},
-              "coordinate": [59.93420, 30.32450],
+              "coordinate": [59.9342, 30.3245],
               "category": "church",
               "visit": 25,
               "details": {
                 "ru": "Собор на Невском с полукруглой колоннадой, навеянной площадью Святого Петра в Риме, построенный Андреем Воронихиным в 1801–1811 годах. Здесь похоронен фельдмаршал Кутузов, а перед входом стоят памятники ему и Барклаю-де-Толли.",
                 "en": "A cathedral on Nevsky Prospect with a curved colonnade inspired by St Peter's Square in Rome, built by Andrey Voronikhin in 1801–1811. Field Marshal Kutuzov is buried inside, and statues of him and Barclay de Tolly stand in front."
               },
-              "wiki": {"ru": "Казанский собор (Санкт-Петербург)", "en": "Kazan Cathedral, Saint Petersburg"}
+              "wiki": {"ru": "Казанский собор (Санкт-Петербург)", "en": "Kazan Cathedral, Saint Petersburg"},
+              "guide": {
+                "story": {
+                  "ru": "Казанский собор построил в 1801–1811 годах Андрей Воронихин — бывший крепостной графа Строганова. Павел I мечтал о храме, похожем на собор Святого Петра в Риме, — отсюда полукруглая колоннада из 96 колонн, обнимающая площадь перед собором.\n\nЧерез год после освящения началась война с Наполеоном, и собор стал памятником победы: здесь похоронен фельдмаршал Кутузов, хранились трофейные знамёна и ключи от взятых городов. Перед собором — памятники Кутузову и Барклаю-де-Толли работы Бориса Орловского.\n\nСеверные бронзовые двери — копия «Райских врат» флорентийского баптистерия работы Лоренцо Гиберти.",
+                  "en": "The Kazan Cathedral was built in 1801–1811 by Andrei Voronikhin, a former serf of Count Stroganov. Paul I dreamed of a church like St Peter's in Rome — hence the semicircular colonnade of 96 columns embracing the square in front.\n\nA year after its consecration the war with Napoleon began, and the cathedral became a monument to victory: Field Marshal Kutuzov is buried here, and captured banners and the keys of conquered cities were kept here. In front stand monuments to Kutuzov and Barclay de Tolly by Boris Orlovsky.\n\nThe bronze north doors are a copy of Lorenzo Ghiberti's 'Gates of Paradise' from the Florence Baptistery."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Полукруглую колоннаду из 96 колонн",
+                    "Памятники Кутузову и Барклаю-де-Толли",
+                    "Бронзовые двери — копию «Райских врат» Гиберти"
+                  ],
+                  "en": [
+                    "The semicircular colonnade of 96 columns",
+                    "The monuments to Kutuzov and Barclay de Tolly",
+                    "The bronze doors copied from Ghiberti's Gates of Paradise"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Архитектор Андрей Воронихин родился крепостным графа Строганова.",
+                    "В соборе похоронен фельдмаршал Михаил Кутузов."
+                  ],
+                  "en": [
+                    "The architect Andrei Voronikhin was born a serf of Count Stroganov.",
+                    "Field Marshal Mikhail Kutuzov is buried in the cathedral."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "На какой знаменитый храм похожа колоннада Казанского собора?",
+                    "en": "Which famous church does the Kazan Cathedral's colonnade recall?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Собор Святого Петра в Риме",
+                      "Нотр-Дам в Париже",
+                      "Святую Софию в Стамбуле"
+                    ],
+                    "en": [
+                      "St Peter's in Rome",
+                      "Notre-Dame in Paris",
+                      "Hagia Sophia in Istanbul"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Павел I хотел видеть на Невском храм, напоминающий собор Святого Петра с его колоннадой.",
+                    "en": "Paul I wanted a church on Nevsky recalling St Peter's and its colonnade."
+                  }
+                },
+                "approach": {
+                  "ru": "От Исаакия около 10 минут по Малой Морской к Невскому.",
+                  "en": "About 10 minutes from St Isaac's along Malaya Morskaya to Nevsky."
+                }
+              }
             },
             {
               "id": "spb-spilled-blood",
               "title": {"ru": "Спас на Крови", "en": "Church of the Saviour on Spilled Blood"},
-              "coordinate": [59.94000, 30.32890],
+              "coordinate": [59.94, 30.3289],
               "category": "church",
               "visit": 40,
               "details": {
                 "ru": "Храм стоит на месте, где в 1881 году был смертельно ранен император Александр II. Его стены и своды покрывают больше 7000 квадратных метров мозаик — внутри он похож на драгоценную шкатулку.",
                 "en": "The church stands where Emperor Alexander II was fatally wounded in 1881. Over 7,000 square metres of mosaics cover its walls and vaults — inside it feels like a jewel box."
               },
-              "wiki": {"ru": "Спас на Крови", "en": "Church of the Savior on Blood"}
+              "wiki": {"ru": "Спас на Крови", "en": "Church of the Savior on Blood"},
+              "guide": {
+                "story": {
+                  "ru": "1 марта 1881 года на набережной Екатерининского канала, ныне канала Грибоедова, народовольцы бросили бомбу в карету императора Александра II. Царь вышел к раненым, и вторая бомба смертельно ранила его. На этом месте поставили храм — Спас на Крови.\n\nХрам строили в 1883–1907 годах по проекту Альфреда Парланда в «русском стиле», напоминающем московские храмы XVII века. Внутри под шатром сохранили участок мостовой и решётки канала, где упал раненый император.\n\nСтены и своды покрыты мозаиками площадью больше 7000 квадратных метров по эскизам Васнецова, Нестерова и других художников. В советское время храм закрыли и использовали как склад, а реставрация длилась 27 лет — музей открылся в 1997 году.",
+                  "en": "On 1 March 1881, on the embankment of the Catherine Canal, now the Griboyedov Canal, revolutionaries of the People's Will threw a bomb at Emperor Alexander II's carriage. The tsar stepped out to the wounded, and a second bomb mortally wounded him. The Church of the Saviour on Spilled Blood was built on the spot.\n\nIt was built in 1883–1907 to Alfred Parland's design in a 'Russian style' recalling 17th-century Moscow churches. Inside, under a canopy, a stretch of the pavement and canal railing where the wounded emperor fell has been preserved.\n\nThe walls and vaults are covered with more than 7,000 square metres of mosaics after designs by Vasnetsov, Nesterov and other artists. In Soviet times the church was closed and used as a warehouse, and restoration took 27 years — the museum opened in 1997."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Участок старой мостовой под шатром внутри",
+                    "Мозаичные гербы на колокольне",
+                    "Мозаики по эскизам Васнецова"
+                  ],
+                  "en": [
+                    "The stretch of old pavement under the canopy inside",
+                    "The mosaic coats of arms on the bell tower",
+                    "The mosaics after Vasnetsov's designs"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Площадь мозаик храма — больше 7000 квадратных метров.",
+                    "Реставрация храма длилась 27 лет и завершилась в 1997 году."
+                  ],
+                  "en": [
+                    "The church's mosaics cover more than 7,000 square metres.",
+                    "Restoration took 27 years and was completed in 1997."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что сохранили внутри храма на месте покушения?",
+                    "en": "What was preserved inside the church at the site of the assassination?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Участок мостовой и решётки канала",
+                      "Карету императора",
+                      "Осколки бомбы"
+                    ],
+                    "en": [
+                      "A stretch of pavement and canal railing",
+                      "The emperor's carriage",
+                      "Fragments of the bomb"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Под шатром внутри храма — те самые камни мостовой, на которые упал Александр II.",
+                    "en": "Under the canopy inside lie the very paving stones on which Alexander II fell."
+                  }
+                },
+                "approach": {
+                  "ru": "От Казанского собора около 5 минут вдоль канала Грибоедова.",
+                  "en": "About 5 minutes from the Kazan Cathedral along the Griboyedov Canal."
+                }
+              }
             },
             {
               "id": "spb-summer-garden",
               "title": {"ru": "Летний сад", "en": "Summer Garden"},
-              "coordinate": [59.94470, 30.33590],
+              "coordinate": [59.9447, 30.3359],
               "category": "park",
               "visit": 40,
               "details": {
                 "ru": "Первый парадный сад города, заложенный Петром I в 1704 году. Мраморные статуи, фонтаны, знаменитая решётка со стороны Невы и скромный Летний дворец Петра — один из первых каменных домов Петербурга.",
                 "en": "The city's first formal garden, laid out by Peter the Great in 1704. Marble statues, fountains, the famous railings on the Neva side and Peter's modest Summer Palace — one of the first stone houses in the city."
               },
-              "wiki": {"ru": "Летний сад", "en": "Summer Garden"}
+              "wiki": {"ru": "Летний сад", "en": "Summer Garden"},
+              "guide": {
+                "story": {
+                  "ru": "Летний сад Пётр I заложил в 1704 году, через год после основания города. Это был парадный регулярный сад: прямые аллеи, фонтаны, гроты и итальянские мраморные статуи — римские боги, аллегории и бюсты.\n\nФонтаны погибли в наводнение 1777 года и вернулись только после реставрации 2009–2012 годов. В саду стоит скромный Летний дворец Петра работы Доменико Трезини, а со стороны Невы — знаменитая решётка Юрия Фельтена. Здесь же — памятник баснописцу Ивану Крылову работы Петра Клодта.\n\nМногие статуи сегодня — точные копии, а подлинники берегут в музее. Зимой статуи прячут в деревянные футляры.",
+                  "en": "Peter the Great laid out the Summer Garden in 1704, a year after founding the city. It was a formal garden: straight avenues, fountains, grottoes and Italian marble statues — Roman gods, allegories and busts.\n\nThe fountains were destroyed in the flood of 1777 and came back only after the restoration of 2009–2012. The garden holds Peter's modest Summer Palace by Domenico Trezzini, and on the Neva side the famous railing by Yuri Felten. Here too is Pyotr Klodt's monument to the fabulist Ivan Krylov.\n\nMany of the statues today are exact copies, with the originals kept in a museum. In winter the statues are hidden in wooden cases."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Решётку Фельтена со стороны Невы",
+                    "Памятник Ивану Крылову с героями басен",
+                    "Мраморные статуи вдоль аллей"
+                  ],
+                  "en": [
+                    "Felten's railing on the Neva side",
+                    "The Ivan Krylov monument with characters from his fables",
+                    "The marble statues along the avenues"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Сад заложен в 1704 году — через год после основания Петербурга.",
+                    "Фонтаны сада погибли в наводнение 1777 года и вернулись только в 2012 году."
+                  ],
+                  "en": [
+                    "The garden was laid out in 1704, a year after St Petersburg was founded.",
+                    "The fountains were destroyed in the flood of 1777 and returned only in 2012."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что один англичанин приплыл в Петербург на собственной яхте только ради того, чтобы увидеть решётку Летнего сада. Он посмотрел на неё, не сходя с палубы, и уплыл обратно, решив, что ничего прекраснее уже не увидит.",
+                  "en": "They say an Englishman sailed to St Petersburg in his own yacht just to see the Summer Garden railing. He looked at it without leaving the deck and sailed home, convinced he would never see anything more beautiful."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кому стоит памятник в Летнем саду работы Клодта?",
+                    "en": "Whom does Klodt's monument in the Summer Garden depict?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Баснописцу Ивану Крылову",
+                      "Петру I",
+                      "Александру Пушкину"
+                    ],
+                    "en": [
+                      "The fabulist Ivan Krylov",
+                      "Peter the Great",
+                      "Alexander Pushkin"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Крылов любил гулять в Летнем саду, а на постаменте памятника — герои его басен.",
+                    "en": "Krylov loved walking in the Summer Garden, and his fable characters decorate the pedestal."
+                  }
+                },
+                "approach": {
+                  "ru": "От Спаса на Крови через Марсово поле — около 10 минут.",
+                  "en": "About 10 minutes from the Spilled Blood church across the Field of Mars."
+                }
+              }
             },
             {
               "id": "spb-anichkov",
               "title": {"ru": "Аничков мост", "en": "Anichkov Bridge"},
-              "coordinate": [59.93330, 30.34360],
+              "coordinate": [59.9333, 30.3436],
               "category": "bridge",
               "visit": 15,
               "details": {
@@ -142,7 +635,66 @@
                 "ru": "У моста — причалы прогулочных катеров: час по рекам и каналам покажет город с воды. А летней ночью стоит дойти до Невы и посмотреть, как разводят мосты.",
                 "en": "Sightseeing boats leave from piers by the bridge: an hour on the rivers and canals shows the city from the water. On a summer night, walk to the Neva to watch the bridges open."
               },
-              "wiki": {"ru": "Аничков мост", "en": "Anichkov Bridge"}
+              "wiki": {"ru": "Аничков мост", "en": "Anichkov Bridge"},
+              "guide": {
+                "story": {
+                  "ru": "Аничков мост через Фонтанку назван по фамилии подполковника Михаила Аничкова, чей батальон строил здесь первый деревянный мост при Петре I. Тогда Фонтанка была окраиной города, а мост — въездом в него.\n\nНынешний каменный мост построили в начале 1840-х годов, и на нём встали четыре скульптурные группы Петра Клодта «Укрощение коня человеком»: четыре этапа борьбы человека с конём — от непокорности до победы.\n\nВо время блокады скульптуры сняли и закопали в саду Аничкова дворца, а следы осколков на гранитных постаментах оставили как память — их видно и сейчас.",
+                  "en": "The Anichkov Bridge over the Fontanka is named after Lieutenant Colonel Mikhail Anichkov, whose battalion built the first wooden bridge here under Peter the Great. The Fontanka was then the city's edge, and the bridge was its gateway.\n\nThe present stone bridge was built in the early 1840s, and Pyotr Klodt's four 'Horse Tamers' groups were placed on it: four stages of a man's struggle with a horse, from defiance to mastery.\n\nDuring the siege the sculptures were taken down and buried in the garden of the Anichkov Palace, and the shrapnel marks on the granite pedestals were left as a memorial — you can still see them."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Следы осколков на гранитных постаментах",
+                    "Четыре разные позы коней",
+                    "Аничков дворец на углу Фонтанки"
+                  ],
+                  "en": [
+                    "The shrapnel marks on the granite pedestals",
+                    "The four different poses of the horses",
+                    "The Anichkov Palace on the corner of the Fontanka"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Мост назван по фамилии подполковника Аничкова, строившего здесь первый мост.",
+                    "Во время блокады скульптуры коней закопали в саду Аничкова дворца."
+                  ],
+                  "en": [
+                    "The bridge is named after Lieutenant Colonel Anichkov, who built the first bridge here.",
+                    "During the siege the horse sculptures were buried in the garden of the Anichkov Palace."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, в анатомических подробностях одного из коней Клодт спрятал человеческий профиль — по одной версии, Наполеона, по другой — своего обидчика.",
+                  "en": "They say Klodt hid a human profile in the anatomical details of one of the horses — Napoleon's, according to one version, or that of someone who had wronged the sculptor, according to another."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что изображают кони Клодта на Аничковом мосту?",
+                    "en": "What do Klodt's horses on the Anichkov Bridge show?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Этапы укрощения коня человеком",
+                      "Четыре времени года",
+                      "Скачки на Марсовом поле"
+                    ],
+                    "en": [
+                      "The stages of a man taming a horse",
+                      "The four seasons",
+                      "Races on the Field of Mars"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Четыре группы показывают борьбу человека с конём — от непокорности до победы.",
+                    "en": "The four groups show the struggle between man and horse, from defiance to mastery."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15 минут пешком вдоль Фонтанки до Невского.",
+                  "en": "About 15 minutes' walk along the Fontanka to Nevsky."
+                }
+              }
             }
           ]
         },
@@ -152,7 +704,7 @@
             {
               "id": "spb-peter-paul",
               "title": {"ru": "Петропавловская крепость", "en": "Peter and Paul Fortress"},
-              "coordinate": [59.95000, 30.31660],
+              "coordinate": [59.95, 30.3166],
               "category": "castle",
               "visit": 90,
               "details": {
@@ -163,12 +715,67 @@
                 "ru": "Приходите к 12:00 к Нарышкину бастиону на полуденный выстрел, а потом пройдитесь по пляжу у стен с видом на Неву.",
                 "en": "Be at the Naryshkin Bastion for the noon gun, then stroll along the beach under the walls with a view of the Neva."
               },
-              "wiki": {"ru": "Петропавловская крепость", "en": "Peter and Paul Fortress"}
+              "wiki": {"ru": "Петропавловская крепость", "en": "Peter and Paul Fortress"},
+              "guide": {
+                "story": {
+                  "ru": "27 мая 1703 года на Заячьем острове заложили крепость — этот день считается днём рождения Петербурга. Крепость строили против шведов, но ей так и не пришлось обороняться; зато почти двести лет она служила политической тюрьмой. Здесь держали царевича Алексея, декабристов, Достоевского, Чернышевского и Горького.\n\nВ центре — Петропавловский собор Доменико Трезини со шпилем высотой 122,5 метра, увенчанным ангелом. В соборе похоронены почти все российские императоры, начиная с Петра I, а с 1998 года — и останки Николая II и его семьи.\n\nС 1873 года с Нарышкина бастиона каждый день ровно в полдень стреляет пушка — по ней в городе когда-то сверяли часы.",
+                  "en": "On 27 May 1703 a fortress was founded on Hare Island — the day is considered St Petersburg's birthday. It was built against the Swedes but never had to defend itself; instead, for almost two hundred years it served as a political prison. Tsarevich Alexei, the Decembrists, Dostoevsky, Chernyshevsky and Gorky were held here.\n\nIn the centre is Domenico Trezzini's Cathedral of Saints Peter and Paul, its 122.5-metre spire topped by an angel. Almost all Russian emperors since Peter the Great are buried here, and since 1998 the remains of Nicholas II and his family as well.\n\nSince 1873 a cannon has fired from the Naryshkin Bastion every day at exactly noon — the city once set its clocks by it."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ангела на шпиле собора",
+                    "Пушку на Нарышкином бастионе",
+                    "Сидящего Петра I работы Шемякина"
+                  ],
+                  "en": [
+                    "The angel on the cathedral spire",
+                    "The cannon on the Naryshkin Bastion",
+                    "Shemyakin's seated Peter the Great"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Высота шпиля Петропавловского собора — 122,5 метра.",
+                    "Полуденный выстрел с Нарышкина бастиона звучит с 1873 года."
+                  ],
+                  "en": [
+                    "The spire of the Peter and Paul Cathedral is 122.5 metres high.",
+                    "The noon gun has fired from the Naryshkin Bastion since 1873."
+                  ]
+                },
+                "legend": {
+                  "ru": "В 1830 году кровельщик Пётр Телушкин без всяких лесов, одними верёвками, забрался на шпиль и починил ангела. Рассказывают, что в награду царь разрешил ему бесплатно пить во всех кабаках, а когда Телушкин потерял грамоту, ему поставили клеймо на шее — отсюда будто бы и пошёл жест, означающий выпивку: щелчок по шее.",
+                  "en": "In 1830 the roofer Pyotr Telushkin climbed the spire with nothing but ropes, without scaffolding, and repaired the angel. They say the tsar rewarded him with the right to drink free in every tavern, and when Telushkin lost his certificate he was given a mark on his neck — supposedly the origin of the Russian gesture for drinking, a flick on the neck."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что каждый день в полдень происходит в Петропавловской крепости?",
+                    "en": "What happens every day at noon in the Peter and Paul Fortress?"
+                  },
+                  "options": {
+                    "ru": ["Стреляет пушка", "Звонят все колокола", "Разводят мост"],
+                    "en": [
+                      "A cannon fires",
+                      "All the bells ring",
+                      "A bridge is raised"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Полуденный выстрел с Нарышкина бастиона — давняя петербургская традиция.",
+                    "en": "The noon shot from the Naryshkin Bastion is a long-standing St Petersburg tradition."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Иоанновский мост с Петроградской стороны.",
+                  "en": "Across the Ioannovsky Bridge from the Petrograd Side."
+                }
+              }
             },
             {
               "id": "spb-strelka",
               "title": {"ru": "Стрелка Васильевского острова", "en": "Spit of Vasilyevsky Island"},
-              "coordinate": [59.94420, 30.30650],
+              "coordinate": [59.9442, 30.3065],
               "category": "viewpoint",
               "visit": 20,
               "details": {
@@ -179,28 +786,132 @@
                 "ru": "В праздники на Ростральных колоннах зажигают огненные факелы.",
                 "en": "On holidays the torches on top of the Rostral Columns are lit."
               },
-              "wiki": {"ru": "Стрелка Васильевского острова", "en": "Old Saint Petersburg Stock Exchange and Rostral Columns"},
+              "wiki": {
+                "ru": "Стрелка Васильевского острова",
+                "en": "Old Saint Petersburg Stock Exchange and Rostral Columns"
+              },
               "arrival": {
                 "mode": "walk",
-                "note": {"ru": "Через Биржевой мост — около 15 минут пешком", "en": "Across the Birzhevoy Bridge — about 15 minutes on foot"}
+                "note": {
+                  "ru": "Через Биржевой мост — около 15 минут пешком",
+                  "en": "Across the Birzhevoy Bridge — about 15 minutes on foot"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Стрелка — восточный мыс Васильевского острова, где Нева делится на Большую и Малую. При Петре здесь хотели устроить центр города, а в XVIII–XIX веках здесь кипел морской порт.\n\nАнсамбль Стрелки создал Тома де Томон: здание Биржи (1805–1810), похожее на греческий храм, и две Ростральные колонны, украшенные носами кораблей — рострами. Колонны служили маяками, а фигуры у их подножия принято считать аллегориями великих рек — Волги, Днепра, Невы и Волхова.\n\nСо Стрелки открывается главная панорама города: Зимний дворец, Петропавловская крепость и широкая Нева.",
+                  "en": "The Strelka is the eastern tip of Vasilyevsky Island, where the Neva splits into the Great and Little Neva. Peter the Great wanted to put the city centre here, and in the 18th and 19th centuries a busy seaport stood here.\n\nThe Strelka ensemble was created by Thomas de Thomon: the Stock Exchange (1805–1810), like a Greek temple, and two Rostral Columns decorated with the prows of ships — rostra. The columns served as lighthouses, and the figures at their bases are traditionally seen as allegories of great rivers: the Volga, Dnieper, Neva and Volkhov.\n\nFrom the Strelka opens the city's main panorama: the Winter Palace, the Peter and Paul Fortress and the broad Neva."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ростры — носы кораблей на колоннах",
+                    "Фигуры у подножия колонн",
+                    "Панораму на Зимний дворец и крепость"
+                  ],
+                  "en": [
+                    "The rostra — ships' prows on the columns",
+                    "The figures at the bases of the columns",
+                    "The panorama of the Winter Palace and the fortress"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Ростральные колонны служили маяками старого порта.",
+                    "Здание Биржи построил Тома де Томон в 1805–1810 годах."
+                  ],
+                  "en": [
+                    "The Rostral Columns served as lighthouses for the old port.",
+                    "Thomas de Thomon built the Stock Exchange in 1805–1810."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что такое ростры на Ростральных колоннах?",
+                    "en": "What are the rostra on the Rostral Columns?"
+                  },
+                  "options": {
+                    "ru": ["Носы кораблей", "Факелы", "Якоря"],
+                    "en": ["Ships' prows", "Torches", "Anchors"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В Древнем Риме носами захваченных кораблей украшали колонны в честь морских побед.",
+                    "en": "In ancient Rome columns were decorated with the prows of captured ships to celebrate naval victories."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Биржевой мост — около 15 минут пешком от крепости.",
+                  "en": "Across the Birzhevoy Bridge — about 15 minutes' walk from the fortress."
+                }
               }
             },
             {
               "id": "spb-kunstkamera",
               "title": {"ru": "Кунсткамера", "en": "Kunstkamera"},
-              "coordinate": [59.94150, 30.30460],
+              "coordinate": [59.9415, 30.3046],
               "category": "museum",
               "visit": 60,
               "details": {
                 "ru": "Первый музей России, основанный Петром I в 1714 году для «раритетов и монстров». Сегодня это музей антропологии и этнографии: от анатомической коллекции Петра до японских доспехов, а в башне — огромный Готторпский глобус со звёздным небом внутри.",
                 "en": "Russia's first museum, founded by Peter the Great in 1714 for 'rarities and monsters'. Today it is a museum of anthropology and ethnography — from Peter's anatomical collection to Japanese armour — and its tower holds the huge Gottorf Globe with a starry sky inside."
               },
-              "wiki": {"ru": "Кунсткамера", "en": "Kunstkamera"}
+              "wiki": {"ru": "Кунсткамера", "en": "Kunstkamera"},
+              "guide": {
+                "story": {
+                  "ru": "Кунсткамера — «кабинет редкостей» — первый музей России, основанный Петром I в 1714 году. Пётр собирал анатомические редкости в спирту, необычные камни, чучела зверей и инструменты и хотел, чтобы люди перестали бояться «уродов» и учились. Чтобы привлечь посетителей, вход сделали бесплатным, а гостей ещё и угощали.\n\nЗдание с башней построено в 1718–1734 годах. В башне — Готторпский глобус, восстановленный после пожара 1747 года: внутри огромного шара на скамье помещались несколько человек и смотрели на звёздное небо — это был один из первых планетариев.\n\nСегодня это Музей антропологии и этнографии: костюмы, оружие и обряды народов мира, а анатомическая коллекция Петра по-прежнему самый знаменитый зал.",
+                  "en": "The Kunstkamera — 'cabinet of curiosities' — is Russia's first museum, founded by Peter the Great in 1714. Peter collected anatomical oddities in spirit, unusual stones, stuffed animals and instruments, and wanted people to stop fearing 'monsters' and to learn. To attract visitors entry was free, and guests were even treated to refreshments.\n\nThe building with its tower was built in 1718–1734. The tower houses the Gottorp Globe, restored after a fire in 1747: several people could sit on a bench inside the huge sphere and watch the starry sky — one of the first planetariums.\n\nToday it is the Museum of Anthropology and Ethnography: costumes, weapons and rituals of the world's peoples, while Peter's anatomical collection is still the most famous room."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башню с армиллярной сферой на вершине",
+                    "Готторпский глобус",
+                    "Японские доспехи самураев"
+                  ],
+                  "en": [
+                    "The tower with the armillary sphere on top",
+                    "The Gottorp Globe",
+                    "Japanese samurai armour"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Кунсткамера основана в 1714 году — это первый музей России.",
+                    "Пётр I велел угощать посетителей, чтобы привлечь их в музей."
+                  ],
+                  "en": [
+                    "The Kunstkamera was founded in 1714 — Russia's first museum.",
+                    "Peter the Great had visitors treated to refreshments to attract them to the museum."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как Пётр I привлекал посетителей в Кунсткамеру?",
+                    "en": "How did Peter the Great attract visitors to the Kunstkamera?"
+                  },
+                  "options": {
+                    "ru": ["Угощал их", "Платил им деньги", "Обязал приходить указом"],
+                    "en": [
+                      "He treated them to refreshments",
+                      "He paid them",
+                      "He ordered them to come by decree"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Вход был бесплатным, а гостей угощали — так царь приучал подданных к науке.",
+                    "en": "Entry was free and guests were treated — the tsar's way of drawing his subjects to science."
+                  }
+                },
+                "approach": {
+                  "ru": "От Стрелки пара минут вдоль Университетской набережной.",
+                  "en": "A couple of minutes from the Strelka along University Embankment."
+                }
+              }
             },
             {
               "id": "spb-new-holland",
               "title": {"ru": "Новая Голландия", "en": "New Holland"},
-              "coordinate": [59.92940, 30.28950],
+              "coordinate": [59.9294, 30.2895],
               "category": "park",
               "visit": 40,
               "details": {
@@ -210,25 +921,142 @@
               "wiki": {"ru": "Новая Голландия", "en": "New Holland Island"},
               "arrival": {
                 "mode": "walk",
-                "note": {"ru": "Через Благовещенский мост — около 30 минут пешком", "en": "Across the Blagoveshchensky Bridge — about 30 minutes on foot"}
+                "note": {
+                  "ru": "Через Благовещенский мост — около 30 минут пешком",
+                  "en": "Across the Blagoveshchensky Bridge — about 30 minutes on foot"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Новая Голландия — рукотворный треугольный остров между Мойкой, Крюковым и Адмиралтейским каналами, созданный в начале XVIII века. Здесь хранили и сушили корабельный лес для Адмиралтейства. Остров назван в честь Голландии — страны, где Пётр учился кораблестроению.\n\nНад каналом нависает знаменитая арка Жана-Батиста Валлен-Деламота — ворота в бассейн для судов. Позже здесь была военно-морская база, и почти три века остров оставался закрытым для горожан.\n\nВ 2010-х его открыли: теперь здесь газоны, сады, кафе, выставки и концерты, а в круглом здании бывшей морской тюрьмы по прозвищу «Бутылка» — магазины и рестораны.",
+                  "en": "New Holland is a man-made triangular island between the Moika, the Kryukov Canal and the Admiralty Canal, created in the early 18th century. Ship timber for the Admiralty was stored and dried here. It is named after Holland, the country where Peter the Great studied shipbuilding.\n\nOver the canal looms the famous arch by Jean-Baptiste Vallin de la Mothe, the gateway to a basin for ships. Later a naval base occupied the island, and for almost three centuries it was closed to the public.\n\nIn the 2010s it opened up: now there are lawns, gardens, cafés, exhibitions and concerts, and the round building of a former naval prison nicknamed 'the Bottle' houses shops and restaurants."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Арку Валлен-Деламота над каналом",
+                    "Круглое здание «Бутылка»",
+                    "Пруд на месте бассейна для судов"
+                  ],
+                  "en": [
+                    "Vallin de la Mothe's arch over the canal",
+                    "The round 'Bottle' building",
+                    "The pond where the ship basin was"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Остров назван в честь Голландии, где Пётр учился кораблестроению.",
+                    "Круглое здание бывшей тюрьмы прозвали «Бутылкой»."
+                  ],
+                  "en": [
+                    "The island is named after Holland, where Peter studied shipbuilding.",
+                    "The round former prison building is nicknamed 'the Bottle'."
+                  ]
+                },
+                "legend": {
+                  "ru": "По одной из версий, «Бутылкой» тюрьму прозвали потому, что выбраться из неё было невозможно, — и отсюда будто бы пошло выражение «лезть в бутылку».",
+                  "en": "One story says the prison was called 'the Bottle' because no one could get out of it — and that this gave rise to the Russian idiom 'to climb into the bottle', meaning to fly off the handle."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Для чего построили остров Новая Голландия?",
+                    "en": "What was New Holland island built for?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Хранить корабельный лес",
+                      "Выращивать тюльпаны",
+                      "Построить королевский дворец"
+                    ],
+                    "en": [
+                      "To store ship timber",
+                      "To grow tulips",
+                      "To build a royal palace"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Здесь хранили и сушили лес для строительства кораблей Адмиралтейства.",
+                    "en": "Timber for the Admiralty's ships was stored and dried here."
+                  }
+                },
+                "approach": {
+                  "ru": "Через Благовещенский мост и по Английской набережной — около 30 минут.",
+                  "en": "Over the Blagoveshchensky Bridge and along English Embankment — about 30 minutes."
+                }
               }
             },
             {
               "id": "spb-yusupov",
               "title": {"ru": "Юсуповский дворец", "en": "Yusupov Palace"},
-              "coordinate": [59.92950, 30.29940],
+              "coordinate": [59.9295, 30.2994],
               "category": "palace",
               "visit": 60,
               "details": {
                 "ru": "Дворец князей Юсуповых на Мойке с роскошными залами и крошечным домашним театром. В декабре 1916 года здесь убили Григория Распутина — этой истории посвящена отдельная экспозиция в подвале.",
                 "en": "The Yusupov princes' palace on the Moika, with lavish halls and a tiny private theatre. Grigory Rasputin was murdered here in December 1916 — a separate exhibition in the basement tells the story."
               },
-              "wiki": {"ru": "Юсуповский дворец на Мойке", "en": "Moika Palace"}
+              "wiki": {"ru": "Юсуповский дворец на Мойке", "en": "Moika Palace"},
+              "guide": {
+                "story": {
+                  "ru": "Дворец на Мойке Юсуповы купили в 1830 году — это была одна из богатейших семей России. Внутри — анфилады парадных залов, картинная галерея и маленький домашний театр в стиле рококо, где выступали знаменитые артисты.\n\nВ ночь на 17 декабря 1916 года в подвальной комнате дворца князь Феликс Юсупов и его сообщники убили Григория Распутина, которого считали губительным для царской семьи. Тело сбросили в прорубь на Малой Невке.\n\nСегодня в подвале воссоздана эта сцена с восковыми фигурами, а парадные залы показывают, как жила высшая знать перед революцией.",
+                  "en": "The Yusupovs, one of Russia's richest families, bought the palace on the Moika in 1830. Inside are suites of state rooms, a picture gallery and a small Rococo home theatre where famous artists performed.\n\nOn the night of 17 December 1916, in a basement room of the palace, Prince Felix Yusupov and his accomplices killed Grigori Rasputin, whom they saw as ruinous for the imperial family. The body was thrown into a hole in the ice of the Malaya Nevka.\n\nToday the basement recreates the scene with wax figures, while the state rooms show how the high aristocracy lived on the eve of the revolution."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Домашний театр в стиле рококо",
+                    "Восковые фигуры в подвале — сцену с Распутиным",
+                    "Парадную лестницу дворца"
+                  ],
+                  "en": [
+                    "The Rococo home theatre",
+                    "The wax figures in the basement — the Rasputin scene",
+                    "The palace's grand staircase"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Юсуповы владели дворцом с 1830 по 1917 год.",
+                    "Распутина убили в ночь на 17 декабря 1916 года."
+                  ],
+                  "en": [
+                    "The Yusupovs owned the palace from 1830 to 1917.",
+                    "Rasputin was killed on the night of 17 December 1916."
+                  ]
+                },
+                "legend": {
+                  "ru": "По рассказу самого Юсупова, Распутин съел пирожные с цианистым калием и выпил отравленное вино — но яд на него не подействовал. Тогда в него стали стрелять. Историки спорят, сколько в этом рассказе правды.",
+                  "en": "According to Yusupov's own account, Rasputin ate cakes laced with cyanide and drank poisoned wine — but the poison had no effect. Then they shot him. Historians still argue how much of the story is true."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кого убили во дворце Юсуповых в 1916 году?",
+                    "en": "Who was killed in the Yusupov Palace in 1916?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Григория Распутина",
+                      "Императора Павла I",
+                      "Александра Пушкина"
+                    ],
+                    "en": ["Grigori Rasputin", "Emperor Paul I", "Alexander Pushkin"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Павла I убили в Михайловском замке, а Пушкин умер после дуэли в своей квартире на Мойке.",
+                    "en": "Paul I was killed in the Mikhailovsky Castle, and Pushkin died after his duel in his flat on the Moika."
+                  }
+                },
+                "approach": {
+                  "ru": "От Новой Голландии вдоль Мойки — 5 минут.",
+                  "en": "Five minutes from New Holland along the Moika."
+                }
+              }
             },
             {
               "id": "spb-mariinsky",
               "title": {"ru": "Мариинский театр", "en": "Mariinsky Theatre"},
-              "coordinate": [59.92570, 30.29610],
+              "coordinate": [59.9257, 30.2961],
               "category": "theater",
               "visit": 15,
               "details": {
@@ -239,19 +1067,114 @@
                 "ru": "Билеты на балет лучше покупать на официальном сайте театра за несколько недель.",
                 "en": "Buy ballet tickets on the theatre's official website a few weeks ahead."
               },
-              "wiki": {"ru": "Мариинский театр", "en": "Mariinsky Theatre"}
+              "wiki": {"ru": "Мариинский театр", "en": "Mariinsky Theatre"},
+              "guide": {
+                "story": {
+                  "ru": "Мариинский театр открылся в 1860 году и был назван в честь императрицы Марии Александровны. Здесь впервые прозвучали «Борис Годунов» Мусоргского и «Пиковая дама» Чайковского, а на сцене впервые показали балеты «Спящая красавица» (1890) и «Щелкунчик» (1892).\n\nНа этой сцене танцевали Анна Павлова и Вацлав Нижинский, Рудольф Нуреев и Михаил Барышников, пел Фёдор Шаляпин. В советское время театр назывался Кировским, и под этим именем его балет знали во всём мире.\n\nЧерез Крюков канал стоит Вторая сцена, открытая в 2013 году, а на Театральной площади — памятники Глинке и Римскому-Корсакову.",
+                  "en": "The Mariinsky Theatre opened in 1860 and was named after Empress Maria Alexandrovna. Mussorgsky's Boris Godunov and Tchaikovsky's The Queen of Spades premiered here, as did the ballets The Sleeping Beauty (1890) and The Nutcracker (1892).\n\nAnna Pavlova and Vaslav Nijinsky, Rudolf Nureyev and Mikhail Baryshnikov danced on this stage, and Fyodor Chaliapin sang here. In Soviet times it was called the Kirov, and its ballet was known all over the world by that name.\n\nAcross the Kryukov Canal stands the Second Stage, opened in 2013, and Teatralnaya Square has monuments to Glinka and Rimsky-Korsakov."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Бирюзово-зелёный фасад исторической сцены",
+                    "Вторую сцену через Крюков канал",
+                    "Памятники Глинке и Римскому-Корсакову"
+                  ],
+                  "en": [
+                    "The turquoise-green facade of the historic stage",
+                    "The Second Stage across the Kryukov Canal",
+                    "The monuments to Glinka and Rimsky-Korsakov"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Щелкунчик» впервые показали здесь в декабре 1892 года.",
+                    "В советское время театр назывался Кировским."
+                  ],
+                  "en": [
+                    "The Nutcracker premiered here in December 1892.",
+                    "In Soviet times the theatre was called the Kirov."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой балет Чайковского впервые показали в Мариинском театре в 1892 году?",
+                    "en": "Which Tchaikovsky ballet premiered at the Mariinsky in 1892?"
+                  },
+                  "options": {
+                    "ru": ["«Щелкунчик»", "«Лебединое озеро»", "«Жизель»"],
+                    "en": ["The Nutcracker", "Swan Lake", "Giselle"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Щелкунчик» показали в декабре 1892 года; «Лебединое озеро» впервые поставили в Москве, а «Жизель» — балет Адана.",
+                    "en": "The Nutcracker premiered in December 1892; Swan Lake was first staged in Moscow, and Giselle is Adam's ballet."
+                  }
+                },
+                "approach": {
+                  "ru": "От Юсуповского дворца около 10 минут по Мойке и Крюкову каналу.",
+                  "en": "About 10 minutes from the Yusupov Palace along the Moika and the Kryukov Canal."
+                }
+              }
             },
             {
               "id": "spb-nikolsky",
               "title": {"ru": "Никольский морской собор", "en": "St Nicholas Naval Cathedral"},
-              "coordinate": [59.92300, 30.30130],
+              "coordinate": [59.923, 30.3013],
               "category": "church",
               "visit": 25,
               "details": {
                 "ru": "Бело-голубой барочный собор XVIII века, храм моряков, с отдельно стоящей четырёхъярусной колокольней над Крюковым каналом. Рядом — Семимостье: с одной точки на пересечении каналов видно сразу семь мостов.",
                 "en": "An 18th-century white-and-blue Baroque cathedral, the sailors' church, with a separate four-tier bell tower above the Kryukov Canal. Nearby is the Seven Bridges spot, where you can see seven bridges at once from the canal crossing."
               },
-              "wiki": {"ru": "Никольский морской собор", "en": "St. Nicholas Naval Cathedral"}
+              "wiki": {"ru": "Никольский морской собор", "en": "St. Nicholas Naval Cathedral"},
+              "guide": {
+                "story": {
+                  "ru": "Никольский морской собор построил Савва Чевакинский в 1753–1762 годах для моряков, живших в этой части города. Бело-голубой барочный храм с золотыми куполами двухэтажный: внизу — уютная «зимняя» церковь, наверху — светлая «летняя».\n\nКолокольня стоит отдельно, на берегу Крюкова канала, и её отражение в воде — одна из самых красивых картин Петербурга. Собор не закрывался даже в советское время.\n\nРядом — Семимостье: с одной точки на пересечении Крюкова канала и канала Грибоедова видно сразу семь мостов.",
+                  "en": "The St Nicholas Naval Cathedral was built by Savva Chevakinsky in 1753–1762 for the sailors who lived in this part of the city. The white-and-blue Baroque church with golden domes has two storeys: a cosy 'winter' church below and a bright 'summer' church above.\n\nThe bell tower stands apart on the bank of the Kryukov Canal, and its reflection in the water is one of the loveliest sights in St Petersburg. The cathedral never closed, even in Soviet times.\n\nNearby is the Seven Bridges spot: from one point where the Kryukov and Griboyedov canals cross you can see seven bridges at once."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Отражение колокольни в Крюковом канале",
+                    "Семь мостов с одной точки",
+                    "Золотые купола над бело-голубыми стенами"
+                  ],
+                  "en": [
+                    "The bell tower's reflection in the Kryukov Canal",
+                    "Seven bridges from one spot",
+                    "The golden domes above the white-and-blue walls"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Никольский собор не закрывался даже в советское время.",
+                    "Колокольня собора стоит отдельно, на берегу канала."
+                  ],
+                  "en": [
+                    "The St Nicholas Cathedral never closed, even in Soviet times.",
+                    "The bell tower stands apart from the cathedral, on the canal bank."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, если встать на Семимостье, увидеть все семь мостов и загадать желание, оно обязательно сбудется.",
+                  "en": "They say that if you stand at the Seven Bridges spot, see all seven bridges and make a wish, it will surely come true."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Сколько мостов видно с одной точки у Никольского собора?",
+                    "en": "How many bridges can you see from one spot near the St Nicholas Cathedral?"
+                  },
+                  "options": {"ru": ["Семь", "Три", "Двенадцать"], "en": ["Seven", "Three", "Twelve"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Это место так и называют — Семимостье.",
+                    "en": "The place is even called Semimostye, the Seven Bridges."
+                  }
+                },
+                "approach": {
+                  "ru": "От Мариинского театра пара минут по Крюкову каналу.",
+                  "en": "A couple of minutes from the Mariinsky along the Kryukov Canal."
+                }
+              }
             }
           ]
         }
@@ -264,6 +1187,10 @@
         "ru": "От Эрмитажа на скоростном «Метеоре» по Финскому заливу — прямо к Морскому каналу Петергофа. Большой каскад с «Самсоном», Большой дворец, домик Петра Монплезир с фонтанами-шутихами и тихий Марли у прудов.",
         "en": "A fast Meteor hydrofoil from the Hermitage across the Gulf of Finland straight to Peterhof's Sea Canal. The Grand Cascade with Samson, the Grand Palace, Peter's little Monplaisir with its trick fountains and quiet Marly by the ponds."
       },
+      "intro": {
+        "ru": "Поездка на полдня или целый день: 40 минут на «Метеоре» по заливу, потом прогулка по Нижнему парку — около 4 км. Постарайтесь успеть к 11:00, когда под музыку включают фонтаны, и заложите час на Большой дворец.",
+        "en": "A half-day or full-day trip: 40 minutes by Meteor hydrofoil across the gulf, then a walk of about 4 km around the Lower Park. Try to arrive by 11:00, when the fountains are turned on to music, and allow an hour for the Grand Palace."
+      },
       "emoji": "⛲",
       "tags": ["ferry", "walk"],
       "days": [
@@ -272,7 +1199,7 @@
             {
               "id": "spb-palace-embankment",
               "title": {"ru": "Дворцовая набережная", "en": "Palace Embankment"},
-              "coordinate": [59.94150, 30.31200],
+              "coordinate": [59.9415, 30.312],
               "category": "street",
               "visit": 15,
               "details": {
@@ -283,12 +1210,64 @@
                 "ru": "«Метеоры» ходят примерно с мая по октябрь и не в шторм; билеты удобнее купить онлайн, обратный рейс — тоже заранее.",
                 "en": "Hydrofoils run roughly from May to October and not in stormy weather; buy tickets online, including the return trip."
               },
-              "wiki": {"ru": "Дворцовая набережная", "en": "Palace Embankment"}
+              "wiki": {"ru": "Дворцовая набережная", "en": "Palace Embankment"},
+              "guide": {
+                "story": {
+                  "ru": "Дворцовая набережная — парадная линия Петербурга: Зимний дворец, Эрмитаж, Мраморный дворец и особняки знати смотрят прямо на Неву. Отсюда видно Петропавловскую крепость, Стрелку и Троицкий мост.\n\n«Метеоры» — суда на подводных крыльях, созданные в 1950-х годах в конструкторском бюро Ростислава Алексеева: на скорости корпус поднимается над водой и почти летит. До Петергофа они доходят примерно за 40 минут.\n\nПётр I тоже предпочитал добираться в Петергоф по воде — дороги в те годы были хуже реки и залива.",
+                  "en": "Palace Embankment is St Petersburg's grand frontage: the Winter Palace, the Hermitage, the Marble Palace and noble mansions face the Neva. From here you can see the Peter and Paul Fortress, the Strelka and the Trinity Bridge.\n\nThe Meteors are hydrofoils developed in the 1950s by Rostislav Alekseyev's design bureau: at speed the hull rises above the water and almost flies. They reach Peterhof in about 40 minutes.\n\nPeter the Great also preferred to travel to Peterhof by water — the roads of the time were worse than the river and the gulf."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Подводные крылья «Метеора» у причала",
+                    "Петропавловскую крепость на другом берегу",
+                    "Дворцовый мост"
+                  ],
+                  "en": [
+                    "The Meteor's hydrofoils at the pier",
+                    "The Peter and Paul Fortress on the far bank",
+                    "The Palace Bridge"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Метеоры» созданы в 1950-х годах в конструкторском бюро Ростислава Алексеева.",
+                    "Путь на «Метеоре» до Петергофа занимает около 40 минут."
+                  ],
+                  "en": [
+                    "The Meteors were developed in the 1950s by Rostislav Alekseyev's design bureau.",
+                    "The Meteor trip to Peterhof takes about 40 minutes."
+                  ]
+                },
+                "quiz": {
+                  "question": {"ru": "Почему «Метеор» идёт так быстро?", "en": "Why is the Meteor so fast?"},
+                  "options": {
+                    "ru": [
+                      "Корпус поднимается над водой на подводных крыльях",
+                      "У него парус",
+                      "Его тянет буксир"
+                    ],
+                    "en": [
+                      "Its hull rises above the water on hydrofoils",
+                      "It has a sail",
+                      "A tug pulls it"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "На скорости подводные крылья поднимают корпус, и сопротивление воды резко падает.",
+                    "en": "At speed the hydrofoils lift the hull, and water resistance drops sharply."
+                  }
+                },
+                "approach": {
+                  "ru": "Причал «Метеоров» — у Эрмитажа, на Дворцовой набережной.",
+                  "en": "The Meteor pier is by the Hermitage on Palace Embankment."
+                }
+              }
             },
             {
               "id": "spb-lower-park",
               "title": {"ru": "Морской канал и Нижний парк", "en": "Sea Canal and Lower Park"},
-              "coordinate": [59.88850, 29.90870],
+              "coordinate": [59.8885, 29.9087],
               "category": "park",
               "visit": 45,
               "details": {
@@ -302,13 +1281,71 @@
               "wiki": {"ru": "Нижний парк (Петергоф)"},
               "arrival": {
                 "mode": "ferry",
-                "note": {"ru": "«Метеор» от причала у Эрмитажа — около 40 минут по Финскому заливу", "en": "Meteor hydrofoil from the Hermitage pier — about 40 minutes across the Gulf of Finland"}
+                "note": {
+                  "ru": "«Метеор» от причала у Эрмитажа — около 40 минут по Финскому заливу",
+                  "en": "Meteor hydrofoil from the Hermitage pier — about 40 minutes across the Gulf of Finland"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Морской канал ведёт от Финского залива прямо к Большому каскаду: при Петре по нему корабли подходили к самому дворцу. Вдоль канала — аллея фонтанов, а по обе стороны раскинулся Нижний парк площадью около ста гектаров.\n\nФонтаны Петергофа работают без единого насоса: вода самотёком идёт по каналам и трубам с Ропшинских высот, больше чем за двадцать километров. Пётр сам искал источники и следил за стройкой водовода.\n\nПетергоф задумывался как «русский Версаль» — витрина новой морской державы на берегу отвоёванного у шведов моря.",
+                  "en": "The Sea Canal leads from the Gulf of Finland straight to the Grand Cascade: in Peter's day ships sailed along it right up to the palace. An avenue of fountains lines the canal, and the Lower Park spreads out on both sides over about a hundred hectares.\n\nPeterhof's fountains work without a single pump: water flows by gravity through canals and pipes from the Ropsha Heights, more than twenty kilometres away. Peter himself searched for the springs and oversaw the building of the waterworks.\n\nPeterhof was conceived as a 'Russian Versailles' — a showcase of a new naval power on the shore of a sea won from the Swedes."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Аллею фонтанов вдоль канала",
+                    "Большой дворец в конце канала",
+                    "Финский залив за спиной"
+                  ],
+                  "en": [
+                    "The avenue of fountains along the canal",
+                    "The Grand Palace at the end of the canal",
+                    "The Gulf of Finland behind you"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Фонтаны Петергофа работают без единого насоса — вода идёт самотёком.",
+                    "Вода к фонтанам поступает с Ропшинских высот, больше чем за двадцать километров."
+                  ],
+                  "en": [
+                    "Peterhof's fountains work without a single pump — the water flows by gravity.",
+                    "The water comes from the Ropsha Heights, more than twenty kilometres away."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Как работают фонтаны Петергофа?",
+                    "en": "How do Peterhof's fountains work?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Самотёком, без насосов",
+                      "От электрических насосов",
+                      "От паровой машины"
+                    ],
+                    "en": [
+                      "By gravity, without pumps",
+                      "With electric pumps",
+                      "With a steam engine"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Вода с возвышенности сама стекает к фонтанам — разница высот создаёт напор.",
+                    "en": "Water from higher ground flows down to the fountains by itself — the difference in height creates the pressure."
+                  }
+                },
+                "approach": {
+                  "ru": "От причала пройдите по аллее вдоль канала к дворцу.",
+                  "en": "From the pier walk along the canal avenue towards the palace."
+                }
               }
             },
             {
               "id": "spb-grand-cascade",
               "title": {"ru": "Большой каскад и «Самсон»", "en": "Grand Cascade and Samson"},
-              "coordinate": [59.88560, 29.90870],
+              "coordinate": [59.8856, 29.9087],
               "category": "landmark",
               "visit": 30,
               "details": {
@@ -319,19 +1356,114 @@
                 "ru": "Каждое утро в 11:00 фонтаны Большого каскада включают под музыку — постарайтесь успеть к этому моменту.",
                 "en": "Every morning at 11:00 the Grand Cascade fountains are turned on to music — try to be there for it."
               },
-              "wiki": {"ru": "Большой каскад"}
+              "wiki": {"ru": "Большой каскад"},
+              "guide": {
+                "story": {
+                  "ru": "Большой каскад — сердце Петергофа: 64 фонтана, больше двухсот бронзовых статуй и барельефов и водопадные лестницы. В центре — «Самсон, раздирающий пасть льва»: Полтавская битва случилась в день святого Сампсония, 27 июня 1709 года, а лев — символ Швеции с её герба.\n\nВо время войны Петергоф был оккупирован, и статуя Самсона пропала — её так и не нашли. Нынешнего Самсона отлили заново и установили в 1947 году.\n\nКаждое утро в 11:00 фонтаны каскада включают под музыку — самое торжественное мгновение дня в Петергофе.",
+                  "en": "The Grand Cascade is the heart of Peterhof: 64 fountains, more than two hundred bronze statues and reliefs, and waterfall staircases. In the centre is 'Samson Tearing Open the Jaws of the Lion': the Battle of Poltava was fought on St Sampson's Day, 27 June 1709, and the lion is the symbol of Sweden from its coat of arms.\n\nDuring the war Peterhof was occupied and the Samson statue disappeared — it was never found. The present Samson was cast anew and installed in 1947.\n\nEvery morning at 11:00 the cascade's fountains are turned on to music — the grandest moment of the day in Peterhof."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Струю «Самсона» высотой около 20 метров",
+                    "Золочёные статуи на ступенях",
+                    "Гроты под каскадом"
+                  ],
+                  "en": [
+                    "Samson's jet, about 20 metres high",
+                    "The gilded statues on the steps",
+                    "The grottoes under the cascade"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Полтавская битва пришлась на день святого Сампсония — отсюда и Самсон.",
+                    "Подлинный «Самсон» пропал во время войны; нынешний отлит в 1947 году."
+                  ],
+                  "en": [
+                    "The Battle of Poltava fell on St Sampson's Day — hence Samson.",
+                    "The original Samson disappeared during the war; the present one was cast in 1947."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что символизирует лев, которого побеждает Самсон?",
+                    "en": "What does the lion that Samson defeats symbolise?"
+                  },
+                  "options": {"ru": ["Швецию", "Англию", "Турцию"], "en": ["Sweden", "England", "Turkey"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Лев — на гербе Швеции, а Самсон — победа России в Северной войне.",
+                    "en": "The lion is on Sweden's coat of arms, and Samson stands for Russia's victory in the Great Northern War."
+                  }
+                },
+                "approach": {
+                  "ru": "Каскад — в конце Морского канала, под Большим дворцом.",
+                  "en": "The cascade is at the end of the Sea Canal, below the Grand Palace."
+                }
+              }
             },
             {
               "id": "spb-grand-palace",
               "title": {"ru": "Большой Петергофский дворец", "en": "Grand Peterhof Palace"},
-              "coordinate": [59.88410, 29.90870],
+              "coordinate": [59.8841, 29.9087],
               "category": "palace",
               "visit": 60,
               "details": {
                 "ru": "Парадная летняя резиденция императоров над каскадом, заложенная при Петре I и перестроенная Растрелли при Елизавете. Танцевальный и Чесменский залы, Кабинет мод и граций с 368 портретами девушек кисти Пьетро Ротари.",
                 "en": "The ceremonial summer residence of the emperors above the cascade, begun under Peter the Great and rebuilt by Rastrelli for Empress Elizabeth. The Ballroom, the Chesma Hall and the Cabinet of Fashions and Graces with 368 portraits of young women by Pietro Rotari."
               },
-              "wiki": {"ru": "Большой Петергофский дворец", "en": "Grand Peterhof Palace"}
+              "wiki": {"ru": "Большой Петергофский дворец", "en": "Grand Peterhof Palace"},
+              "guide": {
+                "story": {
+                  "ru": "Большой дворец начинался при Петре I как сравнительно скромные палаты над каскадом, а при Елизавете Петровне Растрелли перестроил и расширил его, добавив пышные барочные залы. Здесь проходили балы, маскарады и приёмы послов.\n\nТанцевальный зал сияет позолотой и зеркалами, Чесменский посвящён победе над турецким флотом в 1770 году, а Кабинет мод и граций украшают 368 портретов девушек работы Пьетро Ротари.\n\nВ войну дворец сгорел почти дотла; его восстанавливали десятилетиями по старым фотографиям, чертежам и обмерам.",
+                  "en": "The Grand Palace began under Peter the Great as relatively modest chambers above the cascade, and under Empress Elizabeth Rastrelli rebuilt and enlarged it, adding lavish Baroque halls. Balls, masquerades and ambassadors' receptions were held here.\n\nThe Dance Hall gleams with gilding and mirrors, the Chesme Hall celebrates the victory over the Turkish fleet in 1770, and the Cabinet of Fashions and Graces is hung with 368 portraits of young women by Pietro Rotari.\n\nDuring the war the palace burned almost to the ground; it was restored over decades from old photographs, drawings and measurements."
+                },
+                "lookFor": {
+                  "ru": [
+                    "368 портретов в Кабинете мод и граций",
+                    "Картины Чесменского боя",
+                    "Вид из окон на Морской канал"
+                  ],
+                  "en": [
+                    "The 368 portraits in the Cabinet of Fashions and Graces",
+                    "The paintings of the Battle of Chesme",
+                    "The view of the Sea Canal from the windows"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Растрелли перестроил дворец при Елизавете Петровне.",
+                    "Дворец сгорел во время войны и восстанавливался десятилетиями."
+                  ],
+                  "en": [
+                    "Rastrelli rebuilt the palace under Empress Elizabeth.",
+                    "The palace burned during the war and took decades to restore."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто перестроил Большой Петергофский дворец при Елизавете?",
+                    "en": "Who rebuilt the Grand Palace under Empress Elizabeth?"
+                  },
+                  "options": {
+                    "ru": ["Бартоломео Растрелли", "Карл Росси", "Огюст Монферран"],
+                    "en": [
+                      "Bartolomeo Rastrelli",
+                      "Carlo Rossi",
+                      "Auguste de Montferrand"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Растрелли — главный зодчий елизаветинского барокко: он же построил Зимний дворец.",
+                    "en": "Rastrelli was the chief architect of Elizabethan Baroque — he also built the Winter Palace."
+                  }
+                },
+                "approach": {
+                  "ru": "Поднимитесь по лестницам вдоль каскада к дворцу.",
+                  "en": "Climb the stairs beside the cascade to the palace."
+                }
+              }
             },
             {
               "id": "spb-monplaisir",
@@ -343,19 +1475,467 @@
                 "ru": "Любимый маленький дворец Петра I прямо на берегу Финского залива — «моё удовольствие» по-французски. В саду рядом прячутся фонтаны-шутихи «Зонтик» и «Дубок», которые неожиданно обливают гостей.",
                 "en": "Peter the Great's favourite little palace right on the shore of the Gulf of Finland — its French name means 'my pleasure'. The garden nearby hides the trick fountains 'Umbrella' and 'Little Oak' that suddenly soak visitors."
               },
-              "wiki": {"ru": "Монплезир", "en": "Monplaisir Palace"}
+              "wiki": {"ru": "Монплезир", "en": "Monplaisir Palace"},
+              "guide": {
+                "story": {
+                  "ru": "Монплезир — «моё удовольствие» — любимый дворец Петра I, построенный в 1714–1723 годах прямо на берегу залива. Здесь царь жил, когда приезжал в Петергоф: из окон видно море и Кронштадт, а комнаты отделаны голландскими изразцами и лаковыми панелями.\n\nПётр любил уют голландского дома: невысокие потолки, чёрно-белый мраморный пол, кухня с изразцами и вид на корабли.\n\nВ саду рядом — фонтаны-шутихи «Зонтик», «Дубок» и «Ёлочки»: стоит подойти поближе или присесть — и на гостя внезапно обрушивается вода. Пётр обожал такие розыгрыши.",
+                  "en": "Monplaisir — 'my pleasure' — was Peter the Great's favourite palace, built in 1714–1723 right on the shore of the gulf. The tsar stayed here when he came to Peterhof: the windows look out to sea and Kronstadt, and the rooms are finished with Dutch tiles and lacquered panels.\n\nPeter loved the cosiness of a Dutch house: low ceilings, a black-and-white marble floor, a tiled kitchen and a view of the ships.\n\nIn the garden nearby are the trick fountains — the Umbrella, the Oak and the Fir Trees: step too close or sit down and water suddenly pours over you. Peter adored such pranks."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Фонтан-шутиху «Зонтик»",
+                    "Голландские изразцы в комнатах",
+                    "Кронштадт на горизонте"
+                  ],
+                  "en": [
+                    "The Umbrella trick fountain",
+                    "The Dutch tiles in the rooms",
+                    "Kronstadt on the horizon"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "«Монплезир» по-французски значит «моё удовольствие».",
+                    "Из окон дворца в ясную погоду виден Кронштадт."
+                  ],
+                  "en": [
+                    "'Monplaisir' is French for 'my pleasure'.",
+                    "On a clear day Kronstadt can be seen from the palace windows."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что делает фонтан-шутиха «Зонтик»?",
+                    "en": "What does the Umbrella trick fountain do?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Обливает тех, кто спрятался под ним",
+                      "Крутится как карусель",
+                      "Играет музыку"
+                    ],
+                    "en": [
+                      "Soaks anyone who shelters under it",
+                      "Spins like a carousel",
+                      "Plays music"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Вода льётся с краёв «зонтика», и спрятавшиеся под ним оказываются за водяной завесой.",
+                    "en": "Water pours from the umbrella's edges, trapping those who shelter beneath behind a curtain of water."
+                  }
+                },
+                "approach": {
+                  "ru": "От каскада около 10 минут по аллеям к заливу.",
+                  "en": "About 10 minutes from the cascade along the avenues to the gulf."
+                }
+              }
             },
             {
               "id": "spb-marly",
               "title": {"ru": "Дворец Марли", "en": "Marly Palace"},
-              "coordinate": [59.88690, 29.88930],
+              "coordinate": [59.88873, 29.89634],
               "category": "palace",
               "visit": 30,
               "details": {
                 "ru": "Небольшой дворец на валу между прудами в западной части Нижнего парка, названный в честь королевской резиденции под Парижем. Рядом — каскад «Золотая гора» и пруды, в которых при Петре разводили рыбу к царскому столу.",
                 "en": "A small palace on an embankment between ponds in the western part of the Lower Park, named after the French royal residence near Paris. Nearby are the Golden Hill cascade and the ponds where fish were bred for Peter's table."
               },
-              "wiki": {"ru": "Марли (дворец)"}
+              "wiki": {"ru": "Марли (дворец)"},
+              "guide": {
+                "story": {
+                  "ru": "Дворец Марли построили в 1720–1723 годах на валу между прудами. Назван он в честь королевского замка Марли под Парижем, который Пётр видел во время поездки во Францию в 1717 году.\n\nПётр держал в прудах рыбу к царскому столу. Рядом — каскад «Золотая гора» с позолоченными ступенями, по которым сбегает вода.\n\nЗападная часть Нижнего парка тише и уединённее центральной — хорошее место, чтобы закончить прогулку у воды.",
+                  "en": "The Marly Palace was built in 1720–1723 on an embankment between ponds. It is named after the royal Château de Marly near Paris, which Peter saw on his trip to France in 1717.\n\nPeter kept fish in the ponds for the royal table. Nearby is the Golden Hill cascade, with water running down gilded steps.\n\nThe western part of the Lower Park is quieter and more secluded than the centre — a good place to end your walk by the water."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Позолоченные ступени «Золотой горы»",
+                    "Пруды по обе стороны дворца",
+                    "Отражение дворца в воде"
+                  ],
+                  "en": [
+                    "The gilded steps of the Golden Hill",
+                    "The ponds on both sides of the palace",
+                    "The palace's reflection in the water"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Дворец назван в честь королевского замка Марли под Парижем.",
+                    "Пётр I побывал во Франции в 1717 году."
+                  ],
+                  "en": [
+                    "The palace is named after the royal Château de Marly near Paris.",
+                    "Peter the Great visited France in 1717."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что рыбу в прудах Марли приучили приплывать к кормлению на звон колокольчика, и Пётр любил показывать это гостям.",
+                  "en": "They say the fish in the Marly ponds were trained to swim up for feeding at the sound of a bell, and Peter loved showing this to his guests."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Для чего при Петре служили пруды у Марли?",
+                    "en": "What were the Marly ponds used for in Peter's time?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Разводить рыбу к царскому столу",
+                      "Купать коней",
+                      "Пускать модели кораблей"
+                    ],
+                    "en": [
+                      "Raising fish for the royal table",
+                      "Bathing horses",
+                      "Sailing model ships"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В прудах держали рыбу, которую подавали к царскому столу.",
+                    "en": "Fish were kept in the ponds for the royal table."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 15–20 минут на запад от Монплезира по аллеям парка.",
+                  "en": "About 15–20 minutes west of Monplaisir along the park avenues."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spb-kronstadt",
+      "title": {"ru": "Кронштадт — морская крепость", "en": "Kronstadt, the naval fortress"},
+      "summary": {
+        "ru": "Остров Котлин в Финском заливе: Морской собор, Якорная площадь с Вечным огнём и памятником адмиралу Макарову, футшток, от которого отсчитывают все высоты России, старинный Петровский док и парк «Остров фортов».",
+        "en": "Kotlin Island in the Gulf of Finland: the Naval Cathedral, Anchor Square with the Eternal Flame and Admiral Makarov's monument, the tide gauge from which all heights in Russia are measured, the old Petrovsky Dock and the Fort Island park."
+      },
+      "intro": {
+        "ru": "Поездка на полдня или день: около часа на машине по дамбе или на автобусе от метро. Дальше всё пешком, около 4 км: от Якорной площади через старый центр до парка «Остров фортов» на Каботажной гавани.",
+        "en": "A half-day or full-day trip: about an hour by car across the dam or by bus from the metro. From there it is all on foot, about 4 km: from Anchor Square through the old centre to the Fort Island park on the Cabotage Harbour."
+      },
+      "emoji": "⚓",
+      "tags": ["car", "walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "kronstadt-naval-cathedral",
+              "title": {"ru": "Морской собор", "en": "Naval Cathedral"},
+              "coordinate": [59.9917, 29.7778],
+              "category": "church",
+              "visit": 45,
+              "details": {
+                "ru": "Огромный собор 1903–1913 годов в византийском стиле — главный храм русского флота. На мраморных досках внутри — имена погибших моряков, а в убранстве — морская символика.",
+                "en": "A huge Byzantine-style cathedral of 1903–1913, the principal church of the Russian navy. Marble plaques inside list fallen sailors, and the decoration is full of naval symbols."
+              },
+              "wiki": {"ru": "Морской Никольский собор (Кронштадт)", "en": "Kronstadt Naval Cathedral"},
+              "guide": {
+                "story": {
+                  "ru": "Морской собор задумал главный командир Кронштадтского порта вице-адмирал Степан Макаров, и в 1903 году его заложили в присутствии Николая II. Архитектор Василий Косяков взял за образец константинопольскую Святую Софию, и купол собора виден далеко с моря.\n\nСобор освятили в 1913 году. На мраморных досках внутри высечены имена офицеров и моряков, погибших в морских сражениях, а в убранстве повторяются якоря, корабли и волны.\n\nВ советское время храм закрыли, в нём были кинотеатр и концертный зал. В 2010-х годах собор отреставрировали и вернули ему позолоту, росписи и огромную люстру.",
+                  "en": "The Naval Cathedral was conceived by Vice-Admiral Stepan Makarov, chief commander of the port of Kronstadt, and its foundation stone was laid in 1903 in the presence of Nicholas II. The architect Vasily Kosyakov took Constantinople's Hagia Sophia as his model, and the dome can be seen far out to sea.\n\nThe cathedral was consecrated in 1913. Marble plaques inside bear the names of officers and sailors killed in naval battles, and anchors, ships and waves recur in the decoration.\n\nIn Soviet times the church was closed and used as a cinema and concert hall. In the 2010s it was restored, its gilding, paintings and huge chandelier brought back."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Огромный купол в византийском стиле",
+                    "Мраморные доски с именами моряков",
+                    "Якоря и корабли в узорах убранства"
+                  ],
+                  "en": [
+                    "The huge Byzantine dome",
+                    "The marble plaques with sailors' names",
+                    "Anchors and ships in the decoration"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Образцом для собора стала Святая София в Константинополе.",
+                    "Собор освящён в 1913 году."
+                  ],
+                  "en": [
+                    "The cathedral was modelled on Hagia Sophia in Constantinople.",
+                    "It was consecrated in 1913."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой знаменитый храм стал образцом для Морского собора?",
+                    "en": "Which famous church was the model for the Naval Cathedral?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Святая София в Константинополе",
+                      "Собор Святого Петра в Риме",
+                      "Исаакиевский собор"
+                    ],
+                    "en": [
+                      "Hagia Sophia in Constantinople",
+                      "St Peter's in Rome",
+                      "St Isaac's Cathedral"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Архитектор Косяков повторил византийский купол Святой Софии — его видно далеко с моря.",
+                    "en": "The architect Kosyakov echoed Hagia Sophia's Byzantine dome — visible far out to sea."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор — в центре Кронштадта, на Якорной площади.",
+                  "en": "The cathedral stands on Anchor Square in the centre of Kronstadt."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-anchor-square",
+              "title": {"ru": "Якорная площадь", "en": "Anchor Square"},
+              "coordinate": [59.9921, 29.775],
+              "category": "square",
+              "visit": 20,
+              "details": {
+                "ru": "Площадь перед Морским собором, огороженная старинными якорями и цепями, с Вечным огнём и памятником адмиралу Макарову с девизом «Помни войну».",
+                "en": "The square in front of the Naval Cathedral, fenced with old anchors and chains, with the Eternal Flame and Admiral Makarov's monument bearing his motto 'Remember the war'."
+              },
+              "wiki": {"ru": "Якорная площадь (Кронштадт)"},
+              "guide": {
+                "story": {
+                  "ru": "Площадь получила имя от якорей, которые здесь хранили в XVIII–XIX веках. Сегодня её окружают старинные якоря и якорные цепи, в центре горит Вечный огонь над братской могилой матросов и рабочих, погибших в революционные годы, а перед собором стоит памятник адмиралу Степану Макарову, погибшему в 1904 году при взрыве броненосца «Петропавловск» у Порт-Артура.\n\nМакаров был не только флотоводцем, но и учёным-океанографом и изобретателем: по его идее построили «Ермак» — первый в мире ледокол арктического плавания. На постаменте — его девиз: «Помни войну».\n\nИз Кронштадта уходили великие экспедиции: в 1803 году — первое русское кругосветное плавание Крузенштерна и Лисянского, а в 1819 году — экспедиция Беллинсгаузена и Лазарева, открывшая Антарктиду.",
+                  "en": "The square takes its name from the anchors stored here in the 18th and 19th centuries. Today it is ringed with old anchors and chains, the Eternal Flame burns in the middle over the mass grave of sailors and workers killed in the revolutionary years, and in front of the cathedral stands the monument to Admiral Stepan Makarov, killed in 1904 when the battleship Petropavlovsk blew up off Port Arthur.\n\nMakarov was not only a naval commander but also an oceanographer and inventor: the Yermak, the world's first Arctic icebreaker, was built to his idea. His motto is carved on the pedestal: 'Remember the war'.\n\nGreat expeditions set out from Kronstadt: in 1803 the first Russian circumnavigation by Krusenstern and Lisyansky, and in 1819 Bellingshausen and Lazarev's expedition that discovered Antarctica."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Надпись «Помни войну» на памятнике Макарову",
+                    "Старинные якоря вокруг площади",
+                    "Вечный огонь"
+                  ],
+                  "en": [
+                    "The words 'Remember the war' on Makarov's monument",
+                    "The old anchors around the square",
+                    "The Eternal Flame"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "По идее Макарова построен «Ермак» — первый в мире ледокол арктического плавания.",
+                    "В 1803 году из Кронштадта ушло первое русское кругосветное плавание."
+                  ],
+                  "en": [
+                    "The Yermak, the world's first Arctic icebreaker, was built to Makarov's idea.",
+                    "In 1803 the first Russian round-the-world voyage set out from Kronstadt."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какой девиз написан на памятнике адмиралу Макарову?",
+                    "en": "What motto is written on Admiral Makarov's monument?"
+                  },
+                  "options": {
+                    "ru": ["«Помни войну»", "«Вперёд, на север»", "«Служу Отечеству»"],
+                    "en": [
+                      "'Remember the war'",
+                      "'Forward, to the north'",
+                      "'I serve the Fatherland'"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "«Помни войну» — так Макаров напоминал морякам, что флот должен быть готов к бою всегда.",
+                    "en": "'Remember the war' was Makarov's reminder that a navy must always be ready for battle."
+                  }
+                },
+                "approach": {
+                  "ru": "Площадь — прямо перед собором.",
+                  "en": "The square is right in front of the cathedral."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-footstock",
+              "title": {"ru": "Кронштадтский футшток", "en": "Kronstadt Tide Gauge"},
+              "coordinate": [59.98926, 29.7624],
+              "category": "landmark",
+              "visit": 15,
+              "details": {
+                "ru": "Медная пластина с горизонтальной чертой на устое Синего моста через Обводный канал — нулевая отметка, от которой отсчитывают все высоты и глубины в России.",
+                "en": "A copper plate with a horizontal line on the abutment of the Blue Bridge over the Obvodny Canal — the zero mark from which all heights and depths in Russia are measured."
+              },
+              "wiki": {"ru": "Кронштадтский футшток"},
+              "guide": {
+                "story": {
+                  "ru": "Футшток — это рейка с делениями для измерения уровня воды. Наблюдения за уровнем Балтийского моря в Кронштадте ведут с начала XVIII века, а в 1840 году на устое Синего моста укрепили медную пластину с чертой — средним уровнем моря.\n\nОт этой черты отсчитывают высоты: когда в России говорят, что гора поднимается на столько-то метров «над уровнем моря», имеют в виду именно Кронштадтский футшток. Рядом стоит павильон с мареографом — прибором, записывающим колебания воды.\n\nЭто одно из самых незаметных и при этом самых важных мест страны: все российские карты «привязаны» к этой черте.",
+                  "en": "A tide gauge is a graduated staff for measuring the water level. The level of the Baltic Sea has been observed in Kronstadt since the early 18th century, and in 1840 a copper plate marking the mean sea level was fixed to the abutment of the Blue Bridge.\n\nHeights are measured from this line: when Russians say a mountain rises so many metres 'above sea level', they mean the Kronstadt gauge. Next to it stands a pavilion with a mareograph, an instrument that records the rise and fall of the water.\n\nIt is one of the least noticeable yet most important places in the country: every Russian map is tied to this line."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Медную пластину с чертой на устое моста",
+                    "Павильон мареографа",
+                    "Обводный канал"
+                  ],
+                  "en": [
+                    "The copper plate with its line on the bridge abutment",
+                    "The mareograph pavilion",
+                    "The Obvodny Canal"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "От Кронштадтского футштока отсчитывают высоты в Балтийской системе высот.",
+                    "Наблюдения за уровнем моря здесь ведут с начала XVIII века."
+                  ],
+                  "en": [
+                    "Heights in the Baltic height system are measured from the Kronstadt gauge.",
+                    "Sea level has been observed here since the early 18th century."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что отсчитывают от Кронштадтского футштока?",
+                    "en": "What is measured from the Kronstadt tide gauge?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Высоты над уровнем моря по всей России",
+                      "Время по Петербургу",
+                      "Расстояния до Москвы"
+                    ],
+                    "en": [
+                      "Heights above sea level across Russia",
+                      "St Petersburg time",
+                      "Distances to Moscow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Черта футштока — нулевая отметка Балтийской системы высот.",
+                    "en": "The gauge's line is the zero mark of the Baltic height system."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком от Якорной площади к Синему мосту.",
+                  "en": "About 10 minutes' walk from Anchor Square to the Blue Bridge."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-petrovsky-dock",
+              "title": {"ru": "Петровский док", "en": "Petrovsky Dock"},
+              "coordinate": [59.99012, 29.76775],
+              "category": "landmark",
+              "visit": 20,
+              "details": {
+                "ru": "Каменный сухой док, задуманный Петром I и открытый в 1752 году: корабли заводили в него и откачивали воду, чтобы чинить днища. Один из старейших доков мира.",
+                "en": "A stone dry dock conceived by Peter the Great and opened in 1752: ships were floated in and the water pumped out so their hulls could be repaired. One of the oldest docks in the world."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Пётр I задумал в Кронштадте док для ремонта кораблей, но достроили его уже при Елизавете Петровне, в 1752 году. Корабли заводили в огромный каменный бассейн, закрывали ворота и откачивали воду, чтобы корабль оказался «на суше».\n\nДля своего времени это было инженерное чудо, а позже здесь работала одна из первых в России паровых машин для откачки воды. Док служил флоту больше двухсот лет.\n\nСегодня его гранитные стенки — памятник петровской эпохи, и по ним легко представить, какие корабли здесь стояли.",
+                  "en": "Peter the Great planned a dock for repairing ships in Kronstadt, but it was completed under Empress Elizabeth in 1752. Ships were brought into a huge stone basin, the gates were closed and the water pumped out, leaving the vessel 'on dry land'.\n\nIn its day it was an engineering marvel, and later one of the first steam engines in Russia worked here pumping out water. The dock served the navy for more than two hundred years.\n\nToday its granite walls are a monument of Peter's era, and it is easy to imagine the ships that once stood here."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Гранитные стенки дока",
+                    "Огромные ворота-затворы",
+                    "Вид на Обводный канал"
+                  ],
+                  "en": [
+                    "The dock's granite walls",
+                    "The huge gates",
+                    "The view of the Obvodny Canal"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Док открыт в 1752 году.",
+                    "Чтобы починить днище корабля, из дока откачивали воду."
+                  ],
+                  "en": [
+                    "The dock opened in 1752.",
+                    "Water was pumped out of the dock so a ship's hull could be repaired."
+                  ]
+                },
+                "approach": {
+                  "ru": "Пара минут от футштока вдоль Обводного канала.",
+                  "en": "A couple of minutes from the tide gauge along the Obvodny Canal."
+                }
+              }
+            },
+            {
+              "id": "kronstadt-fort-island",
+              "title": {"ru": "Парк «Остров фортов»", "en": "Fort Island Park"},
+              "coordinate": [59.99, 29.732],
+              "category": "park",
+              "visit": 75,
+              "details": {
+                "ru": "Парк на берегу Каботажной гавани, открытый в 2020 году на месте заброшенной военной части: Аллея героев российского флота, «Маяк памяти» с именами моряков и вид на форты в Финском заливе.",
+                "en": "A park on the Cabotage Harbour opened in 2020 on the site of an abandoned military base: the Avenue of Heroes of the Russian Navy, the 'Lighthouse of Memory' with sailors' names and a view of the forts in the Gulf of Finland."
+              },
+              "wiki": {"ru": "Остров фортов"},
+              "arrival": {
+                "mode": "walk",
+                "note": {
+                  "ru": "Около 2,5 км — полчаса пешком или автобус",
+                  "en": "About 2.5 km — half an hour on foot or by bus"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Кронштадт окружён фортами: в XVIII–XIX веках их строили на островах и прямо в заливе, чтобы ни один вражеский флот не прошёл к Петербургу. Остров Котлин превратился в огромную крепость: в Крымскую войну англо-французский флот так и не решился её атаковать.\n\nВ 2020 году на берегу Каботажной гавани, на месте заброшенной военной части, открыли парк «Остров фортов». Его главная улица — Аллея героев российского флота, которая рассказывает о трёх веках морской истории, а рядом стоит «Маяк памяти» с двумя сотнями имён моряков — от петровских времён до наших дней.\n\nОтсюда видны форты, стоящие прямо в заливе, и корабли, идущие в Петербург. На закате здесь особенно красиво.",
+                  "en": "Kronstadt is ringed with forts: in the 18th and 19th centuries they were built on islets and right in the gulf so that no enemy fleet could get through to St Petersburg. Kotlin Island became a vast fortress: during the Crimean War the Anglo-French fleet never dared to attack it.\n\nIn 2020 the Fort Island park opened on the Cabotage Harbour, on the site of an abandoned military base. Its main street is the Avenue of Heroes of the Russian Navy, which tells three centuries of naval history, and next to it stands the 'Lighthouse of Memory' bearing two hundred sailors' names, from Peter the Great's time to the present day.\n\nFrom here you see the forts standing in the gulf and the ships heading for St Petersburg. It is especially beautiful at sunset."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Маяк памяти» с именами моряков",
+                    "Форты в заливе",
+                    "Аллею героев флота"
+                  ],
+                  "en": [
+                    "The 'Lighthouse of Memory' with sailors' names",
+                    "The forts in the gulf",
+                    "The avenue of naval heroes"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Парк «Остров фортов» открыт в 2020 году на месте заброшенной военной части.",
+                    "Форты Кронштадта защищали морские подступы к Петербургу."
+                  ],
+                  "en": [
+                    "The Fort Island park opened in 2020 on the site of an abandoned military base.",
+                    "Kronstadt's forts guarded the sea approaches to St Petersburg."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Зачем вокруг Кронштадта строили форты?",
+                    "en": "Why were forts built around Kronstadt?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Чтобы не пропустить вражеский флот к Петербургу",
+                      "Чтобы ловить рыбу",
+                      "Чтобы хранить зерно"
+                    ],
+                    "en": [
+                      "To keep enemy fleets away from St Petersburg",
+                      "To catch fish",
+                      "To store grain"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Цепь фортов перекрывала фарватер, и пройти к столице с моря было невозможно.",
+                    "en": "The chain of forts blocked the fairway, making it impossible to reach the capital from the sea."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 2,5 км на запад, к Каботажной гавани, — полчаса пешком или пара остановок на автобусе.",
+                  "en": "About 2.5 km west to the Cabotage Harbour — half an hour on foot or a couple of bus stops."
+                }
+              }
             }
           ]
         }

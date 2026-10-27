@@ -12,19 +12,119 @@
       "ru": "Около 140 км от Москвы по Ярославскому шоссе — 2 часа на машине. Пассажирских поездов нет; автобусы идут с Центрального автовокзала («Щёлковская») около 2,5 часа. Переславль удобно совместить с Ростовом Великим (65 км).",
       "en": "About 140 km from Moscow on the Yaroslavl highway — 2 hours by car. There are no passenger trains; buses from Moscow's Central Bus Station (Shchyolkovskaya) take about 2.5 hours. Pereslavl combines well with Rostov Veliky (65 km)."
     },
-    "coordinate": [56.7360, 38.8543],
+    "coordinate": [56.736, 38.8543],
     "emoji": "⛵",
     "size": "small",
     "tags": ["golden-ring"],
-    "wiki": {"ru": "Переславль-Залесский", "en": "Pereslavl-Zalessky"}
+    "wiki": {"ru": "Переславль-Залесский", "en": "Pereslavl-Zalessky"},
+    "guide": {
+      "story": {
+        "ru": "Переславль-Залесский основал Юрий Долгорукий в 1152 году, перенеся сюда город Клещин с северного берега Плещеева озера. Имя князь дал в честь южного Переяславля на Днепре, а «Залесским» город прозвали потому, что он стоял «за лесами» от Киева.\n\nЗдесь в 1221 году родился Александр Невский, а в конце XVII века юный Пётр I строил на озере свои первые корабли. Город много раз горел и разорялся, но сохранил валы XII века, белокаменный собор того же времени и кольцо монастырей вокруг центра.\n\nПлещеево озеро — сердце этих мест: огромное, почти круглое, с чистой водой и ряпушкой, которую здесь называют переславской сельдью, — две рыбки даже изображены на гербе города. С 1988 года озеро и его берега стали национальным парком.",
+        "en": "Pereslavl-Zalessky was founded by Yuri Dolgoruky in 1152, when he moved the town of Kleshchin here from the northern shore of Lake Pleshcheyevo. The prince named it after Pereyaslavl on the Dnieper, and it became 'Zalessky' — 'beyond the forests' — because it lay beyond the forests as seen from Kyiv.\n\nAlexander Nevsky was born here in 1221, and at the end of the 17th century the young Peter the Great built his first ships on the lake. The town burned and was sacked many times but kept its 12th-century ramparts, a white-stone cathedral of the same age and a ring of monasteries around the centre.\n\nLake Pleshcheyevo is the heart of the area: huge, almost round, with clear water and vendace the locals call Pereslavl herring — two of the fish even appear on the town's coat of arms. Since 1988 the lake and its shores have been a national park."
+      },
+      "history": [
+        {
+          "year": "1152",
+          "text": {
+            "ru": "Юрий Долгорукий основывает Переславль и закладывает Спасо-Преображенский собор.",
+            "en": "Yuri Dolgoruky founds Pereslavl and lays the foundations of the Transfiguration Cathedral."
+          }
+        },
+        {
+          "year": "1221",
+          "text": {
+            "ru": "В Переславле рождается Александр Невский.",
+            "en": "Alexander Nevsky is born in Pereslavl."
+          }
+        },
+        {
+          "year": "1302",
+          "text": {
+            "ru": "Последний переславский князь завещает свой удел Москве.",
+            "en": "The last prince of Pereslavl leaves his lands to Moscow."
+          }
+        },
+        {
+          "year": "1688–1692",
+          "text": {
+            "ru": "Пётр I строит на Плещеевом озере «потешную флотилию».",
+            "en": "Peter the Great builds his 'amusement flotilla' on Lake Pleshcheyevo."
+          }
+        },
+        {
+          "year": "1803",
+          "text": {
+            "ru": "Открывается музей «Ботик Петра I» — один из первых провинциальных музеев России.",
+            "en": "The 'Peter the Great's Boat' museum opens — one of the first provincial museums in Russia."
+          }
+        },
+        {
+          "year": "1919",
+          "text": {
+            "ru": "В Горицком монастыре создают Переславский музей.",
+            "en": "The Pereslavl museum is set up in the Goritsky Monastery."
+          }
+        },
+        {
+          "year": "1988",
+          "text": {
+            "ru": "Плещеево озеро становится национальным парком.",
+            "en": "Lake Pleshcheyevo becomes a national park."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Ряпушку горячего копчения — «переславскую сельдь» из Плещеева озера",
+          "Уху из озёрной рыбы",
+          "Местный мёд и травяной чай"
+        ],
+        "en": [
+          "Hot-smoked vendace — the 'Pereslavl herring' from Lake Pleshcheyevo",
+          "Fish soup made with lake fish",
+          "Local honey and herbal tea"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Копчёную ряпушку в дорогу",
+          "Утюжки и чайники из лавок местных частных музеев",
+          "Сувениры с ботиком «Фортуна»"
+        ],
+        "en": [
+          "Smoked vendace for the road",
+          "Little irons and teapots from the shops of the town's private museums",
+          "Souvenirs with the boat Fortuna"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "У озера почти всегда ветрено — возьмите куртку даже летом",
+          "В городе есть забавные частные музеи — утюга, чайника и другие: небольшие, но весёлые",
+          "Плещеево озеро — национальный парк: костры только в отведённых местах, мусор уносите с собой"
+        ],
+        "en": [
+          "It is almost always windy by the lake — bring a jacket even in summer",
+          "The town has funny little private museums — of irons, teapots and more",
+          "Lake Pleshcheyevo is a national park: fires only in marked places, take your rubbish with you"
+        ]
+      }
+    }
   },
   "routes": [
     {
       "id": "pereslavl-day",
-      "title": {"ru": "Переславль: валы, монастыри и озеро", "en": "Pereslavl: ramparts, monasteries and the lake"},
+      "title": {
+        "ru": "Переславль: валы, монастыри и озеро",
+        "en": "Pereslavl: ramparts, monasteries and the lake"
+      },
       "summary": {
         "ru": "Утро — пешком по центру: собор 1150-х годов, древние валы и Горицкий монастырь с видом на озеро. Днём — на машине вдоль Плещеева озера: музей-усадьба «Ботик Петра I», Синий камень и Никитский монастырь.",
         "en": "Morning on foot in the centre: a cathedral from the 1150s, ancient ramparts and the Goritsky Monastery overlooking the lake. Afternoon by car along Lake Pleshcheyevo: Peter the Great's Botik museum, the Blue Stone and the Nikitsky Monastery."
+      },
+      "intro": {
+        "ru": "Начните с центра пешком: собор, валы и Горицкий монастырь — около 3 км. Потом понадобится машина: Ботик, Синий камень и Никитский монастырь стоят на разных берегах. У озера ветрено, так что куртка не помешает.",
+        "en": "Start in the centre on foot: the cathedral, the ramparts and the Goritsky Monastery make about 3 km. After that you'll need a car: the Boat Museum, the Blue Stone and the Nikitsky Monastery lie on different shores. It's windy by the lake, so bring a jacket."
       },
       "emoji": "⛵",
       "tags": ["walk", "car"],
@@ -34,19 +134,70 @@
             {
               "id": "pereslavl-transfiguration",
               "title": {"ru": "Спасо-Преображенский собор", "en": "Transfiguration Cathedral"},
-              "coordinate": [56.73720, 38.85390],
+              "coordinate": [56.7372, 38.8539],
               "category": "church",
               "visit": 30,
               "details": {
                 "ru": "Небольшой белокаменный собор на Красной площади, заложенный Юрием Долгоруким в 1152 году и освящённый при Андрее Боголюбском. Это один из самых древних сохранившихся храмов Северо-Восточной Руси. По преданию, в нём крестили Александра Невского — его памятник стоит рядом.",
                 "en": "A small white-stone cathedral on Red Square, begun by Yuri Dolgoruky in 1152 and consecrated under Andrei Bogolyubsky. It is one of the oldest surviving churches of North-Eastern Rus. Tradition holds that Alexander Nevsky was baptised here — his monument stands nearby."
               },
-              "wiki": {"ru": "Спасо-Преображенский собор (Переславль-Залесский)"}
+              "wiki": {"ru": "Спасо-Преображенский собор (Переславль-Залесский)"},
+              "guide": {
+                "story": {
+                  "ru": "Спасо-Преображенский собор заложил Юрий Долгорукий в 1152 году, одновременно с основанием города, а освятили его уже при сыне князя, Андрее Боголюбском. Это один из старейших сохранившихся храмов Северо-Восточной Руси — ему больше 870 лет.\n\nСобор поражает простотой: гладкие белые стены, узкие окна и одна шлемовидная глава. Единственное украшение — резной пояс под куполом. Так строили первые белокаменные храмы, ещё до пышной резьбы владимирских мастеров.\n\nВнутри сохранились фрагменты древних фресок. По преданию, в этом соборе крестили Александра Невского, родившегося в Переславле, — его памятник стоит рядом, на Красной площади города.",
+                  "en": "Yuri Dolgoruky laid the foundations of the Transfiguration Cathedral in 1152, when he founded the town; it was consecrated under his son Andrei Bogolyubsky. It is one of the oldest surviving churches in north-eastern Rus — more than 870 years old.\n\nIts simplicity is striking: smooth white walls, narrow windows and a single helmet-shaped dome. The only decoration is a carved band below the dome. This is how the first white-stone churches were built, before the lavish carving of Vladimir's masters.\n\nFragments of old frescoes survive inside. Tradition says Alexander Nevsky, born in Pereslavl, was baptised here — his monument stands nearby on the town's Red Square."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Резной пояс под барабаном купола",
+                    "Узкие окна, похожие на бойницы",
+                    "Памятник Александру Невскому на площади"
+                  ],
+                  "en": [
+                    "The carved band below the dome",
+                    "The narrow windows that look like loopholes",
+                    "The monument to Alexander Nevsky on the square"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Переславль назван в честь Переяславля на Днепре, а приставку «Залесский» получил, потому что лежал «за лесами» от Киева.",
+                    "На гербе Переславля — две золотые сельди: так здесь называют ряпушку из Плещеева озера."
+                  ],
+                  "en": [
+                    "Pereslavl is named after Pereyaslavl on the Dnieper; it is 'Zalessky' because it lay 'beyond the forests' as seen from Kyiv.",
+                    "The town's coat of arms shows two golden herrings — the local name for vendace from Lake Pleshcheyevo."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему город называется Залесским?",
+                    "en": "Why is the town called Zalessky?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Он стоял «за лесами» от Киева",
+                      "Вокруг совсем нет лесов",
+                      "Так звали основателя"
+                    ],
+                    "en": [
+                      "It lay 'beyond the forests' from Kyiv",
+                      "There are no forests around it",
+                      "That was the founder's name"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Так город отличали от Переяславля на Днепре: этот лежал далеко на северо-востоке, «за лесами».",
+                    "en": "The name set it apart from Pereyaslavl on the Dnieper: this one lay far to the north-east, 'beyond the forests'."
+                  }
+                }
+              }
             },
             {
               "id": "pereslavl-ramparts",
               "title": {"ru": "Земляные валы кремля", "en": "Earthen ramparts of the kremlin"},
-              "coordinate": [56.73810, 38.85020],
+              "coordinate": [56.7381, 38.8502],
               "category": "castle",
               "visit": 30,
               "details": {
@@ -57,12 +208,44 @@
                 "ru": "Пройдите по валу от собора к реке Трубеж — по дороге открываются виды на храмы центра.",
                 "en": "Walk the rampart from the cathedral to the Trubezh river for views of the churches in the centre."
               },
-              "wiki": {"ru": "Переславский кремль"}
+              "wiki": {"ru": "Переславский кремль"},
+              "guide": {
+                "story": {
+                  "ru": "Валы переславского кремля насыпали в XII веке, при Юрии Долгоруком. Они тянутся почти на два с половиной километра и местами поднимаются до 10 метров, а с одной стороны город прикрывала река Трубеж. Наверху когда-то стояли деревянные стены с башнями — их нет, но сами валы почти целы.\n\nПройдитесь по гребню: отсюда видно, сколько места занимал древний город и как плотно внутри кольца стояли храмы и дворы. Переславль строился с размахом — князь задумывал его как одну из главных крепостей своих земель.\n\nПо Трубежу в город заходили ладьи с Плещеева озера: река связывала крепость с водным путём на Волгу.",
+                  "en": "The ramparts of the Pereslavl kremlin were raised in the 12th century under Yuri Dolgoruky. They run for almost two and a half kilometres and rise up to 10 metres in places, while on one side the town was protected by the Trubezh river. Wooden walls with towers once stood on top — they are gone, but the ramparts are almost intact.\n\nWalk along the crest: you can see how much space the old town took and how densely churches and courtyards filled the ring. Pereslavl was built on a grand scale — the prince meant it to be one of the main fortresses of his lands.\n\nBoats from Lake Pleshcheyevo sailed up the Trubezh into the town: the river linked the fortress to the waterway towards the Volga."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ров у подножия вала",
+                    "Купола центра с гребня вала",
+                    "Реку Трубеж — к ней вал спускается"
+                  ],
+                  "en": [
+                    "The moat at the foot of the rampart",
+                    "The domes of the centre seen from the crest",
+                    "The Trubezh river, where the rampart slopes down"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Валы Переславля длиной около 2,5 км — одно из лучше всего сохранившихся древнерусских земляных укреплений.",
+                    "Высота валов местами доходит до 10 метров — примерно как трёхэтажный дом."
+                  ],
+                  "en": [
+                    "Pereslavl's ramparts, about 2.5 km long, are among the best preserved earthworks of old Rus.",
+                    "In places the ramparts reach 10 metres — about as high as a three-storey house."
+                  ]
+                },
+                "approach": {
+                  "ru": "От собора до ближайшего вала — пара минут через площадь.",
+                  "en": "From the cathedral the nearest rampart is a couple of minutes across the square."
+                }
+              }
             },
             {
               "id": "pereslavl-goritsky",
               "title": {"ru": "Горицкий монастырь", "en": "Goritsky Monastery"},
-              "coordinate": [56.72648, 38.86596],
+              "coordinate": [56.72095, 38.82377],
               "category": "museum",
               "visit": 90,
               "details": {
@@ -73,7 +256,54 @@
                 "ru": "Обязательно поднимитесь на колокольню — это лучшая смотровая площадка города.",
                 "en": "Be sure to climb the bell tower — it is the best viewpoint in town."
               },
-              "wiki": {"ru": "Горицкий монастырь", "en": "Goritsky Monastery"}
+              "wiki": {"ru": "Горицкий монастырь", "en": "Goritsky Monastery"},
+              "guide": {
+                "story": {
+                  "ru": "Горицкий монастырь стоит на холме — «горице» — над южной частью города. Его основали в XIV веке, а в XVII–XVIII веках обнесли стенами и застроили: нарядные Святые ворота, Успенский собор в стиле барокко, колокольня. В XVIII веке Переславль был центром епархии, и здесь жили архиереи.\n\nС 1919 года в монастыре работает Переславский музей-заповедник. В его залах — иконы, деревянная скульптура, предметы купеческого и усадебного быта, а интерьер Успенского собора украшен пышной барочной лепниной.\n\nНо главное — вид. С колокольни и стен Плещеево озеро лежит как синяя чаша, а город с его храмами — как на ладони.",
+                  "en": "The Goritsky Monastery stands on a hill — a 'goritsa' — above the southern part of town. It was founded in the 14th century, and in the 17th–18th centuries it was walled and built up: the ornate Holy Gates, a Baroque Dormition Cathedral and a bell tower. In the 18th century Pereslavl was the seat of a diocese, and its bishops lived here.\n\nSince 1919 the monastery has housed the Pereslavl museum. Its rooms hold icons, wooden sculpture and objects from merchant and manor life, and the interior of the Dormition Cathedral is covered with lavish Baroque stucco.\n\nBut the real reward is the view. From the bell tower and the walls, Lake Pleshcheyevo lies like a blue bowl, with the town and its churches spread out below."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Резной декор Святых ворот",
+                    "Плещеево озеро с колокольни",
+                    "Барочную лепнину в Успенском соборе"
+                  ],
+                  "en": [
+                    "The carved decoration of the Holy Gates",
+                    "Lake Pleshcheyevo from the bell tower",
+                    "The Baroque stucco inside the Dormition Cathedral"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Переславский музей основан в 1919 году и с тех пор живёт в стенах Горицкого монастыря.",
+                    "В XVIII веке Переславль был центром отдельной епархии, а Горицкий монастырь — резиденцией архиерея."
+                  ],
+                  "en": [
+                    "The Pereslavl museum was founded in 1919 and has been in the Goritsky Monastery ever since.",
+                    "In the 18th century Pereslavl had its own diocese, and the Goritsky Monastery was the bishop's residence."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что значит «горица» в названии монастыря?",
+                    "en": "What does 'goritsa' in the monastery's name mean?"
+                  },
+                  "options": {
+                    "ru": ["Небольшая гора, холм", "Горькая вода", "Пожарище"],
+                    "en": ["A small hill", "Bitter water", "A place of a fire"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Монастырь стоит на холме над городом, отсюда и название.",
+                    "en": "The monastery stands on a hill above the town — hence the name."
+                  }
+                },
+                "approach": {
+                  "ru": "От центра идите на юго-запад — около 30 минут; монастырь на холме виден издалека.",
+                  "en": "From the centre walk south-west — about 30 minutes; the monastery on its hill is visible from afar."
+                }
+              }
             },
             {
               "id": "pereslavl-botik",
@@ -88,7 +318,65 @@
               "wiki": {"ru": "Ботик Петра I (музей-усадьба)"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 6 км к Плещееву озеру — 15 минут на машине или такси", "en": "About 6 km to Lake Pleshcheyevo — 15 minutes by car or taxi"}
+                "note": {
+                  "ru": "Около 5 км к Плещееву озеру — 10–15 минут на машине или такси",
+                  "en": "About 5 km to Lake Pleshcheyevo — 10–15 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "В 1688 году шестнадцатилетний Пётр I впервые увидел Плещеево озеро и решил строить здесь корабли. Несколько лет на берегу у горы Гремяч работала верфь: голландский мастер Карштен Брандт вместе с юным царём спускал на воду небольшие суда. Эту «потешную флотилию» считают началом русского флота.\n\nОт флотилии почти ничего не осталось: суда погибли при пожаре в XVIII веке, уцелел лишь ботик «Фортуна». В 1803 году здесь открыли музей — один из первых провинциальных музеев России. Сегодня «Фортуна» хранится в Белом дворце XIX века, а рядом стоит памятник юному Петру.\n\nС горы Гремяч открывается один из лучших видов на озеро: в ясный день видны Переславль, монастыри и леса на другом берегу.",
+                  "en": "In 1688 the sixteen-year-old Peter the Great first saw Lake Pleshcheyevo and decided to build ships here. For several years a shipyard worked on the shore below Gremyach hill: the Dutch master Karsten Brandt and the young tsar launched small vessels. This 'amusement flotilla' is considered the beginning of the Russian navy.\n\nAlmost nothing of the flotilla remains: the boats were lost in an 18th-century fire, and only the small boat Fortuna survived. In 1803 a museum opened here — one of the first provincial museums in Russia. Today Fortuna is kept in the 19th-century White Palace, next to a monument to the young Peter.\n\nGremyach hill offers one of the best views of the lake: on a clear day you can see Pereslavl, its monasteries and the forests on the far shore."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Ботик «Фортуна» в Белом дворце",
+                    "Памятник юному Петру",
+                    "Вид на озеро с горы Гремяч"
+                  ],
+                  "en": [
+                    "The boat Fortuna in the White Palace",
+                    "The monument to the young Peter",
+                    "The view of the lake from Gremyach hill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Музей «Ботик Петра I» открыт в 1803 году — раньше многих губернских музеев.",
+                    "Корабли на Плещеевом озере строил голландский мастер Карштен Брандт, а Пётр работал вместе с плотниками."
+                  ],
+                  "en": [
+                    "The Boat Museum opened in 1803 — earlier than many provincial capitals had museums.",
+                    "The ships on Lake Pleshcheyevo were built by the Dutch master Karsten Brandt, with Peter working alongside the carpenters."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Какое судно потешной флотилии дожило до наших дней?",
+                    "en": "Which vessel of the amusement flotilla survives today?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Ботик «Фортуна»",
+                      "Фрегат «Штандарт»",
+                      "Корабль «Полтава»"
+                    ],
+                    "en": [
+                      "The boat Fortuna",
+                      "The frigate Shtandart",
+                      "The ship Poltava"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Остальные суда погибли при пожаре, а «Фортуна» сохранилась и стала главным экспонатом музея.",
+                    "en": "The other vessels were lost in a fire; Fortuna survived and became the museum's main exhibit."
+                  }
+                },
+                "approach": {
+                  "ru": "Дорога идёт вдоль берега Плещеева озера — по пути открываются виды на воду.",
+                  "en": "The road follows the shore of Lake Pleshcheyevo, with views of the water along the way."
+                }
               }
             },
             {
@@ -108,13 +396,75 @@
               "wiki": {"ru": "Синий камень"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Через город на северный берег озера — около 15 минут", "en": "Through town to the north shore of the lake — about 15 minutes"}
+                "note": {
+                  "ru": "Через город на северный берег озера — около 15 минут",
+                  "en": "Through town to the north shore of the lake — about 15 minutes"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Синий камень — огромный синевато-серый валун весом около 12 тонн у подножия Александровой горы. Племя меря, жившее здесь до славян, поклонялось ему, и даже после принятия христианства к камню веками ходили с просьбами и за исцелением.\n\nНад камнем поднимается Александрова гора: здесь стоял древний город Клещин, предшественник Переславля, а на вершине, по преданию, было языческое святилище.\n\nУчёные объясняют загадки камня движением льда и грунта, но к нему и сегодня приходят загадывать желания — на валуне часто лежат монетки и ленточки.",
+                  "en": "The Blue Stone is a huge bluish-grey boulder of about 12 tonnes at the foot of Alexandrova Hill. The Merya people, who lived here before the Slavs, worshipped it, and even after Christianity came people visited it for centuries with requests and hopes of healing.\n\nAbove the stone rises Alexandrova Hill: the ancient town of Kleshchin, Pereslavl's predecessor, stood here, and tradition places a pagan sanctuary on the summit.\n\nScientists explain the stone's mysteries by the movement of ice and soil, but people still come to make wishes — coins and ribbons often lie on the boulder."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Синеватый оттенок камня — особенно заметен после дождя",
+                    "Монеты и ленточки на валуне",
+                    "Тропу на Александрову гору"
+                  ],
+                  "en": [
+                    "The bluish tint of the stone, clearest after rain",
+                    "Coins and ribbons on the boulder",
+                    "The path up Alexandrova Hill"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Синий камень весит около 12 тонн — как два слона.",
+                    "На Александровой горе археологи нашли остатки Клещина, города, существовавшего до основания Переславля."
+                  ],
+                  "en": [
+                    "The Blue Stone weighs about 12 tonnes — as much as two elephants.",
+                    "On Alexandrova Hill archaeologists found remains of Kleshchin, the town that existed before Pereslavl was founded."
+                  ]
+                },
+                "legend": {
+                  "ru": "В XVIII веке, чтобы покончить с язычеством, камень закопали в глубокую яму, но через несколько десятилетий он снова показался из земли. В XIX веке его решили пустить на фундамент церкви и повезли по льду озера — лёд проломился, и камень ушёл на дно. А через несколько лет рыбаки увидели, что валун сам выбрался на берег, недалеко от прежнего места.",
+                  "en": "In the 18th century, to put an end to pagan worship, the stone was buried in a deep pit — yet a few decades later it showed above the ground again. In the 19th century it was to become a church foundation and was dragged across the frozen lake; the ice broke and the stone sank. A few years later fishermen saw that the boulder had crawled back ashore, not far from where it had always lain."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по легенде, происходило, когда Синий камень пытались убрать?",
+                    "en": "According to legend, what happened whenever people tried to get rid of the Blue Stone?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Он возвращался на прежнее место",
+                      "Он раскалывался надвое",
+                      "Он начинал светиться"
+                    ],
+                    "en": [
+                      "It came back to its old place",
+                      "It split in two",
+                      "It began to glow"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Камень закапывали и топили в озере, но он снова оказывался на берегу — так рождалась слава «живого» камня.",
+                    "en": "It was buried and sunk in the lake, but it kept turning up on the shore — that's how its fame as a 'living' stone was born."
+                  }
+                },
+                "approach": {
+                  "ru": "Через город на северо-восточный берег озера, к деревне Городище; машину оставьте у дороги и идите к берегу пешком.",
+                  "en": "Drive through town to the north-eastern shore, to the village of Gorodishche; leave the car by the road and walk down to the shore."
+                }
               }
             },
             {
               "id": "pereslavl-nikitsky",
               "title": {"ru": "Никитский монастырь", "en": "Nikitsky Monastery"},
-              "coordinate": [56.76097, 38.86000],
+              "coordinate": [56.76097, 38.86],
               "category": "church",
               "visit": 40,
               "details": {
@@ -125,6 +475,59 @@
               "arrival": {
                 "mode": "car",
                 "note": {"ru": "Около 3 км — 7 минут на машине", "en": "About 3 km — 7 minutes by car"}
+              },
+              "guide": {
+                "story": {
+                  "ru": "Никитский монастырь — один из древнейших на Руси: по преданию, его основали ещё в начале XI века. Имя он получил от святого Никиты Столпника. Никита был сборщиком податей и славился жестокостью, но, по житию, раскаялся, надел тяжёлые вериги и поселился в монастыре в каменном столпе. В 1186 году его убили грабители, приняв блестящие вериги за серебро.\n\nПри Иване Грозном здесь построили каменный Никитский собор, а позже монастырь обнесли мощными стенами с башнями. Сегодня это действующая обитель, а её стены — одна из самых впечатляющих крепостных панорам Золотого кольца.",
+                  "en": "The Nikitsky Monastery is one of the oldest in Rus: tradition says it was founded at the beginning of the 11th century. It is named after St Nikita the Stylite. Nikita was a tax collector known for his cruelty, but, his Life says, he repented, put on heavy iron chains and lived in a stone pillar in the monastery. In 1186 robbers killed him, mistaking his shining chains for silver.\n\nUnder Ivan the Terrible a stone St Nikita Cathedral was built, and later the monastery was surrounded by mighty walls with towers. Today it is a working monastery, and its walls make one of the most impressive fortress panoramas of the Golden Ring."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Башни и зубцы монастырских стен",
+                    "Купола Никитского собора XVI века"
+                  ],
+                  "en": [
+                    "The towers and battlements of the walls",
+                    "The domes of the 16th-century St Nikita Cathedral"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Вериги святого Никиты хранятся в монастыре как святыня.",
+                    "Столпниками называли подвижников, которые молились, стоя на столпе или живя в нём."
+                  ],
+                  "en": [
+                    "St Nikita's chains are kept in the monastery as a relic.",
+                    "Stylites were ascetics who prayed standing on a pillar or living in one."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему, по житию, грабители напали на Никиту Столпника?",
+                    "en": "According to his Life, why did robbers attack Nikita the Stylite?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Приняли его вериги за серебро",
+                      "Хотели забрать монастырскую казну",
+                      "Мстили за сбор податей"
+                    ],
+                    "en": [
+                      "They took his chains for silver",
+                      "They wanted the monastery's treasury",
+                      "They took revenge for the taxes"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Начищенные до блеска вериги показались им серебряными — так святой и погиб.",
+                    "en": "His polished chains looked like silver to them — and so the saint died."
+                  }
+                },
+                "approach": {
+                  "ru": "По Ярославскому шоссе на север, около 3 км — монастырь стоит на пригорке у дороги.",
+                  "en": "North along the Yaroslavl highway for about 3 km — the monastery stands on a rise by the road."
+                }
               }
             }
           ]

@@ -37,23 +37,44 @@ struct JSONFile<Value: Codable> {
     }
 }
 
-/// Everything the user keeps: own routes, bookmarks, finished routes.
+/// Everything the user keeps: own routes, bookmarks, finished routes,
+/// guide progress and what they did in the community feed.
 struct LibraryData: Codable, Sendable {
     var routes: [Route] = []
     /// Bookmarked catalog routes.
     var savedRouteIDs: [String] = []
     var completed: [CompletedRoute] = []
+    var progress = GuideProgress()
+    /// Own route id → its copy in the community feed.
+    var publications: [String: Publication] = [:]
+    /// Feed authors whose routes the user doesn't want to see.
+    var blockedAuthors: [String] = []
+    /// Feed routes the user reported or hid.
+    var hiddenRecords: [String] = []
 
     init() {}
 
-    private enum CodingKeys: String, CodingKey { case routes, savedRouteIDs, completed }
+    private enum CodingKeys: String, CodingKey {
+        case routes, savedRouteIDs, completed, progress, publications, blockedAuthors, hiddenRecords
+    }
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         routes = try container.decodeIfPresent([Route].self, forKey: .routes) ?? []
         savedRouteIDs = try container.decodeIfPresent([String].self, forKey: .savedRouteIDs) ?? []
         completed = try container.decodeIfPresent([CompletedRoute].self, forKey: .completed) ?? []
+        progress = (try? container.decodeIfPresent(GuideProgress.self, forKey: .progress)) ?? GuideProgress()
+        publications = (try? container.decodeIfPresent([String: Publication].self, forKey: .publications)) ?? [:]
+        blockedAuthors = (try? container.decodeIfPresent([String].self, forKey: .blockedAuthors)) ?? []
+        hiddenRecords = (try? container.decodeIfPresent([String].self, forKey: .hiddenRecords)) ?? []
     }
+}
+
+/// A route the user published to the community feed.
+struct Publication: Codable, Hashable, Sendable {
+    /// The CloudKit record name.
+    var recordName: String
+    var date: Date
 }
 
 struct CompletedRoute: Codable, Hashable, Sendable {

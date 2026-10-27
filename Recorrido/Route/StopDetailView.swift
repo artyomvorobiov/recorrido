@@ -1,7 +1,8 @@
 import MapKit
 import SwiftUI
 
-/// Everything about one stop: photo, story, tip, audio guide, directions.
+/// Everything about one stop: photo, the guide's story and games, tip,
+/// audio guide, directions.
 struct StopDetailView: View {
     @Environment(AppModel.self) private var model
     @Environment(\.dismiss) private var dismiss
@@ -41,9 +42,16 @@ struct StopDetailView: View {
 
                     if !stop.details.isEmpty {
                         Text(stop.details)
-                            .font(.body)
+                            .font(stop.guide == nil ? .body : .callout)
+                            .foregroundStyle(stop.guide == nil ? Color.primary : Color.secondary)
                             .lineSpacing(3)
                             .fixedSize(horizontal: false, vertical: true)
+                    }
+
+                    buttons
+
+                    if let guide = stop.guide {
+                        StopGuideView(stop: stop, guide: guide)
                     }
 
                     if let tip = stop.tip {
@@ -64,8 +72,6 @@ struct StopDetailView: View {
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
-
-                    buttons
 
                     if let lookAround {
                         VStack(alignment: .leading, spacing: 8) {

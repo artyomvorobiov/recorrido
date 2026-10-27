@@ -1,0 +1,436 @@
+{
+  "city": {
+    "id": "vologda",
+    "name": {"ru": "Вологда", "en": "Vologda"},
+    "region": {"ru": "Вологодская область", "en": "Vologda Oblast"},
+    "country": {"ru": "Россия", "en": "Russia"},
+    "summary": {
+      "ru": "Северный город кружева, масла и деревянного зодчества: Софийский собор, построенный при Иване Грозном, колокольня со смотровой над рекой, музей кружева, домик Петра I и резные деревянные особняки. А за городом — Спасо-Прилуцкий монастырь.",
+      "en": "A northern city of lace, butter and wooden architecture: the St Sophia Cathedral built under Ivan the Terrible, a bell tower with a view over the river, the lace museum, Peter the Great's house and carved wooden mansions. Just outside town is the Spaso-Prilutsky Monastery."
+    },
+    "gettingThere": {
+      "ru": "Из Москвы около 450 км — 6–7 часов на машине по трассе М-8 или около шести-семи часов на поезде с Ярославского вокзала.",
+      "en": "About 450 km from Moscow — 6–7 hours by car on the M-8 or about six to seven hours by train from Yaroslavsky station."
+    },
+    "coordinate": [59.2205, 39.8916],
+    "emoji": "🧈",
+    "size": "medium",
+    "tags": ["north"],
+    "wiki": {"ru": "Вологда", "en": "Vologda"},
+    "guide": {
+      "story": {
+        "ru": "Вологда, по житию преподобного Герасима, известна с 1147 года — столько же лет, сколько и Москве. Город стоял на важном пути к Белому морю, и когда в XVI веке открылась торговля с Англией через северные порты, через Вологду везли товары из Европы.\n\nИван Грозный хотел сделать Вологду одной из своих столиц: при нём здесь начали строить каменную крепость и Софийский собор. Но, по преданию, во время осмотра собора с его свода упала плинфа и ударила царя по голове — он счёл это дурным знаком и уехал.\n\nВологда славится кружевом, которое плетут на коклюшках, и сливочным маслом: знаменитое вологодское масло придумал в XIX веке Николай Верещагин — брат художника. А ещё здесь много деревянных особняков с резными наличниками, и город по праву считают одной из столиц деревянного зодчества.",
+        "en": "According to the Life of St Gerasimus, Vologda has existed since 1147 — as long as Moscow. It lay on an important route to the White Sea, and when trade with England through the northern ports opened in the 16th century, European goods passed through Vologda.\n\nIvan the Terrible wanted to make Vologda one of his capitals: under him a stone fortress and the St Sophia Cathedral were begun here. But legend says that as he inspected the cathedral a brick fell from the vault and struck him on the head — he took it as a bad omen and left.\n\nVologda is famous for bobbin lace and for butter: the celebrated Vologda butter was invented in the 19th century by Nikolai Vereshchagin, the painter's brother. It also has many wooden mansions with carved window frames and is rightly counted among the capitals of wooden architecture."
+      },
+      "history": [
+        {
+          "year": "1147",
+          "text": {
+            "ru": "По житию, монах Герасим основывает на реке Вологде монастырь — начало города.",
+            "en": "According to his Life, the monk Gerasimus founds a monastery on the Vologda River — the start of the town."
+          }
+        },
+        {
+          "year": "1371",
+          "text": {
+            "ru": "Дмитрий Прилуцкий основывает Спасо-Прилуцкий монастырь.",
+            "en": "Dmitry Prilutsky founds the Spaso-Prilutsky Monastery."
+          }
+        },
+        {
+          "year": "1565",
+          "text": {
+            "ru": "Иван Грозный начинает строить в Вологде каменную крепость.",
+            "en": "Ivan the Terrible begins building a stone fortress in Vologda."
+          }
+        },
+        {
+          "year": "1568–1570",
+          "text": {"ru": "Построен Софийский собор.", "en": "The St Sophia Cathedral is built."}
+        },
+        {
+          "year": "1692–1724",
+          "text": {
+            "ru": "Пётр I пять раз бывает в Вологде по пути на Север.",
+            "en": "Peter the Great visits Vologda five times on his way north."
+          }
+        },
+        {
+          "year": "1870-е",
+          "text": {
+            "ru": "Николай Верещагин придумывает масло, которое станет вологодским.",
+            "en": "Nikolai Vereshchagin invents the butter that will become known as Vologda butter."
+          }
+        },
+        {"year": "2010", "text": {"ru": "Открывается музей кружева.", "en": "The lace museum opens."}}
+      ],
+      "taste": {
+        "ru": [
+          "Вологодское масло — со вкусом топлёного ореха",
+          "Пироги и рыбники",
+          "Морошку и клюкву — северные ягоды"
+        ],
+        "en": [
+          "Vologda butter, with its taste of toasted nuts",
+          "Pies and fish pies",
+          "Cloudberries and cranberries — northern berries"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Вологодское кружево — салфетки, воротнички, украшения",
+          "Изделия из бересты",
+          "Северную чернь по серебру из Великого Устюга"
+        ],
+        "en": [
+          "Vologda lace — doilies, collars, jewellery",
+          "Birch-bark crafts",
+          "Northern niello silver from Veliky Ustyug"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Поднимитесь на колокольню Софийского собора — с неё виден весь город и река Вологда",
+          "Софийский собор не отапливается и открыт только в тёплое время года",
+          "В музее кружева часто работает мастерица — можно посмотреть, как плетут на коклюшках"
+        ],
+        "en": [
+          "Climb the bell tower of the St Sophia Cathedral for a view of the whole city and the Vologda River",
+          "The St Sophia Cathedral is unheated and open only in the warm season",
+          "A lacemaker often works at the lace museum — you can watch her use the bobbins"
+        ]
+      }
+    }
+  },
+  "routes": [
+    {
+      "id": "vologda-day",
+      "title": {
+        "ru": "Вологда: кружево, Софийский собор и Пётр I",
+        "en": "Vologda: lace, St Sophia and Peter the Great"
+      },
+      "summary": {
+        "ru": "Софийский собор с фресками и колокольней-смотровой, музей кружева, домик Петра I на берегу реки, а за городом — Спасо-Прилуцкий монастырь с древнейшей шатровой деревянной церковью.",
+        "en": "The St Sophia Cathedral with its frescoes and a bell tower to climb, the lace museum, Peter the Great's house on the river, and outside town the Spaso-Prilutsky Monastery with one of the oldest tent-roofed wooden churches."
+      },
+      "intro": {
+        "ru": "Пешком по центру около 5 км: собор, колокольня, музей кружева и домик Петра на берегу реки. Затем 15 минут на автобусе или такси до Спасо-Прилуцкого монастыря. По пути заглядывайте в боковые улицы — там прячутся деревянные особняки.",
+        "en": "About 5 km on foot in the centre: the cathedral, the bell tower, the lace museum and Peter's house by the river. Then 15 minutes by bus or taxi to the Spaso-Prilutsky Monastery. Look into the side streets on the way — wooden mansions hide there."
+      },
+      "emoji": "🧈",
+      "tags": ["walk"],
+      "days": [
+        {
+          "stops": [
+            {
+              "id": "vologda-sophia",
+              "title": {"ru": "Софийский собор", "en": "St Sophia Cathedral"},
+              "coordinate": [59.2241, 39.8829],
+              "category": "church",
+              "visit": 40,
+              "details": {
+                "ru": "Белый собор 1568–1570 годов, построенный по повелению Ивана Грозного по образцу московского Успенского. Внутри — огромный ансамбль фресок конца XVII века со «Страшным судом» на западной стене.",
+                "en": "A white cathedral of 1568–1570 built on Ivan the Terrible's orders after the model of Moscow's Dormition Cathedral. Inside is a vast late-17th-century fresco ensemble with the Last Judgement on the west wall."
+              },
+              "wiki": {"ru": "Софийский собор (Вологда)"},
+              "guide": {
+                "story": {
+                  "ru": "Софийский собор начали строить по указу Ивана Грозного, который в 1560-х годах задумал сделать Вологду одной из своих столиц. Образцом стал Успенский собор Московского Кремля: пять глав, мощные белые стены.\n\nВ 1686–1688 годах собор расписала артель ярославского мастера Дмитрия Плеханова: стены сплошь покрыты фресками, а на западной стене — огромный «Страшный суд».\n\nСобор не отапливается, поэтому открыт для посетителей только в тёплое время года.",
+                  "en": "The St Sophia Cathedral was begun on the orders of Ivan the Terrible, who in the 1560s planned to make Vologda one of his capitals. Its model was the Dormition Cathedral of the Moscow Kremlin: five domes and massive white walls.\n\nIn 1686–1688 it was painted by the team of the Yaroslavl master Dmitry Plekhanov: the walls are covered with frescoes, and the west wall bears a huge Last Judgement.\n\nThe cathedral is unheated, so it is open to visitors only in the warm season."
+                },
+                "lookFor": {
+                  "ru": [
+                    "«Страшный суд» на западной стене",
+                    "Пять глав собора",
+                    "Колокольню рядом с собором"
+                  ],
+                  "en": [
+                    "The Last Judgement on the west wall",
+                    "The cathedral's five domes",
+                    "The bell tower beside the cathedral"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Образцом для собора стал Успенский собор Московского Кремля.",
+                    "Фрески 1686–1688 годов написала артель Дмитрия Плеханова."
+                  ],
+                  "en": [
+                    "The cathedral was modelled on the Dormition Cathedral of the Moscow Kremlin.",
+                    "The frescoes of 1686–1688 were painted by Dmitry Plekhanov's team."
+                  ]
+                },
+                "legend": {
+                  "ru": "Рассказывают, что, когда Иван Грозный осматривал почти достроенный собор, со свода упала красная плинфа и ударила его по голове. Разгневанный царь велел разобрать храм и уехал, больше в Вологду не возвращаясь. Разбирать собор не стали, но освятили его лишь после смерти царя.",
+                  "en": "They say that as Ivan the Terrible inspected the almost finished cathedral, a red brick fell from the vault and struck him on the head. The furious tsar ordered the church pulled down and left, never to return to Vologda. It was not pulled down, but it was consecrated only after his death."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что, по легенде, упало на голову Ивану Грозному в соборе?",
+                    "en": "According to legend, what fell on Ivan the Terrible's head in the cathedral?"
+                  },
+                  "options": {
+                    "ru": ["Плинфа — кирпич со свода", "Колокол", "Икона"],
+                    "en": ["A brick from the vault", "A bell", "An icon"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Царь счёл упавшую плинфу дурным знаком и уехал из Вологды.",
+                    "en": "The tsar took the falling brick as a bad omen and left Vologda."
+                  }
+                },
+                "approach": {
+                  "ru": "Собор — на Соборной горке, в центре города.",
+                  "en": "The cathedral stands on Cathedral Hill in the centre."
+                }
+              }
+            },
+            {
+              "id": "vologda-belltower",
+              "title": {"ru": "Колокольня Софийского собора", "en": "St Sophia Bell Tower"},
+              "coordinate": [59.2238, 39.8836],
+              "category": "viewpoint",
+              "visit": 30,
+              "details": {
+                "ru": "Колокольня XIX века высотой около 78 метров с позолоченным шпилем — самая высокая постройка старой Вологды. Со смотровой площадки видно реку, кремль и деревянные кварталы.",
+                "en": "A 19th-century bell tower about 78 metres high with a gilded spire — the tallest building in old Vologda. From its viewing platform you see the river, the kremlin and the wooden quarters."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Нынешнюю колокольню построили в 1869–1870 годах на месте старой, и она получила золочёный шпиль с крестом. Её видно отовсюду — это главный ориентир города.\n\nПо лестнице можно подняться на смотровую площадку: сверху видно, как петляет река Вологда, как стоят храмы на другом берегу и как прячутся в зелени деревянные особняки.\n\nКолокольня — хорошая точка, чтобы понять устройство города перед прогулкой.",
+                  "en": "The present bell tower was built in 1869–1870 on the site of an older one and given a gilded spire with a cross. It can be seen from everywhere — the city's main landmark.\n\nStairs lead up to a viewing platform: from the top you see the Vologda River winding, the churches on the far bank and the wooden mansions hiding in the greenery.\n\nThe bell tower is a good place to get the lie of the land before your walk."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Изгибы реки Вологды сверху",
+                    "Храмы на другом берегу реки",
+                    "Крыши деревянных особняков"
+                  ],
+                  "en": [
+                    "The bends of the Vologda River from above",
+                    "The churches across the river",
+                    "The roofs of the wooden mansions"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокольню построили в 1869–1870 годах.",
+                    "Высота колокольни — около 78 метров."
+                  ],
+                  "en": [
+                    "The bell tower was built in 1869–1870.",
+                    "It is about 78 metres high."
+                  ]
+                },
+                "approach": {
+                  "ru": "Колокольня стоит рядом с Софийским собором.",
+                  "en": "The bell tower stands next to the St Sophia Cathedral."
+                }
+              }
+            },
+            {
+              "id": "vologda-lace",
+              "title": {"ru": "Музей кружева", "en": "Lace Museum"},
+              "coordinate": [59.2232, 39.8851],
+              "category": "museum",
+              "visit": 60,
+              "details": {
+                "ru": "Музей вологодского кружева на Кремлёвской площади: старинное и современное кружево, огромные кружевные панно и мастерица, которая плетёт на коклюшках прямо при гостях.",
+                "en": "The museum of Vologda lace on Kremlin Square: old and modern lace, huge lace panels and a lacemaker working her bobbins in front of visitors."
+              },
+              "wiki": {"ru": "Музей кружева (Вологда)"},
+              "guide": {
+                "story": {
+                  "ru": "Вологодское кружево плетут на коклюшках — деревянных палочках, на которые намотаны нитки. Мастерица перебрасывает десятки коклюшек, и на валике по булавкам рождается узор: снежинки, цветы, птицы. В начале XX века кружевом в Вологодской губернии занимались десятки тысяч крестьянок.\n\nМузей открылся в 2010 году и показывает, как менялось кружево — от старинных полотенец с кружевной каймой до современных платьев и огромных панно. Часто в зале работает мастерица: можно посмотреть и даже попробовать сплести несколько стежков.\n\nКружево — главный сувенир Вологды, и после музея его легче выбрать.",
+                  "en": "Vologda lace is made with bobbins — wooden sticks wound with thread. The lacemaker passes dozens of bobbins back and forth, and on a pillow, around pins, a pattern appears: snowflakes, flowers, birds. In the early 20th century tens of thousands of peasant women in the Vologda province made lace.\n\nThe museum opened in 2010 and shows how lace has changed, from old towels with lace borders to modern dresses and huge panels. A lacemaker often works in the hall: you can watch and even try a few stitches.\n\nLace is Vologda's top souvenir, and after the museum it is easier to choose."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Коклюшки и валик мастерицы",
+                    "Снежинки и птицы в кружевных узорах",
+                    "Кружевное платье в витрине"
+                  ],
+                  "en": [
+                    "The lacemaker's bobbins and pillow",
+                    "Snowflakes and birds in the lace patterns",
+                    "A lace dress in a display case"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Кружево плетут на коклюшках — деревянных палочках с нитками.",
+                    "Музей кружева открылся в 2010 году."
+                  ],
+                  "en": [
+                    "The lace is made with bobbins — wooden sticks wound with thread.",
+                    "The lace museum opened in 2010."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "На чём плетут вологодское кружево?",
+                    "en": "What is Vologda lace made with?"
+                  },
+                  "options": {
+                    "ru": ["На коклюшках", "На спицах", "На ткацком станке"],
+                    "en": ["Bobbins", "Knitting needles", "A loom"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Мастерица перебрасывает коклюшки с нитками, и узор складывается на валике по булавкам.",
+                    "en": "The lacemaker moves the thread-wound bobbins, and the pattern forms on a pillow around pins."
+                  }
+                },
+                "approach": {
+                  "ru": "На Кремлёвской площади, пара минут от собора.",
+                  "en": "On Kremlin Square, a couple of minutes from the cathedral."
+                }
+              }
+            },
+            {
+              "id": "vologda-peter-house",
+              "title": {"ru": "Домик Петра I", "en": "Peter the Great's House"},
+              "coordinate": [59.20972, 39.90806],
+              "category": "museum",
+              "visit": 40,
+              "details": {
+                "ru": "Купеческий дом XVII века на берегу реки, где останавливался Пётр I, — один из первых мемориальных музеев России, открытый в 1885 году.",
+                "en": "A 17th-century merchant's house on the river where Peter the Great stayed — one of Russia's first memorial museums, opened in 1885."
+              },
+              "wiki": {"ru": "Дом Петра I (Вологда)"},
+              "guide": {
+                "story": {
+                  "ru": "Пётр I бывал в Вологде пять раз: город лежал на пути к Архангельску, единственному тогда морскому порту России. Останавливался царь в доме голландского купца Гоутмана на берегу реки.\n\nВ 1885 году здесь открыли музей — один из первых мемориальных музеев страны. В нём показывают вещи петровской эпохи: мебель, инструменты, морские приборы, — и рассказывают, как молодой царь мечтал о море и флоте.\n\nДом стоит в тихом сквере у реки Вологды — хорошее место, чтобы передохнуть.",
+                  "en": "Peter the Great visited Vologda five times: the town lay on the way to Arkhangelsk, then Russia's only seaport. The tsar stayed in the house of the Dutch merchant Gouthman on the riverbank.\n\nIn 1885 a museum opened here — one of the country's first memorial museums. It shows things from Peter's era — furniture, tools, nautical instruments — and tells how the young tsar dreamed of the sea and a fleet.\n\nThe house stands in a quiet garden by the Vologda River — a good place for a rest."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Изразцовую печь",
+                    "Морские приборы петровского времени",
+                    "Вид на реку из сквера"
+                  ],
+                  "en": [
+                    "The tiled stove",
+                    "The nautical instruments of Peter's time",
+                    "The view of the river from the garden"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пётр I пять раз бывал в Вологде.",
+                    "Музей открыт в 1885 году — один из первых мемориальных музеев России."
+                  ],
+                  "en": [
+                    "Peter the Great visited Vologda five times.",
+                    "The museum opened in 1885 — one of Russia's first memorial museums."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Почему Пётр I часто проезжал через Вологду?",
+                    "en": "Why did Peter the Great often pass through Vologda?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Она лежала на пути к Архангельску",
+                      "Здесь была его дача",
+                      "Здесь строили флот"
+                    ],
+                    "en": [
+                      "It lay on the way to Arkhangelsk",
+                      "He had a country house here",
+                      "Ships were built here"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Архангельск был тогда единственным морским портом России, а дорога туда шла через Вологду.",
+                    "en": "Arkhangelsk was then Russia's only seaport, and the road there ran through Vologda."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 30 минут пешком вдоль реки на юго-восток или пара остановок на автобусе.",
+                  "en": "About 30 minutes' walk south-east along the river, or a couple of stops by bus."
+                }
+              }
+            },
+            {
+              "id": "vologda-spaso-prilutsky",
+              "title": {"ru": "Спасо-Прилуцкий монастырь", "en": "Spaso-Prilutsky Monastery"},
+              "coordinate": [59.26222, 39.88944],
+              "category": "church",
+              "visit": 60,
+              "details": {
+                "ru": "Монастырь XIV века на берегу реки Вологды за мощными стенами с башнями. Здесь похоронен поэт Константин Батюшков, а на территории стоит деревянная Успенская церковь 1519 года — одна из древнейших в России.",
+                "en": "A 14th-century monastery on the Vologda River behind massive walls and towers. The poet Konstantin Batyushkov is buried here, and the grounds hold the wooden Dormition Church of 1519, one of the oldest in Russia."
+              },
+              "wiki": {"ru": "Спасо-Прилуцкий монастырь"},
+              "arrival": {
+                "mode": "bus",
+                "note": {
+                  "ru": "Около 6 км на север — 20 минут на автобусе или такси",
+                  "en": "About 6 km north — 20 minutes by bus or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Монастырь основал в 1371 году преподобный Дмитрий Прилуцкий, пришедший в Вологду из Переславля-Залесского, где он прежде основал Никольский монастырь. Обитель на излучине реки — «луке» — быстро стала одной из главных на Севере.\n\nВ XVI–XVII веках монастырь окружили каменными стенами с башнями, и он служил северной крепостью Вологды. На его территории стоит деревянная Успенская церковь 1519 года, перевезённая из Александро-Куштского монастыря, — одна из древнейших датированных шатровых деревянных церквей России.\n\nЗдесь похоронен поэт Константин Батюшков, уроженец Вологды, а за стенами — тихий берег реки.",
+                  "en": "The monastery was founded in 1371 by St Dmitry Prilutsky, who came to Vologda from Pereslavl-Zalessky, where he had earlier founded the St Nicholas Monastery. The monastery on a bend — a 'luka' — of the river soon became one of the most important in the North.\n\nIn the 16th–17th centuries it was ringed with stone walls and towers and served as Vologda's northern fortress. In its grounds stands the wooden Dormition Church of 1519, moved here from the Alexander-Kushta Monastery — one of the oldest dated tent-roofed wooden churches in Russia.\n\nThe poet Konstantin Batyushkov, a native of Vologda, is buried here, and outside the walls lies a quiet riverbank."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Деревянную Успенскую церковь 1519 года",
+                    "Мощные стены с башнями",
+                    "Могилу поэта Батюшкова"
+                  ],
+                  "en": [
+                    "The wooden Dormition Church of 1519",
+                    "The massive walls and towers",
+                    "The grave of the poet Batyushkov"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Монастырь основан в 1371 году Дмитрием Прилуцким.",
+                    "Здесь похоронен поэт Константин Батюшков."
+                  ],
+                  "en": [
+                    "The monastery was founded in 1371 by Dmitry Prilutsky.",
+                    "The poet Konstantin Batyushkov is buried here."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто из поэтов похоронен в Спасо-Прилуцком монастыре?",
+                    "en": "Which poet is buried in the Spaso-Prilutsky Monastery?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Константин Батюшков",
+                      "Николай Рубцов",
+                      "Александр Пушкин"
+                    ],
+                    "en": [
+                      "Konstantin Batyushkov",
+                      "Nikolai Rubtsov",
+                      "Alexander Pushkin"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Батюшков родился в Вологде и похоронен здесь; Рубцов тоже вологодский поэт, но похоронен на городском кладбище.",
+                    "en": "Batyushkov was born in Vologda and is buried here; Rubtsov was also a Vologda poet but lies in the town cemetery."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 6 км на север — 20 минут на автобусе или такси.",
+                  "en": "About 6 km north — 20 minutes by bus or taxi."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

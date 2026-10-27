@@ -12,11 +12,94 @@
       "ru": "Около 280 км от Москвы — 4 часа на машине через Калязин или Углич. От Углича — 40 км. Летом в Мышкин заходят речные теплоходы.",
       "en": "About 280 km from Moscow — 4 hours by car via Kalyazin or Uglich. Uglich is 40 km away. In summer river cruise ships stop here."
     },
-    "coordinate": [57.7880, 38.4547],
+    "coordinate": [57.788, 38.4547],
     "emoji": "🐭",
     "size": "small",
     "tags": ["volga"],
-    "wiki": {"ru": "Мышкин", "en": "Myshkin"}
+    "wiki": {"ru": "Мышкин", "en": "Myshkin"},
+    "guide": {
+      "story": {
+        "ru": "Мышкин — один из самых маленьких городов России: в нём живёт меньше шести тысяч человек. Он стоит на высоком берегу Волги, и его история начинается с легенды: князь, уснувший на берегу, проснулся оттого, что по лицу пробежала мышь, — и увидел рядом змею. В благодарность за спасение он поставил здесь часовню, а селение стали называть Мышкиным.\n\nВ 1777 году Мышкин стал уездным городом с мышью на гербе, но в 1927 году его превратили в село Мышкино. Во многом благодаря местным энтузиастам, которые собрали народный музей и привлекли сюда туристов, в 1991 году Мышкину вернули статус города.\n\nМышь стала главной героиней: здесь есть Музей Мыши, мышиные сувениры и праздники, а вокруг — купеческие дома, белый собор и с десяток маленьких музеев. Город крошечный, но скучать в нём не приходится.",
+        "en": "Myshkin is one of the smallest towns in Russia, with fewer than six thousand people. It stands on a high bank of the Volga, and its story begins with a legend: a prince asleep on the riverbank woke up when a mouse ran across his face — and saw a snake right beside him. In gratitude he built a chapel here, and the settlement came to be called Myshkin, 'the mouse's'.\n\nIn 1777 Myshkin became a district town with a mouse on its coat of arms, but in 1927 it was demoted to the village of Myshkino. Largely thanks to local enthusiasts, who built up a people's museum and brought in tourists, Myshkin got its town status back in 1991.\n\nThe mouse became the star: there is a Mouse Museum, mouse souvenirs and mouse festivals, and around them merchants' houses, a white cathedral and a dozen small museums. The town is tiny, but it is never boring."
+      },
+      "history": [
+        {
+          "year": "1777",
+          "text": {
+            "ru": "Мышкин получает статус уездного города, а вскоре — герб с мышью.",
+            "en": "Myshkin becomes a district town and soon gets a coat of arms with a mouse."
+          }
+        },
+        {
+          "year": "1805–1820",
+          "text": {
+            "ru": "На площади строят Успенский собор по проекту итальянского архитектора Манфрини.",
+            "en": "The Dormition Cathedral is built on the square to a design by the Italian architect Manfrini."
+          }
+        },
+        {
+          "year": "1831",
+          "text": {
+            "ru": "В деревне Каюрово под Мышкином родился Пётр Смирнов — будущий знаменитый фабрикант.",
+            "en": "Pyotr Smirnov, the future famous manufacturer, is born in the village of Kayurovo near Myshkin."
+          }
+        },
+        {
+          "year": "1927",
+          "text": {
+            "ru": "Город лишают статуса, и он становится селом Мышкино.",
+            "en": "The town loses its status and becomes the village of Myshkino."
+          }
+        },
+        {
+          "year": "1960-е",
+          "text": {
+            "ru": "Краеведы-энтузиасты начинают собирать Мышкинский народный музей.",
+            "en": "Local history enthusiasts start the Myshkin People's Museum."
+          }
+        },
+        {
+          "year": "1991",
+          "text": {"ru": "Мышкину возвращают статус города.", "en": "Myshkin regains its town status."}
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Волжскую рыбу в кафе у площади",
+          "Пироги и блины в маленьких трактирах",
+          "Чай с мёдом и вареньем из местных ягод"
+        ],
+        "en": [
+          "Volga fish at a café by the square",
+          "Pies and pancakes in small taverns",
+          "Tea with honey and jam from local berries"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Мышей — вязаных, деревянных, глиняных; ищите работы местных мастеров",
+          "Валенки ручной работы — простые или расписные",
+          "Льняные полотенца и вышивку"
+        ],
+        "en": [
+          "Mice — knitted, wooden, clay; look for pieces by local craftspeople",
+          "Handmade valenki felt boots, plain or painted",
+          "Linen towels and embroidery"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Летом днём к пристани приходят теплоходы — утром и под вечер в музеях тише",
+          "Музеев много, но они небольшие: на каждый хватит 20–40 минут",
+          "До Углича около 40 км — их удобно совместить в одной поездке"
+        ],
+        "en": [
+          "On summer days cruise boats call at the pier — the museums are quieter in the morning and towards evening",
+          "There are many museums, but they are small: 20–40 minutes is enough for each",
+          "Uglich is about 40 km away — easy to combine in one trip"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -26,6 +109,10 @@
         "ru": "Прогулка на полдня по самому уютному городку Верхней Волги: Музей Мыши, Успенский собор над рекой, народный музей с деревянными постройками и музей валенок.",
         "en": "A half-day walk around the cosiest little town on the Upper Volga: the Mouse Museum, the Dormition Cathedral above the river, the people's museum with old wooden buildings and the museum of felt boots."
       },
+      "intro": {
+        "ru": "Прогулка на полдня, около 2–3 км: всё в центре, между площадью и Волгой. Музеи маленькие — на каждый хватит 20–40 минут, а между ними — тихие улицы с купеческими домами. Закончите на набережной, когда солнце садится над рекой.",
+        "en": "A half-day walk of about 2–3 km, all in the centre between the square and the Volga. The museums are small — 20–40 minutes each — with quiet streets of merchants' houses in between. Finish on the embankment as the sun sets over the river."
+      },
       "emoji": "🐭",
       "tags": ["walk"],
       "days": [
@@ -34,24 +121,120 @@
             {
               "id": "myshkin-mouse-museum",
               "title": {"ru": "Музей Мыши", "en": "Mouse Museum"},
-              "coordinate": [57.78590, 38.45330],
+              "coordinate": [57.78372, 38.45065],
               "category": "museum",
               "visit": 40,
               "details": {
                 "ru": "Единственный в мире музей мыши: игрушечные, фарфоровые, вязаные мыши со всего света, сказки и легенды о том, как маленькая мышь спасла князя и дала имя городу. Весёлое место, особенно с детьми.",
                 "en": "The world's only museum devoted to mice: toy, porcelain and knitted mice from all over the world, plus tales and the legend of how a little mouse saved a prince and gave the town its name. A cheerful place, especially with children."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Музей Мыши появился в начале 1990-х — как весёлый ответ на вопрос, чем удивить гостей города с таким названием. Сегодня это самая известная достопримечательность Мышкина: огромная коллекция мышей со всего света — фарфоровых, деревянных, вязаных, плюшевых, заводных. Многих подарили сами гости, и коллекция всё растёт.\n\nЗдесь рассказывают сказки и легенды о мышах разных народов, а главную — о том, как мышь спасла князя и дала имя городу. Музей шумный и смешной, особенно с детьми, и это хорошее начало знакомства с Мышкиным.\n\nЕсли у вас дома живёт фигурка мыши, привезите её в подарок — так поступают многие путешественники.",
+                  "en": "The Mouse Museum opened in the early 1990s as a cheerful answer to the question of how to surprise visitors to a town with such a name. Today it is Myshkin's best-known sight: a huge collection of mice from all over the world — porcelain, wooden, knitted, plush, clockwork. Many were given by visitors, and the collection keeps growing.\n\nGuides tell tales and legends about mice from different nations, and above all the one about the mouse that saved a prince and gave the town its name. The museum is noisy and funny, especially with children, and a good start to getting to know Myshkin.\n\nIf you have a mouse figurine at home, bring it as a gift — many travellers do."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Мышь из самой далёкой страны в коллекции",
+                    "Мышей, подаренных гостями музея",
+                    "Изображение мыши, спасающей князя"
+                  ],
+                  "en": [
+                    "The mouse from the most distant country in the collection",
+                    "Mice given to the museum by visitors",
+                    "A picture of the mouse saving the prince"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "На гербе Мышкина, утверждённом в XVIII веке, изображена мышь.",
+                    "Мышей для коллекции дарят посетители со всего мира."
+                  ],
+                  "en": [
+                    "Myshkin's coat of arms, granted in the 18th century, shows a mouse.",
+                    "Visitors from all over the world give mice to the collection."
+                  ]
+                },
+                "legend": {
+                  "ru": "Однажды князь, путешествуя по Волге, прилёг отдохнуть на берегу. Его разбудила мышь, пробежавшая по лицу, — и князь увидел рядом подползающую змею. В благодарность за спасение он велел поставить на этом месте часовню, а вокруг неё выросло селение Мышкин.",
+                  "en": "Once a prince travelling along the Volga lay down to rest on the bank. A mouse running across his face woke him — and the prince saw a snake creeping up beside him. In gratitude he ordered a chapel built on the spot, and the settlement of Myshkin grew up around it."
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто, по легенде, спас князя, уснувшего на берегу Волги?",
+                    "en": "According to legend, who saved the prince asleep on the Volga bank?"
+                  },
+                  "options": {"ru": ["Мышь", "Сокол", "Пёс"], "en": ["A mouse", "A falcon", "A dog"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Мышь разбудила князя, пробежав по лицу, — рядом ползла змея. В честь спасительницы и назвали город.",
+                    "en": "The mouse woke the prince by running across his face — a snake was crawling nearby. The town is named after his rescuer."
+                  }
+                },
+                "approach": {
+                  "ru": "Музей в центре, в паре минут от площади с собором.",
+                  "en": "The museum is in the centre, a couple of minutes from the cathedral square."
+                }
               }
             },
             {
               "id": "myshkin-cathedral",
               "title": {"ru": "Успенский собор и Волга", "en": "Dormition Cathedral and the Volga"},
-              "coordinate": [57.78690, 38.45560],
+              "coordinate": [57.7869, 38.4556],
               "category": "church",
               "visit": 20,
               "details": {
                 "ru": "Белый собор с высокой колокольней стоит на главной площади над Волгой. От него к реке спускаются улицы, а с откоса открывается вид на широкое водохранилище и противоположный берег.",
                 "en": "The white cathedral with its tall bell tower stands on the main square above the Volga. Streets run down from it to the river, and the slope offers a view over the wide reservoir to the far bank."
-              }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Белый Успенский собор — главное здание Мышкина. Его строили в 1805–1820 годах на деньги горожан, а больше всех пожертвовал купец Замяткин. Проект, как считается, сделал итальянский архитектор Манфрини, и собор получился строгим, в духе классицизма, с высокой колокольней.\n\nСобор поставили в центре торговой площади, разбитой по плану города 1777 года, — так, чтобы его было видно с Волги издалека. В 1866 году здесь побывал наследник престола, будущий император Александр III.\n\nОт собора к реке спускаются улицы, а с откоса открывается вид на широкую Волгу и противоположный берег.",
+                  "en": "The white Dormition Cathedral is Myshkin's main building. It was built in 1805–1820 with the townspeople's money, and the merchant Zamyatkin gave the most. The design is attributed to the Italian architect Manfrini, and the cathedral came out austere and Classical, with a tall bell tower.\n\nIt was placed in the middle of the market square laid out under the town plan of 1777, so that it could be seen from far along the Volga. In 1866 the heir to the throne, the future Emperor Alexander III, visited it.\n\nStreets run down from the cathedral to the river, and from the slope there is a view of the wide Volga and the far bank."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Высокую колокольню — её видно с реки",
+                    "Строгий классический фасад собора",
+                    "Вид с откоса на Волгу"
+                  ],
+                  "en": [
+                    "The tall bell tower, visible from the river",
+                    "The austere Classical facade",
+                    "The view of the Volga from the slope"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Больше всего денег на собор пожертвовал купец Замяткин.",
+                    "В 1866 году собор посетил цесаревич Александр, будущий Александр III."
+                  ],
+                  "en": [
+                    "The merchant Zamyatkin gave the most money for the cathedral.",
+                    "In 1866 the cathedral was visited by Tsesarevich Alexander, the future Alexander III."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В каком стиле построен Успенский собор Мышкина?",
+                    "en": "In what style is Myshkin's Dormition Cathedral built?"
+                  },
+                  "options": {
+                    "ru": ["Классицизм", "Готика", "Модерн"],
+                    "en": ["Classicism", "Gothic", "Art Nouveau"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Собор строили в начале XIX века, когда в России господствовал строгий классицизм.",
+                    "en": "It was built in the early 19th century, when austere Classicism dominated Russian architecture."
+                  }
+                },
+                "approach": {
+                  "ru": "От Музея Мыши — около 5 минут пешком до площади.",
+                  "en": "About 5 minutes' walk from the Mouse Museum to the square."
+                }
+              },
+              "wiki": {"ru": "Успенский собор (Мышкин)"}
             },
             {
               "id": "myshkin-people-museum",
@@ -63,23 +246,99 @@
                 "ru": "Музей, созданный энтузиастами в 1960-х годах и выросший в целый комплекс: этнографический двор с деревянными постройками, старинная техника, коллекции крестьянского и купеческого быта.",
                 "en": "A museum started by local enthusiasts in the 1960s that grew into a whole complex: an ethnographic yard with wooden buildings, old machinery and collections of peasant and merchant life."
               },
-              "wiki": {"ru": "Мышкинский народный музей"}
+              "wiki": {"ru": "Мышкинский народный музей"},
+              "guide": {
+                "story": {
+                  "ru": "Мышкинский народный музей начинался в 1960-е годы как увлечение нескольких краеведов: они собирали в окрестных деревнях старинные вещи — прялки, утюги, самовары, инструменты, книги. Из этих находок вырос целый музейный городок.\n\nСегодня у музея несколько экспозиций: этнографический двор с деревянными постройками, коллекция старинной техники, крестьянский и купеческий быт. Здесь видно, как жили и работали люди на Верхней Волге сто и двести лет назад.\n\nМузей создавали не профессионалы, а энтузиасты, — поэтому он и называется народным. Во многом именно благодаря им Мышкин стал городом туристов.",
+                  "en": "The Myshkin People's Museum began in the 1960s as the hobby of a few local historians: they collected old things in the surrounding villages — spinning wheels, irons, samovars, tools, books. A whole museum village grew out of these finds.\n\nToday the museum has several displays: an ethnographic yard with wooden buildings, a collection of old machinery, and peasant and merchant life. You can see how people lived and worked on the Upper Volga one and two hundred years ago.\n\nThe museum was built not by professionals but by enthusiasts — hence the name 'people's museum'. It is largely thanks to them that Myshkin became a tourist town."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Деревянные постройки этнографического двора",
+                    "Старинную технику прошлого века",
+                    "Прялки и утюги из деревенских домов"
+                  ],
+                  "en": [
+                    "The wooden buildings of the ethnographic yard",
+                    "Old machinery from the last century",
+                    "Spinning wheels and irons from village houses"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Музей называют народным, потому что его создали энтузиасты-краеведы.",
+                    "В экспозиции — вещи, которыми пользовались в деревнях Верхней Волги ещё сто лет назад."
+                  ],
+                  "en": [
+                    "It is called a people's museum because it was created by enthusiastic local historians.",
+                    "The displays include things used in Upper Volga villages a hundred years ago."
+                  ]
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком на юго-запад от площади.",
+                  "en": "About 10 minutes' walk south-west of the square."
+                }
+              }
             },
             {
               "id": "myshkin-valenki",
               "title": {"ru": "Музей валенок", "en": "Felt Boots Museum"},
-              "coordinate": [57.78750, 38.45220],
+              "coordinate": [57.78652, 38.45705],
               "category": "museum",
               "visit": 30,
               "details": {
                 "ru": "Небольшой музей о том, как валяли валенки, от простых рабочих до расписных праздничных. Здесь же можно купить настоящие валенки ручной работы.",
                 "en": "A small museum about how felt boots were made, from plain working pairs to painted festive ones. You can buy real handmade valenki here too."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Валенки — настоящая русская зимняя обувь: тёплые, без единого шва, свалянные целиком из овечьей шерсти. В Мышкине о них рассказывает небольшой музей: от сырой шерсти до готовой пары и от простых рабочих валенок до нарядных, расшитых и расписных.\n\nВаленки делают долго: шерсть чешут, раскладывают слоями, а потом много часов валяют — мнут и катают в горячей воде, пока она не сожмётся в плотный войлок. Затем валенок натягивают на деревянную колодку и сушат, чтобы он принял форму ноги.\n\nЗдесь же можно купить валенки ручной работы — с ними не страшен никакой мороз.",
+                  "en": "Valenki are true Russian winter footwear: warm, seamless, felted in one piece from sheep's wool. In Myshkin a small museum tells their story: from raw wool to a finished pair, and from plain work boots to festive embroidered and painted ones.\n\nMaking valenki takes a long time: the wool is carded, laid out in layers and then felted for hours — kneaded and rolled in hot water until it shrinks into dense felt. Then the boot is pulled onto a wooden last and dried so that it takes the shape of a foot.\n\nYou can buy handmade valenki here too — with them no frost is frightening."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Деревянные колодки, на которых сушат валенки",
+                    "Самую маленькую и самую большую пару",
+                    "Расписные праздничные валенки"
+                  ],
+                  "en": [
+                    "The wooden lasts used to dry valenki",
+                    "The smallest and the largest pair",
+                    "Painted festive valenki"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Слово «валенки» происходит от «валять» — так называют способ превращать шерсть в войлок.",
+                    "Валенки не шьют, а валяют целиком — поэтому в них нет ни одного шва."
+                  ],
+                  "en": [
+                    "The word 'valenki' comes from 'valyat', to felt — the way wool is turned into felt.",
+                    "Valenki are not sewn but felted in one piece, so they have no seams at all."
+                  ]
+                },
+                "quiz": {
+                  "question": {"ru": "Из чего делают валенки?", "en": "What are valenki made of?"},
+                  "options": {
+                    "ru": ["Из овечьей шерсти", "Из льна", "Из кожи"],
+                    "en": ["Sheep's wool", "Linen", "Leather"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Шерсть валяют в горячей воде, пока она не превратится в плотный войлок.",
+                    "en": "The wool is felted in hot water until it turns into dense felt."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 10 минут пешком на север, обратно к центру.",
+                  "en": "About 10 minutes' walk north, back towards the centre."
+                }
               }
             },
             {
               "id": "myshkin-embankment",
               "title": {"ru": "Волжская набережная", "en": "Volga embankment"},
-              "coordinate": [57.78560, 38.45720],
+              "coordinate": [57.7856, 38.4572],
               "category": "street",
               "visit": 20,
               "details": {
@@ -89,6 +348,38 @@
               "tip": {
                 "ru": "Сувенирных мышей продают на каждом шагу — выбирайте те, что делают местные мастера.",
                 "en": "Souvenir mice are sold everywhere — look for the ones made by local craftspeople."
+              },
+              "guide": {
+                "story": {
+                  "ru": "Волжская набережная Мышкина — тихое место у пристани, куда швартуются круизные теплоходы. Отсюда хорошо видно, как высоко над рекой стоит старый город: крыши, колокольни и зелёные склоны.\n\nВолга здесь широкая и спокойная: в XX веке на ней построили каскад плотин, и река превратилась в цепь водохранилищ. Ниже по течению при заполнении Рыбинского водохранилища ушли под воду десятки сёл и целый город Молога.\n\nЭто лучшее место, чтобы закончить прогулку: сесть у воды, проводить закат и посмотреть, как от пристани отходят теплоходы.",
+                  "en": "Myshkin's Volga embankment is a quiet place by the pier where cruise boats moor. From here you can see how high above the river the old town stands: roofs, bell towers and green slopes.\n\nThe Volga is wide and calm here: in the 20th century a cascade of dams was built on it, turning the river into a chain of reservoirs. Downstream, when the Rybinsk Reservoir was filled, dozens of villages and a whole town, Mologa, disappeared under the water.\n\nIt is the best place to end the walk: sit by the water, watch the sunset and see the boats leave the pier."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Теплоход у пристани",
+                    "Колокольню собора над крышами",
+                    "Противоположный берег Волги"
+                  ],
+                  "en": [
+                    "A cruise boat at the pier",
+                    "The cathedral bell tower above the roofs",
+                    "The far bank of the Volga"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Город Молога ушёл под воду Рыбинского водохранилища в 1940-х годах.",
+                    "Летом Мышкин — одна из стоянок круизных теплоходов на Волге."
+                  ],
+                  "en": [
+                    "The town of Mologa was flooded by the Rybinsk Reservoir in the 1940s.",
+                    "In summer Myshkin is one of the stops for Volga river cruises."
+                  ]
+                },
+                "approach": {
+                  "ru": "Спуститесь от центра к реке — около 5–7 минут пешком.",
+                  "en": "Walk down from the centre to the river — about 5–7 minutes."
+                }
               }
             }
           ]

@@ -16,7 +16,106 @@
     "emoji": "🥒",
     "size": "small",
     "tags": ["golden-ring"],
-    "wiki": {"ru": "Суздаль", "en": "Suzdal"}
+    "wiki": {"ru": "Суздаль", "en": "Suzdal"},
+    "guide": {
+      "story": {
+        "ru": "Суздаль старше Москвы: летопись впервые упоминает его в 1024 году. При Юрии Долгоруком город был столицей Ростово-Суздальского княжества, потом уступил первенство Владимиру, но остался духовным центром края — отсюда столько монастырей и церквей на маленький город.\n\nВ XIX веке железную дорогу провели в стороне, через Владимир, и Суздаль словно остановился во времени: фабрик и многоэтажных домов здесь почти не строили. Город сохранил силуэт из колоколен и куполов над деревянными домами, а в 1960–70-е годы его отреставрировали и превратили в музей под открытым небом — одну из жемчужин Золотого кольца.\n\nСегодня это тихий городок на реке Каменке, где за заборами растут огурцы, по выходным пахнет медовухой и пирогами, а с любого холма видно сразу несколько монастырей. Лучшее время — раннее утро, пока не приехали экскурсионные автобусы.",
+        "en": "Suzdal is older than Moscow: the chronicles first mention it in 1024. Under Yuri Dolgoruky it was the capital of the Rostov-Suzdal principality; later it gave way to Vladimir but stayed the spiritual heart of the region — hence so many monasteries and churches for such a small town.\n\nIn the 19th century the railway was laid elsewhere, through Vladimir, and Suzdal seemed to stop in time: hardly any factories or tower blocks were ever built. The town kept its skyline of bell towers and domes above wooden houses, and in the 1960s and 70s it was restored and turned into an open-air museum, one of the jewels of the Golden Ring.\n\nToday it is a quiet town on the Kamenka river, where cucumbers grow behind the fences, weekends smell of mead and pies, and every hill shows you several monasteries at once. The best time is early morning, before the tour buses arrive."
+      },
+      "history": [
+        {
+          "year": "1024",
+          "text": {
+            "ru": "Первое упоминание Суздаля в летописи — рассказ о восстании волхвов в Суздальской земле.",
+            "en": "Suzdal's first mention in the chronicles: a story of a pagan priests' uprising in the Suzdal land."
+          }
+        },
+        {
+          "year": "1152",
+          "text": {
+            "ru": "Юрий Долгорукий строит белокаменную церковь Бориса и Глеба в Кидекше.",
+            "en": "Yuri Dolgoruky builds the white-stone Church of Boris and Gleb in Kideksha."
+          }
+        },
+        {
+          "year": "1222–1225",
+          "text": {
+            "ru": "Князь Юрий Всеволодович возводит в кремле новый Рождественский собор.",
+            "en": "Prince Yuri Vsevolodovich builds the new Nativity Cathedral in the kremlin."
+          }
+        },
+        {
+          "year": "1238",
+          "text": {"ru": "Войско Батыя разоряет Суздаль.", "en": "Batu Khan's army sacks Suzdal."}
+        },
+        {
+          "year": "1352",
+          "text": {
+            "ru": "Святой Евфимий основывает Спасо-Евфимиев монастырь.",
+            "en": "Saint Euthymius founds the Saviour Monastery of St Euthymius."
+          }
+        },
+        {
+          "year": "1525",
+          "text": {
+            "ru": "В Покровский монастырь насильно постригают Соломонию Сабурову, жену Василия III.",
+            "en": "Solomonia Saburova, wife of Grand Prince Vasily III, is forced to take the veil in the Intercession Convent."
+          }
+        },
+        {
+          "year": "1766",
+          "text": {
+            "ru": "В Спасо-Евфимиевом монастыре открывают тюрьму для «вольнодумцев»; она проработает до 1905 года.",
+            "en": "A prison for 'freethinkers' opens in the St Euthymius Monastery; it lasts until 1905."
+          }
+        },
+        {
+          "year": "1992",
+          "text": {
+            "ru": "Белокаменные храмы Суздаля и Владимира внесены в список Всемирного наследия ЮНЕСКО.",
+            "en": "The white-stone churches of Suzdal and Vladimir are added to the UNESCO World Heritage list."
+          }
+        }
+      ],
+      "taste": {
+        "ru": [
+          "Медовуху — лёгкий напиток из мёда; её варят в Суздале и продают на каждом шагу",
+          "Суздальские огурцы: малосольные, хрустящие, а для смелых — огуречное варенье",
+          "Горячий сбитень с мёдом и пряностями — особенно хорош зимой"
+        ],
+        "en": [
+          "Medovukha, a light honey drink brewed in Suzdal and sold everywhere",
+          "Suzdal cucumbers: lightly salted and crunchy — or, if you dare, cucumber jam",
+          "Hot sbiten with honey and spices, especially good in winter"
+        ]
+      },
+      "souvenirs": {
+        "ru": [
+          "Мёд и медовуху из местных медоварен",
+          "Изделия из бересты и керамику",
+          "Льняные полотенца и скатерти с вышивкой"
+        ],
+        "en": [
+          "Honey and mead from local meaderies",
+          "Birch-bark crafts and ceramics",
+          "Embroidered linen towels and tablecloths"
+        ]
+      },
+      "tips": {
+        "ru": [
+          "Центр компактный: всё главное обходится пешком, но по склонам у Каменки нужна удобная обувь",
+          "Останьтесь на ночь — вечерний и утренний Суздаль без толп совсем другой",
+          "В июле проходит День огурца: весело, но людно, а жильё лучше бронировать заранее",
+          "Музеи владимиро-суздальского заповедника работают по разным дням — проверьте расписание на сайте"
+        ],
+        "en": [
+          "The centre is compact: everything important is walkable, but wear good shoes for the slopes by the Kamenka",
+          "Stay the night — Suzdal in the evening and early morning, without crowds, is a different town",
+          "The Cucumber Festival takes place in July: fun but crowded, so book a room early",
+          "The museums of the Vladimir-Suzdal reserve have different opening days — check the schedule online"
+        ]
+      }
+    }
   },
   "routes": [
     {
@@ -25,6 +124,10 @@
       "summary": {
         "ru": "Кремль с синими звёздными куполами, музей деревянного зодчества, торговые ряды и два больших монастыря, а в конце — короткая поездка в Кидекшу к храму 1152 года.",
         "en": "The Kremlin with its blue star-spangled domes, the open-air museum of wooden architecture, the trading rows and two great monasteries, then a short drive to Kideksha and its church of 1152."
+      },
+      "intro": {
+        "ru": "Начните утром у кремля, пока нет групп. Маршрут пеший, около 5 км с переходами через Каменку; в самом конце понадобится машина или такси до Кидекши. Обедать удобно у Торговых рядов — там же можно попробовать медовуху.",
+        "en": "Start at the kremlin in the morning, before the groups arrive. The route is on foot, about 5 km with a few crossings of the Kamenka; only at the very end you'll need a car or taxi to Kideksha. Lunch is easiest near the Trading Rows, where you can also try the mead."
       },
       "emoji": "🥒",
       "tags": ["walk", "car"],
@@ -45,7 +148,52 @@
                 "ru": "Поднимитесь на вал со стороны реки Каменки — оттуда лучший вид на собор и деревянную Никольскую церковь.",
                 "en": "Climb the rampart on the Kamenka river side — it gives the best view of the cathedral and the wooden St Nicholas church."
               },
-              "wiki": {"ru": "Суздальский кремль", "en": "Suzdal Kremlin"}
+              "wiki": {"ru": "Суздальский кремль", "en": "Suzdal Kremlin"},
+              "guide": {
+                "story": {
+                  "ru": "Кремль стоит в излучине Каменки, и его земляные валы насыпаны ещё в XI веке. Деревянные стены на них давно сгорели, но очертания крепости легко угадать: город начинался именно здесь, на высоком мысу.\n\nГлавное сокровище кремля — Рождественский собор. Его белокаменный низ сохранился с 1220-х годов: присмотритесь к резным маскам и львам на фасадах. Верх собора в XVI веке перестроили из кирпича, а синие купола с золотыми звёздами стали символом Суздаля. Внутри — фрески XIII века и Златые врата: медные двери с гравированными и позолоченными сюжетами, редкая работа домонгольских мастеров.\n\nРядом — Архиерейские палаты XV–XVIII веков с большой Крестовой палатой, где суздальские архиереи принимали гостей, и колокольня 1635 года с необычными часами: вместо цифр на циферблате буквы, а вращается сам циферблат, а не стрелка.",
+                  "en": "The kremlin sits in a bend of the Kamenka, and its earth ramparts were raised as early as the 11th century. The wooden walls on top burned down long ago, but the shape of the fortress is easy to read: the town began right here, on a high headland.\n\nThe kremlin's great treasure is the Nativity Cathedral. Its white-stone lower part survives from the 1220s: look for the carved masks and lions on the walls. The upper part was rebuilt in brick in the 16th century, and the blue domes with golden stars became the symbol of Suzdal. Inside are 13th-century frescoes and the Golden Doors: copper doors with engraved and gilded scenes, a rare work of masters from before the Mongol invasion.\n\nNext to it stand the Archbishop's Chambers of the 15th–18th centuries with the grand Cross Chamber, where Suzdal's archbishops received guests, and the bell tower of 1635 with an unusual clock: its face has letters instead of numbers, and the face turns rather than the hand."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Пять синих куполов с золотыми звёздами",
+                    "Каменные маски и львиные головы в белокаменном поясе собора",
+                    "Циферблат с буквами вместо цифр на колокольне",
+                    "Деревянную Никольскую церковь, перевезённую в кремль из села"
+                  ],
+                  "en": [
+                    "Five blue domes with golden stars",
+                    "Stone masks and lions' heads in the white-stone band of the cathedral",
+                    "The clock face with letters instead of numbers on the bell tower",
+                    "The wooden St Nicholas Church, brought to the kremlin from a village"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Суздаль упомянут в летописи под 1024 годом — на 123 года раньше Москвы.",
+                    "Рождественский собор вместе с другими белокаменными храмами Владимира и Суздаля с 1992 года входит в список Всемирного наследия ЮНЕСКО."
+                  ],
+                  "en": [
+                    "Suzdal appears in the chronicles in 1024 — 123 years before Moscow.",
+                    "Together with the other white-stone churches of Vladimir and Suzdal, the Nativity Cathedral has been a UNESCO World Heritage site since 1992."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Что вместо цифр на циферблате кремлёвской колокольни?",
+                    "en": "What is on the kremlin clock face instead of numbers?"
+                  },
+                  "options": {
+                    "ru": ["Буквы", "Знаки зодиака", "Римские цифры"],
+                    "en": ["Letters", "Signs of the zodiac", "Roman numerals"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "В старой русской записи числа обозначали буквами: «А» — один, «В» — два и так далее. Поэтому на циферблате буквы, и вращается он сам, а стрелка неподвижна.",
+                    "en": "In old Russian writing, numbers were written with letters: A for one, V for two and so on. So the face shows letters — and it is the face that turns while the hand stays still."
+                  }
+                }
+              }
             },
             {
               "id": "suzdal-wooden-museum",
@@ -61,12 +209,44 @@
                 "ru": "Летом по выходным здесь часто проходят народные праздники и мастер-классы.",
                 "en": "On summer weekends there are often folk festivals and craft workshops."
               },
-              "wiki": {"ru": "Музей деревянного зодчества"}
+              "wiki": {"ru": "Музей деревянного зодчества"},
+              "guide": {
+                "story": {
+                  "ru": "Музей деревянного зодчества и крестьянского быта открыли в конце 1960-х годов напротив кремля, на другом берегу Каменки. Сюда перевезли постройки из сёл Владимирской области, которые иначе бы не сохранились: церкви, избы, амбары, колодцы и мельницы.\n\nГлавные экспонаты — две церкви: высокая шатровая Преображенская 1756 года из села Козлятьево и более скромная зимняя Воскресенская 1776 года из села Потакино. Их главы покрыты лемехом — деревянной чешуёй из осины, которая со временем серебрится и блестит на солнце, как металл.\n\nЗагляните в избы: в одних жили зажиточные крестьяне, в других — бедные, и разница видна сразу. Печь, полати, лавки вдоль стен, красный угол с иконами — так выглядел дом в суздальской деревне ещё сто лет назад.",
+                  "en": "The Museum of Wooden Architecture and Peasant Life opened at the end of the 1960s opposite the kremlin, across the Kamenka. Buildings that would otherwise have been lost were brought here from villages of the Vladimir region: churches, houses, barns, wells and windmills.\n\nThe highlights are two churches: the tall, tent-roofed Transfiguration Church of 1756 from the village of Kozlyatyevo and the humbler winter Resurrection Church of 1776 from Potakino. Their domes are covered with aspen shingles that turn silver over the years and shine in the sun like metal.\n\nStep into the houses: some belonged to well-off peasants, others to poor ones, and the difference is obvious. The stove, the sleeping shelf under the ceiling, benches along the walls and the 'beautiful corner' with icons — that's how a home in a Suzdal village looked a hundred years ago."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Шатёр Преображенской церкви и серебристый лемех на её главах",
+                    "Ветряную мельницу на краю поляны",
+                    "Красный угол в избе — место для икон по диагонали от печи"
+                  ],
+                  "en": [
+                    "The tent roof of the Transfiguration Church and the silvery shingles on its domes",
+                    "The windmill at the edge of the meadow",
+                    "The 'beautiful corner' in a house — the icon corner diagonally opposite the stove"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Лемех делают из осины: свежая древесина светлая, а через несколько лет становится серебристо-серой.",
+                    "Жилые избы ставили на высокий подклет: внизу хранили припасы, а жили наверху, где теплее и суше."
+                  ],
+                  "en": [
+                    "The shingles are made of aspen: fresh wood is pale, but after a few years it turns silvery grey.",
+                    "Houses stood on a tall ground floor used for storage; people lived upstairs, where it was warmer and drier."
+                  ]
+                },
+                "approach": {
+                  "ru": "Выйдите из кремля к реке и перейдите Каменку по мостику — музей сразу на другом берегу.",
+                  "en": "Leave the kremlin towards the river and cross the Kamenka by the footbridge — the museum is right on the other bank."
+                }
+              }
             },
             {
               "id": "suzdal-trading-rows",
               "title": {"ru": "Торговые ряды", "en": "Trading Rows"},
-              "coordinate": [56.41960, 40.44910],
+              "coordinate": [56.4196, 40.4491],
               "category": "market",
               "visit": 40,
               "details": {
@@ -77,7 +257,58 @@
                 "ru": "Медовуху здесь продают в разлив — попробуйте сначала маленький стакан.",
                 "en": "Mead is sold on tap — try a small glass first."
               },
-              "wiki": {"ru": "Торговые ряды (Суздаль)"}
+              "wiki": {"ru": "Торговые ряды (Суздаль)"},
+              "guide": {
+                "story": {
+                  "ru": "Торговые ряды построили в начале XIX века на месте деревянных лавок, когда Суздаль был тихим уездным городом. Длинная галерея с колоннами тянется вдоль Торговой площади: у каждой лавки был свой вход прямо с улицы, и здесь торговали всем, что везли окрестные сёла.\n\nНапротив рядов стоят две церкви — Воскресенская и Казанская, летняя и зимняя. Такие пары часто встречаются в Суздале: в высокой холодной церкви служили в тёплое время года, а в маленькой, с печами, — зимой.\n\nСегодня в рядах продают медовуху, мёд, огурцы во всех видах, керамику и сувениры, а за рядами начинается тихая набережная Каменки с видом на заливные луга.",
+                  "en": "The Trading Rows were built at the beginning of the 19th century in place of wooden stalls, when Suzdal was a quiet district town. The long colonnaded gallery runs along Market Square: every shop had its own door onto the street, and the surrounding villages sold everything they produced here.\n\nOpposite the rows stand two churches, the Resurrection and the Kazan Church — a summer one and a winter one. Such pairs are common in Suzdal: services were held in the tall, unheated church in the warm months and in the small one with stoves in winter.\n\nToday the rows sell mead, honey, cucumbers in every form, ceramics and souvenirs, and behind them begins the quiet Kamenka embankment with a view of the water meadows."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Колоннаду вдоль всего фасада рядов",
+                    "Пару церквей напротив — летнюю и зимнюю, высокую и низкую",
+                    "Вывески медоварен — сравните, у кого медовуха с хмелем, а у кого с ягодами"
+                  ],
+                  "en": [
+                    "The colonnade along the whole front of the rows",
+                    "The pair of churches opposite — the summer one and the winter one, tall and low",
+                    "The signs of mead-makers — compare who adds hops and who adds berries"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Пары «летняя + зимняя церковь» строили в средней и северной России: отапливать большой храм зимой было слишком дорого.",
+                    "Каждый год в июле в Суздале проходит День огурца — с конкурсами, ярмаркой и огуречными угощениями."
+                  ],
+                  "en": [
+                    "Summer-and-winter pairs of churches were built across central and northern Russia: heating a large church in winter was too costly.",
+                    "Every July Suzdal holds a Cucumber Festival, with contests, a fair and cucumber treats."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Зачем рядом строили две церкви — летнюю и зимнюю?",
+                    "en": "Why were two churches — a summer and a winter one — built side by side?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Зимнюю отапливали, а летнюю нет",
+                      "Одна была для купцов, другая для крестьян",
+                      "Старую оставляли, когда строили новую"
+                    ],
+                    "en": [
+                      "The winter one was heated, the summer one wasn't",
+                      "One was for merchants, the other for peasants",
+                      "The old one was kept when a new one was built"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Большую летнюю церковь протопить было невозможно, поэтому зимой служили в маленькой, с печами.",
+                    "en": "The large summer church couldn't be heated, so in winter services moved to the small one with stoves."
+                  }
+                }
+              }
             },
             {
               "id": "suzdal-rizopolozhensky",
@@ -89,7 +320,60 @@
                 "ru": "Один из старейших монастырей Суздаля. Его Святые ворота конца XVII века с двумя шатровыми башенками — символ города, а колокольня 1819 года высотой около 72 метров — самое высокое сооружение Суздаля.",
                 "en": "One of Suzdal's oldest convents. Its late 17th-century Holy Gates with twin tented towers are a symbol of the town, and the bell tower of 1819, about 72 metres high, is the tallest structure in Suzdal."
               },
-              "wiki": {"ru": "Ризоположенский монастырь"}
+              "wiki": {"ru": "Ризоположенский монастырь"},
+              "guide": {
+                "story": {
+                  "ru": "Ризоположенский монастырь основан в начале XIII века и считается одним из старейших в Суздале. Его Святые ворота 1688 года с двумя шатрами — визитная карточка города: такие «двойные» ворота на Руси большая редкость.\n\nНад монастырём возвышается колокольня высотой около 72 метров. Её построили в 1813–1819 годах в память о победе над Наполеоном, и она до сих пор самое высокое сооружение Суздаля — ориентир, который виден почти отовсюду.\n\nВ XIII веке здесь приняла постриг святая Евфросиния Суздальская — дочь черниговского князя Михаила, отказавшаяся от брака ради монашеской жизни. В советское время монастырь был закрыт, а сейчас это снова действующая женская обитель.",
+                  "en": "The Monastery of the Deposition of the Robe was founded at the beginning of the 13th century and is one of the oldest in Suzdal. Its Holy Gates of 1688 with two tented towers are the town's calling card: such 'double' gates are a great rarity in Russia.\n\nAbove the monastery rises a bell tower about 72 metres tall. It was built in 1813–1819 to commemorate the victory over Napoleon and is still the tallest structure in Suzdal — a landmark visible from almost everywhere.\n\nIn the 13th century St Euphrosyne of Suzdal took her vows here — the daughter of Prince Mikhail of Chernigov, who gave up marriage for monastic life. The monastery was closed in Soviet times and is now a working convent again."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Два шатра над Святыми воротами",
+                    "Колокольню — найдите её потом с других точек маршрута"
+                  ],
+                  "en": [
+                    "The two tented towers above the Holy Gates",
+                    "The bell tower — spot it again from other stops of the route"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Колокольня Ризоположенского монастыря — около 72 метров, это выше 20-этажного дома.",
+                    "«Ризоположение» — церковный праздник в память о том, как риза (одеяние) Богородицы была перенесена в храм в Константинополе."
+                  ],
+                  "en": [
+                    "The bell tower is about 72 metres tall — higher than a 20-storey building.",
+                    "The 'Deposition of the Robe' is a church feast remembering how the Virgin's robe was laid in a church in Constantinople."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь какого события построили высокую колокольню монастыря?",
+                    "en": "Which event does the monastery's tall bell tower commemorate?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Победы над Наполеоном",
+                      "Коронации императора",
+                      "Отмены крепостного права"
+                    ],
+                    "en": [
+                      "The victory over Napoleon",
+                      "An emperor's coronation",
+                      "The abolition of serfdom"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Колокольню возвели в 1813–1819 годах в память о победе в войне 1812 года.",
+                    "en": "The bell tower was raised in 1813–1819 in memory of the victory in the War of 1812."
+                  }
+                },
+                "approach": {
+                  "ru": "Пройдите по улице Ленина на север: через несколько минут слева покажутся Святые ворота с двумя шатрами.",
+                  "en": "Walk north along Lenin Street: in a few minutes the Holy Gates with their two towers appear."
+                }
+              }
             },
             {
               "id": "suzdal-pokrovsky",
@@ -105,7 +389,43 @@
                 "ru": "Самый красивый вид на монастырь — со стены Спасо-Евфимиева монастыря напротив.",
                 "en": "The finest view of the convent is from the walls of the Saviour Monastery opposite."
               },
-              "wiki": {"ru": "Покровский монастырь (Суздаль)"}
+              "wiki": {"ru": "Покровский монастырь (Суздаль)"},
+              "guide": {
+                "story": {
+                  "ru": "Покровский монастырь основал в 1364 году суздальско-нижегородский князь Андрей Константинович на заливном лугу у Каменки. В XVI веке он стал местом, куда отправляли знатных женщин, ставших неугодными: в 1525 году здесь насильно постригли Соломонию Сабурову, первую жену великого князя Василия III, — их брак остался бездетным.\n\nПозже сюда сослали и других знатных узниц, например Евдокию Лопухину, первую жену Петра I. Белый трёхглавый Покровский собор 1510-х годов стоит в центре монастыря; под ним — усыпальница знатных монахинь.\n\nВ 1970-е годы в монастырских кельях даже устроили гостиницу и ресторан для туристов, но с 1990-х это снова действующая обитель. Самый красивый вид на монастырь — со стены Спасо-Евфимиева монастыря на другом берегу.",
+                  "en": "The Intercession Convent was founded in 1364 by Prince Andrei Konstantinovich on a water meadow by the Kamenka. In the 16th century it became the place where noblewomen who had fallen out of favour were sent: in 1525 Solomonia Saburova, the first wife of Grand Prince Vasily III, was forced to take the veil here after their marriage remained childless.\n\nOther noble prisoners followed, among them Eudoxia Lopukhina, the first wife of Peter the Great. The white three-domed Intercession Cathedral of the 1510s stands in the middle; beneath it lies the burial vault of noble nuns.\n\nIn the 1970s the nuns' cells even housed a hotel and a restaurant for tourists, but since the 1990s it has been a working convent again. The finest view of it is from the wall of the St Euthymius Monastery across the river."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Три главы Покровского собора",
+                    "Надвратную церковь над Святыми воротами",
+                    "Заливной луг у стен — весной его иногда заливает Каменка"
+                  ],
+                  "en": [
+                    "The three domes of the Intercession Cathedral",
+                    "The church above the Holy Gates",
+                    "The water meadow by the walls, flooded by the Kamenka in some springs"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Евдокию Лопухину, первую жену Петра I, отправили в Покровский монастырь в 1698 году.",
+                    "В 1970-е годы в кельях монастыря работала туристическая гостиница."
+                  ],
+                  "en": [
+                    "Eudoxia Lopukhina, Peter the Great's first wife, was sent to the convent in 1698.",
+                    "In the 1970s the convent's cells housed a hotel for tourists."
+                  ]
+                },
+                "legend": {
+                  "ru": "Говорят, что Соломония уже в монастыре родила сына Георгия. Чтобы спасти ребёнка от расправы, она объявила о его смерти и похоронила пустую гробницу. Когда в 1934 году гробницу вскрыли, в ней нашли только деревянную куклу в шёлковой рубашечке, расшитой жемчугом. А по другой легенде, мальчик вырос и стал знаменитым разбойником Кудеяром.",
+                  "en": "Legend says that Solomonia gave birth to a son, George, after she arrived at the convent. To save the child, she announced his death and buried an empty coffin. When the tomb was opened in 1934, it held only a wooden doll in a little silk shirt embroidered with pearls. Another legend says the boy grew up to become the famous outlaw Kudeyar."
+                },
+                "approach": {
+                  "ru": "Спуститесь от главной улицы к Каменке и перейдите луг — монастырь стоит в низине за рекой.",
+                  "en": "Go down from the main street to the Kamenka and cross the meadow — the convent stands in the hollow across the river."
+                }
+              }
             },
             {
               "id": "suzdal-spaso-evfimiev",
@@ -121,12 +441,59 @@
                 "ru": "На звоннице несколько раз в день проходят концерты колокольного звона — расписание висит у входа.",
                 "en": "Bell-ringing concerts take place at the belfry several times a day — the schedule is posted at the entrance."
               },
-              "wiki": {"ru": "Спасо-Евфимиев монастырь", "en": "Monastery of Saint Euthymius"}
+              "wiki": {"ru": "Спасо-Евфимиев монастырь", "en": "Monastery of Saint Euthymius"},
+              "guide": {
+                "story": {
+                  "ru": "Монастырь основал в 1352 году святой Евфимий по приглашению князя Бориса Константиновича. Каменные стены с двадцатью башнями, длиной больше километра, появились в XVII веке и превратили его в настоящую крепость на высоком берегу Каменки.\n\nВнутри — Спасо-Преображенский собор с фресками 1689 года, которые написала артель костромских мастеров во главе с Гурием Никитиным и Силой Савиным, звонница и памятное место погребения князя Дмитрия Пожарского — освободителя Москвы в 1612 году.\n\nС 1766 года до начала XX века в монастыре работала тюрьма для «вольнодумцев» и неугодных властям: здесь держали староверов, сектантов, а умер в заключении декабрист Фёдор Шаховской. В бывшей тюрьме теперь музейная экспозиция, а на звоннице несколько раз в день звучит концерт колоколов.",
+                  "en": "The monastery was founded in 1352 by St Euthymius at the invitation of Prince Boris Konstantinovich. Its stone walls with twenty towers, over a kilometre long, were added in the 17th century and turned it into a real fortress on the high bank of the Kamenka.\n\nInside are the Transfiguration Cathedral with frescoes of 1689, painted by a team of Kostroma masters led by Guriy Nikitin and Sila Savin, the belfry, and the burial place of Prince Dmitry Pozharsky — who liberated Moscow in 1612.\n\nFrom 1766 until the early 20th century the monastery housed a prison for 'freethinkers' and others the authorities disliked: Old Believers and sectarians were held here, and the Decembrist Fyodor Shakhovskoy died in confinement. The former prison is now a museum, and several times a day the belfry rings out a concert of bells."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Зубцы и бойницы стен со стороны реки",
+                    "Памятный знак на месте погребения Дмитрия Пожарского у собора",
+                    "Звонаря на звоннице — он играет сразу на десятке колоколов"
+                  ],
+                  "en": [
+                    "The battlements and loopholes of the walls facing the river",
+                    "The memorial at Dmitry Pozharsky's burial place by the cathedral",
+                    "The bell-ringer in the belfry, playing a dozen bells at once"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Длина стен монастыря — больше километра, на них двадцать башен.",
+                    "Монастырская тюрьма просуществовала почти 140 лет — с 1766 по 1905 год."
+                  ],
+                  "en": [
+                    "The monastery walls are over a kilometre long, with twenty towers.",
+                    "The monastery prison existed for almost 140 years, from 1766 to 1905."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "Кто из героев 1612 года похоронен в Спасо-Евфимиевом монастыре?",
+                    "en": "Which hero of 1612 is buried in the St Euthymius Monastery?"
+                  },
+                  "options": {
+                    "ru": ["Дмитрий Пожарский", "Кузьма Минин", "Иван Сусанин"],
+                    "en": ["Dmitry Pozharsky", "Kuzma Minin", "Ivan Susanin"]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Князь Дмитрий Пожарский, вместе с Кузьмой Мининым освободивший Москву в 1612 году, похоронен в родовой усыпальнице у собора. Минин похоронен в Нижнем Новгороде.",
+                    "en": "Prince Dmitry Pozharsky, who freed Moscow together with Kuzma Minin in 1612, lies in his family vault by the cathedral. Minin is buried in Nizhny Novgorod."
+                  }
+                },
+                "approach": {
+                  "ru": "Вернитесь через Каменку и поднимитесь по главной улице на север — красные стены монастыря видны издалека.",
+                  "en": "Cross back over the Kamenka and walk north along the main street — the monastery's red walls show from afar."
+                }
+              }
             },
             {
               "id": "suzdal-kideksha",
               "title": {"ru": "Кидекша: церковь Бориса и Глеба", "en": "Kideksha: Church of Boris and Gleb"},
-              "coordinate": [56.42500, 40.52779],
+              "coordinate": [56.425, 40.52779],
               "category": "church",
               "visit": 40,
               "details": {
@@ -140,7 +507,54 @@
               "wiki": {"ru": "Церковь Бориса и Глеба (Кидекша)"},
               "arrival": {
                 "mode": "car",
-                "note": {"ru": "Около 5 км — 10 минут на машине или такси", "en": "About 5 km — 10 minutes by car or taxi"}
+                "note": {
+                  "ru": "Около 5 км — 10 минут на машине или такси",
+                  "en": "About 5 km — 10 minutes by car or taxi"
+                }
+              },
+              "guide": {
+                "story": {
+                  "ru": "Кидекша — село при слиянии Каменки и Нерли. Здесь была загородная резиденция Юрия Долгорукого, а в 1152 году князь поставил белокаменную церковь в честь Бориса и Глеба, первых русских святых. Это один из первых белокаменных храмов Северо-Восточной Руси.\n\nЦерковь простая и строгая, без богатой резьбы, какую позже будут делать владимирские мастера. Её верх и кровлю не раз перестраивали, но стены XII века стоят до сих пор. Рядом — колокольня, зимняя Стефановская церковь и маленькие Святые ворота XVIII века: вместе они складываются в один из самых живописных уголков под Суздалем.\n\nПройдите за церковь к реке: отсюда видно, как сливаются Каменка и Нерль, а за ними до горизонта тянутся луга. На закате здесь особенно тихо.",
+                  "en": "Kideksha is a village where the Kamenka flows into the Nerl. Yuri Dolgoruky had a country residence here, and in 1152 the prince built a white-stone church dedicated to Boris and Gleb, the first Russian saints. It is one of the earliest white-stone churches in north-eastern Rus.\n\nThe church is plain and austere, without the rich carving that Vladimir's masters would add later. Its top and roof were rebuilt more than once, but the 12th-century walls still stand. Next to it are a bell tower, the winter Church of St Stephen and small 18th-century Holy Gates — together one of the most picturesque spots near Suzdal.\n\nWalk behind the church to the river: you can see the Kamenka meeting the Nerl, with meadows stretching to the horizon. At sunset it is especially quiet."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Слияние Каменки и Нерли за церковью",
+                    "Белокаменную кладку XII века в нижней части стен",
+                    "Маленькие Святые ворота XVIII века"
+                  ],
+                  "en": [
+                    "Where the Kamenka meets the Nerl behind the church",
+                    "The 12th-century white-stone masonry low in the walls",
+                    "The small 18th-century Holy Gates"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Церковь в Кидекше входит в объект ЮНЕСКО «Белокаменные памятники Владимира и Суздаля».",
+                    "Название «Кидекша» не славянское: оно, вероятно, досталось от финно-угорского племени меря, жившего здесь до славян."
+                  ],
+                  "en": [
+                    "The Kideksha church is part of the UNESCO site 'White Monuments of Vladimir and Suzdal'.",
+                    "The name Kideksha isn't Slavic: it probably comes from the Finno-Ugric Merya people who lived here before the Slavs."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В каком веке построена церковь в Кидекше?",
+                    "en": "In which century was the Kideksha church built?"
+                  },
+                  "options": {"ru": ["XII", "XV", "XVIII"], "en": ["12th", "15th", "18th"]},
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Её датируют 1152 годом — это одно из первых белокаменных зданий Северо-Восточной Руси.",
+                    "en": "It is dated to 1152 — one of the first white-stone buildings in north-eastern Rus."
+                  }
+                },
+                "approach": {
+                  "ru": "Около 5 км на восток по дороге вдоль Каменки — 10 минут на машине. За селом откроется пойма Нерли.",
+                  "en": "About 5 km east along the road by the Kamenka — 10 minutes by car. Past the village the Nerl floodplain opens up."
+                }
               }
             }
           ]
