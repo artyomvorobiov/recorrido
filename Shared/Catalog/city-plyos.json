@@ -281,15 +281,15 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 5 минут пешком на запад от площади.",
-                  "en": "About 5 minutes' walk west of the square."
+                  "ru": "Около 10 минут пешком на восток от площади.",
+                  "en": "About 10 minutes' walk east of the square."
                 }
               }
             },
             {
               "id": "plyos-levitan-hill",
               "title": {"ru": "Левитановская гора", "en": "Levitan Hill"},
-              "coordinate": [57.4578, 41.5044],
+              "coordinate": [57.45656, 41.52164],
               "category": "viewpoint",
               "visit": 20,
               "details": {
@@ -298,8 +298,8 @@
               },
               "guide": {
                 "story": {
-                  "ru": "Холм на западной стороне Плёса раньше называли Петропавловской горой: на нём стояла маленькая деревянная церковь Петра и Павла. Левитан написал её этюд «Деревянная церковь в Плёсе при последних лучах солнца», а позже соединил этот мотив с видом озера Удомля в знаменитой картине «Над вечным покоем».\n\nСама церковь сгорела в 1903 году. В 1982 году на её место перевезли похожую деревянную Воскресенскую церковь 1699 года из села Билюково — и вид снова стал «левитановским». А гору с тех пор называют Левитановой.\n\nОтсюда вниз к Волге сбегают тропинки, а на склоне стоят скамейки. Это лучшее место в Плёсе, чтобы просто посидеть и посмотреть на реку.",
-                  "en": "The hill on the western side of Plyos used to be called Peter and Paul Hill: a small wooden church of Saints Peter and Paul stood on it. Levitan painted a sketch of it, 'Wooden Church in Plyos in the Last Rays of the Sun', and later combined the motif with a view of Lake Udomlya in his famous 'Above Eternal Peace'.\n\nThe church itself burned down in 1903. In 1982 a similar wooden Resurrection church of 1699 was moved here from the village of Bilyukovo — and the view became 'Levitan's' again. Ever since, the hill has been called Levitan Hill.\n\nPaths run down to the Volga from here, and there are benches on the slope. It is the best place in Plyos simply to sit and look at the river."
+                  "ru": "Холм над Плёсом неподалёку от дома-музея Левитана раньше называли Петропавловской горой: на нём стояла маленькая деревянная церковь Петра и Павла. Левитан написал её этюд «Деревянная церковь в Плёсе при последних лучах солнца», а позже соединил этот мотив с видом озера Удомля в знаменитой картине «Над вечным покоем».\n\nСама церковь сгорела в 1903 году. В 1982 году на её место перевезли похожую деревянную Воскресенскую церковь 1699 года из села Билюково — и вид снова стал «левитановским». А гору с тех пор называют Левитановой.\n\nОтсюда вниз к Волге сбегают тропинки, а на склоне стоят скамейки. Это лучшее место в Плёсе, чтобы просто посидеть и посмотреть на реку.",
+                  "en": "The hill above Plyos, not far from Levitan's house museum, used to be called Peter and Paul Hill: a small wooden church of Saints Peter and Paul stood on it. Levitan painted a sketch of it, 'Wooden Church in Plyos in the Last Rays of the Sun', and later combined the motif with a view of Lake Udomlya in his famous 'Above Eternal Peace'.\n\nThe church itself burned down in 1903. In 1982 a similar wooden Resurrection church of 1699 was moved here from the village of Bilyukovo — and the view became 'Levitan's' again. Ever since, the hill has been called Levitan Hill.\n\nPaths run down to the Volga from here, and there are benches on the slope. It is the best place in Plyos simply to sit and look at the river."
                 },
                 "lookFor": {
                   "ru": [
@@ -347,8 +347,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "От дома-музея около 10 минут пешком на запад, с подъёмом на холм.",
-                  "en": "About 10 minutes' walk west from the house museum, with a climb up the hill."
+                  "ru": "От дома-музея 5–7 минут пешком вверх по склону, на юг.",
+                  "en": "5–7 minutes' walk up the slope, south of the house museum."
                 }
               }
             },
@@ -417,8 +417,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Спуститесь с горы к Волге и идите по набережной на восток, к центру, — минут 15.",
-                  "en": "Go down the hill to the Volga and walk east along the embankment towards the centre — about 15 minutes."
+                  "ru": "Спуститесь с горы к Волге — «Дачница» сидит на набережной, минут 10 ходьбы.",
+                  "en": "Go down the hill to the Volga — the 'Summer Lady' sits on the embankment, about 10 minutes' walk away."
                 }
               }
             }
