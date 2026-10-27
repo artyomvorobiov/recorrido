@@ -250,7 +250,7 @@
             {
               "id": "kizhi-oshevnev",
               "title": {"ru": "Дом Ошевнева", "en": "Oshevnev House"},
-              "coordinate": [62.0697, 35.225],
+              "coordinate": [62.06641, 35.22362],
               "category": "museum",
               "visit": 30,
               "details": {
@@ -316,7 +316,7 @@
             {
               "id": "kizhi-chapel",
               "title": {"ru": "Часовня Михаила Архангела", "en": "Chapel of the Archangel Michael"},
-              "coordinate": [62.0735, 35.2238],
+              "coordinate": [62.06405, 35.22568],
               "category": "church",
               "visit": 20,
               "details": {

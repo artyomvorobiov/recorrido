@@ -188,7 +188,7 @@
             {
               "id": "plyos-market-square",
               "title": {"ru": "Торговая площадь", "en": "Market Square"},
-              "coordinate": [57.4599, 41.5106],
+              "coordinate": [57.46066, 41.5123],
               "category": "square",
               "visit": 20,
               "details": {
@@ -231,7 +231,7 @@
             {
               "id": "plyos-levitan-house",
               "title": {"ru": "Дом-музей Левитана", "en": "Levitan House Museum"},
-              "coordinate": [57.4592, 41.507],
+              "coordinate": [57.45936, 41.52374],
               "category": "museum",
               "visit": 45,
               "details": {
@@ -355,7 +355,7 @@
             {
               "id": "plyos-embankment",
               "title": {"ru": "Набережная и «Дачница»", "en": "The embankment and the 'Summer Lady'"},
-              "coordinate": [57.4613, 41.5153],
+              "coordinate": [57.45912, 41.52914],
               "category": "street",
               "visit": 30,
               "details": {

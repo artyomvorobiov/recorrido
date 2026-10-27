@@ -311,7 +311,7 @@
             {
               "id": "ryazan-yesenin-house",
               "title": {"ru": "Дом родителей Есенина", "en": "Yesenin's Parents' House"},
-              "coordinate": [54.8433, 39.6],
+              "coordinate": [54.86244, 39.60378],
               "category": "museum",
               "visit": 45,
               "details": {
@@ -367,7 +367,7 @@
             {
               "id": "ryazan-yesenin-school",
               "title": {"ru": "Земская школа", "en": "The Village School"},
-              "coordinate": [54.844, 39.6012],
+              "coordinate": [54.86314, 39.60498],
               "category": "museum",
               "visit": 25,
               "details": {
@@ -410,7 +410,7 @@
             {
               "id": "ryazan-kashina-manor",
               "title": {"ru": "Усадьба Кашиной", "en": "The Kashina Manor"},
-              "coordinate": [54.8448, 39.5985],
+              "coordinate": [54.86394, 39.60228],
               "category": "palace",
               "visit": 30,
               "details": {
@@ -468,7 +468,7 @@
             {
               "id": "ryazan-oka-bluff",
               "title": {"ru": "Откос над Окой", "en": "The Bluff above the Oka"},
-              "coordinate": [54.8455, 39.5995],
+              "coordinate": [54.86464, 39.60328],
               "category": "viewpoint",
               "visit": 20,
               "details": {

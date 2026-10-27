@@ -9,9 +9,10 @@ are looked up on OpenStreetMap near where the catalog puts them instead;
 when the map knows no place by that name, the sights around the pin are
 listed, so a misplaced pin is still easy to spot.
 
-Usage: python3 scripts/validate_catalog.py [--tolerance 250] [--stops id,id]
+Usage: python3 scripts/validate_catalog.py [--tolerance 250] [--stops id,id=name|name]
 --stops looks those stops up on OpenStreetMap too, even when Wikipedia
-places them, and lists the sights around their pins.
+places them, and lists the sights around their pins; names after "=" are
+searched before the stop's own title.
 Exit code is 0 even with warnings: the network may be flaky in CI.
 """
 import argparse
@@ -25,7 +26,7 @@ import urllib.request
 
 UA = "RecorridoContentCheck/1.0 (https://github.com/artyomvorobiov/recorrido)"
 NOMINATIM = "https://nominatim.openstreetmap.org/search?"
-OVERPASS = "https://overpass-api.de/api/interpreter"
+OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -113,8 +114,8 @@ def osm_search(text, near, radius=0.05):
                                              distance(near, place[0])))
 
 
-def osm_check(stop):
-    """(searched text, places) for the stop's title, then its spellings and its article's title.
+def osm_check(stop, queries=(), radius=0.05):
+    """(searched text, places) for `queries`, the stop's title, its spellings and its article's title.
 
     Map names are often longer or shorter than ours ("Дом памяти М. И. Цветаевой"),
     so the last try is the stop's last proper name alone.
@@ -124,19 +125,26 @@ def osm_check(stop):
     words = title.replace("«", "").replace("»", "").replace("-", " ").split()
     names = [word for word in words[1:] if word[:1].isupper()]
     texts = []
-    for text in (title, title.replace("ё", "е"), article, names[-1] if names else ""):
+    for text in (*queries, title, title.replace("ё", "е"), article, names[-1] if names else ""):
         text = text.replace("«", "").replace("»", "").strip()
         if text and text not in texts:
             texts.append(text)
     for text in texts:
-        found = osm_search(text, stop["coordinate"])
+        found = osm_search(text, stop["coordinate"], radius)
         if found:
             return text, found
     return texts[0] if texts else "", []
 
 
+overpass_failures = 0
+
+
 def osm_nearby(near, radius=1500, limit=8):
     """Named sights within `radius` metres of `near`, nearest first: (metres, name)."""
+    global overpass_failures
+    # When the servers are down, waiting on every stop would outlast the CI job.
+    if overpass_failures >= 3:
+        raise RuntimeError("skipped after repeated failures")
     around = f"(around:{radius},{near[0]},{near[1]})"
     query = f"""[out:json][timeout:60];
 (
@@ -146,10 +154,19 @@ def osm_nearby(near, radius=1500, limit=8):
   nwr{around}["name"]["natural"~"spring|peak|cliff|beach"];
 );
 out center;"""
-    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": query}).encode(),
-                                 headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=90) as resp:
-        elements = json.loads(resp.read().decode("utf-8")).get("elements", [])
+    data = urllib.parse.urlencode({"data": query}).encode()
+    for attempt, server in enumerate(OVERPASS * 2):
+        try:
+            req = urllib.request.Request(server, data=data, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                elements = json.loads(resp.read().decode("utf-8")).get("elements", [])
+            break
+        except Exception:  # noqa: BLE001
+            if attempt == 2 * len(OVERPASS) - 1:
+                overpass_failures += 1
+                raise
+            time.sleep(5 * (attempt + 1))  # public servers are often busy for a moment
+    overpass_failures = 0
     time.sleep(1)
     places = {}
     for element in elements:
@@ -204,7 +221,9 @@ def lookup(lang, titles):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--tolerance", type=float, default=250)
-    parser.add_argument("--stops", default="", help="stop ids to look up on OpenStreetMap as well, comma-separated")
+    parser.add_argument("--stops", default="",
+                        help="stop ids to look up on OpenStreetMap as well, comma-separated; "
+                             "'id=name|other name' searches those names first")
     args = parser.parse_args()
 
     stops = []
@@ -266,8 +285,11 @@ def main():
     print(f"\n== Articles without a picture ({len(no_image)})")
     print("\n".join(no_image) or "none")
 
-    extra = {item.strip() for item in args.stops.split(",") if item.strip()}
-    unknown = extra - {stop["id"] for _, _, stop in stops}
+    extra = {}
+    for item in filter(None, (part.strip() for part in args.stops.split(","))):
+        stop_id, _, names = item.partition("=")
+        extra[stop_id.strip()] = [name.strip() for name in names.split("|") if name.strip()]
+    unknown = set(extra) - {stop["id"] for _, _, stop in stops}
     if unknown:
         print(f"\nUnknown stops: {', '.join(sorted(unknown))}")
     unplaced = [(file, stop) for file, _, stop in stops if stop["id"] not in placed or stop["id"] in extra]
@@ -275,7 +297,8 @@ def main():
     osm = {}
     for file, stop in unplaced:
         try:
-            text, found = osm_check(stop)
+            # A stop asked for by hand may be far off, so it gets a wider search.
+            text, found = osm_check(stop, extra.get(stop["id"], ()), 0.15 if stop["id"] in extra else 0.05)
         except Exception as error:  # noqa: BLE001
             print(f"OpenStreetMap unavailable: {error}")
             break
@@ -295,7 +318,8 @@ def main():
         if text != stop["title"].get("ru"):
             line += f" (searched '{text}')"
         if others:
-            line += "\n    also: " + " | ".join(f"{n} ({k}) {int(distance(stop['coordinate'], w))} m" for w, n, k in others)
+            line += "\n    also: " + " | ".join(f"{n} ({k}) {int(distance(stop['coordinate'], w))} m = {w[0]:.5f}, {w[1]:.5f}"
+                                         for w, n, k in others)
         print(line + around)
         if d > args.tolerance:
             osm[stop["id"]] = [round(where[0], 5), round(where[1], 5)]

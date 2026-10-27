@@ -309,7 +309,7 @@
             {
               "id": "tobolsk-vzvoz",
               "title": {"ru": "Прямской взвоз", "en": "Pryamskoy Vzvoz"},
-              "coordinate": [58.1956, 68.2574],
+              "coordinate": [58.1979, 68.25035],
               "category": "street",
               "visit": 15,
               "details": {
