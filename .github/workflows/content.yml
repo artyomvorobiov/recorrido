@@ -33,3 +33,4 @@ jobs:
         run: python3 scripts/validate_catalog.py --stops "$STOPS"
         env:
           STOPS: ${{ github.event.inputs.stops }}
+          PYTHONUNBUFFERED: "1"

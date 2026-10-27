@@ -146,7 +146,7 @@ def osm_nearby(near, radius=1500, limit=8):
     if overpass_failures >= 3:
         raise RuntimeError("skipped after repeated failures")
     around = f"(around:{radius},{near[0]},{near[1]})"
-    query = f"""[out:json][timeout:60];
+    query = f"""[out:json][timeout:20];
 (
   nwr{around}["name"]["tourism"~"museum|attraction|viewpoint|artwork|gallery"];
   nwr{around}["name"]["historic"];
@@ -155,17 +155,17 @@ def osm_nearby(near, radius=1500, limit=8):
 );
 out center;"""
     data = urllib.parse.urlencode({"data": query}).encode()
-    for attempt, server in enumerate(OVERPASS * 2):
+    for attempt, server in enumerate(OVERPASS):
         try:
             req = urllib.request.Request(server, data=data, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=30) as resp:
                 elements = json.loads(resp.read().decode("utf-8")).get("elements", [])
             break
         except Exception:  # noqa: BLE001
-            if attempt == 2 * len(OVERPASS) - 1:
+            if attempt == len(OVERPASS) - 1:
                 overpass_failures += 1
                 raise
-            time.sleep(5 * (attempt + 1))  # public servers are often busy for a moment
+            time.sleep(3)  # try the mirror
     overpass_failures = 0
     time.sleep(1)
     places = {}
