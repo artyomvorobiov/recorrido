@@ -84,12 +84,12 @@
       "tips": {
         "ru": [
           "Музеи Елабуги входят в один музей-заповедник — часто можно купить единый билет",
-          "К Чёртову городищу ведёт тропа вдоль Тоймы; оттуда лучший вид на Каму",
+          "Наверх к Чёртову городищу ведёт длинная лестница — оттуда лучший вид на Каму",
           "В окрестностях — сосновые леса и пруды, которые писал Шишкин"
         ],
         "en": [
           "Yelabuga's museums belong to one museum reserve — a combined ticket is often available",
-          "A path along the Toyma leads to the Devil's Fort, which has the best view of the Kama",
+          "A long staircase leads up to the Devil's Fort, which has the best view of the Kama",
           "Around town are the pine forests and ponds Shishkin painted"
         ]
       }
@@ -104,8 +104,8 @@
         "en": "A walk through merchant Yelabuga: Ivan Shishkin's childhood home, the house of the cavalry maiden Nadezhda Durova, the Marina Tsvetaeva memorial house and the path to the Devil's Fort above the Kama."
       },
       "intro": {
-        "ru": "Пеший день, около 6 км: три литературно-художественных дома в старом центре, а потом прогулка вдоль Тоймы к Чёртову городищу. На каждый музей хватит 40–60 минут.",
-        "en": "A day on foot, about 6 km: three literary and artistic houses in the old centre, then a walk along the Toyma to the Devil's Fort. Allow 40–60 minutes for each museum."
+        "ru": "Пеший день, около 6 км: три литературно-художественных дома в старом центре, а потом прогулка к Чёртову городищу над Камой. На каждый музей хватит 40–60 минут.",
+        "en": "A day on foot, about 6 km: three literary and artistic houses in the old centre, then a walk to the Devil's Fort above the Kama. Allow 40–60 minutes for each museum."
       },
       "emoji": "🌲",
       "tags": ["walk"],
@@ -174,7 +174,7 @@
             {
               "id": "yelabuga-durova",
               "title": {"ru": "Дом-музей Надежды Дуровой", "en": "Nadezhda Durova House Museum"},
-              "coordinate": [55.75861, 52.0675],
+              "coordinate": [55.75877, 52.06747],
               "category": "museum",
               "visit": 45,
               "details": {
@@ -276,7 +276,7 @@
             {
               "id": "yelabuga-chertovo",
               "title": {"ru": "Чёртово городище", "en": "The Devil's Fort"},
-              "coordinate": [55.747, 52.019],
+              "coordinate": [55.74669, 52.03161],
               "category": "castle",
               "visit": 40,
               "details": {
@@ -287,8 +287,8 @@
               "arrival": {
                 "mode": "walk",
                 "note": {
-                  "ru": "Около 2,5 км вдоль Тоймы — 35 минут пешком или такси",
-                  "en": "About 2.5 km along the Toyma — 35 minutes on foot or a taxi"
+                  "ru": "Около 3 км — 40 минут пешком или такси",
+                  "en": "About 3 km — 40 minutes on foot or a taxi"
                 }
               },
               "guide": {
@@ -342,8 +342,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 2,5 км по тропе вдоль Тоймы — 35 минут пешком.",
-                  "en": "About 2.5 km along the path by the Toyma — 35 minutes on foot."
+                  "ru": "Около 3 км на запад — минут 40 пешком или такси; наверх к башне ведёт длинная извилистая лестница.",
+                  "en": "About 3 km west — some 40 minutes on foot or a taxi; a long winding staircase leads up to the tower."
                 }
               }
             }

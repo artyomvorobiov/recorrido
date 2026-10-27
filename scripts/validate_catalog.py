@@ -118,9 +118,18 @@ def osm_search(text, near, radius=0.05):
 def osm_check(stop, queries=(), radius=0.05):
     """(searched text, places) for `queries`, the stop's title, its spellings and its article's title.
 
-    Map names are often longer or shorter than ours ("Дом памяти М. И. Цветаевой"),
-    so the last try is the stop's last proper name alone.
+    Names given by hand are all searched and their places merged, so a far namesake found
+    first can't hide the right one. Map names are often longer or shorter than ours
+    ("Дом памяти М. И. Цветаевой"), so the last try is the stop's last proper name alone.
     """
+    if queries:
+        merged = []
+        for text in queries:
+            merged += [place for place in osm_search(text, stop["coordinate"], radius) if place not in merged]
+        if merged:
+            merged.sort(key=lambda place: ({place[2], place[2].split("/")[0]} & TRANSPORT != set(),
+                                           distance(stop["coordinate"], place[0])))
+            return " | ".join(queries), merged
     title = stop["title"].get("ru", "")
     article = (stop.get("wiki") or {}).get("ru", "").split(" (")[0]
     words = title.replace("«", "").replace("»", "").replace("-", " ").split()
@@ -313,7 +322,7 @@ def main():
         if not found:
             print(f"{file} {stop['id']}: nothing called '{text}' nearby{around}")
             continue
-        (where, name, kind), others = found[0], found[1:3]
+        (where, name, kind), others = found[0], found[1:5 if stop["id"] in extra else 3]
         d = distance(stop["coordinate"], where)
         line = f"{file} {stop['id']}: {int(d)} m off; OSM {name} ({kind}) = {where[0]:.5f}, {where[1]:.5f}"
         if text != stop["title"].get("ru"):
