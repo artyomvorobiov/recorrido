@@ -132,72 +132,9 @@
         {
           "stops": [
             {
-              "id": "kolomna-pyatnitsky",
-              "title": {"ru": "Пятницкие ворота", "en": "Pyatnitsky Gate"},
-              "coordinate": [55.1058, 38.7633],
-              "category": "castle",
-              "visit": 15,
-              "details": {
-                "ru": "Главные проездные ворота Коломенского кремля, построенного в 1525–1531 годах по приказу Василия III. Из шестнадцати башен уцелели семь, а Пятницкие ворота — самые парадные: через них въезжали в город с московской дороги.",
-                "en": "The main gate tower of the Kolomna kremlin, built in 1525–1531 on the orders of Grand Prince Vasily III. Seven of the sixteen towers survive, and the Pyatnitsky Gate is the grandest: travellers from Moscow entered the town through it."
-              },
-              "wiki": {"ru": "Пятницкие ворота"},
-              "guide": {
-                "story": {
-                  "ru": "Коломенский кремль построили в 1525–1531 годах по приказу Василия III: за шесть лет поднялось кольцо стен длиной почти два километра с шестнадцатью башнями. Строил его, возможно, итальянский мастер — как и московский кремль, на который коломенский очень похож.\n\nПятницкие ворота — главный въезд со стороны Москвы. Своё имя они получили от церкви Параскевы Пятницы, стоявшей рядом: святую почитали покровительницей торговли, а у ворот шумел торг. Это самая мощная башня кремля, с высоким проездом.\n\nСегодня из шестнадцати башен уцелели семь, но у ворот легко представить, какой была крепость, державшая оборону на южных рубежах Москвы.",
-                  "en": "The Kolomna kremlin was built in 1525–1531 on the orders of Vasily III: in six years a ring of walls almost two kilometres long rose with sixteen towers. It may have been built by an Italian master — like the Moscow Kremlin, which it closely resembles.\n\nThe Pyatnitsky Gates were the main entrance from the Moscow road. They take their name from the Church of St Paraskeva Pyatnitsa that stood nearby: she was the patron saint of trade, and a market bustled at the gates. It is the mightiest tower of the kremlin, with a tall gateway.\n\nOnly seven of the sixteen towers survive, but at the gates it is easy to imagine the fortress that guarded Moscow's southern frontier."
-                },
-                "lookFor": {
-                  "ru": [
-                    "Проездную арку под башней",
-                    "Обрывки стены, уходящие от ворот",
-                    "Конный памятник Дмитрию Донскому на площади у ворот"
-                  ],
-                  "en": [
-                    "The gateway arch under the tower",
-                    "The stretches of wall running from the gates",
-                    "The equestrian monument to Dmitry Donskoy on the square by the gates"
-                  ]
-                },
-                "facts": {
-                  "ru": [
-                    "Кремль строили всего шесть лет — с 1525 по 1531 год.",
-                    "Из шестнадцати башен кремля сохранились семь."
-                  ],
-                  "en": [
-                    "The kremlin took only six years to build, from 1525 to 1531.",
-                    "Seven of the kremlin's sixteen towers survive."
-                  ]
-                },
-                "quiz": {
-                  "question": {
-                    "ru": "В честь кого названы Пятницкие ворота?",
-                    "en": "Who are the Pyatnitsky Gates named after?"
-                  },
-                  "options": {
-                    "ru": [
-                      "Святой Параскевы Пятницы",
-                      "Дня недели, когда открывали ворота",
-                      "Купца Пятницкого"
-                    ],
-                    "en": [
-                      "St Paraskeva Pyatnitsa",
-                      "The weekday the gates were opened",
-                      "A merchant called Pyatnitsky"
-                    ]
-                  },
-                  "answer": 0,
-                  "explanation": {
-                    "ru": "Рядом стояла церковь Параскевы Пятницы — покровительницы торговли, а у ворот был торг.",
-                    "en": "The Church of St Paraskeva Pyatnitsa, patron of trade, stood nearby, and there was a market at the gates."
-                  }
-                }
-              }
-            },
-            {
               "id": "kolomna-pastila",
               "title": {"ru": "Музей коломенской пастилы", "en": "Kolomna Pastila Museum"},
-              "coordinate": [55.10465, 38.7562],
+              "coordinate": [55.10467, 38.76993],
               "category": "museum",
               "visit": 60,
               "details": {
@@ -249,8 +186,75 @@
                   }
                 },
                 "approach": {
-                  "ru": "От Пятницких ворот — несколько минут пешком по старым улицам Посада.",
-                  "en": "From the Pyatnitsky Gates it's a few minutes' walk through the old streets of the Posad."
+                  "ru": "Музей — в Посаде, в нескольких минутах ходьбы к востоку от Пятницких ворот.",
+                  "en": "The museum is in the Posad, a few minutes' walk east of the Pyatnitsky Gate."
+                }
+              }
+            },
+            {
+              "id": "kolomna-pyatnitsky",
+              "title": {"ru": "Пятницкие ворота", "en": "Pyatnitsky Gate"},
+              "coordinate": [55.1058, 38.7633],
+              "category": "castle",
+              "visit": 15,
+              "details": {
+                "ru": "Главные проездные ворота Коломенского кремля, построенного в 1525–1531 годах по приказу Василия III. Из шестнадцати башен уцелели семь, а Пятницкие ворота — самые парадные и единственные уцелевшие из ворот кремля.",
+                "en": "The main gate tower of the Kolomna kremlin, built in 1525–1531 on the orders of Grand Prince Vasily III. Seven of the sixteen towers survive, and the Pyatnitsky Gate on the east side is the grandest and the only gateway left."
+              },
+              "wiki": {"ru": "Пятницкие ворота"},
+              "guide": {
+                "story": {
+                  "ru": "Коломенский кремль построили в 1525–1531 годах по приказу Василия III: за шесть лет поднялось кольцо стен длиной почти два километра с шестнадцатью башнями. Строил его, возможно, итальянский мастер — как и московский кремль, на который коломенский очень похож.\n\nПятницкие ворота — главный въезд на восточной стороне кремля и единственные уцелевшие из его ворот. Своё имя они получили от церкви Параскевы Пятницы, стоявшей рядом: святую почитали покровительницей торговли, а у ворот шумел торг. Это самая мощная башня кремля, с высоким проездом.\n\nСегодня из шестнадцати башен уцелели семь, но у ворот легко представить, какой была крепость, державшая оборону на южных рубежах Москвы.",
+                  "en": "The Kolomna kremlin was built in 1525–1531 on the orders of Vasily III: in six years a ring of walls almost two kilometres long rose with sixteen towers. It may have been built by an Italian master — like the Moscow Kremlin, which it closely resembles.\n\nThe Pyatnitsky Gate, on the east side, was the main entrance and is the only gateway left. They take their name from the Church of St Paraskeva Pyatnitsa that stood nearby: she was the patron saint of trade, and a market bustled at the gates. It is the mightiest tower of the kremlin, with a tall gateway.\n\nOnly seven of the sixteen towers survive, but at the gates it is easy to imagine the fortress that guarded Moscow's southern frontier."
+                },
+                "lookFor": {
+                  "ru": [
+                    "Проездную арку под башней",
+                    "Обрывки стены, уходящие от ворот",
+                    "Конный памятник Дмитрию Донскому на площади у ворот"
+                  ],
+                  "en": [
+                    "The gateway arch under the tower",
+                    "The stretches of wall running from the gates",
+                    "The equestrian monument to Dmitry Donskoy on the square by the gates"
+                  ]
+                },
+                "facts": {
+                  "ru": [
+                    "Кремль строили всего шесть лет — с 1525 по 1531 год.",
+                    "Из шестнадцати башен кремля сохранились семь."
+                  ],
+                  "en": [
+                    "The kremlin took only six years to build, from 1525 to 1531.",
+                    "Seven of the kremlin's sixteen towers survive."
+                  ]
+                },
+                "quiz": {
+                  "question": {
+                    "ru": "В честь кого названы Пятницкие ворота?",
+                    "en": "Who are the Pyatnitsky Gates named after?"
+                  },
+                  "options": {
+                    "ru": [
+                      "Святой Параскевы Пятницы",
+                      "Дня недели, когда открывали ворота",
+                      "Купца Пятницкого"
+                    ],
+                    "en": [
+                      "St Paraskeva Pyatnitsa",
+                      "The weekday the gates were opened",
+                      "A merchant called Pyatnitsky"
+                    ]
+                  },
+                  "answer": 0,
+                  "explanation": {
+                    "ru": "Рядом стояла церковь Параскевы Пятницы — покровительницы торговли, а у ворот был торг.",
+                    "en": "The Church of St Paraskeva Pyatnitsa, patron of trade, stood nearby, and there was a market at the gates."
+                  }
+                },
+                "approach": {
+                  "ru": "От музея пастилы — несколько минут пешком на запад по старым улицам Посада.",
+                  "en": "From the pastila museum it's a few minutes' walk west through the old streets of the Posad."
                 }
               }
             },

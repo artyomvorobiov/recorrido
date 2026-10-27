@@ -342,7 +342,7 @@
             {
               "id": "murom-ilya",
               "title": {"ru": "Памятник Илье Муромцу", "en": "Ilya Muromets monument"},
-              "coordinate": [55.5706, 42.0615],
+              "coordinate": [55.58024, 42.06095],
               "category": "monument",
               "visit": 15,
               "details": {

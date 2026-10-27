@@ -212,7 +212,7 @@
             {
               "id": "sergiev-blinnaya",
               "title": {"ru": "Смотровая на Блинной горе", "en": "Blinnaya Hill viewpoint"},
-              "coordinate": [56.3086, 38.1235],
+              "coordinate": [56.30734, 38.135],
               "category": "viewpoint",
               "visit": 15,
               "details": {
@@ -392,7 +392,7 @@
             {
               "id": "sergiev-gremyachy",
               "title": {"ru": "Гремячий ключ", "en": "Gremyachy Spring"},
-              "coordinate": [56.4129, 38.251],
+              "coordinate": [56.26956, 38.34369],
               "category": "nature",
               "visit": 60,
               "details": {
@@ -406,8 +406,8 @@
               "arrival": {
                 "mode": "car",
                 "note": {
-                  "ru": "Около 18 км на северо-восток — 25 минут на машине",
-                  "en": "About 18 km north-east — 25 minutes by car"
+                  "ru": "Около 20 км на восток — 30 минут на машине",
+                  "en": "About 20 km east — 30 minutes by car"
                 }
               },
               "guide": {
@@ -465,8 +465,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 18 км на северо-восток — минут 25–30 на машине; после дождей подъезд бывает раскисшим.",
-                  "en": "About 18 km north-east — 25–30 minutes by car; after rain the access road can be muddy."
+                  "ru": "Около 20 км на восток, к реке Вондиге, — минут 30 на машине; после дождей подъезд бывает раскисшим.",
+                  "en": "About 20 km east, to the Vondiga river — around 30 minutes by car; after rain the access road can be muddy."
                 }
               }
             }

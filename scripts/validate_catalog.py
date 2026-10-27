@@ -26,7 +26,8 @@ import urllib.request
 
 UA = "RecorridoContentCheck/1.0 (https://github.com/artyomvorobiov/recorrido)"
 NOMINATIM = "https://nominatim.openstreetmap.org/search?"
-OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
+OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
+            "https://maps.mail.ru/osm/tools/overpass/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -143,7 +144,7 @@ def osm_nearby(near, radius=1500, limit=8):
     """Named sights within `radius` metres of `near`, nearest first: (metres, name)."""
     global overpass_failures
     # When the servers are down, waiting on every stop would outlast the CI job.
-    if overpass_failures >= 3:
+    if overpass_failures >= 2:
         raise RuntimeError("skipped after repeated failures")
     around = f"(around:{radius},{near[0]},{near[1]})"
     query = f"""[out:json][timeout:20];
@@ -158,14 +159,14 @@ out center;"""
     for attempt, server in enumerate(OVERPASS):
         try:
             req = urllib.request.Request(server, data=data, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=20) as resp:
                 elements = json.loads(resp.read().decode("utf-8")).get("elements", [])
             break
         except Exception:  # noqa: BLE001
             if attempt == len(OVERPASS) - 1:
                 overpass_failures += 1
                 raise
-            time.sleep(3)  # try the mirror
+            time.sleep(2)  # try the next server
     overpass_failures = 0
     time.sleep(1)
     places = {}

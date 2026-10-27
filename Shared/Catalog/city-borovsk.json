@@ -197,7 +197,7 @@
             {
               "id": "borovsk-annunciation",
               "title": {"ru": "Благовещенский собор", "en": "Annunciation Cathedral"},
-              "coordinate": [55.2059, 36.4861],
+              "coordinate": [55.20813, 36.48577],
               "category": "church",
               "visit": 20,
               "details": {
@@ -240,7 +240,7 @@
             {
               "id": "borovsk-tsiolkovsky",
               "title": {"ru": "Дом-музей Циолковского", "en": "Tsiolkovsky House Museum"},
-              "coordinate": [55.2042, 36.4921],
+              "coordinate": [55.2102, 36.50115],
               "category": "museum",
               "visit": 40,
               "details": {
@@ -287,8 +287,8 @@
                   }
                 },
                 "approach": {
-                  "ru": "Около 7 минут пешком на юго-восток от собора.",
-                  "en": "About 7 minutes' walk south-east of the cathedral."
+                  "ru": "Около 15 минут пешком на восток от собора.",
+                  "en": "About 15 minutes' walk east of the cathedral."
                 }
               }
             },
@@ -330,8 +330,8 @@
                   ]
                 },
                 "approach": {
-                  "ru": "Около 12–15 минут пешком на северо-запад через центр.",
-                  "en": "About 12–15 minutes' walk north-west through the centre."
+                  "ru": "Около 15–20 минут пешком на запад через центр.",
+                  "en": "About 15–20 minutes' walk west through the centre."
                 }
               }
             },
